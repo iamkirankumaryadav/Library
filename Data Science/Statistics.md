@@ -36,6 +36,8 @@
 
 ![Image](Image/NormalDistribution.png)
 
+Normal | Gaussian Distribution
+
 ### Mean Deviation  
 
 - Average of all Values from the Mean
