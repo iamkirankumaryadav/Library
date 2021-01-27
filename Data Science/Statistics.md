@@ -38,6 +38,8 @@
 
 Normal | Gaussian Distribution
 
+Mean = 0 | Standard Deviation = 1
+
 ### Mean Deviation  
 
 - Average of all Values from the Mean
