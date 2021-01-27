@@ -1,7 +1,21 @@
+[Basic Statistics Needed for Data Science](https://towardsdatascience.com/basic-statistics-you-need-to-know-for-data-science)
+
 # Statistics
 - Science of Collecting and Analysing Numerical Data in Large Quantites.
 - Gather, Review, Analyze and Draw Conclusions from Data.
 - Collection, Organization, Analysis, Interpretation and Presentation of Data.
+
+### Data Types
+1. Numerical : Data Expressed with Digits | Quantitative : Discrete or Continuous
+
+2. Categorical : Data Classified in Cateories | Qualitative : Nominal (No Order) or Ordinal (Ordered Data)
+
+### Measure Central Tendency
+1. Mean :
+
+2. Median :
+
+3. Mode :
 
 ### Mean Deviation  
 
