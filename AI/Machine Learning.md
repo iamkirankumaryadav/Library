@@ -4,3 +4,5 @@
 
 Find Solutions, Trends, Hidden Trends, Predictions
 
+Compute Probabilities of Possible Outcomes
+
