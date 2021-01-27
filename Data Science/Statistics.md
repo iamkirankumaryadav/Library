@@ -25,10 +25,6 @@
 
 ![Image](Image/Distribution.png)
 
-Normally Distributed | Mean = Median = Mode
-
-Positively Skewed | Right Skewed | 
-
 ### Mean Deviation  
 
 - Average of all Values from the Mean
