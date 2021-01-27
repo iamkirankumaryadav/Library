@@ -32,7 +32,7 @@ Types :
 Types :
 1. Supervised Learning
 2. Unsupervised Learning
-3. Semisupervised Learning
+3. Semisupervised Learning (Small amount of Labelled Data + Large Amount of Unlabelled Data)
 4. Reinforcement Learning
 
 Applications :
