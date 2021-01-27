@@ -25,6 +25,17 @@
 
 ![Image](Image/Distribution.png)
 
+### Measure of Variability
+1. Range : Difference between the Highest and the Lowest Values in a Data Set.
+
+2. Variance : How Spread Out a Set of Data is Relative to the Mean.
+
+3. Standard Deviation : Square root of Variance
+
+4. Z Score : Determines the Number of Standard Deviations a Data Point is from the Mean.  (Data Point - Mean) /  Standard Deviation
+
+![Image](Image/NormalDistribution.png)
+
 ### Mean Deviation  
 
 - Average of all Values from the Mean
