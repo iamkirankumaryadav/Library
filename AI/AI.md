@@ -9,6 +9,7 @@
 AI > ML > DL
 
 # AI | Artificial Intelligence
+- Computers Perform the Task that Normally requires Human Intelligence.
 - Mimic the Intelligence or Behavioural Patterns of Humans.
 - Ability to Learn and Reason like Humans.
 
@@ -17,6 +18,7 @@ AI > ML > DL
 - Computers Learn without being Explicitly Programmed.
 - Find Patterns and Relationship between Features and Labels.
 - Improve Automatically through Experience.
+- A Set of Algorithms that Allows Computers to Learn from Data without being Explicitly Programmed.
 
 # DL | Deep Learning
 - Perform ML Inspired by Human Brain Networks of Neurons.
