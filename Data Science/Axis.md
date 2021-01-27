@@ -1,8 +1,8 @@
 # Axis 
 
-> **Axis 0** : Rows in Each Column | Hold Vertically
+> Axis 0 : Rows in Each Column | Hold Vertically
 
-> **Axis 1** : Columns in Each Row | Hold Horizontally
+> Axis 1 : Columns in Each Row | Hold Horizontally
 
 While Droping NAN Value
 
