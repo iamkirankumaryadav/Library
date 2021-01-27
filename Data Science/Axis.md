@@ -1,8 +1,8 @@
 # Axis 
 
-> Axis 0 | Index : Rows in Each Column | Pick Each Row at a Time from Each Column Vertically
+> Axis 0 | Index : Rows in Each Column | Row Wise Operation
 
-> Axis 1 | Column : Columns in Each Row 
+> Axis 1 | Column : Columns in Each Row | Column Wise Operation
 
 While Droping NAN Value
 
