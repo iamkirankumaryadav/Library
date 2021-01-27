@@ -5,6 +5,12 @@
 - Gather, Review, Analyze and Draw Conclusions from Data.
 - Collection, Organization, Analysis, Interpretation and Presentation of Data.
 
+### Statistics is the Branch of Mathematics 
+- Deals with Data Collection, Organization, Analysis, Interpretetion and Presentation
+
+### Machine Learning is the Branch of Artificial Intelligence
+- Uses Algorithms to Learn and Improve from Experience
+
 ### Data Types
 1. Numerical : Data Expressed with Digits | Quantitative : Discrete or Continuous
 
