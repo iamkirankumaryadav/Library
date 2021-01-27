@@ -6,6 +6,12 @@
 - Neural Network
 - Internet of Things
 
+[Introduction to AI](https://course.elementsofai.com/)
+
+[Elements of AI](https://www.elementsofai.com/)
+
+[Building AI](https://buildingai.elementsofai.com/)
+
 AI > ML > DL
 
 # AI | Artificial Intelligence
