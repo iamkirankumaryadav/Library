@@ -17,11 +17,17 @@
 2. Categorical : Data Classified in Cateories | Qualitative : Nominal (No Order) or Ordinal (Ordered Data)
 
 ### Measure Central Tendency
-1. Mean :
+1. Mean : Average of Data Set (Sensitive to Outliers)
 
-2. Median :
+2. Median : Middle of Ordered Data Set (Less Sensitive to Outliers)
 
-3. Mode :
+3. Mode : Most Common Value in the Data Set | Only Relevent for Discrete Data 
+
+![Image](Image/Distribution.png)
+
+Normally Distributed | Mean = Median = Mode
+
+Positively Skewed | Right Skewed | 
 
 ### Mean Deviation  
 
@@ -30,7 +36,7 @@
 > sum(x - x.mean()) / n
 
 > Steps to Calculate :
-1. Find Mean.
+1. Find Mean.  
 2. Find Distance of Each Value from that Mean.
 3. Find Mean of those Distances.
 
