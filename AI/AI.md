@@ -20,6 +20,12 @@ AI > ML > DL
 - Improve Automatically through Experience.
 - A Set of Algorithms that Allows Computers to Learn from Data without being Explicitly Programmed.
 
+Types :
+1. Supervised Learning
+2. Unsupervised Learning
+3. Semisupervised Learning
+4. Reinforcement Learning
+
 # DL | Deep Learning
 - Perform ML Inspired by Human Brain Networks of Neurons.
 - Artificial Neural Networks Adapt and Learn from Vast Amounts of Data.
