@@ -6,6 +6,8 @@
 - Neural Network
 - Internet of Things
 
+[AI](https://www.reaktor.com/work/artificial-intelligence/)
+
 [Introduction to AI](https://course.elementsofai.com/)
 
 [Elements of AI](https://www.elementsofai.com/)
@@ -28,6 +30,7 @@ Types :
 
 # ML | Machine Learning
 - Subset of AI
+- Art of Extracting Knowledge from Data
 - Computers Learn from Data and Act like Humans.
 - Computers Learn from Past Data without being Explicitly Programmed.
 - Find Patterns and Relationship between Features and Labels.
