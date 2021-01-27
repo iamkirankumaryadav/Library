@@ -12,19 +12,36 @@ AI > ML > DL
 - Computers Perform the Task that Normally requires Human Intelligence.
 - Mimic the Intelligence or Behavioural Patterns of Humans.
 - Ability to Learn and Reason like Humans.
+- Make Smart Computers like Human to Solve Complex Problems
+- Deals with Structures | Semi Structured and Unstructured Data
+
+Types :
+1. Weak AI (Narrow AI) | Good in One Task
+2. General AI | Computer as Smart as Human
+3. Strong AI | (Super AI) Smarter than Human Brain | Reduce Human Error | 24 x 7 Availability | Digital Assistance | Faster and Accurate Decisions.
 
 # ML | Machine Learning
+- Subset of AI
 - Computers Learn from Data and Act like Humans.
-- Computers Learn without being Explicitly Programmed.
+- Computers Learn from Past Data without being Explicitly Programmed.
 - Find Patterns and Relationship between Features and Labels.
 - Improve Automatically through Experience.
 - A Set of Algorithms that Allows Computers to Learn from Data without being Explicitly Programmed.
+- Deals with Structured and Semi Structured Data.
 
 Types :
 1. Supervised Learning
 2. Unsupervised Learning
 3. Semisupervised Learning
 4. Reinforcement Learning
+
+Applications :
+1. Predictions
+2. Classifications
+3. Segmentation
+4. Recommendation System
+5. Google Search Algorithm
+6. Facebook Auto Friend Tagging Suggestions
 
 # DL | Deep Learning
 - Perform ML Inspired by Human Brain Networks of Neurons.
