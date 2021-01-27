@@ -40,6 +40,20 @@ Normal | Gaussian Distribution
 
 Mean = 0 | Standard Deviation = 1
 
+### Accuracy 
+
+TP | True Positive : Detects Positive when the Condition is Actually Positive
+
+TN | True Negative : Detects Negative when the Condition is Actually Negative
+
+FP | False Positive : Detects Positive when the Condition is Actually Negative
+
+FN | False Negative : Detects Negative when the Condition is Actually Positive
+
+Sensitivity | Recall : Ability to Detect Correct Predictions
+
+Specificity : Ability to Exclude Wrong Predictions
+
 ### Mean Deviation  
 
 - Average of all Values from the Mean
