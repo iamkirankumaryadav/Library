@@ -23,7 +23,7 @@
 
 3. Mode : Most Common Value in the Data Set | Only Relevent for Discrete Data 
 
-![Image](Image/Distribution.png =200x)
+![Image](Image/Distribution.png)
 
 Normally Distributed | Mean = Median = Mode
 
