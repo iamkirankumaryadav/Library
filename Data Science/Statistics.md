@@ -1,21 +1,26 @@
-# Mean Deviation  
+# Statistics
+- Science of Collecting and Analysing Numerical Data in Large Quantites.
+- Gather, Review, Analyze and Draw Conclusions from Data.
+- Collection, Organization, Analysis, Interpretation and Presentation of Data.
+
+### Mean Deviation  
 
 - Average of all Values from the Mean
 
 > sum(x - x.mean()) / n
 
-### Steps to Calculate :
+> Steps to Calculate :
 1. Find Mean.
 2. Find Distance of Each Value from that Mean.
 3. Find Mean of those Distances.
 
-# Absolute Deviation
-- || ignores Negative Value.
+### Absolute Deviation
+- Ignores Negative Value.
 
-# Standard Deviation
+### Standard Deviation
 - Measure of How Spread out Numbers are.
 
-# Variance
+### Variance
 - The Average of the Squared Differences from the Mean.
 
 > N : Number of Data
@@ -24,13 +29,13 @@
 
 > for Sample : N-1
 
-# Comparing Data 
+### Comparing Data 
 
 > Univariate : One Variable (One Type of Data)
 
 > Bivariate : Two Variables (Two Type of Data)
 
-# Correlation 
+### Correlation 
 - Relationship between two Variables
 
 > Correlation is Positive when the Values increase together.
