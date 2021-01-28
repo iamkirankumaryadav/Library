@@ -2,7 +2,7 @@
 
 ### Clustering : 
 
-> Automatically Split the Data Set into Groups According to Similarity. Good for Segmentation
+> Automatically **Split** the Data Set into Groups According to Similarity. Good for Segmentation
 
 ### Anomaly Detection : 
 
