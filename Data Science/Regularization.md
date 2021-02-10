@@ -36,16 +36,16 @@ Ideal Value of Lambda produces Model that Generalizes Well on New Unseen Data, I
 # Elastic Net :
 - Elastic Net combines L1 and L2 and does not Eliminates Highly Colliner Coefficient (Slope)
 
-Learning Parameter means an Iterative Process that Updates Slope and Intercept at every Step by reducing the Loss | Cost Function (Distances between Predictions and Actual Value) as much as possible.
+- Learning Parameter means an Iterative Process that Updates Slope and Intercept at every Step by reducing the Loss | Cost Function (Distances between Predictions and Actual Value) as much as possible.
 
-Main Aim is to Minimize the Loss. 
+- Main Aim is to Minimize the Loss. 
 
 # How to Prevent Overfitting?
 
 1. Cross Validation
 - Use Initial Training Data to generate Multiple Mini Train Test Splits (Use Splits to Tune your Model)
 
-Standard K Fold Cross Validation
+#### Standard K Fold Cross Validation
 - Partition the Data into K Subsets (Folds)
 - Iteratively Train the Algorithm on (K-1) Folds.
 - Using Remaining Fold as Test Set. 
