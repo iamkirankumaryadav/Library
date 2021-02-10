@@ -67,6 +67,13 @@ Applications :
 - Foundation of AI | Solve Difficult Problems that are Impossible for Human Brain.
 - Finding Patterns and Relationships between Data like Human Brains.
 
+#### CNN
+- Convolutional Neural Network
+- Designed for working with Two Dimensional Image Data
+1. Decoding Facial Recognition
+2. Analyzing Documents
+3. Understanding Climate
+
 
 # NLP | Natural Language Processing
 - Branch of AI
