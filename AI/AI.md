@@ -75,6 +75,11 @@ Applications :
 2. Analyzing Documents
 3. Understanding Climate
 
+#### RNN
+- Recurrent Neural Network
+- Feed Forward Netwrok
+- Better for Sequential Data
+
 
 # NLP | Natural Language Processing
 - Branch of AI
