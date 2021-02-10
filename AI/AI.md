@@ -58,6 +58,7 @@ Applications :
 - Perform ML Inspired by Human Brain Networks of Neurons.
 - Able to Learn without Human Supervision.
 - Artificial Neural Networks Adapt and Learn from Vast Amounts of Data.
+- Based on **Artificial Neural Network**
 
 # Neural Network
 - Finding Patterns and Relationships between Data like Human Brains.
