@@ -67,6 +67,11 @@ Applications :
 - Foundation of AI | Solve Difficult Problems that are Impossible for Human Brain.
 - Finding Patterns and Relationships between Data like Human Brains.
 
+- Application
+1. Foreign Exchange Trading
+2. Forcasting Weather Patterns
+3. Speech Recognition
+
 #### CNN
 - Convolutional Neural Network
 - Designed for working with Two Dimensional Image Data
@@ -74,11 +79,19 @@ Applications :
 1. Decoding Facial Recognition
 2. Analyzing Documents
 3. Understanding Climate
+4. Image Caption Generation
+5. Object Classification
 
 #### RNN
 - Recurrent Neural Network
 - Feed Forward Netwrok
 - Better for Sequential Data
+- Application
+1. Language Translation
+2. Speech Recognition
+3. Video Tagging
+4. Image Description
+
 
 ### CNN (Faster) > RNN > ANN
 
