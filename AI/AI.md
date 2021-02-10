@@ -53,6 +53,7 @@ Applications :
 6. Facebook Auto Friend Tagging Suggestions
 
 # DL | Deep Learning
+- AI Function that mimics the workings of **Human Brain**
 - Perform ML Inspired by Human Brain Networks of Neurons.
 - Artificial Neural Networks Adapt and Learn from Vast Amounts of Data.
 
