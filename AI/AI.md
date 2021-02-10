@@ -80,6 +80,8 @@ Applications :
 - Feed Forward Netwrok
 - Better for Sequential Data
 
+### CNN (Faster) > RNN > ANN
+
 
 # NLP | Natural Language Processing
 - Branch of AI
