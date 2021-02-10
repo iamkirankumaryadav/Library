@@ -70,6 +70,7 @@ Applications :
 #### CNN
 - Convolutional Neural Network
 - Designed for working with Two Dimensional Image Data
+- Important for Various Computer Vision Task
 1. Decoding Facial Recognition
 2. Analyzing Documents
 3. Understanding Climate
