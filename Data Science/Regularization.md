@@ -42,7 +42,7 @@ Ideal Value of Lambda produces Model that Generalizes Well on New Unseen Data, I
 
 # How to Prevent Overfitting?
 
-#### 1. Cross Validation
+### 1. Cross Validation
 - Use Initial Training Data to generate Multiple Mini Train Test Splits (Use Splits to Tune your Model)
 
 #### Standard K Fold Cross Validation
@@ -52,15 +52,15 @@ Ideal Value of Lambda produces Model that Generalizes Well on New Unseen Data, I
 - Allows Hyperparameter Tuning
 - Keep test Set as Trulu Unseen Dataset.
 
-#### 2. Train with More Relevant Data
+### 2. Train with More Relevant Data
 
-#### 3. Remove Irrelevant Features and Duplicate Observations.
+### 3. Remove Irrelevant Features and Duplicate Observations.
 
-#### 4. Early Stopping
+### 4. Early Stopping
    Up until Certain Iterations, New Iterations improve the Model.
    Model's Ability to Generalize can Weaken as it begins to Overfit Training Data.
 
-#### 5. Ensembling
+### 5. Ensembling
 - Combining Predictions from Multiple Seperate Models.
 
 A.Bagging (Reduce Chance of Overfitting)
