@@ -60,8 +60,13 @@ Applications :
 - Artificial Neural Networks Adapt and Learn from Vast Amounts of Data.
 - Based on **Artificial Neural Network**
 
-# Neural Network
+# Neural Network 
+#### ANN 
+- Artificial Neural Network
+- Simulate the Way the Human Brain Analyzes and Process Information.
+- Foundation of AI | Solve Difficult Problems that are Impossible for Human Brain.
 - Finding Patterns and Relationships between Data like Human Brains.
+
 
 # NLP | Natural Language Processing
 - Branch of AI
