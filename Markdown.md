@@ -8,7 +8,7 @@
 
 ## Code Blocks
 
-```JSON
+``` JSON
 {
   'Name' : 'Kirankumar Yadav',
   'Age' : 25,
