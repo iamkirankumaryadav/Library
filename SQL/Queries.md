@@ -67,7 +67,7 @@ DELETE FROM Employee WHERE ID=5
 SELECT DISTINCT(Age) FROM Employee
 ```
 
-<h3 name='count'>COUNT : Number of Rows | Items</h3>
+<h4 name='count'>COUNT : Number of Rows | Items</h4>
 
 ``` SQL
 SELECT COUNT(ID) FROM Employee
@@ -75,32 +75,32 @@ SELECT COUNT(ID) FROM Employee
 
 <h2 name='agg'> Aggregate Functions </h2>
 
-### SUM() : Sum of Numerical Values
+#### SUM() : Sum of Numerical Values
 ``` SQL
 SELECT SUM(Age) FROM Employee
 ```
 
-### AVG() : Average of Numerical Values
+#### AVG() : Average of Numerical Values
 ``` SQL
 SELECT AVG(Age) FROM Employee
 ```
 <h2 name='ext'> Extreme Value Identification </h2>
 
-### MAX() : Maximum Numeric Value
+#### MAX() : Maximum Numeric Value
 ``` SQL
 SELECT MAX(Age) FROM Employee
 ```
 
-### MIN() : Minimum Numeric Value
+#### MIN() : Minimum Numeric Value
 ``` SQL
 SELECT MIN(Age) FROM Employee
 ```
-### Slicing Data 
+#### Slicing Data 
 ``` SQL
 SELECT * FROM Employee WHERE City='Kalyan'
 ```
 
-### Sorting Data 
+#### Sorting Data 
 ``` SQL
 SELECT * FROM Employee ORDER BY Age DESC
 
