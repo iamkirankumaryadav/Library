@@ -1,9 +1,5 @@
-### First Term
+# Definition
 
-This is the definition of the first term.
+## Term
 
-## Second Term
-
-This is one definition of the second term.
-
-This is another definition of the second term.
+This is the Definition of the Term.
