@@ -19,7 +19,7 @@ Data Science Project Life Cycle
 - Split | Merge | Extract Columns 
 - Create New Feature from Existing One
 
-_ Improves Data Quality
+- Improves Data Quality
 - Increases Overall Productivity
 
 
