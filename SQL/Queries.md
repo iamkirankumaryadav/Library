@@ -139,7 +139,7 @@ FROM Employee
 GROUP BY LastName
 ```
 
-#### HAVING
+#### Having
 ``` SQL
 SELECT SUM(Age) AS Age, City 
 FROM Employee 
