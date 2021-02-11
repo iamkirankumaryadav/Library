@@ -14,7 +14,7 @@
 <a href='#group'>7. Group By Filtering</a>
 
 ### Table
-| ID | FirstName | LastName | Age | Gender | City | BirthDate | 
+| ID | First Name | Last Name | Age | Gender | City | Birth Date | 
 | --- | --- | --- | ---: | :---: | --- | ---: |
 | 1 | Kirankumar | Yadav | 25 | M | Thane | 1996-02-07 |
 | 2 | Paramveer | Yadav | 26 | M | Kalyan | 1995-01-21 |
