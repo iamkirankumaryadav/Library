@@ -65,7 +65,8 @@ SELECT DISTINCT(Age) FROM Employee
 
 # Aggregations 
 
-<h3 name='count'>COUNT() : Number of Rows | Items</h3>
+<h4 name='count'>COUNT : Number of Rows | Items</h4>
+
 ``` SQL
 SELECT COUNT(ID) FROM Employee
 ```
