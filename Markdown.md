@@ -1,3 +1,11 @@
+# Table
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+| Left Aligned   | Center Aligned | Right Aligned |
+
 # Definition
 
 ## Term
