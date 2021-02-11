@@ -2,8 +2,8 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Kirankumar | Yadav | 25 | M | Thane | 1996-02-07 |
 | 2 | Paramveer | Yadav | 26 | M | Kalyan | 1995-01-21 |
-| 3 | Gaurav | Sonar | 26 | M | Thane | 1995-03-21 |
-| 4 | Pranit | Sorte | 28 | M | Thane | 1993-06-21 |
+| 3 | Gaurav | Sonar | 26 | M | Kalyan | 1995-03-21 |
+| 4 | Pranit | Sorte | 28 | M | Ambernath | 1993-06-21 |
 
 ### Create Table
 ``` SQL
