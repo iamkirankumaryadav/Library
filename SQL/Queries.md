@@ -151,3 +151,8 @@ SELECT * FROM Employee WHERE Age IN (26,28)
 ``` SQL
 SELECT * FROM Employee WHERE Age IS NOT NULL
 ```
+
+### DROP Table
+```SQL
+DROP TABLE Employee
+```
