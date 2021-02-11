@@ -1,4 +1,4 @@
-## Table
+## Table 
 
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
 | --- | --- | --- | --- | --- | --- | --- |
@@ -61,7 +61,7 @@ DELETE FROM Employee WHERE ID=5
 SELECT DISTINCT(Age) FROM Employee
 ```
 
-# Aggregations : 
+# Aggregations 
 
 ### COUNT() : Number of Rows | Items
 ``` SQL
