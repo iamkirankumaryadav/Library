@@ -3,6 +3,8 @@
 
 <a href='#agg'>2. Aggregation Functions</a>
 
+<a href='#ext'>3. Extreme Value Identification</a>
+
 ### Table
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
 | --- | --- | --- | ---: | :---: | --- | ---: |
@@ -82,6 +84,7 @@ SELECT SUM(Age) FROM Employee
 ``` SQL
 SELECT AVG(Age) FROM Employee
 ```
+<h2 name='ext'> Extreme Value Identification </h2>
 
 ### MAX() : Maximum Numeric Value
 ``` SQL
