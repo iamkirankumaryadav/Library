@@ -1,4 +1,5 @@
 # SQL for Data Science
+<h3 name='count'>1. Couunting Rows and Items</h3>
 
 ### Table
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
@@ -64,7 +65,7 @@ SELECT DISTINCT(Age) FROM Employee
 
 # Aggregations 
 
-### COUNT() : Number of Rows | Items
+### <a href='count'>COUNT() : Number of Rows | Items</a>
 ``` SQL
 SELECT COUNT(ID) FROM Employee
 ```
