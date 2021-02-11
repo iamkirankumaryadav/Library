@@ -1,5 +1,5 @@
 # SQL for Data Science
-<h3 name='count'>1. Couunting Rows and Items</h3>
+<h3 name='#count'>1. Counting Rows and Items</h3>
 
 ### Table
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
