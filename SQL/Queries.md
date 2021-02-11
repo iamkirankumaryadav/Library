@@ -75,7 +75,7 @@ DELETE FROM Employee WHERE ID=5
 SELECT DISTINCT(Age) FROM Employee
 ```
 
-#### COUNT : Number of Rows | Items{#count}
+#### COUNT : Number of Rows | Items {#count}
 
 ``` SQL
 SELECT COUNT(ID) FROM Employee
