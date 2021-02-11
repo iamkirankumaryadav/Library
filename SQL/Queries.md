@@ -126,9 +126,8 @@ SELECT * FROM Employee WHERE FirstName LIKE '%R' -- Ending with r
 SELECT * FROM Employee WHERE FirstName LIKE '%an%' -- Contains an
 ```
 
-<h2 name='group'> Group By Filtering </h2>
+<h2 name='group'> Group By Filtering (Aggregation + Having) </h2>
 
-#### Aggregation
 ``` SQL
 SELECT SUM(Age) AS Age, City 
 FROM Employee 
@@ -139,7 +138,6 @@ FROM Employee
 GROUP BY LastName
 ```
 
-#### Having
 ``` SQL
 SELECT SUM(Age) AS Age, City 
 FROM Employee 
