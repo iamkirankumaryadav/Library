@@ -1,10 +1,10 @@
 # Table
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | H1 and H2  |
-| Paragraph   | Text        | And more      |
-| Left Align   | Center Align | Right Align |
+| Syntax     | Description  | Tag         |
+| :---       |    :----:    | ---:        |
+| Header     | Title        | <h1>        |
+| Paragraph  | Text         | <p>         |
+| Left Align | Center Align | Right Align |
 
 # Definition
 
