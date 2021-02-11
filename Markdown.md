@@ -6,6 +6,17 @@
 | Paragraph  | Text         | \<p\>         |
 | Left Align | Center Align | Right Align |
 
+## Code Blocks
+
+```JSON
+{
+  'Name' : 'Kirankumar Yadav',
+  'Age' : 25,
+  'Gender' : 'Male',
+  'Designation' : 'Data Science Specialist'
+}
+```
+
 ## Definition
 
 ### Term
