@@ -7,6 +7,10 @@
 
 <a href='#slice'>4. Slicing Data</a>
 
+<a href='#sort'>5. Sorting Data</a>
+
+<a href='#filter'>4. Filter Patterns</a>
+
 ### Table
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
 | --- | --- | --- | ---: | :---: | --- | ---: |
@@ -100,18 +104,20 @@ SELECT MIN(Age) FROM Employee
 
 <h2 name='slice'> Slicing Data </h2>
 
-#### Slicing Data 
 ``` SQL
 SELECT * FROM Employee WHERE City='Kalyan'
 ```
 
-#### Sorting Data 
+<h2 name='sort'> Sorting Data </h2>
+
 ``` SQL
 SELECT * FROM Employee ORDER BY Age DESC
 
 SELECT * FROM Employee ORDER BY FirstName -- Alphabetical Order
 ```
-### Filtering Patterns
+
+<h2 name='filter'> Filter Patterns </h2>
+
 ``` SQL
 SELECT * FROM Employee WHERE FirstName LIKE 'K%' -- Starting with K
 SELECT * FROM Employee WHERE FirstName LIKE '%R' -- Ending with r
