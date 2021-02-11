@@ -6,20 +6,6 @@
 | Paragraph  | Text         | \<p\>         |
 | Left Align | Center Align | Right Align |
 
-<h2 name='foot'> Foot Notes </h2>
-
-Hi My Name is Kirankumar,[^name] and below are my Details.[^detail]
-
-[^name]: Name : Kirankumar Yadav
-
-[^detail]: Age : 25 Years.
-
-    Designation : Data Science Specialist.
-
-    `{ My Codes }`
-
-    Available on GitHub.
-
 
 <h2 name='code'> Code Blocks </h2>
 
