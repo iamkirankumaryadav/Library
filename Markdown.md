@@ -8,12 +8,12 @@
 
 ## Code Blocks
 
-``` JSON
+```JSON
 {
   "Name" : "Kirankumar Yadav",
-  'Age' : 25,
-  'Gender' : 'Male',
-  'Designation' : 'Data Science Specialist'
+  "Age" : 25,
+  "Gender" : "Male",
+  "Designation" : "Data Science Specialist"
 }
 ```
 
