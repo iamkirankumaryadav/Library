@@ -11,8 +11,8 @@ This is the Definition of the Term.
 - [ ] Veg
 - [ ] Eggs
 
-# Emoji
-
+# [Emoji](https://github.com/KIRANKUMAR7296/Emoji) 
+ 
 Gone camping! :tent: Be back soon.
 
-That is so funny! :smile:
+Thank You ! :smile:
