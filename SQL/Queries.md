@@ -62,7 +62,7 @@ INSERT INTO Employee VALUES('Nimesh','Verma',27,'M','Badlapur','1994-09-21')
 DELETE FROM Employee WHERE ID=5
 ```
                       
-### DISTINCT() : Uniques Values in a Column
+### DISTINCT : Uniques Values in a Column
 ``` SQL
 SELECT DISTINCT(Age) FROM Employee
 ```
@@ -75,23 +75,23 @@ SELECT COUNT(ID) FROM Employee
 
 <h2 name='agg'> Aggregate Functions </h2>
 
-#### SUM() : Sum of Numerical Values
+#### SUM : Sum of Numerical Values
 ``` SQL
 SELECT SUM(Age) FROM Employee
 ```
 
-#### AVG() : Average of Numerical Values
+#### AVG : Average of Numerical Values
 ``` SQL
 SELECT AVG(Age) FROM Employee
 ```
 <h2 name='ext'> Extreme Value Identification </h2>
 
-#### MAX() : Maximum Numeric Value
+#### MAX : Maximum Numeric Value
 ``` SQL
 SELECT MAX(Age) FROM Employee
 ```
 
-#### MIN() : Minimum Numeric Value
+#### MIN : Minimum Numeric Value
 ``` SQL
 SELECT MIN(Age) FROM Employee
 ```
