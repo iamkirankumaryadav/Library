@@ -1,5 +1,6 @@
 # SQL for Data Science
 <a href='#count'>1. Counting Rows and Items</a>
+<a href='#agg'>2. Aggregation Functions</a>
 
 ### Table
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
@@ -63,13 +64,13 @@ DELETE FROM Employee WHERE ID=5
 SELECT DISTINCT(Age) FROM Employee
 ```
 
-# Aggregations 
-
 <h3 name='count'>COUNT : Number of Rows | Items</h3>
 
 ``` SQL
 SELECT COUNT(ID) FROM Employee
 ```
+
+<h2 name='agg'> Aggregate Functions </h2>
 
 ### SUM() : Sum of Numerical Values
 ``` SQL
