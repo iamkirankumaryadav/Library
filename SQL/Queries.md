@@ -5,6 +5,8 @@
 
 <a href='#ext'>3. Extreme Value Identification</a>
 
+<a href='#slice'>4. Slicing Data</a>
+
 ### Table
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
 | --- | --- | --- | ---: | :---: | --- | ---: |
@@ -95,6 +97,9 @@ SELECT MAX(Age) FROM Employee
 ``` SQL
 SELECT MIN(Age) FROM Employee
 ```
+
+<h2 name='slice'> Slicing Data </h2>
+
 #### Slicing Data 
 ``` SQL
 SELECT * FROM Employee WHERE City='Kalyan'
