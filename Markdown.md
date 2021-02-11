@@ -2,8 +2,8 @@
 
 | Syntax     | Description  | Tag         |
 | :---       |    :----:    | ---:        |
-| Header     | Title        | <h1>        |
-| Paragraph  | Text         | <p>         |
+| Header     | Title        | \<h1\>        |
+| Paragraph  | Text         | \<p\>         |
 | Left Align | Center Align | Right Align |
 
 # Definition
