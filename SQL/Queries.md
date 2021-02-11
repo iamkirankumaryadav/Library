@@ -1,5 +1,5 @@
 # SQL for Data Science
-<a href='#agg'>1. Counting Rows and Items</a>
+<a href='#count'>1. Counting Rows and Items</a>
 
 <a href='#agg'>2. Aggregation Functions</a>
 
