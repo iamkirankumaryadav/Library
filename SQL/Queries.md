@@ -1,4 +1,4 @@
-## Table 
+# Table 
 
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
 | --- | --- | --- | --- | --- | --- | --- |
