@@ -11,6 +11,8 @@
 
 <a href='#filter'>4. Filter Patterns</a>
 
+<a href='#group'>5. Group By Filtering</a>
+
 ### Table
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
 | --- | --- | --- | ---: | :---: | --- | ---: |
@@ -124,7 +126,9 @@ SELECT * FROM Employee WHERE FirstName LIKE '%R' -- Ending with r
 SELECT * FROM Employee WHERE FirstName LIKE '%an%' -- Contains an
 ```
 
-### GROUP BY with Aggregation
+<h2 name='group'> Group By Filtering </h2>
+
+#### Aggregation
 ``` SQL
 SELECT SUM(Age) AS Age, City 
 FROM Employee 
@@ -135,7 +139,7 @@ FROM Employee
 GROUP BY LastName
 ```
 
-### GROUP BY + HAVING
+#### HAVING
 ``` SQL
 SELECT SUM(Age) AS Age, City 
 FROM Employee 
