@@ -10,7 +10,7 @@
 
 ``` JSON
 {
-  'Name' : 'Kirankumar Yadav',
+  "Name" : "Kirankumar Yadav",
   'Age' : 25,
   'Gender' : 'Male',
   'Designation' : 'Data Science Specialist'
