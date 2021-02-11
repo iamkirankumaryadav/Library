@@ -4,9 +4,14 @@ Terms and Concepts Explained in Short
 
 1. Data Science
 
-2. Artificial Intelligence
+2. Machine Learning
 
-3. Statistics
+3. Artificial Intelligence
 
-4. SQL
+4. Python
+
+5. Statistics
+
+6. SQL
+
 
