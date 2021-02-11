@@ -10,3 +10,9 @@ This is the Definition of the Term.
 - [x] Non Veg
 - [ ] Veg
 - [ ] Eggs
+
+# Emoji
+
+Gone camping! :tent: Be back soon.
+
+That is so funny! :smile:
