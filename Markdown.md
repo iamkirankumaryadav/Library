@@ -1,4 +1,4 @@
-## Table
+<h2 name='table'> Table </h2>
 
 | Syntax     | Description  | Tag         |
 | :---       |    :----:    | ---:        |
@@ -6,7 +6,7 @@
 | Paragraph  | Text         | \<p\>         |
 | Left Align | Center Align | Right Align |
 
-## Code Blocks
+<h2 name='code'> Code Blocks </h2>
 
 ```JSON
 {
@@ -17,19 +17,18 @@
 }
 ```
 
-## Definition
+<h2 name='def'> Definition </h2>
 
 ### Term
 
 This is the Definition of the Term.
 
-
-## Check Box
+<h2 name='task'> Task List </h2>
 
 - [x] Non Veg
 - [ ] Veg
 - [ ] Eggs
 
-<a href="https://github.com/KIRANKUMAR7296/Emoji"><h2 name='emoji'>Emoji</h2></a>
+<a href="https://github.com/KIRANKUMAR7296/Emoji"><h2 name='emoji'> Emoji </h2></a>
 
 Thank You ! :relaxed:
