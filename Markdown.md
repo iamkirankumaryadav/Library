@@ -30,6 +30,6 @@ This is the Definition of the Term.
 - [ ] Veg
 - [ ] Eggs
 
-## [Emoji](https://github.com/KIRANKUMAR7296/Emoji) 
+<a href="https://github.com/KIRANKUMAR7296/Emoji"><h2 name='emoji'>Emoji</h2></a>
 
 Thank You ! :relaxed:
