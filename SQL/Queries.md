@@ -9,9 +9,9 @@
 
 <a href='#sort'>5. Sorting Data</a>
 
-<a href='#filter'>4. Filter Patterns</a>
+<a href='#filter'>6. Filter Patterns</a>
 
-<a href='#group'>5. Group By Filtering</a>
+<a href='#group'>7. Group By Filtering</a>
 
 ### Table
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
