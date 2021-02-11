@@ -1,5 +1,5 @@
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
-| --- | ------ | ------ | --- | ----- | --- | ---- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 1 | Kirankumar | Yadav | 25 | M | Thane | 1996-02-07 |
 
 ### Create Table
