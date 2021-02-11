@@ -2,7 +2,7 @@
 
 | Syntax      | Description | Test Text     |
 | :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
+| Header      | Title       | H1 and H2  |
 | Paragraph   | Text        | And more      |
 | Left Align   | Center Align | Right Align |
 
