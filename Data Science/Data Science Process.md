@@ -12,7 +12,7 @@ Data Science Project Life Cycle
 
 2. Clean Data
 - Filter the Data
-- Remove Irrelevant Data
+- Remove Irrelevant | Incorrect | Incomplete | Improper | Duplicated | Unformatted Data
 - Convert Data from One Format to Standard Format
 - If Data is Stored in Multiple CSV Files, Combine CSV Data into Single Repo.
 - Fill Missing Data 
