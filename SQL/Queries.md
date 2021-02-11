@@ -2,7 +2,7 @@
 
 ### Table
 | ID | FirstName | LastName | Age | Gender | City | BirthDate | 
-| --- | --- | --- | :---: | --- | --- | --- |
+| --- | --- | --- | ---: | :---: | --- | --- |
 | 1 | Kirankumar | Yadav | 25 | M | Thane | 1996-02-07 |
 | 2 | Paramveer | Yadav | 26 | M | Kalyan | 1995-01-21 |
 | 3 | Gaurav | Sonar | 26 | M | Kalyan | 1995-03-21 |
