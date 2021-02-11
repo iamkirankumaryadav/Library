@@ -4,7 +4,7 @@
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
-| Left Aligned   | Center Aligned | Right Aligned |
+| Left Align   | Center Align | Right Align |
 
 # Definition
 
