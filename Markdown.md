@@ -12,7 +12,5 @@ This is the Definition of the Term.
 - [ ] Eggs
 
 # [Emoji](https://github.com/KIRANKUMAR7296/Emoji) 
- 
-Gone camping! :tent: Be back soon.
 
-Thank You ! :smile:
+Thank You ! :relaxed:
