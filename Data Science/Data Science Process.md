@@ -11,7 +11,7 @@ Data Science Project Life Cycle
 - Facebook and Twitter Allow Users to Connect to their Web Servers.
 
 ### 2. Clean Data
-- Filter the Data
+- **Filter** the Data
 - Remove Irrelevant | Incorrect | Incomplete | Improper | Duplicated | Inconsistent | Outdated | Insecure | Unformatted Data
 - Convert Data from One Format to Standard Format
 - If Data is Stored in Multiple CSV Files, Combine CSV Data into Single Repo.
