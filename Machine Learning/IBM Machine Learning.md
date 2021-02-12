@@ -42,3 +42,58 @@
 - Use Model with New Data 
 - Improve Accuracy and Effectiveness of Model over Time.
 
+### Supervised 
+- Train itself on Labeled Data Set.
+- Requires Less Training Data 
+- Predicted Results can be Compared with the Actual Data 
+- Danger of Overfitting  (Can Create a Model Biased to Training Data Set)
+
+### Unsupervised 
+- Unlabelled Data Set
+- Identify Patterns and Relationships in Data that is missed by Human
+
+### Semi Supervised 
+- Between Supervised and Unsupervised 
+- Small Labelled Data for Training + Learn the Pattern and Relationship
+
+### Reinforcement
+- A Behavioral Machine Learning Model
+- Trial and Error
+- Trained with Rules
+
+### Real Worl Machine Learning
+
+1. Digital Assistants
+- Apple Siri | Amazon Alexa | Google Assistant
+- Powered by Natural Language Processing (NLP)
+- Enables Computer to Process Text and Voice Data 
+- Understand and Talk with Human 
+- Voice Driven Applications  (GPS | Speech to Text)
+
+2. Recommendations
+- Amazon, Flipkart, Myntra
+- YouTube, Netflix, Prime, Spotify
+- Retail, Travel, Hospitality, Job Search, News, Social Apps (Instagram | Twitter | Facebook)
+
+3. Online Advertisements 
+- Ad on the basis of User Interests
+
+4. Chatbots
+- Pattern Recognition + NLP + Deep Neural Networks
+- Interpret Input Text and Provide Response
+
+5. Fraud Detection
+- Flagging Stolen Cards (Credit | Debit)
+
+6. Cyber Security
+- Extract Intelligence from Incident Report, Alerts, Blog Post
+- Identify Potential Threats 
+- Advise Security
+
+7. Medical Image Analysis 
+- Digital Medical Imaging
+- CNN, RNN and other Deep Learning Models extracting Features and Information from Medical Images to Support Accurate Diagnoses.
+
+8. Self Driving Cars 
+- Continuous Object Identification in the Environment around the Car.
+- Stop and Handle Speed of the Car by Calculating Distance.
