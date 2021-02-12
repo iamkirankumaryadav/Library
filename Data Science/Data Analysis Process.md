@@ -43,4 +43,5 @@
 
 2. Inferential 
 - Make Prediction from Data 
-    
+- Sample Population
+- Hypothesis Testing
