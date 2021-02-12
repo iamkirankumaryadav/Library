@@ -1,5 +1,7 @@
 # Data Mining 
 
+[Process](https://www.wideskills.com/data-mining-tutorial/data-mining-processes)
+
 - Extract Information from the Data Set 
 - Transform into Understandable Structure
 - Extraction of Interesting Patterns and Knowledge from a Huge Amount of Data 
