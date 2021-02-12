@@ -12,6 +12,10 @@ Branch of Computer Science concerned with building **Smart Machines** capable of
 - Self Driving Cars
 - Self Operating Computers
 
-# AI is a Set of Algorithms and Intelligence to Mimic Human Intelligence. ML is one of them, and DL is one of those ML Techniques.
+# AI is a Set of Algorithms and Intelligence to Mimic Human Intelligence. 
+
+# ML is a Branch of AI
+
+# DL is one of those ML Techniques.
 
 
