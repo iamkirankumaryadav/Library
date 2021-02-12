@@ -45,3 +45,6 @@
 - Make Prediction from Data 
 - Sample Population
 - Hypothesis Testing
+- Probability Distribution
+- Correlation Testing
+- Regression Analysis 
