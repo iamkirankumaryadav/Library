@@ -12,10 +12,10 @@ Branch of Computer Science concerned with building **Smart Machines** capable of
 - Self Driving Cars
 - Self Operating Computers
 
-### Artificial Intelligence is a Set of Algorithms and Intelligence to Mimic Human Intelligence. 
+### Artificial Intelligence is a Set of Algorithms to Mimic Human Intelligence. 
 
 ### Machine Learning is a Branch of Artificial Intelligence
 
-### Deep Learning is one of those Machine Learning Techniques.
+### Deep Learning is One of Machine Learning Techniques.
 
 
