@@ -1,7 +1,15 @@
 # Exploratory Data Analysis (EDA)
 
 - Analyze and Investigate Data Sets and Summarize | Describe Main Characteristics of Data 
-- Often includes Data Visualization Methods.
+- Includes Data Visualization Methods.
+- Discover Patterns | Spot Anomalies | Detect Outlier | Test Hypothesis | Check Assumptions
+- Better Understanding of Data Set (Variables | Features | Relationships | Patterns)
+- Sophisticated Data Analysis 
+
+### Tools
+- Clustering and Dimension Reduction 
+- Univariate | Bivariate | Multivariate Visualization to Understand Relationships 
+- K Mean CLustering (Unsupervised Learning)
 
 ### Steps
 1. Importing Data Set
