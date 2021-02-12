@@ -37,14 +37,17 @@
 ### 4.Statistical 
 
 1. Descriptive 
+- Small Data Set
 - Summarized Numerical Data 
 - Illustrates Mean and Standard Deviation in Continuous Data 
 - Percentage and Frequency in Categorical Data 
 
 2. Inferential 
+- Large Data Set
 - Make Prediction from Data 
 - Sample Population
 - Hypothesis Testing
 - Probability Distribution
 - Correlation Testing
+- Complex to Find Best Sampling Technique
 - Regression Analysis 
