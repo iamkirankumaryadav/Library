@@ -8,9 +8,15 @@
 
 ### Tools
 - Clustering and Dimension Reduction 
-- Univariate (Just One Variable) Describe the Data and Find Pattern within. 
-- Steam and Leaf Plot(Shape of Distribution) | Histogram (Frequency of Data) | Bar Plot(Frequency of Data) | Box Plot (Median, Min, Max, Quantiles) Visualize Univariate Data.
-- Bivariate | Multivariate Visualization to Understand Relationships 
+A. Univariate (Just One Variable) Describe the Data and Find Pattern within by Visualizing Univariate Data.
+- Steam and Leaf Plot(Shape of Distribution)  
+- Histogram (Frequency of Data) 
+- Bar Plot(Frequency of Data)  
+- Box Plot (Median, Min, Max, Quantiles) 
+
+B. Bivariate 
+
+C. Multivariate Visualization to Understand Relationships 
 - K Mean CLustering (Unsupervised Learning)
 
 ### Steps
