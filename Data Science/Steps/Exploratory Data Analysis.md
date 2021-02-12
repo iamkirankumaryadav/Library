@@ -8,6 +8,7 @@
 
 ### Tools
 - Clustering and Dimension Reduction 
+
 A. Univariate (Just One Variable) Describe the Data and Find Pattern within by Visualizing Univariate Data.
 - Steam and Leaf Plot(Shape of Distribution)  
 - Histogram (Frequency of Data) 
