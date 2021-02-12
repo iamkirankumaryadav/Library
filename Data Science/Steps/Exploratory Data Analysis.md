@@ -1,6 +1,6 @@
 # Exploratory Data Analysis (EDA)
 
-- Analyze and Investigate Data Sets and summarize their main Characteristics 
+- Analyze and Investigate Data Sets and Summarize | Describe Main Characteristics of Data 
 - Often includes Data Visualization Methods.
 
 ### Steps
