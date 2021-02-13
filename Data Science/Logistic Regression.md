@@ -29,3 +29,14 @@ Assumptions made by **Logistic Regression** about Distribution and Relationships
 - Calculate the Pairwise Correlations between all Independent Features and removing Highly Correlated Independent Feature.
 
 ### Sparse (Lot of Zeros)
+
+### Example
+- **Linear Regression** Helps us to Predict the Student's Test Score on a Scale of 0 - 100 (Continuous)
+- **Logistic Regression** Helps us to Predict whether the Student is Passed or Failed (Discrete)
+
+### Types of Logistic Regression
+1. Binary (Pass(1) | Fail(0))
+2. Multi (Cats | Dogs | Sheep)
+3. Ordinal (Low | Medium | High)
+
+Decision Boundary | **Threshold**
