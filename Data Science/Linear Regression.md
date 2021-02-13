@@ -37,3 +37,10 @@
 2. **Ridge** (L2) : OLS is modified to minimize the **Squared** Sum of Coefficients : Cost Function + (Lambda) * Square(Slope)
 
 Used when there is Collinearity (One Independent Feature can completely Describe Other Independent Feature) in Data 
+
+# Preparing Data for Linear Regression
+
+### 1. Linear Assumptions
+- Assume that the Relationship between Independent and Dependent Features is **Linear**.
+- You may need to **Transform** Data to make the Relationship **Linear**.
+
