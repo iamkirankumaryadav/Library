@@ -1,6 +1,6 @@
 # Linear Regression
 
-**Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** (Slope, Intercept, Bias)
+**Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** (Slope | Gradient | Steepness in Line and Intercept | Bias | Constant)
 
 ### Simple Linear Regression
 - Single Input | Independent Feature 
@@ -28,5 +28,7 @@
 - Reduce Overfitting
 - Add some Bias on Training Data for Decreasing Variance on Test Data 
 
-1. LASSO (L1) : OLS is modified to minimize the **Absolute** Sum of Coefficients : Cost Function + (Lambda) * |Slope|
-2. Ridge (L2) : OLS is modified to minimize the **Squared** Sum of Coefficients : Cost Function + (Lambda) * Square(Slope)
+1. **LASSO** (L1) : OLS is modified to minimize the **Absolute** Sum of Coefficients : Cost Function + (Lambda) * |Slope|
+2. **Ridge** (L2) : OLS is modified to minimize the **Squared** Sum of Coefficients : Cost Function + (Lambda) * Square(Slope)
+
+Used when there is Collinearity (One Independent Feature can completely Describe Other Independent Feature) in Data 
