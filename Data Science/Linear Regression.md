@@ -8,7 +8,7 @@
 
 **B1** : Slope | Gradient | **Steepness** in Line | **Direction** of Line
 
-**B0** : Intercept | Bias | Constant | The Place where **Regression Line** Intersects the Y Axis
+**B0** : Intercept | Bias | Constant | The Place where **Regression Line** Intersects the Y Axis (Value of Y when X = 0)
 
 ### Simple Linear Regression
 - Single Input | Independent Feature 
