@@ -45,7 +45,7 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 - You may need to **Transform** Data to make the Relationship **Linear**.
 
 ### 2. Remove Noise 
-- Remove Outliers 
+- Remove **Outliers** 
 
 ### 3. Remove Collinearity
 - If Independent Features are Highly Correlated, Linear Regression will Over Fit your Data.
