@@ -30,8 +30,7 @@
 
 ### Regularization
 - Seek to Minimize SSE of the Model on Training Data 
-- Reduce Complexity of Model 
-- Reduce Overfitting
+- Reduce **Complexity** of Model (**Overfitting**)
 - Add some Bias on Training Data for Decreasing Variance on Test Data 
 
 1. **LASSO** (L1) : OLS is modified to minimize the **Absolute** Sum of Coefficients : Cost Function + (Lambda) * |Slope|
