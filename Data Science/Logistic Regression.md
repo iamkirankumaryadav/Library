@@ -11,4 +11,4 @@ Predict the **Probability**
 
 ### Prepare Data for Logistic Regression
 
-Assumptions made by **Logistic Regression** about Distribution and Relationships in Data are much the Same as the Assumptions in Linear Regression.
+Assumptions made by **Logistic Regression** about Distribution and Relationships in Data == Assumptions in **Linear Regression**.
