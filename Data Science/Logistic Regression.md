@@ -4,7 +4,7 @@
 - Assign Observations to a **Discrete** Set of Classes.
 - Predict the **Probability**
 - Transforms its Output using **Sigmoid** Function to Return a **Probability** Value which can be mapped to 2 or more **Discrete** classes.
-- Describe and Explain the Relationship between One Dependent **Binary** Variable and One or more **Nominal**, **Ordinal**, **Interval** or **Ratio** Independent Variable.
+- Explain Relationship between One Dependent **Binary** Variable and One or more **Nominal**, **Ordinal**, **Interval** or **Ratio** Independent Variable.
 
 ### Logistic Function  | Sigmoid (S Shaped Curve) Function
 - Accepts any **Real** Valued Number and Map it into a Value between 0 and 1 (But not Exactly 0 and 1)
