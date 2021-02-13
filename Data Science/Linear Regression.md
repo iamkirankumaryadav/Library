@@ -43,9 +43,11 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 # Preparing Data for Linear Regression
 
 ### 1. Linear Assumptions
-- Assume that the Relationship between Independent and Dependent Features is **Linear**.
+- Independent Features and Dependent Features should be Continuous.
+- The Relationship between Independent and Dependent Features should be **Linear**.
 - You may need to **Transform** Data to make the Relationship **Linear**.
 - Data needs to Show **Homoscedasticity** (Variance along the Line of **Best Fit** remains similar as you move along the line)
+- Observations should be Independent.
 
 ### 2. Remove Noise 
 - Remove **Outliers** 
@@ -61,3 +63,8 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 ### 5. Rescale Independent Features
 - Rescale Independent Features for more Reliable Predictions
 - Use **Standardization** or **Normalization**
+
+### 6. Residuals 
+- Check the **Residual** | **Error** of the Regression Line.
+- Should be as low as Possible (Complete Removal of Error is Impossible)
+- The Distribution of the Data should be **Normally** Distributed.
