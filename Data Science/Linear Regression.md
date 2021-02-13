@@ -2,6 +2,8 @@
 
 **Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** 
 
+**Predict** the Value of a **Feature** based on the Value of Another Feature.
+
 ### Y = X * B1 + B0
 
 **B1** : Slope | Gradient | Steepness in Line 
