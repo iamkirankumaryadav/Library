@@ -6,9 +6,9 @@
 
 ### Y = X * B1 + B0
 
-**B1** : Slope | Gradient | Steepness in Line 
+**B1** : Slope | Gradient | **Steepness** in Line | **Direction** of Line
 
-**B0** : Intercept | Bias | Constant
+**B0** : Intercept | Bias | Constant | The Place where **Regression Line** Intersects the Y Axis
 
 ### Simple Linear Regression
 - Single Input | Independent Feature 
