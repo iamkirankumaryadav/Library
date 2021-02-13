@@ -6,7 +6,7 @@
 
 **B1** : Slope | Gradient | Steepness in Line 
 
-**B0** : Intercept | Bias | Constant)
+**B0** : Intercept | Bias | Constant
 
 ### Simple Linear Regression
 - Single Input | Independent Feature 
