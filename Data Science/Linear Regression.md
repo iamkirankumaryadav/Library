@@ -45,6 +45,7 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 ### 1. Linear Assumptions
 - Assume that the Relationship between Independent and Dependent Features is **Linear**.
 - You may need to **Transform** Data to make the Relationship **Linear**.
+- Data needs to Show **Homoscedasticity** (Variance along the Line of **Best Fit** remains similar as you move along the line)
 
 ### 2. Remove Noise 
 - Remove **Outliers** 
