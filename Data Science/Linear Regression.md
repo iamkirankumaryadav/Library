@@ -10,6 +10,8 @@
 
 **B0** : Intercept | Bias | Constant | The Place where **Regression Line** Intersects the Y Axis (Value of Y when X = 0)
 
+**R<sup>2</sup>** : The **Variance** of the Data captured by the Model
+
 ### Simple Linear Regression
 - Single Input | Independent Feature 
 - Use Statistics to Estimate Coefficients
