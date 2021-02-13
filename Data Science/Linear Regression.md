@@ -23,8 +23,8 @@
 ### Gradient Descent
 - A Process of Optimizing the Values of the Coefficients by Iteratively Minimizing the **Error** of Model on Training Data.
 - Starts with Random Values for each Coefficient
-- Sum of Squared Errors are Calculated for each Pair of Independent and Dependent Values.
-- Learning Rate is used as a Scale and the coefficients are updated in the direction towards minimizing the Error.
+- Sum of Squared Errors (**SSE**) are Calculated for each Pair of Independent and Dependent Values.
+- **Learning Rate** is used as a Scale and the coefficients are updated in the direction towards minimizing the Error.
 - The Process is Repeated until a minimum SSE is Achieved or no further improvement is possible.
 - Learning Rate (alpha) Parameters that determines the size of Improvement Step on each Iteration.
 
