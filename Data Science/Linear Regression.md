@@ -44,3 +44,17 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 - Assume that the Relationship between Independent and Dependent Features is **Linear**.
 - You may need to **Transform** Data to make the Relationship **Linear**.
 
+### 2. Remove Noise 
+- Remove Outliers 
+
+### 3. Remove Collinearity
+- If Independent Features are Highly Correlated, Linear Regression will Over Fit your Data.
+- Pairwise Correlations for Independent Features and Remove the Correlated.
+
+### 4. Gaussian Distributions
+- More Reliable Predictions.
+- Using **Transform** makes Data more Gaussian.
+
+### 5. Rescale Independent Features
+- Rescale Independent Features for more Reliable Predictions
+- Use **Standardization** or **Normalization**
