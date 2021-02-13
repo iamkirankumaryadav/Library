@@ -1,6 +1,12 @@
 # Linear Regression
 
-**Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** (Slope | Gradient | Steepness in Line and Intercept | Bias | Constant)
+**Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** 
+
+### Y = X * B1 + B0
+
+**B1** Slope | Gradient | Steepness in Line 
+
+**B0** Intercept | Bias | Constant)
 
 ### Simple Linear Regression
 - Single Input | Independent Feature 
