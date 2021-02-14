@@ -6,9 +6,11 @@
 
 ### Y = X * B1 + B0
 
-**B1** : Slope | Gradient | **Steepness** in Line | **Direction** of Line
+### B1 : Slope 
+- Gradient | **Steepness** in Line | **Direction** of Line | **Weight**
 
-**B0** : Intercept | Bias | Constant | The Place where **Regression Line** Intersects the Y Axis (Value of Y when X = 0)
+### B0 : Intercept 
+- Bias | Constant | The Place where **Regression Line** Intersects the Y Axis (Value of Y when X = 0)
 
 ### R<sup>2</sup> : Coefficient of Determination
 
