@@ -10,12 +10,14 @@
 
 **B0** : Intercept | Bias | Constant | The Place where **Regression Line** Intersects the Y Axis (Value of Y when X = 0)
 
-**R<sup>2</sup>** : Coefficient of Determination
+### R<sup>2</sup> : Coefficient of Determination
 
 - The **Variance** of the Data captured by the Model (0.7 to 0.9 is Good value for R<sup>2</sup>) 
 - Larger R<sup>2</sup> indicates a Better Fit (The Model can Explain the Variation of Predictions with Actual in much Better Way)
 - R<sup>2</sup> = 1 corresponds to SSR = 0 (**Perfect Fit**)
 
+### Residuals 
+- Actual - Prediction
 
 ### Simple Linear Regression
 - Single Input | Independent Feature 
