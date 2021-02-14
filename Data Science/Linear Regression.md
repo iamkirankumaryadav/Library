@@ -10,7 +10,10 @@
 
 **B0** : Intercept | Bias | Constant | The Place where **Regression Line** Intersects the Y Axis (Value of Y when X = 0)
 
-**R<sup>2</sup>** : The **Variance** of the Data captured by the Model (0.5 to 0.9 is Good value for R<sup>2</sup>)
+**R<sup>2</sup>** : Coefficient of Determination
+
+- The **Variance** of the Data captured by the Model (0.5 to 0.9 is Good value for R<sup>2</sup>) 
+
 
 ### Simple Linear Regression
 - Single Input | Independent Feature 
