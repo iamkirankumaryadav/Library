@@ -14,7 +14,7 @@
 
 6. SQL
 
-### Some Good Source
+### Data Science Specialist
 
 [Chris Albon](https://chrisalbon.com/)
 
