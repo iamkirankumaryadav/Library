@@ -1,7 +1,7 @@
 # Normalize | Standardize | Rescale
 
 ### Normalization
-- Rescale Feature Values Range between 0 and 1
+- Rescale Feature values range between 0 and 1
 
 ### Min Max Scaling
 - x(Rescaled) =  x - **min**(x) / **max**(x) - **min**(x)
