@@ -14,5 +14,11 @@
 
 6. SQL
 
+### Some Good Source
+
+[Chris Albon](https://chrisalbon.com/)
+
+[Real Python](https://realpython.com/)
+
 
 
