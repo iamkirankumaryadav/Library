@@ -18,7 +18,7 @@
 
 1. [**Pandas**](https://pandas.pydata.org/) : Data Analysis | Data Manipulation | Data Import and Export
 
-2. [**NumPy**](https://numpy.org/) : Numerical Python | N Dimensional Array | Linear Algebra and Mathematical Functions | Elementwise Matrix or Array Operations
+2. [**NumPy**](https://numpy.org/) : Numerical Python | N Dimensional Array | Linear Algebra and Mathematical Functions | Elementwise Matrix Operations
 
 3. [SciPy](https://www.scipy.org/) : Scientific Calculations | Linear Algebra | Integration | Signal and Image Processing
 
