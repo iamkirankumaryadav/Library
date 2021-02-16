@@ -43,9 +43,8 @@
 
 ## Data Science Specialist
 
-[Chris Albon](https://chrisalbon.com/)
-
-[Real Python](https://realpython.com/)
+- [Chris Albon](https://chrisalbon.com/)
+- [Real Python](https://realpython.com/)
 
 
 
