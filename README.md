@@ -16,21 +16,21 @@
 
 ## Important Libraries
 
-1. [Pandas](https://pandas.pydata.org/) (Data Analysis | Data Manipulation | Data Import and Export)
+1. [**Pandas**](https://pandas.pydata.org/) (Data Analysis | Data Manipulation | Data Import and Export)
 
-2. [NumPy](https://numpy.org/) (Numerical Python | N Dimensional Array | Linear Algebra and Mathematical Functions | Elementwise Matrix or Array Operations)
+2. [**NumPy**](https://numpy.org/) (Numerical Python | N Dimensional Array | Linear Algebra and Mathematical Functions | Elementwise Matrix or Array Operations)
 
 3. [SciPy](https://www.scipy.org/) (Scientific Calculations | Linear Algebra | Integration | Signal and Image Processing)
 
-4. [Matplotlib](https://matplotlib.org/) (Data Interactive Visualization | Charts, Plots and Graphs )
+4. [**Matplotlib**](https://matplotlib.org/) (Data Interactive Visualization | Charts, Plots and Graphs )
 
-5. [Seaborn](https://seaborn.pydata.org/) (Data Interactive Visualization | Statistical Graphs )
+5. [**Seaborn**](https://seaborn.pydata.org/) (Data Interactive Visualization | Statistical Graphs )
 
 6. [Plotly](https://plotly.com/) (**Javascript** Interactive **Web based** Visualization | Charts, Plots and Graphs )
 
 7. [Bokeh](https://bokeh.org/) (Interactive Visualization Library for **Modern Web Browsers** | High Performance Interactivity)
 
-8. [Scikit Learn](https://scikit-learn.org/) (Predictive Data Analysis | Machine Learning Models)
+8. [**Scikit Learn**](https://scikit-learn.org/) (Predictive Data Analysis | Machine Learning Models)
 
 9. [TensorFlow](https://www.tensorflow.org/) (Machine Learning Platform | Google Brain Team | Neural Network)
 
