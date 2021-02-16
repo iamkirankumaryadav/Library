@@ -48,3 +48,6 @@
 
 <h2 name="ai">Artificial Intelligence</h2>
 
+- [Elements of AI](https://www.elementsofai.com/)
+- [Building AI](https://buildingai.elementsofai.com/)
+
