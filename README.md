@@ -14,7 +14,7 @@
 
 6. SQL
 
-### Important Libraries
+## Important Libraries
 
 1. [Pandas](https://pandas.pydata.org/) 
 
@@ -41,7 +41,7 @@
 12. [PyTorch](https://pytorch.org/)
 
 
-### Data Science Specialist
+## Data Science Specialist
 
 [Chris Albon](https://chrisalbon.com/)
 
