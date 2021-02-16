@@ -6,7 +6,7 @@
 
 2. Machine Learning
 
-3. Artificial Intelligence
+3. <a name = "ai">Artificial Intelligence</a>
 
 4. [Python](https://docs.python.org/3/)
 
