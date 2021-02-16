@@ -6,7 +6,7 @@
 
 2. Machine Learning
 
-3. <a name = "ai">Artificial Intelligence</a>
+3. <a href="#ai">Artificial Intelligence</a>
 
 4. [Python](https://docs.python.org/3/)
 
@@ -46,5 +46,5 @@
 - [Chris Albon](https://chrisalbon.com/)
 - [Real Python](https://realpython.com/)
 
-
+<h2 name="ai">Artificial Intelligence</h2>
 
