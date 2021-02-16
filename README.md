@@ -16,25 +16,25 @@
 
 ## Important Libraries
 
-1. [Pandas](https://pandas.pydata.org/) 
+1. [Pandas](https://pandas.pydata.org/) (Data Analysis | Data Manipulation | Data Import and Export)
 
-2. [NumPy](https://numpy.org/) 
+2. [NumPy](https://numpy.org/) (Numerical Python | N Dimensional Array | Linear Algebra and Mathematical Functions | Elementwise Matrix or Array Operations)
 
-3. [SciPy](https://www.scipy.org/) 
+3. [SciPy](https://www.scipy.org/) (Scientific Calculations | Linear Algebra | Integration | Signal and Image Processing)
 
-4. [Matplotlib](https://matplotlib.org/) 
+4. [Matplotlib](https://matplotlib.org/) (Data Interactive Visualization | Charts, Plots and Graphs )
 
-5. [Seaborn](https://seaborn.pydata.org/) 
+5. [Seaborn](https://seaborn.pydata.org/) (Data Interactive Visualization | Statistical Graphs )
 
-6. [Plotly](https://plotly.com/) 
+6. [Plotly](https://plotly.com/) (**Javascript** Interactive **Web based** Visualization | Charts, Plots and Graphs )
 
-7. [Bokeh](https://bokeh.org/) 
+7. [Bokeh](https://bokeh.org/) (Interactive Visualization Library for **Modern Web Browsers** | High Performance Interactivity)
 
-8. [Scikit Learn](https://scikit-learn.org/) 
+8. [Scikit Learn](https://scikit-learn.org/) (Predictive Data Analysis | Machine Learning Models)
 
-9. [TensorFlow](https://www.tensorflow.org/) 
+9. [TensorFlow](https://www.tensorflow.org/) (Machine Learning Platform | Google Brain Team | Neural Network)
 
-10. [Keras](https://keras.io/) 
+10. [Keras](https://keras.io/) (API | )
 
 11. [OpenCV](https://opencv.org/) 
 
