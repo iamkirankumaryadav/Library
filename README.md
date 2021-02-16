@@ -1,6 +1,6 @@
 # My Knowledge Library
 
-### Terms and Concepts Explained in Short
+### Books | Cheat Sheets | Notes 
 
 1. Data Science
 
