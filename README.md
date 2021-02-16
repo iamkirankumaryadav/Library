@@ -34,11 +34,11 @@
 
 9. [TensorFlow](https://www.tensorflow.org/) (Machine Learning Platform | Google Brain Team | Neural Network)
 
-10. [Keras](https://keras.io/) (API | )
+10. [Keras](https://keras.io/) (API | Deep Learning Framework)
 
-11. [OpenCV](https://opencv.org/) 
+11. [OpenCV](https://opencv.org/) (Real Time Computer Vision | Machine Learning | Image Processing | Identify Object) 
 
-12. [PyTorch](https://pytorch.org/)
+12. [PyTorch](https://pytorch.org/) (Computer Vision | Natural Language Processing | Facebook's Research Group)
 
 
 ## Data Science Specialist
