@@ -129,10 +129,10 @@ class Derived2(Derived1):
 - When the \_\_init\_\_() method is Defined in both Classes (Parent | Base and Child | Derived) Class, the method in **Derived Class** overrides the **Base Class**.
 
 ``` Python
-class BaseClass:
-  Body of base class
-class DerivedClass(BaseClass):
-  Body of derived class
+class Base:
+  Body of Base class
+class Derived(Base):
+  Body of Derived class
 
 ```
 
