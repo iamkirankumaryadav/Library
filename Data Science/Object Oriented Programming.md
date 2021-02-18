@@ -5,11 +5,21 @@ Structuring a Program by Bundling related **Properties** | **Attributes** and **
 ### Procedural Programming
 - Structures a Program like a Recipe in that it provides a Set of Steps, in the form of **Functions** and **Code Blocks**, that flow Sequentially in order to complete task.
 
+An Object has two **Characteristics**
+1. Attributes | Properties
+2. Behaviour | Action
+
+An object can be a person with **Attributes** like a **Name**, **Age** and **Address** and **Behaviours** such as **Walking**, **Talking** and **Running**.
+
+The Concept of **OOP** in Python focuses on Creating **Reusable** Code | **DRY** (Don't Repeat Yourself)
+
+
 ### Class
-- A **Blueprint** for **Creating** an **Object**
-- An object could represent a person with **Properties** like a Name, Age and Address and **Behaviours** such as **Walking**, **Talking** and **Running**.
-- An Object could represent an email with **Properties** like **Recipient**, **Subject** and **Body** and **Behaviours** like **Adding Attachments** and **Sending Data**.
-- Create **User Defined** Data Structures
+- A **Blueprint** for **Creating** an **Object**.
+- Contains **Attributes** and **Behaviour** of an Object.
+- Create **User Defined** Data Structures.
+- **class** is a **Keyword** used to **Define Class**.
+- **Class Names** are written in **Capitalized Words**.
 - Defines **Functions** called as **Methods** (Identifies the Behaviors and Actions than an **Object** created from  the Class can perform with its Data.
 
 **Define** a **Class** 
@@ -18,15 +28,21 @@ class Student:
     pass
 ```
 
-Python Class Names are written in **Capitalized Words**
+### Object
+- An Object (**Instance**) is an Instantiation of a Class.
+- When Class is Defined, only the **Description** for an Object is **Defined**.
+- No **Memory** or **Storage* is allocated.
 
-**\__init\_()**
+### \__init\_()
 - Like a Constructor Method (**Initialize** an **Object**)
 - Evertime a New Object is Created, __init__() Sets the **Initial State** of the Object.
 - Method is called when any new **Instance** of an **Object**  is Created.
 - Initialize the **Attributes** of the Class.
 - You can give any number of **Parameters**
 - First Parameter will always be a variable **Self**
+
+### self
+- Instance Methods can **Access** Attributes and other Methods on the Same Objects.
 
 ``` Python
 class Student:
@@ -52,6 +68,10 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 ### Instantiate an Object
 - Creating a **New Object Instance** from a Class is called **Instantiating** an Object.
 - Every New Object Instance is located at a different Memory Address.
+
+### Methods
+- **Functions** defined inside body of a **Class**
+- Defines **Behavior** | **Action** of an Object.
 
 ### Important Concepts in Class
 1. Define a **Class**.
