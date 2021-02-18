@@ -168,7 +168,7 @@ class DerivedClass(BaseClass):
 
 | Operator            | Expression	| Special Function    |
 | :---                | :---:       | :---:               |
-| Addition            | p1 + p2	    | p1.__add__(p2)      |
+| Addition            | p1 + p2	    | p1.\__add\__(p2)    |
 | Subtraction         |	p1 - p2	    | p1.__sub__(p2)      | 
 | Multiplication      |	p1 * p2	    | p1.__mul__(p2)      | 
 | Power               |	p1 ** p2	| p1.__pow__(p2)      |
