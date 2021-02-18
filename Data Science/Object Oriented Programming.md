@@ -5,9 +5,13 @@ Structuring a Program by Bundling related **Properties** | **Attributes** and **
 ### Procedural Programming
 - Structures a Program like a Recipe in that it provides a Set of Steps, in the form of **Functions** and **Code Blocks**, that flow Sequentially in order to complete task.
 
+### Object
+- A **Collection** of **Data** (**Variables**) and **Methods** (**Functions**) that act on that **Data**.
+
 An Object has two **Characteristics**
 1. Attributes | Properties
 2. Behaviour | Action
+
 
 An object can be a person with **Attributes** like a **Name**, **Age** and **Address** and **Behaviours** such as **Walking**, **Talking** and **Running**.
 
@@ -66,6 +70,7 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 - Must always Assigned an **Initial Value**
 
 ### Instantiate an Object
+- Process of **Creating** an **Object** is called **Instantiation**.
 - Creating a **New Object Instance** from a Class is called **Instantiating** an Object.
 - Every New Object Instance is located at a different Memory Address.
 
