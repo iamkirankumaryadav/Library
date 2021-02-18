@@ -37,7 +37,17 @@ class Student:
 - When Class is Defined, only the **Description** for an Object is **Defined**.
 - No **Memory** or **Storage* is allocated.
 
+### Type of Objects 
+1. Class Object
+2. Instance Object
+3. Function Object
+4. Method Object
+
+### Constructor 
+- Class Functions that begins with double Underscore (\__init\__) are **Special Functions**
+
 ### \__init\_()
+
 - Like a Constructor Method (**Initialize** an **Object**)
 - Evertime a New Object is Created, __init__() Sets the **Initial State** of the Object.
 - Method is called when any new **Instance** of an **Object**  is Created.
@@ -73,7 +83,7 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 - Process of **Creating** an **Object** is called **Instantiation**.
 - Creating a **New Object Instance** from a Class is called **Instantiating** an Object.
 - Every New Object Instance is located at a different Memory Address.
-- The Process to **Create** an **Object** is similar to a **Function Call**. (ObjectName = ClassName())
+- The Process to **Create** an **Object** is similar to a **Function Call**. (**ObjectName** = **ClassName()**)
 
 ### Methods
 - **Functions** defined inside body of a **Class**
