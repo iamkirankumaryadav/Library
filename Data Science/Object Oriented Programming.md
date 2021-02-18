@@ -12,10 +12,26 @@ Structuring a Program by Bundling related **Properties** | **Attributes** and **
 - Create **User Defined** Data Structures
 - Defines **Functions** called as **Methods** (Identifies the Behaviors and Actions than an **Object** created from  the Class can perform with its Data.
 
-**Define a Class** 
+**Define** a **Class** 
 ``` Python
 class Student:
     pass
 ```
 
+Python Class Names are written in **Capitalized Words**
+
+**__init_()***
+- A Constructor Method
+- Evertime a New Object is Created, __init__() Sets the **Initial State** of the Object.
+- Method is called when any new **Instance** of an **Object**  is Created.
+- Initialize the **Attributes** of the Class.
+- You can give any number of **Parameters**
+- First Parameter will always be a variable **Self**
+
+```
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+```
 
