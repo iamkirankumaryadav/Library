@@ -7,7 +7,7 @@ Structuring a Program by Bundling related **Properties** | **Attributes** and **
 - 
 ### Class
 - A **Blueprint** for **Creating** an **Object**
-- For **Instance**, an object could represent a person with **Properties** like a Name, Age and Address and **Behaviours** such as **Walking**, **Talking** and **Running**.
+- An object could represent a person with **Properties** like a Name, Age and Address and **Behaviours** such as **Walking**, **Talking** and **Running**.
 - An Object could represent an email with **Properties** like **Recipient**, **Subject** and **Body** and **Behaviours** like **Adding Attachments** and **Sending Data**.
 - Create **User Defined** Data Structures
 - Defines **Functions** called as **Methods** (Identifies the Behaviors and Actions than an **Object** created from  the Class can perform with its Data.
@@ -45,3 +45,10 @@ class Student:
         self.name = name
         self.age = age
 ```
+
+Class Attributes are Defined Directly beneath the First Line of the Class Name.
+- Must always Assigned an **Initial Value**
+
+### Instantiate an Object
+- Creating a **New Object Instance** from a Class is called **Instantiating** an Object.
+- Every New Object Instance is located at a different Memory Address.
