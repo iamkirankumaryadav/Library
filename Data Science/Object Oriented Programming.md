@@ -52,3 +52,11 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 ### Instantiate an Object
 - Creating a **New Object Instance** from a Class is called **Instantiating** an Object.
 - Every New Object Instance is located at a different Memory Address.
+
+### Important Concepts in Class
+1. Define a **Class**.
+2. Instantiate an **Object** a **Class**.
+3. Use **Attributes** and **Methods** to define the **Properties** and **Behaviors** of an Object.
+4. Use **Inheritance** to Create **Child Classes** from a **Parent Class**.
+5. Reference a method in a **Parent Class** using **super()**
+6. Check if an **Object** inherits from another Class using **isinstance()** 
