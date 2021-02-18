@@ -35,3 +35,13 @@ class Student:
         self.age = age
 ```
 
+``` Python
+class Student:
+
+    # Class Attribute (Common Attribute for all Class Instances)
+    school_name = "IES GNV"
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+```
