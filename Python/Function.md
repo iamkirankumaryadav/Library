@@ -15,3 +15,21 @@ def function(parameter 1, parameter 2):
 
 greet(argument 1, argument 2)
 ```
+
+### Arbitrary Arguments
+- When we don't know about How many Arguments we will Pass 
+
+``` Python
+def greet(*names):
+    """
+    Docstring
+    
+    parameters (data type) : about parameter
+    """
+
+    # names is an iterator with arguments (list, tuple, set, string)
+    for name in names:
+        print("Hello", name)
+
+greet("Kirankumar", "Paramveer", "Gaurav", "Pranit")
+```
