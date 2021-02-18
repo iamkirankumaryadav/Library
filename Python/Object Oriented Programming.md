@@ -1,10 +1,18 @@
 # Object Oriented Programming
 
-> **Analysis** : Understand your **Problem**
+> **Analysis** : Understand your **Problem** (**What** do you need to do?)
 
-> **Design** : Plan your **Solution**
+> **Design** : Plan your **Solution** (**How** are you going to do it?)
 
 > **Programming** : **Build** it
+
+### Approach
+
+> Gather Requirements
+> Describe the Application
+> Identify the main object
+> Describe the interactions
+> Create a class diagram
 
 Structuring a Program by Bundling related **Properties** | **Attributes** and **Behaviors** into Individual **Objects**.
 
