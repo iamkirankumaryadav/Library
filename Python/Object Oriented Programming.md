@@ -1,5 +1,11 @@
 # Object Oriented Programming
 
+> **Analysis** : Understand your **Problem**
+
+> **Design** : Plan your **Solution**
+
+> **Programming** : **Build** it
+
 Structuring a Program by Bundling related **Properties** | **Attributes** and **Behaviors** into Individual **Objects**.
 
 ### Procedural Programming
@@ -9,9 +15,8 @@ Structuring a Program by Bundling related **Properties** | **Attributes** and **
 - A **Collection** of **Data** (**Variables**) and **Methods** (**Functions**) that act on that **Data**.
 
 An Object has two **Characteristics**
-1. Attributes | Properties
-2. Behaviour | Action
-
+1. Attributes | Properties | Characteristics | Data 
+2. Behaviour | Action | Operation
 
 An object can be a person with **Attributes** like a **Name**, **Age** and **Address** and **Behaviours** such as **Walking**, **Talking** and **Running**.
 
