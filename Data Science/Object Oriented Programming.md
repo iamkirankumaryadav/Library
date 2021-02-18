@@ -94,6 +94,15 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 - The Newly Formed Class is known as a **Derived** Class (**Child Class**)
 - The Pre Existing Class is Known as a **Base** Class (**Parent Class**)
 - To use the \__init\__() method of the **Parent Class**, use **super()** Function inside \__init\__() method of **Child Class**.
+- **Inheritance** enables us to **Define** a **Class** that takes all the functionality from a **Parent Class** and allows us to **Add** more.
+
+``` Python
+class BaseClass:
+  Body of base class
+class DerivedClass(BaseClass):
+  Body of derived class
+
+```
 
 ### Encapsulation
 - **Restrict Access** to Methods and Variables of Class.
