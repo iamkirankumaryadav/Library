@@ -26,9 +26,10 @@ Structuring a Program by Bundling related **Properties** | **Attributes** and **
 ### Object
 - A **Collection** of **Data** (**Variables**) and **Methods** (**Functions**) that act on that **Data**.
 
-An Object has two **Characteristics**
-1. Attributes | Properties | Characteristics | Data 
-2. Behaviour | Action | Operation
+**Characteristics** of Objects | **Components** of Class
+1. Identity (What is it?)
+2. Attributes | Properties | Characteristics | Data (What Describes it?)
+3. Behaviour | Action | Operation (What can it do?)
 
 An object can be a person with **Attributes** like a **Name**, **Age** and **Address** and **Behaviours** such as **Walking**, **Talking** and **Running**.
 
