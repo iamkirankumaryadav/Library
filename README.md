@@ -14,6 +14,13 @@
 
 6. SQL
 
+### Markdown
+
+- [Markdown Guide](https://www.markdownguide.org/)
+
+- [Markdown Presentation](https://www.slideas.app/)
+
+
 ## Important Libraries
 
 1. [**Pandas**](https://pandas.pydata.org/) : Data Analysis | Data Manipulation | Data Import and Export
