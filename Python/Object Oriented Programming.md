@@ -9,9 +9,13 @@
 ### Approach
 
 > Gather Requirements
+
 > Describe the Application
+
 > Identify the main object
+
 > Describe the interactions
+
 > Create a class diagram
 
 Structuring a Program by Bundling related **Properties** | **Attributes** and **Behaviors** into Individual **Objects**.
