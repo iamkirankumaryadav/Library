@@ -96,6 +96,23 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 - To use the \__init\__() method of the **Parent Class**, use **super()** Function inside \__init\__() method of **Child Class**.
 - **Inheritance** enables us to **Define** a **Class** that takes all the functionality from a **Parent Class** and allows us to **Add** more.
 
+### Multiple Inheritance
+- A **Class** can be **Derived** from more than one **Base Class** 
+
+``` Python
+class Base1:
+    pass
+
+class Base2:
+    pass
+
+class MultiDerived(Base1, Base2):
+    pass
+```
+
+### Method Overriding
+- When the \__init\__() method is Defined in both Classes (Parent | Base and Child | Derived) Class, the method in **Derived Class** overrides the **Base Class**.
+
 ``` Python
 class BaseClass:
   Body of base class
