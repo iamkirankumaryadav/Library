@@ -28,7 +28,7 @@ Python Class Names are written in **Capitalized Words**
 - You can give any number of **Parameters**
 - First Parameter will always be a variable **Self**
 
-```
+``` Python
 class Student:
     def __init__(self, name, age):
         self.name = name
