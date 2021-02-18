@@ -46,7 +46,7 @@ class Student:
 ### Constructor 
 - Class Functions that begins with double Underscore (\__init\__) are **Special Functions**
 
-### \__init\_()
+### \_\_init\_\_()
 
 - Like a Constructor Method (**Initialize** an **Object**)
 - Evertime a New Object is Created, __init__() Sets the **Initial State** of the Object.
@@ -93,7 +93,7 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 - A Way of Creating a New Class for using Details of an Existing Class without Modifying it.
 - The Newly Formed Class is known as a **Derived** Class (**Child Class**)
 - The Pre Existing Class is Known as a **Base** Class (**Parent Class**)
-- To use the \__init\__() method of the **Parent Class**, use **super()** Function inside \__init\__() method of **Child Class**.
+- To use the \_\_init\_\_() method of the **Parent Class**, use **super()** Function inside \_\_init\_\_() method of **Child Class**.
 - **Inheritance** enables us to **Define** a **Class** that takes all the functionality from a **Parent Class** and allows us to **Add** more.
 
 ### Multiple Inheritance
@@ -126,7 +126,7 @@ class Derived2(Derived1):
 ```
 
 ### Method Overriding
-- When the \__init\__() method is Defined in both Classes (Parent | Base and Child | Derived) Class, the method in **Derived Class** overrides the **Base Class**.
+- When the \_\_init\_\_() method is Defined in both Classes (Parent | Base and Child | Derived) Class, the method in **Derived Class** overrides the **Base Class**.
 
 ``` Python
 class BaseClass:
@@ -139,7 +139,7 @@ class DerivedClass(BaseClass):
 ### Encapsulation
 - **Restrict Access** to Methods and Variables of Class.
 - Prevents Data from **Direct Modification**.
-- We Denote **Private Attribute** using single underscore(\_) or double underscore (\__)
+- We Denote **Private Attribute** using single underscore(\_) or double underscore (\_\_)
 
 ### Polymorphism
 - Ability to use a common **Interface** for Multiple forms (**Data Type**)
@@ -166,29 +166,29 @@ class DerivedClass(BaseClass):
 
 ### Overloading Arithmetic and Logical Operators 
 
-| Operator            | Expression	| Special Function      |
-| :---                | :---:       | :---:                 |
-| Addition            | p1 + p2	    | p1.\_\_add\_\_(p2)    |
-| Subtraction         |	p1 - p2	    | p1.\_\_sub\_\_(p2)    | 
-| Multiplication      |	p1 * p2	    | p1.\__mul\__(p2)      | 
-| Power               |	p1 ** p2	| p1.\__pow\__(p2)      |
-| Division            |	p1 / p2	    | p1.\__truediv\__(p2)  |
-| Floor Division      |	p1 // p2	| p1.\__floordiv\__(p2) | 
-| Remainder (modulo)  |	p1 % p2	    | p1.\__mod\__(p2)      |
-| Bitwise Left Shift  |	p1 << p2	| p1.\__lshift\__(p2)   | 
-| Bitwise Right Shift | p1 >> p2	| p1.\__rshift\__(p2)   |
-| Bitwise AND         | p1 & p2	    | p1.\__and\__(p2)      |
-| Bitwise OR          | p1 \| p2    | p1.\__or\__(p2)       |
-| Bitwise XOR         |	p1 ^ p2	    | p1.\__xor\__(p2)      |
-| Bitwise NOT         | ~p1	        | p1.\__invert\__()     |
+| Operator            | Expression	| Special Function        |
+| :---                | :---:       | :---:                   |
+| Addition            | p1 + p2	    | p1.\_\_add\_\_(p2)      |
+| Subtraction         |	p1 - p2	    | p1.\_\_sub\_\_(p2)      | 
+| Multiplication      |	p1 * p2	    | p1.\_\_mul\_\_(p2)      | 
+| Power               |	p1 ** p2	| p1.\_\_pow\_\_(p2)      |
+| Division            |	p1 / p2	    | p1.\_\_truediv\_\_(p2)  |
+| Floor Division      |	p1 // p2	| p1.\_\_floordiv\_\_(p2) | 
+| Remainder (modulo)  |	p1 % p2	    | p1.\_\_mod\_\_(p2)      |
+| Bitwise Left Shift  |	p1 << p2	| p1.\_\_lshift\_\_(p2)   | 
+| Bitwise Right Shift | p1 >> p2	| p1.\_\_rshift\_\_(p2)   |
+| Bitwise AND         | p1 & p2	    | p1.\_\_and\_\_(p2)      |
+| Bitwise OR          | p1 \| p2    | p1.\_\_or\_\_(p2)       |
+| Bitwise XOR         |	p1 ^ p2	    | p1.\_\_xor\_\_(p2)      |
+| Bitwise NOT         | ~p1	        | p1.\_\_invert\_\_()     |
 
 ### Overloading Comparison Operators 
 
-| Operator	               | Expression | Special Functions   |
-| :---                     | :---:      | :---:               |
-| Less than	               | p1 < p2	| p1.\__lt\__(p2)     |
-| Less than or equal to    | p1 <= p2	| p1.\__le\__(p2)     |
-| Equal to	               | p1 == p2	| p1.\__eq\__(p2)     |
-| Not equal to	           | p1 != p2	| p1.\__ne\__(p2)     | 
-| Greater than	           | p1 > p2	| p1.\__gt\__(p2)     |
-| Greater than or equal to | p1 >= p2	| p1.\__ge\__(p2)     |
+| Operator	               | Expression | Special Functions     |
+| :---                     | :---:      | :---:                 |
+| Less than	               | p1 < p2	| p1.\_\_lt\_\_(p2)     |
+| Less than or equal to    | p1 <= p2	| p1.\_\_le\_\_(p2)     |
+| Equal to	               | p1 == p2	| p1.\_\_eq\_\_(p2)     |
+| Not equal to	           | p1 != p2	| p1.\_\_ne\_\_(p2)     | 
+| Greater than	           | p1 > p2	| p1.\_\_gt\_\_(p2)     |
+| Greater than or equal to | p1 >= p2	| p1.\_\_ge\_\_(p2)     |
