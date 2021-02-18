@@ -20,7 +20,7 @@ class Student:
 
 Python Class Names are written in **Capitalized Words**
 
-**__\init_()***
+**\__init_()**
 - Like a Constructor Method (**Initialize** an **Object**)
 - Evertime a New Object is Created, __init__() Sets the **Initial State** of the Object.
 - Method is called when any new **Instance** of an **Object**  is Created.
