@@ -164,7 +164,7 @@ class DerivedClass(BaseClass):
 - But it does not Performs Same Operations on **User Defined Class**
 - we need to implement **\__add\__()** Function in the Class.
 
-### Special Function
+### Overloading Arithmetic and Logical Operators 
 
 | Operator            | Expression	| Special Function    |
 | :---                | :---:       | :---:               |
@@ -181,3 +181,14 @@ class DerivedClass(BaseClass):
 | Bitwise OR          | p1 \| p2    | p1.__or__(p2)       |
 | Bitwise XOR         |	p1 ^ p2	    | p1.__xor__(p2)      |
 | Bitwise NOT         | ~p1	        | p1.__invert__()     |
+
+### Overloading Comparison Operators 
+
+| Operator	               | Expression | Special Functions |
+| :---                     | :---:      | :---:             |
+| Less than	               | p1 < p2	| p1.__lt__(p2)     |
+| Less than or equal to    | p1 <= p2	| p1.__le__(p2)     |
+| Equal to	               | p1 == p2	| p1.__eq__(p2)     |
+| Not equal to	           | p1 != p2	| p1.__ne__(p2)     | 
+| Greater than	           | p1 > p2	| p1.__gt__(p2)     |
+| Greater than or equal to | p1 >= p2	| p1.__ge__(p2)     |
