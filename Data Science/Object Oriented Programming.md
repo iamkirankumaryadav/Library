@@ -110,6 +110,21 @@ class MultiDerived(Base1, Base2):
     pass
 ```
 
+### Multi Level Inheritance
+- Inherit from **Derived Class**
+- Features of **Base Class** and **Derived Class** are inherited into a **New Derived Class**.
+
+``` Python
+class Base:
+    pass
+
+class Derived1(Base):
+    pass
+
+class Derived2(Derived1):
+    pass
+```
+
 ### Method Overriding
 - When the \__init\__() method is Defined in both Classes (Parent | Base and Child | Derived) Class, the method in **Derived Class** overrides the **Base Class**.
 
@@ -142,3 +157,5 @@ class DerivedClass(BaseClass):
 - Makes Program easy to understand
 - **Class** is Sharable, Code can be **Reused**.
 - Data is **Safe** and **Secure** with **Data Abstraction**.
+
+### Operator Overloading in Python
