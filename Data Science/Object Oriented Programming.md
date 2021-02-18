@@ -77,7 +77,16 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 - A Way of Creating a New Class for using Details of an Existing Class without Modifying it.
 - The Newly Formed Class is known as a **Derived** Class (**Child Class**)
 - The Pre Existing Class is Known as a **Base** Class (**Parent Class**)
-- To use the \__init\__() method of the **Parent Class** use **super()** Function inside \__init\__() method of **Child Class*
+- To use the \__init\__() method of the **Parent Class** use **super()** Function inside \__init\__() method of **Child Class**
+
+### Encapsulation
+- **Restrict Access** to Methods and Variables of Class.
+- Prevents Data from **Direct Modification**.
+- We Denote **Private Attribute** using single underscore(\_) or double underscore (\__)
+
+### Polymorphism
+- Ability to use a common **Interface** for Multiple forms (**Data Type**)
+- Create a Common Function | Method that can be used by two different Classes.
 
 ### Important Concepts in Class
 1. Define a **Class**.
@@ -86,3 +95,8 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 4. Use **Inheritance** to Create **Child Classes** from a **Parent Class**.
 5. Reference a method in a **Parent Class** using **super()**
 6. Check if an **Object** inherits from another Class using **isinstance()** 
+
+### Benefits of Object Oriented Programming
+- Makes Program easy to understand
+- **Class** is Sharable, Code can be **Reused**.
+- Data is **Safe** and **Secure** with **Data Abstraction**.
