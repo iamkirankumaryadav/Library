@@ -33,3 +33,8 @@ def greet(*names):
 
 greet("Kirankumar", "Paramveer", "Gaurav", "Pranit")
 ```
+
+### Gloabal Keyword
+- Variable created **inside** a Function is a **Local** variable by default.
+- Variable created **outside** a Function is a **Global** variable by default.
+- To Declare **Global** variable inside a Function use **global** Keyword
