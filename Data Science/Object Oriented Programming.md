@@ -151,12 +151,12 @@ class Derived(Base):
 2. Instantiate an **Object** a **Class**.
 3. Use **Attributes** and **Methods** to define the **Properties** and **Behaviors** of an Object.
 4. Use **Inheritance** to Create **Child Classes** from a **Parent Class**.
-5. Reference a method in a **Parent Class** using **super()**
+5. Reference a Method in a **Parent Class** using **super()**
 6. Check if an **Object** inherits from another Class using **isinstance()** 
 
 ### Benefits of Object Oriented Programming
-- Makes Program easy to understand
-- **Class** is Sharable, Code can be **Reused**.
+- Makes Program **Easy** to understand
+- Class is **Sharable**, Code can be **Reused**.
 - Data is **Safe** and **Secure** with **Data Abstraction**.
 
 ### Operator Overloading in Python
