@@ -3,8 +3,8 @@
 ### User Defined Function
 
 ### Parameter vs Argument
-- **Parameter** : Defined with Function
-- **Argumnet** : Passed to Parameter at the Time of **Function Call**
+- **Parameter** : **Defined** with Function
+- **Argument** : Passed to Parameter at the Time of **Function Call**
 
 ``` Python
 def function(parameter 1, parameter 2):
