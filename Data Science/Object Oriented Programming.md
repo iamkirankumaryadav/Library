@@ -38,9 +38,9 @@ class Student:
 - No **Memory** or **Storage* is allocated.
 
 ### Type of Objects 
-1. Class Object
+1. Class Object : Instance of Class
 2. Instance Object
-3. Function Object
+3. Function Object : 
 4. Method Object
 
 ### Constructor 
