@@ -4,7 +4,7 @@ Structuring a Program by Bundling related **Properties** | **Attributes** and **
 
 ### Procedural Programming
 - Structures a Program like a Recipe in that it provides a Set of Steps, in the form of **Functions** and **Code Blocks**, that flow Sequentially in order to complete task.
-- 
+
 ### Class
 - A **Blueprint** for **Creating** an **Object**
 - An object could represent a person with **Properties** like a Name, Age and Address and **Behaviours** such as **Walking**, **Talking** and **Running**.
@@ -21,7 +21,7 @@ class Student:
 Python Class Names are written in **Capitalized Words**
 
 **__init_()***
-- A Constructor Method
+- Like a Constructor Method (**Initialize** an **Object**)
 - Evertime a New Object is Created, __init__() Sets the **Initial State** of the Object.
 - Method is called when any new **Instance** of an **Object**  is Created.
 - Initialize the **Attributes** of the Class.
