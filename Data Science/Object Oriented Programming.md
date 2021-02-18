@@ -162,14 +162,14 @@ class DerivedClass(BaseClass):
 - Same Operator behaves differently with different **Data Types** according to **context**.
 - (**+**) Operator will perform **Arithmetic Addition** on Two Numbers, **Merge** two Lists and **Concatenate** two Strings.
 - But it does not Performs Same Operations on **User Defined Class**
-- we need to implement **\__add\__()** Function in the Class.
+- we need to implement **\_\_add\_\_()** Function in the Class.
 
 ### Overloading Arithmetic and Logical Operators 
 
 | Operator            | Expression	| Special Function      |
 | :---                | :---:       | :---:                 |
-| Addition            | p1 + p2	    | p1.\__add\__(p2)      |
-| Subtraction         |	p1 - p2	    | p1.\__sub\__(p2)      | 
+| Addition            | p1 + p2	    | p1.\_\_add\_\_(p2)    |
+| Subtraction         |	p1 - p2	    | p1.\_\_sub\_\_(p2)    | 
 | Multiplication      |	p1 * p2	    | p1.\__mul\__(p2)      | 
 | Power               |	p1 ** p2	| p1.\__pow\__(p2)      |
 | Division            |	p1 / p2	    | p1.\__truediv\__(p2)  |
