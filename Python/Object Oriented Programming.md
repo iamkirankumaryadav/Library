@@ -106,7 +106,22 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 - **Functions** defined inside body of a **Class**
 - Defines **Behavior** | **Action** of an Object.
 
+### APIE
+
+**A** : Abstraction
+
+**P** : Polymorphism
+
+**I** : Inheritance
+
+**E** : Encapsulation
+
 ### Inheritance
+
+>  Base Class | Parent Class | Super Class
+
+> Derived Class | Child Class | Sub Class
+
 - A Way of Creating a New Class for using Details of an Existing Class without Modifying it.
 - The Newly Formed Class is known as a **Derived** Class (**Child Class**)
 - The Pre Existing Class is Known as a **Base** Class (**Parent Class**)
