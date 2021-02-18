@@ -130,9 +130,10 @@ class Derived2(Derived1):
 
 ``` Python
 class Base:
-  Body of Base class
+    pass
+  
 class Derived(Base):
-  Body of Derived class
+    pass
 
 ```
 
