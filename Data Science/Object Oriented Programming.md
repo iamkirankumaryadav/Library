@@ -73,6 +73,7 @@ Class Attributes are Defined Directly beneath the First Line of the Class Name.
 - Process of **Creating** an **Object** is called **Instantiation**.
 - Creating a **New Object Instance** from a Class is called **Instantiating** an Object.
 - Every New Object Instance is located at a different Memory Address.
+- The Process to **Create** an **Object** is similar to a **Function Call**. (ObjectName = ClassName())
 
 ### Methods
 - **Functions** defined inside body of a **Class**
