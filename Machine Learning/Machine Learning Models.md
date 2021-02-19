@@ -10,7 +10,7 @@ A. Regression
 
 - Output is **Continuous**.
 
-### 1.Linear Regression 
+### 1. Linear Regression 
 
 > Simple Linear Regression : Find the Line that **Fits** the Data.
 
@@ -18,11 +18,11 @@ A. Regression
 
 > Polynomial Regression : Find a Curve for **Best Fit**. 
  
-### 2.Decision Tree
+### 2. Decision Tree
 
 - Nodes 
 
-### 3.Random Forests (Ensemble Learning Technique)
+### 3. Random Forests (Ensemble Learning Technique)
 
 - Multiple Decision Tree
 
@@ -32,7 +32,7 @@ A. Regression
 
 - Reduces Risk of **Error** and **Overfitting**.
 
-### 4.Neural Network
+### 4. Neural Network
 
 - Multi Layered Model inspired by **Human Brain**
 
@@ -46,25 +46,27 @@ B. Classififcation
 
 - Output is **Discrete**
 
-### 1.Logistic Regression 
+### 1. Logistic Regression 
 
 - Probability of Finite Number of Outcomes.
 
 - Output values can be between 0 and 1
 
-### 2.Support Vector Machine
+### 2. Support Vector Machine
 
 - Find **Hyperplane** in **N Dimensional Space** that can distinctly classify the data points.
 
-### 3.Naive Bayes
+### 3. Naive Bayes
 
 - Probabilistic Machine Learning Model (Likelihood, Prior Probability and Posterior Probability)
 
-### 4.Decision Tree
+- Probability of **Event A** if **Event B** has already occured.
 
-### 5.Random Forest
+### 4. Decision Tree
 
-### 6.Neural Network 
+### 5. Random Forest
+
+### 6. Neural Network 
 
 All follow Same Process in Regression and Classification the only difference is Output 
 
@@ -77,7 +79,7 @@ All follow Same Process in Regression and Classification the only difference is 
 
 - Find **Patterns** and **Relationships** from Input Data without References (Labels)
 
-### A.Clustering
+### A. Clustering
 
 - Grouping of Data Points 
 
@@ -91,7 +93,7 @@ All follow Same Process in Regression and Classification the only difference is 
  
 3. Density Based
 
-### B.Dimensionality Reduction
+### B. Dimensionality Reduction
 
 - Reducing the Number of **Irrelevant Features**
 
