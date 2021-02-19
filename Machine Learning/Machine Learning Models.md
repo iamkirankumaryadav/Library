@@ -2,7 +2,7 @@
 
 ### Supervised Learning
 
-A. Regression
+### A. Regression
 
 - Predict Dependent Variable on the basis of **Independent Features**
 
@@ -38,7 +38,7 @@ A. Regression
 
 - Nodes, Edges and Layers   
 
-B. Classififcation
+### B. Classififcation
 
 - Predict **Dependent Variable**(Categories of Labels) on the basis of **Independent Features**
 
