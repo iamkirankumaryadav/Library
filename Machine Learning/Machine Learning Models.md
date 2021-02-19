@@ -62,6 +62,8 @@
 
 - Probability of **Event A** if **Event B** has already occured.
 
+> P(**A**|**B**) = P(**B**|**A**) / P(**B**)
+
 ### 4. Decision Tree
 
 ### 5. Random Forest
