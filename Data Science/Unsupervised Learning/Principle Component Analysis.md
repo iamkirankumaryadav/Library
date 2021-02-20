@@ -4,7 +4,7 @@
 
 **Dimensionally** Reduction Algorithm.
 
-One of the easiest and most intuitive ways to reduce the **Dimensions** | **Attributes** | **Features** of a Dataset.
+One of the easiest and most intuitive ways to reduce the number of **Dimensions** | **Attributes** | **Features** of a Dataset.
 
 Identifying the **Hyperplane** closest to the Dataset
 
