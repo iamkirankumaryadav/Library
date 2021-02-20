@@ -36,7 +36,7 @@
 
 ### Steps of PCA
 
-1. Standardization of the Data (Scaling of Data)
+1. Standardization of the Data (Scaling of data such that all variables and their values lie within similar range)
 2. Compute Principal Components (on Scaled Data)
 3. Reduce Dimensions 
 4. Apply Machine Learning Technique 
