@@ -52,6 +52,7 @@
 
 - [Chris Albon](https://chrisalbon.com/)
 - [Real Python](https://realpython.com/)
+- [The Clever Programmer](https://thecleverprogrammer.com/)
 
 <h2 name="ai">Artificial Intelligence</h2>
 
