@@ -14,4 +14,6 @@ The Model gets confused if very large number of **Features** are passed at the T
 
 PCA Converts the **Highly Correlated Data** into **Clusters**.
 
+The Increasing Number of Dimenisons is a **Curse**, it decreases the **Accuracy** of Model.
+
 
