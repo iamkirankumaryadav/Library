@@ -43,5 +43,5 @@
 
 ### Covariance
 - Covariance expresses the **Correlation** between different variables in the Dataset.
-- It is essential to identify heavily Dependent Variables because they contain **Biased** and **Redundant** information.
+- It is essential to identify **Heavily Dependent Variables** because they contain **Biased** and **Redundant** information.
 - It reduces the overall **Performance** of the model.
