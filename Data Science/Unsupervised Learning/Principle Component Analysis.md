@@ -4,6 +4,8 @@
 
 - **Dimensionally** Reduction Algorithm.
 
+- Identify **Correlations** and **Patterns** in a **Data Set** so that it can be **Transformed** into a **Low Dimension Data Set**. 
+
 - Remove **Inconsistencies**, **Redundant** and **Highly Correlated** Data.
 
 - One of the easiest and most intuitive ways to reduce the number of **Dimensions** | **Attributes** | **Features** of a Dataset.
