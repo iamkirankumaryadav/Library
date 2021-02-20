@@ -22,4 +22,4 @@
 
 - The **Curse of Dimensionality** increases with the Increase in the number of **Dimensions**.
 
--  It is said that Large the Amount of Data to Train the Model, Better gets the Model for Prediction, but Records (Rows) should be large not Features.
+-  It is said that Model is Trained well with large the Amount of Data, but Records (Rows) should be more not Features.
