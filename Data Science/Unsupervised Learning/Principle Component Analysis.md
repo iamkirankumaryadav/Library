@@ -10,6 +10,8 @@
 
 - Remove **Inconsistencies**, **Redundant** and **Highly Correlated** Data.
 
+- **Highly Correlated Features** provides a very **Biased** output. 
+
 - One of the easiest and most intuitive ways to reduce the number of **Dimensions** | **Attributes** | **Features** of a Dataset.
 
 - Reducing Dimension is a part of **Data Preprocessing**.
