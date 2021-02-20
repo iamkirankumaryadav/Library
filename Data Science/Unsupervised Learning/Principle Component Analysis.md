@@ -1,23 +1,23 @@
 # Principle Component Analysis | PCA
 
-**Unsupervised** Machine Learning Algorithm.
+- **Unsupervised** Machine Learning Algorithm.
 
-**Dimensionally** Reduction Algorithm.
+- **Dimensionally** Reduction Algorithm.
 
-One of the easiest and most intuitive ways to reduce the number of **Dimensions** | **Attributes** | **Features** of a Dataset.
+- One of the easiest and most intuitive ways to reduce the number of **Dimensions** | **Attributes** | **Features** of a Dataset.
 
-Reducing Dimension is a part of **Data Preprocessing**.
+- Reducing Dimension is a part of **Data Preprocessing**.
 
-Identifying the **Hyperplane** closest to the Dataset
+- Identifying the **Hyperplane** closest to the Dataset
 
-Main Aim is to reduce **Overfitting**, try to reduce the **Complexity** of the Model.
+- Main Aim is to reduce **Overfitting**, try to reduce the **Complexity** of the Model.
 
-The Model gets confused if very large number of **Features** are passed at the Time of **Training**.
+- The Model gets confused if very large number of **Features** are passed at the Time of **Training**.
 
-PCA Converts the **Highly Correlated Data** into **Clusters**.
+- PCA Converts the **Highly Correlated Data** into **Clusters**.
 
-The Increasing Number of Dimenisons is a **Curse**, it decreases the **Accuracy** of Model.
+- The Increasing Number of Dimenisons is a **Curse**, it decreases the **Accuracy** of Model.
 
-Never Select Feature which Creates lot of **Variance**.
+- Never Select Feature which Creates lot of **Variance**.
 
 
