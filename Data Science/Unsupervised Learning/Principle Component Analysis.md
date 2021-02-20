@@ -16,4 +16,6 @@ PCA Converts the **Highly Correlated Data** into **Clusters**.
 
 The Increasing Number of Dimenisons is a **Curse**, it decreases the **Accuracy** of Model.
 
+Never Select Feature which Creates lot of **Variance**.
+
 
