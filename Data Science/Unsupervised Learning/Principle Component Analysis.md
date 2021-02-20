@@ -6,6 +6,8 @@
 
 One of the easiest and most intuitive ways to reduce the number of **Dimensions** | **Attributes** | **Features** of a Dataset.
 
+Reducing Dimension is a part of **Data Preprocessing**.
+
 Identifying the **Hyperplane** closest to the Dataset
 
 Main Aim is to reduce **Overfitting**, try to reduce the **Complexity** of the Model.
