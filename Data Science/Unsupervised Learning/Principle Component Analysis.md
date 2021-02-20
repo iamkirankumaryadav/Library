@@ -4,7 +4,7 @@
 
 - **Dimensionally** Reduction Algorithm.
 
-- Identify **Correlations** and **Patterns** in a **Data Set** so that it can be **Transformed** into a **Low Dimension Data Set**. 
+- Identify **Correlations** and **Patterns** in a **Data Set** so that it can be **Transformed** into a **Low Dimension Data Set** without Information Loss. 
 
 - Remove **Inconsistencies**, **Redundant** and **Highly Correlated** Data.
 
