@@ -20,4 +20,6 @@
 
 - Never Select Feature which Creates lot of **Variance**.
 
+- The **Curse of Dimensionality** increases with the Increase in the number of **Dimensions**.
+
 
