@@ -40,3 +40,8 @@
 2. Compute Principal Components (on Scaled Data)
 3. Reduce Dimensions 
 4. Apply Machine Learning Technique 
+
+### Covariance
+- Covariance expresses the **Correlation** between different variables in the Dataset.
+- It is essential to identify heavily Dependent Variables because they contain **Biased** and **Redundant** information.
+- It reduces the overall **Performance** of the model.
