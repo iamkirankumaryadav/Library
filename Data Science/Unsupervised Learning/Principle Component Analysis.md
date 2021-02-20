@@ -2,6 +2,8 @@
 
 - **Unsupervised** Machine Learning Algorithm.
 
+- It is **not** any Machine Learning Technique, it just reduces **Dimensions** | **Features** of the Dataset.
+
 - **Dimensionally** Reduction Algorithm.
 
 - Identify **Correlations** and **Patterns** in a **Data Set** so that it can be **Transformed** into a **Low Dimension Data Set**. 
@@ -31,3 +33,10 @@
 - The **Curse of Dimensionality** increases with the Increase in the number of **Dimensions**.
 
 -  It is said that Model is trained well with large the amount of data, but records (Rows) should be more not features.
+
+### Steps of PCA
+
+1. Standardization of the Data (Scaling of Data)
+2. Compute Principal Components (on Scaled Data)
+3. Reduce Dimensions 
+4. Apply Machine Learning Technique 
