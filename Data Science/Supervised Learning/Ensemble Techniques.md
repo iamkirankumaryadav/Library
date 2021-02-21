@@ -18,7 +18,7 @@
 ### 1. Random Forest
 
 - Dataset is divided and passed as sample of Datasets to **Multiple Base Learners** (Decision Tree)
-- Training Sample consist of **Row Sampling** and **Column Sampling** with **Replacemen**.
+- Training Sample consist of **Row Sampling** and **Column Sampling** with **Replacement**.
 
 - If I Create Decision Tree to its complete depth, problem of **Overfitting** will occur. 
 - But when we combine Multiple Decision Trees, **High Variance** gets converted to **Low Variance**, i.e. Reduces **Overfitting**
