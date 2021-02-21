@@ -50,6 +50,5 @@
 
 ### Hard Voting vs Soft Voting
 
-- Hard Voting is **Majority Voting**
-- Soft Voting Provides **Probability** of Class.
-- **Mean** of Probability is Calculated for Class.
+- Hard Voting : **Majority Voting** is more important.
+- Soft Voting : **Predictive Probability** of Class is important, **Mean** of Probability is Calculated for each Class.
