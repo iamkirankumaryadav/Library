@@ -12,6 +12,7 @@
 - Each Learning Model will be trained on its particular sample of Data.
 - Voting Classifier is used to find the Final Result (**Aggregation**)
 - Combine Weak Base Learners into **Strong Learner** in terms of **Classifier** or **Prediction**.
+- Test Sample is passed to each Model for the Output.
 - Improves **Accuracy**. 
 
 ### 1. Random Forest
@@ -30,7 +31,10 @@
 ![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
 - Base Learners are Created **Sequentially** and the Sample of Data Sets are passed for Training.
-- If the portion of Dataset is Incorrectly classified then that portion is transfered to next Base Learner.
+- **Weight** is attached with each and every **Instance** | Row | Record.
+- If the portion of Dataset is Incorrectly classified then that portion is transfered to next Base Learner for Training again.
+- Weights are **Adjusted** before each Training and Miss Classified Instances are focused with High Priority.
+- Test Sample is passed to each Model for the Output.
 
 ### 1. ADABOOST
 
