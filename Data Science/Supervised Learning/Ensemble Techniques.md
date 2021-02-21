@@ -46,3 +46,9 @@
 ### 2. Gradient Boostinf
 
 ### 3. XGBoost
+
+
+### Hard Voting vs Soft Voting
+
+- Hard Voting is **Majority Voting**
+- Soft Voting Provides **Probability** of Class.
