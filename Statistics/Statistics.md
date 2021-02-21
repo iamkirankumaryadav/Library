@@ -13,7 +13,7 @@
 - If Dataset is very large the posistion of **Median** : (n + 1) / 2
 
 3. **Mode** 
-- Most Frequently observed Data Value | Data Point.
+- Most Frequently observed **Data Value** | **Data Point**.
 
 ### Measures of Spread
 
@@ -35,7 +35,7 @@
 > The **Effect** of **Outliers** on **Spread** and **Centre**
 
 -  A Data Value that is numerically **Distant** from a Dataset.
--  Outlier Heavily affects the **Mean** and **Range**. (Outlier can be very High(**Max**) or Low(**Min**) value)
+-  Outlier heavily affects the **Mean** and **Range** (Outlier can be very High(**Max**) or Low(**Min**) value)
 -  Standard Deviation is also affected due to Outlier because mean is considered for calculation of Std.
 -  There is very low or no affect of **Outlier** on the **Median** because Median only cares about **centre**.
 -  There is no affect of **Outlier** on the **Mode** because Mode only cares about **most frequent** data value.
