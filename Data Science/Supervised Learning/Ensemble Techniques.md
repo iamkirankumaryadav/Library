@@ -4,6 +4,8 @@
 
 ### A. Bagging (Bootstrap Aggregation)
 
+![Ensemble Learning](Image/EnsembleBagging.svg)
+
 - Dataset is divided and passed as sample of Datasets to **Multiple Base Learners**. (Base Learner can be any **ML Algorithm**)
 - We can use Different **Algorithms** and Different **Training Set**.
 - Dataset is passed with **Row Sampling** with **Replacement** (**Bootstrap**)
