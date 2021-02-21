@@ -4,7 +4,7 @@
 
 ### A. Bagging (Bootstrap Aggregation)
 
-![Ensemble Learning](Image/EnsembleBagging.svg)
+![Ensemble Bagging](Image/EnsembleBagging.svg)
 
 - Dataset is divided and passed as sample of Datasets to **Multiple Base Learners**. (Base Learner can be any **ML Algorithm**)
 - We can use Different **Algorithms** and Different **Training Set**.
@@ -26,6 +26,8 @@
 - Classifier : **Majority Vote**.
 
 ### B. Boosting
+
+![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
 - Base Learners are Created **Sequentially** and the Sample of Data Sets are passed for Training.
 - If the portion of Dataset is Incorrectly classified then that portion is transfered to next Base Learner.
