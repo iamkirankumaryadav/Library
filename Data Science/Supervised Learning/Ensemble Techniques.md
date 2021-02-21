@@ -52,3 +52,4 @@
 
 - Hard Voting is **Majority Voting**
 - Soft Voting Provides **Probability** of Class.
+- **Mean** of Probability is Calculated for Class.
