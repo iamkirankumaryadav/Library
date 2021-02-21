@@ -1,6 +1,6 @@
 # Ensemble Techniques
 
-> Combining Multiple Models.
+> Combining Multiple **Models** (Homogeneous | Heterogeneous).
 
 ### A. Bagging (Bootstrap Aggregation)
 
