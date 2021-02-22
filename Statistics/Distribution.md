@@ -18,8 +18,9 @@
 - Event with only 1 Trial and 2 Possible Outcomes ( True or False | Yes or No | 1 or 0 ) 
 - We know the **Probability** of Outcome.
 - If probability of one outcome is **p**(1) the probability of an other outcome is **1 - p**(0).
-- E ( X ) = p or ( 1 - p ) ( **Expected Probability** of X ) | p > 1 - p
-- Variance : p ( 1 - p )
+- E ( X ) = p or ( 1 - p ) | p > 1 - p
+- **Expected Outcome** Probability of X : **p** | **Alternative Outcome** : **1 - p**
+- Variance : p * ( 1 - p )
 - A Coin flip | A Single True or False Question | Vote between 2 Parties.
 
 ### 3. Binomial Distribution
@@ -28,13 +29,10 @@
 - **Sequence** | **Trials** of **Identical Bernoulli Events**.
 - Flipping a Coin **Twice** | Rolling two Dies | Quiz of 10 True or False Questions.
 
-
-
-- Event with Frequency of Occurence (May happen or not) follows **Poisson Distribution** (Number of **Goals** in Football or Number of **Baskets** in Basketball).
-
-### B. **Poissson** Distrbution
-- Number of **Occurences**.
-- The Frequency with which an Event occurs within a specific interval. 
+### 4. Poisson Distribution
+- **X ~ Po ( lambda )** 
+- lambda : **Frequency** with which an **Event** happens or not within a specific interval of **Time**. 
+- Number of **Goals** in Football | Number of **Baskets** in Basketball.
 - e.g. a Fire Fly lights up 3 times in 10 Seconds.
 
 
