@@ -9,7 +9,7 @@
   <strong> SQL </strong> 
 </h3>
 
-<h3 align="center"> Books | Cheat Sheets | Notes | Platforms | <a href="#yt"> YouTube </a> | Articles | Documentations | Websites </h3>
+<h2 align="center"> Books | Cheat Sheets | Notes | Platforms | <a href="#yt"> YouTube </a> | Articles | Documentations | Websites </h2>
 
 
 
