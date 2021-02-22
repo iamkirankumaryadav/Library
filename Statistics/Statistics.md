@@ -76,7 +76,17 @@
 
 ### Percentile
 - Describe Percentage ( **%** ) of Data Values that Fall **At** or **Below** another **Data Value**. 
-- 50% is **Median** | 50% of Data Points are **as small** or smaller.
-- 50% is **Median** | 50% of Data Points are **as large** or larger.
+
+1. 25<sup>th</sup> **Percentile** | 1<sup>st</sup> **Quartile**
+- 25% of Data Points are **as small** or smaller.
+- 75% of Data Points are **as large** or larger.
+
+2. 50<sup>th</sup> **Percentile** | 2<sup>nd</sup> **Quartile** | Median
+- 50% of Data Points are **as small** or smaller.
+- 50% of Data Points are **as large** or larger.
+
+3. 75<sup>th</sup> **Percentile** | 3<sup>rd</sup> **Quartile**
+- 70% of Data Points are **as small** or smaller.
+- 25% of Data Points are **as large** or larger.
 
 
