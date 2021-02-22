@@ -35,7 +35,20 @@
 > The **Effect** of **Outliers** on **Spread** and **Centre**
 
 -  A Data Value that is numerically **Distant** from a Dataset.
--  Outlier heavily affects the **Mean** and **Range** (Outlier can be very High(**Max**) or Low(**Min**) value)
--  Standard Deviation is also affected due to Outlier because mean is considered for calculation of Std.
--  There is very low or no affect of **Outlier** on the **Median** because Median only cares about **centre**.
--  There is no affect of **Outlier** on the **Mode** because Mode only cares about **most frequent** data value.
+
+1. Effect on **Mean**
+-  Heavily affected
+
+2. Effect on **Median**
+-  **Low** or **No** affect on the **Median**
+-  Median only cares about **Centre**.
+
+3. Effect on **Mode**
+-  **No** affect on the **Mode** 
+-  Mode only cares about **Most Frequent** Data Value.
+
+4. Effect on **Range**
+-  **Heavily** affects the **Range** ( Outlier can be very High ( **Max** ) or Low ( **Min** ) value )
+
+6. Effect on **Standard Deviation**
+-  **Heavily** affected because **Mean** is considered while Calculating **Standard Deviation**.
