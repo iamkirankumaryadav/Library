@@ -52,3 +52,11 @@
 
 6. Effect on **Standard Deviation**
 -  **Heavily** affected because **Mean** is considered while Calculating **Standard Deviation**.
+
+### Five Number Summary
+
+1. Minimum : **Smallest** value in a Dataset.
+2. 1<sup>st</sup> Quartile | 25% | 25% of Data Values are smaller and 75% are larger.
+3. 2<sup>nd</sup> Quartile | **Median** | 50% of Data Values are smaller and 50% are larger the Median.
+4. 3<sup>rd</sup> Quartile | 75% | 75% of Data Values are smaller and 25% are larger.
+5. Maximum : **Largest** Value in a Dataset.
