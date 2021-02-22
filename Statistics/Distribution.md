@@ -5,7 +5,7 @@
 - **Finite** number of outcomes : Die | Picking a Card : 
 
 1. Uniform Distribution
-- **X ~ U(3,7)**
+- **X ~ U ( 3 , 7 )**
 - Variable **X** follows an **Uniform Distribution** ranging from 3 to 7.
 - Events with **Finite** outcomes. 
 - All the outcomes have Equal | **Same** Probability. 
@@ -13,7 +13,7 @@
 - Roll a Dice (1 | 2 | 3 | 4 | 5 | 6)
 
 2. Binomial Distribution
-- **X ~ B(n, p)**
+- **X ~ B ( n , p )**
 - Variable **X** follows a **Binomial Distribution** with **n** trials and **p** (probability | likelihood) to succeed on each **Individual Trial**.
 - Similar t0 Bernoulli Distribution but includes Iterations | **Trials**.
 - Flipping a Coin **Twice** | Rolling two Dies | Quiz of 10 True or False Questions.
