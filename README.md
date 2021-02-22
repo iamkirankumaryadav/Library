@@ -1,6 +1,6 @@
 <h1 align="center">My Knowledge Library 📚📝💼📦<h1>
 
-<h2 align="center" width="100%"> Data Science | Machine Learning | <a href="#ai">Artificial Intelligence</a> | [Python](https://docs.python.org/3/) | Statistics | SQL</h2>
+<h2 align="center" width="100%"> Data Science | Machine Learning | <a href="#ai">Artificial Intelligence</a> | <a href="https://docs.python.org/3/">Python</a> | Statistics | SQL</h2>
 
 <p align="center" width="100%"> Books | Cheat Sheets | Notes | Platforms | <a href="#yt">YouTube</a> | Articles | Documentations | Websites</p>
 
