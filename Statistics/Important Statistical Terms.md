@@ -79,3 +79,18 @@ Assumptions
 2. Combination
 - The Number of ways to choose **r** out of **n** Objects where Order doesn't matters.
 - C <sub>r</sub><sup>n</sup> = n! / (n-r)! * r!
+
+### 9. Bayes Theorem
+
+- Conditional Probability Statement
+- Probability of event **B** happening given that another event **A** has already happened.
+- P(A|B) = P(B|A) * P(A) / P(B)
+
+### 10. Probability Distributions
+
+- **Probabilities** of different possible outcomes in an experiment.
+
+Types of **Distribution**.
+
+A. **Normal** Distribution | **Gaussian** Distribution | **Bell Shaped Curve** 
+- Mean = 0 and Standard Deviation = 1
