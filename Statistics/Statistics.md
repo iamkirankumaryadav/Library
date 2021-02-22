@@ -58,19 +58,25 @@
 > Divide the Data into 4 Equal Quarters
 
 1. Minimum : **Smallest** value in a Dataset.
-2. 1<sup>st</sup> Quartile ( **Q1** ) : 25% of Data Values are smaller and 75% are larger.
-3. 2<sup>nd</sup> Quartile ( **Q2** ) : **Median** | 50% of Data Values are smaller and 50% are larger the Median.
-4. 3<sup>rd</sup> Quartile ( **Q3** ) : 75% of Data Values are smaller and 25% are larger.
+2. 1<sup>st</sup> **Quartile** ( **Q1** ) | 25<sup>th</sup> **Percentile** : 25% of Data Values are smaller and 75% are larger.
+3. 2<sup>nd</sup> **Quartile** ( **Q2** ) | 50<sup>th</sup> **Percentile** : **Median** | 50% of Data Values are smaller and 50% are larger the Median.
+4. 3<sup>rd</sup> **Quartile** ( **Q3** ) | 75<sup>th</sup> **Percentile** : 75% of Data Values are smaller and 25% are larger.
 5. Maximum : **Largest** Value in a Dataset.
 
 > **Five Number Summary** can be visually represented using **Boxplot**.
 - Horizontal Line on both ends of Boxplots are **Whiskers**.
 - Box is called **Interquartile Range** ( **IQR** ).
-- **IQR : Q3 = Q1** 
+- **IQR = Q3 - Q1** 
 
 > Data Value is considered as **Outlier** 
 - Data Value **<** Q1 - 1.5 * ( **IQR** ) 
 - Data Value **>** Q3 + 1.5 * ( **IQR** ) 
 
 > **Outlier** is represented by dot ( **.** ) in **Boxplot** 
+
+### Percentile
+- Describe Percentage ( **%** ) of Data Values that Fall **At** or **Below** another **Data Value**. 
+- 50% is **Median** | 50% of Data Points are **as small** or smaller.
+- 50% is **Median** | 50% of Data Points are **as large** or larger.
+
 
