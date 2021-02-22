@@ -1,13 +1,13 @@
-<h1 align="center"> 📚📝 My Knowledge Library 💼📦 <h1>
+<h1 align="center"> 📚📝 My Knowledge Library 💼📦 </h1>
 
-<h5 align="center"> 
+<p align="center"> 
   <strong> Data Science </strong> | 
   <strong> Machine Learning </strong> | 
   <strong> <a href="#ai"> Artificial Intelligence </a> </strong> | 
   <strong> <a href="https://docs.python.org/3/"> Python </a> </strong> | 
   <strong> Statistics </strong> | 
   <strong> SQL </strong> 
-</h5>
+</p>
 
 <p align="center"> Books | Cheat Sheets | Notes | Platforms | <a href="#yt"> YouTube </a> | Articles | Documentations | Websites </p>
 
