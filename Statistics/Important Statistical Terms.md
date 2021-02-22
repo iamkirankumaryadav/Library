@@ -63,3 +63,19 @@ Assumptions
 - Take Sample from Dataset and Calculate its **Mean** of Sample.
 - If we Plot frequencies on Graph it will create a **Bell Curve**, also known as a **Normal Distribution**.
 - We can improve the **Accuracy** of the **Mean** and **Reduce** the **Standard Devation** of Larger Samples of Data.
+
+### 8. Combinations and Permutations
+
+- Different ways to **Select Objects** from the **Datasets** to form **Subsets**.
+- Permutation consider **Order** of Subset.
+- Combinaton do not consider **Order** of Subset.
+
+1. Permutation
+- A Permutation of n elements is an arrangement of those n elements in a **Definite Order**.
+- There are (**n!**) ways to **Arrange** elements in order.
+- P<sub>n,r</sub> = n! / (n-r)!
+- Number of **r** taken from **n** different elements.
+
+2. Combination
+- The Number of ways to choose **r** out of **n** Objects where Order doesn't matters.
+- C<sub>r</sub><sup>n</sup> = n! / (n-r)! * r!
