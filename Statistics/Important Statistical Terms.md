@@ -99,7 +99,32 @@ Assumptions
 - Population : All Data
 - Sample : Part of Data
 
-Types of **Distribution**.
+### Types of **Distribution**.
+
+- **Finite** number of outcomes : Die | Picking a Card : **Discrete** distribution.
+- **Infiinite** number of outcomes : Time | Distance : **Continuous** distribution.
+
+How to Read Distribution?
+
+### X ~ U(3,7)
+- Variable **X** follows an **Uniform Distribution** ranging from 3 to 7.
+
+### Discrete Events 
+- Events with Finite outcomes follows **Uniform Distribution | U(a,b))**. (Only One Coin Flip) 
+- Event with Two Outcomes per **Iterations** follows **Binomial Distribution**. (Coin Flip Iterations)
+- Events with only Two possible outcomes follows **Bernoulli Distribution**. (True or False | Yes or No | Male or Female)
+- Event with Frequency of Occurence (May happen or not) follows **Poisson Distribution** (Number of **Goals** in Football or Number of **Baskets** in Basketball).
+
+### Continuous Events
+- Events Normal in Nature. (Average Height of Person) follows **Normal Distribution**.
+- Events Normal in Nature but limited Sample follows **T Distribution**.
+- **Chi Squared Distribution** : Asymmetric Distribution Starts from 0 and only positive : Measure Goodness of Fit
+- Rapid changing Event follows **Exponential Distribution**.
+- Forecast and Prediction Events follows **Logistic Distribution**. (Which Team will Win, Weather Forecast)
+
+Uniform Distribution 
+- Outcomes with equal **Probability**
+- A Die, A Coin
 
 A. **Normal** Distribution | **Gaussian** Distribution | **Bell Shaped Curve** 
 - Mean = 0 and Standard Deviation = 1
@@ -108,3 +133,4 @@ B. **Poissson** Distrbution | Po(**lambda**)
 - Number of **Occurences**.
 - The Frequency with which an Event occurs within a specific interval. 
 - e.g. a Fire Fly lights up 3 times in 10 Seconds.
+
