@@ -71,7 +71,9 @@
 ### 2. Standard Normal Distribution 
 - Standardizing
 - **Transformation** : **Alter** every elements of a **Distribution** to get **New Distribution**.
+![AS](Image/AS.png)
 - **Addition** and **Subtraction** will move the Distribution on **X Axis** to **Left** or **Right**.
+![MD](Image/MD.png)
 - **Multiplication** and **Division** will **Contract** or **Expand** on **Y Axis**.
 
 
