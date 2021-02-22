@@ -24,7 +24,7 @@
 
 3. Binomial Distribution
 - **X ~ B ( n , p )**
-- Variable **X** follows a **Binomial Distribution** with **n** trials and **p** (probability | likelihood) of success in each **Individual Trial**.
+- Variable **X** follows a **Binomial Distribution** with **n** trials and **p** ( probability | likelihood ) of success in each **Individual Trial**.
 - **Sequence** | **Trials** of **Identical Bernoulli Events**.
 - Flipping a Coin **Twice** | Rolling two Dies | Quiz of 10 True or False Questions.
 
