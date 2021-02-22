@@ -78,4 +78,4 @@ Assumptions
 
 2. Combination
 - The Number of ways to choose **r** out of **n** Objects where Order doesn't matters.
-- C<sub>r</sub><sup>n</sup> = n! / (n-r)! * r!
+- C <sub>r</sub><sup>n</sup> = n! / (n-r)! * r!
