@@ -94,7 +94,10 @@ Assumptions
 - **Y** denotes **Actual Outcome** of an event.
 - **y** denotes **One possible outcome**.
 - **Mean** and **Variance** are the important terms considered in **Distribution**.
+
 - Variance : How **spread out** the data is? | How **far away** the values are from the mean.
+- Population : All Data
+- Sample : Part of Data
 
 Types of **Distribution**.
 
