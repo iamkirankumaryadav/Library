@@ -56,3 +56,10 @@ Assumptions
 
 - Divide **Population** into groups of Similar **Attributes**
 - Take **Random Samples** from each groups.
+
+### 7. Central Limit Theorem
+
+- The **Distribution** of Sample Mean approximates a **Normal Distribution**.
+- Take Sample from Dataset and Calculate its **Mean** of Sample.
+- If we Plot frequencies on Graph it will create a **Bell Curve**, also known as a **Normal Distribution**.
+- We can improve the **Accuracy** of the **Mean** and **Reduce** the **Standard Devation** of Larger Samples of Data.
