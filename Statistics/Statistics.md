@@ -86,7 +86,8 @@
 - 50% of Data Points are **as large** or larger.
 
 3. 75<sup>th</sup> **Percentile** | 3<sup>rd</sup> **Quartile**
-- 70% of Data Points are **as small** or smaller.
+- 75% of Data Points are **as small** or smaller.
 - 25% of Data Points are **as large** or larger.
 
+> Percentage and Percentile is **Different**
 
