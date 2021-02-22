@@ -1,6 +1,6 @@
 # My Knowledge Library 📚📝💼📦
 
-### Books | Cheat Sheets | Notes 
+### Books | Cheat Sheets | Notes | Platforms | YouTube | Articles
 
 1. Data Science
 
@@ -13,6 +13,8 @@
 5. Statistics
 
 6. SQL
+
+7. <a href="#yt">YouTube</a>
 
 ### Markdown
 
@@ -59,7 +61,7 @@
 - [Elements of **AI**](https://www.elementsofai.com/)
 - [Building **AI**](https://buildingai.elementsofai.com/)
 
-<h2 name="ai">YouTube</h2>
+<h2 name="yt">YouTube</h2>
 
 - [Data Professor]()
 - [Corey Scafer]()
