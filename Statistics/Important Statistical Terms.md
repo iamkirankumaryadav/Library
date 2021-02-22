@@ -29,3 +29,30 @@ Assumptions
 2. **Homoscedasticity** : The **Variance** of the **Residual** is the same for any value of **X**.
 3. **Independence** : **Observations** are **Independent** of each other.
 4. **Normality** : For any value of **X**, **Y** is normally distributed.
+
+### 5. Logistic Regression 
+
+1. Model the **Probability** of a **Discrete** Number of outcomes.
+2. Predict whether a person is **Alive** or **Dead** based on their **age**.
+3. **Sigmoid** function is used to get **Probability**.
+4. **Probability** can be converted to a **Binary Output**, either **1** or **0**.
+5. **Gradient Descent** and **Maximum Liklihood** are used to Adjust **Weights**.
+
+### 6. Sampling
+
+1. Simple Random Sampling
+
+- Selecting **Random Data Values** from the Dataset.
+
+2. Systematic Sampling
+
+- **Take** One Data Value, **Skip** a predefined amount (n), **Take** next Data Value.
+
+3. Cluster Sampling
+
+- Divide **Population** into Clusters and Select One entire **Cluster** as Samples.
+
+4. Stratified Sampling
+
+- Divide **Population** into groups of Similar **Attributes**
+- Take **Random Samples** from each groups.
