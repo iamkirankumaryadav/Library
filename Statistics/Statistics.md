@@ -27,12 +27,12 @@
 
 3. **Variance** (**S**<sup>2</sup>)
 
-> The **Effect** of **Transforming** Data on **Spread** and **Centre**
+### The **Effect** of **Transforming** Data on **Spread** and **Centre**
 
 - Measures of **Centre** are Affected by every **Mathematical Operations** (+ - * /)
 - Measures of **Spread** are only Affected by **Multiplication & Divison** (* and /)
 
-> The **Effect** of **Outliers** on **Spread** and **Centre**
+### The **Effect** of **Outliers** on **Spread** and **Centre**
 
 -  A Data Value that is numerically **Distant** from a Dataset.
 
