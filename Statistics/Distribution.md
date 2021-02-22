@@ -49,7 +49,6 @@
 
 - **X ~ N ( mean, variance )** 
 - Variable **X** follows a **Normal Distribution** with **Mean** and **Variance**. 
-- Mean = 0 and Standard Deviation = 1
 - Normal Events in Nature. 
 - Average Height of Person (**Exceptions** are considered as **Outliers**).
 - Majority of Data is centered around **Mean**.
@@ -62,15 +61,14 @@
 - **99.7 %** of Outcomes fall withins **3** Standard Deviation
 - **Outliers** are **Extremely Rare** in Normal Distribution.
 
-- **Normal Distribution** with **Limited Samples** follows **T Distribution**.
-- 
-- **Chi Squared Distribution** : Asymmetric Distribution Starts from 0 and only positive : Measure Goodness of Fit
-- Rapid changing Event follows **Exponential Distribution**.
-- Forecast and Prediction Events follows **Logistic Distribution**. (Which Team will Win, Weather Forecast)
-
 ### 2. Standard Normal Distribution 
+
+- **X ~ N ( mean = 0 , variance = 1 )** 
+- Variable **X** follows a **Normal Distribution** with **Mean** = 0 and **Variance** = 1. 
 - Standardizing
+- Moving Graph to the Left or Right until Mean = 0.
 - **Transformation** : **Alter** every elements of a **Distribution** to get **New Distribution**.
+- Z = X - Mean / Standard Deviation.
 
 ![AS](Image/AS.png)
 
@@ -80,5 +78,24 @@
 
 - **Multiplication** and **Division** will **Contract** or **Expand** on **Y Axis**.
 
+### 3. T Distribution
 
+- **X ~ t ( k )** 
+- Variable **X** follows a **t Distribution** with k **Degree of Freedom**.
+- **Small Sample Size** approximation of a Normal Distrbution.
+- Used for **Hypothesis Testing** with **Limited Data**.
+
+### 4. Chi Squared Distribution  
+
+- **X ~ chi<sup>2</sup> ( k )** 
+- Variable **X** follows a **chi<sup>2</sup> Distribution** with k **Degree of Freedom**.
+- E( X ) = k
+- Var ( X ) = 2k
+- Few Events in Real Life.
+- Used in **Statistical Analysis** ( **Hypothesis Testing** and Computing **Confidence Intervals** ).
+- Determine the **Goodness of Fitness**.
+- Distribution ( **X Axis** ) Starts from **Zero** and **Asymmetric** in Nature.
+- It is Squared therefore only **Positive**.
+- Rapid changing Event follows **Exponential Distribution**.
+- Forecast and Prediction Events follows **Logistic Distribution**. (Which Team will Win, Weather Forecast)
 
