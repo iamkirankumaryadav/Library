@@ -1,6 +1,6 @@
 # My Knowledge Library 📚📝💼📦
 
-### Books | Cheat Sheets | Notes | Platforms | YouTube | Articles
+### Books | Cheat Sheets | Notes | Platforms | YouTube | Articles | Documentations | Websites
 
 1. Data Science
 
