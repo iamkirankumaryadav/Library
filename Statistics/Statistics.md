@@ -10,7 +10,7 @@
 
 2. **Median**  
 - The Data Value that is in the **Middle** of an **Ordered** Dataset.
-- If Dataset is very large the posistion of **Median** : (n + 1) / 2
+- If Dataset is very large the posistion of **Median** : `( n + 1 ) / 2`
 
 3. **Mode** 
 - Most Frequently observed **Data Value** | **Data Point**.
