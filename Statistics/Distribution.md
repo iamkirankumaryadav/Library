@@ -84,6 +84,7 @@
 - Variable **X** follows a **t Distribution** with k **Degree of Freedom**.
 - **Small Sample Size** approximation of a Normal Distrbution.
 - Used for **Hypothesis Testing** with **Limited Data**.
+- Tails are Fat at the both ends.
 
 ### 4. Chi Squared Distribution  
 
