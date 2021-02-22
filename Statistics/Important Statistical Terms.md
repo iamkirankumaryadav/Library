@@ -89,8 +89,18 @@ Assumptions
 ### 10. Probability Distributions
 
 - **Probabilities** of different possible outcomes in an experiment.
+- **Frequency** of **Occurence**.
+- The **Likelihood** of an outcome.
+- **Y** denotes **Actual Outcome** of an event.
+- **y** denotes **One possible outcome**.
+- **Mean** and **Variance** are the important terms considered in **Distribution**.
 
 Types of **Distribution**.
 
 A. **Normal** Distribution | **Gaussian** Distribution | **Bell Shaped Curve** 
 - Mean = 0 and Standard Deviation = 1
+
+B. **Poissson** Distrbution | Po(**lambda**)
+- Number of **Occurences**.
+- The Frequency with which an Event occurs within a specific interval. 
+- e.g. a Fire Fly lights up 3 times in 10 Seconds.
