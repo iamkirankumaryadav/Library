@@ -12,20 +12,22 @@
 - Flip a Coin ( H | T )
 - Roll a Dice ( 1 | 2 | 3 | 4 | 5 | 6 )
 
-2. Binomial Distribution
-- **X ~ B ( n , p )**
-- Variable **X** follows a **Binomial Distribution** with **n** trials and **p** (probability | likelihood) to succeed on each **Individual Trial**.
-- Similar to Bernoulli Distribution but includes Iterations | **Trials**.
-- Flipping a Coin **Twice** | Rolling two Dies | Quiz of 10 True or False Questions.
-
-3. Bernoulli Distribution
-- **X ~ Bern( p )**
+2. Bernoulli Distribution
+- **X ~ Bern ( p )**
 - Variable **X** follows a **Bernoulli Distribution** with **p** ( probability | likelihood ) of success. 
 - Event with only 1 Trial and 2 Possible Outcomes ( True or False | Yes or No | 1 or 0 ) 
 - We know the **Probability** of Outcome.
 - If probability of one outcome is **p**(1) the probability of an other outcome is **1 - p**(0).
-- E(X) = p or 1 - p ( **Expected Probability** of X ) | p > 1 - p
+- E ( X ) = p or ( 1 - p ) ( **Expected Probability** of X ) | p > 1 - p
+- Variance : p ( 1 - p )
 - A Coin flip | A Single True or False Question | Vote between 2 Parties.
+
+3. Binomial Distribution
+- **X ~ B ( n , p )**
+- Variable **X** follows a **Binomial Distribution** with **n** trials and **p** (probability | likelihood) of success in each **Individual Trial**.
+- **Sequence** | **Trials** of **Identical Bernoulli Events**.
+- Flipping a Coin **Twice** | Rolling two Dies | Quiz of 10 True or False Questions.
+
 
 
 - Event with Frequency of Occurence (May happen or not) follows **Poisson Distribution** (Number of **Goals** in Football or Number of **Baskets** in Basketball).
