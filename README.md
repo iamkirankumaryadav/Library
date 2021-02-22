@@ -1,27 +1,8 @@
 # My Knowledge Library 📚📝💼📦
 
-### Books | Cheat Sheets | Notes | Platforms | YouTube | Articles | Documentations | Websites
+### Data Science | Machine Learning | <a href="#ai">Artificial Intelligence</a> | [Python](https://docs.python.org/3/) | Statistics | SQL
 
-1. Data Science
-
-2. Machine Learning
-
-3. <a href="#ai">Artificial Intelligence</a>
-
-4. [Python](https://docs.python.org/3/)
-
-5. Statistics
-
-6. SQL
-
-7. <a href="#yt">YouTube</a>
-
-### Markdown
-
-- [Markdown Guide](https://www.markdownguide.org/)
-
-- [Markdown Presentation](https://www.slideas.app/)
-
+### Books | Cheat Sheets | Notes | Platforms | <a href="#yt">YouTube</a> | Articles | Documentations | Websites
 
 ## Important Libraries
 
@@ -48,6 +29,12 @@
 11. [OpenCV](https://opencv.org/) : Real Time Computer Vision | Machine Learning | Image Processing | Identify Object
 
 12. [PyTorch](https://pytorch.org/) : Computer Vision | Natural Language Processing | Facebook's Research Group
+
+### Markdown
+
+- [Markdown Guide](https://www.markdownguide.org/)
+
+- [Markdown Presentation](https://www.slideas.app/)
 
 
 ## Data Science Specialist
