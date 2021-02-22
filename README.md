@@ -59,3 +59,9 @@
 - [Elements of **AI**](https://www.elementsofai.com/)
 - [Building **AI**](https://buildingai.elementsofai.com/)
 
+<h2 name="ai">YouTube</h2>
+
+- [Data Professor]()
+- [Corey Scafer]()
+- [Edureka]()
+- [Simplilearn]()
