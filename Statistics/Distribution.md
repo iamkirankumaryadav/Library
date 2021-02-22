@@ -1,10 +1,10 @@
 # Types of **Distribution**.
 
-#### Discrete Events.
+## Discrete Events.
 
 - **Finite** number of outcomes : Die | Picking a Card : 
 
-1. Uniform Distribution
+### 1. Uniform Distribution
 - **X ~ U ( 3 , 7 )**
 - Variable **X** follows an **Uniform Distribution** ranging from 3 to 7.
 - Events with **Finite** outcomes. 
@@ -12,7 +12,7 @@
 - Flip a Coin ( H | T )
 - Roll a Dice ( 1 | 2 | 3 | 4 | 5 | 6 )
 
-2. Bernoulli Distribution
+### 2. Bernoulli Distribution
 - **X ~ Bern ( p )**
 - Variable **X** follows a **Bernoulli Distribution** with **p** ( probability | likelihood ) of success. 
 - Event with only 1 Trial and 2 Possible Outcomes ( True or False | Yes or No | 1 or 0 ) 
@@ -22,7 +22,7 @@
 - Variance : p ( 1 - p )
 - A Coin flip | A Single True or False Question | Vote between 2 Parties.
 
-3. Binomial Distribution
+### 3. Binomial Distribution
 - **X ~ B ( n , p )**
 - Variable **X** follows a **Binomial Distribution** with **n** trials and **p** ( probability | likelihood ) of success in each **Individual Trial**.
 - **Sequence** | **Trials** of **Identical Bernoulli Events**.
@@ -32,13 +32,13 @@
 
 - Event with Frequency of Occurence (May happen or not) follows **Poisson Distribution** (Number of **Goals** in Football or Number of **Baskets** in Basketball).
 
-B. **Poissson** Distrbution
+### B. **Poissson** Distrbution
 - Number of **Occurences**.
 - The Frequency with which an Event occurs within a specific interval. 
 - e.g. a Fire Fly lights up 3 times in 10 Seconds.
 
 
-### Continuous Events.
+## Continuous Events.
 
 - **Infiinite** number of outcomes : Time | Distance : 
 
