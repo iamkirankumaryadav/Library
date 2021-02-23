@@ -1,4 +1,4 @@
-<h1 align="center"> 📚📝 My Knowledge Library 💼📦 </h1>
+<h3 align="center"> 📚📝 My Knowledge Library 💼📦 </h3>
 
 <p align="center"> 
   <strong> Data Science </strong> | 
@@ -13,7 +13,7 @@
 
 
 
-## Important Libraries
+### Important Libraries
 
 1. [**Pandas**](https://pandas.pydata.org/) : Data Analysis | Data Manipulation | Data Import and Export
 
@@ -46,20 +46,23 @@
 - [Markdown Presentation](https://www.slideas.app/)
 
 
-## Data Science Specialist
+### Data Science Specialist
 
 - [Chris Albon](https://chrisalbon.com/)
 - [Real Python](https://realpython.com/)
 - [The Clever Programmer](https://thecleverprogrammer.com/)
 
-<h2 name="ai">Artificial Intelligence</h2>
+<h3 name="ai">Artificial Intelligence</h3>
 
 - [Elements of **AI**](https://www.elementsofai.com/)
 - [Building **AI**](https://buildingai.elementsofai.com/)
 
-<h2 name="yt">YouTube</h2>
+<h3 name="yt">YouTube</h3>
 
 - [Data Professor]()
 - [Corey Scafer]()
 - [Edureka]()
 - [Simplilearn]()
+- [Data School]()
+- [Code Basics]()
+- [Free Code Camp]()
