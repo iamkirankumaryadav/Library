@@ -9,9 +9,16 @@
   <strong> SQL </strong> 
 </p>
 
-<p align="center"> Books | Cheat Sheets | Notes | Platforms | <a href="#yt"> YouTube </a> | Articles | Documentations | Websites </p>
-
-
+<p align="center"> 
+  <strong> Books </strong> | 
+  <strong> Cheat Sheets </strong> | 
+  <strong> Notes </strong> | 
+  <strong> Platforms </strong> | 
+  <strong> <a href="#yt"> YouTube </a> </strong> | 
+  <strong> Articles </strong> | 
+  <strong> Documentations </strong> | 
+  <strong> Websites </strong> 
+</p>
 
 ### Important Libraries
 
