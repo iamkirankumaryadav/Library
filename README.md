@@ -59,8 +59,7 @@
 
 <h3 name="ai">Artificial Intelligence</h3>
 
-- [Elements of **AI**](https://www.elementsofai.com/)
-- [Building **AI**](https://buildingai.elementsofai.com/)
+- [Elements of **AI**](https://www.elementsofai.com/) | [Building **AI**](https://buildingai.elementsofai.com/)
 
 <h3 name="yt">YouTube</h3>
 
