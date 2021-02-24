@@ -18,6 +18,8 @@
 
 - **Total Area** of any type of **Distribution** is always **1** or **100%**
 
+![Density Curve property](Image/Property.png)
+
 > Density Curve gives a better Picture about how the Dataset is distributed. 
 
 ## Discrete Events.
@@ -76,6 +78,11 @@
 - Normal Events in Nature. 
 - Average Height of Person (**Exceptions** are considered as **Outliers**).
 - Majority of Data is centered around **Mean**.
+
+![Mean](Image/Mean.png)
+![Large Standard Deviation](Image/Large.png)
+![Small Standard Deviation](Image/Small.png)
+
 - Graph is **Symmetric** around **Mean**.
 
 ![Parameter and Statistics](Image/PS.png)
