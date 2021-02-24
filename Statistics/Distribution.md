@@ -79,6 +79,7 @@
 - Graph is **Symmetric** around **Mean**.
 
 ![Parameter and Statistics](Image/PS.png)
+![Table](Image/Table.png)
 
 ### 68, 95, 99.7 Law
 
