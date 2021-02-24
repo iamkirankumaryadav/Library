@@ -9,6 +9,9 @@
 ![Regular to Relative](Image/RegularRelative.png)
 
 - **Regular Frequency Distribution** can be converted into **Relative Frequency Distribution** ( **Proportion** | **Percentage** )
+
+![How](Image/How.png)
+
 - Relative Frequency Distribution : **Divide** Each Interval **Data Points** with **Total** Number of Data Points in a Dataset.
 
 > Density Curve gives a better Picture about how the Dataset is distributed. 
