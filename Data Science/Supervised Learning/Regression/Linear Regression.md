@@ -106,3 +106,5 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 ### Extraploation
 
 - Making **Predictions** outside range of Data.
+
+![Extrapolation](Image/Extrapolation.png)
