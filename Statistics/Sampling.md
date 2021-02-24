@@ -18,3 +18,12 @@ b. Voluntary Sample
 - People Interested or Chosen Specially for Sample. ( Biased )
 
 > A **Good Sample** is one that is **Representative** of the entire **Population**.
+
+### Unbiased Sampling
+
+1. Simple Random Sampling
+- Each gets Equal Chance ( Chit in a Bowl )
+
+2. Startified Random Sampling
+- Population is Grouped based on **Attributes**
+- Part ( **Stratum** ) from each Population is Considered as Sample.
