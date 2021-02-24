@@ -12,6 +12,10 @@
 
 ### 1. Linear Regression 
 
+![Linear Regression](Image/RegressionLine.png)
+
+![Equation of Line](Image/EquationLine.png)
+
 > Simple Linear Regression : Find the Line that **Fits** the Data.
 
 > Multiple Linear Regression : Find the Plane of **Best Fit**.
