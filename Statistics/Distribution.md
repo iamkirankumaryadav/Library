@@ -109,7 +109,15 @@
 
 - **X ~ N ( mean = 0 , variance = 1 )** 
 - Variable **X** follows a **Normal Distribution** with **Mean** = 0 and **Variance** = 1. 
-- Standardizing
+
+- Each Number on **Horizontal Axis** represents **Z Score**.
+
+![Z Score](Image/Std.png)
+
+- Standardization
+
+![Standardization](Image/Standardization.png)
+
 - Moving Graph to the Left or Right until Mean = 0.
 - **Transformation** : **Alter** every elements of a **Distribution** to get **New Distribution**.
 - Z = X - Mean / Standard Deviation.
