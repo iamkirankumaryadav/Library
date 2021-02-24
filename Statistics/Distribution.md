@@ -78,6 +78,8 @@
 - Majority of Data is centered around **Mean**.
 - Graph is **Symmetric** around **Mean**.
 
+![Parameter and Statistics](Image/PS.png)
+
 ### 68, 95, 99.7 Law
 
 ![68 95 99.7 Law](Image/68_95_99.png)
