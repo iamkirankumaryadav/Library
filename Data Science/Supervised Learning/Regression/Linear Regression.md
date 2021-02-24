@@ -1,13 +1,21 @@
 # Linear Regression 📈
 
+![Regression Line](Image/RegressionLine.png)
+
 **Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** 
 
 **Predict** the Value of a **Feature** based on the Value of Another Feature.
 
 ### Y = X * B1 + B0
 
+![Equation Line](Image/EquationLine.png)
+
 ### B1 : Slope 
 - Gradient | **Steepness** in Line | **Direction** of Line | **Weight**
+
+![Positive Slope](Image/Positive.png)
+
+![Negative Slope](Image/Negative.png)
 
 ### B0 : Intercept 
 - Bias | Constant | The Place where **Regression Line** Intersects the Y Axis (Value of Y when X = 0)
