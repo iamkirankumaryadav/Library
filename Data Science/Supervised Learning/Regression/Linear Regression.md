@@ -102,3 +102,7 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 - **Negative** Residual : Actual Value is **below** the Regression Line.
 
 ![Positive Negative](Image/PN.png)
+
+### Extraploation
+
+- Making **Predictions** outside range of Data.
