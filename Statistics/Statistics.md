@@ -91,3 +91,6 @@
 
 > Percentage and Percentile is **Different**
 
+### Correlation
+
+- Strength of **Relationship** between two **Quantitative** Variable.
