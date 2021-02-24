@@ -1,3 +1,7 @@
+<p align="center">
+<img src="World.png" alt="World" width="20%">
+</p>
+
 <h3 align="center"> 📚📝 My Knowledge Library 💼📦 </h3>
 
 <p align="center"> 
