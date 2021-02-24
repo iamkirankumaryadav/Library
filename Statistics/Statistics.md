@@ -93,4 +93,11 @@
 
 ### Correlation
 
-- Strength of **Relationship** between two **Quantitative** Variable.
+- Measures the **Direction** and **Strength** of **Relationship** between two **Quantitative** Variable.
+
+![Perfect Linear Correlation](Image/Perfect.png)
+
+![Direction of Slope](Image/Direction.png)
+
+![Strength of Slope](Image/Strength.png)
+
