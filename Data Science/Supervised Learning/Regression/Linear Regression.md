@@ -86,9 +86,19 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 - Use **Standardization** or **Normalization**
 
 ### 6. Residuals 
+
+![R](Image/R.png)
+
 - The Difference between **Predicted Value** from the **Actual Value**.
 - Check the **Residual** | **Error** of the Regression Line.
+
+![Residual](Image/Residual.png)
+
 - Should be as low as Possible (Complete Removal of Error is Impossible)
-- The Distribution of the Data should be **Normally** Distributed.
+
+![Difference](Image/Difference.png)
+
 - **Positive** Residual : Actual Value is **above** the Regression Line.
 - **Negative** Residual : Actual Value is **below** the Regression Line.
+
+![Positive Negative](Image/PN.png)
