@@ -14,6 +14,10 @@
 
 - Relative Frequency Distribution : **Divide** Each Interval **Data Points** with **Total** Number of Data Points in a Dataset.
 
+![Density](Image/Total.png)
+
+- **Total Area** of any type of **Distribution** is always **1** or **100%**
+
 > Density Curve gives a better Picture about how the Dataset is distributed. 
 
 ## Discrete Events.
