@@ -16,6 +16,8 @@
 
 ### 1. Uniform Distribution
 
+![Uniform Distribution](Image/Uniform.png)
+
 - **X ~ U ( 3 , 7 )**
 - Variable **X** follows an **Uniform Distribution** ranging from 3 to 7.
 - Events with **Finite** outcomes. 
@@ -57,6 +59,8 @@
 
 ### 1. Normal Distribution | Gaussian Distribution | Bell Shaped Curve
 
+![Normal Distribution](Image/ND.png)
+
 - **X ~ N ( mean, variance )** 
 - Variable **X** follows a **Normal Distribution** with **Mean** and **Variance**. 
 - Normal Events in Nature. 
@@ -66,8 +70,18 @@
 
 ### 68, 95, 99.7 Law
 
+![68 95 99.7 Law](Image/68_95_99.png)
+
+![68 Law](Image/68.png)
+
 - **68 %** of Outcomes fall withins **1** Standard Deviation
+
+![95 Law](Image/95.png)
+
 - **95 %** of Outcomes fall withins **2** Standard Deviation
+
+![99.7 Law](Image/997.png)
+
 - **99.7 %** of Outcomes fall withins **3** Standard Deviation
 - **Outliers** are **Extremely Rare** in Normal Distribution.
 
