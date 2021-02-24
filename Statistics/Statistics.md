@@ -101,3 +101,6 @@
 
 ![Strength of Slope](Image/Strength.png)
 
+### Regression Line
+
+- **Predicts** the change in **Y** when **X** increases by **One Unit**.
