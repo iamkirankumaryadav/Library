@@ -11,7 +11,7 @@
 - Supports two Major Types of **Data Structures** : **DataFrames** and **Series**
 - Series : **1** Dimensional
 - DataFrame : **2** Dimensional
-- Panel : **3** Dimensional (major_axis and minor_axis)
+- Panel : **3** Dimensional ( major_axis and minor_axis )
 - Load - Manipulate - Prepare - Model - Analyze.
 
 ### Series
