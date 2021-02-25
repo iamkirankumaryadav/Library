@@ -1,5 +1,5 @@
 <p align="center">
-<img src="World.png" alt="World" width="20%">
+<img src="World.png" alt="World" width="25%">
 </p>
 
 <h3 align="center"> 📚📝 My Knowledge Library 💼📦 </h3>
