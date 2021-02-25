@@ -73,3 +73,6 @@
 
 ### Website
 - [Data Quest](https://www.dataquest.io/)
+- [Educative](https://www.educative.io/)
+- [Edpresso](https://www.educative.io/edpresso)
+- [Dataconomy](https://dataconomy.com/2015/03/14-best-python-pandas-features/)
