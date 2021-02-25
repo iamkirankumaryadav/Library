@@ -11,18 +11,18 @@
 - Load - Manipulate - Prepare - Model - Analyze.
 
 ### Series
-> 1 Dimensional Array
-> Hold Data Value of **Homogeneous** Type ( All Data Values should be of **same** Data type )
-> Data Axis labels are called the **Index**.
+- 1 Dimensional Array
+- Hold Data Value of **Homogeneous** Type ( All Data Values should be of **same** Data type )
+- Data Axis labels are called the **Index**.
 
 ### Data Frames
-> 2 Dimensional Array
-> Data is Aligned in Tabular form with **Rows** and **Columns**.
+- 2 Dimensional Array
+- Data is Aligned in Tabular form with **Rows** and **Columns**.
 
 ### Important Features of Pandas Linrary
-> Data Alignment
-> Merge and Join
-> Group By
-> Reshaping and Sorting
-> Time Series
+- Data Alignment
+- Merge and Join
+- Group By
+- Reshaping and Sorting
+- Time Series
 
