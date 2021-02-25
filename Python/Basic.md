@@ -1,7 +1,8 @@
 # Basic for Data Analysis
 
-1. Feature | Column | Attribute
-2. Row | Index | Record | Tuple
+> Feature or Column or Attribute
+
+>Row or Index or Record or Tuple
 
 > One Entire **Column** is known as **Field** ( Homogeneous Data )
 
