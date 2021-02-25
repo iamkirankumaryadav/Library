@@ -1,5 +1,5 @@
 <p align="center">
-<img src="Learn.gif" alt="Learn" width="50%">
+<img src="Learn.gif" alt="Learn" width="60%">
 </p>
 
 <h3 align="center"> 📚📝 My Knowledge Library 💼📦 </h3>
