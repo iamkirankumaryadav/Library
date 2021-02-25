@@ -50,7 +50,6 @@
 
 - [Markdown Guide](https://www.markdownguide.org/) | [Markdown Presentation](https://www.slideas.app/)
 
-
 ### Data Science Specialist
 
 - [Chris Albon](https://chrisalbon.com/)
@@ -71,3 +70,6 @@
 - [Code Basics]()
 - [Free Code Camp]()
 - [Simple Learning Pro]()
+
+### Website
+- [Data Quest](https://www.dataquest.io/)
