@@ -2,6 +2,10 @@
 
 - Panel Data ( Tabular Data in **Financial** Terms )
 - Data Analysis Tool
+- Data **Import** and **Export**
+- Data **Cleaning**
+- Data **Transforming**
+- Data **Aggregation**
 - Pandas is used in Economics, Finance, Statistics and Analytics.
 - **Analyze** and **Manipulate** Numerical and **Time Series** Data.
 - Supports two Major Types of **Data Structures** : **DataFrames** and **Series**
