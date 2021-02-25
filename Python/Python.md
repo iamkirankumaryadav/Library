@@ -91,12 +91,14 @@
 ### dir()
 - List of Valid **Attributes** and **Methods** of an Object based on its Type and State.
 
-### Function
+### Define Function
 
 ``` Python
 def functionname( parameter1, parameter2):
         pass
 ```        
+
+### Call Function
 
 ```Python
 functionname(argument1, argument2)
