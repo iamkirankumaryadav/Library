@@ -2,7 +2,7 @@
 
 - Panel Data ( Tabular Data in **Financial** Terms )
 - Data Analysis Tool
-- Data **Import** and **Export**
+- Data **Import** ( Read ) and **Export** ( Write )
 - Data **Cleaning**
 - Data **Transforming**
 - Data **Aggregation**
