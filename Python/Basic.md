@@ -1,8 +1,8 @@
 # Basic for Data Analysis
 
-> Feature or Column or Attribute
+> **Feature** or **Column** or **Attribute** or **Series**
 
->Row or Index or Record or Tuple
+> **Row** or **Index** or **Record** or **Tuple**
 
 > One Entire **Column** is known as **Field** ( Homogeneous Data )
 
