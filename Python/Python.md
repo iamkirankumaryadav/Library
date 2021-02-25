@@ -90,3 +90,20 @@
 
 ### dir()
 - List of Valid **Attributes** and **Methods** of an Object based on its Type and State.
+
+### Function
+
+``` Python
+def functionname( parameter1, parameter2):
+        pass
+```        
+
+```Python
+functionname(argument1, argument2)
+```
+
+### Position of Arguments
+
+```Python
+def example(arg_1, arg_2, *args, **kwargs):
+```
