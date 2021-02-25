@@ -20,9 +20,17 @@
 - Data is Aligned in Tabular form with **Rows** and **Columns**.
 
 ### Important Features of Pandas Linrary
+- Row Column Selection and Slicing
+- Filter Data 
 - Data Alignment
 - Merge and Join
 - Group By
 - Reshaping and Sorting
 - Time Series
+
+### Time Period
+- Time Stamp ( Days, Years, Quarter or Month)
+
+### How to Iterate over a Pandas DataFrame?
+- Loop + **iterrows()**
 
