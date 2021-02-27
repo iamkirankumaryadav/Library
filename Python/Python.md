@@ -2,7 +2,7 @@
 
 1. Easy to Read, Learn and Write
 2. **High Level** Programming Language ( Similar to English Language )
-3. Simple Syntax | **Dynamically** Typed ( Object has no Type | Value has types | Object can Change its Data Type Dynamically )
+3. **Dynamically** Typed ( Object has no Type | Value has types | Object can Change its Data Type Dynamically )
 4. Abundance of Libraries ( Pandas, NumPy, SciPy, etc. ) and Frameworks ( Django, Flask, etc. )
 5. Useful for Data Science, Machine Learning, Artificial Intelligence and Web Development
 6. Portable and Flexible ( Jupyter Language, Command Prompt, IDE, Text Editor, Google Colab )
@@ -11,6 +11,10 @@
 9. Interpreted Language ( Executes **Line by Line**)
 10. Modularity : Working in Seperate **Modules** | Helps to **Focus** | Make **Development Easy** and Less Error prone.
 11. Reusability : Modules can be easily reused by other part of the program.
+
+| Interpreter                                             | Compiler                                       |
+| :---                                                    | :---                                           |
+| Translate One Statement at a Time into **Machine Code** | Translate entire Program into **Machine Code** |
 
 ### PEP- 8
 - Python Enhancement Proposal
