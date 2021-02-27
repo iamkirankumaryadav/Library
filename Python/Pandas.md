@@ -38,4 +38,4 @@
 ### How to Iterate over a Pandas DataFrame?
 - Loop + **iterrows()**
 
-![Pandas Methos](Image/PandasMethods.jfif)
+![Pandas Methods](Image/PandasMethod.jfif)
