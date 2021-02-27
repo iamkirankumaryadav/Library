@@ -1,4 +1,4 @@
-![Pandas](Image/Pandas.jfif)
-![NumPy](Image/NumPy.jfif)
-![Matplotlib](Image/Matplotlib.jfif)
-![Seaborn](Image/Seaborn.jfif)
+![Pandas](Image/PandasMethod.jfif)
+![NumPy](Image/NumPyMethod.jfif)
+![Matplotlib](Image/MatplotlibMethod.jfif)
+![Seaborn](Image/SeabornMethod.jfif)
