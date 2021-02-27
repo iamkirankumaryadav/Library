@@ -1,6 +1,6 @@
 # Classification
 
-![Classification](Image/Classification.png)
+![Classification](Image/Classification.jpeg)
 
 ### Types of Classification Tasks
 
