@@ -11,7 +11,7 @@
 
 **e** : Irreducible Error
 
-- Even we make a **100%** Accurate Estimate of **f(x)**, Our Model won't be **Error Free**, known as **Irreducible Error**
+- Even we make a **100%** Accurate Estimate of **f( x )**, Our Model won't be **Error Free**, known as **Irreducible Error**
 
 ### 2. Decision Tree
 - **Decision Tree** is used for both **Regression** and **Classification**
