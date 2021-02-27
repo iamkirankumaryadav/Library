@@ -1,4 +1,6 @@
-Data Science Project Life Cycle
+# Data Science Project Life Cycle
+
+![Data Science](Image/DSDeconstruct.jpeg)
 
 ### 1. Obtain Data 
 - Query Database
