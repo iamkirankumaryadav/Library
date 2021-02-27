@@ -21,5 +21,5 @@
 - Splits of Trees are **Edges** | **Branches**
 - Terminal Node is a **Leaf**
 - **Decision** Tree Algorithms are referred to as **CART** ( **Classification** and **Regression Tree** )
-- Growing a **Tree** involves deciding on **which features to choose** and **what conditions to use** for splitting.
+- Growing a **Tree** involves deciding on **Which Features to Choose ?** and **What Conditions to Use ?** for splitting.
 - We should also know when to **Stop**
