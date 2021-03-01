@@ -5,7 +5,7 @@
 > Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed.
 
 # Artificial Intelligence
-> **Simulation** of **Human Intelligence** in **Machines** that are programmmed to **Think** like **Humans** and **Mimic** their **Actions**.
+> **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**.
 
 
 # Bias and Variance
