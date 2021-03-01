@@ -8,7 +8,7 @@
 > **Simulation** of **Human Intelligence** in **Machines** that are programmmed to **Think** like **Humans** and **Mimic** their **Actions**.
 
 
-### 1. Balancing **Bias** and **Variance**
+# Bias and Variance
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
 - But we cannot make a **100%** Accurate Model.
 - **Prediction** ( Continuous ) and **Classification** Models, can never be **Error Free**.
@@ -23,7 +23,7 @@
 
 - Even we make a **100%** Accurate Estimate of **f( x )**, Our Model won't be **Error Free**, known as **Irreducible Error**
 
-### 2. Decision Tree
+# Decision Tree
 - **Decision Tree** is used for both **Regression** and **Classification**
 - **Upside Down** Approach
 - **Root** at **Top**
