@@ -16,10 +16,10 @@
 - If Weight = 0, The Feature does not Contribute for the Model's Training.
 
 # Validation Set 
-- Subset of the Data Set used to Validate the Training of Model.
+- Subset of the Data Set used to **Validate** the Training of Model.
 
 # Activation Function
-- A Function that takes in the Weighted Sum of all the Inputs from Previous Layer and Generates Output for Next Layer.
+- A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Next Layer**.
 
 One Word for Many:
 
