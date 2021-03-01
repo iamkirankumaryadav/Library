@@ -1,9 +1,14 @@
 # AI 🤖
-> Machine Learning
+> Machine Learning ( Science which helps **Machines** to Learn from Data without being Explicitely Programmed ) 
+
 > Deep Learning
+
 > Natural Language Processing
+
 > Computer Vision
+
 > Neural Network
+
 > Internet of Things
 
 [AI](https://www.reaktor.com/work/artificial-intelligence/) | [Elements of AI](https://www.elementsofai.com/) | [Building AI](https://buildingai.elementsofai.com/)
