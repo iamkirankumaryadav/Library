@@ -44,7 +44,6 @@
 - Remove a Part of **Training Data** before Training and keep it for **Validation**.
 - By Reducing the **Trainiing Data**, we risk losing important **Patterns | Trends** in Dataset.
 - Suffers from **High Variance**.
-- Create a Model with **Low Bias** and **Low Variance**.
 
 ### 2. K Fold Cross Validation
 - Data is divided into **k** subsets.
