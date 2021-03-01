@@ -1,5 +1,7 @@
 # Confusion Matrix
 
+![Confusion Matrix](Image/ConfusionMatrix.jpeg)
+
 ```Text
                         Predictions                 
 		   ------------------------------------------------
