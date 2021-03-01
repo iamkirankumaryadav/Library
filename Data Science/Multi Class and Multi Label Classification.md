@@ -1,4 +1,4 @@
-# Multi Class and Multi Label Classification
+# Multi Class and Multi Label Classification 🐕🐈🦜
 
 ![Classification](Image/Classification.jpeg)
 
