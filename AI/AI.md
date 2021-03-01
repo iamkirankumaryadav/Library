@@ -6,13 +6,7 @@
 - Neural Network
 - Internet of Things
 
-[AI](https://www.reaktor.com/work/artificial-intelligence/)
-
-[Introduction to AI](https://course.elementsofai.com/)
-
-[Elements of AI](https://www.elementsofai.com/)
-
-[Building AI](https://buildingai.elementsofai.com/)
+[AI](https://www.reaktor.com/work/artificial-intelligence/) | [Introduction to AI](https://course.elementsofai.com/) | [Elements of AI](https://www.elementsofai.com/) | [Building AI](https://buildingai.elementsofai.com/)
 
 AI > ML > DL
 
