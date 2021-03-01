@@ -1,14 +1,13 @@
 # Pandas 🐼
 
 - Panel Data ( Tabular Data in **Financial** Terms )
-- Data Analysis Tool
+- Data Analysis Tool ( **Explore**, **Analyze** and **Manipulate** Data )
 - Data **Import** ( Read ) and **Export** ( Write ) ( **.csv**, **.tsv**, **.txt**, **.xls**, **.xlsx** and **.json** )
 - Data **Preview** ( `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()` etc )
 - Data **Cleaning** ( `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()` etc )
 - Data **Transforming** ( `apply()`, `explode()` etc )
 - Data **Aggregation** ( `concat()`, `merge()`, `groupby()`, `pivot_table()` etc )
 - Pandas is used in Economics, Finance, Statistics and Analytics.
-- **Explore**, **Analyze** and **Manipulate** Numerical and **Time Series** Data.
 - **Data Types** : **Series** and **DataFrames**
 - Series : **1** Dimensional
 - DataFrame : **2** Dimensional
