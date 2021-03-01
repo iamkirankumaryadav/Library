@@ -2,17 +2,6 @@
 
 ![Confusion Matrix](Image/ConfusionMatrix.jpeg)
 
-```Text
-                        Predictions                 
-		   ------------------------------------------------
-                   |          True           |        False             
-       ------------------------------------------------------------ 
-       | Positive  |           TP            |   FP (Type I Error) 
-Actual |-----------|-----------------------------------------------  					 
-       | Negative  |   FN (Type II Error)    |          TN 						 
--------------------------------------------------------------------
-```
-
 ### True Situations
 
 **TP** : True Positive ( Actual is True | Prediction is also True )
