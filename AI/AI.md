@@ -1,15 +1,15 @@
 # AI 🤖
-> Machine Learning ( Science which helps **Machines** to Learn from Data without being Explicitely Programmed ) 
+> Machine Learning ( Science that  gives **Computer** the **Ability** to Learn from Data without being **Explicitly Programmed** ) 
 
-> Deep Learning
+> Deep Learning ( **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**)
 
-> Natural Language Processing
+> Natural Language Processing ( Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Languages** )
 
-> Computer Vision
+> Computer Vision ( Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** )
 
-> Neural Network
+> Neural Network ( **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** )
 
-> Internet of Things
+> Internet of Things ( **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others )
 
 [AI](https://www.reaktor.com/work/artificial-intelligence/) | [Elements of AI](https://www.elementsofai.com/) | [Building AI](https://buildingai.elementsofai.com/)
 
