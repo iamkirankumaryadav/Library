@@ -6,6 +6,8 @@
 
 ![Ensemble Bagging](Image/EnsembleBagging.svg)
 
+> The Combination of **Weak Learners** into one very **Accurate Prediction**.
+
 - Dataset is divided as **Subsamples** and passed to **Multiple Base Learners**.
 - **Parallel Tree** growing **Subsamples**
 - Dataset is passed with **Row Sampling** with **Replacement** ( **Bootstrap** )
