@@ -36,7 +36,7 @@
 - **Pruning** : Removing **Features** that are not important.
 
 # Cross Validation
-- **Validation** : **Assurance** that your model is trained well ( **Low Bias** and **Low Variance** ) 
+- **Validation** : **Assurance** that your Model is trained well ( **Low Bias** and **Low Variance** ) 
 - Whether Model is **Generalized** well for the **New Unseen Data**.
 - Aim is to reduce **Overfitting**.
 
