@@ -42,7 +42,7 @@
 
 ### 1. Holdout Method ( **Traditional Approach** )
 - Remove a Part of **Training Data** before Training and keep it for **Validation**.
-- By Reducing the **Trainiing Data**, we risk losing important **Patterns | Trends** in Dataset.
+- By Reducing the **Training Data**, we risk losing important **Patterns | Trends** in Dataset.
 - Suffers from **High Variance**.
 
 ### 2. K Fold Cross Validation
