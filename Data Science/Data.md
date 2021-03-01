@@ -1,12 +1,14 @@
-Data Visualizations : Find Hidden Patterns, Outliers and Relationships | Correlations in the Data
-		    : Help us to Communicate and Understand Data
-		    : Build by Functions | Methods | Algorithms 
-                    : Heatmaps, Statistical Information, Word Clouds, Streamgraphs
+# Data Visualizations 
+- Find Hidden Patterns, Outliers and Relationships | Correlations in the Data
+- Help us to Communicate and Understand Data
+- Build by Functions | Methods | Algorithms 
+- Heatmaps, Statistical Information, Word Clouds, Streamgraphs
 
-Data Representation : Data Reporting
-                    : Represent and Highlight Key Data Points (Data Table or Chart)  
-		    : Build by Apps or Softwares (Adobe, Creative Studio, Canva, etc)
-		    : e.g. Flow Charts, Hierarchical, Roadmaps, Timelines, Comparisons, Infographics
+# Data Representation 
+- Data Reporting
+- Represent and Highlight Key Data Points (Data Table or Chart)  
+- Build by Apps or Softwares (Adobe, Creative Studio, Canva, etc)
+- e.g. Flow Charts, Hierarchical, Roadmaps, Timelines, Comparisons, Infographics
 
 # Weight 
 - A Coefficient for a Feature in a Linear Model | Edge in Deep Learning
