@@ -20,7 +20,7 @@ Important Confusing Terms
 
 > e : Error
 
-> SSE = Sum(Square(Actual - Prediction))
+> SSE = Sum ( Square ( Actual - Prediction ) )
 
 > Residuals : Sum of Squares of Errors.
 
@@ -39,7 +39,7 @@ Important Confusing Terms
 
 > Measures How well our Line Fits the Data.
 
-> Sum(Square(Prediction - Mean))
+> Sum ( Square ( Prediction - Mean ) )
 
 > Explained Variability.
 
@@ -56,7 +56,7 @@ Important Confusing Terms
 
 > Explained Variability + Unexplained Variability
 
-> Sum(Square(Actual - Mean))
+> Sum ( Square ( Actual - Mean ) )
 
 > SST = SSR + SSE
 
