@@ -1,10 +1,10 @@
 # AI 🤖
-- Machine Learning
-- Deep Learning
-- Natural Language Processing
-- Computer Vision
-- Neural Network
-- Internet of Things
+> Machine Learning
+> Deep Learning
+> Natural Language Processing
+> Computer Vision
+> Neural Network
+> Internet of Things
 
 [AI](https://www.reaktor.com/work/artificial-intelligence/) | [Elements of AI](https://www.elementsofai.com/) | [Building AI](https://buildingai.elementsofai.com/)
 
