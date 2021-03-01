@@ -33,3 +33,12 @@
 - **Decision** Tree Algorithms are referred to as **CART** ( **Classification** and **Regression Tree** )
 - Growing a **Tree** involves deciding on **Which Features to Choose ?** and **What Conditions to Use ?** for splitting.
 - We should also know when to **Stop**
+
+# Multiclass | Multilabel
+
+| Multiclass | Multilabel |
+| :--- | :--- |
+| Classify more than **Two Classes** | Classify more than **Two Labels** |
+| Assumption : Each Sample is Assigned with only One Label ( Image with Single Picture ) | Assumption : A **Post** can be posted with Multiple **#Tags** on Social Media  |
+| Iris Flower : Setosa \| Versicolor \| Virginica | Image containing Men, Tree, Car, Sky in One Picture |
+| Penguin : Chinstrap \| Adelie \| Gentoo ||
