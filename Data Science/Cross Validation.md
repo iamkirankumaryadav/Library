@@ -23,7 +23,7 @@
 - **Mean** Error of **k** trials is calculated.
 - Reduces **Bias** and **Variance**.
 
-### Leave One Out Cross Validation | LOOCV
+### 4. Leave One Out Cross Validation | LOOCV
 - Leave **One Data** from the Training Dataset for **Validation**.
 - Use remaining Data Samples for **Training**.
 - Repeated for all combinations.
