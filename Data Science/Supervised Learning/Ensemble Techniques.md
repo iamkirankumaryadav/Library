@@ -1,12 +1,10 @@
 # Ensemble Techniques
 
-> Combining Multiple **Models** (Homogeneous | Heterogeneous).
+> The Combination of **Weak Learners** into one very **Accurate Prediction Algorithm**.
 
 ### A. Bagging (Bootstrap Aggregation)
 
 ![Ensemble Bagging](Image/EnsembleBagging.svg)
-
-> The Combination of **Weak Learners** into one very **Accurate Prediction**.
 
 - Dataset is divided as **Subsamples** and passed to **Multiple Base Learners**.
 - **Parallel Tree** growing **Subsamples**
