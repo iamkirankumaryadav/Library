@@ -23,6 +23,9 @@
 
 - Even we make a **100%** Accurate Estimate of **f( x )**, Our Model won't be **Error Free**, known as **Irreducible Error**
 
+# Activation Function
+- A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Next Layer**.
+
 # Decision Tree
 - **Decision Tree** is used for both **Regression** and **Classification**
 - **Upside Down** Approach
