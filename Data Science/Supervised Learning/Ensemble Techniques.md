@@ -40,7 +40,7 @@
 
 ### 1. ADABOOST
 
-- In ADABOOST **Weights** is assigned with Subsamples.
+- In ADABOOST **Weights** is assigned with **Incorrect Values** in Samples.
 - **Sequential Tree** growing  with **Weighted Samples**.
 - Base Learners are **Decision Trees**.
 - Decision Trees are Created with only **One Depth** (**Stumps**)
