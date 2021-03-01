@@ -9,8 +9,7 @@
 
 ### RSS | SSE
 
-- RSS : Residual Sum of Squares
-- SSE : Sum of Squares Error
+> Residual Sum of Squares | Sum of Squares Error
 
 ![RSS|SSE](Image/SSE_RSS.jpg)
 
@@ -22,19 +21,20 @@
 
 ### ESS | SSR
 
+> Explained Sum of Squares | Sum of Squares Regression.
+
 ![ESS|SSR](Image/SSR_ESS.jpg)
-- ESS : Explained Sum of Squares.
-- SSR : Sum of Squares Regression.
+
 - Measures How well our Line Fits the Data.
 - Sum ( Square ( Prediction - Mean ) )
 - Explained Variability.
 
 ### TSS | SST
 
+> Total Sum of Squares | Sum of Squares Total
+
 ![TSS|SST](Image/SST_TSS.jpg)
 
-- TSS : Total Sum of Squares
-- SST : Sum of Squares Total
 - Measures Total Variability
 - Explained Variability + Unexplained Variability
 - Sum ( Square ( Actual - Mean ) )
