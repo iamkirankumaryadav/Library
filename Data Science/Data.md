@@ -23,10 +23,10 @@
 
 One Word for Many:
 
-# Row | Record | Case | Observation | Instance | Sample | Example
+### Row | Record | Case | Observation | Instance | Sample | Example
 
-# Column | Variable | Feature | Attribute
+### Column | Variable | Feature | Attribute
 
-Feature | Input Variable | Independent Variable
+### Feature | Input Variable | Independent Variable
 
-Label | Output Variable | Dependent Variable
+### Label | Output Variable | Dependent Variable
