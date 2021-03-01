@@ -48,9 +48,10 @@
 - ADABOOST allow us to capture **Non Linear Relationships**.
 
 ### 2. Gradient Boosting
+- Uses the **Loss Function** of Base Model ( **Decision Tree** ) for minimizing the **Error** of overall Model.
 
 ### 3. XGBoost | Extreme Gradient Boosting
-
+- Uses **2**<sup>nd</sup> Order **Partial Derivative** for Approximation.
 
 ### Hard Voting vs Soft Voting
 
