@@ -8,7 +8,7 @@
 - Data **Transforming** ( `apply()`, `explode()` etc )
 - Data **Aggregation** ( `concat()`, `merge()`, `groupby()`, `pivot_table()` etc )
 - Pandas is used in Economics, Finance, Statistics and Analytics.
-- **Analyze** and **Manipulate** Numerical and **Time Series** Data.
+- **Explore**, **Analyze** and **Manipulate** Numerical and **Time Series** Data.
 - Supports two Major Types of **Data Structures** : **DataFrames** and **Series**
 - Series : **1** Dimensional
 - DataFrame : **2** Dimensional
