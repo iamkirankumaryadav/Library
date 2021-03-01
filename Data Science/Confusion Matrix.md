@@ -1,5 +1,6 @@
 # Confusion Matrix
-                   
+
+```Text
                         Predictions                 
 		   ------------------------------------------------
                    |          True           |        False             
@@ -8,7 +9,7 @@
 Actual |-----------|-----------------------------------------------  					 
        | Negative  |   FN (Type II Error)    |          TN 						 
 -------------------------------------------------------------------
-
+```
 True Situations
 ----------------------------------------------------------------
 TP : True Positive (Actual is True | Prediction is also True)
