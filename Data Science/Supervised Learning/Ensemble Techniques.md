@@ -39,13 +39,13 @@
 ### 1. ADABOOST
 
 - In ADABOOST **weights** is assigned with Samples
-- Base Learners are Decision Trees.
+- Base Learners are **Decision Trees**.
 - Decision Trees are Created with only **One Depth** (**Stumps**)
 - The Stump will Less **Entrophy** is Selected First.
 
-### 2. Gradient Boostinf
+### 2. Gradient Boosting
 
-### 3. XGBoost
+### 3. XGBoost | Extreme Gradient Boosting
 
 
 ### Hard Voting vs Soft Voting
