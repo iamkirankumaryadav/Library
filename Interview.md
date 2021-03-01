@@ -41,7 +41,7 @@
 - Aim is to reduce **Overfitting**.
 
 ### 1. Holdout Method ( **Traditional Approach** )
-- Remove a Part of **Training Data** befor Training and keep it for **Validation**.
+- Remove a Part of **Training Data** before Training and keep it for **Validation**.
 - By Reducing the **Trainiing Data**, we risk losing important **Patterns | Trends** in Dataset.
 - Suffers from **High Variance**.
 - Create a Model with **Low Bias** and **Low Variance**.
