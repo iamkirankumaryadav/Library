@@ -38,7 +38,7 @@
 ### How to Iterate over a Pandas DataFrame?
 
 ```python
-for i in df.**iterrows()**:
+for i in df.iterrows():
       pass
 ```
 
