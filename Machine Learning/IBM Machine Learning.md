@@ -4,7 +4,9 @@
 
 - Improve Decision Making and Predictive Accuracy over Time..
 
-### Algorithm : A Sequence of Statistical Processing Steps
+### Algorithm 
+
+0 A Sequence of Statistical Processing Steps
 
 - In Machine Learning Algorithms are Trained to Find Patterns and Features in Massive Amount of Data 
 
