@@ -9,17 +9,20 @@
 
 
 ### False Situations 
-**FP** : False Positive (Type I Error) (Actual is False | but Prediction is True)
-**FN** : False Negative (Type II Error) (Actual is True | but Prediction is False)
+**FP** : False Positive ( **Type I** Error ) ( Actual is False | but Prediction is True )
+**FN** : False Negative ( **Type II** Error ) ( Actual is True | but Prediction is False )
 
 
 ### Accuracy 
-- TP + TN / (TP + FP + FN + TN)
+- TP + TN / ( TP + FP + FN + TN )
 
 ### Precision  
 - How many Correct True Predictions where Actually True ?  
-- TP / (TP + FP)
+- TP / ( TP + FP )
 
-### Recall 
+### Sensitivity | Recall
 - How many Actal True are Predicted Correctly ?  
-- TP / (TP + FN)
+- TP / ( TP + FN )
+
+### Specificity
+- TN / ( TN + FP )
