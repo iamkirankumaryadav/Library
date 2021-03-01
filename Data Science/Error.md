@@ -9,7 +9,7 @@
 
 ### RSS | SSE
 
-> Residual Sum of Squares | Sum of Squares Error
+Residual Sum of Squares | Sum of Squares Error
 
 ![RSS|SSE](Image/SSE_RSS.jpg)
 
