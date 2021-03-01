@@ -52,7 +52,7 @@
 - **Mean** Error of **k** trials is calculated.
 - Reduces **Bias** and **Variance**.
 
-### Stratified K Fold Cross Validation
+### 3. Stratified K Fold Cross Validation
 - Data is divided into **k** subsets.
 - Each Subset has **Equal Proportion** of samples of each **Target Class**.
 - One of **k** subset is used as **Validation Set**.
