@@ -1,6 +1,6 @@
 # Pandas 🐼
 
-- Panel Data ( Tabular Data in **Financial** Terms )
+- **Panel** Data ( Tabular Data in **Financial** Terms )
 - Data Analysis Tool ( **Explore**, **Analyze** and **Manipulate** Data )
 - Data **Import** ( Read ) and **Export** ( Write ) ( `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json` etc )
 - Data **Preview** ( `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()` etc )
