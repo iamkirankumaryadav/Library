@@ -36,6 +36,6 @@
 - Time Stamp ( Days, Years, Quarter or Month)
 
 ### How to Iterate over a Pandas DataFrame?
-- Loop + **iterrows()**
+- for i in df.**iterrows()**
 
 ![Pandas Methods](Image/PandasMethod.jfif)
