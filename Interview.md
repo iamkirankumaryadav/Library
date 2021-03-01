@@ -39,6 +39,6 @@
 | Multiclass | Multilabel |
 | :--- | :--- |
 | Classify more than **Two Classes** | Classify more than **Two Labels** |
-| Assumption : Each Sample is Assigned with only One Label ( Image with Single Picture ) | Assumption : A **Post** can be posted with Multiple **#Tags** on Social Media  |
+| Image with Single Picture | Assumption : A **Post** can be posted with Multiple **#Tags** on Social Media  |
 | Iris Flower : Setosa \| Versicolor \| Virginica | Image containing Men, Tree, Car, Sky in One Picture |
 | Penguin : Chinstrap \| Adelie \| Gentoo ||
