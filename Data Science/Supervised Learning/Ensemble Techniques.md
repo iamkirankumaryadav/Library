@@ -6,13 +6,13 @@
 
 ![Ensemble Bagging](Image/EnsembleBagging.svg)
 
-- Dataset is divided and passed as sample of Datasets to **Multiple Base Learners**. (Base Learner can be any **ML Algorithm**)
-- We can use Different **Algorithms** and Different **Training Set**.
+- Dataset is divided as **Subsamples** and passed to **Multiple Base Learners**.
+- **Parallel** Tree growing **Subsamples**
 - Dataset is passed with **Row Sampling** with **Replacement** (**Bootstrap**)
-- Each Learning Model will be trained on its particular sample of Data.
+- Each Learning Model will be trained on its particular sample of Data
 - Voting Classifier is used to find the Final Result (**Aggregation**)
-- Combine Weak Base Learners into **Strong Learner** in terms of **Classifier** or **Prediction**.
-- Test Sample is passed to each Model for the Output.
+- Combine Weak Base Learners into **Strong Learner** in terms of **Classifier** or **Prediction**
+- Test Sample is passed to each Model for the Output
 - Improves **Accuracy**. 
 
 ### 1. Random Forest
