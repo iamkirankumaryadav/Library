@@ -1,3 +1,13 @@
+# Data Science
+> **Science** of Extracting **Knowledge** and **Insight** from **Structured** and **Unstructured Data**.
+
+# Machine Learning
+> Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed.
+
+# Artificial Intelligence
+> **Simulation** of **Human Intelligence** in **Machines** that are programmmed to **Think** like **Humans** and **Mimic** their **Actions**.
+
+
 ### 1. Balancing **Bias** and **Variance**
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
 - But we cannot make a **100%** Accurate Model.
