@@ -34,7 +34,7 @@
 - Base Learners are Created **Sequentially** and the **Subsamples** are passed for Training.
 - **Sequential Tree** growing  with **Weighted Samples**.
 - **Weight** is attached with each and every **Instance** | Row | Record.
-- If the portion of Dataset is Incorrectly classified then that portion is transfered to next Base Learner for Training again.
+- If the portion of Dataset is incorrectly classified then that portion is transfered to next **Base Learner** for Training again.
 - Weights are **Adjusted** before each Training and Miss Classified Instances are focused with High Priority.
 - Test Sample is passed to each Model for the Output.
 
