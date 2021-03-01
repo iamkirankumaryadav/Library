@@ -8,9 +8,9 @@
 
 - Dataset is divided as **Subsamples** and passed to **Multiple Base Learners**.
 - **Parallel Tree** growing **Subsamples**
-- Dataset is passed with **Row Sampling** with **Replacement** (**Bootstrap**)
+- Dataset is passed with **Row Sampling** with **Replacement** ( **Bootstrap** )
 - Each Learning Model is **Trained** on its particular **Sample** of Data
-- Voting Classifier is used to find the Final Result (**Aggregation**)
+- Voting Classifier is used to find the Final Result ( **Aggregation** )
 - Combine Weak Base Learners into **Strong Learner** in terms of **Classifier** or **Prediction**
 - Test Sample is passed to each Model for the Output
 - Final Prediction is based on **Voting**
