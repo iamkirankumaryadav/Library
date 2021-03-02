@@ -4,6 +4,8 @@
 
 [Python](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/Python.md)
 
+---
+
 ### [Linear Regression](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Linear%20Regression.md) | [Logistic Regression](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md) | [Decision Tree](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Decision%20Tree.md) | [Ensemble Techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md)
 
 ### [Confusion Matrix](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Confusion%20Matrix.md)
