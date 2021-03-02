@@ -1,6 +1,6 @@
 ### [Define](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/AI.md) | [AI](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Artificial%20Intelligence.md)
 
-### [Linear Regression](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Linear%20Regression.md)
+### [Linear Regression](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Linear%20Regression.md) | [Logistic Regression](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md)
 
 ### Bias and Variance
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
