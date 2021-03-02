@@ -54,6 +54,7 @@
 
 ### 3. XGBoost | Extreme Gradient Boosting
 - Uses **2**<sup>nd</sup> Order **Partial Derivative** for Approximation.
+- Choose a Better **Learning Rate** that suits our Model.
 
 ### Hard Voting vs Soft Voting
 
