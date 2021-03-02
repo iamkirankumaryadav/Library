@@ -10,7 +10,7 @@
  
 ---
  
-### [Confusion Matrix](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Confusion%20Matrix.md)
+### [Confusion Matrix](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Confusion%20Matrix.md) | [Bias and Variance](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Bias%20and%20Variance.md)
 
 ### Bias and Variance
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
