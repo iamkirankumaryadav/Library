@@ -31,6 +31,7 @@
 
 ![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
+- Decision Trees are Created with only **One Depth** or only **One Split** (**Stumps**)
 - Base Learners | Weak Learners are Created **Sequentially** and the **Subsamples** are passed for Training.
 - Samples are Created using **Row Sampling** and **Column Sampling**.
 - Boosting combines **Weak Learners Sequentially** by correcting **Previous Errors**.
@@ -44,7 +45,7 @@
 - In ADABOOST **Weights** is assigned with **Incorrect Values** in Samples.
 - **Sequential Tree** growing  with **Weighted Samples**.
 - Base Learners are **Decision Trees**.
-- Decision Trees are Created with only **One Depth** (**Stumps**)
+- Decision Trees are Created with only **One Depth** or only **One Split** (**Stumps**)
 - The Stump will Less **Entrophy** is Selected First.
 - ADABOOST allow us to capture **Non Linear Relationships**.
 
