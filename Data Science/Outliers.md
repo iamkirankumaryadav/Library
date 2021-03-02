@@ -60,6 +60,4 @@ How many **Features** to take into account to **Detect Outliers** ?
 - Data Value **<** Q1 - 1.5 * ( **IQR** ) 
 - Data Value **>** Q3 + 1.5 * ( **IQR** ) 
 
-> **Outlier** is represented by dot ( **.** ) in **Boxplot** 
-
-5. 
+> **Outlier** is represented by dot ( **.** ) in **Boxplot**  
