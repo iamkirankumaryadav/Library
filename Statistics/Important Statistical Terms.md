@@ -99,3 +99,11 @@ Assumptions
 - Variance : How **spread out** the data is? | How **far away** the values are from the mean.
 - Population : All Data
 - Sample : Part of Data
+
+### 11. Chi Squared Test
+- A Test for **Independence** of two Categorical Variables and returns **Probability**.
+- Derive **Statistical Significance** of Relationship between the Variables.
+- Test whether the **Evidence** in the **Sample** is Strong enough to **Generalize** that relationship for a **Population**.
+- Difference between **Expected** and **Observed**
+- Probability = 0 indicates both Categorical Variable are **Dependent**.
+- Probability = 1 indicates both Categorical Variable are **Independent**.
