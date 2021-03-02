@@ -1,4 +1,4 @@
-# Normalize | Standardize | Rescale
+# Normalize | Standardize | Rescale | Scaling
 
 ### Normalization
 - **Rescale** Feature values range between 0 and 1.
