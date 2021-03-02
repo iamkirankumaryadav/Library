@@ -1,4 +1,15 @@
-# Linear Regression
+# Error in Linear Regression
+
+### Manage Noise
+- The Model created will have a lot more Errors because of Noise.
+- Noise is Unwanted that **Weakens** the Learning Process of Model.
+
+> Reasons for Noise
+- Large Training Data Set
+- Errors in Input Data 
+- Data Labelling Error
+- Lack of Data ( Missing Data not Handled Properly )
+- Unobservable Attributes that might affect Classifications ( Sometimes **Data Visualization** helps to Find **Hidden Patterns** )
 
 ### Important Confusing Terms
 
