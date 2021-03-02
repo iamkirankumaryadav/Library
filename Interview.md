@@ -43,7 +43,7 @@
 ### Cross Join | Cartesian Product
 - Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
 
-### [Statistics](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Statistics.md) | [Distribution](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Distribution.md) | [Standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) | [Error](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md)
+### [Statistics](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Statistics.md) | [Terms](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Important%20Statistical%20Terms.md) | [Distribution](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Distribution.md) | [Standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) | [Error](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md)
 
 ### [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 
