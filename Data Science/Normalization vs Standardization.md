@@ -5,6 +5,15 @@
 - Data Set may contain two **Features** with Different Range of Values.
 - So we **Normalize** Data to bring in Same **Range**.
 
+### Scaling :
+- Converting **Floating Point** Feature values from their Natural Range (e.g. 100 to 900) into a Standard Range (e.g. 0 to 1 or -1 to 1)
+- A Feature Set consisting only Single Feature, Scaling provides little to no practical benefit.
+- Scaling is Beneficial if the Feature Set consists of **Multiple Features**.
+
+### Benefits :
+1. Helps **Gradient Descent** Converge more Quickly.
+2. Helps the Model Learn Appropriate Weights for Each Feature. ( Model Pay more Attention to the Features having Wider Range )
+
 ### Min Max Scaling
 - x(**Rescaled**) =  x - **min**(x) / **max**(x) - **min**(x)
 
