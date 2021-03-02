@@ -60,3 +60,6 @@
 
 - Hard Voting : **Majority Voting** is more important.
 - Soft Voting : **Predictive Probability** of Class is important, **Mean** of Probability is Calculated for each Class.
+
+# Activation Function
+- A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Next Layer**.
