@@ -7,7 +7,7 @@
 ### Artificial Intelligence
 > **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**.
 
-# Bias and Variance
+### Bias and Variance
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
 - But we cannot make a **100%** Accurate Model.
 - **Prediction** ( Continuous ) and **Classification** Models, can never be **Error Free**.
@@ -22,7 +22,7 @@
 
 - Even we make a **100%** Accurate Estimate of **f( x )**, Our Model won't be **Error Free**, known as **Irreducible Error**
 
-# Activation Function
+### Activation Function
 - A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Next Layer**.
 
 ### [Multiclass vs Multilabel](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Multi%20Class%20and%20Multi%20Label%20Classification.md)
