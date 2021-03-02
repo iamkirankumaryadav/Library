@@ -2,7 +2,7 @@
 
 - Machine Learning ( Science that  gives **Computer** the **Ability** to Learn from Data without being **Explicitly Programmed** ) 
 - Deep Learning ( **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**)
-- Natural Language Processing ( Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Languages** )
+- Natural Language Processing ( Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** )
 - Computer Vision ( Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** )
 - Neural Network ( **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** )
 - Internet of Things ( **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others )
