@@ -1,5 +1,3 @@
-[Basic Statistics Needed for Data Science](https://towardsdatascience.com/basic-statistics-you-need-to-know-for-data-science)
-
 # Statistics
 - Science of Collecting and Analysing Numerical Data in Large Quantites.
 - Gather, Review, Analyze and Draw Conclusions from Data.
