@@ -1,17 +1,22 @@
-### Certain Assumptions to Remember Underfitting and Overfitting
+### Underfitting and Overfitting
+
 - Bias is Error Introduced on Training Data 
+- High Bias : High Error on Training Data ( **Underfitting** )
+
+- Low Bias + High Variance = **Overfitting**
+
 - Variance is Error Introduced on Testing Data
+- High Variance : High Error on Test Data
 
 ### Bias 
-- Error Introduced in your Model due to Oversimplification of the Machine Learning Algorithm.
+- `Error` Introduced in your Model due to Oversimplification of the Machine Learning Algorithm.
 - High Bias led to Underfitting 
-- Algorithm is Unable to Capture Relevant Relations between Features and Targets. 
-- A High Bias Model includes more Assumptions about Target.
-- When you Train your Model at that time Model makes Simplified Assumptions to make the Target Function easier to Understand.
+- Algorithm is Unable to Capture **Relevant** Relations between Features and Targets. 
+- When you Train your Model at that time High Biased Model makes Simplified Assumptions to make the Target Function easier to Understand.
 - High Bias Data Set does not Accurately Represents a Model.			
 - The Amount that a Model's Prediction differs from the Target Value.
 
-Bias = Predicted - Actual
+Bias | Error = Predicted - Actual
 
 - A Linear Algorithms often has High Bias, which makes them Learn Fast.
 - Simple the Algorithm, more Bias it will Introduce.
@@ -32,9 +37,9 @@ Bias = Predicted - Actual
 - Logistic Regression.
 
 ### Variance 
-- Error Introduced in your Model due to Complex Machine Learning Algorithms 
-- Model Learns Noise from the Training Data Set and Performs bad on Test Data Set.
-- Lead to High Sensiitivity and Overfitting.
+- Error Introduced in your Model due to **Complex Machine Learning Algorithms** 
+- Model learns **Noise** from the Training Data Set and Performs bad on Test Data Set.
+- Lead to **High Sensiitivity** and **Overfitting**.
 - Indicates How much the Prediction Alters if different Training Data is used.
 - How much a Prediction Differs from its Expected Value.
 - Measures Inconsistency of Different Predictions using Different Training Sets.
@@ -90,11 +95,13 @@ Bias and Variance helps us Improve the Data Fitting | Training Process resulting
 - cannot Capture Trend of Data
 - Poor Predictive Performance
 
-### Covariance : Two Variables Vary with Each Other.
+### Covariance  
+- Two Variables Vary with Each Other.
 
-### Confidence Interval : Gives a Range of Values which is likely to conatin Populatiojn Parameter.
-                      : Tells How likely Interval is to contain the Population Parameter.
-                      : Represented by Alpha 
+### Confidence Interval  
+- Gives a Range of Values which is likely to conatin Populatiojn Parameter.
+- Tells How likely Interval is to contain the Population Parameter.
+- Represented by Alpha 
 
 ### P Value 
 - Determine Strength of your Results in Hypothesis Test.
