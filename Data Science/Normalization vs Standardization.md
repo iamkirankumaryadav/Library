@@ -13,3 +13,6 @@
 - **Mean** = 0 and **Standard Deviation** = 1
 - Standardizing **Features** around center | Equalize the Range or Data **Variability**
 - Important when we **Compare** Measurements that have Different **Units**
+
+### Transformation
+- Application of the Same Calculation to Every Point of the Data separately.
