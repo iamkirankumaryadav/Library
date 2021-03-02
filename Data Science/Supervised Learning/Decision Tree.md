@@ -20,3 +20,4 @@ e.g.
 - based on my answers you can decide that iam suitable for this Role or not.
 
 - Growing Tree to more Depth may lead to **Overfitting**.
+- Control the Depth of Tree by using Parameter `max_depth`
