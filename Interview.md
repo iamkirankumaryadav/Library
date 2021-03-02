@@ -88,4 +88,4 @@
 
 ### [How to Deal with Missing Data ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md)
 
-### [Ensemble Machine Learning Techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md)
+### [Ensemble Techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md)
