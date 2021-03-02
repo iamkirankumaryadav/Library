@@ -12,6 +12,7 @@
 
 **Information Gain** is used to Choose Right Node
 - Information Gain is a Meausre of how much we know about **Y** after looking at **X**.
+
 e.g. 
 - Now you are taking My Interview you asked few Questions,
 - You might have set a Threshold that if i know this Concepts, 
