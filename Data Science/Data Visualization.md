@@ -1,12 +1,13 @@
 # Data Visualization
 
 ### 1. Bar Graph
-- Data **Comparison** ( Categorical Features )
+- Data **Comparison** ( Categorical Features : Nominal | Ordinal )
+- Can be used for **Categorical** as well as **Numeric Data**
 - Change over a Period of Time
 - Represented **Vertically** or **Horizontally**
 
 ### 2. Histogram
-- **Distribution** of Data
+- **Distribution** of Data | **Frequency | Occurence** of **Continuous** Data
 - Comparing Two **Entities**
 - **Bins** : **Range of Values** divided into **Series of Intervals**
 
@@ -16,7 +17,8 @@
 - Value of One Variable | Feature determines the position on the **Vertical Axis** ( **Y Axis** )
 
 ### 4. Area | Stack
-- Tracking the changes over time
+- Tracking the **Changes** over time
+- Useful to Represent **Time Series Relation**
 
 ### 5. Pie 
 - A Circular Graph divided into **Segments** or **Slices**.
