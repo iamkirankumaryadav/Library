@@ -29,7 +29,7 @@
 - In built **Garbage Collection** to **Recycle** the unused memory for the **Private Heap Space**.
 
 ### Decorator
-- Add **Functionality** to an existing function without changing **Structure**.
+- A **Decorator** takes in a **Function**, Adds some **Functionality** to that existing **Function** and Returns it without changing **Structure**.
 
 ### Built in Data types
 1. None Type  
