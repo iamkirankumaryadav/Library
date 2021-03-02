@@ -28,8 +28,9 @@
 - Red - Green - Blue
 
 ### Level of Measurement
-1. Nominal : No Order
-2. Ordinal : Order
+1. Nominal : No Order ( Gender, Hair Color, Marital Status )
+2. Ordinal : Order ( Blood Group | Grades )
+3. Binomial : Two Option ( Male or Female | True or False | 1 or 0 | Yes or No )
 
 ### Quantitative
 - Data are Numeric
@@ -43,5 +44,5 @@
 - Number of Books in Library
 
 ### Level of Measurement
-1. Interval : Data with Fixed Meaningful Intervals ( Age : 18 - 35 )
-2. Ratio : Highest Level of Measurement | Difference between Measurements
+1. Interval : Data with Fixed Meaningful Intervals ( Age : 18 - 35 ) | **Equal Spacing**
+2. Ratio : Highest Level of Measurement | Difference between Measurements | True Zero
