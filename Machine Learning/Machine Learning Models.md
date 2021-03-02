@@ -1,13 +1,13 @@
 # Machine Learning Models 🤖🚀💻
 
 ### Steps of Machine Learning
-1.Gathering Data
-2.Preparing Data ( Preprocessing )
-3.Choosing a Correct Model
-4.Training Data
-5.Testing Data and Evaluation
-6.Hyperparameter Tuning
-7.Prediction
+1. Gathering Data
+2. Preparing Data ( Preprocessing )
+3. Choosing a Correct Model
+4. Training Data
+5. Testing Data and Evaluation
+6. Hyperparameter Tuning
+7. Prediction
 
 > Model is the system that makes **Predictions**
 
