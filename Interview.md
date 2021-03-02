@@ -2,7 +2,7 @@
 
 ---
 
-### [Python](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/Python.md)
+### [Python](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/Python.md) | [Pandas](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/Pandas.md) | [NumPy](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/NumPy.md)
 
 ---
 
