@@ -10,12 +10,18 @@
 ### 2. Z Test
 
 - A **Hypothesis Test** with a **Normal Distribution** that uses a **Z Statistics**.
-- We use **Z Test** when we have **Large Sample Size**.
+- We use **Z Test** when we have **Large Sample Size** ( **Data Size** > 30 )
+- Data is distributed **Normally**.
+- Data is selected **Randomly**.
+- Standard Normal Distribution ( Mean = 0 and Std = 1 )
 
 ### 3. T Test
 
 - A **Hypothesis Test** with a **T Distribution** that uses a **T Statistics**.
-- We use **T Test** when we have **Small Sample Size**.
+- We use **T Test** when we have **Small Sample Size** ( **Data Size** < 30 )
+- Data is **not** distributed Normally.
+- Data is not selected **Randomly**.
+- **T Distribution** has **Small Peak** and **Fat Tails**.
 
 ### 4. Linear Regression and Assumptions
 
