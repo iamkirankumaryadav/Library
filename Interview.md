@@ -1,4 +1,4 @@
-**Data Science** : **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**.
+**Data Science** > **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**.
 
 **Machine Learning** : Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed.
 
