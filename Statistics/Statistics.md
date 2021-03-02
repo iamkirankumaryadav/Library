@@ -121,3 +121,11 @@
 ### Correlation ( R ) and ( R<sup>2</sup> ) are Different.
 
 ![Difference](Image/RRS.png)
+
+### Covariance  
+- Measures how much two variables vary with each other.
+
+### Confidence Interval  
+- Gives a Range of Values which is likely to conatin Population Parameter.
+- Tells How likely Interval is to contain the Population Parameter.
+- Represented by Alpha 
