@@ -10,3 +10,12 @@
 4. Natural Case ( Special Unique Case )
 
 In Machine Learning and in any **Quantitative Analysis** the **Quality** of Data is as important as Quality of **Prediction** or **Classification** Model.
+
+How many **Features** to take into account to **Detect Outliers** ?
+- **Univariate** | **Multivariate**
+
+### Methods 
+
+### 1. Z Score or Extreme Value Analysis
+- How many **Standard Deviations** a **Data Point** is from the **Sample's Mean**
+- 
