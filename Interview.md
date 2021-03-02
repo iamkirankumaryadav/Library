@@ -42,8 +42,6 @@
 
 ### [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 
-### [How to Deal with Missing Data ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md)
-
-### [How to Deal with Outliers ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md)
+### [How to Deal with Missing Data ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [How to Deal with Outliers ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md)
 
 ### [Decision Tree](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Decision%20Tree.md) | [Ensemble Techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md)
