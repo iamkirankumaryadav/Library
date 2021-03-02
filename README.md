@@ -78,3 +78,4 @@
 - [Dataconomy](https://dataconomy.com/2015/03/14-best-python-pandas-features/)
 - [Python Examples](https://pythonexamples.org/)
 - [Programiz](https://www.programiz.com/)
+- [Matplotlib Plots](https://matplotlib.org/stable/tutorials/introductory/sample_plots.html)
