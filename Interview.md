@@ -1,4 +1,4 @@
-### [Define](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/AI.md)
+### [Define](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/AI.md) | [AI](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Artificial%20Intelligence.md)
 
 ### Bias and Variance
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
