@@ -31,7 +31,8 @@
 
 ![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
-- Base Learners are Created **Sequentially** and the **Subsamples** are passed for Training.
+- Base Learners | Weak Learners are Created **Sequentially** and the **Subsamples** are passed for Training.
+- Samples are Created using **Row Sampling** and **Column Sampling**.
 - **Sequential Tree** growing  with **Weighted Samples**.
 - **Weight** is attached with each and every **Instance** | Row | Record.
 - If the portion of Dataset is incorrectly classified then that portion is transfered to next **Base Learner** for Training again.
