@@ -23,7 +23,7 @@
 - **Characteristic** of a **Sample**.
 
 ### Qualitative
-- Non Numeric | Categorical Data
+- Categorical Data
 - Poor - Fair - Good - Better - Best
 - Red - Green - Blue
 
