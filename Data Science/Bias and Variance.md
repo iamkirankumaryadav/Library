@@ -1,3 +1,5 @@
+# Bias | Variance | Underfitting | Overfitting
+
 ### Bias 
 - Bias is Error Introduced on Training Data 
 - High Bias : High Error on Training Data ( **Underfitting** )
