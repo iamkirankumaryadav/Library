@@ -86,4 +86,4 @@
 ### Cross Join | Cartesian Product
 - Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
 
-[How to Deal with Missing Data ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md)
+### [How to Deal with Missing Data ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md)
