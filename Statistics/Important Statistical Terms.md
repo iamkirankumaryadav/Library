@@ -80,18 +80,18 @@ Assumptions
 1. Permutation
 - A Permutation of n elements is an arrangement of those n elements in a **Definite Order**.
 - There are ( **n!** ) ways to **Arrange** elements in order.
-- P<sub>n,r</sub> = n! / ( n-r )!
+- P<sub>n,r</sub> = n ! / ( n-r )!
 - Number of **r** taken from **n** different elements.
 
 2. Combination
 - The Number of ways to choose **r** out of **n** Objects where Order doesn't matters.
-- C <sub>r</sub><sup>n</sup> = n! / ( n-r )! * r!
+- C <sub>r</sub><sup>n</sup> = n ! / ( n-r ) ! * r !
 
 ### 9. Bayes Theorem
 
 - Conditional Probability Statement
 - Probability of event **B** happening given that another event **A** has already happened.
-- P ( A | B ) = ( P( B | A ) * P ( A ) ) / P( B )
+- P ( A | B ) = ( P ( B | A ) * P ( A ) ) / P( B )
 
 ### 10. Probability Distributions
 
