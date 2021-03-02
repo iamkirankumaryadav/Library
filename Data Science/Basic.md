@@ -1,28 +1,3 @@
-### Correlation 
-- Measures how Strongly Two Variables are related. 
-- Change in One variable results in change in another variable. | Measures Strength            
-- cannot Capture Trend of Data
-- Poor Predictive Performance
-
-### Covariance  
-- Measures how much two variables vary with each other.
-
-### Confidence Interval  
-- Gives a Range of Values which is likely to conatin Population Parameter.
-- Tells How likely Interval is to contain the Population Parameter.
-- Represented by Alpha 
-
-### P Value 
-- Determine Strength of your Results in Hypothesis Test.
-- p value is a Number between 0 and 1
-- Low p value <0.05 indicates we can Reject Null Hypothesis
-- High p value >0.05 Accept Null Hypothesis.
-
-### Regularisation 
-- The Process of Adding Tuning Parameter to Model in order to Prevent Overfitting.
-- Adding Constant (L1 - Lasso or L2 - Ridge ) Multiples to Weights.
-- The Model Predictions should Minimize the Loss Function.
-
 ### Cofounding Variables 
 - Variable that Affects | Influences both Dependent and Independent Variables.
 
@@ -35,7 +10,7 @@
 
 Model Learning Model = Data + Prediction Algorithm Procedure (Using Data to make Prediction)
 
-Data + Algorithm (Sklearn Machine Learning Algorithms)
+Data + Algorithm ( Sklearn Machine Learning Algorithms )
 
 ### Data 
 X Train : Independent Features for Training
@@ -69,9 +44,6 @@ Algorithms are described using Linear Algebra with Lines, Axes, Points.
 - Lack of Data (Missing Data not Handled Properly)
 - Unobservable Attributes that might affect Classifications (Sometimes Data Visualization helps to Find Hidden Patterns)
 
-### Generalisation 
-- How well the Model predicts outcomes for a New Set of Data.
-
 ### Output of Classification Algorithm
 Discrete Classifier : Binary Output (Yes | No)
 Probabilistic Classifiers : Number between 0 and 1
@@ -80,8 +52,6 @@ Probabilistic Classifiers : Number between 0 and 1
 - Supervised Learning
 - Process of taking Some Sort of Input and Assigning a Label to it.
 - Prediction of Discrete 'Yes' or 'No'
-
-
 
 ### Generalization
 - Model's Ability to Adapt Properly to New Unseen Data(Test Set), Drawn from the Distribution as the one used to Create (Train Set) the Model
@@ -99,8 +69,8 @@ Good Performance on the Test Set is a Indicator of Good Performance on the New U
 ### Scaling :
 - Converting Floating Point Feature Values from their Natural Range (e.g. 100 to 900) into a Standard Range (e.g. 0 to 1 or -1 to 1)
 
-A Feature Set Consisting only Single Feature, Scaling provides little to no Practical Benefit.
-Scaling is Beneficial if the Feature Set consists of Multiple Scaling.
+- A Feature Set Consisting only Single Feature, Scaling provides little to no Practical Benefit.
+- Scaling is Beneficial if the Feature Set consists of Multiple Scaling.
 
 Benefits :
 1. Helps Gradient Descent Converge more Quickly.
