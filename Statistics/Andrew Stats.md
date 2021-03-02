@@ -22,18 +22,15 @@
 ### Statistic
 - **Characteristic** of a **Sample**.
 
-### Qualitative
-- Categorical Data
-- Poor - Fair - Good - Better - Best
-- Red - Green - Blue
+### Qualitative ( Categorical Data )
 
 ### Level of Measurement
 1. Nominal : No Order ( Gender, Hair Color, Marital Status )
-2. Ordinal : Order ( Blood Group | Grades )
+2. Ordinal : Order ( Blood Group | Grades : Good - Better - Best )
 3. Binomial : Two Option ( Male or Female | True or False | 1 or 0 | Yes or No )
 
-### Quantitative
-- Data are Numeric
+### Quantitative ( Numeric Data )
+
 1. Continuous
 - Infinite Possibility
 - Real Number
