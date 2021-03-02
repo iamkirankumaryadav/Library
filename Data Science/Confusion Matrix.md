@@ -20,9 +20,13 @@
 - How many Correct True Predictions where Actually True ?  
 - TP / ( TP + FP )
 
-### Sensitivity | Recall
+### Sensitivity | Recall | True Positive Rate ( TPR ) 
 - How many Actal True are Predicted Correctly ?  
 - TP / ( TP + FN )
 
-### Specificity
+### Specificity | False Positive Rate ( FPR ) 
 - TN / ( TN + FP )
+
+### F1
+- Harmonic Mean
+- F1 = 2 * ( Precision * Recall ) / ( Precision + Recall )
