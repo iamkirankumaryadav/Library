@@ -1,8 +1,4 @@
-**Data Science** > **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**.
-
-**Machine Learning** > Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed.
-
-**Artificial Intelligence** > **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**.
+[Define](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/AI.md)
 
 ### Bias and Variance
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
