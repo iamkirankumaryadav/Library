@@ -38,7 +38,7 @@
 ### Cross Join | Cartesian Product
 - Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
 
-### [Statistics](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Statistics.md) | [Distribution](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Distribution.md)
+### [Statistics](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Statistics.md) | [Distribution](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Distribution.md) | [Standardization | Normalization | Transformation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md)
 
 ### [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 
@@ -46,6 +46,4 @@
 
 ### [How to Deal with Outliers ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md)
 
-### [Decision Tree](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Decision%20Tree.md)
-
-### [Ensemble Techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md)
+### [Decision Tree](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Decision%20Tree.md) | [Ensemble Techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md)
