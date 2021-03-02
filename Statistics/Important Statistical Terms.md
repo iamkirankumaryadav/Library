@@ -3,8 +3,9 @@
 ### 1. P Values
 
 - **Probability** of **Achieving** a result.
-- if p value < alpha (0.05 | 5%) we remove that feature.
-- if p value > alpha (0.05 | 5%) we keep that feature.
+- Determine **Strength** of your Results in **Hypothesis Test**.
+- if p value < alpha (0.05 | 5%) we remove that feature. ( **Do not** Accept Null Hypothesis )
+- if p value > alpha (0.05 | 5%) we keep that feature. ( **Accept NULL Hypothesis** : **H0** )
 
 ### 2. Z Test
 
