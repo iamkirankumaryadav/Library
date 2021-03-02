@@ -12,6 +12,18 @@
  
 ### [Confusion Matrix](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Confusion%20Matrix.md) | [Bias and Variance](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Bias%20and%20Variance.md)
 
+---
+
+### [Statistics](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Statistics.md) | [Terms](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Important%20Statistical%20Terms.md) | [Distribution](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Distribution.md) | [Standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) | [Error](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md)
+
+--- 
+
+### [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
+
+---
+
+### [How to Deal with Missing Data ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [How to Deal with Outliers ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md)
+
 ### Bias and Variance
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
 - But we cannot make a **100%** Accurate Model.
@@ -42,10 +54,4 @@
 
 ### Cross Join | Cartesian Product
 - Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
-
-### [Statistics](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Statistics.md) | [Terms](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Important%20Statistical%20Terms.md) | [Distribution](https://github.com/KIRANKUMAR7296/Library/blob/main/Statistics/Distribution.md) | [Standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) | [Error](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md)
-
-### [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
-
-### [How to Deal with Missing Data ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [How to Deal with Outliers ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md)
 
