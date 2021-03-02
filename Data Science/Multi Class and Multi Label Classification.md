@@ -12,3 +12,10 @@
 
 ### 3. **Multilabel** Classification
 - One **Picture** and **Multilabel**
+
+| Multiclass | Multilabel |
+| :--- | :--- |
+| Classify more than **Two Classes** | Classify more than **Two Labels** |
+| Image with Single Picture | A **Post** can be posted with Multiple **#Tags** on Social Media  |
+| Iris Flower : Setosa \| Versicolor \| Virginica | Image containing Men, Tree, Car, Sky in One Picture |
+| Penguin : Chinstrap \| Adelie \| Gentoo | StackoverFlow Question may fall into **#DataScience #ML #AI** |
