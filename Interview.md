@@ -25,7 +25,7 @@
 # Activation Function
 - A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Next Layer**.
 
-[Multiclass vs Multilabel](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Multi%20Class%20and%20Multi%20Label%20Classification.md)
+### [Multiclass vs Multilabel](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Multi%20Class%20and%20Multi%20Label%20Classification.md)
 
 # DBMS vs RDBMS
 
