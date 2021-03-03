@@ -1,5 +1,8 @@
 # Feature Engineering
 
+- Process of Using **Domain Knowledge** of Data to Create **Features** and **Variables** to use in **Machine Learning**.
+- Improve Machine Learning **Model Performance**.
+
 ### 1. Handling Missing Data
 - Mean | Median | Mode Imputation
 - Eliminate Missing Data
