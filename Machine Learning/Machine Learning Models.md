@@ -116,9 +116,14 @@ All follow Same Process in Regression and Classification the only difference is 
 
 ### B. Dimensionality Reduction
 
-- Reducing the Number of **Irrelevant Features**
+- Aim is to find  the **Inportant Features** that can be used for by our Model for Better Predition.
+- Reducing the Number of **Irrelevant Features** that has no relation with the Target Feature.
+- There are some Features that brings **Multicollinearity** 
+- Feature **Elimination** | **Feature Selection** or Feature **Extraction**
+- Save Storage and Time by Improving Performance of Model.
+- Due to less number of Features it can be Visualized in 2D and 3D.
 
-- Feature **Elimination** or Feature **Extraction**
+> Techniques of Dimensionality Reduction
 
-- Principal Component Analysis.
- 
+- Principal Component Analysis. ( Reduce Dimensions of Data )
+- Linear Discriminant Analysis.
