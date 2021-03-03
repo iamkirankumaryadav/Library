@@ -25,3 +25,7 @@
 5. Voice Assistant : OK Google, Siri, Cortana and Alexa.
 6. Chatbots
 7. Customer Feedback Sentiment Analysis ( 😊🙂😔😡 )
+
+### Tokenization
+- Break a **Sentence** into Words.
+- Understand Each Word
