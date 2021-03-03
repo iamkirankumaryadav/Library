@@ -20,6 +20,10 @@
 - Black and White is only Composed with Black or White
 - Grayscale is combination of Different Grades of Black and White.
 
+> **Binary** need **1 Bit per Pixel** for Storage.
+
+> **Black** and **White** needs **8 Bit Per Pixel** for **Storage**.
+
 ### Applications 
 1. Self Driving Cars
 2. Facial Recognition
