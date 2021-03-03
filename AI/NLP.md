@@ -31,7 +31,8 @@
 - Understand Each Word
 
 ### Stemming and Lemmatization
-- Grouping and `Reduce` Variant Forms to `Base` Forms
+- `Normalize` Words into its `Base` Form.
+- Grouping and `Reduce` Variant Form to `Base` Form
 - ( Consult, Consultation, Consulting ) > Consult
 
 ### Stop Word
@@ -46,3 +47,13 @@ Using NLTK
 Using spaCy
 
 ### Part of Speech
+
+### Name Entity Recognition
+1. Recognize by Name ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
+
+
+### Syntax
+- Syntactic Structure of Sentence or Strings.
+
+### Chunking
+- Grouping `Individual` Pieces of Information into Bigger Piece.
