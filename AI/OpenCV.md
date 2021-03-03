@@ -18,9 +18,9 @@
 ### Storage Requirements
 
 1. Binary : `1 Bit` Per Pixel
-2. Black and White : `8 Bits` Per Pixel
-3. Grayscale : `8 Bits` Per Pixel
-4. Color : `24 Bits` Per Pixel
+2. Black and White : `8 Bits` Per Pixel `1 Channel`
+3. Grayscale : `8 Bits` Per Pixel | `1 Channel`
+4. Color : `24 Bits` Per Pixel | `3 Channels`
 
 ### Pixel
 - Basic **Fundamental Unit** of Image 
