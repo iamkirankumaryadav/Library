@@ -24,8 +24,8 @@
 1. Self Driving Cars
 2. Facial Recognition
 3. Augmented Reality and Virtual Reality
-4. Health Care (X Ray and MRI Scan)
+4. Health Care ( X Ray and MRI Scan )
 5. Video Motion Analysis 
-6. Image Segmentation (Camera Detects the Multiple Faces in a Group Selfie)
-7. Scene Reconstruction (3D Model Creation in Architecture)
-8. Image Restoration (Filtering Blur Images and Removing Noise)
+6. Image Segmentation ( Camera Detects the Multiple Faces in a Group Selfie )
+7. Scene Reconstruction ( 3D Model Creation in Architecture )
+8. Image Restoration ( Filtering Blur Images and Removing Noise )
