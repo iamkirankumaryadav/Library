@@ -55,3 +55,10 @@
 ### Cross Join | Cartesian Product
 - Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
 
+# DBMS vs RDBMS
+
+| Classification | Clustering |
+| :--- | :---  |
+| Classify New Sample into known **Classes** | Suggest Groups based on **Patterns** in Data |
+| **Decision Tree** | **K Means** |
+| **Labelled** Samples | **Unlabelled** Samples |
