@@ -16,6 +16,8 @@
 - Each Element of Matrix represents the **Intensity** of an Image
 - Each Channel need **8 Bits** for Storage therefor it become **24 Bits** for each Pixel.
 
+### Images are converted to and from **NumPy** Array
+
 ### Storage Requirements
 
 1. Binary : `1 Bit` Per Pixel
