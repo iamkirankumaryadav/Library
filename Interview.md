@@ -42,10 +42,6 @@
 ### Activation Function
 - A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Next Layer**.
 
-
-
-# DBMS vs RDBMS
-
 | DBMS | RDBMS |
 | :--- | :---  |
 | Store Data in the form of **File** | Store Data in the form of **Tables** |
@@ -54,8 +50,6 @@
 
 ### Cross Join | Cartesian Product
 - Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
-
-# DBMS vs RDBMS
 
 | Classification | Clustering |
 | :--- | :---  |
