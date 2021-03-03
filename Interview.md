@@ -59,6 +59,7 @@
 
 | Classification | Clustering |
 | :--- | :---  |
+| Need **Prior** Knowledge of Data | **No Prior** Knowledge of Data |
 | Classify New Sample into known **Classes** | Suggest Groups based on **Patterns** in Data |
 | **Decision Tree** | **K Means** |
 | **Labelled** Samples | **Unlabelled** Samples |
