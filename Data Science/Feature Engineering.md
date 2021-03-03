@@ -1,6 +1,7 @@
 # Feature Engineering
 
 - **Preprocessing** of Data comes under **Feature Engineering**.
+- Extract Meaningful **Insights** from the Dataset.
 - Process of Using **Domain Knowledge** of Data to Create **Features** and **Variables** to use in **Machine Learning**.
 - Improve Machine Learning **Model Performance**.
 
