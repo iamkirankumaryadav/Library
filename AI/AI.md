@@ -2,6 +2,8 @@
 
 **Data Science** > **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**.
 
+**Predictive Modeling** > A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**.
+
 **Machine Learning** > Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed.
 
 **Artificial Intelligence** > **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**.
