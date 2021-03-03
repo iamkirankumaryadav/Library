@@ -1,6 +1,11 @@
-### How to Deal with Categorical Data ?
+# How to Deal with Categorical Data ?
+
+- More than **One Class Label** and **Discrete Value**.
+- **Nominal** : No Ordering among the Values of that attribute. e.g. **Genre** of Music, Movie and Videos
+- **Ordinal** : Order among the Values. e.g. Size of Tshirts ( XS - S - M - L - XL - XXL ), Education Level, Grades 
 
 - You can’t **Train** the Model with  Categorical Variables** in their **Raw form**. They must be treated.
+- **Transformation** of **Categorical Labels** in **Numeric Values** by applying some **Encoding Scheme** is Important.
 
 - Convert into **Numerical Values**
 
