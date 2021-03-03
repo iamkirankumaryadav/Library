@@ -20,7 +20,7 @@
 
 1. Google Translate.
 2. Word Processor | Grammer Check in Microsoft Word.
-3. Grammerly in Gmail.
+3. Grammerly Grammer and Spelling Checking in Gmail.
 4. IVR | Interactive Voice Response in Call Centers.
 5. Voice Assistant : OK Google, Siri, Cortana and Alexa.
 6. Chatbots
