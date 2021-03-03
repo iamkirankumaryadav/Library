@@ -29,3 +29,18 @@
 ### Tokenization
 - Break a **Sentence** into Words.
 - Understand Each Word
+
+### Stemming and Lemmatization
+- Grouping and `Reduce` Variant Forms to `Base` Forms
+- ( Consult, Consultation, Consulting ) > Consult
+
+### Stop Word
+- Meaningless Words in a Sentence
+- Search Engine only Search on the Basis of `Keywords` and not by whole Sentence.
+
+How to `Remove` Stopwords
+Using NLTK
+1. Tokenize 
+2. Compare with List of Stopwords and Drop that Words ( Token for Token in Text if not in Stopwords.words( ) ) 
+
+Using spaCy
