@@ -10,6 +10,15 @@
 ### Image Processing
 - **Extract Infromation** from Image 
 - **Enhance** the Image
+- Each Pixel in Color have Color Information composed of  `3 Channels` **R G and B**
+- Each Channel need **8 Bits** for Storage therefor it become **24 Bits** for each Pixel.
+
+### Storage Requirements
+
+1. Binary : `1 Bit` Per Pixel
+2. Black and White : `8 Bits` Per Pixel
+3. Grayscale : `8 Bits` Per Pixel
+4. Color : `24 Bits` Per Pixel
 
 ### Pixel
 - Basic **Fundamental Unit** of Image 
@@ -24,11 +33,11 @@
 - Black and White will be **Dense** and shall render **Better Quality**.
 
 ### Applications 
-1. Self Driving Cars
-2. Facial Recognition
+1. Self Driving Cars ( Detect Objects and Humans infront of Car, Reverse Parking )
+2. Facial Recognition ( Attendance, FB Friend Recognition )
 3. Augmented Reality and Virtual Reality
 4. Health Care ( X Ray and MRI Scan )
-5. Video Motion Analysis 
+5. Video Motion Analysis ( Detect Face, Object in Video )
 6. Image Segmentation ( Camera Detects the Multiple Faces in a Group Selfie )
 7. Scene Reconstruction ( 3D Model Creation in Architecture )
 8. Image Restoration ( Filtering Blur Images and Removing Noise )
