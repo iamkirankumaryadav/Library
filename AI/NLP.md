@@ -23,3 +23,5 @@
 3. Grammerly in Gmail.
 4. IVR | Interactive Voice Response in Call Centers.
 5. Voice Assistant : OK Google, Siri, Cortana and Alexa.
+6. Chatbots
+7. Customer Feedback Sentiment Analysis ( 😊🙂😔😡 )
