@@ -44,3 +44,5 @@ Using NLTK
 2. Compare with List of Stopwords and Drop that Words ( Token for Token in Text if not in Stopwords.words( ) ) 
 
 Using spaCy
+
+### Part of Speech
