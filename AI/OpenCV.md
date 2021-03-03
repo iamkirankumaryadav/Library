@@ -11,6 +11,7 @@
 - **Extract Infromation** from Image 
 - **Enhance** the Image
 - Each Pixel in Color have Color Information composed of  `3 Channels` **R G and B**
+- **Matrix** is associated with each Channel
 - Each Channel need **8 Bits** for Storage therefor it become **24 Bits** for each Pixel.
 
 ### Storage Requirements
