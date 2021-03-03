@@ -123,7 +123,13 @@ All follow Same Process in Regression and Classification the only difference is 
 - Save Storage and Time by Improving Performance of Model.
 - Due to less number of Features it can be Visualized in 2D and 3D.
 
+### Feature Selection
+- Select Relevant Features
+- Remove Unwanted Features
+
 > Techniques of Dimensionality Reduction
+
+### Feature Extraction
 
 - Principal Component Analysis. ( Reduce Dimensions of Data )
 - Linear Discriminant Analysis.
