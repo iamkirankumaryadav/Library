@@ -10,6 +10,7 @@
 ### Image Processing
 - **Extract Infromation** from Image 
 - **Enhance** the Image
+- Computers Visualize Images as a **Matrix** containing Numbers from 0 to 255
 - Each Pixel in Color have Color Information composed of  `3 Channels` **R G and B**
 - **Matrix** is associated with each Channel
 - Each Channel need **8 Bits** for Storage therefor it become **24 Bits** for each Pixel.
