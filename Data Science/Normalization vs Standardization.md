@@ -6,6 +6,9 @@
 - So we **Normalize** Data to bring in Same **Range**.
 - x(**Normal**) =  x - **min**(x) / **max**(x) - **min**(x)
 
+Techniques : 
+Preprocessing.`MinMax( )`
+
 ### Scaling :
 - Converting **Floating Point** Feature values from their Natural Range (e.g. 100 to 900) into a Standard Range (e.g. 0 to 1 or -1 to 1)
 - A Feature Set consisting only Single Feature, Scaling provides little to no practical benefit.
