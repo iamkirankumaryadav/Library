@@ -39,7 +39,7 @@
 2. Reason for Missing Data
 
 ### Data Visualization
-1. Scatter Plot and Histograms to Find Relationships between the Continuous Variables.
+1. Scatter Plot and Histograms to Find Relationships between the Continuous Variables. ( **Measure of Spread** and **Central Tendency** )
 2. Bar Plot to know about Categorical Variables.
 3. Histogram to understand **Distribution** of Data.
 4. Box Plot, Scatter and Histogram to find **Outliers**.
