@@ -1,11 +1,15 @@
 # Feature Engineering
 
 - **Preprocessing** of Data comes under **Feature Engineering**.
-- Extract Information and Capture Meaningful **Insights** from the Dataset.
+- Extract Information and Capture Meaningful **Insights** from the Dataset is **Exploratory Data Analysis**
+- Feature Engineering is Performed after complete `EDA`.
 - Make Data Ready for **Machine Learning Algorithms**.
 - Use `Domain Knowledge` of Data to Create **Features** and **Variables** to use in **Machine Learning**.
 - Improve Machine Learning **Model Performance**.
 - Remove `Unused` Features.
+- Handle Date and Time Features
+- Handle `Missing` Data   
+- Handle `Categorical` Data ( Categorical to Numeric | Grouping Sparse Data | Create Dummy )
 
 > Handling **Missing Data** | Encoding **Categorical Variables** | **Variable Transformation** | **Create New Features**
 
