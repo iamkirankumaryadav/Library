@@ -24,7 +24,7 @@
 
 #### [How to Deal with Missing Data ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [How to Deal with Outliers ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [How to Deal with Categorical Feature](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [How to Deal with Imbalanced Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md)
 
-### Bias and Variance
+### Important Disclaimer
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
 - But we cannot make a **100%** Accurate Model.
 - **Prediction** ( Continuous ) and **Classification** Models, can never be **Error Free**.
