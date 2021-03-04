@@ -3,7 +3,7 @@
 - Analyze and Investigate Data Sets and Summarize | Describe Main Characteristics of Data 
 - Includes Data Visualization Methods.
 - Discover Patterns | Spot Anomalies | Detect Outlier | Test Hypothesis | Check Assumptions
-- Better Understanding of Data Set (Variables | Features | Relationships | Patterns)
+- Better Understanding of Data Set ( Variables | Features | Relationships | Patterns )
 - Sophisticated Data Analysis 
 
 ### Tools
@@ -32,3 +32,16 @@
 3. Identify Data Types, Number of Observations
 4. Check for Missing Data | Identify Missing Data 
 5. Explore Categorical Features 
+6. Explore Target Variable
+
+### Ask Questions
+1. Are the Values on the Right Scale.
+2. Reason for Missing Data
+
+### Data Visualization
+1. Scatter Plot and Histograms to Find Relationships between the Continuous Variables.
+2. Bar Plot to know about Categorical Variables.
+3. Histogram to understand **Distribution** of Data.
+4. Box Plot, Scatter and Histogram to find **Outliers**.
+5. Set Boundaries | Filters or Trim Data Set.
+6. Measurement Errors | Need **Normalization** or **Standardization**
