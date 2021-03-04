@@ -1,0 +1,19 @@
+### Imbalanced Data Set
+
+Class Labels should be Balanced otherwise it Predicts a Biased Output or Classify Biased to only one Class Label.
+
+### Stratified Sampling
+- Equal number of Each Class to Train the Model
+
+### Upsample Minority Class
+- Randomly Duplicate the Observations in order to reinforce the Learning of Data
+- Sampling with `Replacement`
+- First Seperate Observations for Each Class.
+- Resample Minority Class with Replacement, Setting Number of Samples to Match with Majority Class.
+- Combine the Up Sampled Data with Orignal Majority Class Dataframe.
+
+### DownSample Majority Class
+- Randomly Removing Observations from Majority Class ( Resampling **without** Replacement )
+- First Seperate Observations for Each Class.
+- Resample Majority Class `without` Replacement, Setting Number of Samples to Match with Minority Class.
+- Combine the Down Sampled Data with Orignal Minority Class Dataframe.
