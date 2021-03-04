@@ -8,6 +8,7 @@
 - **Transformation** of **Categorical Labels** in **Numeric Values** by applying some **Encoding** is Important.
 
 - Convert into **Numerical Values**
+- Combine `Sparse` Classes ( Classes with very less **Labels** )
 
 ### 1. Label Encoding
 - Substitute Bins by **Mean**
