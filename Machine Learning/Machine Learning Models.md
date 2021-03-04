@@ -109,6 +109,17 @@ All follow Same Process in Regression and Classification the only difference is 
 > Clustering Techniques
 
 1. K Mean
+- We Choose **K** number of Clusters.
+- Select K Random Data Points as Centroid.
+- Data Points nearest to its Corresponding Centroid belongs to that Cluster
+- Again the Centroid is Calculated
+- The Data Points are Updated based on New Centroid.
+
+2. K Nearest Neighbours
+- Calculate Distance between Test Data and Each Row of Training Data
+- Sort the Calculated Distance in Ascending Order
+- Get Top Rows Nearest to it or most Frequent Classes
+- Return the Prediction.
 
 2. Hierarchical
  
