@@ -9,6 +9,7 @@
 
 - Convert into **Numerical Values**
 - Combine `Sparse` Classes ( Classes with very less **Labels** )
+- Set Filter to Classes ( Class Labels should have atleast **50** Observations )
 
 ### 1. Label Encoding
 - Substitute Bins by **Mean**
@@ -19,8 +20,6 @@
 > Some times use Business Logic to remove **Redundancy** e.g. Pincode is enough instead of State and City 
 
 ### 2. Dummy Coding | One Hot Encoding
-- Transform **Non Numerical Labels** to **Numerical Labels** ( **Binomia** : 1 or 0 ) 
+- Transform **Non Numerical Labels** to **Numerical Labels** ( **Binary** : 1 or 0 ) 
 - Convert a **Categorical Input Variable** into **Numeric Variable**
 - One Hot Encoding is better for **Nominal** Categories ( Rank do not Matters )
-
-
