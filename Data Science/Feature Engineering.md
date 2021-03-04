@@ -3,7 +3,7 @@
 - **Preprocessing** of Data comes under **Feature Engineering**.
 - Extract Information and Capture Meaningful **Insights** from the Dataset.
 - Make Data Ready for **Machine Learning Algorithms**.
-- Process of Using **Domain Knowledge** of Data to Create **Features** and **Variables** to use in **Machine Learning**.
+- Use `Domain Knowledge` of Data to Create **Features** and **Variables** to use in **Machine Learning**.
 - Improve Machine Learning **Model Performance**.
 
 > Handling **Missing Data** | Encoding **Categorical Variables** | **Variable Transformation** | **Create New Features**
