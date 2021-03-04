@@ -5,6 +5,7 @@
 - Make Data Ready for **Machine Learning Algorithms**.
 - Use `Domain Knowledge` of Data to Create **Features** and **Variables** to use in **Machine Learning**.
 - Improve Machine Learning **Model Performance**.
+- Remove `Unused` Features.
 
 > Handling **Missing Data** | Encoding **Categorical Variables** | **Variable Transformation** | **Create New Features**
 
