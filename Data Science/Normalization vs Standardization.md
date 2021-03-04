@@ -7,7 +7,7 @@
 - x(**Normal**) =  x - **min**(x) / **max**(x) - **min**(x)
 
 Techniques : 
-Preprocessing.`MinMax()`
+Preprocessing.`MinMaxScaler()`
 
 ### Scaling :
 - Converting **Floating Point** Feature values from their Natural Range (e.g. 100 to 900) into a Standard Range (e.g. 0 to 1 or -1 to 1)
