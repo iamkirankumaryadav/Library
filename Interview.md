@@ -22,7 +22,7 @@
 
 ---
 
-#### [How to Deal with Missing Data ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [How to Deal with Outliers ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [How to Deal with Categorical Feature](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [How to Deal with Imbalanced Data]()
+#### [How to Deal with Missing Data ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [How to Deal with Outliers ?](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [How to Deal with Categorical Feature](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [How to Deal with Imbalanced Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md)
 
 ### Bias and Variance
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
