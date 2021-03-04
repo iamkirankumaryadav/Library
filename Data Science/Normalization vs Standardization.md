@@ -9,6 +9,10 @@
 **Techniques** : 
 - Preprocessing.`MinMaxScaler()`
 
+Where to **Use** :
+- Normalization works for Deep Learning well ( CNN, RNN ) and even for Images.
+- Standard Scaler is Better than Normalization in most cases.
+
 ### Min Max Scaling
 - x(**Rescaled**) =  x - **min**(x) / **max**(x) - **min**(x)
 
@@ -22,6 +26,14 @@
 - **Mean** = 0 and **Standard Deviation** = 1
 - Standardizing **Features** around center | Equalize the Range or Data **Variability**
 - Important when we **Compare** Measurements that have Different **Units**
+
+Where to **Use** :
+- Algorithms that rely on Gradient Descent ( Regression )
+- Algorithms that Calculate Distance ( KNN, K Mean, Clusterings )
+
+
+Not to **Use** :
+- Trees : Decision Trees and Ensemble Techniques.
 
 **Techniques** : 
 - Preprocessing.`StandardScaler()`
