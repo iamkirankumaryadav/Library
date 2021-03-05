@@ -31,18 +31,21 @@
 - `Break` | `Split` a **Sentence** | **Phrase** | **Paragraph** into `List` of **Individual Words**.
 
 ### Stemming 
-- `Normalize` | `Reduce` | `Cut` end of the Words into its `Stem` Form.
-- Remove `Suffix` from the Word.
+- `Cut` end of the Words into its `Stem` Form.
+- Remove `Suffix` and `Prefix` from the Word.
 - Stem may not be an **Actual** Word.
 - Easy for `Read` and `Compare`.
 - e.g. Studies > Studi | Studying > Study
 
 ### Lemmatization
-- `Normalize` | `Reduce` Words into its `Base` Form.
+- `Reduce` Words into its `Base` Form.
 - Used in Search Engines to Search by `Keywords`.
 - `Lemma` is Actual Word.
 - Better > Good.
 - ( Consult, Consultant, Consultants, Consultation, Consulting ) > Consult
+
+### Normalization
+- Normalize Words : Converting all Text to Same Case, removing Punctuation, Converting Number to Words.
 
 ### Stop Word
 - Filter out **Useless** Words in a Sentence
@@ -57,11 +60,11 @@ Using NLTK
 
 ### POS : Parts of Speech
 - Classify the part of Speech `tag` of each `Token`.
-Using spaCy
+- Identify Noun, Verb, Adjective in Sentence.
+
 
 ### Name Entity Recognition
 1. Recognize by Name ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
-
 
 ### Syntax
 - Syntactic Structure of Sentence or Strings.
