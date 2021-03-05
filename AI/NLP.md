@@ -33,12 +33,15 @@
 ### Stemming 
 - `Normalize` | `Reduce` | `Cut` end of the Words into its `Stem` Form.
 - Remove `Suffix` from the Word.
+- Stem may not be an **Actual** Word.
 - Easy for `Read` and `Compare`.
 - e.g. Studies > Studi | Studying > Study
 
 ### Lemmatization
 - `Normalize` | `Reduce` Words into its `Base` Form.
 - Used in Search Engines to Search by `Keywords`.
+- `Lemma` is Actual Word.
+- Better > Good.
 - ( Consult, Consultant, Consultants, Consultation, Consulting ) > Consult
 
 ### Stop Word
