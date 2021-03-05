@@ -47,4 +47,4 @@
 7. Scene Reconstruction ( 3D Model Creation in Architecture )
 8. Image Restoration ( Filtering Blur Images and Removing Noise )
 9. Search By Image `Image.Google`
-10. Robotics : Robots can See the Environment.
+10. Robotics.
