@@ -5,6 +5,7 @@
 
 ### NLP
 - Computer Learn and Understand from Human Languages.
+- NLP makes it possible for Computers to `Read`, `Write`, `Hear`, `Interpret` and `Measure` Sentiments. 
 - Interaction between Computers and Humans using the Natural Language.
 
 ### Process :
