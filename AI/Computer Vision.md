@@ -7,32 +7,26 @@
 - Faster than Human Reaction and 99% Accuracy.
 - High Amount of Visual Data (Images and Videos) with Processing Capabilities.
 
+### How Computer Sees an Image
+- 0's and 1's
+- Pixels are **Basic** | **Fundamental Unit** of Image 
+- Multiple Pixels arranged in Matrix ( **Rows** and **Columns** ) forms an **Image**
+- Each Pixels have `3 Channels` ( R [255,0,0] | G [0,255,0] | B [0,0,255] ) 8 Bits each.
+- Number between 0 to 255 represents `Intensity` of Color.
+- Binary : 0 or 1 ( `Single` Channel i.e 8 Bit )
+- Black and White ( `Single` Channel | 8 Bits )
+- Grayscale ( `Single` Channel | 8 Bits )
+- RGB Color Image ( `3` Channels | `24` Bits | 8 Bits each Channel )
+
 ### Image Processing
+
 - **Extract Infromation** from Image | Detailed Image Analysis.
 - **Enhance** the Image | Change Color, Clearity, Size of Image.
-- Computers Visualize Images as a **Matrix** containing Numbers from 0 to 255
-- Each Pixel in Color have Color Information composed of  `3 Channels` **R G and B**
-- **Matrix** is associated with each Channel
-- Each Element of Matrix represents the **Intensity** of an Image
-- Each Channel need **8 Bits** for Storage therefor it become **24 Bits** for each Pixel.
-
-### Images are converted to and from **NumPy** Array
-
-### Storage Requirements
-
-1. Binary : `1 Bit` Per Pixel
-2. Black and White : `8 Bits` Per Pixel | `1 Channel`
-3. Grayscale : `8 Bits` Per Pixel | `1 Channel`
-4. Color : `24 Bits` Per Pixel | `3 Channels`
-
-### Pixel
-- Basic **Fundamental Unit** of Image 
-- Multiple Pixels arranged in **Rows** and **Columns** forms an **Image**
-- Binary, Black and White, Grayscale, RGB Color Image
+- Images are converted `to` and `from` **NumPy** Array
 
 > Black and White and Greyscale Images are **Different**
-- Black and White is only Composed with Black or White
-- Grayscale is combination of Different Grades of Black and White.
+- Black and White is only Composed with either `Black` ( 000 ) or `White` ( fff )
+- Grayscale is combination of different `Shades` of Black and White.
 
 ### **Binary** need `1 Bit Per Pixel` for Storage and **Black** and **White** needs `8 Bits Per Pixel` for **Storage**.
 - Black and White will be **Dense** and shall render **Better Quality**.
