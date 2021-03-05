@@ -74,7 +74,7 @@ Using NLTK
 - Form Set of Triple Words
 
 ### Name Entity Recognition
-1. Recognize by Name ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
+1. Recognize | Classify Elements in Text by Category Name ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
 
 ### Syntax | Syntactic Analysis
 - Syntactic Structure of Sentence or Strings.
@@ -85,7 +85,11 @@ Using NLTK
 
 ### Information Retrieval
 - Process of Accessing and Retrieval of appropriate Information  from Text.
+- Extracting Title, Texta and Media from a Book, Artice or Simply Web Page.
 - e.g. Google Search
+
+### Corpus | Corpora
+- Large Collection of Documents ( Accurate Grammer Phrases ) | Knowledge Base that can be used to infer and Validate Language Rules.
 
 ### Chunking
 - Grouping `Individual` Pieces of Information into Bigger Piece.
