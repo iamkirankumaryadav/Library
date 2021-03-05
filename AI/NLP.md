@@ -62,12 +62,30 @@ Using NLTK
 - Classify the part of Speech `tag` of each `Token`.
 - Identify Noun, Verb, Adjective in Sentence.
 
+### Bag of Words
+- Number of `Occurence` of Words in a Paragraph or Sentence.
+- e.g. Well well well, Said John
+- Bag of Words is represented in form of **Dictionary** 
+
+### Bigrams
+- Form Pair of Words from Sentence
+
+### Trigrams
+- Form Set of Triple Words
 
 ### Name Entity Recognition
 1. Recognize by Name ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
 
-### Syntax
+### Syntax | Syntactic Analysis
 - Syntactic Structure of Sentence or Strings.
+- Analyze String by `Symbol`. 
+
+### Sentiment Analysis
+- Feeling, Emotion, Reaction, Satisfaction of User | Customer | Consumer expressing there Feedback and Reaction.
+
+### Information Retrieval
+- Process of Accessing and Retrieval of appropriate Information  from Text.
+- e.g. Google Search
 
 ### Chunking
 - Grouping `Individual` Pieces of Information into Bigger Piece.
