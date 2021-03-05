@@ -45,17 +45,19 @@
 - ( Consult, Consultant, Consultants, Consultation, Consulting ) > Consult
 
 ### Stop Word
-- Meaningless Words in a Sentence
-- Search Engine only Search on the Basis of `Keywords` and not by whole Sentence.
+- Filter out **Useless** Words in a Sentence
+- Stop words are the Filler words.
+- Search Engine only Search on the Basis of `Keywords`.
+- Search Engines are programmed to `ignore` **Stop Words**.
 
 How to `Remove` Stopwords
 Using NLTK
 1. Tokenize 
 2. Compare with List of Stopwords and Drop that Words ( Token for Token in Text if not in Stopwords.words( ) ) 
 
+### POS : Parts of Speech
+- Classify the part of Speech `tag` of each `Token`.
 Using spaCy
-
-### Part of Speech
 
 ### Name Entity Recognition
 1. Recognize by Name ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
