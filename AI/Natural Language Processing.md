@@ -19,13 +19,14 @@
 
 ### Applications :
 
-1. Google Translate.
+1. Google Translate. ( Speech to Text )
 2. Word Processor | Grammer Check in Microsoft Word.
-3. Grammerly Grammer and Spelling Checking in Gmail.
+3. Grammerly | Grammer Correction and Spelling Correction in Gmail.
 4. IVR | Interactive Voice Response in Call Centers.
 5. Voice Assistant : OK Google, Siri, Cortana and Alexa.
 6. Chatbots
 7. Customer Feedback Sentiment Analysis ( 😊🙂😔😡 )
+8. Document Summarization : Read Article and Newspaper ( Blind People )
 
 ### Tokenization
 - `Break` | `Split` a **Sentence** | **Phrase** | **Paragraph** into `List` of **Individual Words**.
