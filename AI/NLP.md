@@ -28,13 +28,18 @@
 7. Customer Feedback Sentiment Analysis ( 😊🙂😔😡 )
 
 ### Tokenization
-- Break a **Sentence** into Words.
-- Understand Each Word
+- `Break` | `Split` a **Sentence** | **Phrase** | **Paragraph** into `List` of **Individual Words**.
 
-### Stemming and Lemmatization
-- `Normalize` Words into its `Base` Form.
-- Grouping and `Reduce` Variant Form to `Base` Form
-- ( Consult, Consultation, Consulting ) > Consult
+### Stemming 
+- `Normalize` | `Reduce` | `Cut` end of the Words into its `Stem` Form.
+- Remove `Suffix` from the Word.
+- Easy for `Read` and `Compare`.
+- e.g. Studies > Studi | Studying > Study
+
+### Lemmatization
+- `Normalize` | `Reduce` Words into its `Base` Form.
+- Used in Search Engines to Search by `Keywords`.
+- ( Consult, Consultant, Consultants, Consultation, Consulting ) > Consult
 
 ### Stop Word
 - Meaningless Words in a Sentence
