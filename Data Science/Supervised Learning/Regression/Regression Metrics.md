@@ -6,6 +6,9 @@
 
 ### Linear Regression
 ### 1. Mean Squared Error ( `MSE` ) 
+
+![MSE](Image/MSE.jpg)
+
 - Squared Difference between the `Actual` Value and the `Predicted` Value
 - Square the Differences, Penalizes even Samll Error
 
