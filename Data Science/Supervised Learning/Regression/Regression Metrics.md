@@ -13,15 +13,24 @@
 - Square the Differences, Penalizes even Samll Error
 
 ### 2. Root Mean Square Error ( `RMSE` )
+
+![RMSE](Image/RMSE.png)
+
 - Square Root of MSE
 - RMSE is useful when `Large` Errors are Undesired
 
 ### 3. Mean Absolute Error ( `MAE` )
+
+![MAE](Image/MAE.png)
+
 - Absolute Difference between `Actual` Value and `Predicted` Value.
 - MAE is better for **Outliers** 
 - All **Individual Differences** are weighted equally.
 
 ### 4. Coefficient of Determination ( R<sup>2</sup> )
+
+![R2](Image/R2.png)
+
 - Help us to `Compare` **Current** Model with the **Base** Model.
 - R<sup>2</sup> is always <= 1 ( Ranges between `-inf` to `1` )
 
