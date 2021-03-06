@@ -63,9 +63,25 @@
 
 ![Precision](Image/Precision.png)
 
-### 4. Recall
+### 4. Recall | True Positive Rate ( `TPR` ) | Sensitivity
 - Focus on `Positive Class` ( How Good our Model is at `Correctly` predicting `Positive` Classes ? )
 - **Evaluates** Model only based on its **ability** to  **Predict** the `Positive Class`.
+- **True Positive Rate** : Proportion of **Positive Class** that is `Correctly` Predicted as **Positive**.
 
 ![Recall](Image/Recall.png)
+
+### 4. False Positive Rate ( `FPR` ) | Specificity
+- Focus on `Negative Class` ( How Good our Model is at `Correctly` predicting `Negative` Classes ? )
+- **Evaluates** Model only based on its **ability** to  **Predict** the `Negative Class`.
+- **False Positive Rate** : Proportion of **Negative Class** that is `Correctly` Predicted as **Negative**.
+
+![FPR](Image/FPR.png)
+
+### 6. F1 Score
+- Weighted Average of **Precision** and **Recall**
+- Useful for Datasets with `Uneven` **Class Distribution**
+- It considers `FP` and `FN`
+
+![F1](Image/F1.png)
+
 
