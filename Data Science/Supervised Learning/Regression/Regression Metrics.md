@@ -5,6 +5,8 @@
 3. Various Parameters of the Model are `Adjusted Iteratively` in order to reach the **Optimal Value** of the **Performance Metric**.
 
 ### Linear Regression
+- `Predict` **Dependent Variable** on the basis of One or more **Independent** Variable ( s )
+
 ### 1. Mean Squared Error ( `MSE` ) 
 
 ![MSE](Image/MSE.jpg)
@@ -39,6 +41,31 @@
 - Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup>
 
 ### Logistic Regression
-1. Classification Report
-2. Confusion Matrix
-3. F1 Score, Precision, Recall ( Sensitivity ), Specificity, AUC 
+- `Predict` the `Class` | `Label` of a **Data Point** on the basis of One or more **Independent Features**.
+- Depending on the number of `Class` | `Label` that **Target Variable** includes, it can be `Binary` or `Multi Class` **Classification**.
+
+> Data Set should contain Well `Balanced` **Class Distribution**
+
+### 1. Classification Accuracy 
+- Number of `Correct` Prediction to the Number of **Total Predictions**
+- Accuracy Score is Good if Datasets contains well `Balanced` Class Distribution.
+
+![Accuracy](Image/Accuracy.png)
+
+### 2. Confusion Matrix
+- Show `Correct` and `Incorrect` Predictions | Classifications on each **Class** | **Label**
+
+![Confusion Matrix](Image/ConfusionMatrix.png)
+
+### 3. Precision
+- Focus on `Positive Predictions` ( How Good our Model is when **Prediction** is `Positive` ? )
+- **Evaluates** Model only based on `Positive Predictions`.
+
+![Precision](Image/Precision.png)
+
+### 4. Recall
+- Focus on `Positive Class` ( How Good our Model is at `Correctly` predicting `Positive` Classes ? )
+- **Evaluates** Model only based on its **ability** to  **Predict** the `Positive Class`.
+
+![Recall](Image/Recall.png)
+
