@@ -81,6 +81,8 @@
 - Weighted Average of **Precision** and **Recall**
 - Useful for Datasets with `Uneven` **Class Distribution**
 - It considers `FP` and `FN`
+- `Best` Value for **F1 Score** is `1`
+- `Worst` Value for **F1 Score** is `0`
 
 ![F1](Image/F1.png)
 
