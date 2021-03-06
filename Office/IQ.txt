@@ -1,0 +1,173 @@
+Links :
+https://www.educative.io/edpresso/catalog-machine-learning
+https://dataespresso.com/
+https://deepai.org/
+
+# Difference between KNN and K-Means
+- KNN | K Nearest Neighbors 
+  K : Number of Neighboring Data Points that influence the Classification of given Observation.
+
+ Application :
+1.Banking System : Fit for Granting Loan.
+2.Speech Recognition, Handwriting Detection, Image Recognition and Video Recognition.
+3.Classification of Voter and Non Voter
+
+- K Means 
+  K : An Integer Describing the Number of Clusters to be Created from given Data Set.
+
+# Recall 
+- Describes What Percentage of True Positives are Described as Positive by the Model.
+
+# Precision
+- Describes the % of Positive Predictions were Correct.
+
+# L1 vs L2 Regularization
+- L1 : Lasso
+- L2 : Ridge
+ The Key Difference between these Two is Penalty Term.
+
+# Hash Table Collision
+- The Range of Key Values is Larger than the Size of our Hash Table.
+- Two Different Records with Two Different Keys can Hash to the Same Table Index.
+
+# Data Science :
+- The Field of Study that Combines Domain Knowledge, Programming Skills and Knowledge of Maths and Statistics and
+  Extract Meaningful Insights from Data.
+
+Data Analysis : Deals with Past Data and Improve Business Performance.
+
+Data Analytics : Deals with the Future Performance
+
+------------------
+| Data Science   | : Deals with Structured and Unstructured Data | Preparation | Cleaning | Exploration
+| Data Analysis  | : Study the Past Data and Gain Insights that can Improve Performance  
+| Data Analytics | : Discover Hidden Patterns in the Data Set and make Predictions for Future
+| Data Mining    | : Applying Machine Learning
+------------------
+
+ML : AI Technique (Use a Training Data Set to Build a Model that can Predict Values of Target Variables)
+
+Supervised Learning 
+- Input Data is Labelled > Use a Training Data Set > Used for Prediction > Classification and Regression
+
+Steps:
+1.Create a Training Data Set.
+2.Transform the Input Object into a Feature Vector (Feature that Describe Object) 
+3.Determine Desired Learning Algorithm and Run Training Set.
+4.Evaluate the Accuracy of Model using Test Data Set.
+5.Deploy the Model to Predict Outcome of Unknown Data.
+
+Classification : Predict Categorical Variable | Decision Tree
+
+Regression : Predict Numeric Value | Regression Tree
+
+The Goal of any Supervised Machine Learning Algorithm is to have 
+Low Bias and Low Variance to Achieve Good Prediction Performance.
+
+# Algorithm :
+1.Regression
+2.Classification
+3.KNN (Used for both Classification and Regression)
+4.Decision Tree (Used for both Classification and Regression)
+  Prone to Overfitting.
+  
+5.Random Forest 
+- Ensemble Learning for Classification and Regression | Produce Good Results without Hyper Parameter Tuning.
+  Create Decisions Trees at Training Time and then taking a Mode | Majority Vote (Classification) or Mean(Regression)
+  Better from Single Decision Tree, No Overfitting to Training Set.
+
+Unsupervised Learning 
+- Input Data is Unlabelled > Use the Input Data Set > Used for Analysis 
+- Classification, Dimensionality Reduction, Association, Segmentation.
+Algorithm:
+K Means : Correctly Distinguish which Data Points belong to which Group | Cluster.
+          Iterative Algorithm tries to Partition Data Sets into K Predefined | Distinct | Non Over Lapping Clusters.
+          Each Data Points belongs to Only One Group.
+          Follow Expectation Maximization Approach :
+          Expectation : Assign Data Points to the Closest Cluster.
+          Maximization : Computing Centroid for Each Cluster.
+
+Application 
+1.Market Segmentation based on Spending and Behavioral Attributes of Customers.
+2.Drug Activity Predictions
+3.Spam Filtering
+4.Identifying Fake News
+
+Clustering : Split Data Points into Clusters
+             Data Points with Similar Features should assign to the Same Cluster.
+	     K Mean Clustering
+             Hierarchical Clustering
+
+Association : Discover | Identify Hidden Relationships | Correlations and Interesting Insights 
+              between Features in a Data Set.
+              
+ 	      Basket Data Analysis : Planning Product Placement in a Store Front.
+	                             Marketing Campaign | Business Catalog.      
+
+Test Data Set is used for Performance Evaluation (Actual Labels,Predicted Labels)
+
+# Normal Distribution
+1. Unimodal
+2. Symmetrical Left and Right
+3. Bell Shaped Curve
+4. Mean = Median = Mode = 0
+5. Standard Deviation = 1
+
+# Any() : Any of the Element is True
+Takes Iterables (List, Tuple, Set,etc)
+Returns True if any element Evaluate to True
+Returns False if all elements Evaluate to False
+Check a Long Series of or conditions.
+
+# All() : All of the Element is True
+Returns True if all elements Evaluate to True
+Returns False if any element Evaluate to False
+Check a Long Series of and conditions.
+
+# Python Memory Management
+- Heap Space maintains all Objects and Data Structure.
+- Stack Space contains all the References to the Objects in Heap Space.
+- Dynamically Allocates Memory 
+- No Option for Manual Memory Management.
+- Built in Garbage Collector continuously look for Unreferenced Objects and Deletes from Memory.
+- Good Memory Optimization.
+
+- When an Object is Updated, the New Value is Written at a New Location
+  and Variable is Referenced to a New Address
+
+- As the References to an Object reach 0, 
+  Garbage Collector wipes the Heap (Unlike other, in C++ Value is Updated at Same Location)
+
+# Feature Selection
+- Process of Determing Relevant Features that Affect the Target Variable.
+  Not Every Feature in the Data Set Affects the Target Variable or Model.
+
+# Manual Filtering 
+- Determine Irrelevant Features through Correlation Matrix.
+  Correlation ranges between +1 to -1
+> +1 and -1 Indicates Strong Positive | Negative Correlation
+> 0 Indicates Weak Correlation.
+
+# Data Normalization
+- Rescaling Real Valued Numeric Attributes into a 0 or 1 Range.
+- Makes Model Training Less Sensitive to Scale of Features
+- Allow Model to Move to Better Weights.
+- Lead to More Accurate Model.
+
+from sklearn import preprocessing
+preprocessing.normalize(a)
+
+# Overfitting 
+- Overfit Model gives a very Low Prediction Error on Training Data and High Prediction Error on Test Data.
+- Over Memorized the Data Set it has seen and unable to Generalize the Learning to an Unseen Data.
+- Model is Highly Complex (Input Feature Combinations are in Large Number)
+- Low Bias High Variance.
+
+# Underfitting Model
+- Underfit Model results in High Prediction Errors for both Training Data and Test Data. 
+- Fails to Significantly Grasp the Relationship between Input Variable and Target Variables.
+- Model is too Simple. (Input Features are not Explanatory enough to Describe the Target Well)
+- High Bias High Variance.
+
+Optimal Solution is Low Prediction Error on Training and Test Data
+- Low Bias Low Variance.

@@ -1,0 +1,7 @@
+Do not need to be Compiled before it is Run.
+Dynamically Type : No Need to Declare the Type of Variable.
+Do not have Access Specifiers (public, private)
+Functions are First Class Object : They can be Assigned to Variables | Returned from Other Functions | Passed into Functions.
+
+
+
