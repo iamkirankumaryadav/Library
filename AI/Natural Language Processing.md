@@ -1,9 +1,12 @@
 # Natural Language Processing
 
-- Ability of a Computer to `Understand`, `Analyze`, `Manipulate`, and potentially `Generate` **Human Language**.
-- Computer Learn and Understand from Human Languages.
+- Ability of a Computer to `Understand`, `Analyze`, `Manipulate` and `Generate` **Human Language**.
+- Computer `Learn` and `Compunicate` with Humans using Human Languages.
 - NLP makes it possible for Computers to `Read`, `Write`, `Hear`, `Interpret` and `Measure` Sentiments. 
 - Interaction between Computers and Humans using the Natural Language.
+
+### NLTK ( Natural Language Toolkit ) 
+- Open Source Tool Library created to make `NLP` Process in `Python`.
 
 ### Text Mining | Text Analysis 
 - Deriving **Meaningful Information** from Natural Language **Text** and **Speech**.
@@ -17,16 +20,20 @@
 5. Convert Text to Audio.
 6. Machine Talk | Reply to Human.
 
-### Applications :
+### Applications : NLP in Real Life
 
 1. Google Translate. ( Speech to Text )
-2. Word Processor | Grammer Check in Microsoft Word.
-3. Grammerly | Grammer Correction and Spelling Correction in Gmail.
-4. IVR | Interactive Voice Response in Call Centers.
-5. Voice Assistant : OK Google, Siri, Cortana and Alexa.
-6. Chatbots
-7. Customer Feedback Sentiment Analysis ( 😊🙂😔😡 )
-8. Document Summarization : Read Article and Newspaper ( Blind People )
+2. Email `Spam` Filter ( Search for Texts related to Spam Email )
+3. Google Search and Gmail Auto Complete ( Prediction of **Next Words** ) 
+4. Word Processor | Grammer Check | Auto Correct in Microsoft Word. 
+5. Grammerly | Grammer Correction and Spelling Correction in Gmail.
+6. IVR | Interactive Voice Response in Call Centers.
+7. Voice Assistant : OK Google, Siri, Cortana and Alexa.
+8. Chatbots
+9. Customer Feedback Sentiment Analysis ( 😊🙂😔😡 )
+10. Document Summarization : Read Article and Newspaper ( Blind People )
+11. Text Classification
+12. Part of Speech **Tagging** ( **Part of Speech** of Corresponding Word )
 
 ### Tokenization
 - `Break` | `Split` a **Sentence** | **Phrase** | **Paragraph** into `List` of **Individual Words**.
