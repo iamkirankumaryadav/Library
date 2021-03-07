@@ -7,27 +7,34 @@
 ### Linear Regression
 - `Predict` **Dependent Variable** on the basis of One or more **Independent** Variable ( s )
 
-### 1. Mean Squared Error ( `MSE` ) 
-
-![MSE](Image/MSE.jpg)
-
-- Squared Difference between the `Actual` Value and the `Predicted` Value
-- Square the Differences, Penalizes even Samll Error
-
-### 2. Root Mean Square Error ( `RMSE` )
-
-![RMSE](Image/RMSE.png)
-
-- Square Root of MSE
-- RMSE is useful when `Large` Errors are Undesired
-
-### 3. Mean Absolute Error ( `MAE` )
+### 1. Mean Absolute Error ( `MAE` )
 
 ![MAE](Image/MAE.png)
 
 - Absolute Difference between `Actual` Value and `Predicted` Value.
 - MAE is better for **Outliers** 
 - All **Individual Differences** are weighted equally.
+
+![MAE Scikit Learn](Image/MAESK.png)
+
+### 2. Mean Squared Error ( `MSE` ) 
+
+![MSE](Image/MSE.jpg)
+
+- Squared Difference between the `Actual` Value and the `Predicted` Value
+- Square the Differences, Penalizes even Samll Error
+
+![MSE Scikit Learn](Image/MSESK.png)
+
+### 3. Root Mean Square Error ( `RMSE` )
+
+![RMSE](Image/RMSE.png)
+
+- Square Root of MSE
+- RMSE is useful when `Large` Errors are Undesired
+
+![R2 Score Scikit Learn](Image/R2Score.png)
+![R2 Goog or Bad](Image/R2Good.png)
 
 ### 4. Coefficient of Determination ( R<sup>2</sup> )
 
