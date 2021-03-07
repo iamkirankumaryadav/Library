@@ -37,6 +37,7 @@
 
 ![R2](Image/R2.png)
 
+- Square of `Correlation`
 - Help us to `Compare` **Current** Model with the **Base** Model.
 
 ![R2 Score Scikit Learn](Image/R2Score.png)
