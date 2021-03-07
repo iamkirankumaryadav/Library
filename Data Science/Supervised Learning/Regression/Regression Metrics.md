@@ -49,6 +49,10 @@
 - Improvement of R<sup>2</sup>
 - Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup>
 
+| MAE or MSE or RMSE | R<sup>2</sup> |
+| :--- | :--- |
+| Good Model : Value closer to Zero | Good Model : Value closer to One |
+
 ### Logistic Regression
 - `Predict` the `Class` | `Label` of a **Data Point** on the basis of One or more **Independent Features**.
 - Depending on the number of `Class` | `Label` that **Target Variable** includes, it can be `Binary` or `Multi Class` **Classification**.
