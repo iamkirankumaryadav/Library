@@ -1,6 +1,6 @@
 ### Imbalanced Data Set
 
-Class Labels should be Balanced otherwise it Predicts a Biased Output or Classify Biased to only one Class Label.
+- **Class Labels** should be `Balanced` otherwise it Predicts a **Biased Output** or Classify Biased to only one Class Label.
 
 ### Stratified Sampling
 - Equal number of Each Class to Train the Model
