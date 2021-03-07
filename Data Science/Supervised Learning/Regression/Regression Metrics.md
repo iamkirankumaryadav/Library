@@ -71,6 +71,13 @@
 ### 2. Confusion Matrix
 - Show `Correct` and `Incorrect` Predictions | Classifications on each **Class** | **Label**
 
+- **True Positive** ( `TP` ) : Predicts 1 when Actual is 1
+- **True Negative** ( `TN` ) : Predicts 0 when Actual is 0
+- **False Positive** ( `FP` ) : Predicts 1 when Actual is 0 
+- **False Negative** ( `FN` ) : Predicts 0 when Actual is 1 ( Bad for `Medical` Field )
+
+> FP is `Acceptable` but FN is Dangerous | Fatal for Problems related to **Medical Field**
+
 ![Confusion Matrix](Image/ConfusionMatrix.png)
 
 ### 3. Precision
