@@ -130,6 +130,6 @@
 ### 8. AUC 
 - `Area` Under **ROC Curve**
 - Shows the `Performance` of a Classification Model across all Classification `Thresholds`.
-- AUC = 1.0 ( **Perfect** Classifier ) | AUC : 0.9 ( **Good** Classifier ) | AUC : **50%** ( **Bad** Classifier ) | AUC < 0.5 ( **Worst** Classifier )
+- AUC = 1.0 ( **Perfect** Classifier ) | AUC > 0.75 ( **Good** Classifier ) | AUC : **50%** ( **Bad** Classifier ) | AUC < 0.5 ( **Worst** Classifier )
 
 ![AUC](Image/AUC.png)
