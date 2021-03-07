@@ -13,7 +13,8 @@
 
 - Absolute Difference between `Actual` Value and `Predicted` Value.
 - MAE is better for **Outliers** 
-- All **Individual Differences** are weighted equally.
+- All **Individual Differences** are weighted equally
+- `Fails` in case of **Large Errors**
 
 ![MAE Scikit Learn](Image/MAESK.png)
 
@@ -38,7 +39,7 @@
 ![R2](Image/R2.png)
 
 - Square of `Correlation`
-- Help us to `Compare` **Current** Model with the **Base** Model.
+- Help us to `Compare` **Current** Model with the **Base** Model
 
 ![R2 Score Scikit Learn](Image/R2Score.png)
 
@@ -63,7 +64,7 @@
 
 ### 1. Classification Accuracy 
 - Number of `Correct` Prediction to the Number of **Total Predictions**
-- Accuracy Score is Good if Datasets contains well `Balanced` Class Distribution.
+- Accuracy Score is Good if Datasets contains well `Balanced` Class Distribution
 
 ![Accuracy](Image/Accuracy.png)
 
@@ -74,21 +75,21 @@
 
 ### 3. Precision
 - Focus on `Positive Predictions` ( How Good our Model is when **Prediction** is `Positive` ? )
-- **Evaluates** Model only based on `Positive Predictions`.
+- **Evaluates** Model only based on `Positive Predictions`
 
 ![Precision](Image/Precision.png)
 
 ### 4. Recall | True Positive Rate ( `TPR` ) | Sensitivity
 - Focus on `Positive Class` ( How Good our Model is at `Correctly` predicting `Positive` Classes ? )
-- **Evaluates** Model only based on its **ability** to  **Predict** the `Positive Class`.
-- **True Positive Rate** : Proportion of **Positive Class** that is `Correctly` Predicted as **Positive**.
+- **Evaluates** Model only based on its **ability** to  **Predict** the `Positive Class`
+- **True Positive Rate** : Proportion of **Positive Class** that is `Correctly` Predicted as **Positive**
 
 ![Recall](Image/Recall.png)
 
 ### 4. False Positive Rate ( `FPR` ) | Specificity
 - Focus on `Negative Class` ( How Good our Model is at `Correctly` predicting `Negative` Classes ? )
-- **Evaluates** Model only based on its **ability** to  **Predict** the `Negative Class`.
-- **False Positive Rate** : Proportion of **Negative Class** that is `Correctly` Predicted as **Negative**.
+- **Evaluates** Model only based on its **ability** to  **Predict** the `Negative Class`
+- **False Positive Rate** : Proportion of **Negative Class** that is `Correctly` Predicted as **Negative**
 
 ![FPR](Image/FPR.png)
 
