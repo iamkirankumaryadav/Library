@@ -98,11 +98,13 @@
 - **Evaluates** Model only based on its **ability** to  **Predict** the `Negative Class`
 - **False Positive Rate** : Proportion of **Negative Class** that is `Correctly` Predicted as **Negative**
 
+> **Good Classifier** : `1 or 100%` | **Bad Classifier** < `0.5 or 50%`
+
 ![FPR](Image/FPR.png)
 
 ### 6. F1 Score
 - Weighted Average of **Precision** and **Recall**
-- Useful for Datasets with `Uneven` **Class Distribution**
+- Useful for Datasets with `Uneven` | `Imbalanced` **Class Distribution**
 - It considers `FP` and `FN`
 - `Best` Value for **F1 Score** is `1`
 - `Worst` Value for **F1 Score** is `0`
