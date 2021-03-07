@@ -109,4 +109,19 @@
 
 ![F1](Image/F1.png)
 
+### 7. ROC Curve
+- Receiver Operating Characteristic Curve
+- Y Axis : True Positive Rate ( `TPR` )
+- X Axis : False Positive Rate ( `FPR` )
+- Plots TPR vs FPR at Different Classification `Thresholds`
+
+![ROC](Image/ROC.svg)
+
+### 8. AUC 
+- Area Under Curve
+- Shows the `Performance` of a Classification Model across all Classification `Thresholds`.
+- Bad Classifier : 0.5
+- Good Classifier : 0.9
+- Perfect Classifier : 1.0
+
 
