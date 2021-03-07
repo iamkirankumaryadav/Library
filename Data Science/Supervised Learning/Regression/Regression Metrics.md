@@ -33,15 +33,17 @@
 - Square Root of MSE
 - RMSE is useful when `Large` Errors are Undesired
 
-![R2 Score Scikit Learn](Image/R2Score.png)
-![R2 Goog or Bad](Image/R2Good.png)
-
 ### 4. Coefficient of Determination ( R<sup>2</sup> )
 
 ![R2](Image/R2.png)
 
 - Help us to `Compare` **Current** Model with the **Base** Model.
+
+![R2 Score Scikit Learn](Image/R2Score.png)
+
 - R<sup>2</sup> is always <= 1 ( Ranges between `-inf` to `1` )
+
+![R2 Goog or Bad](Image/R2Good.png)
 
 ### 5. Adjusted R<sup>2</sup>
 - Improvement of R<sup>2</sup>
