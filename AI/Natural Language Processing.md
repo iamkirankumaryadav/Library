@@ -1,12 +1,12 @@
 # Natural Language Processing
 
-### Text Mining | Text Analysis 
-- Deriving **Meaningful Information** from Natural Language **Text** and **Speech**.
-
-### NLP
+- Ability of a Computer to `Understand`, `Analyze`, `Manipulate`, and potentially `Generate` **Human Language**.
 - Computer Learn and Understand from Human Languages.
 - NLP makes it possible for Computers to `Read`, `Write`, `Hear`, `Interpret` and `Measure` Sentiments. 
 - Interaction between Computers and Humans using the Natural Language.
+
+### Text Mining | Text Analysis 
+- Deriving **Meaningful Information** from Natural Language **Text** and **Speech**.
 
 ### Process :
 
