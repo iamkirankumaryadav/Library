@@ -5,14 +5,14 @@
 ### Stratified Sampling
 - Create a Sample containing `Equal` number of Each `Class Labels` to Train the Model
 
-### Upsample Minority Class
+### Up Sample Minority Class
 - Randomly Duplicate the Observations in order to reinforce the Learning of Data
 - Sampling with `Replacement`
 - First Seperate Observations for Each Class.
 - Resample Minority Class with Replacement, Setting Number of Samples to Match with Majority Class.
 - Combine the Up Sampled Data with Orignal Majority Class Dataframe.
 
-### DownSample Majority Class
+### Down Sample Majority Class
 - Randomly Removing Observations from Majority Class ( Resampling **without** Replacement )
 - First Seperate Observations for Each Class.
 - Resample Majority Class `without` Replacement, Setting Number of Samples to Match with Minority Class.
