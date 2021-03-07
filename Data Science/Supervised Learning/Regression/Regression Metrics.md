@@ -53,6 +53,7 @@
 | MAE or MSE or RMSE | R<sup>2</sup> |
 | :--- | :--- |
 | Good Model : Value closer to Zero | Good Model : Value closer to One |
+| Perfect Model : Value == 0 | Perfect Model : Value == 1 |
 
 ### Logistic Regression
 - `Predict` the `Class` | `Label` of a **Data Point** on the basis of One or more **Independent Features**.
