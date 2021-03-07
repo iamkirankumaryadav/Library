@@ -62,13 +62,7 @@
 
 > Data Set should contain Well `Balanced` **Class Distribution**
 
-### 1. Classification Accuracy 
-- Number of `Correct` Prediction to the Number of **Total Predictions**
-- Accuracy Score is Good if Datasets contains well `Balanced` Class Distribution
-
-![Accuracy](Image/Accuracy.png)
-
-### 2. Confusion Matrix
+### 1. Confusion Matrix
 - Show `Correct` and `Incorrect` Predictions | Classifications on each **Class** | **Label**
 
 - **True Positive** ( `TP` ) : Predicts 1 when Actual is 1
@@ -79,6 +73,12 @@
 > **FP** is `Acceptable` but **FN** is Dangerous | Fatal for Problems related to **Medical Field**
 
 ![Confusion Matrix](Image/ConfusionMatrix.png)
+
+### 2. Classification Accuracy 
+- Number of `Correct` Prediction to the Number of **Total Predictions**
+- Accuracy Score is Good if Datasets contains well `Balanced` Class Distribution
+
+![Accuracy](Image/Accuracy.png)
 
 ### 3. Precision
 - Focus on `Positive Predictions` ( How Good our Model is when **Prediction** is `Positive` ? )
