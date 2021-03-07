@@ -1,8 +1,8 @@
 # Regression Metrics 🧮
 
-1. <a href="#linear">Linear Regression</a>
+<h3 href="#linear">Linear Regression</h3>
 
-2. <a href="#logistic">Logistic Regression | Classification</a>
+<h3 href="#logistic">Logistic Regression | Classification</h3>
 
 1. We **Start** with some Initial Configuration of Model and `Predict` the **Output** based on some **Input**.
 2. Predicted Value is compared with the `Target` and Measure the `Performance` of our Model.
