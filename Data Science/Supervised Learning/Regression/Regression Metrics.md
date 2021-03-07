@@ -43,7 +43,7 @@
 
 ![R2 Score Scikit Learn](Image/R2Score.png)
 
-- R<sup>2</sup> is always <= 1 ( Ranges between `-inf` to `1` )
+- R<sup>2</sup> is always <= 1 
 
 ![R2 Goog or Bad](Image/R2Good.png)
 
