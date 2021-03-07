@@ -1,12 +1,15 @@
 # Regression Metrics 🧮
 
-<a href="#linear">Linear Regression</a>
+1. <a href="#linear">Linear Regression</a>
+
+2. <a href="#logistic">Logistic Regression | Classification</a>
 
 1. We **Start** with some Initial Configuration of Model and `Predict` the **Output** based on some **Input**.
 2. Predicted Value is compared with the `Target` and Measure the `Performance` of our Model.
 3. Various Parameters of the Model are `Adjusted Iteratively` in order to reach the **Optimal Value** of the **Performance Metric**.
 
 <h3 name="linear">Linear Regression</h3>
+
 - `Predict` **Dependent Variable** on the basis of One or more **Independent** Variable ( s )
 
 ### 1. Mean Absolute Error ( `MAE` )
@@ -58,7 +61,8 @@
 | Good Model : Value closer to Zero | Good Model : Value closer to One |
 | Perfect Model : Value == 0 | Perfect Model : Value == 1 |
 
-### Logistic Regression
+<h3 name="logistic">Logistic Regression | Classification</h3>
+
 - `Predict` the `Class` | `Label` of a **Data Point** on the basis of One or more **Independent Features**.
 - Depending on the number of `Class` | `Label` that **Target Variable** includes, it can be `Binary` or `Multi Class` **Classification**.
 
