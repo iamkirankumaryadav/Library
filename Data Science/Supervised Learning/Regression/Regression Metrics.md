@@ -123,6 +123,7 @@
 - Y Axis : True Positive Rate ( `TPR` )
 - X Axis : False Positive Rate ( `FPR` )
 - Plots TPR vs FPR at Different Classification `Thresholds`
+- If Threshold is near to `1.0` or `100%`: **Classifications** gets more **Accurate**.
 
 ![ROC](Image/ROC.svg)
 
