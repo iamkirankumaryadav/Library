@@ -42,3 +42,18 @@
 8. Image Restoration ( Filtering Blur Images and Removing Noise )
 9. Search By Image `Image.Google`
 10. Robotics.
+
+### Important Terms
+
+### 1. Pixel Manipulation
+- Converting Image from one form to another ( e.g. BGR to HSV or Grayscale )
+
+### 2. Pixel Filtering
+
+A. Dilation | `cv2.dilate()`
+- Turn **Black Pixels** into **White Pixels**
+
+B. Erosion | `cv2.erode()`
+- Turn **White Pixels** into **Black Pixels**
+
+
