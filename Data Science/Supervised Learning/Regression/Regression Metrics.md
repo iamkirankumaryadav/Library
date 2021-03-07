@@ -1,10 +1,12 @@
 # Regression Metrics 🧮
 
+<a href="#linear">Linear Regression</a>
+
 1. We **Start** with some Initial Configuration of Model and `Predict` the **Output** based on some **Input**.
 2. Predicted Value is compared with the `Target` and Measure the `Performance` of our Model.
 3. Various Parameters of the Model are `Adjusted Iteratively` in order to reach the **Optimal Value** of the **Performance Metric**.
 
-### Linear Regression
+<h3 name="linear">Linear Regression</h3>
 - `Predict` **Dependent Variable** on the basis of One or more **Independent** Variable ( s )
 
 ### 1. Mean Absolute Error ( `MAE` )
