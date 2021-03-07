@@ -120,8 +120,8 @@
 ### 8. AUC 
 - Area Under Curve
 - Shows the `Performance` of a Classification Model across all Classification `Thresholds`.
-- Bad Classifier : 0.5
-- Good Classifier : 0.9
-- Perfect Classifier : 1.0
+- Bad Classifier : 0.5 | **50%**
+- Good Classifier : 0.9 | **90%**
+- Perfect Classifier : 1.0 | **100%**
 
 ![AUC](Image/AUC.png)
