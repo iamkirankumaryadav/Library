@@ -118,6 +118,8 @@
 
 ![F1](Image/F1.png)
 
+> **Precision**, **Recall** and **F1 Score** are better `Metrics` for **Imbalanced Dataset**
+
 ### 7. ROC Curve
 - Receiver Operating Characteristic Curve
 - Y Axis : True Positive Rate ( `TPR` )
