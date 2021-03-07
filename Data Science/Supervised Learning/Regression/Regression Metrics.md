@@ -118,7 +118,7 @@
 ![ROC](Image/ROC.svg)
 
 ### 8. AUC 
-- Area Under Curve
+- `Area` Under **ROC Curve**
 - Shows the `Performance` of a Classification Model across all Classification `Thresholds`.
 - Bad Classifier : 0.5 | **50%**
 - Good Classifier : 0.9 | **90%**
