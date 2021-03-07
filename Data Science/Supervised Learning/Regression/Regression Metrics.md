@@ -124,4 +124,4 @@
 - Good Classifier : 0.9
 - Perfect Classifier : 1.0
 
-
+![AUC](Image/AUC.png)
