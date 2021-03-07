@@ -62,6 +62,8 @@
 
 > Data Set should contain Well `Balanced` **Class Distribution**
 
+> **Good Classifier** : `1 or 100%` | **Bad Classifier** < `0.5 or 50%`
+
 ### 1. Confusion Matrix
 - Show `Correct` and `Incorrect` Predictions | Classifications on each **Class** | **Label**
 
@@ -97,8 +99,6 @@
 - Focus on `Negative Class` ( How Good our Model is at `Correctly` predicting `Negative` Classes ? )
 - **Evaluates** Model only based on its **ability** to  **Predict** the `Negative Class`
 - **False Positive Rate** : Proportion of **Negative Class** that is `Correctly` Predicted as **Negative**
-
-> **Good Classifier** : `1 or 100%` | **Bad Classifier** < `0.5 or 50%`
 
 ![FPR](Image/FPR.png)
 
