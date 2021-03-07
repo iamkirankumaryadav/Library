@@ -3,7 +3,7 @@
 - **Class Labels** should be `Balanced` otherwise it Predicts a **Biased Output** or Classify Biased to only one Class Label.
 
 ### Stratified Sampling
-- Equal number of Each Class to Train the Model
+- Create a Sample containing `Equal` number of Each `Class Labels` to Train the Model
 
 ### Upsample Minority Class
 - Randomly Duplicate the Observations in order to reinforce the Learning of Data
