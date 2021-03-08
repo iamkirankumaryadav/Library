@@ -70,7 +70,6 @@
 Stemming | Lemmatization
 :--- | :---
 Speed | Accuracy
-Fast | Accurate
 Returns List | Returns Dictionary
 
 ### Normalization
