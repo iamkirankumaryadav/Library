@@ -46,6 +46,10 @@
 - Easy for `Read` and `Compare`.
 - e.g. Studies > Studi | Studying > Study
 
+Why Stemming ?
+- Reduce `Corpus` of Words
+- Correlates Words with `Similar` Meanings.
+
 ### Lemmatization
 - `Reduce` Words into its `Base` Form.
 - Used in Search Engines to Search by `Keywords`.
