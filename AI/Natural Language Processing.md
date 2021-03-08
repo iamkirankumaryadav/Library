@@ -46,9 +46,15 @@
 - Easy for `Read` and `Compare`.
 - e.g. Studies > Studi | Studying > Study
 
-Why Stemming ?
+### Why Stemming ?
 - Reduce `Corpus` of Words
 - Correlates Words with `Similar` Meanings.
+
+### Types of Stemmers
+1. Porter Stemmer
+2. Snowball Stemmer
+3. Lancaster Stemmer
+4. Regex Based Stemmer
 
 ### Lemmatization
 - `Reduce` Words into its `Base` Form.
