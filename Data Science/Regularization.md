@@ -80,6 +80,6 @@ B.Boosting (Improve Flexibity of Simple Models)
 - Each One in Series Focuses on Learning from the Mistakes of Earlier.
 - Combines All the Weak Learners into a Single Strong Learner.
 
-# Standardization 
+### Standardization 
 
 - Subtracting from Mean and Dividing by Standard Deviation.
