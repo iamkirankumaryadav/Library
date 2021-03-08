@@ -9,6 +9,10 @@
 - Penalize Weights that are too Large (Learning Rate)
 - It Improves the Generalization Performance (Performance on New, Unseen Data)
 
+LASSO | RIDGE
+ :---:  | :---:
+ L1 | L2
+
 Loss Function | Cost Function (Quantifies Error between Predicted Values and Expected Values)
 
 - If Lambda Value is High | Model will be Simple | Underfitting | Bias will Increase | Model will not Learn Enough about Training Data.
