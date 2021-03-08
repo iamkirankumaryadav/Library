@@ -75,7 +75,7 @@ Stemming | Lemmatization
 :--- | :---
 Speed | Accuracy
 Simply `Chops` End of the Word | Informed `Analysis` to Create Group of Words with `Similar` Meaning
-Returns `List` | Returns `Dictionary`
+`List` | `Dictionary` { 'consult' : \['Consult', 'Consultation', 'Consulting', 'Consultant'\] }
 
 ### Normalization
 - Normalize Words : Converting all Text to Same Case, removing Punctuation, Converting Number to Words.
