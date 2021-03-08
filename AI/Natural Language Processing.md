@@ -46,6 +46,8 @@
 - Easy for `Read` and `Compare`.
 - e.g. Studies > Studi | Studying > Study
 
+> Stemming is applied on **Tokens** ( `stem ( token )` ) 
+
 ### Why Stemming ?
 - Reduce `Corpus` of Words
 - Correlates Words with `Similar` Meanings.
