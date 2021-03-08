@@ -69,7 +69,9 @@
 
 Stemming | Lemmatization
 :--- | :---
+Speed | Accuracy
 Fast | Accurate
+Returns List | Returns Dictionary
 
 ### Normalization
 - Normalize Words : Converting all Text to Same Case, removing Punctuation, Converting Number to Words.
