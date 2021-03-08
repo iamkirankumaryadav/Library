@@ -17,7 +17,7 @@ LASSO | RIDGE
  Eliminate Features | Reduce Impact of Features
  
 
-Loss Function | Cost Function (Quantifies Error between Predicted Values and Expected Values)
+Loss Function | Cost Function ( Quantifies Error between Predicted Values and Expected Values )
 
 - If Lambda Value is High | Model will be Simple | Underfitting | Bias will Increase | Model will not Learn Enough about Training Data.
 - If Lambda Value is Low | Model will be Complex | Overfitting | Variance will Increase | Model will Learn too much about Training Data.
@@ -26,25 +26,25 @@ Loss Function | Cost Function (Quantifies Error between Predicted Values and Exp
 
 Ideal Value of Lambda produces Model that Generalizes Well on New Unseen Data, Ideal Value of Lambda is Data Dependent, so need some Tuning.  
 
-# Lasso (L1) |Slope| :
-- Loss Function (Sum of Squared Error) + lambda * |Slope|
-- LASSO (Least Absolute Shrinkage and Selection Operator) | Add Absolute Sum of Coefficient to Cost Function,
+# Lasso ( L1 ) | Slope | :
+- Loss Function ( Sum of Squared Error ) + lambda * | Slope |
+- LASSO ( Least Absolute Shrinkage and Selection Operator ) | Add Absolute Sum of Coefficient to Cost Function,
 - Lasso tends to make Coefficients to Absolute Zeros which Reduces Features.
-- Lasso Encourages Simple Sparse Model (Model with Few Parameters)
-- Lasso Removes Variable if there is Multicollinearity (Lasso Eliminates the Coefficient(Variable))
+- Lasso Encourages Simple Sparse Model ( Model with Few Parameters )
+- Lasso Removes Variable if there is Multicollinearity ( Lasso Eliminates the Coefficient ( Variable ) )
 
-# Ridge (L2) Square(Slope) :
-- Loss Function (Sum of Squared Error) + lambda * Square(Slope)
+# Ridge ( L2 ) Square ( Slope ) :
+- Loss Function ( Sum of Squared Error ) + lambda * Square ( Slope )
 - Ridge decreases | Minimizes the Complexity of Model 
-- But does not Reduce Number of Variables (Do not Remove any Irrelevant Feature). 
+- But does not Reduce Number of Variables ( Do not Remove any Irrelevant Feature ). 
 - Ridge Never Sets the Value of Coefficient to Absolute Zero.
 - Analyze Data that Suffers from Multicollinearity.
 - Performs L2 Regularization.
 
 # Elastic Net :
-- Elastic Net combines L1 and L2 and does not Eliminates Highly Colliner Coefficient (Slope)
+- Elastic Net combines L1 and L2 and does not Eliminates Highly Colliner Coefficient ( Slope )
 
-- Learning Parameter means an Iterative Process that Updates Slope and Intercept at every Step by reducing the Loss | Cost Function (Distances between Predictions and Actual Value) as much as possible.
+- Learning Parameter means an Iterative Process that Updates Slope and Intercept at every Step by reducing the Loss | Cost Function ( Distances between Predictions and Actual Value ) as much as possible.
 
 - Main Aim is to Minimize the Loss. 
 
