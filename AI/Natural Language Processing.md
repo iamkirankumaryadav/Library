@@ -68,14 +68,13 @@
 
 ### WordNet Lemmatizer
 - Most Popular **Lemmatizer**
-- **Collection** of `Nouns`, `Verbs`, `Adverbs` and `Adjectives` that are Grouped together in set of `Synonyms`.
-
+- **Collection** of `Nouns`, `Verbs`, `Adverbs` and `Adjectives` that are Grouped together in set of `Synonym` **Dictionary**.
+- { 'consult' : \[ 'consult', 'consultation', 'consulting', 'consultant'\ ] }
 
 Stemming | Lemmatization
 :--- | :---
 Speed | Accuracy
 Simply `Chops` End of the Word | Informed `Analysis` to Create Group of Words with `Similar` Meaning
-`List` | `Dictionary` { 'consult' : \['Consult', 'Consultation', 'Consulting', 'Consultant'\] }
 
 ### Normalization
 - Normalize Words : Converting all Text to Same Case, removing Punctuation, Converting Number to Words.
