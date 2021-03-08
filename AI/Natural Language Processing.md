@@ -59,11 +59,17 @@
 4. Regex Based Stemmer
 
 ### Lemmatization
+- Grouping together the Derived forms of Word so that they can be Analyzed as a `Single` form ( Base )
 - `Reduce` Words into its `Base` Form.
 - Used in Search Engines to Search by `Keywords`.
 - `Lemma` is Actual Word.
 - Better > Good.
 - ( Consult, Consultant, Consultants, Consultation, Consulting ) > Consult
+
+
+Stemming | Lemmatization
+:--- | :---
+Fast | Accurate
 
 ### Normalization
 - Normalize Words : Converting all Text to Same Case, removing Punctuation, Converting Number to Words.
