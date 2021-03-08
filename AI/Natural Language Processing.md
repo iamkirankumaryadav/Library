@@ -70,6 +70,7 @@
 Stemming | Lemmatization
 :--- | :---
 Speed | Accuracy
+Simply `Chops` End of the Word | Informed `Analysis` to Create Group of Words with `Similar` Meaning
 Returns List | Returns Dictionary
 
 ### Normalization
