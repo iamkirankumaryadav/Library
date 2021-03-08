@@ -70,6 +70,7 @@
 - Most Popular **Lemmatizer**
 - **Collection** of `Nouns`, `Verbs`, `Adverbs` and `Adjectives` that are Grouped together in set of `Synonyms`.
 
+
 Stemming | Lemmatization
 :--- | :---
 Speed | Accuracy
