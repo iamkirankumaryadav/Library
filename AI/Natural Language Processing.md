@@ -39,7 +39,7 @@
 - `Break` | `Split` a **Sentence** | **Phrase** | **Paragraph** into `List` of **Individual Words**.
 
 ### Stemming 
-- Reducing Derived Words to there Stem Words.
+- Reducing **Derived** Words to there `Stem` Words.
 - `Cut` end of the Words into its `Stem` Form.
 - Remove `Suffix` and `Prefix` from the Word.
 - Stem may not be an **Actual** Word.
