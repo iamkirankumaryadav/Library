@@ -30,9 +30,9 @@ AI > ML > DL
 - Deals with Structures | Semi Structured and Unstructured Data
 
 Types :
-1. Weak AI (Narrow AI) | Good in One Task
-2. General AI | Computer as Smart as Human
-3. Strong AI | (Super AI) Smarter than Human Brain | Reduce Human Error | 24 x 7 Availability | Digital Assistance | Faster and Accurate Decisions.
+1. **Weak** AI ( Narrow AI ) | Good in One Task
+2. **General** AI ( Computer as Smart as Human )
+3. **Strong** AI ( Super AI ) Smarter than Human Brain | Reduce Human Error | 24 x 7 Availability | Digital Assistance | Fast and Accurate Decisions.
 
 # ML | Machine Learning
 - Subset of AI
