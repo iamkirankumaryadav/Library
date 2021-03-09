@@ -1,7 +1,7 @@
 # Natural Language Processing
 
 - Ability of a Computer to `Understand`, `Analyze`, `Manipulate` and `Generate` **Human Language**.
-- Computer `Learn` and `Compunicate` with Humans using Human Languages.
+- Computer `Learn` and `Communicate` with Humans using Human Languages.
 - NLP makes it possible for Computers to `Read`, `Write`, `Hear`, `Interpret` and `Measure` Sentiments. 
 - Interaction between Computers and Humans using the Natural Language.
 
