@@ -1,7 +1,7 @@
 # Open Computer Vision
 
 - How Computers See and Gain **High Level Understanding** from `Digital Images` or `Videos`.
-- Works on Pattern Recognition.
+- Works on **Pattern Recognition**.
 - Understand and Automate the Task of Human Visual System.
 - Detecting and `Image` | `Object`, Labeling them has Surpassed Humans.
 - Faster than Human Reaction and 99% Accuracy.
