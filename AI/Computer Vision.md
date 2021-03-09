@@ -32,7 +32,7 @@
 - Black and White will be **Dense** and shall render **Better Quality**.
 
 ### Applications 
-1. `Autonomous` | 🚗 Self Driving Cars ( Detect Objects and Humans infront of Car, Reverse Parking )
+1. `Autonomous` 🚗 🚙 Self Driving Cars ( Detect Objects and Humans infront of Car, Reverse Parking )
 2. Facial Recognition 👦🏻🧒🏻 ( Attendance, FB Friend Recognition )
 3. Augmented Reality and Virtual Reality 
 4. Health Care ( X Ray and MRI Scan ) 👨🏻‍⚕️💉🩺
