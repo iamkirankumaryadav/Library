@@ -68,6 +68,7 @@
 
 ### WordNet Lemmatizer
 - **Database** for `English`
+- `Nouns`, `Verbs`, `Adjectives` and `Adverbs` are **Grouped** into Sets of **Cognitive Synonyms**. 
 - Most Popular **Lemmatizer**
 - **Collection** of `Nouns`, `Verbs`, `Adverbs` and `Adjectives` that are Grouped together in set of `Synonym` **Dictionary**.
 - { 'consult' : \[ 'consult', 'consultation', 'consulting', 'consultant'\ ] }
