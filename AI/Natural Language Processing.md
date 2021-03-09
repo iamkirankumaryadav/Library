@@ -118,7 +118,7 @@ Using NLTK
 - Form Set of Triple Words
 
 ### Name Entity Recognition
-1. Recognize Elements in Text by Category Name ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
+1. Recognize Elements in Text by `Category` ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
 
 ### Syntax | Syntactic Analysis
 - Syntactic Structure of Sentence or Strings.
