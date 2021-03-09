@@ -28,7 +28,7 @@
 4. Word Processor | Grammer Check | Auto Correct in Microsoft Word. 
 5. Grammerly | Grammer Correction and Spelling Correction in Gmail.
 6. IVR | Interactive Voice Response in Call Centers.
-7. Voice Assistant : OK Google, Siri, Cortana and Alexa.
+7. Voice Assistant : `Google` OK Google, `Apple` Siri, `Microsoft` Cortana and `Amazon` Alexa.
 8. Chatbots
 9. Customer Feedback Sentiment Analysis ( 😊🙂😔😡 )
 10. Document Summarization : Read Article and Newspaper ( Blind People )
