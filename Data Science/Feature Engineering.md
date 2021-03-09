@@ -15,8 +15,9 @@
 
 ### 1. Handling Missing Data
 - Mean | Median | Mode Imputation
-- Eliminate Missing Data
-- Imputation with the Help of Existing Data
+- Flag Missing Data
+- Eliminate | Drop Missing Data
+- Imputation with the Help of Existing Data | Prediction
 
 ### 2. Categorical Encoding
 - Label Encoding
@@ -45,8 +46,8 @@
 - Robust Scaling : Dividing by **IQR** ( **Q3** - **Q1** )
 - Mean Normalization : ( x - mean ) / ( max - min )
 
-### 7. Data and Time Engineering 
-- Parse Data and Time so that we can extract Year, Month, Day, Week and Perform any Operation. 
+### 7. Date and Time Engineering 
+- Parse Date and Time so that we can extract Year, Month, Day, Week and Perform any Operation. 
 
 ### 8. Feature Creation
 - Create New Meaningful Feature from the Existing Features. ( Aggregating | Arithmetic Calculation )
