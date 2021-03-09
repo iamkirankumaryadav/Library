@@ -57,3 +57,9 @@
 | Classify New Sample into known **Classes** | Suggest Groups based on **Patterns** in Data |
 | **Decision Tree** | **K Means** |
 | **Labelled** Samples | **Unlabelled** Samples |
+
+### Autocorrelation
+- The **Correlation** of the `Signal` with a delayed copy of itself. 
+- 
+### Multicollinearity 
+- A Phenomenon in which at least two **Independent Variables** are **Linearly Correlated** (One can be `Predicted` from the other)
