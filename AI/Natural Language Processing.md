@@ -129,7 +129,7 @@ Using NLTK
 
 ### Information Retrieval
 - Process of Accessing and Retrieval of appropriate Information  from Text.
-- Extracting Title, Texta and Media from a Book, Artice or Simply Web Page.
+- Extracting Title, Text and Media from a Book, Artice or Simply Web Page.
 - e.g. Google Search
 
 ### Corpus | Corpora
