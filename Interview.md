@@ -60,6 +60,7 @@
 
 ### Autocorrelation
 - The **Correlation** of the `Signal` with a delayed copy of itself. 
-- 
+- Temperature of the Day **Today** vs Temperature of the Day **Yesterday** or **Tommorrow**.
+
 ### Multicollinearity 
 - A Phenomenon in which at least two **Independent Variables** are **Linearly Correlated** (One can be `Predicted` from the other)
