@@ -10,7 +10,7 @@ Improve Quality of Data
 1. Data Preparation
 2. Data Cleaning
 
-Suitable Algorithm (Trial and Error)
+Suitable Algorithm ( Trial and Error )
 
 Tune Parameter | Find Relevant Features | Columns | Variables | Attributes
 
