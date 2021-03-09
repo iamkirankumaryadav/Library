@@ -53,7 +53,7 @@
 - Correlates Words with `Similar` Meanings.
 
 ### Types of Stemmers
-1. Porter Stemmer
+1. **Porter** Stemmer
 2. Snowball Stemmer
 3. Lancaster Stemmer
 4. Regex Based Stemmer
