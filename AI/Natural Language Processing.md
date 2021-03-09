@@ -111,11 +111,14 @@ Using NLTK
 2. N Grams
 3. Term Frequence - Inverse Document Frequency ( TD - IDF ) 
 
+### N Grams
+- **Combinations** of `Adjacent` Words of length **N** in the Text
+
 ### Bigrams
-- Form Pair of Words from Sentence
+- Form **Pair** of `Adjacent` Words from Sentence
 
 ### Trigrams
-- Form Set of Triple Words
+- Form Set of **Three** `Adjacent` Words
 
 ### Name Entity Recognition
 1. Recognize Elements in Text by `Category` ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
