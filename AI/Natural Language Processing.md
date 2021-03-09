@@ -80,7 +80,7 @@ Simply `Chops` End of the Word | Informed `Analysis` to Create Group of Words wi
 - Normalize Words : Converting all Text to Same Case, removing Punctuation, Converting Number to Words.
 
 ### Vectorization
-- **Converting** Text to Form that a **Machine Learning Model** can `Understand` and `Learn`.
+- **Converting** Text to form `Numbers` that an **Algorithm** and a **Machine Learning Model** can `Understand` and `Learn`.
 - **Process** of `Encoding` Text as `Integers` to Create `Feature Vectors`.
 
 ### Feature Vector
