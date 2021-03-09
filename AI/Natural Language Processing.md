@@ -129,9 +129,9 @@ Using NLTK
 - Feeling, Emotion, Reaction, Satisfaction of User | Customer | Consumer expressing there Feedback and Reaction.
 
 ### Information Retrieval
-- Process of Accessing and Retrieval of appropriate Information  from Text.
-- Extracting Title, Text and Media from a Book, Artice or Simply Web Page.
-- e.g. Google Search
+- Process of **Accessing** and **Retrieval** of appropriate Information  from Text.
+- **Extracting** Title, Text and Media from a Book, Artice or Simply Web Page.
+- e.g. `Google Search`
 
 ### Corpus | Corpora
 - Large Collection of Documents ( Accurate Grammer Phrases ) | Knowledge Base that can be used to infer and Validate Language Rules.
