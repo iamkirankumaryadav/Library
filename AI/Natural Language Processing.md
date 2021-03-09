@@ -79,13 +79,6 @@ Simply `Chops` End of the Word | Informed `Analysis` to Create Group of Words wi
 ### Normalization
 - Normalize Words : Converting all Text to Same Case, removing Punctuation, Converting Number to Words.
 
-### Vectorization
-- **Converting** Text to form `Numbers` that an **Algorithm** and a **Machine Learning Model** can `Understand` and `Learn`.
-- **Process** of `Encoding` Text as `Integers` to Create `Feature Vectors`.
-
-### Feature Vector
-- An `N Dimensional Vector` of **Numerical Features** that Represents some `Object`.
-
 ### Stop Word
 - Filter out **Useless** Words in a Sentence
 - Stop words are the Filler words.
@@ -105,6 +98,18 @@ Using NLTK
 - Number of `Occurence` of Words in a Paragraph or Sentence.
 - e.g. Well well well, Said John
 - Bag of Words is represented in form of **Dictionary** 
+
+### Vectorization
+- **Converting** Text to form `Numbers` that an **Algorithm** and a **Machine Learning Model** can `Understand` and `Learn`.
+- **Process** of `Encoding` Text as `Integers` to Create `Feature Vectors`.
+
+### Feature Vector
+- An `N Dimensional Vector` of **Numerical Features** that Represents some `Object`.
+
+### Different Types
+1. Count Vectorization ( Create a **Document Term Matrix**   that represents **Count** of `Occurence` )
+2. N Grams
+3. Term Frequence - Inverse Document Frequency ( TD - IDF ) 
 
 ### Bigrams
 - Form Pair of Words from Sentence
