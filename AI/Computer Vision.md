@@ -28,7 +28,7 @@
 - Black and White is only Composed with either `Black` ( 000 ) or `White` ( fff )
 - Grayscale is combination of different `Shades` of Black and White.
 
-### **Binary** need `1 Bit Per Pixel` for Storage and **Black** and **White** needs `8 Bits Per Pixel` for **Storage**.
+- **Binary** need `1 Bit Per Pixel` for Storage and **Black** and **White** needs `8 Bits Per Pixel` for **Storage**.
 - Black and White will be **Dense** and shall render **Better Quality**.
 
 ### Applications 
@@ -40,8 +40,8 @@
 6. Image Segmentation ( Camera Detects the Multiple Faces in a Group Selfie )
 7. Scene Reconstruction ( 3D Model Creation in Architecture )
 8. Image Restoration ( Filtering Blur Images and Removing Noise )
-9. Search By Image `Image.Google`
-10. Robotics.
+9. Search By Image `Image.Google` 🖼
+10. Robotics 🤖
 
 ### Important Terms
 
