@@ -126,6 +126,8 @@ Using NLTK
 1. Recognize Elements in Text by `Category` ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
 2. `Identification` | `Extraction` technique that automatically identifies named `Entities` in a Text and Classifies in Predefined Categories.
 
+![NER](Image/NER.png)
+
 ### Syntax | Syntactic Analysis
 - Syntactic Structure of Sentence or Strings.
 - Analyze String by `Symbol`. 
