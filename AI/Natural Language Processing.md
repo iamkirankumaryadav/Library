@@ -120,6 +120,8 @@ Using NLTK
 ### Trigrams
 - Form Set of **Three** `Adjacent` Words
 
+> Google Search **Suggests** Bigrams, Trigrams in there `Keyword` **Suggestions**.  
+
 ### Name Entity Recognition
 1. Recognize Elements in Text by `Category` ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
 2. `Identification` | `Extraction` technique that automatically identifies named `Entities` in a Text and Classifies in Predefined Categories.
