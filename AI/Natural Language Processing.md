@@ -67,6 +67,7 @@
 - ( Consult, Consultant, Consultants, Consultation, Consulting ) > Consult
 
 ### WordNet Lemmatizer
+- **Database** for `English`
 - Most Popular **Lemmatizer**
 - **Collection** of `Nouns`, `Verbs`, `Adverbs` and `Adjectives` that are Grouped together in set of `Synonym` **Dictionary**.
 - { 'consult' : \[ 'consult', 'consultation', 'consulting', 'consultant'\ ] }
