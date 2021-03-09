@@ -59,19 +59,17 @@
 4. Regex Based Stemmer
 
 ### Lemmatization
-- Grouping together the Derived forms of Word so that they can be Analyzed as a `Single` form ( Base )
+- Grouping together the **Derived forms** of Word so that they can be Analyzed as a `Single` form ( Base )
 - `Reduce` Words into its `Base` Form.
 - Used in Search Engines to Search by `Keywords`.
 - `Lemma` is Actual Word.
 - Better > Good.
-- ( Consult, Consultant, Consultants, Consultation, Consulting ) > Consult
 
 ### WordNet Lemmatizer
 - **Database** for `English`
 - `Nouns`, `Verbs`, `Adjectives` and `Adverbs` are **Grouped** into Sets of **Cognitive Synonyms**. 
 - Most Popular **Lemmatizer**
-- **Collection** of `Nouns`, `Verbs`, `Adverbs` and `Adjectives` that are Grouped together in set of `Synonym` **Dictionary**.
-- { 'consult' : \[ 'consult', 'consultation', 'consulting', 'consultant'\ ] }
+- e.g. { 'consult', 'consultation', 'consulting', 'consultant' } > consult
 
 Stemming | Lemmatization
 :--- | :---
