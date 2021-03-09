@@ -53,9 +53,9 @@
 - Correlates Words with `Similar` Meanings.
 
 ### Types of Stemmers
-1. **Porter** Stemmer ( Fastest but very low Accuracy : fairly > `fairli` )
-2. **Snowball** Stemmer ( Better than Porter : fairly > `fair` )
-3. Lancaster Stemmer
+1. **Porter** Stemmer ( **Oldest** but very low Accuracy : fairly > `fairli` )
+2. **Snowball** Stemmer ( Better than **Porter** and **Lancaster** : fairly > `fair` )
+3. Lancaster Stemmer ( **Fastest** with **Least Accuracy** )
 4. Regex Based Stemmer
 
 ### Lemmatization
