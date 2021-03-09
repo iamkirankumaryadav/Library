@@ -16,7 +16,7 @@
 1. Human Talk to Machine.
 2. Machine Capture Audio.
 3. Convert Audio to Text.
-4. Process Text Data (Interpret > Convert)
+4. Process Text Data ( Interpret > Convert )
 5. Convert Text to Audio.
 6. Machine Talk | Reply to Human.
 
