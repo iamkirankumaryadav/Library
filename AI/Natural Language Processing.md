@@ -35,6 +35,14 @@
 11. Text Classification
 12. Part of Speech **Tagging** ( **Part of Speech** of Corresponding Word )
 
+### NLP Pipeline
+1. Read **Raw** Text
+2. Remove `Punctuation`
+3. Remove `Stopwords`
+4. Stemming | Lemmatizing
+5. `Vectorize` Data to Prepare for Model Built
+6. **Feature Engineering** ( **Creating** New Feature or **Transforming** Existing Features to get most out of Data )
+
 ### Tokenization
 - `Break` | `Split` a **Sentence** | **Phrase** | **Paragraph** into `List` of **Individual Words**.
 
@@ -150,3 +158,7 @@ Using NLTK
 
 ### Chunking
 - Grouping `Individual` Pieces of Information into Bigger Piece.
+
+### Transformation
+- Power Transformation ( Square, Square Root )
+- Standardizing Data 
