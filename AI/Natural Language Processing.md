@@ -88,6 +88,10 @@ Simply `Chops` End of the Word to `Stem` | **Converts** the Word to its **Meanin
 ### Text Preprocessing
 - Map the Words wiith different Case to the same `Lowercase` form.
 
+### Noise Removal
+- Removing Characters, Digits and Pieces of Text that can `Interfere` with Text Analysis.
+- `Punctuation` removal, `Special Character` removal, `Number` removal, `HTML` formatting removal, `Source Code` removal, `Header` removal.
+
 ### Text Normalization
 - Transforming Text into a **Standard** form.
 - e.g. 'gooood' and 'gud' transformed to 'good'
