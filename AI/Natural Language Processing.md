@@ -92,7 +92,8 @@ Simply `Chops` End of the Word to `Stem` | **Converts** the Word to its **Meanin
 - Transforming Text into a **Standard** form.
 - e.g. 'gooood' and 'gud' transformed to 'good'
 - Mapping of near **Identical** words such as 'stopwords', 'stop-words' and 'stop words' to just 'stopwords'
-- Important for **Noisy** Texts such as **Social Media** Comments, **Blog** Comments and **Text Messages** where Misspelled, Slang words and **Out of Vocabulory** ( `OOV` ) Words are used. 
+- Important for **Noisy**, **Misspelled**, **Slang** and **Out of Vocabulory** ( `OOV` ) Words are used. 
+- **Out of Vocabulory** ( `OOV` ) : **Social Media** Comments, **Blog** Comments and **Text Messages**.
 
 ### Stop Word
 - Filter out **Useless** low information Words in a Sentence
