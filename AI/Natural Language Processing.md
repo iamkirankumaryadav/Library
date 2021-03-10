@@ -100,9 +100,8 @@ Simply `Chops` End of the Word to `Stem` | **Converts** the Word to its **Meanin
 - Search Engine only Search on the Basis of `Keywords`.
 - Search Engines are programmed to `ignore` **Stop Words**.
 
-### How to `Remove` Stopwords ?
+How to `Remove` Stopwords Using NLTK
 
-Using NLTK
 1. Tokenize 
 2. Compare with List of Stopwords and Drop that Words ( Token for Token in Text if not in Stopwords.words( ) ) 
 
