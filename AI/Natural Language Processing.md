@@ -67,7 +67,8 @@
 4. Regex Based Stemmer
 
 ### Lemmatization
-- Grouping together the **Derived forms** of Word so that they can be Analyzed as a `Single` form ( Base )
+- Grouping together the **Derived forms** of Word so that they can be Analyzed as a `Single` ( Base ) form
+- Actually `Transforms` words to the **Actual Root**.
 - `Reduce` Words into its `Base` Form.
 - Used in Search Engines to Search by `Keywords`.
 - `Lemma` is Actual Word.
@@ -84,12 +85,19 @@ Stemming | Lemmatization
 **Speed** | **Accuracy**
 Simply `Chops` End of the Word to `Stem` | **Converts** the Word to its **Meaningful** `Base` Form
 
-### Normalization
-- Normalize Words : Converting all Text to Same Case, removing Punctuation, Converting Number to Words.
+### Text Preprocessing
+- Map the Words wiith different Case to the same `Lowercase` form.
+- 
+
+### Text Normalization
+- Transforming Text into a **Standard** form.
+- e.g. 'gooood' and 'gud' transformed to 'good'
+- Mapping of near **Identical** words such as 'stopwords', 'stop-words' and 'stop words' to just 'stopwords'
 
 ### Stop Word
-- Filter out **Useless** Words in a Sentence
+- Filter out **Useless** low information Words in a Sentence
 - Stop words are the Filler words.
+- we can `Focus` on the **Important Words** instead.
 - Search Engine only Search on the Basis of `Keywords`.
 - Search Engines are programmed to `ignore` **Stop Words**.
 
