@@ -81,7 +81,7 @@
 
 Stemming | Lemmatization
 :--- | :---
-Speed | Accuracy
+**Speed** | **Accuracy**
 Simply `Chops` End of the Word to `Stem` | **Converts** the Word to its **Meaningful** `Base` Form
 
 ### Normalization
