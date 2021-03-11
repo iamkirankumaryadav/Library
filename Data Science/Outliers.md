@@ -61,3 +61,17 @@ How many **Features** to take into account to **Detect Outliers** ?
 - Data Value **>** Q3 + 1.5 * ( **IQR** ) 
 
 > **Outlier** is represented by dot ( **.** ) in **Boxplot**  
+
+### Machine Learning Algorithms which are Sensitive to Outliers
+1. Linear Regression
+2. Logistic Regression
+3. K Nearest Neighbours
+4. K Means Clustering 
+5. Support Vector Machine 
+6. Principle Component Analysis
+
+### Machine Learning Algorithms which are not Sensitive to Outliers
+1. Decision Tree
+2. Random Forest 
+3. Naive Bayes 
+4. Boosting Algorithms
