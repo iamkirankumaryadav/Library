@@ -2,7 +2,7 @@
 
 > The Combination of **Weak Learners** into one very **Accurate Prediction Algorithm**.
 
-Bagging | Boosting
+Bagging ( Bootstrap Aggregation ) | Boosting
 :--- | :---
 **Parallel** | **Series**
 Decreases **Variance** ( Solve **Overfitting** ) | Decreases **Bias**
@@ -10,6 +10,7 @@ Each Model Receives Equal Weight | Models are Weighted based on their **Performa
 Models are Built **Independently** | New Models are Improved version of Previous Built Models
 Training Data Subsets are Drawn Randomly with **Replacement** | Every New Subsets comprises the Elements that are **Missclassified** by **Previous Models**
 Applied where Classifier are **Unstable** and **Complex** ( **High Variance** ) | Classifier is **Stable** and **Simple** ( **High Bias** )
+Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Tree Boosting and XGBoost
 
 
 ### A. Bagging (Bootstrap Aggregation)
