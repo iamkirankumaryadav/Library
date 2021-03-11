@@ -23,7 +23,7 @@
 
 ![MAE Scikit Learn](Image/MAESK.png)
 
-### 2. Mean Squared Error ( `MSE` ) 
+### 2. Mean Squared Error ( `MSE` ) | LOSS
 
 ![MSE](Image/MSE.jpg)
 
