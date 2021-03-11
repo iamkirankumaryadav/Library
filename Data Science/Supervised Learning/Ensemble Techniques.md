@@ -12,6 +12,14 @@ Training Data Subsets are Drawn Randomly with **Replacement** | Every New Subset
 Applied where Classifier are **Unstable** and **Complex** ( **High Variance** ) | Classifier is **Stable** and **Simple** ( **High Bias** )
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Tree Boosting and XGBoost
 
+### Benefits of Ensemble Methods
+
+1. Used for **Classification** and **Regression**
+2. Easily Handles **Outliers** and **Missing Values**
+3. Accepts various types of Inputs ( **Continuous** and **Ordinal** )
+4. Less likely to **Overfit**
+5. Output **Feature Importance** ( Important Features for Prediction )
+
 
 ### A. Bagging (Bootstrap Aggregation)
 
