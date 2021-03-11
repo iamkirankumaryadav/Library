@@ -48,9 +48,6 @@
 | **Hierarchical** arrangement of Data | **Rows** and **Columns** ( **Tables** ) |
 | Manage **Data** in Computer | Maintain **Relationships** of **Table** in a **Database** |
 
-### Cross Join | Cartesian Product
-- Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
-
 | Classification | Clustering |
 | :--- | :---  |
 | Need **Prior** Knowledge of Data | **No Prior** Knowledge of Data |
@@ -64,3 +61,6 @@
 
 ### Multicollinearity 
 - A Phenomenon in which at least two **Independent Variables** are **Linearly Correlated** ( One can be `Predicted` from the other )
+
+### Cross Join | Cartesian Product
+- Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
