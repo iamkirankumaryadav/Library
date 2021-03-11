@@ -24,8 +24,8 @@ Feature Selection and Feature Elimination | Feature Shrinkage
 
 
 ### Decision Trees
-- Prone to Overfit with Many Inputs
-- Cannot Express Non Linear Relationship easily
+- Prone to **Overfit** with many inputs
+- Cannot express **Non Linear Relationship** easily
 
 > **Base Models** are **Decision Trees**
 
