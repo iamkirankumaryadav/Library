@@ -1,0 +1,23 @@
+# Algorithm Selection
+
+### Why Linear Regressions is Flawed ?
+- Simple Linear Regression Model fit a **Straight Line** ( **Hyperplane** for Muliple Variables ) 
+- Easy to Interpret and Understand
+- Prone to Overfitting with many Features and cannot Express Non Linear Relationship
+
+### Regularization can Improve Rgeression
+- If we a Fit Regression Model on 100 Features ( Training )
+- Each Coefficient will Memorize each Observations ( Learn Pattern including **Noise** )
+- The Model would have Perfect Accuracy on the Training Data 
+- But it will not Generalize well on Test Data ( New Unseen Data )
+- Regularization can Prevent **Overfitting** by Artificially Penalizing Model Coefficient
+- It can Discourage Large Coefficients
+- It can Remove Features Completely ( Setting Coefficients to 0 )
+- It can Encourage Small Coefficients
+
+LASSO | Ridge | Elastic
+:--- | :--- | :---
+Least Absolute Shrinkage and Selection Operator ( L1 ) | Mountain Ridges ( L2 ) | Between L1 and L2 
+Absolute of Coefficient | Squared Size of Coefficients | Mix of Absolute and Squared Size
+Can lead Coefficient to Exactly Zero | Lead to Small Coefficient but not Zero | No Zero 
+Feature Selection and Feature Elimination | Feature Shrinkage
