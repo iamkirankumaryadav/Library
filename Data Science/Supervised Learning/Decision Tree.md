@@ -22,3 +22,8 @@ e.g.
 
 - Growing Tree to more Depth may lead to **Overfitting**.
 - Control the Depth of Tree by using Parameter `max_depth`
+
+### Advantages of Decision Tree
+
+1. **Decision trees** can learn **Non Linear** Relationships.
+2. **Individual Trees** are prone to Overfitting but Improves when **Ensembled**.
