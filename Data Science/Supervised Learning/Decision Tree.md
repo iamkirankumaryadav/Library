@@ -13,7 +13,7 @@
 **Information Gain** is used to Choose Right Node
 - Information Gain is a Meausre of how much we know about **Y** after looking at **X**.
 - We Select the Feature as Node that Splits the Data very well.
-- Attribute with **Highest** Information Gain is Selected as **Best Attribute** to Split upon.
+- Attribute with **Highest** Information Gain | **Low** Entropy is Selected as **Best Attribute** to Split upon.
 
 e.g. 
 - Now you are taking My Interview you asked few Questions,
