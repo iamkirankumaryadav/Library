@@ -55,6 +55,12 @@
 | **Decision Tree** | **K Means** |
 | **Labelled** Samples | **Unlabelled** Samples |
 
+LDA | PCA
+:--- | :---
+Linear Discriminant Analysis | Principle Component Analysis
+Supervised | Unsupervised
+
+
 ### Autocorrelation
 - The **Correlation** of the `Data Point` with a delayed copy of itself. 
 - Temperature of the Day **Today** vs Temperature of the Day **Yesterday** or **Tommorrow**.
