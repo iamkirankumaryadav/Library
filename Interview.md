@@ -18,7 +18,7 @@
 
 --- 
 
-### [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md) | [Multiclass vs Multilabel](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Multi%20Class%20and%20Multi%20Label%20Classification.md)
+### [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md) | [Multiclass vs Multilabel](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Multi%20Class%20and%20Multi%20Label%20Classification.md) | [EDA](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Exploratory%20Data%20Analysis.md)
 
 ---
 
