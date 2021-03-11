@@ -59,7 +59,7 @@
 | **Labelled** Samples | **Unlabelled** Samples |
 
 ### Autocorrelation
-- The **Correlation** of the `Signal` with a delayed copy of itself. 
+- The **Correlation** of the `Data Point` with a delayed copy of itself. 
 - Temperature of the Day **Today** vs Temperature of the Day **Yesterday** or **Tommorrow**.
 
 ### Multicollinearity 
