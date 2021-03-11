@@ -15,7 +15,7 @@
 - It can Remove Features Completely ( Setting Coefficients to 0 )
 - It can Encourage Small Coefficients
 
-> Loss = Sum of Square Residuals ( Actual - Prediction ) <sup>2</sup> 
+> Loss = Sum of Square **Residual** ( Actual - Prediction ) <sup>2</sup> 
 
 LASSO | Ridge | Elastic
 :--- | :--- | :---
