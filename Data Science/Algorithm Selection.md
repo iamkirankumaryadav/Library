@@ -21,3 +21,15 @@ Least Absolute Shrinkage and Selection Operator ( L1 ) | Mountain Ridges ( L2 ) 
 Absolute of Coefficient | Squared Size of Coefficients | Mix of Absolute and Squared Size
 Can lead Coefficient to Exactly Zero | Lead to Small Coefficient but not Zero | No Zero 
 Feature Selection and Feature Elimination | Feature Shrinkage
+
+
+### Decision Trees
+- Prone to Overfit with Many Inputs
+- Cannot Express Non Linear Relationship easily
+
+
+Bagging | Boosting
+:--- | :---
+Reduce Chance of **Overfitting** | Improve the **Predictive Fexibility** of Simple Model
+Trains Large Number of `Strong` Learners in `Parallel` | Trains a Large number of `Weak` Learners in `Sequence`
+Bagging Combines all Strong Learners in order to Smooth Predictions | Each one in Sequence focuses on **Learning** from Mistakes of the Previous one. ( Combines Weak Learner into One Strong Learner )
