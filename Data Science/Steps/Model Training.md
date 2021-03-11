@@ -19,6 +19,7 @@ Parameters | Hyperparameters
 Regression | Classification 
 :--- | :---
 MAE, MSE, RMSE and R<sup>2</sup> | Classification Report, Confusion Matrix, Accuracy Score and ROC AUC Curve
-**Performace** should be Consistent on every Cross Validated Samples.
+
+> **Performace** should be Consistent on every Samples.
 
 [Learn](https://towardsdatascience.com/model-parameters-and-hyperparameters-in-machine-learning-what-is-the-difference-702d30970f6)
