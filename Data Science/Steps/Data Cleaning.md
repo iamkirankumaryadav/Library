@@ -4,9 +4,8 @@
 
 ### What? | Why? | How?
 
-- Filter the Data
-- Remove Irrelevant | Incorrect | Incomplete | Improper | Duplicated | Inconsistent | Outdated | Insecure | Unformatted Data
-- Fix Typo Error ( Inconsistent Capitalization ) Mislabelled Classes
+- Remove Irrelevant | Incorrect | Incomplete | Improper | Duplicate | Inconsistent | Outdated | Insecure | Unformatted Data ( **Filter** )
+- Fix Typo Error ( Inconsistent Capitalization ) Mislabelled Classes ( 'home' and 'Home' is Same )
 - Filter Outliers by Setting **Filter** or **Replace** with some Relevant Value ( Mean, Median or Mode ) 
 - Convert Data from One Format to Standard Format
 - If Data is Stored in Multiple CSV Files, Combine CSV Data into Single Data Frame
@@ -22,5 +21,3 @@
 - Save Money
 - Boost Business
 - Minimize Compliance (Laws | Requirements | Rules | Regulations | Standard | Policies | Governance | Transparency) Risk
-
-
