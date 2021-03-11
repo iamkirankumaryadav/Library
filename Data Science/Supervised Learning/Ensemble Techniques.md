@@ -24,8 +24,14 @@
 - If I Create Decision Tree to its complete depth, problem of **Overfitting** will occur. 
 - But when we combine Multiple Decision Trees, **High Variance** gets converted to **Low Variance**, i.e. Reduces **Overfitting**
 
+- Can be used for **Classification** and **Regression**
 - Regressor : **Mean** or **Median** of Output of Each **Decision Trees**.
 - Classifier : **Majority Vote** from all **Decision Trees**.
+
+- Easily Handles **Outliers**, **Missing Data** and **Skewness**.
+- Accept **Continuous** as well as **Ordinal** Inputs.
+- Least Chance of **Overfitting**.
+- Help to Understand **Important Features**.
 
 ### B. Boosting
 
