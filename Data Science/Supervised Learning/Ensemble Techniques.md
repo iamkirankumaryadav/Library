@@ -18,6 +18,8 @@
 
 ### 1. Random Forest
 
+- **Ensemble** Learning Method that constructs a **Collection** of `Decision Trees` and then `Aggregate` the `Predictions` of each tree to **Determine** `Final Prediction`
+
 - Dataset is divided as **Subsamples** and passed to **Multiple Base Learners** (Decision Tree)
 - Training Sample consist of **Row Sampling** and **Column Sampling** with **Replacement**.
 - **Parallel Tree** growing **Subsamples**
