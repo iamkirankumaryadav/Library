@@ -1,4 +1,4 @@
-### Dimensionality Reduction
+# Dimensionality Reduction
 
 - When the Number of **Features** is very large relative to the number of **Observations** in your Dataset 
 
