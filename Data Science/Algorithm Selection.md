@@ -15,6 +15,8 @@
 - It can Remove Features Completely ( Setting Coefficients to 0 )
 - It can Encourage Small Coefficients
 
+> Loss = Sum of Square Residuals ( Summation ( Actual - Prediction ) <sup>2</sup> ) 
+
 LASSO | Ridge | Elastic
 :--- | :--- | :---
 Least Absolute Shrinkage and Selection Operator ( L1 ) | Mountain Ridges ( L2 ) | Between L1 and L2 
@@ -22,7 +24,6 @@ Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> | Loss + lambda
 `Absolute` of Coefficient | `Square` of Coefficients | Mix of `Absolute` and `Square`
 Can lead Coefficient to Exactly Zero | Lead to Small Coefficient but not Zero | No Zero 
 Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
-
 
 ### Decision Trees
 - Prone to **Overfit** with many inputs
