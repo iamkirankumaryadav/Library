@@ -16,9 +16,9 @@ Parameters | Hyperparameters
 - Training Subsets of Dataset to get Assurance of out Prediction and Accuracy.
 
 ### Performance Metrics 
-- Regression : MAE | MSE | RMSE | R<sup>2</sup>
-- Classification : Classification Report | Confusion Matrix | Accuracy Score | ROC AUC Curve
-
+Regression | Classification 
+:--- | :---
+MAE, MSE, RMSE and R<sup>2</sup> | Classification Report, Confusion Matrix, Accuracy Score and ROC AUC Curve
 **Performace** should be Consistent on every Cross Validated Samples.
 
 [Learn](https://towardsdatascience.com/model-parameters-and-hyperparameters-in-machine-learning-what-is-the-difference-702d30970f6)
