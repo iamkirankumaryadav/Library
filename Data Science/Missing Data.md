@@ -25,4 +25,4 @@
 - KNN considers the Missing Value by taking the **Majority** of the K Nearest Values.
 - Random Forest works well on **Non Linear** and **Categorical Data**.
 
-> **Domain Knowledge** can also help us to Deal with the Missing Data.
+> **Domain Knowledge** can also help us to Deal with the **Missing Data**.
