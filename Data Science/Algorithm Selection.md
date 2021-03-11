@@ -21,7 +21,7 @@ Least Absolute Shrinkage and Selection Operator ( L1 ) | Mountain Ridges ( L2 ) 
 Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> | Loss + lambda1 * \| slope \| + lambda2 * slope<sup>2</sup>
 `Absolute` of Coefficient | `Square` of Coefficients | Mix of `Absolute` and `Square`
 Can lead Coefficient to Exactly Zero | Lead to Small Coefficient but not Zero | No Zero 
-Feature Selection and Feature Elimination | Feature Shrinkage
+Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
 
 
 ### Decision Trees
