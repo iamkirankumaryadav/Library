@@ -14,6 +14,7 @@
 - **k - 1** subsets are used as **Training Set**.
 - **Mean** Error of **k** trials is calculated.
 - Reduces **Bias** and **Variance**.
+- Sampling `without` Replacement.
 
 ### 3. Stratified K Fold Cross Validation
 - Data is divided into **k** subsets.
