@@ -4,7 +4,7 @@
 
 Bagging | Boosting
 :--- | :---
-Parallel | Series
+**Parallel** | **Series**
 Decreases **Variance** ( Solve **Overfitting** ) | Decreases **Bias**
 Each Model Receives Equal Weight | Models are Weighted based on their **Performance**
 Models are Built **Independently** | New Models are Improved version of Previous Built Models
