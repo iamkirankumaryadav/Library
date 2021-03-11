@@ -27,7 +27,7 @@ Feature Selection and Feature Elimination | Feature Shrinkage
 - Prone to Overfit with Many Inputs
 - Cannot Express Non Linear Relationship easily
 
-> Base Models are Decision Trees
+> **Base Models** are **Decision Trees**
 
 Bagging | Boosting
 :--- | :---
