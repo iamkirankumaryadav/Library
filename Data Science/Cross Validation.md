@@ -29,3 +29,5 @@
 - Use remaining Data Samples for **Training**.
 - Repeated for all combinations.
 - Approach is **Exhaustive**, Need to **Train** and **Validate** the Model for all **Possible Combinations**. 
+
+[CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
