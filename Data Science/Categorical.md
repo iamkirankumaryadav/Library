@@ -1,15 +1,15 @@
 # How to Deal with Categorical Data ?
 
 - More than **One Class Label** and **Discrete Value**.
-- **Nominal** : No Ordering | Ranking among the Values of that attribute. e.g. **Genre** of Music, Movie and Videos
+- **Nominal** : No Ordering | Ranking among the Values of that `Attribute`. e.g. **Genre** of Music, Movie and Videos
 - **Ordinal** : Order | Rank among the Values. e.g. Size of Tshirts ( XS - S - M - L - XL - XXL ), Education Level, Grades 
 
-- You can’t **Train** the Model with  Categorical Variables** in their **Raw form**. They must be treated.
+- You can’t **Train** the Model directly with **Categorical Variables** in their **Raw form**. They must be treated.
 - **Transformation** of **Categorical Labels** in **Numeric Values** by applying some **Encoding** is Important.
 
 - Convert into **Numerical Values**
 - Combine `Sparse` Classes ( Classes with very less **Labels** )
-- Set Filter to Classes ( Class Labels should have atleast **50** Observations )
+- Set **Filter** to Classes ( Class Labels should have atleast **50** Observations )
 
 ### 1. Label Encoding
 - Substitute Bins by **Mean**
