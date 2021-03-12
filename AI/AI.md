@@ -81,7 +81,7 @@ Applications :
 #### CNN
 - Convolutional Neural Network
 - Designed for working with Two Dimensional Image Data
-- Important for Various Computer Vision Task (Object Recognition)
+- Important for Various Computer Vision Task ( Object Recognition )
 1. Decoding Facial Recognition
 2. Analyzing Documents
 3. Understanding Climate
@@ -113,7 +113,7 @@ Process :
 1. Human Talk to Machine. 
 2. Machine Capture Audio.
 3. Convert Audio to Text.
-4. Process Text Data (Interpret > Convert)
+4. Process Text Data ( Interpret > Convert )
 5. Convert Data to Audio.
 6. Machine Talk | Reply to Human.
 
@@ -129,7 +129,7 @@ Applications :
 - Understand and Automate the Task of Human Visual System.
 - Detecting and Image | Object Labeling has Surpassed Humans.
 - Faster than Human Reaction and 99% Accuracy
-- High Amount of Visual Data (Images and Videos) with Processing Capabilities.
+- High Amount of Visual Data ( Images and Videos ) with Processing Capabilities.
 
 Applications :
 1. Self Driving Cars
@@ -138,12 +138,12 @@ Applications :
 4. Health Care (X Ray and MRI Scan)
 5. Video Motion Analysis 
 6. Image Segmentation (Camera Detects the Multiple Faces in a Group Selfie)
-7. Scene Reconstruction (3D Model Creation in Architecture)
-8. Image Restoration (Filtering Blur Images and Removing Noise)
+7. Scene Reconstruction ( 3D Model Creation in Architecture )
+8. Image Restoration ( Filtering Blur Images and Removing Noise )
 
 Task :
 1. Object Classification : Image consist a Cat
-2. Object Detection: Classification + Localization : Multiple Objects can be Detected in the Image (Dog | Cat | Rat)
+2. Object Detection: Classification + Localization : Multiple Objects can be Detected in the Image ( Dog | Cat | Rat )
 3. Object Identification : Type of Object in an Image
 4. Instant Segmentation : Extract the Images from its Edges | Boundaries.
 
