@@ -46,8 +46,10 @@
 - Multiple Decision Tree
 
 - **Bootstrapped Data Sets** of Orignal Data and **Randomly** selecting **Subsets** at each step.
+
+- Bagging Technique ( **Multiple** Decision Trees are **Trained** in **Parallel** to Form a **Strong Learner** )
  
-- Model Selectes the **Mode** of Decision Trees (Majority Voting)
+- **Prediction** of Model is based on the **Mode** of Decision Trees ( **Majority Voting** )
 
 - Reduces Risk of **Error** and **Overfitting**.
 
