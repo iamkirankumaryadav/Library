@@ -28,7 +28,7 @@ Where to **Use** :
 - Important when we **Compare** Measurements that have Different **Units**
 
 Where to **Use** :
-- Algorithms that rely on Gradient Descent ( Regression )
+- Algorithms that rely on Gradient Descent ( **Regression** )
 - Algorithms that Calculate Distance ( KNN, K Mean, Clusterings )
 
 
