@@ -41,7 +41,7 @@
 
 - Nodes 
 
-### 3. Random Forests (Ensemble Learning Technique)
+### 3. Random Forests ( Ensemble Learning Technique )
 
 - Multiple Decision Tree
 
@@ -61,7 +61,7 @@
 
 ### B. Classififcation
 
-- Predict **Dependent Variable**(Categories of Labels) on the basis of **Independent Features**
+- Predict **Dependent Variable**( Categories of Labels ) on the basis of **Independent Features**
 
 - Find **Relationship** between **Independent Variable** and **Dependent Variable**.
 
@@ -79,11 +79,11 @@
 
 ### 3. Naive Bayes
 
-- Probabilistic Machine Learning Model (Likelihood, Prior Probability and Posterior Probability)
+- Probabilistic Machine Learning Model ( Likelihood, Prior Probability and Posterior Probability )
 
 - Probability of **Event A** if **Event B** has already occured.
 
-> P(**A**|**B**) = P(**B**|**A**) / P(**B**)
+> P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
 
 ### 4. Decision Tree
 
