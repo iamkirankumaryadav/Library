@@ -21,7 +21,7 @@ Where to **Use** :
 - A Feature Set consisting only Single Feature, Scaling provides little to no practical benefit.
 - Scaling is Beneficial if the Feature Set consists of **Multiple Features**.
 
-### Standardization (Z Score Normalization)
+### Standardization ( Z Score Normalization )
 - z = x - **mean** ( x ) / **std** ( x )
 - **Mean** = 0 and **Standard Deviation** = 1
 - Standardizing **Features** around center | Equalize the Range or Data **Variability**
