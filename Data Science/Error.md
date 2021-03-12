@@ -4,7 +4,7 @@
 - The Model created will have a lot more Errors because of Noise.
 - Noise is Unwanted that **Weakens** the Learning Process of Model.
 
-> Reasons for Noise
+> Reasons for **Noise**
 - Large Training Data Set
 - Errors in Input Data 
 - Data Labelling Error
