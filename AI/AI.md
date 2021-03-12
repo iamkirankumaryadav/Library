@@ -152,7 +152,7 @@ Task :
 - Gives Ability to Send and Receive Information.
 - Sea of Data
 - Extending Power of Internet beyond Computers and Smartphones to a Whole Range of other Things in the Environments.
-- A System of Interrelated Computing Devices, Mechaniacal Devices and Digital Machines | Gadgets.
+- A System of **Interconnected** Computing Devices, Mechaniacal Devices and Digital Machines | Gadgets.
 - Every Machine, Device, Object, Animal and Person is Provided with Unique Identifier.
 - Ability to Transfer Data over a Network without Human to Human or Human to Machine Interaction. 
 - Integrate and Control Everything in the House using Device.
