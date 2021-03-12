@@ -60,6 +60,11 @@ LDA | PCA
 Linear Discriminant Analysis | Principle Component Analysis
 Supervised | Unsupervised
 
+K Means | K Nearest Neighbor
+:--- | :---
+Unsupervised | Supervised
+K : Number of **Clusters** | K : Number of **Nearest** Neighbors
+Determine the Distances of Each Data Points to the **Centroid** and Assign each Point to Closest Cluster **Centroid** | **Calculate** Distance between **New** Data Point with **Nearest** K Neighbours.
 
 ### Autocorrelation
 - The **Correlation** of the `Data Point` with a delayed copy of itself. 
