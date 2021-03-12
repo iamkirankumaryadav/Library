@@ -127,7 +127,7 @@ Applications :
 - Computers Gain High Level Understanding from Digital Images or Videos.
 - Works on Pattern Recognition.
 - Understand and Automate the Task of Human Visual System.
-- Detecting and Image | Object Labeling has Surpassed Humans.
+- Detecting **Image** | **Object** and Labeling has Surpassed Humans.
 - Faster than Human Reaction and 99% Accuracy
 - High Amount of Visual Data ( Images and Videos ) with Processing Capabilities.
 
