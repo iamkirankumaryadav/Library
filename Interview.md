@@ -84,3 +84,24 @@ Step 1 :
 4. Calculate the Mean ( **Centroid** ) of each Cluster
 
 ### Euclidean Distance
+
+### Regression
+- Linear Regression 
+- Polynomial
+- Ridge 
+- Lasso
+- Elastic Net
+
+### Classification
+- Logistic Regression 
+- Decision Trees 
+- Support Vector Machine 
+- K Nearest Neighbors 
+- Naive Bayes
+
+### Ensembles
+- Bagging ( Random Forest )
+- Boosting ( ADABOOST | Gradient | XGBoost )
+
+### Clustering
+- K Means Clustering
