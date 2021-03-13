@@ -2,17 +2,17 @@
 
 **Data** > **Collection** of `Facts`
 
-**Data Analytics** > **Science** of **Data**.
+**Data Analytics** > **Science** of **Data**
 
-**Data Analysis** > **Collection**, **Transformation** and **Organization** of Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**. 
+**Data Analysis** > **Collection**, **Transformation** and **Organization** of Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**
 
-**Data Science** > **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**.
+**Data Science** > **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**
 
-**Predictive Modeling** > A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**.
+**Predictive Modeling** > A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**
 
-**Machine Learning** > Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed.
+**Machine Learning** > Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed
 
-**Artificial Intelligence** > **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**.
+**Artificial Intelligence** > **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**
 
 **Deep Learning** > **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**
 
@@ -26,11 +26,11 @@
 
 ---
 
-**Data Mining** > Turn Raw Data into Useful **Information**, Discovering **Patterns** in Large Dataset.
+**Data Mining** > Turn Raw Data into Useful **Information**, Discovering **Patterns** in Large Dataset
 
-**Cloud** > A Place to Keep Data **Online**, rather than Computer Hard Drive.
+**Cloud** > A Place to Keep Data **Online**, rather than Computer Hard Drive
 
-**Ecosystem** > Various Elements that Interact with One another in Order to **Produce**, **Manage**, **Store**, **Organize**, **Analyze** and **Share** Data. 
+**Ecosystem** > Various Elements that Interact with One another in Order to **Produce**, **Manage**, **Store**, **Organize**, **Analyze** and **Share** Data
 
 ---
 
