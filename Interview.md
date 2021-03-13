@@ -75,3 +75,13 @@ Determine the Distances of Each Data Points to the **Centroid** and Assign each 
 
 ### Cross Join | Cartesian Product
 - Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
+
+### K Mean
+Step 1 :
+1. Select the Number of **K** ( `Clusters` ) you want to Identify in your Data
+2. Randomly Select **3** Distinct Data Points as **Clusters** 
+3. Distance of Data Points is Calculated from each **Centroid** and it belongs to Closest Centroid.
+4. Calculate the Mean ( **Centroid** ) of each Cluster
+5. 
+
+### Euclidean Distance
