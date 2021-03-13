@@ -2,7 +2,7 @@
 
 **Data** > **Collection** of **Facts**.
 
-**Data Analytics** : **Science** of **Data**.
+**Data Analytics** > **Science** of **Data**.
 
 **Data Analysis** > **Collection**, **Transformation** and **Organization** of Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**. 
 
