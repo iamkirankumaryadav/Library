@@ -63,7 +63,7 @@ Types :
 Types :
 1. Supervised Learning
 2. Unsupervised Learning
-3. Semisupervised Learning (Small amount of Labeled Data + Large Amount of Unlabeled Data)
+3. Semisupervised Learning ( Small amount of Labeled Data + Large Amount of Unlabeled Data )
 4. Reinforcement Learning
 
 Applications :
@@ -115,7 +115,7 @@ Applications :
 4. Image Description
 
 
-### CNN (Faster) > RNN > ANN
+### CNN ( Faster ) > RNN > ANN
 
 
 # NLP | Natural Language Processing
@@ -151,9 +151,9 @@ Applications :
 1. Self Driving Cars
 2. Facial Recognition
 3. Augmented Reality and Virtual Reality
-4. Health Care (X Ray and MRI Scan)
+4. Health Care ( X Ray and MRI Scan )
 5. Video Motion Analysis 
-6. Image Segmentation (Camera Detects the Multiple Faces in a Group Selfie)
+6. Image Segmentation ( Camera Detects the Multiple Faces in a Group Selfie )
 7. Scene Reconstruction ( 3D Model Creation in Architecture )
 8. Image Restoration ( Filtering Blur Images and Removing Noise )
 
