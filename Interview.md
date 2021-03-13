@@ -82,6 +82,5 @@ Step 1 :
 2. Randomly Select **3** Distinct Data Points as **Clusters** 
 3. Distance of Data Points is Calculated from each **Centroid** and it belongs to Closest Centroid.
 4. Calculate the Mean ( **Centroid** ) of each Cluster
-5. 
 
 ### Euclidean Distance
