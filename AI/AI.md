@@ -1,5 +1,7 @@
 # AI 🤖
 
+**Data Analysis** > **Collection**, **Transformation** and **Organization** of Data in order to Draw **Conclusion**,  **Make Predictions** and Drive Informed **Decision making**. 
+
 **Data Science** > **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**.
 
 **Predictive Modeling** > A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**.
@@ -17,6 +19,16 @@
 **Computer Vision** > Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** 
 
 **Internet of Things** > **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others 
+
+---
+
+**Data Mining** > Turn Raw Data into Useful **Information**, Discovering **Patterns** in Large Dataset.
+
+**Cloud** : A Place to Keep Data **Online**, rather than Computer Hard Drive.
+
+**Ecosystem** : Various Elements that Interact with One another in Order to **Produce**, **Manage**, **Store**, **Organize**, **Analyze** and **Share** Data. 
+
+---
 
 [AI](https://www.reaktor.com/work/artificial-intelligence/) | [Elements of AI](https://www.elementsofai.com/) | [Building AI](https://buildingai.elementsofai.com/)
 
