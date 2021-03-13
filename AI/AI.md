@@ -1,6 +1,6 @@
 # AI 🤖
 
-**Data** > **Collection** of **Facts**.
+**Data** > **Collection** of `Facts`
 
 **Data Analytics** > **Science** of **Data**.
 
