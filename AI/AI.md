@@ -1,6 +1,10 @@
 # AI 🤖
 
-**Data Analysis** > **Collection**, **Transformation** and **Organization** of Data in order to Draw **Conclusion**,  **Make Predictions** and Drive Informed **Decision making**. 
+**Data** > **Collection** of **Facts**.
+
+**Data Analytics** : **Science** of **Data**.
+
+**Data Analysis** > **Collection**, **Transformation** and **Organization** of Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**. 
 
 **Data Science** > **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**.
 
