@@ -101,6 +101,10 @@
 
 ![Strength of Slope](Image/Strength.png)
 
+### Causality
+- Relationship between **Cause** and its **Effect**
+- One Variable affects other Variable ( Temperature affect Icecream Sale | Sale of Icecream is more in Summer )
+
 ### Regression Line
 
 - **Predicts** the change in **Y** when **X** increases by **One Unit**.
