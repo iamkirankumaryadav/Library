@@ -84,7 +84,13 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 - **Lineariry** : The **Relationship** between **Independent Features** and **Dependent Variable** should be **Linear**.
 - Data should be **Normally** Distributed | You may need to **Transform** Data to make the Relationship **Linear**.
 - Error should be **Normally** Distributed ( P Value > 0.05  ) | Quantile Quantile Point : Data Points should be Close to Line
+
+![Error Normal Distribution](Image/ErrorDistribution.png)
+
 - **Homoscedasticity** : **Variance** along the Line of **Best Fit** should remain **Constant** as we move along the line.
+
+![Homoscedasticity](Image/Homo.png)
+
 - **Multicollinearity** : Two or more **Independent** Variables **Correlate** strongly with each other. ( Age - DOB )
 - Observations and Features should be **Independent**  
 
@@ -131,3 +137,5 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 - Making **Predictions** outside range of Data.
 
 ![Extrapolation](Image/Extrapolation.png)
+
+![Summary](Image/Summary.png)
