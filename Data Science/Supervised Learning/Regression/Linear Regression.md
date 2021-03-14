@@ -4,6 +4,10 @@
 
 **Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** 
 
+**Predict** Dependent Variable based on One or More Independent Variables.
+
+**Measure** the Influence of One or More Independent Variable on Dependent Variable.
+
 **Predict** the Value of a **Feature** based on the Value of Another Feature.
 
 ### Y = X * B1 + B0
@@ -33,8 +37,17 @@
 
 ### Simple Linear Regression
 - Single Input | Independent Feature 
+- Dependent Variable is **Continuous**
 - Use Statistics to Estimate Coefficients
 - Mean | Median | Standard Deviations | Correlation and Covariance
+
+### Muliple Linear Regression
+- Dependent Variable is **Continuous**
+- Muliple Input ( Independent Features ) 
+
+### Logistic Regression
+- Dependent Variable is **Categorical**
+- Used for **Classification**  
 
 ### Ordinary Least Squares (OLS)
 - More than One Independent Features
@@ -67,8 +80,9 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 - Independent Features and Dependent Features should be Continuous.
 - The Relationship between Independent and Dependent Features should be **Linear**.
 - You may need to **Transform** Data to make the Relationship **Linear**.
-- Data needs to Show **Homoscedasticity** (Variance along the Line of **Best Fit** remains similar as you move along the line)
-- Observations should be Independent.
+- Data needs to Show **Homoscedasticity** ( **Variance** along the Line of **Best Fit** remains similar as you move along the line )
+- Observations should be **Independent**.
+- Each Feature should be **Independent**. 
 
 ### 2. Remove Noise 
 - Remove **Outliers** 
