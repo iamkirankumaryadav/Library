@@ -80,11 +80,17 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 
 ### 1. Linear Assumptions
 - Independent Features and Dependent Features should be Continuous.
-- The Relationship between Independent and Dependent Features should be **Linear**.
-- You may need to **Transform** Data to make the Relationship **Linear**.
-- Data needs to Show **Homoscedasticity** ( **Variance** along the Line of **Best Fit** remains similar as you move along the line )
-- Observations should be **Independent**.
-- Each Feature should be **Independent**. 
+- **Lineariry** : The **Relationship** between **Independent Features** and **Dependent Variable** should be **Linear**.
+- Data should be **Normally** Distributed | You may need to **Transform** Data to make the Relationship **Linear**.
+- Error should be **Normally** Distributed ( P Value > 0.05  ) | Quantile Quantile Point : Data Points should be Close to Line
+- **Homoscedasticity** : **Variance** along the Line of **Best Fit** should remain **Constant** as we move along the line.
+- **Multicollinearity** : Two or more **Independent** Variables **Correlate** strongly with each other. ( Age - DOB )
+- Observations and Features should be **Independent**  
+
+### Multicollinearity 
+- We Can Identify Multicollinearity
+- Tolerance = 1 - R<sup>2</sup> ( T < 0.1 | There is Multicollinearity ) 
+- Variance Inflation Factor : VIF = 1 / ( 1 - R<sup>2</sup> ) ( VIF > 10 | There is Multicollinearity )
 
 ### 2. Remove Noise 
 - Remove **Outliers** 
