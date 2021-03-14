@@ -116,6 +116,11 @@ Amount of R | Strength of Correlation
 - **Alternate** Hypothesis ( H1 ) : There is a **Linear Relationship**
 - P Value is Calculated ( if P Value > 0.05 : Then Accept Null Hypothesis else Reject Null Hypothesis )
 
+### Multicollinearity
+- Two or More Independent Features **Correlate** Strongly with each other.
+- Regression Equation becomes **Unstable** and Create **Confusio** 
+- **Remove** One Feature to Prevent from Multicollinearity and make Regression **Stable**.
+
 ### Causality
 - Relationship between **Cause** and its **Effect**
 - One Variable affects other Variable ( Temperature affect Icecream Sale | Sale of Icecream is more in Summer )
