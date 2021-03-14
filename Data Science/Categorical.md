@@ -11,6 +11,13 @@
 - Combine `Sparse` Classes ( Classes with very less **Labels** )
 - Set **Filter** to Classes ( Class Labels should have atleast **50** Observations )
 
+### Dichotomous
+- Male or Female | Yes or No | True or False | 1 or 0
+
+### Logistic Regression
+- Classify the Target Variables into Two Classes
+- If the Target Variable has more than 2 Classes then Create **Dummy** Variables.
+
 ### 1. Label Encoding
 - Substitute Bins by **Mean**
 - e.g. Age Bins by Mean of Age Group
