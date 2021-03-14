@@ -16,6 +16,7 @@
 
 ### B1 : Slope 
 - Gradient | **Steepness** in Line | **Direction** of Line | **Weight**
+- Indicates how much the **Dependent Variable** changes, if an **Independent Variable**  changes by **One Unit**
 
 ![Positive Slope](Image/Positive.png)
 
