@@ -48,6 +48,8 @@
 ### Logistic Regression
 - Dependent Variable is **Categorical**
 - Used for **Classification**  
+- **Probability** of **Occurence** of Target Label is Predicted on the basis of **Threshold** ( 0.5 )
+- **Range** Value of **Prediction** lies between 0 to 1
 
 ### Ordinary Least Squares (OLS)
 - More than One Independent Features
