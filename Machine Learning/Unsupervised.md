@@ -11,6 +11,21 @@
 
 > e.g. Determining Customer Segments in Marketing Data (Features : Gender, Location, Age, Education and Income)
 
+### K Mean Clustering
+
+- Cluster Data Points with Similar Characteristics 
+- Iterative Process, Cluster changes each according to the First Random Centroids of Cluster. 
+- Different Starting Points create Different Clusters.
+- **Elbow Method** : Sum of Squared Distance get smaller as the Number of Clusters Increases
+
+Steps
+1. Define Number of **Clusters** ( K )
+2. Set Cluster Centre ( **Centroid** ) Randomly
+3. Assign Points to Cluster
+4. Calculate Centre ( **Centroid** ) of Each Cluster
+5. Assign **Data Points** to New Clusters
+
+
 ### Anomaly Detection : 
 
 > Automatically Discover Unusual Data Points in Data Set.
