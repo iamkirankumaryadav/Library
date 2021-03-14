@@ -1,16 +1,24 @@
-# Ensemble Techniques
+# Ensemble Techniques | Method
 
 > The Combination of **Weak Learners** into one very **Accurate Prediction Algorithm**.
 
+Create Multiple Models and then combine them to Produce **Better** Results that any Single Model **Individually**.
+ 
 Bagging ( Bootstrap Aggregation ) | Boosting
 :--- | :---
 **Parallel** | **Series**
 Decreases **Variance** ( Solve **Overfitting** ) | Decreases **Bias**
 Each Model Receives Equal Weight | Models are Weighted based on their **Performance**
+Samples Randomly | Boosting Samples by Increasing Weight for Wrong Predictions
 Models are Built **Independently** | New Models are Improved version of Previous Built Models
+Less Time to Train | More Time to Train
+Easy to Tune | Harder to Tune
+Harder to Overfit | Easier to Overfit
 Training Data Subsets are Drawn Randomly with **Replacement** | Every New Subsets comprises the Elements that are **Missclassified** by **Previous Models**
 Applied where Classifier are **Unstable** and **Complex** ( **High Variance** ) | Classifier is **Stable** and **Simple** ( **High Bias** )
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Tree Boosting and XGBoost
+
+![Ensembles](Image/Ensembles.png)
 
 ### Benefits of Ensemble Methods
 
@@ -78,6 +86,10 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Tree Boosting a
 
 ### 2. Gradient Boosting
 - Uses the **Loss Function** of Base Model ( **Decision Tree** ) for minimizing the **Error** of overall Model.
+- An **Iterative** Approach
+- **Combine** Weak Learners to Create a **Strong** Learner by Focusing on Mistakes of Prior Iterations.
+
+![Gradient Boosting](Image/GB.png)
 
 ### 3. XGBoost | Extreme Gradient Boosting
 - Uses **2**<sup>nd</sup> Order **Partial Derivative** for Approximation.
