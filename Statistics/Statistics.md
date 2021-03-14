@@ -94,6 +94,16 @@
 ### Correlation
 
 - Measures the **Direction** and **Strength** of **Relationship** between two **Quantitative** Variable.
+- One Variable can Predict the other Variable.
+- Varies between -1 to 1
+
+Amount of R | Strength of Correlation
+:--- | :---
+0.0  | No Correlation
+0.1 - 0.3 | Little Correlation
+0.3 - 0.5 | Medium Correlation
+0.5 - 0.7 | High Correlation
+0.7 - 1.0 | Very High Correlation
 
 ![Perfect Linear Correlation](Image/Perfect.png)
 
