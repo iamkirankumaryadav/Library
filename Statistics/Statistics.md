@@ -111,6 +111,11 @@ Amount of R | Strength of Correlation
 
 ![Strength of Slope](Image/Strength.png)
 
+### Test Correlation Coefficient for Significance ( T Test ) 
+- **Null** Hypothesis ( H0 ) : There is **No Linear Relationship**
+- **Alternate** Hypothesis ( H1 ) : There is a **Linear Relationship**
+- P Value is Calculated ( if P Value > 0.05 : Then Accept Null Hypothesis else Reject Null Hypothesis )
+
 ### Causality
 - Relationship between **Cause** and its **Effect**
 - One Variable affects other Variable ( Temperature affect Icecream Sale | Sale of Icecream is more in Summer )
