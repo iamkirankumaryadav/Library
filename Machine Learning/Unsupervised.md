@@ -14,7 +14,7 @@
 ### K Mean Clustering
 
 - Cluster Data Points with Similar Characteristics 
-- Iterative Process, Cluster changes each according to the First Random Centroids of Cluster. 
+- Iterative Process, Cluster changes every time according to the First Random Centroids of Cluster. 
 - Different Starting Points create Different Clusters.
 - **Elbow Method** : Sum of Squared Distance get smaller as the Number of Clusters Increases
 
