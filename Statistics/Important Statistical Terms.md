@@ -7,6 +7,13 @@
 - if p value < alpha ( 0.05 | 5% ) we remove that feature. ( **Do not** Accept Null Hypothesis )
 - if p value > alpha ( 0.05 | 5% ) we keep that feature. ( **Accept NULL Hypothesis** : **H0** )
 
+**Significance** Level ( **Alpha** )
+- At what point the **Null Hypothesis** is **Rejected**.
+- Significance Level is usually ( 5% or 1% )
+- Alpha <= 1% | High Significance
+- Alpha <= 5% | Significant
+- Alpha > 5% | No Significant ( Accept Null Hypothesis )
+
 ### 2. Z Test
 
 - A **Hypothesis Test** with a **Normal Distribution** that uses a **Z Statistics**.
