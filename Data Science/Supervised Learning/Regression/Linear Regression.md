@@ -94,10 +94,42 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 - **Multicollinearity** : Two or more **Independent** Variables **Correlate** strongly with each other. ( Age - DOB )
 - Observations and Features should be **Independent**  
 
-### Multicollinearity 
+### Correlation
+
+- Measures the **Direction** and **Strength** of **Relationship** between two **Quantitative** Variable.
+- One Variable can Predict the other Variable.
+- Varies between -1 to 1
+
+Amount of R | Strength of Correlation
+:--- | :---
+0.0  | No Correlation
+0.1 - 0.3 | Little Correlation
+0.3 - 0.5 | Medium Correlation
+0.5 - 0.7 | High Correlation
+0.7 - 1.0 | Very High Correlation
+
+![Perfect Linear Correlation](Image/Perfect.png)
+
+![Direction of Slope](Image/Direction.png)
+
+![Strength of Slope](Image/Strength.png)
+
+### Test Correlation Coefficient for Significance ( T Test ) 
+- **Null** Hypothesis ( H0 ) : There is **No Linear Relationship**
+- **Alternate** Hypothesis ( H1 ) : There is a **Linear Relationship**
+- P Value is Calculated ( if P Value > 0.05 : Then Accept Null Hypothesis else Reject Null Hypothesis )
+
+### Multicollinearity
+- Two or More Independent Features **Correlate** Strongly with each other.
+- Regression Equation becomes **Unstable** and Create **Confusio** 
+- **Remove** One Feature to Prevent from Multicollinearity and make Regression **Stable**.
 - We Can Identify Multicollinearity
 - Tolerance = 1 - R<sup>2</sup> ( T < 0.1 | There is Multicollinearity ) 
 - Variance Inflation Factor : VIF = 1 / ( 1 - R<sup>2</sup> ) ( VIF > 10 | There is Multicollinearity )
+
+### Causality
+- Relationship between **Cause** and its **Effect**
+- One Variable affects other Variable ( Temperature affect Icecream Sale | Sale of Icecream is more in Summer )
 
 ### 2. Remove Noise 
 - Remove **Outliers** 
