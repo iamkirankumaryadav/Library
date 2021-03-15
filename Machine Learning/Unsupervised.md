@@ -41,10 +41,10 @@ Steps
 - Dividing the **Single** Cluster into n **Clusters**
 
 ### How we Calculate Similarity between the Clusters
-1. MIN ( Distance between the **Closest** Points of Two Clusters )
-2. MAX ( Distance between the **Farthest** Points of Two Clusters )
-3. Group Average ( Average of Distance between Each Data Points of Two Clusters )
-4. Distance between Centroids ( Distance between the **Centroid** of Two Clusters ) 
+1. **MIN** ( Distance between the **Closest** Points of Two Clusters )
+2. **MAX** ( Distance between the **Farthest** Points of Two Clusters )
+3. Group **AVG** ( Average of Distance between Each Data Points of Two Clusters )
+4. Distance between **Centroids** ( Distance between the **Centroid** of Two Clusters ) 
 
 ### Anomaly Detection : 
 
