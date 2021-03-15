@@ -119,19 +119,25 @@ Assumptions
 1. Simple Random Sampling
 
 - Selecting **Random Data Values** from the Dataset.
+- Each Data Value has `Equal` Chance of being Selected.
+- e.g. Select any Random Data Point.
 
 2. Systematic Sampling
 
 - **Take** One Data Value, **Skip** a predefined amount (n), **Take** next Data Value.
+- Choose a Data Point at **Regular Intervals**
+- e.g. Selecting every 10th Data Point from 100.
 
 3. Cluster Sampling
 
-- Divide **Population** into Clusters and Select One entire **Cluster** as Samples.
+- Divide **Population** into Clusters and Select One or more **Clusters** as Samples.
+- Used when the Data Set is **Very Large**.
 
 4. Stratified Sampling
 
 - Divide **Population** into groups of Similar **Attributes** with Equal Proportion.
 - Take **Random Samples** from each groups.
+- e.g. If Company has 400 Males and 300 Feamles, Choosing 40 Males and 30 Females. 
 
 ![Sampling](Image/Sampling.png)
 
