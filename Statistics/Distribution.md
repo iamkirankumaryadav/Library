@@ -1,5 +1,14 @@
 # Types of **Distribution**.
 
+### Discrete 
+
+<h3><a href='#uniform'>Uniform Distribution</a></h3>
+<h3><a href='#bernoulli'>Bernoulli Distribution</a></h3>
+<h3><a href='#binomial'>Binomial Distribution</a></h3>
+<h3><a href='#poisson'>Poisson Distribution</a></h3>
+
+### Continuous
+
 # Density Curve
 
 > **Density Curve** helps us to **Visualize** the overall shape of a distribution. 
@@ -26,7 +35,7 @@
 
 - **Finite** number of outcomes : Die | Picking a Card : 
 
-### 1. Uniform Distribution
+<h3 name='uniform'>1. Uniform Distribution</h3>
 
 ![Uniform Distribution](Image/Uniform.png)
 
@@ -37,7 +46,7 @@
 - Flip a Coin ( H | T )
 - Roll a Dice ( 1 | 2 | 3 | 4 | 5 | 6 )
 
-### 2. Bernoulli Distribution
+<h3 name='bernoulli'>2. Bernoulli Distribution</h3>
 
 - **X ~ Bern ( p )**
 - Variable **X** follows a **Bernoulli Distribution** with **p** ( probability | likelihood ) of success. 
@@ -49,7 +58,7 @@
 - Variance : p * ( 1 - p )
 - A Coin flip | A Single True or False Question | Vote between 2 Parties.
 
-### 3. Binomial Distribution
+<h3 name='bi'>3. Binomial Distribution
 
 - **X ~ B ( n , p )**
 - Variable **X** follows a **Binomial Distribution** with **n** trials and **p** ( probability | likelihood ) of success in each **Individual Trial**.
