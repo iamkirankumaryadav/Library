@@ -15,10 +15,8 @@
 - **Frequency** of Each Value ( Categorical )
 - Central tendency ( Mean, Median and Mode )
 - Variability ( Min, Max, Range, IQR, Standard Deviation, Variance ) ( Histogram, Boxplot )
-
-Standard Deviation : The Average amount of Variability. ( Scatter Plot )
-
-Variance : Squared Deviations from Mean
+- Standard Deviation : The Average amount of Variability. ( Scatter Plot )
+- Variance : Squared Deviations from Mean
 
 ### Inferential Statistics
 - Understand the Population from the Sample.
