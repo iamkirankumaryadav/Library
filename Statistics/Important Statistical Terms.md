@@ -14,7 +14,7 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 
 ### Type I and Type II Error
 
-![Error Type](Image/ErrorType.png)
+![Error Type](Image/ErrorType.jpg)
 
 ### 1. P Values
 
