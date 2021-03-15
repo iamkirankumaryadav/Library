@@ -1,8 +1,6 @@
 # Types of **Distribution**.
 
-### Discrete 
-
-<h3><a href='#uniform'>Uniform</a>&nbsp; |&nbsp; <a href='#bernoulli'>Bernoulli</a>&nbsp; |&nbsp; <a href='#binomial'>Binomial</a>&nbsp; |&nbsp; <a href='#poisson'>Poisson</a></h3>
+<h3> Discrete :&nbsp; <a href='#uniform'>Uniform</a>&nbsp; |&nbsp; <a href='#bernoulli'>Bernoulli</a>&nbsp; |&nbsp; <a href='#binomial'>Binomial</a>&nbsp; |&nbsp; <a href='#poisson'>Poisson</a></h3>
 
 ### Continuous
 
