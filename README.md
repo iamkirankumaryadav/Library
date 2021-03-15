@@ -79,3 +79,4 @@
 - [Python Examples](https://pythonexamples.org/)
 - [Programiz](https://www.programiz.com/)
 - [Matplotlib Plots](https://matplotlib.org/stable/tutorials/introductory/sample_plots.html)
+- [Scribbr](https://www.scribbr.com/category/statistics/)
