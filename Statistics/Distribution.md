@@ -144,8 +144,11 @@
 
 - **X ~ t ( k )** 
 - Variable **X** follows a **t Distribution** with k **Degree of Freedom**.
-- **Small Sample Size** approximation of a Normal Distrbution.
+- Most Observations falls close to **Mean**
+- Rest Observations make up the **Tails** on either side.
+- A Normal Distrbution used for **Small Sample Size**.
 - Used for **Hypothesis Testing** with **Limited Data**.
+- **Variance** in the Data is **Unknown**.
 - Tails are Fat at the both ends.
 
 <h3 name='chi'>4. Chi Squared Distribution</h3>  
