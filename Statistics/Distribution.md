@@ -82,7 +82,7 @@
 - Normal Events in Nature. 
 - Average Height of Person (**Exceptions** are considered as **Outliers**).
 - Majority of Data is centered around **Mean**.
-- **Mean** = **Median** = **Mode** are Exactly the `Same`.
+- **Mean** = **Median** = **Mode** are Exactly the `Same`
 
 ![Mean](Image/Mean.png)
 ![Large Standard Deviation](Image/Large.png)
@@ -93,7 +93,12 @@
 ![Parameter and Statistics](Image/PS.png)
 ![Table](Image/Table.png)
 
-### 68, 95, 99.7 Law
+### 68, 95, 99.7 Law |  Empirical Rule
+
+- Around `68%` of values are within `1` **Standard Deviation** from the **Mean**
+- Around `95%` of values are within `2` **Standard Deviations** from the **Mean**
+- Around `99.7%` of values are within `3` **Standard Deviations** from the **Mean**
+
 
 ![68 95 99.7 Law](Image/68_95_99.png)
 
