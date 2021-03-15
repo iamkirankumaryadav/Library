@@ -4,8 +4,9 @@
 - A **Collection** of **Observations** from a **Sample** or Entire **Population**.
 
 ### Type of Data 
-- Quantitative 
-
+- Quantitative ( Real Numbers | Discrete and Continuous )
+- Categorical ( Group | Binary, Nominal and Ordinal )
+ 
 ### Statistical Analysis
 - Investigating **Trends**, **Patterns**, and **Relationships** using **Quantitative** Data.
 
