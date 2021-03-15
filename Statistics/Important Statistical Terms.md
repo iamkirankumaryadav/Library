@@ -2,6 +2,7 @@
 
 <h3><a href='#data'>Data</a></h3>
 <h3><a href='#hyp'>Hypothesis</a></h3>
+<h3><a href='#sample'>Sampling</a></h3>
 
 <h3 name='data'>Data Set</h3> 
 - A **Collection** of **Observations** from a **Sample** or Entire **Population**.
@@ -112,7 +113,7 @@ Assumptions
 4. **Probability** can be converted to a **Binary Output**, either **1** or **0**.
 5. **Gradient Descent** and **Maximum Liklihood** are used to Adjust **Weights**.
 
-### 6. Sampling
+<h3 name='sample'> 6. Sampling</h3>
 
 1. Simple Random Sampling
 
