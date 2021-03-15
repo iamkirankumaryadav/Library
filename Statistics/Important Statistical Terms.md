@@ -1,5 +1,26 @@
 # Statistical Concepts you should know for Data Science
 
+### Statistical Analysis
+- Investigating **Trends**, **Patterns**, and **Relationships** using **Quantitative** Data.
+
+### Quantitative Data
+- Process of Collecting and Analyzing **Numerical** Data
+- Find **Trends**, **Patterns**, **Relationship** and **Correlation**
+- Dealing with Measuring **Central Tendency** and **Measures of Spread** 
+- Analysis is done on **Sample** that Generalize Results for **Population**
+
+### Qualitative Data
+- Process of Collecting and Analyzing **Non Numerical** Data
+- Text, Image, Video or Audio
+- Gather **Insights** by converting in  form of **Array**
+
+Quantitative Data | Qualitative Data
+:--- | :---
+Numerical Data | Non Numerical Data
+Confirm or Test ( Hypothesis ) | Understand ( Concepts )
+Find **Trends**, **Relations** and **Patterns** | Find **Insights**
+Numeric Data ( Central Tendency and Measures of Spreads ) | Text, Image, Video or Audio
+
 ### Hypothesis
 - An **Assumption** | An **Idea** that is Proposed so that it can be **Tested** to See if it might be **True**
 - We Test the Liklihood of Statement being **True** in order to decide whether to **Accept** or **Not Accept** the **NULL Hypothesis**
