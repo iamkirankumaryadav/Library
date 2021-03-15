@@ -153,3 +153,5 @@ Amount of R | Strength of Correlation
 - Gives a Range of Values which is likely to conatin Population Parameter.
 - Tells How likely Interval is to contain the Population Parameter.
 - Represented by Alpha 
+- **Range** of values that you expect your **Estimate** to fall between a certain % of the Time.
+- e.g Confidence Interval of 95% : You are Confident that 95 out of 100 Times the Estimate Falls between the Upper and Lower Values Specified by the **Confidence Interval**
