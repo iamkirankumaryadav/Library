@@ -1,7 +1,28 @@
 # Statistical Concepts you should know for Data Science
 
+### Data Set 
+- A **Collection** of **Observations** from a **Sample** or Entire **Population**.
+
+### Type of Data 
+- Quantitative 
+
 ### Statistical Analysis
 - Investigating **Trends**, **Patterns**, and **Relationships** using **Quantitative** Data.
+
+### Descriptive Statistics
+- **Summarize** and **Organize** characteristics of a Data Set.
+- **Frequency** of Each Value ( Categorical )
+- Central tendency ( Mean, Median and Mode )
+- Variability ( Min, Max, Range, IQR, Standard Deviation, Variance ) ( Histogram, Boxplot )
+
+Standard Deviation : The Average amount of Variability. ( Scatter Plot )
+
+Variance : Squared Deviations from Mean
+
+### Inferential Statistics
+- Understand the Population from the Sample.
+- Estimates | Predictions about Populations.
+- Test Hypothesis and Draw Conclusion about Population. 
 
 ### Quantitative Data
 - Process of Collecting and Analyzing **Numerical** Data
