@@ -73,7 +73,7 @@
 
 - **Infiinite** number of outcomes : Time | Distance : 
 
-### 1. Normal Distribution | Gaussian Distribution | Bell Shaped Curve
+<h3 name='normal'> 1. Normal Distribution | Gaussian Distribution | Bell Shaped Curve</h3>
 
 ![Normal Distribution](Image/ND.png)
 
@@ -109,7 +109,7 @@
 - **99.7 %** of Outcomes fall withins **3** Standard Deviation
 - **Outliers** are **Extremely Rare** in Normal Distribution.
 
-### 2. Standard Normal Distribution 
+<h3 name='std'>2. Standard Normal Distribution</h3> 
 
 - **X ~ N ( mean = 0 , variance = 1 )** 
 - Variable **X** follows a **Normal Distribution** with **Mean** = 0 and **Variance** = 1. 
@@ -134,7 +134,7 @@
 
 - **Multiplication** and **Division** will **Contract** or **Expand** on **Y Axis**.
 
-### 3. T Distribution
+<h3 name='t'>3. T Distribution</h3>
 
 - **X ~ t ( k )** 
 - Variable **X** follows a **t Distribution** with k **Degree of Freedom**.
@@ -142,7 +142,7 @@
 - Used for **Hypothesis Testing** with **Limited Data**.
 - Tails are Fat at the both ends.
 
-### 4. Chi Squared Distribution  
+<h3 name='chi'>4. Chi Squared Distribution</h3>  
 
 - **X ~ chi<sup>2</sup> ( k )** 
 - Variable **X** follows a **chi<sup>2</sup> Distribution** with k **Degree of Freedom**.
