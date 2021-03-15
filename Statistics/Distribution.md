@@ -58,14 +58,14 @@
 - Variance : p * ( 1 - p )
 - A Coin flip | A Single True or False Question | Vote between 2 Parties.
 
-<h3 name='bi'>3. Binomial Distribution
+<h3 name='binomial'>3. Binomial Distribution</h3>
 
 - **X ~ B ( n , p )**
 - Variable **X** follows a **Binomial Distribution** with **n** trials and **p** ( probability | likelihood ) of success in each **Individual Trial**.
 - **Sequence** | **Trials** of **Identical Bernoulli Events**.
 - Flipping a Coin **Twice** | Rolling two Dies | Quiz of 10 True or False Questions.
 
-### 4. Poisson Distribution
+<h3 name='poisson'>4. Poisson Distribution</h3>
 
 - **X ~ Po ( lambda )** 
 - Number of **Occurences**.
