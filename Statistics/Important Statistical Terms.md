@@ -48,6 +48,7 @@ Numeric Data ( Central Tendency and Measures of Spreads ) | Text, Image, Video o
 
 <h3 name='hyp'> Hypothesis </h3> 
 
+- Test Specific **Prediction** or **Claim**
 - An **Assumption** | An **Idea** that is Proposed so that it can be **Tested** to See if it might be **True**
 - We Test the Liklihood of Statement being **True** in order to decide whether to **Accept** or **Not Accept** the **NULL Hypothesis**
 
@@ -93,14 +94,27 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 - Data is not selected **Randomly**.
 - **T Distribution** has **Small Peak** and **Fat Tails**.
 
-### 4. Linear Regression and Assumptions
+### ANOVA Test
+
+- Analysis of Variance
+- Used to Test Categorical Variable ( Atleast 3 Different Categories )
+- Analyze the Difference between the **Means** of more than Two Groups
+- One Way ANOVA uses one **Independent Variable**
+- Two Way ANOVA uses two **Independent Variables**
+
+### Assumptions of ANNOVA Test
+- Observations are **Independent**
+- Dependent Feature follows **Normal** Distribution
+- **Variation** for each Group in Category should be **Similar**
+
+### 5. Linear Regression and Assumptions
 
 - Model **Relationship** between a **Dependent Variable** and one or nore **Independent Variable**
 - Finding the Line of **Best Fit** that represents two or more variables.
 - Line of Best Fit is found by minimizing the **Sum of Squared Residuals**
 - Residuals : **Predicted** - **Actual**
 
-Assumptions
+### Assumptions of Linear Regression
 
 1. **Linearity** : The Relationship between **X** and **Mean** of **Y** is linear.
 2. **Homoscedasticity** : The **Variance** of the **Residual** is the same for any value of **X**.
