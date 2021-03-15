@@ -1,5 +1,16 @@
 # Statistical Concepts you should know for Data Science
 
+### Hypothesis
+- An **Assumption** | An **Idea** that is Proposed so that it can be **Tested** to See if it might be **True**
+- We Test the Liklihood of Statement being **True** in order to decide whether to **Accept** or **Not Accept** the **NULL Hypothesis**
+
+NULL Hypothesis | Alternative Hypothesis 
+:--- | :---
+H<sub>0</sub> | H<sub>a</sub>
+Statement about a **Population** Parameter | Statement directly **Contradicts** the NULL Hypothesis
+H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>a</sub> : U < U<sub>0</sub> | H<sub>a</sub> : U > U<sub>0</sub>
+
+
 ### 1. P Values
 
 - **Probability** of **Achieving** a result.
