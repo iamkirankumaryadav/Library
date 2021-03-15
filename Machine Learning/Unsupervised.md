@@ -25,6 +25,26 @@ Steps
 4. Calculate Centre ( **Centroid** ) of Each Cluster
 5. Assign **Data Points** to New Clusters
 
+### Hierarchical Clustering 
+
+### A. Agglomerative
+
+- Bootom Up Approach
+- **AGNES** ( Agglomerative Nesting )
+- Each **Data Point** is considered as an **Individual Cluster**
+- At each Iteration, Similar Clusters merge with other **Clusters** until One Single Cluster remains. 
+
+### B. Divisive
+
+- Top Down Approach
+- **DIANA** ( Divise Analysis )
+- Dividing the **Single** Cluster into n **Clusters**
+
+### How we Calculate Similarity between the Clusters
+1. MIN ( Distance between the **Closest** Points of Two Clusters )
+2. MAX ( Distance between the **Farthest** Points of Two Clusters )
+3. Group Average ( Average of Distance between Each Data Points of Two Clusters )
+4. Distance between Centroids ( Distance between the **Centroid** of Two Clusters ) 
 
 ### Anomaly Detection : 
 
