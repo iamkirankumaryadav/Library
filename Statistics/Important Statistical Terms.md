@@ -132,6 +132,8 @@ Assumptions
 - Divide **Population** into groups of Similar **Attributes**
 - Take **Random Samples** from each groups.
 
+![Sampling](Image/Sampling.png)
+
 ### 7. Central Limit Theorem
 
 - The **Distribution** of Sample Mean approximates a **Normal Distribution**.
