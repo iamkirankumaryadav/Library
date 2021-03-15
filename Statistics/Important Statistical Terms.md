@@ -129,7 +129,7 @@ Assumptions
 
 4. Stratified Sampling
 
-- Divide **Population** into groups of Similar **Attributes**
+- Divide **Population** into groups of Similar **Attributes** with Equal Proportion.
 - Take **Random Samples** from each groups.
 
 ![Sampling](Image/Sampling.png)
