@@ -2,7 +2,7 @@
 
 <h3> Discrete :&nbsp; <a href='#uniform'>Uniform</a>&nbsp; |&nbsp; <a href='#bernoulli'>Bernoulli</a>&nbsp; |&nbsp; <a href='#binomial'>Binomial</a>&nbsp; |&nbsp; <a href='#poisson'>Poisson</a></h3>
 
-### Continuous
+<h3> Continuous :&nbsp; <a href='#normal'>Normal</a>&nbsp; |&nbsp; <a href='#std'>Standard Normal</a>&nbsp; |&nbsp; <a href='#t'>T</a>&nbsp; |&nbsp; <a href='#chi'>Chi<sup>2</sup></a></h3>
 
 # Density Curve
 
