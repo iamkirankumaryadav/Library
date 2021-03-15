@@ -82,6 +82,7 @@
 - Normal Events in Nature. 
 - Average Height of Person (**Exceptions** are considered as **Outliers**).
 - Majority of Data is centered around **Mean**.
+- **Mean** = **Median** = **Mode** are Exactly the `Same`.
 
 ![Mean](Image/Mean.png)
 ![Large Standard Deviation](Image/Large.png)
