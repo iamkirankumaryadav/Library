@@ -2,7 +2,7 @@
 
 ### Discrete 
 
-<h3><a href='#uniform'>Uniform Distribution</a>&nbsp; |&nbsp; <a href='#bernoulli'>Bernoulli Distribution</a>&nbsp; |&nbsp; <a href='#binomial'>Binomial Distribution</a>&nbsp; |&nbsp; <a href='#poisson'>Poisson Distribution</a></h3>
+<h3><a href='#uniform'>Uniform</a>&nbsp; |&nbsp; <a href='#bernoulli'>Bernoulli</a>&nbsp; |&nbsp; <a href='#binomial'>Binomial</a>&nbsp; |&nbsp; <a href='#poisson'>Poisson</a></h3>
 
 ### Continuous
 
