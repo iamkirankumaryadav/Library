@@ -46,6 +46,7 @@ Find **Trends**, **Relations** and **Patterns** | Find **Insights**
 Numeric Data ( Central Tendency and Measures of Spreads ) | Text, Image, Video or Audio
 
 <h3 name='hyp'>Hypothesis</h3> 
+
 - An **Assumption** | An **Idea** that is Proposed so that it can be **Tested** to See if it might be **True**
 - We Test the Liklihood of Statement being **True** in order to decide whether to **Accept** or **Not Accept** the **NULL Hypothesis**
 
