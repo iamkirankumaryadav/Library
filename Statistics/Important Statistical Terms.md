@@ -10,6 +10,8 @@ H<sub>0</sub> | H<sub>a</sub>
 Statement about a **Population** Parameter | Statement directly **Contradicts** the NULL Hypothesis
 H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>a</sub> : U < U<sub>0</sub> or H<sub>a</sub> : U > U<sub>0</sub>
 
+![Hypothesis Test](Image/Hypothesis.png)
+
 
 ### 1. P Values
 
