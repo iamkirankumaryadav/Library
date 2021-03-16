@@ -26,6 +26,9 @@ e.g ( If a Public Health Data set contains 96% of Observations where for `35 Yea
 - **Highly Correlated** Data provides **Redundant** Information
 
 ### Principle Component Analysis ( PCA )
+- Dimensionality Reduction Method ( Reduce Dimensions of Large Data Sets )
+- **Transforming** Large Set of Variables into Small without **Loss** of any Information in Large Dataset.
+- Reducing the Number of **Variables** of a Data Set.
 - Unsupervised Algorithm
 - Explains Variance
 - Linear Combination of Orignal Features 
