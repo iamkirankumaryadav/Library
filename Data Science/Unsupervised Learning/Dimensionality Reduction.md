@@ -29,6 +29,9 @@ e.g ( If a Public Health Data set contains 96% of Observations where for `35 Yea
 - Unsupervised Algorithm
 - Explains Variance
 - Linear Combination of Orignal Features 
+- PCA is used for Numerical Data only
+- Minimize **Correlation**
+- Divide the Variables into **Groups** ( High Correlated and Less Correlated ) 
 
 ### Linear Discriminant Analysis
 - Supervised Algorithm
