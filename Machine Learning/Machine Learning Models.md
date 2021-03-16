@@ -103,7 +103,7 @@ All follow Same Process in Regression and Classification the only difference is 
 
 > **Classification** Output : **Discrete**
 
-# Support Vector Machine | SVM
+### Support Vector Machine | SVM
 
 SVM can be used for both **Regression** and **Classification**
 
