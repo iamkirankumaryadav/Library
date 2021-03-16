@@ -28,6 +28,14 @@
 - Estimates | Predictions about Populations.
 - Test Hypothesis and Draw Conclusion about Population. 
 
+Inferential | Descriptive
+:--- | :---
+Using **Sample** Data to draw a certain **Conclusion** for Population | **Organizing** and **Summarizing** Data using **Numbers** and **Graphs**
+Draw **Conclusion** of Population Data | Describe **Characteristics** of **Sample** or **Population**
+Drawing **Conclusions**, performing **Estimations** and making **Predictions** | **Collecting**, **Organizing**, **Summarizing** and **Presenting** Data
+**Hypothesis Test, ANOVA** | Measure of **Central Tendency** and **Dispersion**
+Dataset is **Large** | Data set is **Small**
+
 ### Quantitative Data
 - Process of Collecting and Analyzing **Numerical** Data
 - Find **Trends**, **Patterns**, **Relationship** and **Correlation**
