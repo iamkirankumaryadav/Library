@@ -58,27 +58,20 @@
 ### 3. Random Forests ( Ensemble Learning Technique )
 
 - Multiple Decision Tree
-
 - **Bootstrapped Data Sets** of Orignal Data and **Randomly** selecting **Subsets** at each step.
-
-- Bagging Technique ( **Multiple** Decision Trees are **Trained** in **Parallel** to Form a **Strong Learner** )
- 
+- Bagging Technique ( **Multiple** Decision Trees are **Trained** in **Parallel** to Form a **Strong Learner** ) 
 - **Prediction** of Model is based on the **Mode** of Decision Trees ( **Majority Voting** )
-
 - Reduces Risk of **Error** and **Overfitting**.
 
 ### 4. Neural Network
 
 - Multi Layered Model inspired by **Human Brain**
-
 - Nodes, Edges and Layers   
 
 ### B. Classififcation
 
 - Predict **Dependent Variable**( Categories of Labels ) on the basis of **Independent Features**
-
 - Find **Relationship** between **Independent Variable** and **Dependent Variable**.
-
 - Output is **Discrete**
 
 ### 1. Logistic Regression 
@@ -119,7 +112,6 @@ All follow Same Process in Regression and Classification the only difference is 
 ### A. Clustering
 
 - Grouping of Data Points 
-
 - Customer Segmentation | Fraud Detection | Document Classification
 
 > Clustering Techniques
