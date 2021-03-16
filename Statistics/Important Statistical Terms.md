@@ -46,6 +46,15 @@ Confirm or Test ( Hypothesis ) | Understand ( Concepts )
 Find **Trends**, **Relations** and **Patterns** | Find **Insights**
 Numeric Data ( Central Tendency and Measures of Spreads ) | Text, Image, Video or Audio
 
+### Level of Measurements
+
+1. **Nominal** : Data can only be Categorized ( No Order )
+2. **Ordinal** : Data can be Categorized and Ranked ( Order )
+3. **Interval** : Data can be Categorized, Ranked, and Evenly Spaced
+4. **Ratio** : Data can be Categorized, Ranked, Evenly Spaced, and has a Natural Zero.
+
+![Level of Measurement](Image/Levels.png)
+
 <h3 name='hyp'> Hypothesis </h3> 
 
 - Test Specific **Prediction** or **Claim**
