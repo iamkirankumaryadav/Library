@@ -77,7 +77,6 @@
 ### 1. Logistic Regression 
 
 - Probability of Finite Number of Outcomes.
-
 - Output values can be between 0 and 1
 
 ### 2. Support Vector Machine
@@ -86,9 +85,10 @@
 
 ### 3. Naive Bayes
 
+- Based on **Conditional Probability** | Class **Prediction** Probability ( Used for **Binary** and **Multiclass** Classification )
 - Probabilistic Machine Learning Model ( Likelihood, Prior Probability and Posterior Probability )
-
 - Probability of **Event A** if **Event B** has already occured.
+- **Naive** : Because it assumes that all of the **Independent Features** are **Independent** from each other.
 
 > P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
 
