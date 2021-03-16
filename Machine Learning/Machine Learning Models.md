@@ -27,10 +27,8 @@
 ## A. Regression
 
 - Predict Dependent Variable on the basis of **Independent Features**
-
-- Find **Relationship** between **Independent Variable** and **Dependent Variable**.
-
-- Output is **Continuous**.
+- Find **Relationship** between **Independent Variable** and **Dependent Variable**
+- Output is **Continuous**
 
 ### 1. Linear Regression 
 
@@ -71,7 +69,7 @@
 ## B. Classififcation
 
 - Predict **Dependent Variable** ( Categories of Labels ) on the basis of **Independent Features**
-- Find **Relationship** between **Independent Variable** and **Dependent Variable**.
+- Find **Relationship** between **Independent Variable** and **Dependent Variable**
 - Output is **Discrete**
 
 ### 1. Logistic Regression 
@@ -87,8 +85,8 @@
 
 - Based on **Conditional Probability** | Class **Prediction** Probability ( Used for **Binary** and **Multiclass** Classification )
 - Probabilistic Machine Learning Model ( Likelihood, Prior Probability and Posterior Probability )
-- Probability of **Event A** if **Event B** has already occured.
-- **Naive** : Because it assumes that all of the **Independent Features** are **Independent** from each other.
+- Probability of **Event A** if **Event B** has already occured
+- **Naive** : Because it assumes that all of the **Independent Features** are **Independent** from each other
 
 > P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
 
@@ -117,11 +115,11 @@ All follow Same Process in Regression and Classification the only difference is 
 > Clustering Techniques
 
 1. K Mean
-- We Choose **K** number of Clusters.
-- Select K Random Data Points as Centroid.
+- We Choose **K** number of Clusters
+- Select K Random Data Points as Centroid
 - Data Points nearest to its Corresponding Centroid belongs to that Cluster
 - Again the Centroid is Calculated
-- The Data Points are Updated based on New Centroid.
+- The Data Points are Updated based on New Centroid
 
 2. K Nearest Neighbours
 - Calculate Distance between Test Data and Each Row of Training Data
