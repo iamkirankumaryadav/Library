@@ -1,5 +1,7 @@
 # Machine Learning Models 🤖🚀💻
 
+<h3><a href=#sup>Supervised Learning</a>&nbsp; |&nbsp; <a href=#unsup>Unsupervised Learning</a></h3> 
+
 ### Steps of Machine Learning
 1. Gathering Data
 2. Preparing Data ( Preprocessing )
@@ -18,7 +20,7 @@
 
 > Learner makes adjustments in the Parameters and the Model to Align the Predictions with Actual Results.
 
-### Supervised Learning
+<h3 name='sup'> Supervised Learning</h3>
 
 ### A. Regression
 
@@ -101,7 +103,7 @@ All follow Same Process in Regression and Classification the only difference is 
 > **Classification** Output : **Discrete**
 
  
-### Unsupervised Learning
+<h3 name='unsup'> Unsupervised Learning</h3>
 
 - Find **Patterns** and **Relationships** from Input Data without References (Labels)
 
