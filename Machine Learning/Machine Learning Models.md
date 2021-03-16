@@ -51,8 +51,29 @@
 - Tree Models where the Target Variable takes a **Discrete** Set of Values are **Classification** Tree
 - Tree Models where the Target Variable takes a **Continuous** Values are **Regression** Tree
 - **CART** : **C**lassification **A**nd **R**egression **T**ree
+
+### Information Gain 
+
 - **Information Gain** is used to decide which Feature to **Split** on at each step in Building the Tree
 - The Split with the Highest **Information Gain** will be taken as the First Split and the process will continue untill **IG** becomes 0
+
+### Gini Index
+
+- Lowest Gini Index is selected 
+- Pure : All Data belongs to Same Class in a Subset ( Gini Index : 0 )
+- Impure : Data is Mixture of Different Classes in a Subset
+
+### Advantage of Decision Tree
+- Handle **Categorical** and **Numerical** Data
+- No effect of **Outliers**
+
+### Disadvantage of Decision Tree
+- Prone to **Overfitting**
+- Need Carefull **Parameter Tuning**
+
+### How to Avoid Pruning
+- Remove | Prune Branches with Less Importance ( Irrelevant Feature )
+- Early Stop ( Limit the Max Depth of the Tree )
 
 ### 3. Random Forests ( Ensemble Learning Technique )
 
