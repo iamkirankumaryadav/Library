@@ -18,7 +18,7 @@
 
 > Model is the system that makes **Predictions**
 
-> **Parameters** are the Factors which are considered by the model to make **Predictions**. **LinearRegression** ( parameters... )
+> **Parameters** are the Factors which are considered by the model to make **Predictions**. **Linear Regression** ( parameters... )
 
 > Learner makes adjustments in the Parameters and the Model to Align the Predictions with Actual Results.
 
