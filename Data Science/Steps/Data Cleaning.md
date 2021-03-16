@@ -19,4 +19,4 @@
 - Save **Time** and Increase Overall **Productivity**
 - Improve **Decision Making**
 - **Boost** Business
-- **Minimize** Compliance (Laws | Requirements | Rules | Regulations | Standard | Policies | Governance | Transparency) Risk
+- **Minimize** Compliance ( Laws | Requirements | Rules | Regulations | Standard | Policies | Governance | Transparency ) Risk
