@@ -24,7 +24,7 @@
 
 <h3 name='sup'> Supervised Learning</h3>
 
-### A. Regression
+## A. Regression
 
 - Predict Dependent Variable on the basis of **Independent Features**
 
@@ -68,7 +68,7 @@
 - Multi Layered Model inspired by **Human Brain**
 - Nodes, Edges and Layers   
 
-### B. Classififcation
+## B. Classififcation
 
 - Predict **Dependent Variable** ( Categories of Labels ) on the basis of **Independent Features**
 - Find **Relationship** between **Independent Variable** and **Dependent Variable**.
