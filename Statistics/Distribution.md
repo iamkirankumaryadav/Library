@@ -80,7 +80,7 @@
 - **X ~ N ( mean, variance )** 
 - Variable **X** follows a **Normal Distribution** with **Mean** and **Variance**. 
 - Normal Events in Nature. 
-- Average Height of Person (**Exceptions** are considered as **Outliers**).
+- Average Height of Person ( **Exceptions** are considered as **Outliers** ).
 - Majority of Data is centered around **Mean**.
 - **Mean** = **Median** = **Mode** are Exactly the `Same`
 
