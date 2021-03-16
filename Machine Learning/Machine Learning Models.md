@@ -53,6 +53,7 @@
 - Tree Models where the Target Variable takes a **Discrete** Set of Values are **Classification** Tree
 - Tree Models where the Target Variable takes a **Continuous** Values are **Regression** Tree
 - **CART** : **C**lassification **A**nd **R**egression **T**ree
+- **Information Gain** is used to decide which Feature to **Split** on at each step in Building the Tree
 
 ### 3. Random Forests ( Ensemble Learning Technique )
 
