@@ -71,7 +71,7 @@
 
 ## Continuous Events.
 
-- **Infiinite** number of outcomes : Time | Distance : 
+- **Infinite** number of outcomes : Time | Distance : 
 
 <h3 name='normal'> 1. Normal Distribution | Gaussian Distribution | Bell Shaped Curve</h3>
 
