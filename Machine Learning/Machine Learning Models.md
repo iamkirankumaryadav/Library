@@ -70,7 +70,7 @@
 
 ### B. Classififcation
 
-- Predict **Dependent Variable**( Categories of Labels ) on the basis of **Independent Features**
+- Predict **Dependent Variable** ( Categories of Labels ) on the basis of **Independent Features**
 - Find **Relationship** between **Independent Variable** and **Dependent Variable**.
 - Output is **Discrete**
 
