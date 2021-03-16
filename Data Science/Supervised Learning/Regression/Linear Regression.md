@@ -80,8 +80,8 @@ Used when there is Collinearity (One Independent Feature can completely Describe
 # Preparing Data for Linear Regression
 
 ### 1. Linear Assumptions
-- Independent Features and Dependent Features should be Continuous.
-- **Lineariry** : The **Relationship** between **Independent Features** and **Dependent Variable** should be **Linear**.
+- **Independent** Features and **Dependent** Features should be **Continuous**.
+- **Linearity** : The **Relationship** between **Independent Features** and **Dependent Variable** should be **Linear**.
 - Data should be **Normally** Distributed | You may need to **Transform** Data to make the Relationship **Linear**.
 - Error should be **Normally** Distributed ( P Value > 0.05  ) | Quantile Quantile Point : Data Points should be Close to Line
 
