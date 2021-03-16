@@ -28,7 +28,7 @@
 - Estimates | Predictions about Populations.
 - Test Hypothesis and Draw Conclusion about Population. 
 
-:Inferential Statistics: | :Descriptive Statistics:
+Inferential Statistics | Descriptive Statistics
 :--- | :---
 Using **Sample** Data to draw a certain **Conclusion** for Population | **Organizing** and **Summarizing** Data using **Numbers** and **Graphs**
 Draw **Conclusion** of Population Data | Describe **Characteristics** of **Sample** or **Population**
