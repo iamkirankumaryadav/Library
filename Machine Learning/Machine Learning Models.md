@@ -1,6 +1,6 @@
 # Machine Learning Models 🤖🚀💻
 
-<h3><a href=#sup>Supervised Learning</a> : Classify Data </h3> 
+<h3><a href=#sup>Supervised Learning</a> : Classify Data or Predict</h3> 
  
 <h3><a href=#unsup>Unsupervised Learning</a> : Cluster Data </h3> 
 
