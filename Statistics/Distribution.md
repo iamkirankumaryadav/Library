@@ -158,10 +158,10 @@
 - E( X ) = k
 - Var ( X ) = 2k
 - Few Events in Real Life.
-- Used in **Statistical Analysis** ( **Hypothesis Testing** and Computing **Confidence Intervals** ).
+- Used in **Statistical Analysis** ( **Hypothesis Testing** and Computing **Confidence Intervals** )
 - Determine the **Goodness of Fitness**.
 - Distribution ( **X Axis** ) Starts from **Zero** and **Asymmetric** in Nature.
 - It is Squared therefore only **Positive**.
 - Rapid changing Event follows **Exponential Distribution**.
-- Forecast and Prediction Events follows **Logistic Distribution**. (Which Team will Win, Weather Forecast)
+- Forecast and Prediction Events follows **Logistic Distribution** (Which Team will Win, Weather Forecast)
 
