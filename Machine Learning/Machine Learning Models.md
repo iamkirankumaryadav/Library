@@ -171,5 +171,5 @@ SVM can be used for both **Regression** and **Classification**
 
 ### Feature Extraction
 
-- Principal Component Analysis. ( Reduce Dimensions of Data )
-- Linear Discriminant Analysis.
+- **PCA** : Principal Component Analysis. ( Reduce Dimensions of Data )
+- **LDA** : Linear Discriminant Analysis.
