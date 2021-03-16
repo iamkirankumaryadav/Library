@@ -46,7 +46,13 @@
  
 ### 2. Decision Tree
 
-- Nodes 
+- **Root** Node and **Internal** Nodes are Test Conditions
+- **Leaf** Node represents a Class **Label**
+- **Splits** a Dataset based on **Different** Conditions
+- Used **Binary** Classification and **Multiclass** Classification and  even for **Regression**
+- Tree Models where the Target Variable takes a **Discrete** Set of Values are **Classification** Tree
+- Tree Models where the Target Variable takes a **Continuous** Values are **Regression** Tree
+- **CART** : **C**lassification **A**nd **R**egression **T**ree
 
 ### 3. Random Forests ( Ensemble Learning Technique )
 
