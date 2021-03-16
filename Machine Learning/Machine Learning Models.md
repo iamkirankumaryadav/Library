@@ -1,8 +1,8 @@
 # Machine Learning Models 🤖🚀💻
 
-<h3><a href=#sup>Supervised Learning</a></h3> : **Classify** Data 
+<h3><a href=#sup>Supervised Learning</a> : Classify Data </h3> 
  
-<h3><a href=#unsup>Unsupervised Learning</a></h3> : **Cluster** Data 
+<h3><a href=#unsup>Unsupervised Learning</a> : Cluster Data </h3> 
 
 ### Steps of Machine Learning
 1. Gathering Data
