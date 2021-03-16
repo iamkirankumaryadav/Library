@@ -207,6 +207,7 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 - Sample : Part of Data
 
 ### 11. Chi Squared Test
+- Measure **Goodness** of **Fit**
 - A Test for **Independence** of two Categorical Variables and returns **Probability**.
 - Derive **Statistical Significance** of Relationship between the Variables.
 - Test whether the **Evidence** in the **Sample** is Strong enough to **Generalize** that relationship for a **Population**.
