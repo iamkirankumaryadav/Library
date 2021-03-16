@@ -16,15 +16,19 @@
 - Investigating **Trends**, **Patterns**, and **Relationships** using **Quantitative** Data.
 
 ### Descriptive Statistics
-- **Frequency** of Each Value ( Categorical )
-- Central tendency ( Mean, Median and Mode ) ( Histogram )
-- Variability ( Min, Max, Range, IQR, Standard Deviation, Variance ) ( Histogram, Boxplot )
+- **Frequency** of Each Value ( Absolute, Relative and Cumulative )
+- Central tendency ( Mean, Median, Mode and Sum ) ( Histogram )
+- Variability | Dispersion ( Min, Max, Range, IQR, Standard Deviation, Variance ) ( Histogram, Boxplot )
 - Standard Deviation : The Average amount of Variability. ( Scatter Plot )
 - Variance : Squared Deviations from Mean
 
 ### Inferential Statistics
 - **Understand** the Population from the Sample.
 - Test Hypothesis and Draw Conclusion about Population. 
+- Simple Test ( Hypothesis, T test, Chi<sup>2</sup> test )
+- Regression Analysis ( Simple Linear, Multiple Linear and Logistic )
+- Correlation 
+- ANOVA ( One way and Two Way )
 
 Inferential Statistics | Descriptive Statistics
 :--- | :---
