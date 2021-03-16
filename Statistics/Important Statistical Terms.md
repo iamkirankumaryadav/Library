@@ -16,7 +16,6 @@
 - Investigating **Trends**, **Patterns**, and **Relationships** using **Quantitative** Data.
 
 ### Descriptive Statistics
-- **Summarize** and **Organize** characteristics of a Data Set.
 - **Frequency** of Each Value ( Categorical )
 - Central tendency ( Mean, Median and Mode )
 - Variability ( Min, Max, Range, IQR, Standard Deviation, Variance ) ( Histogram, Boxplot )
@@ -24,8 +23,7 @@
 - Variance : Squared Deviations from Mean
 
 ### Inferential Statistics
-- Understand the Population from the Sample.
-- Estimates | Predictions about Populations.
+- **Understand** the Population from the Sample.
 - Test Hypothesis and Draw Conclusion about Population. 
 
 Inferential Statistics | Descriptive Statistics
