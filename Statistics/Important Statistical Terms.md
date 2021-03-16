@@ -17,7 +17,7 @@
 
 ### Descriptive Statistics
 - **Frequency** of Each Value ( Categorical )
-- Central tendency ( Mean, Median and Mode )
+- Central tendency ( Mean, Median and Mode ) ( Histogram )
 - Variability ( Min, Max, Range, IQR, Standard Deviation, Variance ) ( Histogram, Boxplot )
 - Standard Deviation : The Average amount of Variability. ( Scatter Plot )
 - Variance : Squared Deviations from Mean
