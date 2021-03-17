@@ -26,7 +26,7 @@
 
 > Learner makes adjustments in the Parameters and the Model to Align the Predictions with Actual Results.
 
-<h3 name='sup'> Supervised Learning</h3>
+<h1 name='sup'> Supervised Learning</h1>
 
 ### A. Regression
 
@@ -135,7 +135,7 @@ All follow Same Process in **Regression** and **Classification** the only differ
 
 > **Classification** Output : **Discrete**
 
-<h3 name='unsup'> Unsupervised Learning</h3>
+<h1 name='unsup'> Unsupervised Learning</h1>
 
 - Find **Patterns** and **Relationships** from Input Data without References (Labels)
 
