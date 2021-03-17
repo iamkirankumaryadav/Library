@@ -4,22 +4,30 @@
 
 <h2 name='eda'>1. Exploratory Data Analysis</h2>
 
-### Know the Data Set 
+### Know the Data Set | Statistical Information | Summary of Data
 
 1. Hint for **Data Cleaning**
 2. Idea for **Feature Engineering**
-3. **Data Visualization** to Understand **Patterns** and **Relations**
+3. **Data Visualization** to Discover **Patterns** and **Relations** | Spot Anomalies | Detect Outlier 
+4. **Scatter Plot**, **Histogram** and **Boxplot** for **Continuous** Variables. ( **Correlation**, **Measure of Spread** and **Central Tendency** also **Outliers**)
+5. **Bar** Plot to know about Categorical Variables
+6. **Histogram** to understand **Distribution** of Data.
+7. **Heatmap** ( **Correlation** )
 
 - How many Observations do i have ( **Rows** )
 - How many **Features** ( **Columns** )
 - Data Types ( Categorical or Numeric )
 - Target Variable 
 - Whether Data set is **Balanced** or **Imbalanced**
-- Do the Values on the Right **Scale**
-- Identify **Missing** Data 
+- Do the Values on the Right **Scale** ( **Transformation** | **Normalization** | **Standardization** )
+- Identify **Missing** Data | Reason for Missing Data
 - Plot **Numerical Distributions** ( Detect **Outliers**, `Boxplot`, `Scatter` Plot, `Histogram` )
 - Plot **Categorical Data** ( `Bar Chart` | **Frequency** of Data | Combine **Sparse** Classes ) 
 - Find **Correlations** ( `Heatmaps` )
+
+- Univariate Analysis ( One Variable )
+- Bivariate Analysis ( Two Variables )
+- Multivariate Analysis ( More than Two Variables 
 
 <h2 name='clean'>2. Data Cleaning</h2>
 
