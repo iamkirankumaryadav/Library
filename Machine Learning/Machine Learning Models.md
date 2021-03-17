@@ -97,15 +97,14 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 - **Prediction** of Model is based on the **Voting** of Decision Trees Output ( **Majority Voting** )
 - Reduces Risk of **Error** and **Overfitting**.
 
-<h3 name='svm'>5. Support Vector Machine</h3>
+<h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
-- Find **Hyperplane** in **N Dimensional Space** that can distinctly classify the data points.
 - SVM can be used for both **Regression** and **Classification**
-- The Algorithm finds a **Line** or **Hyperplane** that Separates the 2 Classes with Maximum **Margin**.
-- **Hyperplanes** are Decision Boundaries that help Classify the Data Points.
+- Finds a **Line** or **Hyperplane** that Separates the 2 **Distinct** Classes with Maximum **Margin** in **N Dimensional Space**.
+- **Hyperplanes** are **Decision Boundaries** that help to Classify the Data Points.
 - Data Points are **Support Vectors**.
 - SVM can be used for **Linear** and **Non Linear** Data.
-- SVM can be used as **Kernel Trick** for **Non Linear** Data which Creates a **Hyperplane** in **N Dimensional Space**.
+- SVM uses **Kernel Trick** for **Non Linear** Data which Creates a **Hyperplane** in **N Dimensional Space**.
 
 ### Benefits 
 
@@ -118,7 +117,7 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 - Choosing a Good Kernel Function is not easy
 - Long **Training Time** for Large Datasets.
 - Difficult to Interpret and Understand Final Model, Variable Weights and Individual Impact.
-- Not easy to Fine Tune and Visualize.
+- Not easy to **Fine Tune** and **Visualize**.
 
 ### 6. Naive Bayes
 
