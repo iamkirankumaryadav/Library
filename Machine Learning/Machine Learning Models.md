@@ -4,6 +4,8 @@
  
 <h3><a href=#unsup>Unsupervised Learning</a> : Cluster Data </h3> 
 
+![Machine Learning Algorithms](Image/MLAlgorithm.png)
+
 ### Steps of Machine Learning
 1. Gathering Data
 2. Preparing Data ( Preprocessing )
