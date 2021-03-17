@@ -1,10 +1,10 @@
 # Machine Learning Models 🤖🚀💻
 
-<h3><a href=#sup>Supervised Learning</a> : Classify Data or Predict</h3> 
+<h3><a href=#sup>Supervised Learning</a> : Predict Continuous Data or Classify Discrete Data</h3> 
 
 <a href=#linreg><strong>1. Linear Regression</strong></a>&nbsp; |&nbsp; <a href=#logreg><strong>2. Logistic Regression</strong></a>&nbsp; |&nbsp; <a href=#tree><strong>3. Decision Tree<strong></strong></a>&nbsp; |&nbsp; <a href=#forest><strong>4. Random Forest</strong></a>&nbsp; |&nbsp; <a href=#svm><strong>5. Support Vector Machine</strong></a>
  
-<h3><a href=#unsup>Unsupervised Learning</a> : Cluster Data </h3> 
+<h3><a href=#unsup>Unsupervised Learning</a> : Cluster | Segment | Group Similar Data </h3> 
 
 ![Machine Learning Algorithms](Image/MLAlgorithm.png)
 
