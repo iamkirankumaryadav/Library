@@ -2,7 +2,7 @@
 
 <h3><a href=#sup>Supervised Learning</a> : Classify Data or Predict</h3> 
 
-<a href=#linreg><strong>1. Linear Regression</strong></a>&nbsp; |&nbsp; <a href=#logreg><strong>2. Logistic Regression</strong></a>
+<a href=#linreg><strong>1. Linear Regression</strong></a> | <a href=#logreg><strong>2. Logistic Regression</strong></a>
 
 <a href=#tree><strong>3. Decision Tree<strong></strong></a>
 
