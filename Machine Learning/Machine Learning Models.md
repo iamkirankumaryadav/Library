@@ -155,7 +155,7 @@ All follow Same Process in **Regression** and **Classification** the only differ
 
 > Clustering Techniques
 
-<h3 name='kmean'>1. K Mean</h3>
+<h3 name='kmean'>1. K Mean Clustering</h3>
 
 - Cluster Data Points with Similar Characteristics in one Cluster
 - We Choose **K** number of Clusters
@@ -167,7 +167,7 @@ All follow Same Process in **Regression** and **Classification** the only differ
 - Different Starting Points ( Random Centroid Selected ) Create Different Clusters 
 - **Elbow** Method : Sum of Squared Distance get smaller as the Number of Clusters Increases
 
-<h3 name='hc'>2. Hierarchical</h3>
+<h3 name='hc'>2. Hierarchical Clustering</h3>
 
 A. Agglomerative
 - Bootom Up Approach
@@ -186,7 +186,7 @@ B. Divisive
 - Group **AVG** ( Average of Distance between Each Data Points of Two Clusters )
 - Distance between **Centroids** ( Distance between the Centroid of Two Clusters )
  
-3. Density Based
+### 3. Density Based Clustering
 
 ### B. Dimensionality Reduction
 
