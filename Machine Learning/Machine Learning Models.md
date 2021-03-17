@@ -2,11 +2,15 @@
 
 <h3><a href=#sup>Supervised Learning</a> : Classify Data or Predict</h3> 
 
-<a href=#linreg>Linear  Regression</a>
-<a href=#logreg>Logistic  Regression</a>
-<a href=#tree>Decision Tree</a>
-<a href=#forest>Random Forest</a>
-<a href=#svm>Support Vector Machine</a>
+<a href=#linreg><strong>1. Linear Regression</strong></a>
+
+<a href=#logreg><strong>2. Logistic Regression</strong></a>
+
+<a href=#tree><strong>3. Decision Tree<strong></strong></a>
+
+<a href=#forest><strong>4. Random Forest</strong></a>
+
+<a href=#svm><strong>5. Support Vector Machine</strong></a>
  
 <h3><a href=#unsup>Unsupervised Learning</a> : Cluster Data </h3> 
 
