@@ -68,22 +68,21 @@
 > Handling **Missing Data** | Encoding **Categorical Variables** | **Variable Transformation** | **Create New Features**
 
 ### 1. Handling Missing Data
-- Mean | Median | Mode Imputation
-- Flag Missing Data
-- Eliminate | Drop Missing Data
-- Imputation with the Help of Existing Data | Prediction
+- **Drop** ( Particular **Row** | Entire **Columns** )
+- **Impute** ( Mean | Median | Mode )
+- **Flag** ( Continuous : 1 or 0 | Categorical : 'Missing' ) 
+- **Predict** from Existing Data
 
 ### 2. Categorical Encoding
-- Label Encoding
-- One Hot Encoding 
-- Dummy Encoding
+- **Label** Encoding ( **Ordinal** )
+- **One Hot** Encoding | Dummy Encoding ( **Nominal** ) 
 
 ### 3. Variable Transformation
-- Make Distribution Normal
+- Create **Normal Distribution**
 - Logarithmic ( log ( x ) ) | Exponential ( x <sup> n </sup> ) | Square root ( sqrt ( x ) ) | Reciprocal ( 1 / x )
 
 ### 4. Discretization
-- Sorting Value of Variables in **Bins** or **Intervals** ( **Buckets** )
+- **Sorting** Value of Variables in **Bins** or **Intervals** ( **Buckets** )
 - Equal Width Discretization
 - Equal Frequency Discretization
 - Decision Tree Descretization ( Tree **Splits** Equally )
@@ -91,7 +90,7 @@
 ### 5. Handle Outliers
 - **Visualize** by using **Boxplots**, **Histogram** and **Bar Graphs**
 - **Filter** or **Trim** Data set 
-- **Remove** Outliers ( Row or Column > 75% of Missing Data ) 
+- **Remove** Outliers 
 
 ### 6. Feature Scaling
 - Standardization  ( x - **mean** ( x ) ) / **std** ( x ) 
@@ -101,12 +100,12 @@
 - Mean Normalization : ( x - mean ) / ( max - min )
 
 ### 7. Date and Time Engineering 
-- Parse Date and Time so that we can extract Year, Month, Day, Week and Perform any Operation. 
+- Parse **Date** and **Time** so that we can extract Year, Month, Day, Week and Perform any Operation. 
 
 ### 8. Feature Creation
-- Create New Meaningful Feature from the Existing Features. ( Aggregating | Arithmetic Calculation )
+- Create New Meaningful **Feature** from the Existing Features. ( Aggregating | Arithmetic Calculation )
 
 ### 9. Aggregation of Transaction Data
-- Total of Sales 
-- Profit of the Day 
-- Total Amount Credited or Debited for the Day 
+- **Total** of Sales 
+- **Profit** or **Loss** of the Day 
+- Total Amount **Credited** or **Debited** for the Day 
