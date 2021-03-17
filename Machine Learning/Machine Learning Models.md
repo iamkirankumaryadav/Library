@@ -2,7 +2,7 @@
 
 <h3><a href=#sup>Supervised Learning</a> : Predict Continuous Data or Classify Discrete Data</h3> 
 
-<a href=#linreg><strong>1. Linear Regression</strong></a>&nbsp; |&nbsp; <a href=#logreg><strong>2. Logistic Regression</strong></a>&nbsp; |&nbsp; <a href=#tree><strong>3. Decision Tree<strong></strong></a>&nbsp; |&nbsp; <a href=#forest><strong>4. Random Forest</strong></a>&nbsp; |&nbsp; <a href=#svm><strong>5. Support Vector Machine</strong></a>&nbsp; |&nbsp; <a href=#knn><strong>6. KNN</strong></a>
+<a href=#linreg><strong>1. Linear Regression</strong></a>&nbsp; |&nbsp; <a href=#logreg><strong>2. Logistic Regression</strong></a>&nbsp; |&nbsp; <a href=#tree><strong>3. Decision Tree<strong></strong></a>&nbsp; |&nbsp; <a href=#forest><strong>4. Random Forest</strong></a>&nbsp; |&nbsp; <a href=#svm><strong>5. Support Vector Machine</strong></a>&nbsp; |&nbsp; <a href=#knn><strong>6. KNN</strong></a>&nbsp; |&nbsp; <a href=#naive><strong>7. Naive Bayes</strong></a>
  
 <h3><a href=#unsup>Unsupervised Learning</a> : Cluster | Segment | Group Similar Data </h3> 
 
@@ -128,7 +128,7 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 - Sort the Calculated Distance in **Ascending Order**
 - Get Nearest ( **Least** Distance ) to it or most **Frequent Classes** in Neighbor
 
-### 7. Naive Bayes
+<h3 name='naive'>7. Naive Bayes</h3>
 
 - Based on **Conditional Probability** | Class **Prediction** Probability ( Used for **Binary** and **Multiclass** Classification )
 - Probabilistic Machine Learning Model ( Likelihood, Prior Probability and Posterior Probability )
