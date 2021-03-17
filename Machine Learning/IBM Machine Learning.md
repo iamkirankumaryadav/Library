@@ -63,39 +63,39 @@
 - Trial and Error
 - Trained with Rules
 
-### Real Worl Machine Learning
+### Real World Machine Learning
 
-1. Digital Assistants
+### 1. Digital Assistants
 - Apple Siri | Amazon Alexa | Google Assistant
 - Powered by Natural Language Processing (NLP)
 - Enables Computer to Process Text and Voice Data 
 - Understand and Talk with Human 
 - Voice Driven Applications  (GPS | Speech to Text)
 
-2. Recommendations
+### 2. Recommendations
 - Amazon, Flipkart, Myntra
 - YouTube, Netflix, Prime, Spotify
 - Retail, Travel, Hospitality, Job Search, News, Social Apps (Instagram | Twitter | Facebook)
 
-3. Online Advertisements 
+### 3. Online Advertisements 
 - Ad on the basis of User Interests
 
-4. Chatbots
+### 4. Chatbots
 - Pattern Recognition + NLP + Deep Neural Networks
 - Interpret Input Text and Provide Response
 
-5. Fraud Detection
+### 5. Fraud Detection
 - Flagging Stolen Cards (Credit | Debit)
 
-6. Cyber Security
+### 6. Cyber Security
 - Extract Intelligence from Incident Report, Alerts, Blog Post
 - Identify Potential Threats 
 - Advise Security
 
-7. Medical Image Analysis 
+### 7. Medical Image Analysis 
 - Digital Medical Imaging
 - CNN, RNN and other Deep Learning Models extracting Features and Information from Medical Images to Support Accurate Diagnoses.
 
-8. Self Driving Cars 
+### 8. Self Driving Cars 
 - Continuous Object Identification in the Environment around the Car.
 - Stop and Handle Speed of the Car by Calculating Distance.
