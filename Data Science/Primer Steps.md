@@ -10,7 +10,7 @@
 
 1. Hint for **Data Cleaning**
 2. Idea for **Feature Engineering**
-3. **Data Visualization** to Discover **Hidden Patterns** and **Relations** | Spot **Anomalies** | Detect **Outlier** 
+3. **Data Visualization** to Discover **Hidden Patterns** and **Relations** | Spot **Anomalies** | Detect **Outlier** ( **Five Number Summary** | **IQR** )
 4. **Scatter Plot**, **Histogram** and **Boxplot** for **Continuous** Variables ( **Outliers**, **Correlation**, **Measure of Spread** and **Central Tendency** )
 5. **Bar** Plot to know about **Categorical** Variables
 6. **Histogram** to understand **Distribution** of Data
@@ -90,6 +90,8 @@
 - **Visualize** by using **Boxplots**, **Histogram** and **Bar Graphs**
 - **Filter** or **Trim** Data set 
 - **Remove** Outliers 
+- Setup a **Filter** and **Trim** Data Set
+- **Change** | **Replace** the Outlier 
 
 ### 6. Feature Scaling
 - Standardization  ( x - **mean** ( x ) ) / **std** ( x ) 
