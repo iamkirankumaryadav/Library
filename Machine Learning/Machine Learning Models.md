@@ -34,7 +34,7 @@
 
 - Predict **Dependent Variable** ( **Continuous** ) on the basis of one or more **Independent Features** 
 - Find **Relationship** between **Independent Variables** and **Dependent Variable**
-- Can be further Improved by **Regularization* or by using **Non Linear Model**
+- Can be further Improved by **Regularization** or by using **Non Linear Model**
 
 ### B. Classififcation
 
