@@ -17,17 +17,17 @@
 7. **Heatmap** ( **Correlation** )
 
 ### Ask Questions to Data 
-- How many Observations ? ( **Rows** )
+- How many **Observations** ? ( **Rows** )
 - How many **Features** ? ( **Columns** )
-- Data Types of the Features ? ( Categorical or Numeric )
-- Target Variable in the Data Set ?
+- Data Types of the Features ? ( **Categorical** or **Numeric** )
+- **Target Variable** in the Data Set ?
 - Whether Data set is **Balanced** or **Imbalanced** ?
 - Do the Values on the Right **Scale** ? or needs ( **Transformation** | **Normalization** | **Standardization** )
 - Identify **Missing** Data | Reason for Missing Data
-- Plot **Numerical Distributions** ( Detect **Outliers**, `Boxplot`, `Scatter` Plot, `Histogram` )
+- Plot **Numerical Distributions** ( Detect **Outliers**, `Boxplot`, `Scatter`, `Histogram` )
 - Plot **Categorical Data** ( `Bar Chart` | **Frequency** of Data | Combine **Sparse** Classes ) 
 - Find **Correlations** ( `Heatmaps` )
-- **Univariate** Analysis ( One Variable ) | **Bivariate** Analysis ( Two Variables ) | **Multivariate** Analysis ( More than Two Variables )
+- **Analysis** : **Univariate** ( One Variable ) | **Bivariate** ( Two Variables ) | **Multivariate** ( More than Two Variables )
 
 <h2 name='clean'>2. Data Cleaning</h2>
 
