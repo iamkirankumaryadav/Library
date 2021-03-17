@@ -12,9 +12,9 @@
 
 ### Steps of Machine Learning
 1. Gathering Data
-2. Preparing Data ( Preprocessing )
-3. Explore Data
-4. Clean Data
+2. Preparing Data ( Data Preprocessing )
+3. Explore Data ( Exploratory Data Analysis | **EDA** ) 
+4. Clean Data ( Data Cleaning )
 5. Feature Engineering ( Important Features to Train Model )
 6. Choosing a Correct Model
 7. Training Data
@@ -26,7 +26,7 @@
 
 > **Parameters** are the Factors which are considered by the model to make **Predictions**. **Linear Regression** ( parameters... )
 
-> Learner makes adjustments in the Parameters and the Model to Align the Predictions with Actual Results.
+> Learner makes **Adjustments** in the Parameters and the Model to Align the Predictions with Actual Results.
 
 <h1 name='sup'> Supervised Learning</h1>
 
