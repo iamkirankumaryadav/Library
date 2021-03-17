@@ -85,8 +85,8 @@ Advantage of Decision Tree | Disadvantage of Decision Tree
 Handle **Categorical** and **Numerical** Data | Prone to **Overfitting**
 No effect of **Outliers** | Need Carefull **Parameter Tuning**
 
-### How to Avoid Pruning
-- Remove | Prune Branches with Less Importance ( Irrelevant Feature )
+### How to Avoid Overfitting
+- Remove | **Prune** Branches with Less Importance ( Irrelevant Feature )
 - Early Stop ( Limit the Max Depth of the Tree )
 
 <h3 name='forest'>4. Random Forests ( Ensemble Learning Technique | Bagging )</h3>
