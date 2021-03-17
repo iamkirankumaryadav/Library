@@ -2,7 +2,7 @@
 
 <h3><a href='#eda'>Exploratory Data Analysis</a> ( EDA )&nbsp; |&nbsp; <a href='#clean'>Data Cleaning</a>&nbsp; |&nbsp; <a href='#fe'>Feature Engineering</a></h3>
 
-<h3 name='eda'>1. Exploratory Data Analysis</h3>
+<h2 name='eda'>1. Exploratory Data Analysis</h2>
 
 ### Know the Data Set 
 
@@ -21,7 +21,7 @@
 - Plot **Categorical Data** ( `Bar Chart` | **Frequency** of Data | Combine **Sparse** Classes ) 
 - Find **Correlations** ( `Heatmaps` )
 
-<h3 name='clean'>2. Data Cleaning</h3>
+<h2 name='clean'>2. Data Cleaning</h2>
 
 > Better Data > Fancy Algorithm
 
@@ -43,4 +43,4 @@
 - Boost Business
 - Minimize Compliance ( Laws | Requirements | Rules | Regulations | Standard | Policies | Governance | Transparency ) Risk
 
-<h3 name='fe'>3. Feature Engineering</h3>
+<h2 name='fe'>3. Feature Engineering</h2>
