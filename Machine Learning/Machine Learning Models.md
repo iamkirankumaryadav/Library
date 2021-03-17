@@ -94,10 +94,10 @@
 
 <h3 name='forest'>4. Random Forests ( Ensemble Learning Technique | Bagging )</h3>
 
-- Multiple Decision Tree
-- **Bootstrapped Data Sets** of Orignal Data and **Randomly** selecting **Subsets** at each step.
+- Multiple **Decision Trees** ( Weak Learners ) trained **Parallel** Individually
+- **Bootstrapped Data Sets** of Orignal Data and **Randomly** selecting **Subsets** at each step. ( **Sampling** with **Replacement** )
 - Bagging Technique ( **Multiple** Decision Trees are **Trained** in **Parallel** to Form a **Strong Learner** ) 
-- **Prediction** of Model is based on the **Mode** of Decision Trees ( **Majority Voting** )
+- **Prediction** of Model is based on the **Voting** of Decision Trees Output ( **Majority Voting** )
 - Reduces Risk of **Error** and **Overfitting**.
 
 <h3 name='svm'>5. Support Vector Machine</h3>
