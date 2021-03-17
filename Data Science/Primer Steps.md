@@ -11,7 +11,7 @@
 1. Hint for **Data Cleaning**
 2. Idea for **Feature Engineering**
 3. **Data Visualization** to Discover **Hidden Patterns** and **Relations** | Spot **Anomalies** | Detect **Outlier** 
-4. **Scatter Plot**, **Histogram** and **Boxplot** for **Continuous** Variables. ( **Correlation**, **Measure of Spread** and **Central Tendency** also **Outliers**)
+4. **Scatter Plot**, **Histogram** and **Boxplot** for **Continuous** Variables. ( **Correlation**, **Measure of Spread** and **Central Tendency** also **Outliers** )
 5. **Bar** Plot to know about **Categorical** Variables
 6. **Histogram** to understand **Distribution** of Data
 7. **Heatmap** ( **Correlation** )
