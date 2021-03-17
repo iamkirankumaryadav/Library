@@ -1,3 +1,4 @@
+https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
 <h3><a href='#eda'>Exploratory Data Analysis</a> ( EDA )&nbsp; |&nbsp; <a href='#clean'>Data Cleaning</a></h3>
 
 <h3 name='eda'>Exploratory Data Analysis</h3>
