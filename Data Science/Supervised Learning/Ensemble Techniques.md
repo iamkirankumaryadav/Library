@@ -9,14 +9,14 @@ Bagging ( Bootstrap Aggregation ) | Boosting
 **Parallel** | **Series**
 Decreases **Variance** ( Solve **Overfitting** ) | Decreases **Bias**
 Each Model Receives Equal Weight | Models are Weighted based on their **Performance**
-Samples Randomly | Boosting Samples by Increasing Weight for Wrong Predictions
+Samples Randomly | Boosting Samples by Increasing Weight for **Wrong** Predictions
 Models are Built **Independently** | New Models are Improved version of Previous Built Models
 Less Time to Train | More Time to Train
-Easy to Tune | Harder to Tune
-Harder to Overfit | Easier to Overfit
+**Easy** to Tune | **Hard** to Tune
+**Hard** to Overfit | **Easy** to Overfit
 Training Data Subsets are Drawn Randomly with **Replacement** | Every New Subsets comprises the Elements that are **Missclassified** by **Previous Models**
 Applied where Classifier are **Unstable** and **Complex** ( **High Variance** ) | Classifier is **Stable** and **Simple** ( **High Bias** )
-Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Tree Boosting and XGBoost
+Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XGBoost
 
 ![Ensembles](Image/Ensembles.png)
 
@@ -26,7 +26,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Tree Boosting a
 2. Easily Handles **Outliers** and **Missing Values**
 3. Accepts various types of Inputs ( **Continuous** and **Ordinal** )
 4. Less likely to **Overfit**
-5. Output **Feature Importance** ( Important Features for Prediction )
+5. Output **Feature Importance** ( Important Features for **Prediction** )
 
 
 ### A. Bagging (Bootstrap Aggregation)
