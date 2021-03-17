@@ -28,9 +28,16 @@
 
 ## A. Regression
 
-- Predict Dependent Variable on the basis of **Independent Features**
+- Predict **Dependent** Variable on the basis of **Independent Features**
 - Find **Relationship** between **Independent Variable** and **Dependent Variable**
 - Output is **Continuous**
+- Can be further Improved by **Regularization* or by using **Non Linear Model**
+
+## B. Classififcation
+
+- Predict **Dependent Variable** ( Categories of Labels ) on the basis of **Independent Features**
+- Find **Relationship** between **Independent Variable** and **Dependent Variable**
+- Output is **Discrete**
 
 ### 1. Linear Regression 
 
@@ -40,11 +47,18 @@
 
 > Simple Linear Regression : Find the Line that **Fits** the Data.
 
-> Multiple Linear Regression : Find the Plane of **Best Fit**.
+> Multiple Linear Regression : Find the Plane | Hyperplane of **Best Fit**.
 
 > Polynomial Regression : Find a Curve for **Best Fit**. 
+
+### 2. Logistic Regression 
+
+- Dependent ( Output ) should be **Discrete** ( 0 or 1 )
+- Used for **Classification**
+- Probability of Finite Number of Outcomes | Occurence.
+- Output values can be between 0 and 1
  
-### 2. Decision Tree
+### 3. Decision Tree
 
 - **Root** Node and **Internal** Nodes are Test Conditions
 - **Leaf** Node represents a Class **Label**
@@ -77,7 +91,7 @@
 - Remove | Prune Branches with Less Importance ( Irrelevant Feature )
 - Early Stop ( Limit the Max Depth of the Tree )
 
-### 3. Random Forests ( Ensemble Learning Technique )
+### 4. Random Forests ( Ensemble Learning Technique )
 
 - Multiple Decision Tree
 - **Bootstrapped Data Sets** of Orignal Data and **Randomly** selecting **Subsets** at each step.
@@ -85,51 +99,10 @@
 - **Prediction** of Model is based on the **Mode** of Decision Trees ( **Majority Voting** )
 - Reduces Risk of **Error** and **Overfitting**.
 
-### 4. Neural Network
-
-- Multi Layered Model inspired by **Human Brain**
-- Nodes, Edges and Layers   
-
-## B. Classififcation
-
-- Predict **Dependent Variable** ( Categories of Labels ) on the basis of **Independent Features**
-- Find **Relationship** between **Independent Variable** and **Dependent Variable**
-- Output is **Discrete**
-
-### 1. Logistic Regression 
-
-- Probability of Finite Number of Outcomes.
-- Output values can be between 0 and 1
-
-### 2. Support Vector Machine
+### 5. Support Vector Machine
 
 - Find **Hyperplane** in **N Dimensional Space** that can distinctly classify the data points.
-
-### 3. Naive Bayes
-
-- Based on **Conditional Probability** | Class **Prediction** Probability ( Used for **Binary** and **Multiclass** Classification )
-- Probabilistic Machine Learning Model ( Likelihood, Prior Probability and Posterior Probability )
-- Probability of **Event A** if **Event B** has already occured
-- **Naive** : Because it assumes that all of the **Independent Features** are **Independent** from each other
-
-> P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
-
-### 4. Decision Tree
-
-### 5. Random Forest
-
-### 6. Neural Network 
-
-All follow Same Process in Regression and Classification the only difference is Output 
-
-> **Regression** Output : **Continuous**
-
-> **Classification** Output : **Discrete**
-
-### Support Vector Machine | SVM
-
-SVM can be used for both **Regression** and **Classification**
-
+- SVM can be used for both **Regression** and **Classification**
 - The Algorithm finds a **Line** or **Hyperplane** that Separates the 2 Classes with Maximum **Margin**.
 - **Hyperplanes** are Decision Boundaries that help Classify the Data Points.
 - Data Points are **Support Vectors**.
@@ -148,7 +121,23 @@ SVM can be used for both **Regression** and **Classification**
 - Long **Training Time** for Large Datasets.
 - Difficult to Interpret and Understand Final Model, Variable Weights and Individual Impact.
 - Not easy to Fine Tune and Visualize.
- 
+
+### 6. Naive Bayes
+
+- Based on **Conditional Probability** | Class **Prediction** Probability ( Used for **Binary** and **Multiclass** Classification )
+- Probabilistic Machine Learning Model ( Likelihood, Prior Probability and Posterior Probability )
+- Probability of **Event A** if **Event B** has already occured
+- **Naive** : Because it assumes that all of the **Independent Features** are **Independent** from each other
+
+> P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
+
+
+All follow Same Process in Regression and Classification the only difference is Output 
+
+> **Regression** Output : **Continuous**
+
+> **Classification** Output : **Discrete**
+
 <h3 name='unsup'> Unsupervised Learning</h3>
 
 - Find **Patterns** and **Relationships** from Input Data without References (Labels)
