@@ -27,7 +27,6 @@
 - Plot **Numerical Distributions** ( Detect **Outliers**, `Boxplot`, `Scatter` Plot, `Histogram` )
 - Plot **Categorical Data** ( `Bar Chart` | **Frequency** of Data | Combine **Sparse** Classes ) 
 - Find **Correlations** ( `Heatmaps` )
-
 - **Univariate** Analysis ( One Variable ) | **Bivariate** Analysis ( Two Variables ) | **Multivariate** Analysis ( More than Two Variables )
 
 <h2 name='clean'>2. Data Cleaning</h2>
