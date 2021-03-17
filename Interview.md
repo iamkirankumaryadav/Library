@@ -1,4 +1,4 @@
-### [Define](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/AI.md) | [AI](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Artificial%20Intelligence.md) | [ML](https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md) | [Real World Applications](https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/IBM%20Machine%20Learning.md) | [Feature Engineering](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Feature%20Engineering.md) | [NLP](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Natural%20Language%20Processing.md) | [CV](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Computer%20Vision.md)
+### [Define](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/AI.md) | [AI](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Artificial%20Intelligence.md) | [ML](https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md) | [Real World Applications](https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/IBM%20Machine%20Learning.md) | [Elite](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Primer%20Steps.md) | [Feature Engineering](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Feature%20Engineering.md) | [NLP](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Natural%20Language%20Processing.md) | [CV](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Computer%20Vision.md)
 
 ---
 
@@ -18,7 +18,7 @@
 
 --- 
 
-### [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md) | [Multiclass vs Multilabel](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Multi%20Class%20and%20Multi%20Label%20Classification.md) | [EDA](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Exploratory%20Data%20Analysis.md) | [Dimensionality Reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md) | [Algorithm Selection](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Steps/Algorithm%20Selection.md)
+### [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md) | [Multiclass vs Multilabel](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Multi%20Class%20and%20Multi%20Label%20Classification.md) | [Dimensionality Reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md) | [Algorithm Selection](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Steps/Algorithm%20Selection.md)
 
 ---
 
