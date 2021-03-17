@@ -80,13 +80,10 @@
 - Pure : All Data belongs to Same Class in a Subset ( Gini Index : 0 )
 - Impure : Data is Mixture of Different Classes in a Subset
 
-### Advantage of Decision Tree
-- Handle **Categorical** and **Numerical** Data
-- No effect of **Outliers**
-
-### Disadvantage of Decision Tree
-- Prone to **Overfitting**
-- Need Carefull **Parameter Tuning**
+Advantage of Decision Tree | Disadvantage of Decision Tree
+:--- | :---
+Handle **Categorical** and **Numerical** Data | Prone to **Overfitting**
+No effect of **Outliers** | Need Carefull **Parameter Tuning**
 
 ### How to Avoid Pruning
 - Remove | Prune Branches with Less Importance ( Irrelevant Feature )
