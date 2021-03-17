@@ -4,6 +4,12 @@
 
 **Data Analytics** > **Science** of **Data**
 
+**Training Data Set** > Data used to **Train** the Model ( Allow Algorithm to **Learn** from Data )
+
+**Validation Data Set** > Data used to **Select the Best Model** ( **Optimal** Algorithm and **Hyperparameter** Settings )
+
+**Test Data Set** > Data used to provide an **Evaluation**
+
 **Data Analysis** > **Collection**, **Transformation** and **Organization** of Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**
 
 **Data Science** > **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**
