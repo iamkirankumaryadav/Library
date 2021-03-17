@@ -137,22 +137,26 @@ All follow Same Process in **Regression** and **Classification** the only differ
 
 <h1 name='unsup'> Unsupervised Learning</h1>
 
-- Find **Patterns** and **Relationships** from Input Data without References (Labels)
+- Find **Patterns** and **Relationships** between **Independent** Features and **Dependent** Feature ( **Labels** )
+- Extract Important Features and Explore the Data Set in Detail.
 
 ### A. Clustering
 
-- Grouping of Data Points 
+- Group the Data Set into Groups | Segments | Clusters According to **Similarity**.
 - Customer Segmentation | Fraud Detection | Document Classification
 
 > Clustering Techniques
 
 1. K Mean
+- Cluster Data Points with Similar Characteristics in one Cluster
 - We Choose **K** number of Clusters
 - Select **K** Random Data Points as Centroid
 - Data Points nearest to its Corresponding Centroid belongs to that Cluster
 - Again the Centroid is Calculated
 - The Data Points are Updated based on New Centroid
 - **Iterative** Process | Stops when there is no further Classification.
+- Different Starting Points ( Random Centroid Selected ) Create Different Clusters 
+- **Elbow** Method : Sum of Squared Distance get smaller as the Number of Clusters Increases
 
 2. K Nearest Neighbours
 - Calculate Distance between Test Data and Each Row of Training Data
@@ -161,6 +165,23 @@ All follow Same Process in **Regression** and **Classification** the only differ
 - Return the Prediction.
 
 2. Hierarchical
+
+A. Agglomerative
+- Bootom Up Approach
+- **AGNES** ( **Ag**glomerative **Nes**ting )
+- Each Data Point is considered as an Individual Cluster
+- At each Iteration, Similar Clusters merge with other Clusters until One Single Cluster remains.
+
+B. Divisive
+- Top Down Approach
+- **DIANA** ( **Di**vise **Ana**lysis )
+- Dividing the Single Cluster into n Clusters
+
+### How we Calculate Similarity between the Clusters
+- **MIN** ( Distance between the Closest Points of Two Clusters )
+- **MAX** ( Distance between the Farthest Points of Two Clusters )
+- Group **AVG** ( Average of Distance between Each Data Points of Two Clusters )
+- Distance between **Centroids** ( Distance between the Centroid of Two Clusters )
  
 3. Density Based
 
@@ -173,9 +194,19 @@ All follow Same Process in **Regression** and **Classification** the only differ
 - Save Storage and Time by Improving Performance of Model.
 - Due to less number of Features it can be Visualized in 2D and 3D.
 
+### Anomaly Detection :
+- Automatically Discover **Unusual** Data Points in Data Set.
+- Used to Find Fraudulent Transactions, Identify an Outlier caused by Human Error during Data Entry.
+- Reduces Complexity of Data and Helps to Understand Data more Clearly and Better Way.
+
+### Association Mining :
+- Set of Items that Frequently Occur together in Data Set.
+- Basket Analysis : Items Bought Together | Goods Purchased at the Same Time Help to Develop Marketing Strategies.
+
 ### Feature Selection
-- Select Relevant Features
-- Remove Unwanted Features
+- **Select** Important Features | Helps to Improve **Accuracy** | Not Every Feature Adds Value to Solve Problem
+- **Remove** Unwanted Features | Irrelevant Features Affects Accuracy |
+- **Understanding** Each Feature before using it for Creating Machine Learning Model
 
 > Techniques of Dimensionality Reduction
 
