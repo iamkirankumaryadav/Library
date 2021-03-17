@@ -6,7 +6,7 @@
  
 <h3><a href=#unsup>Unsupervised Learning</a> : Cluster | Segment | Group Similar Data </h3> 
 
-<a href=#kmean><strong>1. Linear Regression</strong></a>&nbsp; |&nbsp; <a href=#logreg><strong>2. Logistic Regression</strong></a>
+<a href=#kmean><strong>1. K Mean</strong></a>&nbsp; |&nbsp; <a href=#hc><strong>2. Hierarchical</strong></a>
 
 ![Machine Learning Algorithms](Image/MLAlgorithm.png)
 
@@ -155,7 +155,8 @@ All follow Same Process in **Regression** and **Classification** the only differ
 
 > Clustering Techniques
 
-1. K Mean
+<h3 name='kmean'>1. K Mean</h3>
+
 - Cluster Data Points with Similar Characteristics in one Cluster
 - We Choose **K** number of Clusters
 - Select **K** Random Data Points as Centroid
@@ -166,7 +167,7 @@ All follow Same Process in **Regression** and **Classification** the only differ
 - Different Starting Points ( Random Centroid Selected ) Create Different Clusters 
 - **Elbow** Method : Sum of Squared Distance get smaller as the Number of Clusters Increases
 
-2. Hierarchical
+<h3 name='hc'>2. Hierarchical</h3>
 
 A. Agglomerative
 - Bootom Up Approach
