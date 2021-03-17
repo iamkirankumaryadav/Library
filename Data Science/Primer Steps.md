@@ -33,7 +33,7 @@
 
 > Better Data > Fancy Algorithm
 
-### What? | Why? | How?
+### What ? | Why ? | How ?
 
 - Remove Irrelevant | Incorrect | Incomplete | Improper | Duplicate | Inconsistent | Outdated | Insecure | Unformatted Data ( Filter )
 - Fix Typo Error ( Inconsistent Capitalization ) Mislabelled Classes ( 'home' and 'Home' is Same )
@@ -42,14 +42,14 @@
 - If Data is Stored in Multiple CSV Files, Combine CSV Data into Single Data Frame
 - Fill | Impute | Drop | Handle Missing Data ( Add 'Missing' label in Categorical, Set Flag as 0 in Continuous )
 - Split | Merge | Extract Column ( s ) or Row ( s )
-- Create New Relevant Feature from Existing One
+- Create `New` Relevant Feature from Existing One
 
 ### Benefits of Data Cleaning
-- Improve Data Quality
-- Save Time and Increase Overall Productivity
-- Improve Decision Making
-- Boost Business
-- Minimize Compliance ( Laws | Requirements | Rules | Regulations | Standard | Policies | Governance | Transparency ) Risk
+- Improve **Data Quality**
+- **Save** Time and Increase Overall Productivity
+- Improve **Decision Making**
+- Boost **Business**
+- Minimize **Compliance** ( Laws | Requirements | Rules | Regulations | Standard | Policies | Governance | Transparency ) Risk
 
 <h2 name='fe'>3. Feature Engineering</h2>
 
