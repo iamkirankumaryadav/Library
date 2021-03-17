@@ -55,12 +55,12 @@
 
 > In EDA we only **Identify** and in Feature Engineering and Data Cleaning we Actually **Fix** the Problems Identified
 
-- Feature Engineering is Performed after complete `EDA`.
-- Make Data Ready for **Machine Learning Algorithms**.
-- Use `Domain Knowledge` of Data to Create **Features** and **Variables** to use in **Machine Learning**.
-- Improve Machine Learning **Model Performance**.
-- Remove `Unused` Features.
-- Handle Date and Time Features
+- Feature Engineering is Performed after complete `EDA`
+- Make Data Ready for **Machine Learning Algorithms**
+- Use `Domain Knowledge` of Data to Create **Features** and **Variables** to use in **Machine Learning**
+- Improve Machine Learning **Model Performance**
+- Remove `Unused` Features
+- Handle `Date` and `Time` Features
 - Handle `Missing` Data   
 - Handle `Categorical` Data ( Categorical to Numeric | Grouping Sparse Data | Create Dummy )
 
