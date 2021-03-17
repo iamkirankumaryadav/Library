@@ -3,28 +3,26 @@
 ### Bias 
 - Error Introduced on **Training Data** 
 - High Bias : High Error on Training Data ( **Underfitting** ) 
-- Model is not trained properly
+- Model is not Trained properly | Learns **Fast** ( Inclusing **Noise** and **Error** )
 - Algorithm is Unable to Capture **Relevant** Relations between Features and Targets at the Time of **Training**
 - When you Train your Model at that time High Biased Model makes Simplified Assumptions to make the Target Function easier to Understand.
 
 Bias | Error = Predicted - Actual
 
 - A Linear Algorithms often has High Bias, which makes them Learn Fast.
-- Simple the Algorithm, more Bias it will Introduce.
+- Simple the Algorithm, more Bias it will Introduce ( Capture Data with Noise and Error ).
 - Non Linear Algorithms often have **Low Bias**.
 
 ### How to Reduce Bias?
 - K Fold **Cross Validations** and **Resampling** | Split Data Set into K Numbers and Each Set is used as Testing Set.
+- Use Algorithms that works on Non Linear Data
 - **Bootstrapping** and **Boosting** | Iteratively Resampling a Data Set with Replacement.
 
 ### Low Bias Machine Learning Algorithms 
-- Decision Tree
-- KNN
-- SVM
+- Decision Tree | KNN | SVM
 
 ### High Bias Machine Learning Algorithms 
-- Linear Regression
-- Logistic Regression
+- Linear and Logistic Regression
 
 ### Variance 
 - Variance is **Error** Introduced on Testing Data
@@ -41,14 +39,11 @@ Bias | Error = Predicted - Actual
 ### Low Variance Algorithms  
 - Linear Regression.
 - Logistic Regression.  
-- Linear Discriminant Analysis (LDA)
+- Linear Discriminant Analysis ( **LDA** )
 - Machine Learning Model does not Vary much with the Different Data Set.
 
 ### High Variance Algorithms : 
-- Decision Tree
-- KNN 
-- SVM
-- Machine Learning Model varies with Different Data Set. 
+- Decision Tree | KNN | SVM
 
 ### Bias Variance Trade Off
 
@@ -73,13 +68,14 @@ Trade Off - Find the Correct Balance : Low Bias and Low Variance.
 Bias and Variance helps us Improve the Data Fitting | Training Process resulting in more Accurate Models.
 
 ### Error due to Bias 
-- Difference between the Expected Prediction of our Model and the Correct Value which we are trying to Predict.
-- Each Time you run a New Analysis Creating a New Model, Due to Randomness in the Underlying Data Sets, Bias Measures How Far off these Model's Predictions are from the Correct Value.
+- Difference between the **Expected Prediction** of our Model and the Correct Value which we are trying to Predict.
+- Due to Randomness in Data Set, Bias Measures How Far off these Model's Predictions are from the Correct Value.
 
 ### Error dur to Variance
 - **Variability** of a Model Prediction from an Actual Data Point
 - How much the Predictions for a given point vary between different Models.
 
 ### Good Fit Model ( Low Bias and Low Variance )
-- `Prediction` is Actually **Close** to the `Actual` True Data
-- Generalized enough to Work with any New Unseen Data (Low Variance) and at the Same Time should produce Low Prediction Error (Low Bias)
+- `Prediction` is Actually **Close** to the `Actual` True Data and **Model** is Trained Well
+- Generalized enough to Work with any New Unseen Data ( Low Variance ) 
+- **Captures** Less `Noise` and `Error` at the Time of **Training** ( Low Bias )
