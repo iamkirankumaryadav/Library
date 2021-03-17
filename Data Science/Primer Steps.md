@@ -1,6 +1,4 @@
-<h3><a href='#eda'>Exploratory Data Analysis</a> ( EDA )</h3>
-
-<h3><a name='#clean'>Data Cleaning</a></h3>
+<h3><a href='#eda'>Exploratory Data Analysis</a> ( EDA )</h3>&nbsp; |&nbsp; <h3><a name='#clean'>Data Cleaning</a></h3>
 
 <h3 name='eda'>Exploratory Data Analysis</h3>
 
