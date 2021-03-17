@@ -148,10 +148,11 @@ All follow Same Process in **Regression** and **Classification** the only differ
 
 1. K Mean
 - We Choose **K** number of Clusters
-- Select K Random Data Points as Centroid
+- Select **K** Random Data Points as Centroid
 - Data Points nearest to its Corresponding Centroid belongs to that Cluster
 - Again the Centroid is Calculated
 - The Data Points are Updated based on New Centroid
+- **Iterative** Process | Stops when there is no further Classification.
 
 2. K Nearest Neighbours
 - Calculate Distance between Test Data and Each Row of Training Data
