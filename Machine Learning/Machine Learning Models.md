@@ -1,6 +1,12 @@
 # Machine Learning Models 🤖🚀💻
 
 <h3><a href=#sup>Supervised Learning</a> : Classify Data or Predict</h3> 
+
+<a href=#linreg>Linear  Regression</a>
+<a href=#logreg>Logistic  Regression</a>
+<a href=#tree>Decision Tree</a>
+<a href=#forest>Random Forest</a>
+<a href=#svm>Support Vector Machine</a>
  
 <h3><a href=#unsup>Unsupervised Learning</a> : Cluster Data </h3> 
 
@@ -26,20 +32,19 @@
 
 <h3 name='sup'> Supervised Learning</h3>
 
-## A. Regression
+### A. Regression
 
-- Predict **Dependent** Variable on the basis of **Independent Features**
-- Find **Relationship** between **Independent Variable** and **Dependent Variable**
-- Output is **Continuous**
+- Predict **Dependent Variable** ( **Continuous** ) on the basis of one or more **Independent Features** 
+- Find **Relationship** between **Independent Variables** and **Dependent Variable**
 - Can be further Improved by **Regularization* or by using **Non Linear Model**
 
-## B. Classififcation
+### B. Classififcation
 
 - Predict **Dependent Variable** ( Categories of Labels ) on the basis of **Independent Features**
 - Find **Relationship** between **Independent Variable** and **Dependent Variable**
 - Output is **Discrete**
 
-### 1. Linear Regression 
+<h3 name='linreg'>1. Linear Regression</h3> 
 
 ![Linear Regression](Image/RegressionLine.png)
 
@@ -51,14 +56,14 @@
 
 > Polynomial Regression : Find a Curve for **Best Fit**. 
 
-### 2. Logistic Regression 
+<h3 name='logreg'>2. Logistic Regression ( **Classification** )</h3>
 
 - Dependent ( Output ) should be **Discrete** ( 0 or 1 )
 - Used for **Classification**
 - Probability of Finite Number of Outcomes | Occurence.
 - Output values can be between 0 and 1
  
-### 3. Decision Tree
+<h3 name='tree'>3. Decision Tree</h3>
 
 - **Root** Node and **Internal** Nodes are Test Conditions
 - **Leaf** Node represents a Class **Label**
@@ -91,7 +96,7 @@
 - Remove | Prune Branches with Less Importance ( Irrelevant Feature )
 - Early Stop ( Limit the Max Depth of the Tree )
 
-### 4. Random Forests ( Ensemble Learning Technique )
+<h3 name='forest'>4. Random Forests ( Ensemble Learning Technique | Bagging )</h3>
 
 - Multiple Decision Tree
 - **Bootstrapped Data Sets** of Orignal Data and **Randomly** selecting **Subsets** at each step.
@@ -99,7 +104,7 @@
 - **Prediction** of Model is based on the **Mode** of Decision Trees ( **Majority Voting** )
 - Reduces Risk of **Error** and **Overfitting**.
 
-### 5. Support Vector Machine
+<h3 name='svm'>5. Support Vector Machine</h3>
 
 - Find **Hyperplane** in **N Dimensional Space** that can distinctly classify the data points.
 - SVM can be used for both **Regression** and **Classification**
