@@ -19,7 +19,7 @@
 ### Ask Questions to Data 
 - How many **Observations** ? ( **Rows** )
 - How many **Features** ? ( **Columns** )
-- Data Types of the Features ? ( **Categorical** or **Numeric** )
+- **Data Types** of the Features ? ( **Categorical** or **Numeric** )
 - **Target Variable** in the Data Set ?
 - Whether Data set is **Balanced** or **Imbalanced** ?
 - Do the Values on the Right **Scale** ? or needs ( **Transformation** | **Normalization** | **Standardization** )
