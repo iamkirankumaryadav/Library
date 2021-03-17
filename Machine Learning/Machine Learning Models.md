@@ -6,6 +6,8 @@
  
 <h3><a href=#unsup>Unsupervised Learning</a> : Cluster | Segment | Group Similar Data </h3> 
 
+<a href=#kmean><strong>1. Linear Regression</strong></a>&nbsp; |&nbsp; <a href=#logreg><strong>2. Logistic Regression</strong></a>
+
 ![Machine Learning Algorithms](Image/MLAlgorithm.png)
 
 ### Steps of Machine Learning
@@ -119,7 +121,14 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 - Difficult to Interpret and Understand Final Model, Variable Weights and Individual Impact.
 - Not easy to **Fine Tune** and **Visualize**.
 
-### 6. Naive Bayes
+<h3 name='knn'>6. K Nearest Neighbours</h3>
+
+- **K** : Number of Nearest **Neigbors**
+- Calculate Distance between New **Test** Data Point and **K Nearest Neigbours** of **Training** Data Points
+- Sort the Calculated Distance in **Ascending Order**
+- Get Nearest ( **Least** Distance ) to it or most **Frequent Classes** in Neighbor
+
+### 7. Naive Bayes
 
 - Based on **Conditional Probability** | Class **Prediction** Probability ( Used for **Binary** and **Multiclass** Classification )
 - Probabilistic Machine Learning Model ( Likelihood, Prior Probability and Posterior Probability )
@@ -156,12 +165,6 @@ All follow Same Process in **Regression** and **Classification** the only differ
 - **Iterative** Process | Stops when there is no further Classification.
 - Different Starting Points ( Random Centroid Selected ) Create Different Clusters 
 - **Elbow** Method : Sum of Squared Distance get smaller as the Number of Clusters Increases
-
-2. K Nearest Neighbours
-- Calculate Distance between Test Data and Each Row of Training Data
-- Sort the Calculated Distance in Ascending Order
-- Get Top Rows Nearest to it or most Frequent Classes
-- Return the Prediction.
 
 2. Hierarchical
 
