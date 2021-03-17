@@ -52,7 +52,7 @@
 
 > Polynomial Regression : Find a Curve for **Best Fit**. 
 
-<h3 name='logreg'>2. Logistic Regression ( **Classification** )</h3>
+<h3 name='logreg'>2. Logistic Regression ( Classification )</h3>
 
 - Dependent ( Output ) should be **Discrete** ( 0 or 1 )
 - Used for **Classification**
@@ -61,20 +61,20 @@
  
 <h3 name='tree'>3. Decision Tree</h3>
 
-- **Root** Node and **Internal** Nodes are Test Conditions
-- **Leaf** Node represents a Class **Label**
-- **Splits** a Dataset based on **Different** Conditions
-- Used **Binary** Classification and **Multiclass** Classification and  even for **Regression**
+- **Root** Node and **Internal** Nodes are **Conditions**
+- **Leaf** Node represents a Class **Label** | **Terminal** Node
+- **Splits** a Dataset based on **Different** Conditions ( Branch | Edge | Split )
+- Used **Binary** Classification and **Multiclass** Classification and even for **Regression**
 - Tree Models where the Target Variable takes a **Discrete** Set of Values are **Classification** Tree
 - Tree Models where the Target Variable takes a **Continuous** Values are **Regression** Tree
 - **CART** : **C**lassification **A**nd **R**egression **T**ree
 
 ### Information Gain 
 
-- **Information Gain** is used to decide which Feature to **Split** on at each step in Building the Tree
+- **Information Gain** is used to decide which Feature ( **Root** Node ) to **Split** on at each step in Building the Tree
 - The Split with the Highest **Information Gain** will be taken as the First Split and the process will continue untill **IG** becomes 0
 
-### Gini Index
+### Gini Index ( Checks for Impurity in the Dataset )
 
 - Lowest Gini Index is selected 
 - Pure : All Data belongs to Same Class in a Subset ( Gini Index : 0 )
@@ -107,13 +107,13 @@
 - The Algorithm finds a **Line** or **Hyperplane** that Separates the 2 Classes with Maximum **Margin**.
 - **Hyperplanes** are Decision Boundaries that help Classify the Data Points.
 - Data Points are **Support Vectors**.
-- SVM can be used for Linear and Non Linear Data.
-- SVM can be used as Kernel Trick for Non Linear Data which Creates a **Hyperplane** in N Dimensional Space.
+- SVM can be used for **Linear** and **Non Linear** Data.
+- SVM can be used as **Kernel Trick** for **Non Linear** Data which Creates a **Hyperplane** in **N Dimensional Space**.
 
 ### Benefits 
 
-- SVM also works well with Unstructured and Semi Structured Data ( Text, Image, Tree )
-- Generalize Well ( Works well on New Unseen Data )
+- SVM also works well with **Unstructured** and **Semi Structured** Data ( Text, Image, Tree )
+- **Generalize** Well ( Works well on New Unseen Data )
 - Risk of **Overfitting** is Less.
 
 ### Disadvantage
@@ -132,8 +132,7 @@
 
 > P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
 
-
-All follow Same Process in Regression and Classification the only difference is Output 
+All follow Same Process in **Regression** and **Classification** the only difference is Output 
 
 > **Regression** Output : **Continuous**
 
