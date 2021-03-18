@@ -3,22 +3,18 @@
 Bias | Variance
 :--- | :---
 **High** Bias ( High Error on **Train** Set ) | **High** Variance ( High Error on **Test** Set )
-**Underfitting** | **Overfitting**
+**Low** Bias ( Low Error on **Train** Set | Model is Trained **Well** ) | **Low** Variance ( Low Error on **Test** Set | **Prediction** is `Close` to **Actual** Data )
+**Underfitting** | **Overfitting** 
 Model is not **Trained** Properly | Model does not **Generalize** well on **New Unknown Data**
 **Simple** Model is Created | **Complicated** Model is Created
 Model make **Simplified Assumptions** while Learning | Model **Learn** Data with **Noise** and **Confusion**
 Model do not Capture Hidden Patterns and Relations properly | Model **Memorize** Patterns and Relations + Noise + Error
+Low Bias Algorithms ( Decision Tree, KNN, SVM ) | Low Variance Algorithms ( Regression, LDA )
+High Bias Algorithm ( Regression ) | High Variance Algorithm ( Decision Tree, KNN, SVM ) 
 
-### Bias 
-- Error Introduced on **Training Data** 
-- High Bias : High Error on Training Data ( **Underfitting** ) 
-- Model is not Trained properly | Learns **Fast** ( Inclusing **Noise** and **Error** )
-- Algorithm is Unable to Capture **Relevant** Relations between Features and Targets at the Time of **Training**
-- When you Train your Model at that time High Biased Model makes Simplified Assumptions to make the Target Function easier to Understand.
+> Bias | Error = Predicted - Actual ( Difference between the `Expected` Value and `True Actual` Value  )
 
-Bias | Error = Predicted - Actual
-
-- A Linear Algorithms often has High Bias, which makes them Learn Fast.
+- A `Linear` Algorithms **Learns Fast** which often lead to High Bias
 - Simple the Algorithm, more Bias it will Introduce ( Capture Data with Noise and Error ).
 - Non Linear Algorithms often have **Low Bias**.
 
@@ -26,33 +22,6 @@ Bias | Error = Predicted - Actual
 - K Fold **Cross Validations** and **Resampling** | Split Data Set into K Numbers and Each Set is used as Testing Set.
 - Use Algorithms that works on Non Linear Data
 - **Bootstrapping** and **Boosting** | Iteratively Resampling a Data Set with Replacement.
-
-### Low Bias Machine Learning Algorithms 
-- Decision Tree | KNN | SVM
-
-### High Bias Machine Learning Algorithms 
-- Linear and Logistic Regression
-
-### Variance 
-- Variance is **Error** Introduced on Testing Data
-- Error Introduced in your Model due to **Complex Machine Learning Algorithms** 
-- Model learns **Noise** from the Training Data Set and Performs bad on Test Data Set.
-- Lead to **High Sensiitivity** and **Overfitting**.
-- Indicates How much the Prediction Alters if different Training Data is used.
-- How much a Prediction Differs from its Expected Value.
-- Measures **Inconsistency** of Different Predictions using Different Training Sets.
-- High Variance reflects Noise in the Training Data Set.
-          
-### Model with Low Variance means Sample Actual Data is Close to Prediction.
-
-### Low Variance Algorithms  
-- Linear Regression.
-- Logistic Regression.  
-- Linear Discriminant Analysis ( **LDA** )
-- Machine Learning Model does not Vary much with the Different Data Set.
-
-### High Variance Algorithms : 
-- Decision Tree | KNN | SVM
 
 ### Bias Variance Trade Off
 
