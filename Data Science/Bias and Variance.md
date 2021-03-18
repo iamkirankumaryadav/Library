@@ -7,7 +7,7 @@ Bias | Variance
 Model is not **Trained** Properly | Model does not **Generalize** well on **New Unknown Data**
 **Simple** Model is Created | **Complicated** Model is Created
 Model make **Simplified Assumptions** while Learning | Model **Learn** Data with **Noise** and **Confusion**
-Model do not Capture Hidden Patterns and Relations properly | Model 
+Model do not Capture Hidden Patterns and Relations properly | Model **Memorize** Patterns and Relations + Noise + Error
 
 ### Bias 
 - Error Introduced on **Training Data** 
