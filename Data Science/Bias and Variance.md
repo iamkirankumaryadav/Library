@@ -2,9 +2,8 @@
 
 Bias | Variance
 :--- | :---
-**High** Bias ( High Error on **Train** Set ) | **High** Variance ( High Error on **Test** Set )
+**High** Bias ( High Error on **Train** Set \| **Underfitting** ) | **High** Variance ( High Error on **Test** Set \| **Overfitting**  )
 **Low** Bias ( Low Error on **Train** Set \| Model is Trained **Well** ) | **Low** Variance ( Low Error on **Test** Set \| **Prediction** is `Close` to **Actual** )
-**Underfitting** | **Overfitting** 
 Model is not **Trained** Properly | Model does not **Generalize** well on **New Unknown Data**
 **Simple** Model is Created | **Complicated** Model is Created
 Model make **Simplified Assumptions** while Learning | Model **Learn** Data with **Noise** and **Confusion**
