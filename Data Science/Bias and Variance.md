@@ -2,8 +2,12 @@
 
 Bias | Variance
 :--- | :---
-High Bias ( High Error on Train Set ) | High Variance ( High Error on Test Set )
-Underfitting | 
+**High** Bias ( High Error on **Train** Set ) | **High** Variance ( High Error on **Test** Set )
+**Underfitting** | **Overfitting**
+Model is not **Trained** Properly | Model does not **Generalize** well on **New Unknown Data**
+**Simple** Model is Created | **Complicated** Model is Created
+Model make **Simplified Assumptions** while Learning | Model **Learn** Data with **Noise** and **Confusion**
+Model do not Capture Hidden Patterns and Relations properly | Model 
 
 ### Bias 
 - Error Introduced on **Training Data** 
