@@ -30,6 +30,7 @@ Trade Off - Find the Correct Balance : Low Bias and Low Variance.
 
 ### Underfitting | Simple Model : High Bias + Low Variance
 - **High** Bias : **High** Error on Training Data ( **Underfitting** )
+- **Low** Variance : **Low** Error on Test Data ( **Genralized** )
 - The Model Fails to Characterize the Basic Data Correctly. 
 - The Model and Algorithm does not Fit the Data Well enough.
 
@@ -39,8 +40,8 @@ Trade Off - Find the Correct Balance : Low Bias and Low Variance.
 - When a Massive Amount of Data Trains a Machine Learning Model, it tends to Learn from **Noise** and **Inaccurate** Data.
 - Random Error and Noise | Complex Model | Too Many Parameters ( Columns ) relative to the number of Observations ( Rows ) 
 - Poor **Predictive** Performance | Do not **Genralize** well on the **New Unseen Data**
-- Difference between the Prediction on the Unseen Data Point and the Actual Data Point is High ( High Variance )
-- Model Tries to Fit the Training Data so closely that it does not Generalize well to New Unseen Data.
+- Difference between the Prediction on the **New Unseen Data Point** and the **Actual Data Point** is High ( High Variance )
+- Model Tries to Fit the Training Data so closely that it does not **Generalize** well to New Unseen Data.
 
 Bias and Variance helps us Improve the Data Fitting | Training Process resulting in more Accurate Models.
 
