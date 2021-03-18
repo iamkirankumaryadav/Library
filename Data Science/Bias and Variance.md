@@ -1,5 +1,10 @@
 # Bias | Variance | Underfitting | Overfitting
 
+Bias | Variance
+:--- | :---
+High Bias ( High Error on Train Set ) | High Variance ( High Error on Test Set )
+Underfitting | 
+
 ### Bias 
 - Error Introduced on **Training Data** 
 - High Bias : High Error on Training Data ( **Underfitting** ) 
