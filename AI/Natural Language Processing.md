@@ -25,7 +25,7 @@
 1. Google Translate. ( Speech to Text )
 2. Email `Spam` Filter ( Search for Texts related to Spam Email )
 3. Google Search and Gmail Auto Complete ( Prediction of **Next Words** ) 
-4. Word Processor | Grammer Check | Auto Correct in Microsoft Word. 
+4. Word Processor | Grammer Check | Auto Correct in Microsoft Word, Google Sheet, etc. 
 5. Grammerly | Grammer Correction and Spelling Correction in Gmail.
 6. IVR | Interactive Voice Response in Call Centers.
 7. Voice Assistant : `Google` Google Home, `Apple` Siri, `Microsoft` Cortana and `Amazon` Alexa.
