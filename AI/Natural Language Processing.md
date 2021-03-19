@@ -9,7 +9,15 @@
 - Open Source Tool Library created to make `NLP` Process in `Python`.
 
 ### Text Mining | Text Analysis 
+- **Analyze** and **Understand** Text Data 
 - Deriving **Meaningful Information** from Natural Language **Text** and **Speech**.
+
+### Types of Text Data 
+- Web, Blogs, Comments, Reviews and Notes
+- Social Media : Messages, Hashtags, Reference
+- Operations : Logs and Trails
+- Emails ( Spam or Ham )
+- Voice **Transcriptions** ( Videos )
 
 ### Process :
 
@@ -161,6 +169,11 @@ How to `Remove` Stopwords Using NLTK
 - **Extracting** Title, Text and Media from a Book, Artice or Simply Web Page.
 - e.g. `Google Search`
 
+### Word Cloud 
+- A **Graphical** Display of Words in a Corpus
+- **Size** of Word based on number of **Occurences**
+- Visual View of the Most Popular Terms
+
 ### Corpus | Corpora
 - Large Collection of Documents ( Accurate Grammer Phrases ) | Knowledge Base that can be used to infer and Validate Language Rules.
 
@@ -175,3 +188,6 @@ How to `Remove` Stopwords Using NLTK
 ### Transformation
 - Power Transformation ( Square, Square Root )
 - Standardizing Data 
+
+### Bag of Words
+- **Polarity** : Positive ( +1 ), Negative ( -1 ) or Neutral ( 0 )
