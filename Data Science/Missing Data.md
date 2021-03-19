@@ -5,7 +5,7 @@
 <h3 name="del"> 1. Deletion</h3>
 
 - Remove **Particular Row** if it has a **NULL** value for **Particular Feature**.
-- Remove **Particular Column** if it has more than `70%` to `75%` of **Missing Values**.
+- Remove **Particular Column** ( **Missing Values** > `70%` )
 - If Missing Data is limited to Small number of **Observations**, eliminate those cases from the **Analysis**.
 - Sometimes Deleting a particular **Row** or a **Column** with no specific information is better.
 
