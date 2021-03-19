@@ -32,12 +32,12 @@ Loss Function | Cost Function ( Quantifies Error between Predicted Values and Ex
 - Main Aim is to Minimize the Loss. 
 
 ### Regularization can Improve Rgeression
-- If we a Fit Regression Model on 100 Features ( Training )
+- If we Fit Regression Model on 100 Features | If we Train Model with 100 Features ( Training )
 - Each Coefficient will Memorize each Observations ( Learn Pattern including **Noise** )
 - The Model would have Perfect Accuracy on the Training Data but it will not Generalize well on Test Data ( New Unseen Data )
-- Regularization can Prevent **Overfitting** by Artificially Penalizing Model Coefficient
+- Regularization can Prevent **Overfitting** by Artificially Penalizing Model **Coefficient** ( Slopes )
 - It can **Discourage** Large Coefficients
-- It can **Remove** Features Completely ( Setting Coefficients to 0 )
+- It can **Remove** Features Completely ( Setting Coefficients to 0 only if LASSO )
 - It can **Encourage** Small Coefficients
 
 > Loss = Sum of Square **Residual** ( Actual - Prediction ) <sup>2</sup> 
