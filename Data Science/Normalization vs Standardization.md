@@ -4,6 +4,7 @@ Normalization | Standardization
 :--- | :---
 x ( **Normal** ) =  x - **min** ( x ) / **max** ( x ) - **min** ( x ) | z = x - **mean** ( x ) / **std** ( x )
 **Range** between `0` and `1` | **Mean** = `0` and **Standard Deviation** = `1`
+Preprocessing.`MinMaxScaler()` | Preprocessing.`StandardScaler()`
 
 ### Normalization
 - **Rescale** Feature values range between 0 and 1
