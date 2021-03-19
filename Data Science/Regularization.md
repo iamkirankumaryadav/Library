@@ -1,11 +1,11 @@
 # Regularization
 
-- Adding **Bias** during Training
-- Prevent Overfitting
-- Simplify Models ( Simple Models avoids **Overfitting**, but may lead to **Underfitting**, So some Tradeoff is Important )
+- Adding **Bias** to Training Data to Balance **Variance**
+- Prevent **Overfitting**
+- **Simplify** Complicated Models ( Simple Models avoids **Overfitting**, but may lead to **Underfitting**, So some **Tradeoff** is Important )
 - Reducing the **Steepness** of the Slope. 
-- Shrink the Coefficient (Slope) towards Zero.
-- Add Penalty to the Loss Term | Sum ( Actual - Prediction ) <sup>2</sup> | **Sum of Squared Residuals**
+- **Shrink** the Coefficient (Slope) towards Zero.
+- Add **Penalty** to the Loss Term | Sum ( Actual - Prediction ) <sup>2</sup> | **Sum of Squared Residuals**
 - Encourages Weight Values towards 0 ( But not Exactly 0 )
 - Penalize Weights that are too Large ( Learning Rate )
 - It Improves the **Generalization** Performance ( Performance on New Unseen Data )
