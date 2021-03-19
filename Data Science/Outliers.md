@@ -44,6 +44,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 2. Remove the Outlier if it is very Small.
 3. **Inter Quartile** Range 
 4. Change the Value of Outlier or Replace it with something Meaningful.
+5. Rescale Data or Standardize
 
 <h3 name="summary"> Five Number Summary</h3>
 
