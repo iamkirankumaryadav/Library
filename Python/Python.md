@@ -38,17 +38,19 @@
 2. Numeric
 - int : Integer, Hex, Octal and Binary Numbers 
 - float : Decimal, Exponent and Floating Point Number
-- complex : Complex Numbers with real + img
+- complex : Complex Numbers with real + img ( j )
 - bool : Boolean ( True | False )
 
-3. Sequence
-- list : Mutable
-- tuple : Immutable
+3. Sequence | Data Type | Collections | Data Structure
+
+List | Tuple | Set | Dictionary
+:--- | :--- | :--- | :---
+Mutable | Immutable | Immutable | Mutable
+Ordered | Ordered | Unordered ( Unique ) | Unordered ( Unique Key )
+\[ \] | \( \) | \{ \} | \{ key : value \}
+
 - range : Immutable Generated Numbers 
 - str : Sequence of Characters
-- dict : Mapping Key Value pairs
-- set : Mutable Unordered Collection of Unique Values
-- frozenset : Immutable Collection of Unique Values
 
 ### Protected 
 - Attributes defined with Underscore (**\_name**)
