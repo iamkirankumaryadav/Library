@@ -32,6 +32,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 > **Solution** : Apply Transformation of Data : Scaling
 
 <h3 name="dbscan"> ( DBSCAN ) | Density Based Spatial Clustering of Applications with Noise</h3>
+
 - **Clustering** methods are useful tools that helps us to **Visualize** and **Understand** Data better.
 - Relationships between **Features** can be represented via **Clustering**.
 - **DBSCAN** is a **Density Based Clustering Algorithm**, it is focused on finding **Neighbors** by **Density**.
