@@ -1,20 +1,20 @@
 # Regularization
 
-- Adding Bias during Training
+- Adding **Bias** during Training
 - Prevent Overfitting
-- Simplify Models (Simple Models avoids Overfitting, but may lead to Underfitting, So some Tradeoff is Important)
-- Reducing the Steepness of the Slope. 
+- Simplify Models ( Simple Models avoids **Overfitting**, but may lead to **Underfitting**, So some Tradeoff is Important )
+- Reducing the **Steepness** of the Slope. 
 - Shrink the Coefficient (Slope) towards Zero.
 - Add Penalty to the Loss Term | Sum ( Actual - Prediction ) <sup>2</sup> | **Sum of Squared Residuals**
-- Encourages Weight Values towards 0 (But not Exactly 0)
-- Penalize Weights that are too Large (Learning Rate)
-- It Improves the Generalization Performance (Performance on New, Unseen Data)
+- Encourages Weight Values towards 0 ( But not Exactly 0 )
+- Penalize Weights that are too Large ( Learning Rate )
+- It Improves the **Generalization** Performance ( Performance on New Unseen Data )
 
 LASSO | RIDGE
- :---:  | :---:
- L1 | L2
- Loss + \| Slope \| | Loss + \( Slope \) <sup>2</sup>
- Eliminate Features | Reduce Impact of Features
+:---:  | :---:
+L1 | L2
+Loss + \| Slope \| | Loss + \( Slope \) <sup>2</sup>
+**Eliminate** Features | **Reduce** Impact of Features
  
 
 Loss Function | Cost Function ( Quantifies Error between Predicted Values and Expected Values )
