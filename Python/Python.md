@@ -53,11 +53,11 @@ Ordered | Ordered | Unordered ( Unique ) | Unordered ( Unique Key )
 - str : Sequence of Characters
 
 ### Protected 
-- Attributes defined with Underscore (**\_name**)
+- Attributes defined with Underscore ( **\_name** )
 - Still can be **Accessed** and **Modified** from outside the class.
 
 ### Private 
-- Attributes defined with Double Underscore (**\_\_name**)
+- Attributes defined with Double Underscore ( **\_\_name** )
 - Cannot be **Accessed** and **Modified** from outside directly
 
 ### Self
