@@ -25,7 +25,7 @@
 ![RSS|SSE](Image/SSE_RSS.jpg)
 
 - e : Error
-- SSE = Sum ( Square ( Actual - Prediction ) )
+- SSE = Sum ( Actual - Prediction ) <sup>2</sup>
 - Residuals : Sum of Squares of Errors.
 - Unexplained Variability.
 - Variability : Distance of Actual Value from its Mean or Predicted Value.
@@ -37,7 +37,7 @@
 ![ESS|SSR](Image/SSR_ESS.jpg)
 
 - Measures How well our Line Fits the Data.
-- Sum ( Square ( Prediction - Mean ) )
+- Sum ( Prediction - Mean ) <sup>2</sup>
 - Explained Variability.
 
 ### TSS | SST
@@ -48,7 +48,7 @@
 
 - Measures Total Variability
 - Explained Variability + Unexplained Variability
-- Sum ( Square ( Actual - Mean ) )
+- Sum ( Actual - Mean ) <sup>2</sup>
 - SST = SSR + SSE
 - TSS = ESS + RSS
 
