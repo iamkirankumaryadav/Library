@@ -11,7 +11,7 @@
 - One **Picture** and only One **Class** 
 
 ### 3. **Multilabel** Classification
-- One **Picture** and **Multilabel**
+- One **Picture** and **Multiple Labels**
 
 | Multiclass | Multilabel |
 | :--- | :--- |
