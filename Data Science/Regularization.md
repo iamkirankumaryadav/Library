@@ -24,9 +24,8 @@ Loss Function | Cost Function ( Quantifies Error between Predicted Values and Ex
 - Variance Increases with Decrease in Lambda.
 - If **Lambda** Value is **High** | Model will be **Simple** | **Underfitting** | **High Bias** | Model will not Learn Enough about Training Data.
 - If **Lambda** Value is **Low** | Model will be **Complex** | **Overfitting** | **High Variance** | Model will Learn too much about Training Data.
-
-
-Ideal Value of Lambda produces Model that Generalizes Well on New Unseen Data, Ideal Value of Lambda is Data Dependent, so need some Tuning.  
+- Ideal Value of Lambda produces Model that **Generalizes** Well on **New Unseen Data** 
+- Ideal Value of Lambda dependents on Data, so need some Tuning.  
 
 # Elastic Net :
 - Elastic Net combines L1 and L2 and does not Eliminates Highly Colliner Coefficient ( Slope )
