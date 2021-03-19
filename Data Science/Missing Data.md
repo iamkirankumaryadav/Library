@@ -1,6 +1,6 @@
 # How to Deal with Missing Data
 
-<h3><a href="#del">Delete</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign | Flag</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
+<h3><a href="#del">Delete</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign or Flag</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
 <h3 name="del"> 1. Deletion</h3>
 
