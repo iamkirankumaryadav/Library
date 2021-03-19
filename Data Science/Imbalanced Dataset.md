@@ -19,7 +19,7 @@
 - Combine the Down Sampled Data with Orignal Minority Class Dataframe.
 
 ### Change Evaluation for Better Performance
-- Use Stratified K Fold Cross Validation with Equal Class Labels to Train the Model
+- Use **Stratified K Fold Cross Validation** with Equal Class Labels to Train the Model
 
 ### Decision Tree
 - Decision Tree performs well on `Imbalanced Dataset` because there **Hierarchical Structure**  allows to Learn from both Classes.
