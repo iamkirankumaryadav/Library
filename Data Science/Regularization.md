@@ -9,13 +9,13 @@
 - Penalize Weights that are too Large ( Learning Rate )
 - It Improves the **Generalization** Performance ( Performance on New Unseen Data )
 
-LASSO | RIDGE
-:---  | :---
-L1 Regularization | L2 Regularization
-Loss + \| Slope \| | Loss + \( Slope \) <sup>2</sup>
-Absolute Sum of Coefficients | Square of Coefficient
-**Eliminate** Features ( Multicollinearity ) | **Reduce** Impact of Features ( Never Set to Zero )
- 
+LASSO | Ridge | Elastic
+:--- | :--- | :---
+Least Absolute Shrinkage and Selection Operator ( L1 ) | Mountain Ridges ( L2 ) | Between L1 and L2 
+Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> | Loss + lambda1 * \| slope \| + lambda2 * slope<sup>2</sup>
+Sum of `Absolute` of Coefficient | Sum of `Squared` of Coefficients | Mix of `Absolute` and `Square`
+Can lead Coefficient to **Exactly** `Zero` | Lead to **Minimize** Coefficient but not `Zero`
+Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
 
 Loss Function | Cost Function ( Quantifies Error between Predicted Values and Expected Values )
 
@@ -42,10 +42,4 @@ Loss Function | Cost Function ( Quantifies Error between Predicted Values and Ex
 
 > Loss = Sum of Square **Residual** ( Actual - Prediction ) <sup>2</sup> 
 
-LASSO | Ridge | Elastic
-:--- | :--- | :---
-Least Absolute Shrinkage and Selection Operator ( L1 ) | Mountain Ridges ( L2 ) | Between L1 and L2 
-Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> | Loss + lambda1 * \| slope \| + lambda2 * slope<sup>2</sup>
-`Absolute` of Coefficient | `Square` of Coefficients | Mix of `Absolute` and `Square`
-Can lead Coefficient to Exactly Zero | Lead to Small Coefficient but not Zero | No Zero 
-Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
+
