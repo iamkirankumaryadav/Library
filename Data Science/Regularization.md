@@ -30,3 +30,22 @@ Loss Function | Cost Function ( Quantifies Error between Predicted Values and Ex
 - Elastic Net combines L1 and L2 and does not Eliminates Highly Colliner Coefficient ( Slope )
 - Learning Parameter means an Iterative Process that Updates Slope and Intercept at every Step by reducing the Loss | Cost Function ( Distances between Predictions and Actual Value ) as much as possible.
 - Main Aim is to Minimize the Loss. 
+
+### Regularization can Improve Rgeression
+- If we a Fit Regression Model on 100 Features ( Training )
+- Each Coefficient will Memorize each Observations ( Learn Pattern including **Noise** )
+- The Model would have Perfect Accuracy on the Training Data but it will not Generalize well on Test Data ( New Unseen Data )
+- Regularization can Prevent **Overfitting** by Artificially Penalizing Model Coefficient
+- It can **Discourage** Large Coefficients
+- It can **Remove** Features Completely ( Setting Coefficients to 0 )
+- It can **Encourage** Small Coefficients
+
+> Loss = Sum of Square **Residual** ( Actual - Prediction ) <sup>2</sup> 
+
+LASSO | Ridge | Elastic
+:--- | :--- | :---
+Least Absolute Shrinkage and Selection Operator ( L1 ) | Mountain Ridges ( L2 ) | Between L1 and L2 
+Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> | Loss + lambda1 * \| slope \| + lambda2 * slope<sup>2</sup>
+`Absolute` of Coefficient | `Square` of Coefficients | Mix of `Absolute` and `Square`
+Can lead Coefficient to Exactly Zero | Lead to Small Coefficient but not Zero | No Zero 
+Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
