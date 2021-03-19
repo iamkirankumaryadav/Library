@@ -7,7 +7,10 @@
 - Outliers in a **Dataset** can **Skew** the Data and lead to make Decisions based on **Faulty Data**.
 
 ### Cause of Outliers
-- Human Error ( Data Entry ) | Measurement ( Instrumental ) | Experimental ( Data Extraction ) | Natural Case ( Special Unique Case )
+- Human Error ( Data Entry ) 
+- Measurement ( Instrumental ) 
+- Experimental ( Data Extraction ) 
+- Natural Case ( Special Unique Case )
 
 In Machine Learning and in any **Quantitative Analysis** the **Quality** of Data is as important as Quality of **Prediction** or **Classification** Model.
 
@@ -16,7 +19,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 > **Data Visualization** is a most important part that plays the role of communicating with Data and Visualize Outlier.
 
-> **Boxplot**, **Scatter Plot** and **Histograms** are better plots to Find Outliers in the Data Set.
+> **Boxplot**, **Scatter Plot** and **Histograms** are better plots to find **Outliers** in the Data Set.
 
 ### Methods for Outlier Detection
 
