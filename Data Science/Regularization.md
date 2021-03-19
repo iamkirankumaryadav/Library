@@ -71,12 +71,12 @@ Ideal Value of Lambda produces Model that Generalizes Well on New Unseen Data, I
 ### 5. Ensembling
 - Combining Predictions from Multiple Seperate Models.
 
-A.Bagging (Reduce Chance of Overfitting)
+A. Bagging (Reduce Chance of Overfitting)
 
 - Trains Large Number of Strong Learners in Parallel
 - Select Majority | Mode
 
-B.Boosting (Improve Flexibity of Simple Models)
+B. Boosting (Improve Flexibity of Simple Models)
 
 - Trains Large Number of Weak Learners in Series | Sequence 
 - Each One in Series Focuses on Learning from the Mistakes of Earlier.
