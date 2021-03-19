@@ -58,17 +58,17 @@
 
 - Measures Goodness of Fit
 - Explains Variability of Model.
-- R2 = SSR / SST
-- R2 = ESS / TSS
+- R<sup>2</sup> = SSR / SST
+- R<sup>2</sup> = ESS / TSS
 - Explained Variability / Total Variability.
-- R2 ranges between 0 and 1
-- R2 = 0 means our Regression Line Explains None of the Variability of the Data
-- R2 = 1 means our Model Explains the Entire Variability of the Data.
+- R<sup>2</sup> ranges between 0 and 1
+- R<sup>2</sup> = 0 means our Regression Line Explains None of the Variability of the Data
+- R<sup>2</sup> = 1 means our Model Explains the Entire Variability of the Data.
 
 ### Note
 
-- R2 = 0 or R2 = 1 is very Rare.
-- R2 Actually Ranges between 0.2 to 0.9
+- R<sup>2</sup> = 0 or R<sup>2</sup> = 1 is very Rare.
+- R<sup>2</sup> Actually Ranges between 0.2 to 0.9
 
 ### What is Variability ?
 
