@@ -46,7 +46,7 @@
 List | Tuple | Set | Dictionary
 :--- | :--- | :--- | :---
 Mutable | Immutable | Immutable | Mutable
-Ordered | Ordered | Unordered ( Unique ) | Unordered ( Unique Key )
+Ordered | Ordered | Unordered ( Unique and Unindexed) | Unordered ( Unique Key )
 \[ \] or **list**( \[ \] ) | \( \) or **tuple**( \[ \] ) | \{ \} or **set**( \[ \] ) | \{ key : value \} or **dict**( \{ \} )
 
 - range : Immutable Generated Numbers 
