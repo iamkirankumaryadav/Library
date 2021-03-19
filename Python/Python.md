@@ -47,7 +47,7 @@ List | Tuple | Set | Dictionary
 :--- | :--- | :--- | :---
 Mutable | Immutable | Immutable | Mutable
 Ordered | Ordered | Unordered ( Unique ) | Unordered ( Unique Key )
-\[ \] | \( \) | \{ \} | \{ key : value \}
+\[ \] or list( \[ \] ) | \( \) or tuple( \[ \] ) | \{ \} or set( \[ \] ) | \{ key : value or dict( \{ \} ) \}
 
 - range : Immutable Generated Numbers 
 - str : Sequence of Characters
