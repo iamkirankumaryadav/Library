@@ -11,7 +11,7 @@
 - It Improves the **Generalization** Performance ( Performance on New Unseen Data )
 
 LASSO | RIDGE
-:---:  | :---:
+:---  | :---
 L1 | L2
 Loss + \| Slope \| | Loss + \( Slope \) <sup>2</sup>
 **Eliminate** Features | **Reduce** Impact of Features
