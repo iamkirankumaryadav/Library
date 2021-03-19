@@ -15,6 +15,7 @@
 ### Logistic Regression
 - Classify the Target Variables into Two Classes
 - If the Target Variable has more than 2 Classes then Create **Dummy** Variables.
+- Combine **Sparse** Categories ( Category Labels with very Less Observations )
 
 ### 1. Label Encoding
 - Substitute Bins by **Mean**
