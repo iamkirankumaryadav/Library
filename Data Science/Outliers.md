@@ -50,7 +50,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 > Divide the Data into 4 Equal Quarters ( Quartiles ) 
 
 1. Minimum : **Smallest** value in a Dataset.
-2. 1<sup>st</sup> **Quartile** ( **Q1** ) | 25<sup>th</sup> **Percentile** : 25% of Data Values are smaller and 75% are larger.
+2. `1<sup>st</sup> **Quartile** ( **Q1** )` | 25<sup>th</sup> **Percentile** : 25% of Data Values are smaller and 75% are larger.
 3. 2<sup>nd</sup> **Quartile** ( **Q2** ) | 50<sup>th</sup> **Percentile** : **Median** | 50% of Data Values are smaller and 50% are larger the Median.
 4. 3<sup>rd</sup> **Quartile** ( **Q3** ) | 75<sup>th</sup> **Percentile** : 75% of Data Values are smaller and 25% are larger.
 5. Maximum : **Largest** Value in a Dataset.
