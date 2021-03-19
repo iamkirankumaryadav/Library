@@ -24,6 +24,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 ### Methods for Outlier Detection
 
 <h3 name="zscore"> Z Score or Extreme Value Analysis</h3>
+
 - How many **Standard Deviations** a **Data Point** is from the **Sample's Mean**
 - **z** = ( x - **mean** ) / **standard deviation**
 - Data Points after **3 Standard Deviations** ( mean +- 3 * std ) are considered as **Outliers**.
@@ -65,6 +66,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 > **Outlier** is represented by dot ( **.** ) in **Boxplot**  
 
 <h3 name="algo"> Machine Learning Algorithms which are Sensitive to Outliers</h3>
+
 1. Linear Regression
 2. Logistic Regression
 3. K Nearest Neighbours
@@ -73,6 +75,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 6. Principle Component Analysis
 
 ### Machine Learning Algorithms which are not Sensitive to Outliers
+
 1. Decision Tree
 2. Random Forest 
 3. Naive Bayes 
