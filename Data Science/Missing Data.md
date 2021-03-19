@@ -1,6 +1,6 @@
 # How to Deal with Missing Data
 
-<a href="#del">Delete</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a>
+<h3><a href="#del">Delete</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
 <h3 name="del"> 1. Deletion</h3>
 - Remove **Particular Row** if it has a **NULL** value for **Particular Feature**.
