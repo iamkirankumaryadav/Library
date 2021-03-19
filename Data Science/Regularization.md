@@ -65,17 +65,19 @@ Ideal Value of Lambda produces Model that Generalizes Well on New Unseen Data, I
 ### 3. Remove Irrelevant Features and Duplicate Observations.
 
 ### 4. Early Stopping
-   Up until Certain Iterations, New Iterations improve the Model.
-   Model's Ability to Generalize can Weaken as it begins to Overfit Training Data.
+- Up until Certain Iterations, New Iterations improve the Model.
+- Model's Ability to Generalize can Weaken as it begins to Overfit Training Data.
 
 ### 5. Ensembling
 - Combining Predictions from Multiple Seperate Models.
 
 A.Bagging (Reduce Chance of Overfitting)
+
 - Trains Large Number of Strong Learners in Parallel
 - Select Majority | Mode
 
 B.Boosting (Improve Flexibity of Simple Models)
+
 - Trains Large Number of Weak Learners in Series | Sequence 
 - Each One in Series Focuses on Learning from the Mistakes of Earlier.
 - Combines All the Weak Learners into a Single Strong Learner.
