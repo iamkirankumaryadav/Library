@@ -33,7 +33,7 @@ Ideal Value of Lambda produces Model that Generalizes Well on New Unseen Data, I
 - Lasso Encourages Simple Sparse Model ( Model with Few Parameters )
 - Lasso Removes Variable if there is Multicollinearity ( Lasso Eliminates the Coefficient ( Variable ) )
 
-# Ridge ( L2 ) Square ( Slope ) :
+# Ridge ( L2 ) ( Slope ) <sup>2</sup> :
 - Loss Function ( Sum of Squared Error ) + lambda * Square ( Slope )
 - Ridge decreases | Minimizes the Complexity of Model 
 - But does not Reduce Number of Variables ( Do not Remove any Irrelevant Feature ). 
