@@ -12,9 +12,10 @@
 
 LASSO | RIDGE
 :---  | :---
-L1 | L2
+L1 Regularization | L2 Regularization
 Loss + \| Slope \| | Loss + \( Slope \) <sup>2</sup>
-**Eliminate** Features | **Reduce** Impact of Features
+Absolute Sum of Coefficients | Square of Coefficient
+**Eliminate** Features ( Multicollinearity ) | **Reduce** Impact of Features ( Never Set to Zero )
  
 
 Loss Function | Cost Function ( Quantifies Error between Predicted Values and Expected Values )
@@ -26,21 +27,6 @@ Loss Function | Cost Function ( Quantifies Error between Predicted Values and Ex
 
 
 Ideal Value of Lambda produces Model that Generalizes Well on New Unseen Data, Ideal Value of Lambda is Data Dependent, so need some Tuning.  
-
-# Lasso ( L1 ) | Slope | :
-- Loss Function ( Sum of Squared Error ) + lambda * | Slope |
-- LASSO ( Least Absolute Shrinkage and Selection Operator ) | Add Absolute Sum of Coefficient to Cost Function,
-- Lasso tends to make Coefficients to Absolute Zeros which Reduces Features.
-- Lasso Encourages Simple Sparse Model ( Model with Few Parameters )
-- Lasso Removes Variable if there is Multicollinearity ( Lasso Eliminates the Coefficient ( Variable ) )
-
-# Ridge ( L2 ) ( Slope ) <sup>2</sup> :
-- Loss Function ( Sum of Squared Error ) + lambda * Square ( Slope )
-- Ridge decreases | Minimizes the Complexity of Model 
-- But does not Reduce Number of Variables ( Do not Remove any Irrelevant Feature ). 
-- Ridge Never Sets the Value of Coefficient to Absolute Zero.
-- Analyze Data that Suffers from Multicollinearity.
-- Performs L2 Regularization.
 
 # Elastic Net :
 - Elastic Net combines L1 and L2 and does not Eliminates Highly Colliner Coefficient ( Slope )
