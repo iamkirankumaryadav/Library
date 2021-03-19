@@ -72,7 +72,7 @@
 
 ### What is Variability ?
 
-- How Spread Out the Data is. 
+- How **Spread** Out the Data is. 
 - Data Points are Distributed.  
 - Far Distance with Each Other.
 
@@ -108,6 +108,6 @@
 
 ### Standard Deviation
 
-- Data is Around the Mean or Away from Mean.
+- Data is **Closer** to the Mean or **Away** from the Mean.
 - Tall Bell Curve : Data is Tightly around Mean.
 - Small Bell Curve : Data is Uniformely Spread.
