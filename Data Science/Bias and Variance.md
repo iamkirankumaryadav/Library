@@ -18,23 +18,22 @@ High Bias Algorithm ( Regression ) | High Variance Algorithm ( Decision Tree, KN
 - Non Linear Algorithms often have **Low Bias**.
 
 ### How to Reduce Bias?
-- K Fold **Cross Validations** and **Resampling** | Split Data Set into K Numbers and Each Set is used as Testing Set.
-- Use Algorithms that works on Non Linear Data
-- **Bootstrapping** and **Boosting** | Iteratively Resampling a Data Set with Replacement.
+- K Fold **Cross Validations** and **Resampling** | Split Data Set into **K** Numbers and Each Set is used as Testing Set
+- Use **Algorithms** that works on Non Linear Data
+- **Bootstrapping** and **Boosting** | Iteratively **Resampling** a Data Set with **Replacement**
 
 ### Bias Variance Trade Off
 
-Increasing Bias decreases Variance and Increasing Variance decreases Bias,
+- Increasing Bias decreases Variance and Increasing Variance decreases Bias,
+- Find the Correct Balance : Low Bias and Low Variance.   
 
-Trade Off - Find the Correct Balance : Low Bias and Low Variance.   
-
-### Underfitting | Simple Model : High Bias + Low Variance
+### Underfitting | High Bias + Low Variance ( Simple Model )
 - **High** Bias : **High** Error on Training Data ( **Underfitting** )
 - **Low** Variance : **Low** Error on Test Data ( **Genralized** )
 - The Model Fails to Characterize the Basic Data Correctly. 
 - The Model and Algorithm does not Fit the Data Well enough.
 
-### Overfitting | Complex Model : Low Bias + High Variance
+### Overfitting | Low Bias + High Variance ( Complex Model )
 - **Low** Bias : **Low** Error on Train Data ( Model is **Trained** very Well + **Noise** )
 - **High** Variance : **High** Error on Test Data ( Performs Bad on **New Unseeen Data** )
 - When a Massive Amount of Data Trains a Machine Learning Model, it tends to Learn from **Noise** and **Inaccurate** Data.
