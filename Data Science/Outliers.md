@@ -1,5 +1,7 @@
 # How to Deal with Outliers ?
 
+<h3><a href="#zscore">Z Score ( Extreme Value Analysis )</a> | <a href="#dbscan">DBSCAN</a> | <a href="#summary">5 Number Summary</a> | <a href="#algo">Algorithm</a></h3>
+
 ### Outliers
 - **Data Point** that differs significantly from other **Observations** in the Dataset.
 - Outliers in a **Dataset** can **Skew** the Data and lead to make Decisions based on **Faulty Data**.
@@ -21,14 +23,14 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 ### Methods for Outlier Detection
 
-### 1. Z Score or Extreme Value Analysis
+<h3 name="zscore"> Z Score or Extreme Value Analysis</h3>
 - How many **Standard Deviations** a **Data Point** is from the **Sample's Mean**
 - **z** = ( x - **mean** ) / **standard deviation**
 - Data Points after **3 Standard Deviations** ( mean +- 3 * std ) are considered as **Outliers**.
 
 > **Solution** : Apply Transformation of Data : Scaling
 
-### ( DBSCAN ) | Density Based Spatial Clustering of Applications with Noise
+<h3 name="dbscan"> ( DBSCAN ) | Density Based Spatial Clustering of Applications with Noise</h3>
 - **Clustering** methods are useful tools that helps us to **Visualize** and **Understand** Data better.
 - Relationships between **Features** can be represented via **Clustering**.
 - **DBSCAN** is a **Density Based Clustering Algorithm**, it is focused on finding **Neighbors** by **Density**.
@@ -41,7 +43,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 3. **Inter Quartile** Range 
 4. Change the Value of Outlier or Replace it with something Meaningful.
 
-### Five Number Summary
+<h3 name="summary"> Five Number Summary</h3>
 
 > Divide the Data into 4 Equal Quarters
 
@@ -62,7 +64,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 > **Outlier** is represented by dot ( **.** ) in **Boxplot**  
 
-### Machine Learning Algorithms which are Sensitive to Outliers
+<h3 name="algo"> Machine Learning Algorithms which are Sensitive to Outliers</h3>
 1. Linear Regression
 2. Logistic Regression
 3. K Nearest Neighbours
