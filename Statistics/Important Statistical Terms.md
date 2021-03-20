@@ -4,6 +4,10 @@
 <h3> <a href='#hyp'>Hypothesis </a> </h3>
 <h3> <a href='#sample'>Sampling </a> </h3>
 
+### Independent | Feature | Regressor | Explanatory | Input | Predictor
+
+### Dependent | Labels | Regressand | Response | Output
+
 <h3 name='data'> Data Set </h3> 
 
 - A **Collection** of **Observations** from a **Sample** or Entire **Population**
