@@ -91,7 +91,7 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 
 - **Probability** of **Achieving** a result.
 - Determine **Strength** of your Results in **Hypothesis Test**.
-- if p value < alpha ( 0.05 | 5% ) we remove that feature. ( **Do not** Accept Null Hypothesis )
+- if p value < alpha ( 0.05 | 5% ) we remove that feature. ( **Reject** Null Hypothesis )
 - if p value > alpha ( 0.05 | 5% ) we keep that feature. ( **Accept NULL Hypothesis** : **H0** )
 
 **Significance** Level ( **Alpha** )
