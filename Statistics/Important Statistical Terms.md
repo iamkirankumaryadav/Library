@@ -81,6 +81,10 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 
 ### Type I and Type II Error
 
+**Type I** Error : The **Null Hypothesis** is **True** but **Rejected**
+
+**Type II** Error : The **Null Hypothesis** is **False** but **Fails** to **Reject**
+
 ![Error Type](Image/ErrorType.jpg)
 
 ### 1. P Values
