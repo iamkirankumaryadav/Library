@@ -23,10 +23,10 @@
   </tr>
   <tr>
     <th>
-      Predict Continuous Data
+      `Predict` Continuous Data
     </th>
     <th>
-      Classify Discrete Data
+      `Classify` Discrete Data
     </th>
   </tr>
   <tr>
@@ -48,20 +48,6 @@
     </td>
   </tr>
 </table>
-
-### Regression ( Predict Continuous Data )
-
-1. Linear Regression
-2. Polynomial Regression
-4. Ridge and Lasso Regression
- 
-### Classification ( Classify Discrete Data )
-
-1. Logistic Regression
-2. Decision Tree
-3. Support Vector Machine 
-4. Naive Bayes
-5. K Nearest Neighbors
 
 
 # Unsupervised Learning
