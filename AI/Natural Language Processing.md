@@ -140,8 +140,7 @@ How to `Remove` Stopwords Using NLTK
 - Create a Document Term **Matrix** 
 - One **Row** per **Document** ( Number of Time the Term appears in Document )
 - One **Column** per **Word** in the **Corpus** ( Number of Documents containing the Word )
-- Shows how Important a given **Word** is to the **Document**
-- 
+- Shows how Important a given **Word** is to the **Document** 
 
 ### Feature Vector
 - An `N Dimensional Vector` of **Numerical Features** that Represents some `Object`.
