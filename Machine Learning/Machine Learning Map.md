@@ -9,6 +9,8 @@
     <th colspan=2>
       Supervised Learning
     </th>
+  </tr>
+  <tr>   
     <th>
       Regression
     </th>
