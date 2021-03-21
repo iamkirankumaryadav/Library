@@ -41,11 +41,11 @@
       <ol type="1">
         <li><a href=#linreg>Linear</a> ( Straight Line )
           <ul>
-            <li>Simple Linear</li>
-            <li>Multiple Linear</li>
+            <li>Simple Linear ( Line of Best Fit )</li>
+            <li>Multiple Linear ( Plane of Best Fit )</li>
           </ul>
         </li>
-        <li>Polynomial ( Curved Line )</li>
+        <li>Polynomial ( Curve of Best Fit )</li>
         <li>Ridge and Lasso</li>
       </ol>
     </td>
