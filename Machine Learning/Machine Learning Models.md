@@ -130,11 +130,11 @@
 
 ![Equation of Line](Image/EquationLine.png)
 
-> Simple Linear Regression : Find the Line that **Fits** the Data.
+> Simple Linear Regression : Find the **Line** of Best Fit
 
-> Multiple Linear Regression : Find the Plane | Hyperplane of **Best Fit**.
+> Multiple Linear Regression : Find the **Plane** | **Hyperplane** of Best Fit.
 
-> Polynomial Regression : Find a Curve for **Best Fit**. 
+> Polynomial Regression : Find a **Curve** of Best Fit. 
 
 <h3 name='logreg'>2. Logistic Regression ( Classification )</h3>
 
