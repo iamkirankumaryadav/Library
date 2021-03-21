@@ -145,6 +145,9 @@
 
 ![Equation of Line](Image/EquationLine.png)
 
+- Dependent ( Output ) should be **Continuous** 
+- Used for **Prediction**
+
 > Simple Linear Regression : Find the **Line** of Best Fit
 
 > Multiple Linear Regression : Find the **Plane** | **Hyperplane** of Best Fit.
@@ -156,7 +159,6 @@
 - Dependent ( Output ) should be **Discrete** ( 0 or 1 )
 - Used for **Classification**
 - Probability of Finite Number of Outcomes | Occurence.
-- Output values can be between 0 and 1
  
 <h3 name='tree'>3. Decision Tree</h3>
 
