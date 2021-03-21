@@ -20,6 +20,9 @@
     <th>
       Classification
     </th>
+    <th>
+      Clustering
+    </th>
   </tr>
   <tr>
     <th>
