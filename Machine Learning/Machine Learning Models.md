@@ -1,10 +1,8 @@
 <h1 align="center">Machine Learning Models 🤖🚀💻</h1>
 
-<h4 align="center">Predict Continuous Data : <a href=#linreg>Linear Regression</a></h4>
-
-<a href=#logreg><strong>2. Logistic Regression</strong></a>&nbsp; |&nbsp; <a href=#tree><strong>3. Decision Tree<strong></strong></a>&nbsp; |&nbsp; <a href=#forest><strong>4. Random Forest</strong></a>&nbsp; |&nbsp; <a href=#svm><strong>5. SVM</strong></a>&nbsp; |&nbsp; <a href=#knn><strong>6. KNN</strong></a>&nbsp; |&nbsp; <a href=#naive><strong>7. Naive Bayes</strong></a>
+&nbsp; |&nbsp; |&nbsp; <a href=#forest><strong>4. Random Forest</strong></a>&nbsp; |&nbsp; <a href=#svm><strong>5. SVM</strong></a>&nbsp; |&nbsp; <a href=#knn><strong>6. KNN</strong></a>&nbsp; |&nbsp; <a href=#naive><strong>7. Naive Bayes</strong></a>
  
-<h3><a href=#unsup>Unsupervised Learning</a> : Cluster | Segment | Group Similar Data </h3> 
+
 
 <a href=#kmean><strong>1. K Mean</strong></a>&nbsp; |&nbsp; <a href=#hc><strong>2. Hierarchical</strong></a>
 
@@ -18,7 +16,7 @@
       <a href=#sup>Supervised Learning</a>
     </th>
     <th>
-      Unsupervised Learning
+      <a href=#unsup>Unsupervised Learning</a>
     </th>
     <th>
       Reinforcement Learning
@@ -61,8 +59,8 @@
     </td>
     <td>
       <ol type="1">
-        <li>Logistic Regression</li>
-        <li>Decision Tree</li>
+        <li><a href=#logreg>Logistic Regression</a></li>
+        <li><a href=#tree>Decision Tree</a></li>
         <li>Support Vector Machine</li>
         <li>Naive Bayes</li>
         <li>K Nearest Neighbors</li>
