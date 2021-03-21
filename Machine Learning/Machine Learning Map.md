@@ -8,6 +8,9 @@
     <th>
       Unsupervised Learning
     </th>
+    <th>
+      Reinforcement Learning
+    </th>
   </tr>
   <tr>   
     <th>
