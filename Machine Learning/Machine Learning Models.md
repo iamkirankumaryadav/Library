@@ -28,19 +28,37 @@
 
 > Learner makes **Adjustments** in the Parameters and the Model to Align the Predictions with Actual Results.
 
-<h1 name='sup'> Supervised Learning</h1>
-
-### A. Regression
-
-- Predict **Dependent Variable** ( **Continuous** ) on the basis of one or more **Independent Features** 
-- Find **Relationship** between **Independent Variables** and **Dependent Variable**
-- Can be further Improved by **Regularization** or by using **Non Linear Model**
-
-### B. Classififcation
-
-- Predict **Dependent Variable** ( Categories of Labels ) on the basis of **Independent Features**
-- Find **Relationship** between **Independent Variable** and **Dependent Variable**
-- Output is **Discrete**
+<table>
+ <tr>
+  <th colspan="2">
+   <h3 name='sup'>Supervised Learning</h3>
+  </th>
+ </tr>
+ <tr>
+  <th>
+   Regression
+  </th>
+  <th>
+   Classififcation
+  </th>  
+ </tr>
+ <tr>
+  <td>
+   <ul>
+    <li>Predict Dependent Variable ( Continuous ) on the basis of one or more Independent Features </li>
+    <li>Find Relationship between Independent Variables and Dependent Variable</li>
+    <li>Can be further Improved by Regularization or by using Non Linear Model</li>
+   </ul>
+  </td>
+  <td>
+   <ul>
+    <li>Predict Dependent Variable ( Categories of Labels ) on the basis of Independent Features</li>
+    <li>Find Relationship between Independent Variable and Dependent Variable</li>
+    <li>Output is Discrete</li>
+   </ul>
+  </td>
+ </tr>
+</table>
 
 <h3 name='linreg'>1. Linear Regression</h3> 
 
