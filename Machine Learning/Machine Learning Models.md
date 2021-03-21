@@ -51,7 +51,7 @@
     </td>
     <td>
       <ol type="1">
-        <li><a href=#logreg>Logistic</a></li>
+        <li><a href=#logreg>Logistic Regression</a></li>
         <li><a href=#tree>Decision Tree</a></li>
         <li><a href=#forest>Random Forest</a></li>
         <li><a href=#svm>Support Vector Machine</a></li>
