@@ -287,6 +287,10 @@ B. Divisive
  
 ### 3. Density Based Clustering
 
+- **DBSCAN** ( Density Based Spatial Clustering of Applications with **Noise** )
+- Groups together Points based on Density ( High Density Region : Points are Close to each other )
+- Data Points which are in **Low Density** regions are **Outliers**
+
 ### B. Dimensionality Reduction
 
 - Aim is to find  the **Inportant Features** that can be used for by our Model for Better Predition.
