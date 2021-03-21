@@ -17,7 +17,7 @@
 <table align='center'>
   <tr>
     <th colspan=2>
-      Supervised Learning
+      <a href=#sup>Supervised Learning</a>
     </th>
     <th>
       Unsupervised Learning
