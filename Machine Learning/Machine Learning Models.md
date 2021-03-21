@@ -28,7 +28,7 @@
 
 > Learner makes **Adjustments** in the Parameters and the Model to Align the Predictions with Actual Results.
 
-<table>
+<table align="center">
  <tr>
   <th colspan="2">
    <h3 name='sup'>Supervised Learning</h3>
