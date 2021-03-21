@@ -1,10 +1,6 @@
 <h1 align="center">Machine Learning Models 🤖🚀💻</h1>
 
-
-
-![Machine Learning Algorithms](Image/MLAlgorithm.png)
-
-<h1 align="center">Machine Learning Map</align></h1>
+<h3 align="center">Machine Learning Map</align></h3>
   
 <table align='center'>
   <tr>
