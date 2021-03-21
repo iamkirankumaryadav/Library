@@ -132,6 +132,17 @@ How to `Remove` Stopwords Using NLTK
 - **Converting** Text to form `Numbers` that an **Algorithm** and a **Machine Learning Model** can `Understand` and `Learn`.
 - **Process** of `Encoding` Text as `Integers` to Create `Feature Vectors`.
 
+### TF - IDF
+
+![TFIDF](Image/TFIDF.png)
+
+- Term Frequency - Inverse Document Frequency
+- Create a Document Term **Matrix** 
+- One **Row** per **Document** ( Number of Time the Term appears in Document )
+- One **Column** per **Word** in the **Corpus** ( Number of Documents containing the Word )
+- Shows how Important a given **Word** is to the **Document**
+- 
+
 ### Feature Vector
 - An `N Dimensional Vector` of **Numerical Features** that Represents some `Object`.
 
