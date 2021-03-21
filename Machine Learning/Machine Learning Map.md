@@ -13,6 +13,14 @@
       Classification
     </th>
   </tr>
+  <tr>
+    <th>
+      Predict Continuous Data
+    </th>
+    <th>
+      Classify Discrete Data
+    </th>
+  </tr>
 </table>
 
 ### Regression ( Predict Continuous Data )
