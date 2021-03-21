@@ -52,7 +52,7 @@
         <li><a href=#logreg>Logistic Regression</a></li>
         <li><a href=#tree>Decision Tree</a></li>
         <li>
-          Ensemble Techniques
+          <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md">Ensemble Techniques</a>
           <ul>
             <li>Bagging
             <ol type="A">
