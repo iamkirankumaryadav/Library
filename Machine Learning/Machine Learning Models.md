@@ -61,9 +61,9 @@
             </li>
             <li>Boosting
             <ol type="A">
-              <li><a href=#forest>ADABOOST</a></li>
-              <li><a href=#forest>Gradient Boosting</a></li>
-              <li><a href=#forest>XGBOOST</a></li>
+              <li><a>ADABOOST</a></li>
+              <li><a>Gradient Boosting</a></li>
+              <li><a>XGBOOST</a></li>
             </ol>
             </li>
           </ul>
