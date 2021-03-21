@@ -6,6 +6,9 @@
 
 <table>
   <tr>
+    <th colspan=2>
+      Supervised Learning
+    </th>
     <th>
       Regression
     </th>
