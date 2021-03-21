@@ -134,6 +134,8 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 - Probabilistic Machine Learning Model ( Likelihood, Prior Probability and Posterior Probability )
 - Probability of **Event A** if **Event B** has already occured
 - **Naive** : Because it assumes that all of the **Independent Features** are **Independent** from each other
+- e.g **Classification** of Dogs Breed ( Naive Bayes tries to Create a **Probability** that the Dog belongs in each Class | Label )
+- Weights can be Added to Improve **Accuracy** 
 
 > P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
 
