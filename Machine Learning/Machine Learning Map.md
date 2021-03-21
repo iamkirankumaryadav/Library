@@ -21,6 +21,15 @@
       Classify Discrete Data
     </th>
   </tr>
+  <tr>
+    <td>
+      <ol type="1">
+        <li>Linear Regression</li>
+        <li>Polynomial Regression</li>
+        <li>Ridge and Lasso Regression</li>
+      </ol>
+    </td>
+  </tr>
 </table>
 
 ### Regression ( Predict Continuous Data )
