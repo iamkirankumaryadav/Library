@@ -2,15 +2,15 @@
 
 1. Easy to **Read**, **Learn** and **Write**
 2. **High Level** Programming Language ( Similar to English Language )
-3. **Dynamically** Typed ( Object has no Type | Value has types | Object can Change its Data Type Dynamically )
-4. Abundance of Libraries ( Pandas, NumPy, SciPy, etc. ) and Frameworks ( Django, Flask, etc. )
+3. **Dynamically** Typed ( **Data Type** of Object is based on its **Value** | Object can Change its Data Type Dynamically )
+4. Abundance of **Libraries** ( Pandas, NumPy, SciPy, etc. ) and **Frameworks** ( Django, Flask, etc. )
 5. Useful for Data Science, Machine Learning, Artificial Intelligence and Web Development
-6. Portable and Flexible ( Jupyter Language, Command Prompt, IDE, Text Editor, Google Colab )
+6. **Portable** and **Flexible** ( Jupyter Language, Command Prompt, IDE, Text Editor, Google Colab )
 7. Open Source with **Vibrant Community**
-8. Rich Docuumentation ( Python as well as Documentation of Libraries )
-9. Interpreted Language ( Executes **Line by Line**)
-10. Modularity : Working in Seperate **Modules** | Helps to **Focus** | Make **Development Easy** and Less Error prone.
-11. Reusability : **Modules** can be easily reused by other part of the program
+8. Rich **Docuumentation** ( Python as well as Documentation of Libraries )
+9. **Interpreted** Language ( Executes **Line by Line**)
+10. **Modularity** : Working in Seperate **Modules** | Helps to **Focus** | Make **Development Easy** and Less Error Prone.
+11. **Reusability** : **Modules** can be easily reused by other part of the Program
 
 | Interpreter                                                 | Compiler                                           |
 | :---                                                        | :---                                               |
@@ -23,8 +23,7 @@
 - Style Guidelines for **Clean Code**.
 
 ### Memory Management 
-- Python Memory Manager
-- Private Heap Space
+- Python **Memory Manager** | Private **Heap Space**
 - All **Objects** are stored in Heap ( **Inaccessible** to the Programmers )
 - In built **Garbage Collection** to **Recycle** the unused memory for the **Private Heap Space**.
 
@@ -49,8 +48,8 @@ Mutable | Immutable | Immutable | Mutable
 Ordered | Ordered | Unordered ( Unique and Unindexed) | Ordered ( Unique Key )
 \[ \] or **list**( \[ \] ) | \( \) or **tuple**( \[ \] ) | \{ \} or **set**( \[ \] ) | \{ key : value \} or **dict**( \{ \} )
 
-- range : Immutable Generated Numbers 
-- str : Sequence of Characters
+- range : Immutable **Generated** Numbers 
+- str : Sequence of **Characters**
 
 ### Protected 
 - Attributes defined with Underscore ( **\_name** )
@@ -87,7 +86,7 @@ Ordered | Ordered | Unordered ( Unique and Unindexed) | Ordered ( Unique Key )
 
 ### Unpickling
 - **Deserialization**
-- Object can be **deserialized** the **byte** stream to **recreate** the Object stored in the file and **load** the Object to Memory.
+- Object can be **deserialized**, the **byte** stream to **recreate** the Object stored in the file and **load** the Object to Memory.
 - **pickle.load()**
 
 ### Generators
