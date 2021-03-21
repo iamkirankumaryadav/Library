@@ -43,7 +43,7 @@
           <ol type="a">
             <li>Simple Linear ( Line of Best Fit )</li>
             <li>Multiple Linear ( Plane of Best Fit )</li>
-          </0l>
+          </ol>
         </li>
         <li>Polynomial ( Curve of Best Fit )</li>
         <li>Lasso ( L1 ) and Ridge ( L2 )</li>
