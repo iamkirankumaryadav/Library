@@ -1,10 +1,6 @@
 <h1 align="center">Machine Learning Models 🤖🚀💻</h1>
 
-&nbsp; |&nbsp; |&nbsp; <a href=#forest><strong>4. Random Forest</strong></a>&nbsp; |&nbsp; <a href=#svm><strong>5. SVM</strong></a>&nbsp; |&nbsp; <a href=#knn><strong>6. KNN</strong></a>&nbsp; |&nbsp; <a href=#naive><strong>7. Naive Bayes</strong></a>
- 
-
-
-&nbsp; |&nbsp; <a href=#hc><strong>2. Hierarchical</strong></a>
+<a href=#forest><strong>4. Random Forest</strong>&nbsp; |&nbsp; </a>
 
 ![Machine Learning Algorithms](Image/MLAlgorithm.png)
 
@@ -61,15 +57,15 @@
       <ol type="1">
         <li><a href=#logreg>Logistic</a></li>
         <li><a href=#tree>Decision Tree</a></li>
-        <li>Support Vector Machine</li>
-        <li>Naive Bayes</li>
-        <li>K Nearest Neighbors</li>
+       <li><a href=#svm>Support Vector Machine</a></li>
+       <li><a href=#naive>Naive Bayes</a></li>
+       <li><a href=#knn>K Nearest Neighbors</a></li>
       </ol>
     </td>
     <td>
       <ol type="1">
         <li><a href=#kmean>K Mean</a></li>
-        <li>Hierarchical Clustering</li>
+        <li><a href=#hc>Hierarchical</a></li>
         <li>DBSCAN</li>      
       </ol>
     </td>
