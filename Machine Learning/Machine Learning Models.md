@@ -9,10 +9,7 @@
     </th>
     <th>
       <a href=#unsup>Unsupervised Learning</a>
-    </th>
-    <th>
-      Reinforcement Learning
-    </th>
+    </th>    
   </tr>
   <tr>   
     <th>
