@@ -31,6 +31,9 @@
     <th>
       Classify Discrete Data
     </th>
+    <th>
+      Group Similar Data 
+    </th>
   </tr>
   <tr>
     <td>
@@ -49,16 +52,16 @@
         <li>K Nearest Neighbors</li>
       </ol>
     </td>
+    <td>
+      <ol type="1">
+        <li>K Mean Clustering</li>
+        <li>Hierarchical Clustering</li>
+        <li>DBSCAN</li>      
+      </ol>
+    </td>
   </tr>
 </table>
-
-
-# Unsupervised Learning
-- Cluster | Segment | Group Similar Data 
-
-1. K Mean Clustering
-2. Hierarchical Clustering
-3. DBSCAN 
+ 
 
 ![Machine Learning Map](Image/MLMap.jpg)
 
