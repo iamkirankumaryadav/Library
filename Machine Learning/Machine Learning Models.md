@@ -140,6 +140,7 @@
 </table>
 
 <h3 name='linreg'>1. Linear Regression</h3>
+
 - Dependent ( Output ) should be **Continuous** 
 - Used for **Prediction**
 - **Simple** Linear Regression : Find the **Line** of Best Fit
