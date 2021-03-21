@@ -23,10 +23,10 @@
   </tr>
   <tr>
     <th>
-      <strong>Predict</strong> Continuous Data
+      Predict Continuous Data
     </th>
     <th>
-      <strong>Classify</strong> Discrete Data
+      Classify Discrete Data
     </th>
   </tr>
   <tr>
