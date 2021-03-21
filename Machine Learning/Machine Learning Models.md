@@ -228,7 +228,7 @@ All follow Same Process in **Regression** and **Classification** the only differ
 - The Data Points are Updated based on New Centroid
 - **Iterative** Process | Stops when there is no further Classification.
 - Different Starting Points ( Random Centroid Selected ) Create Different Clusters 
-- **Elbow** Method : Sum of Squared Distance get smaller as the Number of Clusters Increases
+- **Elbow** Method : Sum of Squared Distance get smaller as the Number of Clusters Increases | Used to Find **Optimal** Number of Clusters
 
 <h3 name='hc'>2. Hierarchical Clustering</h3>
 
