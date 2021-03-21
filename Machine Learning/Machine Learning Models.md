@@ -33,6 +33,8 @@
   <th colspan="2">
    <h3 name='sup'>Supervised Learning</h3>
   </th>
+ </tr>
+ <tr>
   <th colspan="2">
    One or More Independent Features is used to Predict Dependent Continuous Values or Classify Discrete Labels
   </th>
