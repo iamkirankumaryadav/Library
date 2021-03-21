@@ -103,44 +103,10 @@
 
 > Learner makes **Adjustments** in the Parameters and the Model to Align the Predictions with Actual Results.
 
-<table align="center">
- <tr>
-  <th colspan="2">
-   <h3 name='sup'>Supervised Learning</h3>
-  </th>
- </tr>
- <tr>
-  <th colspan="2">
-   One or More Independent Features is used to Predict Dependent Continuous Values or Classify Discrete Labels
-  </th>
- </tr>
- <tr>
-  <th>
-   Regression
-  </th>
-  <th>
-   Classififcation
-  </th>  
- </tr>
- <tr>
-  <td>
-   <ul>
-    <li>Predict Continuous Numeric Value</li>
-    <li>Output is Continuous</li>
-    <li>Further Improved by Regularization or by using Non Linear Model</li>
-   </ul>
-  </td>
-  <td>
-   <ul>
-    <li>Classify Discrete Classes</li>   
-    <li>Output is Discrete</li>
-   </ul>
-  </td>
- </tr>
-</table>
 
 <h3 name='linreg'>1. Linear Regression</h3>
 
+- One or More Independent Features is used to **Predict** Continuous Dependent Variable
 - Dependent ( Output ) should be **Continuous** 
 - Used for **Prediction**
 - **Simple** Linear Regression : Find the **Line** of Best Fit
@@ -153,6 +119,7 @@
 
 <h3 name='logreg'>2. Logistic Regression ( Classification )</h3>
 
+- One or More Independent Features is used to **Classify** Discrete Labels 
 - Dependent ( Output ) should be **Discrete** ( 0 or 1 )
 - Used for **Classification**
 - Probability of Finite Number of Outcomes | Occurence.
