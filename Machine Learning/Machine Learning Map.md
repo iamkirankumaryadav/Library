@@ -4,6 +4,17 @@
   
 # Supervised Learning
 
+<table>
+  <tr>
+    <th>
+      Regression
+    </th>
+    <th>
+      Classification
+    </th>
+  </tr>
+</table>
+
 ### Regression ( Predict Continuous Data )
 
 1. Linear Regression
