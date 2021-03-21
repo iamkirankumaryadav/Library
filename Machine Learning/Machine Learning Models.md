@@ -79,6 +79,7 @@
   </tr>
 </table>
 
+![Machine Learning Map](Image/MLMap.jpg)
 
 ### Steps of Machine Learning
 1. Gathering Data
