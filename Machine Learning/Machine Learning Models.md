@@ -50,7 +50,15 @@
       <ol type="1">
         <li><a href=#logreg>Logistic Regression</a></li>
         <li><a href=#tree>Decision Tree</a></li>
-        <li><a href=#forest>Random Forest</a></li>
+        <li>
+          Ensemble Techniques
+          <ul>
+            Bagging
+            <ol type="A">
+              <li><a href=#forest>Random Forest</a></li>
+            </ol>
+          </ul>
+        </li>        
         <li><a href=#svm>Support Vector Machine</a></li>
         <li><a href=#naive>Naive Bayes</a></li>
         <li><a href=#knn>K Nearest Neighbors</a></li>
