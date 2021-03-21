@@ -45,19 +45,17 @@
  <tr>
   <td>
    <ul>
-    <li>Predict Continuous Numeric Value ( Dependent Variables )</li>
+    <li>Predict Continuous Numeric Value</li>
     <li>Output is Continuous</li>
+    <li>Further Improved by Regularization or by using Non Linear Model</li>
    </ul>
   </td>
   <td>
    <ul>
-    <li>Classify Discrete Classes ( Dependent Labels )</li>   
+    <li>Classify Discrete Classes</li>   
     <li>Output is Discrete</li>
    </ul>
   </td>
- </tr>
- <tr>
-  <td colspan="2">Can be further Improved by Regularization or by using Non Linear Model</td>
  </tr>
 </table>
 
