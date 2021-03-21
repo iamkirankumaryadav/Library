@@ -1,9 +1,7 @@
 # Machine Learning
 
-<h3><a href="">Supervised Learning</a> &nbsp;| &nbsp; <a href="">Unsupervised Learning</a> &nbsp;| &nbsp; <a href="">Reinforcement Learning</a> </h3> 
+<h3 align="center"><a href="">Supervised Learning</a> &nbsp;| &nbsp; <a href="">Unsupervised Learning</a> &nbsp;| &nbsp; <a href="">Reinforcement Learning</a> </h3> 
   
-# Supervised Learning
-
 <table align='center'>
   <tr>
     <th colspan=2>
