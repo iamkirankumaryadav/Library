@@ -1,6 +1,6 @@
 <h1 align="center">Machine Learning Models 🤖🚀💻</h1>
 
-<a href=#forest><strong>4. Random Forest</strong>&nbsp; |&nbsp; </a>
+
 
 ![Machine Learning Algorithms](Image/MLAlgorithm.png)
 
@@ -57,9 +57,10 @@
       <ol type="1">
         <li><a href=#logreg>Logistic</a></li>
         <li><a href=#tree>Decision Tree</a></li>
-       <li><a href=#svm>Support Vector Machine</a></li>
-       <li><a href=#naive>Naive Bayes</a></li>
-       <li><a href=#knn>K Nearest Neighbors</a></li>
+        <li><a href=#forest>Random Forest</a></li>
+        <li><a href=#svm>Support Vector Machine</a></li>
+        <li><a href=#naive>Naive Bayes</a></li>
+        <li><a href=#knn>K Nearest Neighbors</a></li>
       </ol>
     </td>
     <td>
