@@ -139,20 +139,16 @@
  </tr>
 </table>
 
-<h3 name='linreg'>1. Linear Regression</h3> 
+<h3 name='linreg'>1. Linear Regression</h3>
+- Dependent ( Output ) should be **Continuous** 
+- Used for **Prediction**
+- **Simple** Linear Regression : Find the **Line** of Best Fit
+- **Multiple** Linear Regression : Find the **Plane** | **Hyperplane** of Best Fit.
+- **Polynomial** Regression : Find a **Curve** of Best Fit. 
 
 ![Linear Regression](Image/RegressionLine.png)
 
 ![Equation of Line](Image/EquationLine.png)
-
-- Dependent ( Output ) should be **Continuous** 
-- Used for **Prediction**
-
-> Simple Linear Regression : Find the **Line** of Best Fit
-
-> Multiple Linear Regression : Find the **Plane** | **Hyperplane** of Best Fit.
-
-> Polynomial Regression : Find a **Curve** of Best Fit. 
 
 <h3 name='logreg'>2. Logistic Regression ( Classification )</h3>
 
