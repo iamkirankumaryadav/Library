@@ -9,6 +9,9 @@
     <th colspan=2>
       Supervised Learning
     </th>
+    <th>
+      Unsupervised Learning
+    </th>
   </tr>
   <tr>   
     <th>
