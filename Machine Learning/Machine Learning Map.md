@@ -1,4 +1,4 @@
-<h3 align="center">Machine Learning</align><br><br>
+<h3 align="center">Machine Learning Map</align><br><br>
   
 <table align='center'>
   <tr>
