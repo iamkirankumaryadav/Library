@@ -37,13 +37,13 @@
   <tr>
     <td>
       <ol type="1">
-        <li>Linear Regression
+        <li>Linear Regression ( Straight Line )
           <ul>
             <li>Simple Linear Regression</li>
             <li>Multiple Linear Regression</li>
           </ul>
         </li>
-        <li>Polynomial Regression</li>
+        <li>Polynomial Regression ( Curved Line )</li>
         <li>Ridge and Lasso Regression</li>
       </ol>
     </td>
