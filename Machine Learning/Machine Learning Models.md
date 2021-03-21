@@ -45,18 +45,19 @@
  <tr>
   <td>
    <ul>
-    <li>Predict Dependent Variable ( Continuous ) on the basis of one or more Independent Features </li>
-    <li>Find Relationship between Independent Variables and Dependent Variable</li>
-    <li>Can be further Improved by Regularization or by using Non Linear Model</li>
+    <li>Predict Continuous Numeric Value ( Dependent Variables )</li>
+    <li>Output is Continuous</li>
    </ul>
   </td>
   <td>
    <ul>
-    <li>Predict Dependent Variable ( Categories of Labels ) on the basis of Independent Features</li>
-    <li>Find Relationship between Independent Variable and Dependent Variable</li>
+    <li>Classify Discrete Classes ( Dependent Labels )</li>   
     <li>Output is Discrete</li>
    </ul>
   </td>
+ </tr>
+ <tr>
+  <td colspan="2">Can be further Improved by Regularization or by using Non Linear Model</td>
  </tr>
 </table>
 
