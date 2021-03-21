@@ -40,7 +40,7 @@
     <td>
       <ol type="1">
         <li><a href=#linreg>Linear</a> ( Straight Line )
-          <ol type="a">
+          <ol type="A">
             <li>Simple Linear ( Line of Best Fit )</li>
             <li>Multiple Linear ( Plane of Best Fit )</li>
           </ol>
