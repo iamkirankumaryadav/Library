@@ -59,8 +59,12 @@
               <li><a href=#forest>Random Forest</a></li>
             </ol>
             </li>
-            <li>
-              Boosting
+            <li>Boosting
+            <ol type="A">
+              <li><a href=#forest>ADABOOST</a></li>
+              <li><a href=#forest>Gradient Boosting</a></li>
+              <li><a href=#forest>XGBOOST</a></li>
+            </ol>
             </li>
           </ul>
         </li>        
