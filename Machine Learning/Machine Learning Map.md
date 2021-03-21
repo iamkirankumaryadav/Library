@@ -29,6 +29,15 @@
         <li>Ridge and Lasso Regression</li>
       </ol>
     </td>
+    <td>
+      <ol type="1">
+        <li>Logistic Regression</li>
+        <li>Decision Tree</li>
+        <li>Support Vector Machine</li>
+        <li>Naive Bayes</li>
+        <li>K Nearest Neighbors</li>
+      </ol>
+    </td>
   </tr>
 </table>
 
