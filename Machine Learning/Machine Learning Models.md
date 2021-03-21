@@ -4,7 +4,7 @@
  
 
 
-<a href=#kmean><strong>1. K Mean</strong></a>&nbsp; |&nbsp; <a href=#hc><strong>2. Hierarchical</strong></a>
+&nbsp; |&nbsp; <a href=#hc><strong>2. Hierarchical</strong></a>
 
 ![Machine Learning Algorithms](Image/MLAlgorithm.png)
 
@@ -47,19 +47,19 @@
   <tr>
     <td>
       <ol type="1">
-        <li><a href=#linreg>Linear Regression</a> ( Straight Line )
+        <li><a href=#linreg>Linear</a> ( Straight Line )
           <ul>
-            <li>Simple Linear Regression</li>
-            <li>Multiple Linear Regression</li>
+            <li>Simple Linear</li>
+            <li>Multiple Linear</li>
           </ul>
         </li>
-        <li>Polynomial Regression ( Curved Line )</li>
-        <li>Ridge and Lasso Regression</li>
+        <li>Polynomial ( Curved Line )</li>
+        <li>Ridge and Lasso</li>
       </ol>
     </td>
     <td>
       <ol type="1">
-        <li><a href=#logreg>Logistic Regression</a></li>
+        <li><a href=#logreg>Logistic</a></li>
         <li><a href=#tree>Decision Tree</a></li>
         <li>Support Vector Machine</li>
         <li>Naive Bayes</li>
@@ -68,7 +68,7 @@
     </td>
     <td>
       <ol type="1">
-        <li>K Mean Clustering</li>
+        <li><a href=#kmean>K Mean</a></li>
         <li>Hierarchical Clustering</li>
         <li>DBSCAN</li>      
       </ol>
