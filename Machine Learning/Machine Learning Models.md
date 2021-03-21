@@ -1,8 +1,6 @@
 <h1 align="center">Machine Learning Models 🤖🚀💻</h1>
 
-<h3 align="center"><a href=#sup>Supervised Learning</a> :  or Classify Discrete Data</h3> 
-
-<h4 align="center">Predict Continuous Data : <a href=#linreg><strong>1. Linear Regression</strong></a></h4>
+<h4 align="center">Predict Continuous Data : <a href=#linreg>Linear Regression</a></h4>
 
 <a href=#logreg><strong>2. Logistic Regression</strong></a>&nbsp; |&nbsp; <a href=#tree><strong>3. Decision Tree<strong></strong></a>&nbsp; |&nbsp; <a href=#forest><strong>4. Random Forest</strong></a>&nbsp; |&nbsp; <a href=#svm><strong>5. SVM</strong></a>&nbsp; |&nbsp; <a href=#knn><strong>6. KNN</strong></a>&nbsp; |&nbsp; <a href=#naive><strong>7. Naive Bayes</strong></a>
  
@@ -51,7 +49,7 @@
   <tr>
     <td>
       <ol type="1">
-        <li>Linear Regression ( Straight Line )
+        <li><a href=#linreg>Linear Regression</a> ( Straight Line )
           <ul>
             <li>Simple Linear Regression</li>
             <li>Multiple Linear Regression</li>
