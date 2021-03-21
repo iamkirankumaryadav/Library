@@ -46,7 +46,7 @@
           </ul>
         </li>
         <li>Polynomial ( Curve of Best Fit )</li>
-        <li>Ridge and Lasso</li>
+        <li>Lasso ( L1 ) and Ridge ( L2 )</li>
       </ol>
     </td>
     <td>
