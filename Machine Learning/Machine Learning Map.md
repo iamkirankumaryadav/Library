@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <th>
-      <blockquote>Predict</blockquote> Continuous Data
+      <mark>Predict</mark> Continuous Data
     </th>
     <th>
       `Classify` Discrete Data
