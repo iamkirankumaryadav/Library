@@ -4,7 +4,7 @@
   
 # Supervised Learning
 
-<table>
+<table align='center'>
   <tr>
     <th colspan=2>
       Supervised Learning
