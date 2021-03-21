@@ -104,11 +104,10 @@
 > Learner makes **Adjustments** in the Parameters and the Model to Align the Predictions with Actual Results.
 
 
-<h3 name='linreg'>1. Linear Regression</h3>
+<h3 name='linreg'>1. Linear Regression ( Regression )</h3>
 
 - One or More Independent Features is used to **Predict** Continuous Dependent Variable
 - Dependent ( Output ) should be **Continuous** 
-- Used for **Prediction**
 - **Simple** Linear Regression : Find the **Line** of Best Fit
 - **Multiple** Linear Regression : Find the **Plane** | **Hyperplane** of Best Fit.
 - **Polynomial** Regression : Find a **Curve** of Best Fit. 
@@ -121,7 +120,6 @@
 
 - One or More Independent Features is used to **Classify** Discrete Labels 
 - Dependent ( Output ) should be **Discrete** ( 0 or 1 )
-- Used for **Classification**
 - Probability of Finite Number of Outcomes | Occurence.
  
 <h3 name='tree'>3. Decision Tree</h3>
