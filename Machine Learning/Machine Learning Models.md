@@ -53,10 +53,14 @@
         <li>
           Ensemble Techniques
           <ul>
-            Bagging
+            <li>Bagging
             <ol type="A">
               <li><a href=#forest>Random Forest</a></li>
             </ol>
+            </li>
+            <li>
+              Boosting
+            </li>
           </ul>
         </li>        
         <li><a href=#svm>Support Vector Machine</a></li>
