@@ -1,6 +1,6 @@
 <h1 align="center">Machine Learning Map</align></h1>
   
-<table align='center' width="100%">
+<table align='center'>
   <tr>
     <th colspan=2>
       Supervised Learning
