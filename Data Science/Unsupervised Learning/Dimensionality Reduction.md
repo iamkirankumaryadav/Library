@@ -1,7 +1,7 @@
 # Dimensionality Reduction
 
+- Unsupervised Machine Learning 
 - When the Number of **Features** is very large relative to the number of **Observations** in your Dataset 
-
 - Certain Algorithms Struggles to **Train** Effective Models ( Especially Algorithms which consist Distance Calculations )
 
 ### Feature Selection
@@ -26,20 +26,16 @@ e.g ( If a Public Health Data set contains 96% of Observations where for `35 Yea
 - **Highly Correlated** Data provides **Redundant** Information
 
 ### Principle Component Analysis ( PCA )
-- Dimensionality Reduction Method ( Reduce Dimensions of Large Data Sets )
+- Dimensionality Reduction Method ( Reduce Dimensions of Large Data Sets, Explains Variance and Minimize **Correlation** )
 - **Transforming** Large Set of Variables into Small without **Loss** of any Information in Large Dataset.
 - Reducing the Number of **Variables** of a Data Set.
-- Unsupervised Algorithm
-- Explains Variance
 - Linear Combination of Orignal Features 
 - PCA is used for Numerical Data only
-- Minimize **Correlation**
 - Divide the Variables into **Groups** ( High Correlated and Less Correlated ) 
 
 ### Linear Discriminant Analysis
 - Supervised Algorithm
 - Seperate Classes
-
 
 ### Auto Encoder
 - Unsupervised Learning Method
