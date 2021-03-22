@@ -76,7 +76,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - **Sequential Tree** growing  with **Weighted Samples**.
 - Base Learners are **Decision Trees**.
 - Decision Trees are Created with only **One Depth** or only **One Split** (**Stumps**)
-- The Stump will Less **Entrophy** is Selected First.
+- The Stump will **Low Entrophy** or **High Information Gain** is Selected First.
 - ADABOOST allow us to capture **Non Linear Relationships**.
 
 ### 2. Gradient Boosting
