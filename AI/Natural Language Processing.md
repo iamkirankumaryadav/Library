@@ -1,32 +1,36 @@
 # Natural Language Processing
 
 <table>
-  <tr><td>1. <a href="#nltk">NLTK</a> </td></tr>
-  <tr><td>2. <a href="#mine">Text Analysis | Text Mining</a> </td></tr>
-  <tr><td>3. <a href="#app">Real World Application</a> </td></tr>
-  <tr><td>4. <a href="#pipe">NLP Pipeline</a> </td></tr>
-  <tr><td>5. <a href="#token">Tokenization</a> </td></tr>
+  <tr>
+    <td>1. <a href="#nltk">NLTK</a> </td>
+    <td>6. <a href="#stem">Stemming</a></td>
+    <td>11. <a href="#bag">Bag of Words</a></td>
+    <td>16. <a href="#ner">Name Entity Recognition</a></td>
+  </tr>
+  <tr>
+    <td>2. <a href="#mine">Text Analysis | Text Mining</a> </td>
+    <td>7. <a href="#lemma">Lemmatization</a></td>
+    <td>12. <a href="#vector">Vectorization</a></td>
+    <td>17. <a href="#cloud">Word Cloud</a></td>
+  </tr>
+  <tr>
+    <td>3. <a href="#app">Real World Application</a> </td>
+    <td>8. <a href="#norm">Text Normalization</a></td>
+    <td>13. <a href="#tfidf">TF-IDF</a></td>
+    <td>18. <a href="#word2vec"> Word2vec </a></td>
+  </tr>
+  <tr>
+    <td>4. <a href="#pipe">NLP Pipeline</a> </td>
+    <td>9. <a href="#stop">Stop Word</a></td>
+    <td>14. <a href="#ngram">N Grams</a></td>
+  </tr>
+  <tr>
+    <td>5. <a href="#token">Tokenization</a> </td>
+    <td>10. <a href="#pos">Part of Speech</a></td>
+    <td>15. <a href="#vector">Vectorization</a></td>
+  </tr>
   
 </table>
-
-
-
-
-
-
-6. <h4><a href="#stem">Stemming</a></h4>
-7. <h4><a href="#lemma">Lemmatization</a></h4>
-8. <h4><a href="#norm">Text Normalization</a></h4>
-9. <h4><a href="#stop">Stop Word</a></h4>
-10. <h4><a href="#pos">Part of Speech</a></h4>
-11. <h4><a href="#bag">Bag of Words</a></h4>
-12. <h4><a href="#vector">Vectorization</a></h4>
-13. <h4><a href="#tfidf">TF-IDF</a></h4>
-14. <h4><a href="#ngram">N Grams</a></h4>
-15. <h4><a href="#vector">Vectorization</a></h4>
-16. <h4><a href="#ner">Name Entity Recognition</a></h4>
-17. <h4><a href="#cloud">Word Cloud</a></h4>
-18. <h4><a href="#word2vec"> Word2vec </a></h4>
 
 - Ability of a Computer to `Understand`, `Analyze`, `Manipulate` and `Generate` **Human Language**.
 - Computer `Learn` and `Communicate` with Humans using Human Languages.
