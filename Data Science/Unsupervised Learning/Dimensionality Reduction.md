@@ -25,6 +25,10 @@ e.g ( If a Public Health Data set contains 96% of Observations where for `35 Yea
 - Remmove Highly Correlated Features ( Multicollinearity )
 - **Highly Correlated** Data provides **Redundant** Information
 
+### Linear Discriminant Analysis 
+- Supervised Algorithm
+- Seperate Classes
+
 ### Principle Component Analysis ( PCA )
 - Dimensionality Reduction Method ( Reduce Dimensions of Large Data Sets, Explains Variance and Minimize **Correlation** )
 - **Transforming** Large Set of Variables into Small without **Loss** of any Information in Large Dataset.
@@ -32,10 +36,6 @@ e.g ( If a Public Health Data set contains 96% of Observations where for `35 Yea
 - Linear Combination of Orignal Features 
 - PCA is used for Numerical Data only
 - Divide the Variables into **Groups** ( High Correlated and Less Correlated ) 
-
-### Linear Discriminant Analysis
-- Supervised Algorithm
-- Seperate Classes
 
 ### Auto Encoder
 - Unsupervised Learning Method
