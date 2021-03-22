@@ -77,7 +77,7 @@
       <ol type="1">
         <li><a href=#kmean>K Mean</a></li>
         <li><a href=#hc>Hierarchical</a></li>
-        <li><a href="dbscan">DBSCAN</a></li>      
+        <li><a href="#dbscan">DBSCAN</a></li>      
       </ol>
     </td>
   </tr>
