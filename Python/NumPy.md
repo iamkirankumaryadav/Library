@@ -11,7 +11,7 @@
 
 <table>
   <tr>
-    <th><h3>Dimensions</h3></th>       
+    <th colspan="4"><h3>Dimensions</h3></th>       
   <tr>
   <tr>
     <td>Point ( 0 Dimension )</td>
