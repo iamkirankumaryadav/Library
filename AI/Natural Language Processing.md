@@ -1,10 +1,20 @@
 # Natural Language Processing
 
-1. <h4><a href="#nltk">NLTK</a></h4>
-2. <h4><a href="#mine">Text Analysis | Text Mining</a></h4>
-3. <h4><a href="#app">Real World Application</a></h4>
-4. <h4><a href="#pipe">NLP Pipeline</a></h4>
-5. <h4><a href="#token">Tokenization</a></h4>
+<table>
+  <tr>
+    <td>1. <h4><a href="#nltk">NLTK</a></h4></td>
+    <td>2. <h4><a href="#mine">Text Analysis | Text Mining</a></h4></td>
+    <td>3. <h4><a href="#app">Real World Application</a></h4></td>
+    <td>4. <h4><a href="#pipe">NLP Pipeline</a></h4></td>
+    <td>5. <h4><a href="#token">Tokenization</a></h4></td>
+  </tr>
+</table>
+
+
+
+
+
+
 6. <h4><a href="#stem">Stemming</a></h4>
 7. <h4><a href="#lemma">Lemmatization</a></h4>
 8. <h4><a href="#norm">Text Normalization</a></h4>
