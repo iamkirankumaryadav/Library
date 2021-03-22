@@ -73,8 +73,8 @@ How many **Features** to take into account to **Detect Outliers** ?
     <th colspan="2">Machine Learning Algorithms</th>
   </tr>
   <tr>
-    <td>Sensitive to Outliers</td>
-    <td>Not Sensitive to Outliers</td>
+    <th>Sensitive to Outliers</th>
+    <th>Not Sensitive to Outliers</th>
   </tr>
    <tr>
     <td>
