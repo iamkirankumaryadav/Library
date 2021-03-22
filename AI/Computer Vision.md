@@ -50,10 +50,17 @@
 
 ### 2. Pixel Filtering
 
-A. Dilation | `cv2.dilate()`
-- Turn **Black Pixels** into **White Pixels**
-
-B. Erosion | `cv2.erode()`
-- Turn **White Pixels** into **Black Pixels**
-
-
+<table>
+  <tr>
+    <th>Dilation</th>
+    <th>Erosion</th>
+  </tr>
+  <tr>
+    <th>cv2.dilate( )</th>
+    <th>cv2.erode( )</th>
+  </tr>
+  <tr>
+    <th>Turn Black Pixels into White Pixels</th>
+    <th>Turn White Pixels into Black Pixels</th>
+  </tr>
+</table>
