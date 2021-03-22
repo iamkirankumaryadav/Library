@@ -2,7 +2,7 @@
 
 > The Combination of **Weak Learners** into one very **Accurate Prediction Algorithm**.
 
-Create Multiple Models and then combine them to Produce **Better** Results that any Single Model **Individually**.
+Create Multiple Models and then combine them to Produce **Better** Results ( High Accuracy ) that any Single Model **Individually**.
  
 Bagging ( Bootstrap Aggregation ) | Boosting
 :--- | :---
