@@ -63,17 +63,19 @@
                 <th>Pickling</th>
                 <th>Unpickling</th>
         </tr>
+        <tr>
+                <td>Serialization</td>
+                <td>Deserialization</td>
+        </tr>      
+         <tr>
+                <td>Serialize into Format that can be Stored</td>
+                <td>Deserialize Stored Byte Stream into File and Load the Object into Memory</td>
+        </tr>    
+         <tr>
+                <td>pickle.dump( )</td>
+                <td>pickle.load( )</td>
+        </tr>   
 </table>      
-
-### Pickling
-- **Serialization** : **Transforming** it into format that can be stored.
-- Object can be **Serialized** into a **byte** stream and dumped as a file in the memory.
-- **pickle.dump()**
-
-### Unpickling
-- **Deserialization**
-- Object can be **deserialized**, the **byte** stream to **recreate** the Object stored in the file and **load** the Object to Memory.
-- **pickle.load()**
 
 ### Generators
 - Functions that returns an **Iterable Collection** of items.
