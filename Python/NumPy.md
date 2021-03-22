@@ -11,7 +11,7 @@
 
 <table align="center">
   <tr>
-    <th colspan="4"><h3>Dimensions</h3></th>       
+    <th colspan="4"><h3>Dimensions ( Array )</h3></th>       
   <tr>
   <tr>
     <td>0 Dimension</td>
@@ -28,7 +28,7 @@
    <tr>
     <td>Scalar</td>
     <td>Vector ( Row or Column )</td>
-    <td>Matrix ( Array )</td>
+    <td>Matrix</td>
     <td>Tensor</td>
   </tr>  
 </table>
