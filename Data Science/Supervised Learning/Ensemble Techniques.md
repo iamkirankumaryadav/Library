@@ -61,10 +61,10 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
-- Decision Trees are Created with only **One Depth** or only **One Split** (**Stumps**)
+- Decision Trees are Created with only **One Depth** or only **One Split** ( **Stumps** )
 - Base Learners | Weak Learners are Created **Sequentially** and the **Subsamples** are passed for Training.
 - Samples are Created using **Row Sampling** and **Column Sampling**.
-- Boosting combines **Weak Learners Sequentially** by correcting **Previous Errors**.
+- Boosting combines **Weak Learners Sequentially** by correcting **Previous Errors** ( Forcing them to Improve )
 - **Weight** is attached with each and every **Instance** | Row | Record.
 - If the portion of Dataset is incorrectly classified then that portion is transfered to next **Base Learner** for Training again.
 - Weights are **Adjusted** before each Training and Miss Classified Instances are focused with High Priority.
