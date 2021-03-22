@@ -48,4 +48,4 @@ for i in df.iterrows():
       pass
 ```
 
-![Pandas Methods](Image/PandasMethod.jfif)
+<table><tr><td><img src="Image/PandasMethod.jfif" alt="Pandas Methods"></td></tr></table>
