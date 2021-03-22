@@ -24,9 +24,11 @@
 - Interaction between Computers and Humans using the Natural Language.
 
 <h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
+
 - Open Source Tool Library created to make `NLP` Process in `Python`.
 
 <h3 name="mine"> Text Mining | Text Analysis </h3>
+
 - **Analyze** and **Understand** Text Data 
 - Deriving **Meaningful Information** from Natural Language **Text** and **Speech**.
 
