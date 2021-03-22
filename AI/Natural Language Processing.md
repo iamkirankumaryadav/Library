@@ -201,3 +201,7 @@ How to `Remove` Stopwords Using NLTK
 
 ### Bag of Words
 - **Polarity** : Positive ( +1 ), Negative ( -1 ) or Neutral ( 0 )
+
+### Word2vec
+- **word2vec** Algorithm uses a Neural Network Model to Learn **Word Associations** from a Large Corpus of Text
+- Once trained, can Detect Synonymous Words or Suggest Additional Words for a Partial Sentence ( Autocomplete | Predict Next Words )
