@@ -60,7 +60,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - Easily Handles **Outliers**, **Missing Data** and **Skewness**.
 - Accept **Continuous** as well as **Ordinal** Inputs.
 - Least Chance of **Overfitting**.
-- Help to Understand **Important Features**.
+- Help to Understand **Important Features**. ( Parameter : `feature_importance` )
 
 ### B. Boosting
 
