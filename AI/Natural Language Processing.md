@@ -1,6 +1,24 @@
 # Natural Language Processing
 
 1. <h4><a href="#nltk">NLTK</a></h4>
+2. <h4><a href="#mine">Text Analysis | Text Mining</a></h4>
+3. <h4><a href="#app">Real World Application</a></h4>
+4. <h4><a href="#pipe">NLP Pipeline</a></h4>
+5. <h4><a href="#token">Tokenization</a></h4>
+6. <h4><a href="#stem">Stemming</a></h4>
+7. <h4><a href="#lemma">Lemmatization</a></h4>
+8. <h4><a href="#norm">Text Normalization</a></h4>
+9. <h4><a href="#stop">Stop Word</a></h4>
+10. <h4><a href="#bag">Bag of Words</a></h4>
+11. <h4><a href="#vector">Vectorization</a></h4>
+12. <h4><a href="#tfidf">TF-IDF</a></h4>
+13. <h4><a href="#ngram">N Grams</a></h4>
+14. <h4><a href="#vector">Vectorization</a></h4>
+15. <h4><a href="#ner">Name Entity Recognition</a></h4>
+16. <h4><a href="#cloud">Word Cloud</a></h4>
+17. <h4><a href="#word2vec">Word2vec</a></h4>
+
+
 
 - Ability of a Computer to `Understand`, `Analyze`, `Manipulate` and `Generate` **Human Language**.
 - Computer `Learn` and `Communicate` with Humans using Human Languages.
@@ -10,7 +28,7 @@
 <h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
 - Open Source Tool Library created to make `NLP` Process in `Python`.
 
-### Text Mining | Text Analysis 
+<h3 name="mine"> Text Mining | Text Analysis </h3>
 - **Analyze** and **Understand** Text Data 
 - Deriving **Meaningful Information** from Natural Language **Text** and **Speech**.
 
@@ -30,7 +48,7 @@
 5. Convert Text to Audio.
 6. Machine Talk | Reply to Human.
 
-### Applications : NLP in Real Life
+<h3 name="app"> Applications : NLP in Real Life </h3>
 
 1. Google Translate. ( Speech to Text )
 2. Email `Spam` Filter ( Search for Texts related to Spam Email )
@@ -45,7 +63,8 @@
 11. Text Classification
 12. Part of Speech **Tagging** ( **Part of Speech** of Corresponding Word )
 
-### NLP Pipeline
+<h3 name="pipe"> NLP Pipeline </h3>
+
 1. Read **Raw** Text
 2. Remove `Punctuation`
 3. Remove `Stopwords`
@@ -53,10 +72,12 @@
 5. `Vectorize` Data to Prepare for Model Built
 6. **Feature Engineering** ( **Creating** New Feature or **Transforming** Existing Features to get most out of Data )
 
-### Tokenization
+<h3 name="token"> Tokenization </h3>
+
 - `Break` | `Split` a **Sentence** | **Phrase** | **Paragraph** into `List` of **Individual Words**.
 
-### Stemming 
+<h3 name="stem"> Stemming </h3>
+
 - Reducing **Derived** Words to there `Stem` Words.
 - `Cut` end of the Words into its `Stem` Form.
 - Remove `Suffix` and `Prefix` from the Word.
@@ -76,7 +97,8 @@
 3. **Lancaster** Stemmer ( **Fastest** with **Least Accuracy** )
 4. Regex Based Stemmer
 
-### Lemmatization
+<h3 name="lemma"> Lemmatization </h3>
+  
 - Grouping together the **Derived forms** of Word so that they can be Analyzed as a `Single` ( Base ) form
 - Actually `Transforms` words to the **Actual Root**.
 - `Reduce` Words into its `Base` Form.
@@ -102,14 +124,16 @@ Simply `Chops` End of the Word to `Stem` | **Converts** the Word to its **Meanin
 - Removing Characters, Digits and Pieces of Text that can `Interfere` with Text Analysis.
 - `Punctuation` removal, `Special Character` removal, `Number` removal, `HTML` formatting removal, `Source Code` removal, `Header` removal.
 
-### Text Normalization
+<h3 name="norm"> Text Normalization </h3>
+
 - Transforming Text into a **Standard** form.
 - e.g. 'gooood' and 'gud' transformed to 'good'
 - Mapping of near **Identical** words such as 'stopwords', 'stop-words' and 'stop words' to just 'stopwords'
 - Important for **Noisy**, **Misspelled**, **Slang** and **Out of Vocabulory** ( `OOV` ) Words are used. 
 - **Out of Vocabulory** ( `OOV` ) : **Social Media** Comments, **Blog** Comments and **Text Messages**.
 
-### Stop Word
+<h3 name="stop"> Stop Word </h3>
+
 - Filter out **Useless** low information Words in a Sentence
 - Stop words are the Filler words.
 - we can `Focus` on the **Important Words** instead.
@@ -121,20 +145,23 @@ How to `Remove` Stopwords Using NLTK
 1. Tokenize 
 2. Compare with List of Stopwords and Drop that Words ( Token for Token in Text if not in Stopwords.words( ) ) 
 
-### POS : Parts of Speech
+<h3 name="pos"> POS : Parts of Speech </h3>
 - Classify the part of Speech `tag` of each `Token`.
 - Identify Noun, Verb, Adjective in Sentence.
 
-### Bag of Words
+<h3 name="bag"> Bag of Words </h3>
+
 - Number of `Occurence` of Words in a Paragraph or Sentence.
 - e.g. Well well well, Said John
 - Bag of Words is represented in form of **Dictionary** 
+- **Polarity** : Positive ( +1 ), Negative ( -1 ) or Neutral ( 0 )
 
-### Vectorization
+<h3 name="vector"> Vectorization </h3>
+
 - **Converting** Text to form `Numbers` that an **Algorithm** and a **Machine Learning Model** can `Understand` and `Learn`.
 - **Process** of `Encoding` Text as `Integers` to Create `Feature Vectors`.
 
-### TF - IDF
+<h3 name="tfidf"> TF - IDF </h3>
 
 ![TFIDF](Image/TFIDF.png)
 
@@ -152,7 +179,8 @@ How to `Remove` Stopwords Using NLTK
 2. N Grams
 3. Term Frequence - Inverse Document Frequency ( TD - IDF ) 
 
-### N Grams
+<h3 name="ngram"> N Grams </h3>
+
 - **Combinations** of `Adjacent` Words of length **N** in the Text
 
 ### Bigrams
@@ -163,7 +191,8 @@ How to `Remove` Stopwords Using NLTK
 
 > Google Search **Suggests** Bigrams, Trigrams in there `Keyword` **Suggestions**.  
 
-### Name Entity Recognition
+<h3 name="ner"> Name Entity Recognition </h3>
+
 1. Recognize Elements in Text by `Category` ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
 2. `Identification` | `Extraction` technique that automatically identifies named `Entities` in a Text and Classifies in Predefined Categories.
 
@@ -181,7 +210,8 @@ How to `Remove` Stopwords Using NLTK
 - **Extracting** Title, Text and Media from a Book, Artice or Simply Web Page.
 - e.g. `Google Search`
 
-### Word Cloud 
+<h3 name="cloud"> Word Cloud </h3>
+
 - A **Graphical** Display of Words in a Corpus
 - **Size** of Word based on number of **Occurences**
 - Visual View of the Most Popular Terms
@@ -201,9 +231,6 @@ How to `Remove` Stopwords Using NLTK
 - Power Transformation ( Square, Square Root )
 - Standardizing Data 
 
-### Bag of Words
-- **Polarity** : Positive ( +1 ), Negative ( -1 ) or Neutral ( 0 )
-
-### Word2vec
+<h3 name="word2vec"> Word2vec </h3>
 - **word2vec** Algorithm uses a Neural Network Model to Learn **Word Associations** from a Large Corpus of Text
 - Once trained, can Detect Synonymous Words or Suggest Additional Words for a Partial Sentence ( Autocomplete | Predict Next Words )
