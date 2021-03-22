@@ -48,4 +48,9 @@ for i in df.iterrows():
       pass
 ```
 
-<table align="center" style="border:none"><tr><td><img src="Image/PandasMethod.jfif" alt="Pandas Methods"></td></tr></table>
+<table align="center">
+      <tr>
+            <td><img src="Image/PandasMethod.jfif" alt="Pandas Methods">
+            </td>
+      </tr>
+</table>
