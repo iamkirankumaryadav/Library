@@ -28,7 +28,7 @@
    <tr>
     <td>Scalar</td>
     <td>Vector ( Row or Column )</td>
-    <td>Matrix</td>
+    <td>Matrix ( Table or Data Frame )</td>
     <td>Tensor</td>
   </tr>  
 </table>
