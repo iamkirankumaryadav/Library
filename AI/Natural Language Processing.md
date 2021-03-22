@@ -233,5 +233,6 @@ How to `Remove` Stopwords Using NLTK
 - Standardizing Data 
 
 <h3 name="word2vec"> Word2vec </h3>
+
 - **word2vec** Algorithm uses a Neural Network Model to Learn **Word Associations** from a Large Corpus of Text
 - Once trained, can Detect Synonymous Words or Suggest Additional Words for a Partial Sentence ( Autocomplete | Predict Next Words )
