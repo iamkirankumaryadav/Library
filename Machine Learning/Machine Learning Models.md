@@ -77,7 +77,7 @@
       <ol type="1">
         <li><a href=#kmean>K Mean</a></li>
         <li><a href=#hc>Hierarchical</a></li>
-        <li><a href="dbscan"DBSCAN</a></li>      
+        <li><a href="dbscan">DBSCAN</a></li>      
       </ol>
     </td>
   </tr>
@@ -249,7 +249,7 @@ B. Divisive
 - Group **AVG** ( Average of Distance between Each Data Points of Two Clusters )
 - Distance between **Centroids** ( Distance between the Centroid of Two Clusters )
  
-### 3. Density Based Clustering
+<h3 name="dbscan"> 3. Density Based Clustering </h3>
 
 - **DBSCAN** ( Density Based Spatial Clustering of Applications with **Noise** )
 - Groups together Points based on Density ( High Density Region : Points are Close to each other | Finds Neighbors by Density )
