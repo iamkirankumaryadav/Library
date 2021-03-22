@@ -1,6 +1,6 @@
-# Natural Language Processing
+<h1 align="center"> Natural Language Processing</h1>
 
-<table>
+<table align="center">
   <tr>
     <td>1. <a href="#nltk">NLTK</a> </td>
     <td>6. <a href="#stem">Stemming</a></td>
