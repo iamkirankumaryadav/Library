@@ -21,9 +21,9 @@
   </tr>  
   <tr>
     <td>Point</td>
-    <td>Line Vector )</td>
-    <td>Square| Matrix </td>
-    <td>Cube | Tensors </td>
+    <td>Line</td>
+    <td>Square</td>
+    <td>Cube</td>
   </tr>  
    <tr>
     <td></td>
