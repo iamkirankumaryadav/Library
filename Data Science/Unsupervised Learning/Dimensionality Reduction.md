@@ -28,6 +28,7 @@ e.g ( If a Public Health Data set contains 96% of Observations where for `35 Yea
 ### Linear Discriminant Analysis 
 - Supervised Algorithm
 - Seperate Classes
+- Works better with Large Data Set
 
 ### Principle Component Analysis ( PCA )
 - Dimensionality Reduction Method ( Reduce Dimensions of Large Data Sets, Explains Variance and Minimize **Correlation** )
