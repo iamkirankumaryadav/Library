@@ -14,9 +14,21 @@
     <th colspan="4"><h3>Dimensions</h3></th>       
   <tr>
   <tr>
-    <td>Point ( 0 Dimension )</td>
-    <td>Line ( 1 Dimension | Vector )</td>
-    <td>Square ( 2 Dimensions | Matrix )</td>
-    <td>Cube ( 3 Dimensions | Tensors )</td>
+    <td>0 Dimension</td>
+    <td>1 Dimension</td>
+    <td>2 Dimensions</td>
+    <td>3 Dimensions</td>
+  </tr>  
+  <tr>
+    <td>Point</td>
+    <td>Line Vector )</td>
+    <td>Square| Matrix </td>
+    <td>Cube | Tensors </td>
+  </tr>  
+   <tr>
+    <td></td>
+    <td> Vector )</td>
+    <td>Square| Matrix </td>
+    <td>Cube | Tensors </td>
   </tr>  
 </table>
