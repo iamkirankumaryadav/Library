@@ -27,8 +27,8 @@
   </tr>  
    <tr>
     <td></td>
-    <td> Vector )</td>
-    <td>Square| Matrix </td>
-    <td>Cube | Tensors </td>
+    <td></td>
+    <td>Vector</td>
+    <td>Matrix</td>
   </tr>  
 </table>
