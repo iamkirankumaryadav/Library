@@ -16,7 +16,7 @@
 - Replace the **Missing Data** with **Mean**, **Median** or **Mode**.
 - Sometimes it can Add **Variance** in Data but Better than deleting.
 
-<h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag a Numeric Value</h3>
+<h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag ( Numeric Value )</h3>
 
 - If Data is **Categorical** then assign a **Unique Category** for Data with Missing Values.   
 
