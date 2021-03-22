@@ -9,14 +9,15 @@
 7. <h4><a href="#lemma">Lemmatization</a></h4>
 8. <h4><a href="#norm">Text Normalization</a></h4>
 9. <h4><a href="#stop">Stop Word</a></h4>
-10. <h4><a href="#bag">Bag of Words</a></h4>
-11. <h4><a href="#vector">Vectorization</a></h4>
-12. <h4><a href="#tfidf">TF-IDF</a></h4>
-13. <h4><a href="#ngram">N Grams</a></h4>
-14. <h4><a href="#vector">Vectorization</a></h4>
-15. <h4><a href="#ner">Name Entity Recognition</a></h4>
-16. <h4><a href="#cloud">Word Cloud</a></h4>
-17. <h4><a href="#word2vec">Word2vec</a></h4>
+10. <h4><a href="#pos">Part of Speech</a></h4>
+11. <h4><a href="#bag">Bag of Words</a></h4>
+12. <h4><a href="#vector">Vectorization</a></h4>
+13. <h4><a href="#tfidf">TF-IDF</a></h4>
+14. <h4><a href="#ngram">N Grams</a></h4>
+15. <h4><a href="#vector">Vectorization</a></h4>
+16. <h4><a href="#ner">Name Entity Recognition</a></h4>
+17. <h4><a href="#cloud">Word Cloud</a></h4>
+18. <h4><a href="#word2vec"> Word2vec </a></h4>
 
 - Ability of a Computer to `Understand`, `Analyze`, `Manipulate` and `Generate` **Human Language**.
 - Computer `Learn` and `Communicate` with Humans using Human Languages.
