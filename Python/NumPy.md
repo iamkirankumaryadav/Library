@@ -26,9 +26,9 @@
     <td>Cube</td>
   </tr>  
    <tr>
-    <td></td>
-    <td></td>
+    <td>Scalar</td>
     <td>Vector</td>
     <td>Matrix</td>
+    <td>Tensor</td>
   </tr>  
 </table>
