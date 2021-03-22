@@ -82,3 +82,4 @@
 - [Scribbr](https://www.scribbr.com/category/statistics/)
 - [Quantdare](https://quantdare.com/)
 - [Aaiena](https://www.aaiena.com/)
+- [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
