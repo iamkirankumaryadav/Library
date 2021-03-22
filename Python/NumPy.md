@@ -27,7 +27,7 @@
   </tr>  
    <tr>
     <td>Scalar</td>
-    <td>Vector ( List or Column )</td>
+    <td>Vector ( Row or Column )</td>
     <td>Matrix ( Array )</td>
     <td>Tensor</td>
   </tr>  
