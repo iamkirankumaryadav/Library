@@ -77,7 +77,7 @@
       <ol type="1">
         <li><a href=#kmean>K Mean</a></li>
         <li><a href=#hc>Hierarchical</a></li>
-        <li>DBSCAN</li>      
+        <li><a href="dbscan"DBSCAN</a></li>      
       </ol>
     </td>
   </tr>
@@ -252,8 +252,10 @@ B. Divisive
 ### 3. Density Based Clustering
 
 - **DBSCAN** ( Density Based Spatial Clustering of Applications with **Noise** )
-- Groups together Points based on Density ( High Density Region : Points are Close to each other )
-- Data Points which are in **Low Density** regions are **Outliers**
+- Groups together Points based on Density ( High Density Region : Points are Close to each other | Finds Neighbors by Density )
+- Data Points which are in **Low Density** regions are **Outliers** | Seperate from every other **Data point**
+- Clustering methods explains better with Visualization
+- Relationships between Features can be represented via Clustering
 
 ### B. Dimensionality Reduction
 
