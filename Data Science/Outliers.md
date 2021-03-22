@@ -68,18 +68,32 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 > **Outlier** is represented by dot ( **.** ) in **Boxplot**  
 
-<h3 name="algo"> Machine Learning Algorithms which are Sensitive to Outliers</h3>
-
-1. Linear Regression
-2. Logistic Regression
-3. K Nearest Neighbours
-4. K Means Clustering 
-5. Support Vector Machine 
-6. Principle Component Analysis
-
-### Machine Learning Algorithms which are not Sensitive to Outliers
-
-1. Decision Tree
-2. Random Forest 
-3. Naive Bayes 
-4. Boosting Algorithms
+<table>
+  <tr>
+    <th colspan="2">Machine Learning Algorithms</th>
+  </tr>
+  <tr>
+    <td>Sensitive to Outliers</td>
+    <td>Not Sensitive to Outliers</td>
+  </tr>
+   <tr>
+    <td>
+      <ol type="1">
+        <li>Linear Regression</li>
+        <li>Logistic Regression</li>
+        <li>K Nearest Neighbours</li>
+        <li>K Means Clustering</li>
+        <li>Support Vector Machine</li>
+        <li>Principle Component Analysis</li>
+      </ol>
+    </td>
+    <td>
+      <ol type="1">
+        <li>Decision Tree</li>
+        <li>Random Forest</li>
+        <li>Naive Bayes</li>
+        <li>Boosting Algorithms</li>        
+      </ol>
+    </td>
+  </tr>
+</table>
