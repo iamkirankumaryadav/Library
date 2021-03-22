@@ -58,6 +58,13 @@
 ### pass
 - Empty Statement 
 
+<table align="center">
+        <tr>
+                <th>Pickling</th>
+                <th>Unpickling</th>
+        </tr>
+</table>      
+
 ### Pickling
 - **Serialization** : **Transforming** it into format that can be stored.
 - Object can be **Serialized** into a **byte** stream and dumped as a file in the memory.
