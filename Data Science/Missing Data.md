@@ -1,6 +1,6 @@
 # How to Deal with Missing Data
 
-<h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign or Flag</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
+<h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
 <h3 name="del"> 1. Deletion or Drop</h3>
 
@@ -16,7 +16,7 @@
 - Replace the **Missing Data** with **Mean**, **Median** or **Mode**.
 - Sometimes it can Add **Variance** in Data but Better than deleting.
 
-<h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag</h3>
+<h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag a Numeric Value</h3>
 
 - If Data is **Categorical** then assign a **Unique Category** for Data with Missing Values.   
 
