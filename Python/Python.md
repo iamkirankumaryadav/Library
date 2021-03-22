@@ -30,13 +30,20 @@
 ### Decorator
 - A **Decorator** takes in a **Function**, Adds some **Functionality** to that existing **Function** and Returns it without changing **Structure**.
 
-### Protected 
-- Attributes defined with Underscore ( **\_name** )
-- Still can be **Accessed** and **Modified** from outside the class.
-
-### Private 
-- Attributes defined with Double Underscore ( **\_\_name** )
-- Cannot be **Accessed** and **Modified** from outside directly
+<table align="center">
+        <tr>
+                <th>Protected</th>
+                <th>Private</th>
+        </tr>
+        <tr>
+                <td>Attributes defined with Underscore ( _name )</td>
+                <td>Attributes defined with Double Underscore ( __name )</td>
+        </tr>      
+         <tr>
+                <td>Can be Accessed and Modified from outside the Class</td>
+                <td>Cannot be Accessed and Modified from outside directly</td>
+        </tr>               
+</table>      
 
 ### Self
 - Define an **Instance** or an Object of a class.
