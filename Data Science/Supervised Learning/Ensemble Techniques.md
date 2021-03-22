@@ -13,7 +13,7 @@ Samples Randomly | Boosting Samples by Increasing Weight for **Wrong** Predictio
 Models are Built **Independently** | New Models are Improved version of Previous Built Models
 Less Time to Train | More Time to Train
 **Easy** to Tune | **Hard** to Tune
-**Hard** to Overfit | **Easy** to Overfit
+**Hard** to Overfit or **Least** Chance of **Overfitting** | **Easy** to Overfit
 Training Data Subsets are Drawn Randomly with **Replacement** | Every New Subsets comprises the Elements that are **Missclassified** by **Previous Models**
 Applied where Classifier are **Unstable** and **Complex** ( **High Variance** ) | Classifier is **Stable** and **Simple** ( **High Bias** )
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XGBoost
@@ -27,7 +27,6 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 3. Accepts various types of Inputs ( **Continuous** and **Ordinal** )
 4. Less likely to **Overfit**
 5. Output **Feature Importance** ( Important Features for **Prediction** )
-
 
 ### A. Bagging (Bootstrap Aggregation)
 
@@ -45,21 +44,17 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ### 1. Random Forest
 
-- **Ensemble** Learning Method that constructs a **Collection** of `Decision Trees` and then `Aggregate` the `Predictions` of each tree to **Determine** `Final Prediction`
-
+- **Ensemble** Learning Method constructs a **Collection** of `Decision Trees` in `Parallel` 
+- `Aggregate` the `Predictions` of each tree to **Determine** `Final Prediction`
 - Dataset is divided as **Subsamples** and passed to **Multiple Base Learners** (Decision Tree)
-- Training Sample consist of **Row Sampling** and **Column Sampling** with **Replacement**.
-- **Parallel Tree** growing **Subsamples**
-- If I Create Decision Tree to its complete depth, problem of **Overfitting** will occur. 
+- Training Sample consist of **Row Sampling** with **Replacement**.
+- Creating Decision Tree to its complete depth may cause **Overfitting**
 - But when we combine Multiple Decision Trees, **High Variance** gets converted to **Low Variance**, i.e. Reduces **Overfitting**
-
 - Can be used for **Classification** and **Regression**
-- Regressor : **Mean** or **Median** of Output of Each **Decision Trees**.
+- Regressor : **Mean** or **Median** of Output of Every **Decision Trees**
 - Classifier : **Majority Vote** from all **Decision Trees**.
-
 - Easily Handles **Outliers**, **Missing Data** and **Skewness**.
 - Accept **Continuous** as well as **Ordinal** Inputs.
-- Least Chance of **Overfitting**.
 - Help to Understand **Important Features**. ( Parameter : `feature_importance` )
 
 ### B. Boosting
