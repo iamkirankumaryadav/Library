@@ -9,7 +9,7 @@
 - Supports **Scientific** and **Financial** Calculations
 - **Element wise** Arithmetic Operations
 
-<table>
+<table align="center">
   <tr>
     <th colspan="4"><h3>Dimensions</h3></th>       
   <tr>
