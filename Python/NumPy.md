@@ -14,6 +14,9 @@
     <th colspan="4"><h3>Dimensions ( Array )</h3></th>       
   <tr>
   <tr>
+    <td colspan="4"><img src="Image/Dim.png" alt="Dimensions"></td>
+  </tr>
+  <tr>
     <td>0 Dimension</td>
     <td>1 Dimension</td>
     <td>2 Dimensions</td>
@@ -36,8 +39,5 @@
     <td>Rank 1 Tensor</td>
     <td>Rank 2 Tensor</td>
     <td>Rank 3 Tensor</td>
-  </tr>  
-  <tr>
-    <td colspan="4"><img src="Image/Dim.png" alt="Dimensions"></td>
-  </tr>
+  </tr>    
 </table>
