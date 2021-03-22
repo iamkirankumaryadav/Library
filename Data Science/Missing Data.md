@@ -27,9 +27,9 @@
 
 <h3 name="algo"> 5. Use Algorithm which Supports Missing Values</h3>
 
-- KNN works on Principle of **Distance Measure**.
-- KNN can be used even if there is a **Null Value** in the Dataset.
-- KNN considers the Missing Value by taking the **Majority** of the K Nearest Values.
+- **KNN** works on Principle of **Distance Measure**.
+- **KNN** can be used even if there is a **Null Value** in the Dataset.
+- **KNN** considers the Missing Value by taking the **Majority** of the K Nearest Values.
 - **Random Forest** works well on **Non Linear** and **Categorical Data**.
 
 > **Domain Knowledge** can also help us to Deal with the **Missing Data**.
