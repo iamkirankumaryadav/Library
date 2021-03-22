@@ -102,10 +102,10 @@
 ### Generators
 - Functions that returns an **Iterable Collection** of items.
 
-### help()
+### help( )
 - Display **Documentation** of Modules, Classes, Functions, Keywords.
 
-### dir()
+### dir( )
 - List of Valid **Attributes** and **Methods** of an Object based on its Type and State.
 
 ### Define Function
