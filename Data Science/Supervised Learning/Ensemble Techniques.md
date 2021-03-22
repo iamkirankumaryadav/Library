@@ -96,4 +96,4 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - Soft Voting : **Predictive Probability** of Class is important, **Mean** of Probability is Calculated for each Class.
 
 ### Activation Function
-- A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Next Layer**.
+- A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** ( + Adds **Bias** ) and Generates Output for **Next Layer**.
