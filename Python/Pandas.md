@@ -16,19 +16,17 @@
 - Data **Transforming** ( `apply()`, `explode()` etc )
 - Data **Aggregation** ( `concat()`, `merge()`, `groupby()`, `pivot_table()` etc )
 - Pandas is used in Economics, Finance, Statistics and Analytics.
-- **Data Types** : **Series** and **DataFrames**
-- Series : **1** Dimensional
-- DataFrame : **2** Dimensional
+- **Data Types** : **Series** ( **1** Dimensional ) and **DataFrames** ( **2** Dimensional )
 - Panel : **3** Dimensional ( major_axis and minor_axis )
 - Load - Manipulate - Prepare - Model - Analyze.
 
-### Series
-- 1 Dimensional Array
+### Series ( 1 Dimensional Array )
+
 - Hold Data Value of **Homogeneous** Type ( All Data Values should be of **same** Data type )
 - Data Axis labels are called the **Index**.
 
-### Data Frames
-- 2 Dimensional Array
+### Data Frames ( 2 Dimensional Array ) 
+
 - Data is Aligned in Tabular form with **Rows** and **Columns**.
 
 ### Important Features of Pandas Linrary
