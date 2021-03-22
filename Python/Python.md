@@ -12,11 +12,24 @@
 10. **Modularity** : Working in Seperate **Modules** | Helps to **Focus** | Make **Development Easy** and Less Error Prone.
 11. **Reusability** : **Modules** can be easily reused by other part of the Program
 
-| Interpreter                                                 | Compiler                                           |
-| :---                                                        | :---                                               |
-| Translate **One Statement** at a Time into **Machine Code** | Translate **Entire Program** into **Machine Code** |
-| No Intermediate Object Code is generated                    | Intermediate Code is generated                     |
-| Error Detection is Easy                                     | Error Detection is not Easy                        |
+<table align="center">
+        <tr>
+                <th>Interpreter</th>
+                <th>Compiler</th>
+        </tr>
+        <tr>
+                <td>Translate One Statement at a Time into Machine Code</td>
+                <td>Translate Entire Program into Machine Code</td>
+        </tr>      
+         <tr>
+                <td>No Intermediate Object Code is generated</td>
+                <td>Intermediate Code is generated</td>
+        </tr>    
+        <tr>
+                <td>Error Detection is Easy</td>
+                <td>Error Detection is not Easy</td>
+        </tr>
+</table>      
 
 ### PEP- 8
 - Python Enhancement Proposal
