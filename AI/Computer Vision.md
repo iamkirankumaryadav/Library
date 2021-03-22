@@ -40,7 +40,7 @@
 6. Image Segmentation ( Camera Detects the Multiple Faces in a Group Selfie )
 7. Scene Reconstruction ( 3D Model Creation in Architecture )
 8. Image Restoration ( Filtering Blur Images and Removing Noise )
-9. Search By Image `[Image.Google](https://images.google.com/)` 🖼
+9. Search By Image `[Image.Google]`(https://images.google.com/) 🖼
 10. Robotics 🤖
 
 ### Important Terms
