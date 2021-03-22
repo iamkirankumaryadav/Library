@@ -31,4 +31,10 @@
     <td>Matrix ( Table or Data Frame )</td>
     <td>Tensor</td>
   </tr>  
+  <tr>
+    <td>Rank 0 Tensor</td>
+    <td>Rank 1 Tensor</td>
+    <td>Rank 2 Tensor</td>
+    <td>Rank 3 Tensor</td>
+  </tr>  
 </table>
