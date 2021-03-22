@@ -12,6 +12,8 @@
 10. **Modularity** : Working in Seperate **Modules** | Helps to **Focus** | Make **Development Easy** and Less Error Prone.
 11. **Reusability** : **Modules** can be easily reused by other part of the Program
 
+<h3 align="center">Interpreter vs Compiler</h3>
+
 <table align="center">
         <tr>
                 <th>Interpreter</th>
@@ -31,6 +33,8 @@
         </tr>
 </table>      
 
+<h3 align="center">Pickling vs Unpickling</h3>
+
 <table align="center">
         <tr>
                 <th>Pickling</th>
@@ -49,6 +53,8 @@
                 <td>pickle.load( )</td>
         </tr>   
 </table>      
+
+<h3 align="center">Protected vs Private</h3>
 
 <table align="center">
         <tr>
