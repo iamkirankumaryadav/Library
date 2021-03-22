@@ -30,27 +30,6 @@
 ### Decorator
 - A **Decorator** takes in a **Function**, Adds some **Functionality** to that existing **Function** and Returns it without changing **Structure**.
 
-### Built in Data types
-1. None Type  
-- Represents the **null | NULL values**
-
-2. Numeric
-- int : Integer, Hex, Octal and Binary Numbers 
-- float : Decimal, Exponent and Floating Point Number
-- complex : Complex Numbers with real + img ( j )
-- bool : Boolean ( True | False )
-
-3. Sequence | Data Type | Collections | Data Structure
-
-List | Tuple | Set | Dictionary
-:--- | :--- | :--- | :---
-Mutable | Immutable | Immutable | Mutable
-Ordered | Ordered | Unordered ( Unique and Unindexed) | Ordered ( Unique Key )
-\[ \] or **list**( \[ \] ) | \( \) or **tuple**( \[ \] ) | \{ \} or **set**( \[ \] ) | \{ key : value \} or **dict**( \{ \} )
-
-- range : Immutable **Generated** Numbers 
-- str : Sequence of **Characters**
-
 ### Protected 
 - Attributes defined with Underscore ( **\_name** )
 - Still can be **Accessed** and **Modified** from outside the class.
