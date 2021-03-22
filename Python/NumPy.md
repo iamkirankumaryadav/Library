@@ -37,12 +37,7 @@
     <td>Rank 2 Tensor</td>
     <td>Rank 3 Tensor</td>
   </tr>  
-</table>
-
-<table align="center">
   <tr>
-    <td>
-      <img src="Image/Dim.png" alt="Dimensions" height="200px" width="600px">
-    </td>
+    <td colspan="4"><img src="Image/Dim.png" alt="Dimensions"></td>
   </tr>
 </table>
