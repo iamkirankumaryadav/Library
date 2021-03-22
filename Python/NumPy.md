@@ -42,7 +42,7 @@
 <table align="center">
   <tr>
     <td>
-      <img src="Image/Dim.png" alt="Dimensions">
+      <img src="Image/Dim.png" alt="Dimensions" height="200px" width="600px">
     </td>
   </tr>
 </table>
