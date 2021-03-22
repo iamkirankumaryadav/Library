@@ -31,17 +31,24 @@
         </tr>
 </table>      
 
-### PEP- 8
-- Python Enhancement Proposal
-- Style Guidelines for **Clean Code**.
-
-### Memory Management 
-- Python **Memory Manager** | Private **Heap Space**
-- All **Objects** are stored in Heap ( **Inaccessible** to the Programmers )
-- In built **Garbage Collection** to **Recycle** the unused memory for the **Private Heap Space**.
-
-### Decorator
-- A **Decorator** takes in a **Function**, Adds some **Functionality** to that existing **Function** and Returns it without changing **Structure**.
+<table align="center">
+        <tr>
+                <th>Pickling</th>
+                <th>Unpickling</th>
+        </tr>
+        <tr>
+                <td>Serialization</td>
+                <td>Deserialization</td>
+        </tr>      
+         <tr>
+                <td>Serialize into Format that can be Stored</td>
+                <td>Deserialize Stored Byte Stream into File and Load the Object into Memory</td>
+        </tr>    
+         <tr>
+                <td>pickle.dump( )</td>
+                <td>pickle.load( )</td>
+        </tr>   
+</table>      
 
 <table align="center">
         <tr>
@@ -56,7 +63,19 @@
                 <td>Can be Accessed and Modified from outside the Class</td>
                 <td>Cannot be Accessed and Modified from outside directly</td>
         </tr>               
-</table>      
+</table>
+
+### PEP- 8
+- Python Enhancement Proposal
+- Style Guidelines for **Clean Code**.
+
+### Memory Management 
+- Python **Memory Manager** | Private **Heap Space**
+- All **Objects** are stored in Heap ( **Inaccessible** to the Programmers )
+- In built **Garbage Collection** to **Recycle** the unused memory for the **Private Heap Space**.
+
+### Decorator
+- A **Decorator** takes in a **Function**, Adds some **Functionality** to that existing **Function** and Returns it without changing **Structure**.
 
 ### Self
 - Define an **Instance** or an Object of a class.
@@ -78,24 +97,7 @@
 ### pass
 - Empty Statement 
 
-<table align="center">
-        <tr>
-                <th>Pickling</th>
-                <th>Unpickling</th>
-        </tr>
-        <tr>
-                <td>Serialization</td>
-                <td>Deserialization</td>
-        </tr>      
-         <tr>
-                <td>Serialize into Format that can be Stored</td>
-                <td>Deserialize Stored Byte Stream into File and Load the Object into Memory</td>
-        </tr>    
-         <tr>
-                <td>pickle.dump( )</td>
-                <td>pickle.load( )</td>
-        </tr>   
-</table>      
+
 
 ### Generators
 - Functions that returns an **Iterable Collection** of items.
