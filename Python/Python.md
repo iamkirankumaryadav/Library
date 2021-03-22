@@ -7,7 +7,7 @@
 5. Useful for Data Science, Machine Learning, Artificial Intelligence and Web Development
 6. **Portable** and **Flexible** ( Jupyter Language, Command Prompt, IDE, Text Editor, Google Colab )
 7. Open Source with **Vibrant Community**
-8. Rich **Docuumentation** ( Python as well as Documentation of Libraries )
+8. Rich **Documentation** ( Python as well as Documentation of Libraries )
 9. **Interpreted** Language ( Executes **Line by Line**)
 10. **Modularity** : Working in Seperate **Modules** | Helps to **Focus** | Make **Development Easy** and Less Error Prone.
 11. **Reusability** : **Modules** can be easily reused by other part of the Program
