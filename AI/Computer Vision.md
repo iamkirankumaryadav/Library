@@ -56,8 +56,8 @@
     <th>Erosion</th>
   </tr>
   <tr>
-    <td>cv2.dilate( )</td>
-    <td>cv2.erode( )</td>
+    <th>cv2.dilate( )</th>
+    <th>cv2.erode( )</th>
   </tr>
   <tr>
     <td>Turn Black Pixels into White Pixels</td>
