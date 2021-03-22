@@ -8,3 +8,15 @@
 - **Broadcasting**
 - Supports **Scientific** and **Financial** Calculations
 - **Element wise** Arithmetic Operations
+
+<table>
+  <tr>
+    <th><h3>Dimensions</h3></th>       
+  <tr>
+  <tr>
+    <td>Point ( 0 Dimension )</td>
+    <td>Line ( 1 Dimension | Vector )</td>
+    <td>Square ( 2 Dimension | Matrix )</td>
+    <td>Cube ( 3 Dimension | Tensors )</td>
+  </tr>  
+</table>
