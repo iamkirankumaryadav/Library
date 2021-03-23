@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 <h1 align="center">Machine Learning Models 🤖🚀💻</h1>
 
 <h3 align="center">Machine Learning Map</align></h3>
@@ -154,6 +156,7 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 
 <h3 name='forest'>4. Random Forests ( Ensemble Learning Technique | Bagging )</h3>
 
+- **Merge** a Collection of Parallel Arranged **Independent Decision Trees** to get more **Accurate** and **Stable** Prediction
 - Multiple **Decision Trees** ( Weak Learners ) trained **Parallel** Individually
 - **Bootstrapped Data Sets** of Orignal Data and **Randomly** selecting **Subsets** at each step. ( **Sampling** with **Replacement** )
 - Bagging Technique ( **Multiple** Decision Trees are **Trained** in **Parallel** to Form a **Strong Learner** ) 
@@ -289,3 +292,5 @@ B. Divisive
 
 - **PCA** : Principal Component Analysis. ( Reduce Dimensions of Data )
 - **LDA** : Linear Discriminant Analysis.
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
