@@ -64,3 +64,6 @@ Bias and Variance helps us Improve the Data Fitting | Training Process resulting
 1. Hyperparameter Tuning : Choosing a Set of Optimal **Hyperparameter** for Training an Algorithm
 2. Regularization : Technique used to Reduce **Overfitting** by Discouraging overly Complex Models
 3. Grid Search Cross Validation
+
+### Regularization
+- Lasso ( L1 ) and Ridge ( L2 ) : Add Penalty to the `Loss` Function to Constrain Coefficients 
