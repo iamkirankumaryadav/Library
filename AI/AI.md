@@ -11,9 +11,9 @@ Term | Definition
 **Data Science** | **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**
 **Predictive Modeling** | A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**
 <a href='#ml'>Machine Learning</a> | Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed
-<a href='#ai'>Artificial Intelligence</a> | **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**
+<a href='#ai'>AI</a> | **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**
 <a href='#dl'>Deep Learning</a> | **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**
-<a href='#nn'>Deep Neural Network</a> | **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** 
+<a href='#nn'>Neural Network</a> | **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** 
 <a href='#nlp'>NLP</a> | Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** 
 <a href='#cv'>Computer Vision</a> | Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** 
 <a href='#iot'>Internet of Things</a> | **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others 
