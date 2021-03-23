@@ -84,25 +84,10 @@ Step 1 :
 3. Distance of Data Points is Calculated from each **Cluster** and it belongs to Closest Cluster.
 4. Calculate the Mean ( **Centroid** ) of each Cluster
 
-### Euclidean Distance
-
-### Regression
-- Linear Regression 
-- Polynomial
-- Ridge 
-- Lasso
-- Elastic Net
-
-### Classification
-- Logistic Regression 
-- Decision Trees 
-- Support Vector Machine 
-- K Nearest Neighbors 
-- Naive Bayes
-
-### Ensembles
-- Bagging ( Random Forest )
-- Boosting ( ADABOOST | Gradient | XGBoost )
-
-### Clustering
-- K Means Clustering
+### Steps 
+1. Explore ( EDA ) and Clean ( Data Clean ) the Data
+2. Split Data into Train + Validate + Test Sets
+3. Train with an Initial Model and Evaluate 
+4. Tune Hyperparameters + Cross Validations 
+5. Evaluate on Validation Set  
+6. Evaluate on Test Set
