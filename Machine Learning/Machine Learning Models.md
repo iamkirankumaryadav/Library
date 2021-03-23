@@ -162,12 +162,15 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
-- SVM can be used for both **Regression** and **Classification**
-- Finds a **Line** or **Hyperplane** that Separates the 2 **Distinct** Classes with Maximum **Margin** in **N Dimensional Space**.
+- SVM can be used for both **Regression** and **Classification** ( but Better use for Classification )
+- Finds a Optimal **Line** or **Hyperplane** that Separates the 2 **Distinct** Classes with Maximum **Margin** in **N Dimensional Space**.
 - **Hyperplanes** are **Decision Boundaries** that help to Classify the Data Points.
 - Data Points are **Support Vectors**.
 - SVM can be used for **Linear** and **Non Linear** Data.
-- SVM uses **Kernel Trick** for **Non Linear** Data which Creates a **Hyperplane** in **N Dimensional Space**.
+- SVM uses **Kernel Trick** for **Non Linear** Data which Creates a **Hyperplane** in **N Dimensional Space** for Linear Seperation.
+- Works Better even if Data set has lot of **Outliers** ( Because SVM Focus only on **Support Vectors** closest to the Line  )
+- Should be Used if Data Set has lot of **Features** 
+- Take Long Time to **Train** and **Predict** if the Number of **Observations** are very Large
 
 ### Benefits 
 
