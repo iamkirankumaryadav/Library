@@ -1,5 +1,18 @@
 # Linear Regression 📈
 
+### Regression
+
+- A Statistical Process for Estimating the **Relationships** among **Variables** and to make **Predictions**
+
+### Linear Regression 
+
+- Form of Regression where Target Variable is **Continuous**
+
+### Logistic Regression 
+
+- Form of Regression where Target Variable is **Binary**
+
+
 ![Regression Line](Image/RegressionLine.png)
 
 **Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** 
