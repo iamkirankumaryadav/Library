@@ -40,3 +40,5 @@ Assumptions made by **Logistic Regression** about Distribution and Relationships
 3. Ordinal (Low | Medium | High)
 
 Decision Boundary | **Threshold**
+
+<a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a>
