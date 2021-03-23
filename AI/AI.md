@@ -11,7 +11,7 @@ Term | Definition
 **Data Science** | **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**
 **Predictive Modeling** | A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**
 **Machine Learning** | Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed
-**Artificial Intelligence** | **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**
+<a href='#ai'>Artificial Intelligence</a> | **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**
 **Deep Learning** | **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**
 **Deep Neural Network** | **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** 
 **Natural Language Processing** | Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** 
@@ -32,7 +32,8 @@ Term | Definition
 
 AI > ML > DL
 
-# AI | Artificial Intelligence
+<h1 name='ai'>AI | Artificial Intelligence</h1>
+
 - Computers Perform the Task that Normally requires Human Intelligence.
 - Mimic the Intelligence or Behavioural Patterns of Humans.
 - Ability to Learn and Reason like Humans.
