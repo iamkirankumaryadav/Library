@@ -59,3 +59,7 @@ Bias and Variance helps us Improve the Data Fitting | Training Process resulting
 - `Prediction` is Actually **Close** to the `Actual` True Data and **Model** is Trained Well
 - Generalized enough to Work with any New Unseen Data ( Low Variance ) 
 - **Captures** Less `Noise` and `Error` at the Time of **Training** ( Low Bias )
+
+### How to Obtain Optimal Tradeoff
+1. Hyperparameter Tuning : Choosing a Set of Optimal **Hyperparameter** for Training an Algorithm
+2. Regularization : Technique used to Reduce **Overfitting** by Discouraging overly Complex Models
