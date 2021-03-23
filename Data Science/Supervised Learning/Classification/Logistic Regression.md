@@ -12,6 +12,11 @@
 - Accepts any **Real** Valued Number and Map it into a Value between 0 and 1
 - The Probability Prediction must be Transformed to Binary | Dichotomous (0 and 1)
 
+### When to Use Logistic Regression
+- **Binary** Target Variable
+- Better to Use with Small Data Set
+- **Fair** Data ( Not to Many Outliers or Missing Data in the Data Set ) 
+- Logistic Regression is good for **Fast Training** ( It is not the Best Performing Data )
 
 ### Prepare Data for Logistic Regression
 
