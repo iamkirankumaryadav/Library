@@ -38,6 +38,11 @@
 ### Activation Function
 - A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Next Layer**.
 
+Parameter | Hyperparameter
+:--- | :---
+`Internal` Configuration Variables of the Model | `External` Configuration Variables of the Model
+Estimated | Learned from Data | Cannot be Estimated from Data ( Guides How Algorithms Learn from Parameter Values from Data)
+
 | DBMS | RDBMS |
 | :--- | :---  |
 | Store Data in the form of **File** | Store Data in the form of **Tables** |
