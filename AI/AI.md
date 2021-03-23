@@ -1,9 +1,9 @@
 # AI 🤖
 
+Term | Definition
 :--- | :---
-**Data** > **Collection** of `Facts`
-
-**Data Analytics** > **Science** of **Data**
+**Data** | **Collection** of `Facts`
+**Data Analytics** | **Science** of **Data**
 
 **Training Data Set** > Data used to **Train** the Model ( Allow Algorithm to **Learn** from Data )
 
