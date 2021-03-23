@@ -46,6 +46,7 @@ Types :
 3. **Strong** AI ( **Super** AI ) Reduce Human Error | **24 x 7** Availability | Digital Assistance | Fast and Accurate Decisions.
 
 <h1 name='ml'>ML | Machine Learning</h1>
+
 - Subset of AI
 - Art of Extracting Knowledge from Data
 - Computers Learn from Data and Act like Humans.
@@ -70,6 +71,7 @@ Applications :
 6. Facebook Auto Friend Tagging Suggestions
 
 <h1 name='dl'>DL | Deep Learning</h1>
+
 - AI Function that mimics the workings of **Human Brain** in Processing Data 
 - Use in Detecting Objects, Recognizing Speech, Translating Languages and Making Decisions.
 - Perform ML Inspired by Human Brain Networks of Neurons.
@@ -78,6 +80,7 @@ Applications :
 - Based on **Artificial Neural Network**
 
 <h1 name='nn'>Neural Network</h1>
+
 #### ANN 
 - Artificial Neural Network
 - Simulate the Way the Human Brain Analyzes and Process Information.
@@ -112,6 +115,7 @@ Applications :
 ### CNN ( Faster ) > RNN > ANN
 
 <h1 name='nlp'>NLP | Natural Language Processing</h1>
+
 - Branch of AI
 - Computer Learn | Gain | Understand from Human Languages.
 - Interaction between Computers and Humans using the Natural Language.
@@ -133,6 +137,7 @@ Applications :
 4. Voice Assistant : OK Google, Siri, Cortana and Alexa.
 
 <h1 name='cv'>Computer Vision</h1>
+
 - Computers Gain High Level Understanding from Digital Images or Videos.
 - Works on Pattern Recognition.
 - Understand and Automate the Task of Human Visual System.
@@ -157,6 +162,7 @@ Task :
 4. Instant Segmentation : Extract the Images from its Edges | Boundaries.
 
 <h1 name='iot'>IoT | Internet of Things</h1>
+
 - Connecting Everything in the World to the Internet
 - Gives Ability to Send and Receive Information.
 - Sea of Data
