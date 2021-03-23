@@ -41,7 +41,7 @@
 Parameter | Hyperparameter
 :--- | :---
 `Internal` Configuration Variables of the Model | `External` Configuration Variables of the Model
-Estimated or Learned from Data | Cannot be Estimated from Data ( Guides How Algorithms Learn from Parameter Values from Data)
+Estimated or Learned from Data | Cannot be Estimated from Data ( Guides How to Train Algorithm )
 
 | DBMS | RDBMS |
 | :--- | :---  |
