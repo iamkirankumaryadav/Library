@@ -10,13 +10,13 @@ Term | Definition
 **Data Analysis** | **Collection**, **Transformation** and **Organization** of Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**
 **Data Science** | **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**
 **Predictive Modeling** | A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**
-**Machine Learning** | Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed
+<a href='#ml'>Machine Learning</a> | Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed
 <a href='#ai'>Artificial Intelligence</a> | **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**
-**Deep Learning** | **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**
-**Deep Neural Network** | **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** 
-**Natural Language Processing** | Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** 
-**Computer Vision** | Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** 
-**Internet of Things** | **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others 
+<a href='#dl'>Deep Learning</a> | **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**
+<a href='#nn'>Deep Neural Network</a> | **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** 
+<a href='#nlp'>Natural Language Processing</a> | Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** 
+<a href='#cv'>Computer Vision</a> | Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** 
+<a href='#iot'>Internet of Things</a> | **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others 
 
 ---
 
@@ -45,7 +45,7 @@ Types :
 2. **General** AI ( Computer as Smart as Human )
 3. **Strong** AI ( **Super** AI ) Reduce Human Error | **24 x 7** Availability | Digital Assistance | Fast and Accurate Decisions.
 
-# ML | Machine Learning
+<h1 name='ml'>ML | Machine Learning</h1>
 - Subset of AI
 - Art of Extracting Knowledge from Data
 - Computers Learn from Data and Act like Humans.
@@ -69,7 +69,7 @@ Applications :
 5. Google Search Algorithm
 6. Facebook Auto Friend Tagging Suggestions
 
-# DL | Deep Learning
+<h1 name='dl'>DL | Deep Learning</h1>
 - AI Function that mimics the workings of **Human Brain** in Processing Data 
 - Use in Detecting Objects, Recognizing Speech, Translating Languages and Making Decisions.
 - Perform ML Inspired by Human Brain Networks of Neurons.
@@ -77,7 +77,7 @@ Applications :
 - Artificial Neural Networks Adapt and Learn from Vast Amounts of Data.
 - Based on **Artificial Neural Network**
 
-# Neural Network 
+<h1 name='nn'>Neural Network</h1>
 #### ANN 
 - Artificial Neural Network
 - Simulate the Way the Human Brain Analyzes and Process Information.
@@ -109,11 +109,9 @@ Applications :
 3. Video Tagging
 4. Image Description
 
-
 ### CNN ( Faster ) > RNN > ANN
 
-
-# NLP | Natural Language Processing
+<h1 name='nlp'>NLP | Natural Language Processing</h1>
 - Branch of AI
 - Computer Learn | Gain | Understand from Human Languages.
 - Interaction between Computers and Humans using the Natural Language.
@@ -134,7 +132,7 @@ Applications :
 3. IVR | Interactive Voice Response in Call Centers.
 4. Voice Assistant : OK Google, Siri, Cortana and Alexa.
 
-# Computer Vision
+<h1 name='cv'>Computer Vision</h1>
 - Computers Gain High Level Understanding from Digital Images or Videos.
 - Works on Pattern Recognition.
 - Understand and Automate the Task of Human Visual System.
@@ -158,7 +156,7 @@ Task :
 3. Object Identification : Type of Object in an Image
 4. Instant Segmentation : Extract the Images from its Edges | Boundaries.
 
-# IoT | Internet of Things 
+<h1 name='iot'>IoT | Internet of Things</h1>
 - Connecting Everything in the World to the Internet
 - Gives Ability to Send and Receive Information.
 - Sea of Data
