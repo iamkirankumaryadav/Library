@@ -64,14 +64,16 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
+- An Ensemble Method that **Aggregates** a number of Weak Methods to Create one **Strong Model**
+- Boosting effectively Learns from its Mistake with each Iteration
 - Decision Trees are Created with only **One Depth** or only **One Split** ( **Stumps** )
-- Base Learners | Weak Learners are Created **Sequentially** and the **Subsamples** are passed for Training.
-- Samples are Created using **Row Sampling** and **Column Sampling**.
+- Base Learners | Weak Learners are Created **Sequentially** and the **Subsamples** are passed for Training
+- Samples are Created using **Row Sampling** and **Column Sampling**
 - Boosting combines **Weak Learners Sequentially** by correcting **Previous Errors** ( Forcing them to Improve )
-- **Weight** is attached with each and every **Instance** | Row | Record.
-- If the portion of Dataset is incorrectly classified then that portion is transfered to next **Base Learner** for Training again.
-- Weights are **Adjusted** before each Training and Miss Classified Instances are focused with High Priority.
-- Test Sample is passed to each Model for the Output.
+- **Weight** is attached with each and every **Instance** | Row | Record
+- If the portion of Dataset is incorrectly classified then that portion is transfered to next **Base Learner** for Training again
+- Weights are **Adjusted** before each Training and Miss Classified Instances are focused with High Priority
+- Test Sample is passed to each Model for the Output
 
 ### 1. ADABOOST
 
