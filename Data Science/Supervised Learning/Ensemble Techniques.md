@@ -42,7 +42,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - Final Prediction is based on **Voting**
 - Improves **Accuracy**
 
-### 1. Random Forest
+### 1. Random Forest 
 
 - **Ensemble** Learning Method constructs a **Collection** of `Decision Trees` in `Parallel` 
 - `Aggregate` the `Predictions` of each tree to **Determine** `Final Prediction`
@@ -56,6 +56,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - Easily Handles **Outliers**, **Missing Data** and **Skewness**.
 - Accept **Continuous** as well as **Ordinal** Inputs.
 - Help to Understand **Important Features**. ( Parameter : `feature_importance` )
+- Works Good even if the Data is Messy ( Missing Values or Outliers )  
 
 ### B. Boosting
 
