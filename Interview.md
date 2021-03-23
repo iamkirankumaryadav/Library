@@ -69,6 +69,14 @@ Unsupervised | Supervised
 K : Number of **Clusters** | K : Number of **Nearest** Neighbors
 Determine the Distances of Each Data Points to the **Centroid** and Assign each Point to Closest Cluster **Centroid** | **Calculate** Distance between **New** Data Point with **Nearest** K Neighbours.
 
+### Which Algorithm Generates the Best Model ?
+
+Accuracy | Latency
+:--- | :---
+How they Handle Data of Different Size ? | How Long will it take to **Train** ?
+How will they Handle Complexity of Feature Relationships ? | How Long will it take to **Predict** ?
+How will they Handle Messy Data ( Missing Data + Outliers )
+
 ### Autocorrelation
 - The **Correlation** of the `Data Point` with a delayed copy of itself. 
 - Temperature of the Day **Today** vs Temperature of the Day **Yesterday** or **Tommorrow**.
