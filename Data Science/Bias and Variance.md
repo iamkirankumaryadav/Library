@@ -44,8 +44,11 @@ High Bias Algorithm ( Regression ) | High Variance Algorithm ( Decision Tree, KN
 
 Bias and Variance helps us Improve the Data Fitting | Training Process resulting in more Accurate Models.
 
+### Total Error = Bias + Variance + Irreducible Error ( Noise )
+
 ### Error due to Bias 
 - Difference between the **Expected Prediction** of our Model and the Correct Value which we are trying to Predict.
+- Model Fails to Capture the Relation between Features and Target properly.
 - Due to Randomness in Data Set, Bias Measures How Far off these Model's Predictions are from the Correct Value.
 
 ### Error dur to Variance
