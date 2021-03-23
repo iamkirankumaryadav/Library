@@ -20,6 +20,8 @@
 
 ### [Handle Missing Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [Detect Outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [Encode Categorical Feature](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [Handle Imbalanced Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md)
 
+### Model = Algorithm ( Parameters ) + Data
+
 ### Important Disclaimer
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
 - But we cannot make a **100%** Accurate Model.
