@@ -4,32 +4,19 @@ Term | Definition
 :--- | :---
 **Data** | **Collection** of `Facts`
 **Data Analytics** | **Science** of **Data**
-
-**Training Data Set** > Data used to **Train** the Model ( Allow Algorithm to **Learn** from Data )
-
-**Validation Data Set** > Data used to **Select the Best Model** ( **Optimal** Algorithm and **Hyperparameter** Settings )
-
-**Test Data Set** > Data used to provide an **Evaluation**
-
-**Data Analysis** > **Collection**, **Transformation** and **Organization** of Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**
-
-**Data Science** > **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**
-
-**Predictive Modeling** > A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**
-
-**Machine Learning** > Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed
-
-**Artificial Intelligence** > **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**
-
-**Deep Learning** > **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**
-
-**Deep Neural Network** > **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** 
-
-**Natural Language Processing** > Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** 
-
-**Computer Vision** > Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** 
-
-**Internet of Things** > **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others 
+**Training Data Set** | Data used to **Train** the Model ( Allow Algorithm to **Learn** from Data )
+**Validation Data Set** | Data used to **Select the Best Model** ( **Optimal** Algorithm and **Hyperparameter** Settings )
+**Test Data Set** | Data used to provide an **Evaluation**
+**Data Analysis** | **Collection**, **Transformation** and **Organization** of Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**
+**Data Science** | **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**
+**Predictive Modeling** | A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**
+**Machine Learning** | Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed
+**Artificial Intelligence** | **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**
+**Deep Learning** | **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**
+**Deep Neural Network** | **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** 
+**Natural Language Processing** | Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** 
+**Computer Vision** | Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** 
+**Internet of Things** | **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others 
 
 ---
 
