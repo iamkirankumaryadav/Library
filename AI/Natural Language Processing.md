@@ -23,6 +23,7 @@
     <td>4. <a href="#pipe">NLP Pipeline</a> </td>
     <td>9. <a href="#stop">Stop Word</a></td>
     <td>14. <a href="#ngram">N Grams</a></td>
+    <td>19. <a href="#doc2vec"> Doc2vec </a></td>
   </tr>
   <tr>
     <td>5. <a href="#token">Tokenization</a> </td>
@@ -246,4 +247,12 @@ How to `Remove` Stopwords Using NLTK
 <h3 name="word2vec"> Word2vec </h3>
 
 - **word2vec** Algorithm uses a Neural Network Model to Learn **Word Associations** from a Large Corpus of Text
+- Accepts a Text Corpus as an input, and returns a set of **Vectors** ( **Numeric Representation** of a given **Word** )
+- **Average** of all **Word Vectors** is considered as One Complete Sentence ( We **loose** some Information while taking Average )
+- Once trained, can Detect Synonymous Words or Suggest Additional Words for a Partial Sentence ( Autocomplete | Predict Next Words )
+
+<h3 name="doc2vec"> Doc2vec </h3>
+
+- **doc2vec** is a Two Layer Neural Network Model to Learn **Word Associations** from a Large **Corpus** of Text
+- Accepts a Text Corpus as an input, and returns a set of **Vectors** ( **Numeric Representation** of a given **Sentence**, **Paragraph** or **Document** )
 - Once trained, can Detect Synonymous Words or Suggest Additional Words for a Partial Sentence ( Autocomplete | Predict Next Words )
