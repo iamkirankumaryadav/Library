@@ -249,6 +249,7 @@ How to `Remove` Stopwords Using NLTK
 - **word2vec** Algorithm uses a Neural Network Model to Learn **Word Associations** from a Large Corpus of Text
 - Accepts a Text Corpus as an input, and returns a set of **Vectors** ( **Numeric Representation** of a given **Word** )
 - **Average** of all **Word Vectors** is considered as One Complete Sentence ( We **loose** some Information while taking Average )
+- Word2Vectors Vectors are converted to Array for doing elementwise Operations ( Averaging )
 - Once trained, can Detect Synonymous Words or Suggest Additional Words for a Partial Sentence ( Autocomplete | Predict Next Words )
 
 <h3 name="doc2vec"> Doc2vec </h3>
@@ -256,3 +257,4 @@ How to `Remove` Stopwords Using NLTK
 - **doc2vec** is a Two Layer Neural Network Model to Learn **Word Associations** from a Large **Corpus** of Text
 - Accepts a Text Corpus as an input, and returns a set of **Vectors** ( **Numeric Representation** of a given **Sentence**, **Paragraph** or **Document** )
 - Once trained, can Detect Synonymous Words or Suggest Additional Words for a Partial Sentence ( Autocomplete | Predict Next Words )
+- **Doc2word Vectors** are not converted to Array, They are converted to **List**
