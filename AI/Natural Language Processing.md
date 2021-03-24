@@ -247,7 +247,9 @@ How to `Remove` Stopwords Using NLTK
 <table align='center'>
   <tr>
     <th>
-      <h4>word2vec</h4>
+      <h4>word2vec</h4>      
+    </th>
+    <th>
       <h4>doc2vec</h4>
     </th>
   </tr>
@@ -257,6 +259,9 @@ How to `Remove` Stopwords Using NLTK
   </tr>
   <tr>
     <td colspan='2'>Accept large Corpus of Text as Input</t>
+  </tr>
+  <tr>
+    <td colspan='2'>Vector : Numeric Representation of Word and Document</t>
   </tr>
   <tr>
     <td>Returns a Set of Vectors for Each <b>Word</b></t>
