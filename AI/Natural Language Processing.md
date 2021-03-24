@@ -244,6 +244,30 @@ How to `Remove` Stopwords Using NLTK
 - Power Transformation ( Square, Square Root )
 - Standardizing Data 
 
+<table align='center'>
+  <tr>
+    <th>
+      <h4>word2vec</h4>
+      <h4>doc2vec</h4>
+    </th>
+  </tr>
+  <tr>
+    <td>Word 2 Vector</td>
+    <td>Doc 2 Vector</td>
+  </tr>
+  <tr>
+    <td colspan='2'>Accept large Corpus of Text as Input</t>
+  </tr>
+  <tr>
+    <td>Returns a Set of Vectors for Each <b>Word</b></t>
+    <td>Returns a Set of Vectors for Entire <b>Sentence</b></t>
+  </tr>
+  <tr>
+    <td>Vectors are converted to <b>Array</b></t>
+    <td>Vectors are converted to <b>List</b></t>
+  </tr>
+ </table>
+
 <h3 name="word2vec"> Word2vec </h3>
 
 - **word2vec** Algorithm uses a Neural Network Model to Learn **Word Associations** from a Large Corpus of Text
