@@ -85,14 +85,7 @@ How will they Handle Messy Data ( Missing Data + Outliers )
 ### Cross Join | Cartesian Product
 - Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
 
-### K Mean
-Step 1 :
-1. Select the Number of **K** ( `Clusters` ) you want to Identify in your Data
-2. Randomly Select **3** Distinct Data Points as **Clusters** 
-3. Distance of Data Points is Calculated from each **Cluster** and it belongs to Closest Cluster.
-4. Calculate the Mean ( **Centroid** ) of each Cluster
-
-### Steps 
+### Data Scientist Steps 
 1. Explore ( EDA ) and Clean ( Data Clean ) the Data
 2. Split Data into Train + Validate + Test Sets
 3. Train with an Initial Model and Evaluate 
