@@ -81,6 +81,9 @@ Applications :
 
 <h1 name='nn'>Neural Network</h1>
 
+- **Pattern Matching** through **Connection** of many **Small Functions** to Create one very **Powerful Function** ( Line Connected Neurons in **Brains** ) 
+- Also Called as **Deep Neural Network** ( **Deep** Refers to Number of `Hidden Layers` Typically )
+
 #### ANN 
 - Artificial Neural Network
 - Simulate the Way the Human Brain Analyzes and Process Information.
@@ -104,10 +107,10 @@ Applications :
 
 #### RNN
 - Recurrent Neural Network
-- Feed Forward Netwrok
-- Better for Sequential Data
+- Feed Forward and **Feedback** Netwrok 
+- Better for **Sequential** Data
 - Application
-1. Language Translation
+1. Language Translation ( Text Data )
 2. Speech Recognition
 3. Video Tagging
 4. Image Description
