@@ -86,7 +86,7 @@ How will they Handle Messy Data ( Missing Data + Outliers )
 - Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
 
 ### Data Scientist Steps 
-1. Explore ( EDA ) and Clean ( Data Clean ) the Data
+1. Explore ( Exploratory Data Analysis ) and Clean ( Data Cleaning ) the Data
 2. Split Data into Train + Validate + Test Sets
 3. Train with an Initial Model and Evaluate 
 4. Tune Hyperparameters + Cross Validations 
