@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 <h1 align="center"> Natural Language Processing</h1>
 
 <table align="center">
@@ -287,3 +289,5 @@ How to `Remove` Stopwords Using NLTK
 - Accepts a Text Corpus as an input, and returns a set of **Vectors** ( **Numeric Representation** of a given **Sentence**, **Paragraph** or **Document** )
 - Once trained, can Detect Synonymous Words or Suggest Additional Words for a Partial Sentence ( Autocomplete | Predict Next Words )
 - **doc2vec Vectors** are not converted to Array, They are converted to **List**
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
