@@ -41,7 +41,16 @@ e.g ( If a Public Health Data set contains 96% of Observations where for `35 Yea
 - Divide the Variables into **Groups** ( High Correlated and Less Correlated ) 
 
 ### Auto Encoder
-- Unsupervised Learning Method
+- `Unsupervised` Learning Method
 - Type of Artificial Neural Network
+- Learn | Discover the **Representation** | **Structure** of Data Set
+- Ignore Noise in Data 
+
+### Applications of autoencoders include:
+
+1. Anomaly detection
+2. Removine Noise from Data ( Images, Audio )
+3. Image Inpainting ( **Reconstructing** Missing Part of an Image )
+4. Information Retrieval
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
