@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # AI 🤖
 
 Term | Definition
@@ -190,3 +192,5 @@ Data Science Process :
 2. Scrub : Clean Data to Formats that Machine Understands.
 3. Explore : Find Significant Patterns and Trends using Statistical Methods.
 4. Model : Construct Models to Predict | Forecast | Estimate. 
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
