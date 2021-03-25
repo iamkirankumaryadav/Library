@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # Normalize | Standardize | Rescale | Scaling
 
 Normalization | Standardization
@@ -51,3 +53,5 @@ Not to **Use**
 
 ### Transformation
 - Application of the Same Calculation to Every Point of the Data separately.
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
