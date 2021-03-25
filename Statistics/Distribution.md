@@ -1,4 +1,6 @@
-# Types of **Distribution**.
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
+# Types of **Distribution**
 
 <h3> Discrete :&nbsp; <a href='#uniform'>Uniform</a>&nbsp; |&nbsp; <a href='#bernoulli'>Bernoulli</a>&nbsp; |&nbsp; <a href='#binomial'>Binomial</a>&nbsp; |&nbsp; <a href='#poisson'>Poisson</a></h3>
 
@@ -165,3 +167,4 @@
 - Rapid changing Event follows **Exponential Distribution**.
 - Forecast and Prediction Events follows **Logistic Distribution** (Which Team will Win, Weather Forecast)
 
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
