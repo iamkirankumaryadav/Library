@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # Bias | Variance | Underfitting | Overfitting
 
 Bias | Variance
@@ -67,3 +69,5 @@ Bias and Variance helps us Improve the Data Fitting | Training Process resulting
 
 ### Regularization
 - Lasso ( L1 ) and Ridge ( L2 ) : Add Penalty to the `Loss` Function to Constrain Coefficients 
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
