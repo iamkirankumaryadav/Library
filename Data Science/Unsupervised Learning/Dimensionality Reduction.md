@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # Dimensionality Reduction
 
 - Unsupervised Machine Learning 
@@ -41,3 +43,5 @@ e.g ( If a Public Health Data set contains 96% of Observations where for `35 Yea
 ### Auto Encoder
 - Unsupervised Learning Method
 - Type of Artificial Neural Network
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
