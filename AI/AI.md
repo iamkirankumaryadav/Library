@@ -83,8 +83,20 @@ Applications :
 
 <h1 name='nn'>Neural Network</h1>
 
-- **Pattern Matching** through **Connection** of many **Small Functions** to Create one very **Powerful Function** ( Line Connected Neurons in **Brains** ) 
+- **Pattern Matching** through **Connection** of many **Small Functions** to Create one very **Powerful Function** ( Like **Neurons** in **Brains** ) 
 - Also Called as **Deep Neural Network** ( **Deep** Refers to Number of `Hidden Layers` Typically )
+- Neural Network Connects Simple Nodes | Neurons | Units
+- Collection of Such Neurons form a **Network** ( Recognize Relationships in Data Set )
+- Neural Network are **Designed** to Adapt to **Dynamic Input**
+
+### Components of Neural Network
+
+### 1. Neurons
+- Nodes Receives Data Input and Combine Inputs with Activation Function + Bias 
+
+### 2. Connections and Weights
+- Nodes are Connected through **Edges**
+- A **Weight** is Assigned on each Connection 
 
 #### ANN 
 - Artificial Neural Network
