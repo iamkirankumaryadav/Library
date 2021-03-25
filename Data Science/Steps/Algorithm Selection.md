@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # Algorithm Selection
 
 ### Why Linear Regressions is Flawed ?
@@ -37,3 +39,5 @@ Combines all Strong Learners for Predictions | Combines **Weak** Learner into **
 Uses `Complex Base Models` and tries to `Smooth out` their Predictions | Uses `Simple Base Models` and tries to `Boost` their Aggregate complexity
 Each `Tree` is `Random` Subset of Features ( **Feature Selection** ) and Observations ( **Resmapling** ) | Each Tree in the `Sequence` tries to `Correct` the Prediction Errors of the Previous Tree 
 Don't have many Complicated Parameters to Tune | More Complicated to Tune
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
