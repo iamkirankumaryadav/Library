@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # How to Deal with Outliers ?
 
 <h3><a href="#zscore">Z Score ( Extreme Value Analysis )</a> | <a href="#dbscan">DBSCAN</a> | <a href="#summary">5 Number Summary</a> | <a href="#algo">Algorithm</a></h3>
@@ -97,3 +99,5 @@ How many **Features** to take into account to **Detect Outliers** ?
     </td>
   </tr>
 </table>
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
