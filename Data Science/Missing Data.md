@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # How to Deal with Missing Data
 
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
@@ -33,3 +35,5 @@
 - **Random Forest** works well on **Non Linear** and **Categorical Data**.
 
 > **Domain Knowledge** can also help us to Deal with the **Missing Data**.
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
