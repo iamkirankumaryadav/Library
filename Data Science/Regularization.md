@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # Regularization
 
 - Adding **Bias** to Training Data to Balance **Variance**
@@ -42,4 +44,4 @@ Loss Function | Cost Function ( Quantifies Error between Predicted Values and Ex
 
 > Loss = Sum of Square **Residual** ( Actual - Prediction ) <sup>2</sup> 
 
-
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
