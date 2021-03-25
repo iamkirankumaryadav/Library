@@ -50,7 +50,7 @@ e.g ( If a Public Health Data set contains 96% of Observations where for `35 Yea
 
 1. Anomaly detection
 2. Removine Noise from Data ( Images, Audio )
-3. Image Inpainting ( **Reconstructing** Missing Part of an Image )
+3. Image Inpainting | Conservation | Restoration ( **Reconstructing** Missing Part of an Image )
 4. Information Retrieval
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
