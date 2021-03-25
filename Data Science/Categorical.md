@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # How to Deal with Categorical Data ?
 
 - More than **One Class Label** and **Discrete Value**.
@@ -29,3 +31,5 @@
 - Transform **Non Numerical Labels** to **Numerical Labels** ( **Binary** : 1 or 0 ) 
 - Convert a **Categorical Input Variable** into **Numeric Variable**
 - One Hot Encoding is better for **Nominal** Categories ( Rank do not Matters )
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
