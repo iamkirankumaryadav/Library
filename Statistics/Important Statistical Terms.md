@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # Statistical Concepts you should know for Data Science
 
 <h3> <a href='#data'>Data </a> </h3>
@@ -234,3 +236,5 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 - Difference between **Expected** and **Observed**
 - Probability = 0 indicates both Categorical Variable are **Dependent**.
 - Probability = 1 indicates both Categorical Variable are **Independent**.
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
