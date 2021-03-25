@@ -1,3 +1,5 @@
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 # Error in Linear Regression
 
 ### Manage Noise
@@ -111,3 +113,5 @@
 - Data is **Closer** to the Mean or **Away** from the Mean.
 - Tall Bell Curve : Data is Tightly around Mean.
 - Small Bell Curve : Data is Uniformely Spread.
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
