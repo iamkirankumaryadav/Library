@@ -12,7 +12,7 @@ Term | Definition
 **Training Data Set** | Data used to **Train** the Model ( Allow Algorithm to **Learn** from Data )
 **Validation Data Set** | Data used to **Select the Best Model** ( **Optimal** Algorithm and **Hyperparameter** Settings )
 **Test Data Set** | Data used to provide an **Evaluation**
-**Data Analysis** | **Collect**, **Transform** and **Organize** of Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**
+**Data Analysis** | **Collect**, **Transform** and **Organize** Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**
 **Data Science** | **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**
 **Predictive Modeling** | A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**
 <a href='#ml'>Machine Learning</a> | Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed
