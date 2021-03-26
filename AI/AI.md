@@ -22,11 +22,10 @@ Term | Definition
 
 ---
 
-**Data Mining** > Turn Raw Data into Useful **Information**, Discovering **Patterns** in Large Dataset
-
-**Cloud** > A Place to Keep Data **Online**, rather than Computer Hard Drive
-
-**Ecosystem** > Various Elements that Interact with One another in Order to **Produce**, **Manage**, **Store**, **Organize**, **Analyze** and **Share** Data
+:--- | :--=
+**Data Mining** | Turn Raw Data into Useful **Information**, Discovering **Patterns** in Large Dataset
+**Cloud** | A Place to Keep Data **Online**, rather than Computer Hard Drive
+**Ecosystem** | Various Elements that Interact with One another in Order to **Produce**, **Manage**, **Store**, **Organize**, **Analyze** and **Share** Data
 
 ---
 
