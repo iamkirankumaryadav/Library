@@ -7,7 +7,7 @@
 - Easy to **Interpret** and **Understand**
 - Prone to **Overfitting** with many Features and cannot Express Non Linear Relationship
 
-### Regularization can Improve Rgeression
+### Regularization can Improve Regression
 - If we a Fit Regression Model on 100 Features ( Training )
 - Each Coefficient will Memorize each Observations ( Learn Pattern including **Noise** )
 - The Model would have Perfect Accuracy on the Training Data but it will not Generalize well on Test Data ( New Unseen Data )
@@ -21,7 +21,7 @@
 LASSO | Ridge | Elastic
 :--- | :--- | :---
 Least Absolute Shrinkage and Selection Operator ( L1 ) | Mountain Ridges ( L2 ) | Between L1 and L2 
-Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> | Loss + lambda1 * \| slope \| + lambda2 * slope<sup>2</sup>
+Loss + lambda * \| slope \| | Loss + lambda *  ( slope ) <sup>2</sup> | Loss + lambda1 * \| slope \| + lambda2 * slope<sup>2</sup>
 `Absolute` of Coefficient | `Square` of Coefficients | Mix of `Absolute` and `Square`
 Can lead Coefficient to Exactly Zero | Lead to Small Coefficient but not Zero | No Zero 
 Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
