@@ -19,10 +19,6 @@ Term | Definition
 <a href='#nlp'>NLP</a> | Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** 
 <a href='#cv'>Computer Vision</a> | Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** 
 <a href='#iot'>Internet of Things</a> | **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others 
-
----
-
-:--- | :---
 **Data Mining** | Turn Raw Data into Useful **Information**, Discovering **Patterns** in Large Dataset
 **Cloud** | A Place to Keep Data **Online**, rather than Computer Hard Drive
 **Ecosystem** | Various Elements that Interact with One another in Order to **Produce**, **Manage**, **Store**, **Organize**, **Analyze** and **Share** Data
