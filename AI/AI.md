@@ -5,7 +5,10 @@
 Term | Definition
 :--- | :---
 **Data** | **Collection** of `Facts`
+**Data Design** | How you **Organize** Information
+**Data Strategy** | Management of People, Pricess and Tools used in **Data Analysis**
 **Data Analytics** | **Science** of **Data**
+**Data Visualization** | Graphical Representation of **Information**
 **Training Data Set** | Data used to **Train** the Model ( Allow Algorithm to **Learn** from Data )
 **Validation Data Set** | Data used to **Select the Best Model** ( **Optimal** Algorithm and **Hyperparameter** Settings )
 **Test Data Set** | Data used to provide an **Evaluation**
@@ -22,6 +25,8 @@ Term | Definition
 **Data Mining** | Turn Raw Data into Useful **Information**, Discovering **Patterns** in Large Dataset
 **Cloud** | A Place to Keep Data **Online**, rather than Computer Hard Drive
 **Ecosystem** | Various Elements that Interact with One another in Order to **Produce**, **Manage**, **Store**, **Organize**, **Analyze** and **Share** Data
+Data Driven Decision Making | Using Facts to Guide Business Strategy
+Analytical Skills | Qualities and Characteristics associated with **Solving** Problems using **Facts**
 
 ---
 
