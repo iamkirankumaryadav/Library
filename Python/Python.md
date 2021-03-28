@@ -43,7 +43,11 @@
         <tr>
                 <td>Serialization</td>
                 <td>Deserialization</td>
-        </tr>      
+        </tr>
+        <tr>
+                <td>Convert Object into Byte Stream or Binary File </td>
+                <td>Convert Byte Stream or Binary File into Object </td>
+        </tr>
          <tr>
                 <td>Serialize into Format that can be Stored</td>
                 <td>Deserialize Stored Byte Stream into File and Load the Object into Memory</td>
