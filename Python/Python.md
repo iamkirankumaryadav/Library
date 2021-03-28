@@ -50,7 +50,7 @@
         </tr>
          <tr>
                 <td>Serialize into Format that can be Stored</td>
-                <td>Deserialize Stored Byte Stream into File and Load the Object into Memory</td>
+                <td>Deserialize Stored Byte Stream and Load the Object into Memory</td>
         </tr>    
          <tr>
                 <td>pickle.dump( )</td>
