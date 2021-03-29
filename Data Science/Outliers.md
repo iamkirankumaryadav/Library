@@ -6,7 +6,7 @@
 
 ### Outliers
 - **Data Point** that differs significantly from other **Observations** in the Dataset.
-- Outliers in a **Dataset** can **Skew** the Data and lead to make Decisions based on **Faulty Data**.
+- Outliers in a **Dataset** can **Skew** the Data and lead to make False Decisions based on **Faulty Data**.
 
 ### Cause of Outliers
 - Human Error ( Data Entry ) 
