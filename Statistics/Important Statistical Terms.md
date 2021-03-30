@@ -36,6 +36,8 @@
 - Correlation 
 - ANOVA ( One way and Two Way )
 
+![Inferential Statistics vs Descriptive Statistics](Image/InferentialvsDescriptive.png)
+
 Inferential Statistics | Descriptive Statistics
 :--- | :---
 Using **Sample** Data to draw a certain **Conclusion** for Population | **Organizing** and **Summarizing** Data using **Numbers** and **Graphs**
