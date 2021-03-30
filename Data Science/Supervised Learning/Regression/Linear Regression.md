@@ -9,7 +9,7 @@
 ### Linear Regression 
 
 - Form of Regression where Target Variable is **Continuous**
-- Simple to Implement 
+- **Simple** to Implement 
 - Easier to **Interpret** Output
 - **Sensitive** to Overfitting ( But can be Prevented using some **Dimensionality Reduction**, **Regularization** and **Cross Validation** )
 
