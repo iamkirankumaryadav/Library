@@ -36,7 +36,7 @@
 - Correlation 
 - ANOVA ( One way and Two Way )
 
-![Inferential Statistics vs Descriptive Statistics](Image/InferentialvsDescriptive.png)
+![Inferential Statistics vs Descriptive Statistics](Image/InferentialvsDescriptive.jpg)
 
 Inferential Statistics | Descriptive Statistics
 :--- | :---
