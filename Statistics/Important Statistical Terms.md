@@ -38,13 +38,13 @@
 
 ![Inferential Statistics vs Descriptive Statistics](Image/InferentialvsDescriptive.jpg)
 
-Inferential Statistics | Descriptive Statistics
+Descriptive Statistics | Inferential Statistics 
 :--- | :---
-Using **Sample** Data to draw a certain **Conclusion** for Population | **Organizing** and **Summarizing** Data using **Numbers** and **Graphs**
-Draw **Conclusion** of Population Data | Describe **Characteristics** of **Sample** or **Population**
-Drawing **Conclusions**, performing **Estimations** and making **Predictions** | **Collecting**, **Organizing**, **Summarizing** and **Presenting** Data
-**Hypothesis Test, ANOVA** | Measure of **Central Tendency** and **Dispersion**
-Dataset is **Large** | Data set is **Small**
+**Organizing** and **Summarizing** Data using **Numbers** and **Graphs** | Using **Sample** Data to draw a certain **Conclusion** for Population
+Describe **Characteristics** of **Sample** or **Population** | Draw **Conclusion** of Population Data 
+**Collecting**, **Organizing**, **Summarizing** and **Presenting** Data | Drawing **Conclusions**, performing **Estimations** and making **Predictions** 
+Measure of **Central Tendency** and **Dispersion** | **Hypothesis Test, ANOVA**
+Data set is **Small** | Dataset is **Large** 
 
 ### Quantitative Data
 - Process of Collecting and Analyzing **Numerical** Data
