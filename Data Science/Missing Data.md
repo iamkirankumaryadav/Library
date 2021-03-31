@@ -8,8 +8,8 @@
 
 <h3 name="del"> 1. Deletion or Drop</h3>
 
-- Remove | Drop **Particular Row** if it has a **NULL** value for **Particular Feature**. ( axis = 0 )
-- Remove | Drop **Particular Column** ( **Missing Values** > `70%` | axis = 1 )
+- **Drop** Particular **Row** if it has a **NULL** value for Particular **Feature**. ( axis = 0 )
+- **Drop** Particular **Column** ( **Missing Values** > `70%` | axis = 1 )
 - If Missing Data is limited to Small number of **Observations**, eliminate those cases from the **Analysis**.
 - Sometimes Deleting a particular **Row** or a **Column** with no specific information is better.
 
