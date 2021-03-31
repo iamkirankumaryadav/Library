@@ -11,6 +11,7 @@
 - Form of Regression where Target Variable is **Continuous**
 - **Simple** to Implement 
 - Easier to **Interpret** Output
+- The **Best Fit Line** which gives **Least** Number of **Errors** for given **Data Points**.
 - **Sensitive** to Overfitting ( But can be Prevented using some **Dimensionality Reduction**, **Regularization** and **Cross Validation** )
 
 ### Logistic Regression 
