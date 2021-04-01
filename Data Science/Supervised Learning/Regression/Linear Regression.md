@@ -88,6 +88,7 @@
 
 ### Learning Rate
 - Determine the **Step Size** at each **Iteration** while moving towards a Minimum Loss Function ( Minimum Error )
+- Handles the Rate of **Convergence** and **Overshooting** ( High Learning Rate )
 
 ### Regularization
 - Seek to Minimize SSE of the Model on Training Data 
