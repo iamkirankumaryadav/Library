@@ -84,7 +84,10 @@
 - Sum of Squared Errors (**SSE**) are Calculated for each Pair of Independent and Dependent Values.
 - **Learning Rate** is used as a Scale and the coefficients are updated in the direction towards minimizing the Error.
 - The Process is Repeated until a minimum SSE is Achieved or no further improvement is possible.
-- Learning Rate (alpha) Parameters that determines the size of Improvement Step on each Iteration.
+- Learning Rate ( alpha ) Parameters that determines the size of Improvement Step on each Iteration.
+
+### Learning Rate
+- Determine the **Step Size** at each **Iteration** while moving towards a Minimum Loss Function ( Minimum Error )
 
 ### Regularization
 - Seek to Minimize SSE of the Model on Training Data 
