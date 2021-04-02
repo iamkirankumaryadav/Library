@@ -88,8 +88,8 @@
   </tr>
   <tr>
     <td>
-      <ul>
-        <li>PCA</li>
+      <ol type='1'>
+        <li><a href=#pca>PCA</a></li>
       </ul>
     </td>
   </tr>  
@@ -306,5 +306,13 @@ B. Divisive
 
 - **PCA** : Principal Component Analysis. ( Reduce Dimensions of Data )
 - **LDA** : Linear Discriminant Analysis.
+
+<h3 name='pca'>PCA</h3>
+
+- Principle Component Analysis
+- A **Dimensionality Reduction** Method ( Reduce the **Dimensionality** of Large Data Sets )
+- **Transforming** a Large Data Set ( More Features ) into Smaller Data Set ( Without Lossing **Accuracy** )
+- Smaller Data Sets are Easier to **Explore** and **Visualize** and make Analyzing Data much **Easier** and **Faster** for **Machine Learning Algorithms** 
+- [PCA](https://builtin.com/data-science/step-step-explanation-principal-component-analysis)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
