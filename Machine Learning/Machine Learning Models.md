@@ -190,10 +190,12 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 
 <h3 name='knn'>6. K Nearest Neighbours</h3>
 
-- **K** : Number of Nearest **Neigbors**
+- **K** : Initialize **K** ( Number of Nearest **Neigbors** ) 
 - Calculate Distance between New **Test** Data Point and **K Nearest Neigbours** of **Training** Data Points
-- Sort the Calculated Distance in **Ascending Order**
+- Sort the **Ordered** Calculated Distance in **Ascending Order**
 - Get Nearest ( **Least** Distance ) to it or most **Frequent Classes** in Neighbor
+- **Regression** : **Mean** of K Nearest Distances ( Labels )
+- **Classification** : **Mode** of K Nearest Distances ( Labels )
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
