@@ -49,7 +49,7 @@
         <li>Lasso ( L1 ) and Ridge ( L2 )</li>
       </ol>
     </td>
-    <td>
+    <td rowspan='2'>
       <ol type="1">
         <li><a href=#logreg>Logistic Regression</a></li>
         <li><a href=#tree>Decision Tree</a></li>
