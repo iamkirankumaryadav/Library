@@ -190,7 +190,7 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 
 <h3 name='knn'>6. K Nearest Neighbours</h3>
 
-- **Multiclass** Classification Algorithm and Lazy Learning Algorithm 
+- **Multiclass** Classification Algorithm
 - Measures the **Geometrical Distance** ( **Euclidean Distance** )
 - **K** : Initialize **K** ( Number of Nearest **Neigbors** ) 
 - Calculate Distance between New **Test** Data Point and **K Nearest Neigbours** of **Training** Data Points
