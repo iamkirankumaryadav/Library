@@ -36,7 +36,7 @@
     </th>
   </tr>
   <tr>
-    <td rowspan='2'>
+    <td rowspan='3'>
       <ol type="1">
         <li>
           <a href=#linreg>Linear</a> ( Straight Line )
@@ -49,7 +49,7 @@
         <li>Lasso ( L1 ) and Ridge ( L2 )</li>
       </ol>
     </td>
-    <td rowspan='2'>
+    <td rowspan='3'>
       <ol type="1">
         <li><a href=#logreg>Logistic Regression</a></li>
         <li><a href=#tree>Decision Tree</a></li>
@@ -84,13 +84,15 @@
     </td>
   </tr>
   <tr>
-    <th>Dimension Reduction</th>
+    <th>Dimension Reduction</th>    
+  </tr>
+  <tr>
     <td>
       <ul>
         <li>PCA</li>
       </ul>
     </td>
-  </tr>
+  </tr>  
 </table>
 
 ![Machine Learning Map](Image/MLMap.jpg)
