@@ -83,6 +83,14 @@
       </ol>
     </td>
   </tr>
+  <tr>
+    <th>Dimension Reduction</th>
+    <td>
+      <ul>
+        <li>PCA</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 ![Machine Learning Map](Image/MLMap.jpg)
