@@ -36,7 +36,7 @@
     </th>
   </tr>
   <tr>
-    <td>
+    <td rowspan='2'>
       <ol type="1">
         <li>
           <a href=#linreg>Linear</a> ( Straight Line )
