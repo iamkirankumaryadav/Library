@@ -273,8 +273,9 @@ All follow Same Process in **Regression** and **Classification** the only differ
   </tr>
 </table>
 
-- Find **Patterns** and **Relationships** between **Independent** Features and **Dependent** Feature ( **Labels** )
-- Extract Important Features and Explore the Data Set in Detail.
+> Find **Patterns** and **Relationships** between **Independent** Features and **Dependent** Feature ( **Labels** )
+
+> Extract Important Features and Explore the Data Set in Detail.
 
 ### A. Clustering
 
