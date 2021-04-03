@@ -38,7 +38,7 @@
       Group Similar Data 
     </th>
     <th>
-      Identify Set of Items which occur together in the Dataset
+      Identify Similar occuring Data
     </th>
   </tr>
   <tr>
