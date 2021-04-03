@@ -139,10 +139,13 @@
 - **Root** Node and **Internal** Nodes are **Conditions**
 - **Leaf** Node represents a Class **Label** | **Terminal** Node
 - **Splits** a Dataset based on **Different** Conditions ( Branch | Edge | Split )
+- Each **Branch** of Decision Tree Represents a Possible **Decision** or **Outcome**
 - Used **Binary** Classification and **Multiclass** Classification and even for **Regression**
 - Tree Models where the Target Variable takes a **Discrete** Set of Values are **Classification** Tree
 - Tree Models where the Target Variable takes a **Continuous** Values are **Regression** Tree
 - **CART** : **C**lassification **A**nd **R**egression **T**ree
+- Help us to **Analyze** the Possible **Consequences** of a **Decision**
+- Decision Tree can be **Pruned** if Necessary ( **Avoid Overfitting** )
 
 ### Information Gain 
 
@@ -154,6 +157,12 @@
 - Lowest Gini Index is selected 
 - Pure : All Data belongs to Same Class in a Subset ( Gini Index : 0 )
 - Impure : Data is Mixture of Different Classes in a Subset
+
+### Entrophy
+
+- Measure Randomness in the Information ( Disorder or Uncertainity )
+- Higher the Entrophy Harder to Draw Conclusion from Data | Information
+- Low Entrophy is Considered.
 
 Advantage of Decision Tree | Disadvantage of Decision Tree
 :--- | :---
