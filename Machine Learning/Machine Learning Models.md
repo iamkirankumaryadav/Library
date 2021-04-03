@@ -315,4 +315,7 @@ B. Divisive
 - Smaller Data Sets are Easier to **Explore** and **Visualize** and make Analyzing Data much **Easier** and **Faster** for **Machine Learning Algorithms** 
 - [PCA](https://builtin.com/data-science/step-step-explanation-principal-component-analysis)
 
+### Step 1 :  Standardization 
+- Standardize the **Range** of the **Continuous** Initial Variables so that each one of them contributes Equally to the **Analysis**.
+
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
