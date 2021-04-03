@@ -88,6 +88,8 @@
         <li><a href="#dbscan">DBSCAN</a></li>      
       </ol>
     </td>
+    <td colspan=3>
+    </td>
   </tr>
   <tr>
     <th>Dimension Reduction</th>    
@@ -97,9 +99,7 @@
       <ol type=1>
         <li><a href=#pca>PCA</a></li>
       </ul>
-    </td>    
-    <td colspan=3>
-    </td>
+    </td>        
   </tr>  
 </table>
 
