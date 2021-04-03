@@ -26,10 +26,10 @@
   </tr>
   <tr>
     <th>
-      Predict Continuous Data
+      Predict Continuous Numerical Data
     </th>
     <th>
-      Classify Discrete Data
+      Classify Discrete Categorical Data
     </th>
     <th>
       Group Similar Data 
