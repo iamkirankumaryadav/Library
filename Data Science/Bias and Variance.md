@@ -16,8 +16,8 @@ High Bias Algorithm ( Regression ) | High Variance Algorithm ( Decision Tree, KN
 > Bias | Error = Predicted - Actual ( Difference between the `Expected` Value and `True Actual` Value  )
 
 - A `Linear` Algorithms **Learns Fast** which often lead to High Bias
-- Simple the Algorithm, more Bias it will Introduce ( Capture Data with Noise and Error ).
-- Non Linear Algorithms often have **Low Bias**.
+- Simple the Algorithm, more Bias it will Introduce 
+- Non Linear Algorithms often have **Low Bias**
 
 ### How to Reduce Bias?
 - K Fold **Cross Validations** and **Resampling** | Split Data Set into **K** Numbers and Each Set is used as Testing Set
