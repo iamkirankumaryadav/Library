@@ -117,7 +117,17 @@
 9. Hyperparameter Tuning
 10. Prediction
 
-<h3 name='sup' align=center>Supervised Learning</h3>
+<h1 name='sup' align=center>Supervised Learning</h1>
+
+<table>
+  <tr>
+    <th colspan=2><h3>Supervised Learning</h3></th>
+  </tr>
+  <tr>
+    <td>Prediction</td>
+    <td>Classification</td>
+  </tr>
+</table>
 
 > Model is the system that makes **Predictions**
 
