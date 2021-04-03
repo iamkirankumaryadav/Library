@@ -21,7 +21,7 @@
       Classification
     </th>
     <th>
-      Clustering
+      <a href='#cluster'>Clustering</a>
     </th>
     <th>
       Association
@@ -277,12 +277,13 @@ All follow Same Process in **Regression** and **Classification** the only differ
 
 > Extract Important Features and Explore the Data Set in Detail.
 
-### A. Clustering
+ <h1 name='cluster' align=center>Clustering</h1>
 
-- Group the Data Set into Groups | Segments | Clusters According to **Similarity**.
-- Customer Segmentation | Fraud Detection | Document Classification
+> Group the Data Set into **Groups** | **Segments** | **Clusters** According to **Similarity**.
 
-> Clustering Techniques
+> Customer Segmentation | Fraud Detection | Document Classification
+
+### Clustering Techniques
 
 <h3 name='kmean'>1. K Mean Clustering</h3>
 
