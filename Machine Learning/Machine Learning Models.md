@@ -29,16 +29,16 @@
   </tr>
   <tr>
     <th>
-      Predict Continuous ( Numerical ) Data
+      Predict Continuous Numerical Data
     </th>
     <th>
-      Classify Discrete ( Categorical ) Data
+      Classify Discrete Categorical Data
     </th>
     <th>
       Group Similar Data 
     </th>
     <th>
-      Identify Set of Items which often Occur Together
+      Identify Set of Items which occur together
     </th>
   </tr>
   <tr>
