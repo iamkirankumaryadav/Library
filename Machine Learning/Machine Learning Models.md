@@ -119,7 +119,7 @@
 
 <h1 name='sup' align=center>Supervised Learning</h1>
 
-<table>
+<table align=center>
   <tr>
     <th colspan=2><h3>Supervised Learning</h3></th>
   </tr>
