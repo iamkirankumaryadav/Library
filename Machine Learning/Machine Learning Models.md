@@ -121,8 +121,8 @@
 
 <table align=center>
   <tr>
-    <td><h4>Prediction</h4></td>
-    <td><h4>Classification</h4></td>
+    <td><h5>Prediction</h5></td>
+    <td><h5>Classification</h5></td>
   </tr>
 </table>
 
