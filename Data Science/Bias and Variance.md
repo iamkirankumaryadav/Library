@@ -26,8 +26,9 @@ High Bias Algorithm ( Regression ) | High Variance Algorithm ( Decision Tree, KN
 
 ### Bias Variance Trade Off
 
-- Increasing Bias decreases Variance and Increasing Variance decreases Bias,
-- Find the Correct Balance : Low Bias and Low Variance.   
+- Bias and Variance are **Inversely Proportional** to each other
+- Increasing **Bias** decreases **Variance** and Increasing Variance decreases Bias
+- Find the Correct Balance : **Low Bias** and **Low Variance**
 
 ### Underfitting | High Bias + Low Variance ( Simple Model )
 - **High** Bias : **High** Error on Training Data ( **Underfitting** )
