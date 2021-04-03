@@ -121,8 +121,8 @@
 
 <table align=center>
   <tr>
-    <td><h3>Prediction</h3></td>
-    <td><h3>Classification</h3></td>
+    <th><h3>Prediction</h3></th>
+    <th><h3>Classification</h3></th>
   </tr>
 </table>
 
@@ -256,8 +256,8 @@ All follow Same Process in **Regression** and **Classification** the only differ
 
 <table align=center>
   <tr>
-    <td><h3>Clustering</h3></td>
-    <td><h3>Association</h3></td>
+    <th><h3>Clustering</h3></th>
+    <th><h3>Association</h3></th>
   </tr>
   <tr>
     <td>Group | Cluster | Segment Similar Data</td>
