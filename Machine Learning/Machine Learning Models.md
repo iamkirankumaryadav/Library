@@ -80,16 +80,16 @@
         <li><a href=#naive>Naive Bayes</a></li>
         <li><a href=#knn>K Nearest Neighbors</a></li>
       </ol>
-    </td>
-    <td colspan=3>
-    </td>
+    </td>    
     <td>
       <ol type=1>
         <li><a href=#kmean>K Mean</a></li>
         <li><a href=#hc>Hierarchical</a></li>
         <li><a href="#dbscan">DBSCAN</a></li>      
       </ol>
-    </td>    
+    </td>
+    <td colspan=5>
+    </td>
   </tr>
   <tr>
     <th>Dimension Reduction</th>    
