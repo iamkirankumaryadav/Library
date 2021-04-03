@@ -121,11 +121,8 @@
 
 <table align=center>
   <tr>
-    <th colspan=2><h3>Supervised Learning</h3></th>
-  </tr>
-  <tr>
-    <td>Prediction</td>
-    <td>Classification</td>
+    <td><h4>Prediction</h4></td>
+    <td><h4>Classification</h4></td>
   </tr>
 </table>
 
