@@ -124,6 +124,10 @@
     <th><h3>Prediction</h3></th>
     <th><h3>Classification</h3></th>
   </tr>
+  <tr>
+    <th>Predicts a Numerical Variable</th>
+    <th>Predicts a Categorical Variable</th>
+  </tr>
 </table>
 
 > Model is the system that makes **Predictions**
