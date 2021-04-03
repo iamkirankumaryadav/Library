@@ -15,10 +15,10 @@
   </tr>
   <tr>   
     <th>
-      Regression
+      <a href='#reg'>Regression</a>
     </th>
     <th>
-      Classification
+      <a href='#class'>Classification</a>
     </th>
     <th>
       <a href='#cluster'>Clustering</a>
@@ -136,8 +136,9 @@
 
 > Learner makes **Adjustments** in the Parameters and the Model to Align the Predictions with Actual Results.
 
+<h1 name='reg' align=center>Regression</h1>
 
-<h3 name='linreg'>1. Linear Regression ( Regression )</h3>
+<h3 name='linreg'>1. Linear Regression</h3>
 
 - One or More Independent Features is used to **Predict** Continuous Dependent Variable
 - Dependent ( Output ) should be **Continuous** 
@@ -149,7 +150,9 @@
 
 ![Equation of Line](Image/EquationLine.png)
 
-<h3 name='logreg'>2. Logistic Regression ( Classification )</h3>
+<h1 name='class' align=center>Classification</h1>
+
+<h3 name='logreg'>2. Logistic Regression</h3>
 
 - One or More Independent Features is used to **Classify** Discrete Labels 
 - Dependent ( Output ) should be **Discrete** ( 0 or 1 )
