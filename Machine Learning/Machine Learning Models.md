@@ -309,13 +309,18 @@ B. Divisive
 
 <h3 name='pca'>PCA</h3>
 
-- Principle Component Analysis
+- Principal Component Analysis
 - A **Dimensionality Reduction** Method ( Reduce the **Dimensionality** of Large Data Sets )
 - **Transforming** a Large Data Set ( More Features ) into Smaller Data Set ( Without Lossing **Accuracy** )
 - Smaller Data Sets are Easier to **Explore** and **Visualize** and make Analyzing Data much **Easier** and **Faster** for **Machine Learning Algorithms** 
 - [PCA](https://builtin.com/data-science/step-step-explanation-principal-component-analysis)
 
-### Step 1 :  Standardization 
+- **Principal Components** are new Variables that are constructed as **Linear Combinations**
+- Combinations are done such a way that New Variables are **Uncorrelated**
+- Most of Information within the Initial Variables is **Compressed** into **First Components**  
+- PCA tries to Put **Maximum Possible Information** in **First Component** then Maximum remaining Information in the Corresponding **Components** 
+
+### Standardization 
 - Standardize the **Range** of the **Continuous** Initial Variables so that each one of them contributes Equally to the **Analysis**.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
