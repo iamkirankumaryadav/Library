@@ -37,6 +37,9 @@
     <th>
       Group Similar Data 
     </th>
+    <th>
+      Identify Set of Items which often Occur Together
+    </th>
   </tr>
   <tr>
     <td rowspan=3>
