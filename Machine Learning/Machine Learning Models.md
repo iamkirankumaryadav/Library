@@ -307,9 +307,8 @@ B. Divisive
 - **PCA** : Principal Component Analysis. ( Reduce Dimensions of Data )
 - **LDA** : Linear Discriminant Analysis.
 
-<h3 name='pca'>PCA</h3>
+<h3 name='pca'>PCA ( Principal Component Analysis )</h3>
 
-- Principal Component Analysis
 - A **Dimensionality Reduction** Method ( Reduce the **Dimensionality** of Large Data Sets )
 - **Transforming** a Large Data Set ( More Features ) into Smaller Data Set ( Without Lossing **Accuracy** )
 - Smaller Data Sets are Easier to **Explore** and **Visualize** and make Analyzing Data much **Easier** and **Faster** for **Machine Learning Algorithms** 
