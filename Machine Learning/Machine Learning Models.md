@@ -117,6 +117,8 @@
 9. Hyperparameter Tuning
 10. Prediction
 
+<h3 name='sup' align=center>Supervised Learning</h3>
+
 > Model is the system that makes **Predictions**
 
 > **Parameters** are the Factors which are considered by the model to make **Predictions**. **Linear Regression** ( parameters... )
