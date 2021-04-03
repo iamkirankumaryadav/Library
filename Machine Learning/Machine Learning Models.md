@@ -10,7 +10,7 @@
       <h3><a href=#sup>Supervised Learning</a></h3>
     </th>
     <th colspan=2>
-      <a href=#unsup><h3>Unsupervised Learning</h3></a>
+      <h3><a href=#unsup>Unsupervised Learning</a></h3>
     </th>    
   </tr>
   <tr>   
