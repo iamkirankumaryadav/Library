@@ -63,12 +63,12 @@
           <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md">Ensemble Techniques</a>
           <ul>
             <li>Bagging
-            <ol type="A">
+            <ol type=A>
               <li><a href=#forest>Random Forest</a></li>
             </ol>
             </li>
             <li>Boosting
-            <ol type="A">
+            <ol type=A>
               <li><a>ADABOOST</a></li>
               <li><a>Gradient Boosting</a></li>
               <li><a>XGBOOST</a></li>
