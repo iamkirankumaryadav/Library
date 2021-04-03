@@ -9,7 +9,7 @@
     <th colspan=2>
       <a href=#sup>Supervised Learning</a>
     </th>
-    <th>
+    <th colspan=2>
       <a href=#unsup>Unsupervised Learning</a>
     </th>    
   </tr>
@@ -22,6 +22,9 @@
     </th>
     <th>
       Clustering
+    </th>
+    <th>
+      Association
     </th>
   </tr>
   <tr>
@@ -36,7 +39,7 @@
     </th>
   </tr>
   <tr>
-    <td rowspan='3'>
+    <td rowspan=3>
       <ol type="1">
         <li>
           <a href=#linreg>Linear</a> ( Straight Line )
@@ -49,7 +52,7 @@
         <li>Lasso ( L1 ) and Ridge ( L2 )</li>
       </ol>
     </td>
-    <td rowspan='3'>
+    <td rowspan=3>
       <ol type="1">
         <li><a href=#logreg>Logistic Regression</a></li>
         <li><a href=#tree>Decision Tree</a></li>
@@ -76,7 +79,7 @@
       </ol>
     </td>
     <td>
-      <ol type="1">
+      <ol type=1>
         <li><a href=#kmean>K Mean</a></li>
         <li><a href=#hc>Hierarchical</a></li>
         <li><a href="#dbscan">DBSCAN</a></li>      
@@ -88,7 +91,7 @@
   </tr>
   <tr>
     <td>
-      <ol type='1'>
+      <ol type=1>
         <li><a href=#pca>PCA</a></li>
       </ul>
     </td>
