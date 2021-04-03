@@ -121,8 +121,8 @@
 
 <table align=center>
   <tr>
-    <td><h5>Prediction</h5></td>
-    <td><h5>Classification</h5></td>
+    <td><h3>Prediction</h3></td>
+    <td><h3>Classification</h3></td>
   </tr>
 </table>
 
@@ -252,7 +252,22 @@ All follow Same Process in **Regression** and **Classification** the only differ
 
 > **Classification** Output : **Discrete**
 
-<h1 name='unsup'> Unsupervised Learning</h1>
+<h1 name='unsup' align=center> Unsupervised Learning</h1>
+
+<table align=center>
+  <tr>
+    <td><h3>Clustering</h3></td>
+    <td><h3>Association</h3></td>
+  </tr>
+  <tr>
+    <td>Group | Cluster | Segment Similar Data</td>
+    <td>Identify Set of Items that Occur together in the Dataset</td>
+  </tr>
+  <tr>
+    <td>Group of Customers with Similar Purchasing Behavior</td>
+    <td>Customer Buy Product A also tend to Buy Product B</td>
+  </tr>
+</table>
 
 - Find **Patterns** and **Relationships** between **Independent** Features and **Dependent** Feature ( **Labels** )
 - Extract Important Features and Explore the Data Set in Detail.
