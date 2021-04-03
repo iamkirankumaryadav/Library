@@ -88,7 +88,7 @@
         <li><a href="#dbscan">DBSCAN</a></li>      
       </ol>
     </td>
-    <td colspan=5>
+    <td>
     </td>
   </tr>
   <tr>
