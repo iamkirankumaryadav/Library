@@ -38,7 +38,7 @@
       Group Similar Data 
     </th>
     <th>
-      Identify Similar occuring Data
+      Identify Similar Data
     </th>
   </tr>
   <tr>
