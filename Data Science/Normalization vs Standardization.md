@@ -9,7 +9,7 @@ x ( **Normal** ) =  x - **min** ( x ) / **max** ( x ) - **min** ( x ) | z = x - 
 Preprocessing.`MinMaxScaler()` | Preprocessing.`StandardScaler()`
 Use for **RNN**, **CNN**, **Images** | Algorithms that uses **Gradient Descent** and Calculate **Distance**
 
-### Normalization
+### Data Normalization
 - **Rescale** Feature values range between 0 and 1
 - Data Set may contain two **Features** with Different Range of Values
 - So we **Normalize** Data to bring down to Same **Range** | **Scale**
@@ -30,7 +30,7 @@ Where to **Use** ?
 - A Feature Set consisting only Single Feature, Scaling provides little to no practical benefit.
 - Scaling is Beneficial if the Feature Set consists of **Multiple Features**.
 
-### Standardization ( Z Score Normalization )
+### Data Standardization ( Z Score Normalization )
 - z = x - **mean** ( x ) / **std** ( x )
 - **Mean** = 0 and **Standard Deviation** = 1
 - Standardizing **Features** around center | Equalize the Range or Data **Variability**
