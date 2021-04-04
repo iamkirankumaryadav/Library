@@ -38,6 +38,9 @@
 ### Activation Function
 - A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Next Layer**.
 
+### Hyperparameter Optimization
+- Finding **Ideal** Set of **Parameters** for a Prediction Algorithm with Optimum Performance
+
 Parameter | Hyperparameter
 :--- | :---
 `Internal` Configuration Variables of the Model | `External` Configuration Variables of the Model
