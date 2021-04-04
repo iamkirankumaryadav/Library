@@ -117,7 +117,7 @@
 9. Hyperparameter Tuning
 10. Prediction
 
-<h1 name='sup' align=center>Supervised Learning</h1>
+<h1 name='sup' align=center>Supervised Learning ( Labeled Data )</h1>
 
 <table align=center>
   <tr>
@@ -259,7 +259,7 @@ All follow Same Process in **Regression** and **Classification** the only differ
 
 > **Classification** Output : **Discrete**
 
-<h1 name='unsup' align=center> Unsupervised Learning</h1>
+<h1 name='unsup' align=center>Unsupervised Learning ( Unlabeled Data )</h1>
 
 <table align=center>
   <tr>
