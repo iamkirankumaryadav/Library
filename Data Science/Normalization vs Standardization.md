@@ -40,7 +40,6 @@ Where to **Use** ?
 - Algorithms that rely on Gradient Descent ( **Regression** )
 - Algorithms that Calculate Distance ( KNN, K Mean, Clusterings )
 
-
 Not to **Use** 
 - Trees : Decision Trees and Ensemble Techniques.
 
@@ -48,8 +47,10 @@ Not to **Use**
 - Preprocessing.`StandardScaler()`
 
 ### Benefits 
-1. Helps **Gradient Descent** Converge more Quickly.
+1. Helps **Gradient Descent** Converge more Quickly
 2. Helps the Model Learn Appropriate Weights for Each Feature. ( Model Pay more Attention to the Features having Wider Range )
+3. We Reduce the Effect of the Features with **Larger Scale** which plays a Dominating Role in the Model
+4. We Reduce the Effect of **Outlier**
 
 ### Transformation
 - Application of the Same Calculation to Every Point of the Data separately.
