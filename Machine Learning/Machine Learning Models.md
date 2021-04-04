@@ -140,7 +140,7 @@
 
 <h3 name='linreg'>1. Linear Regression</h3>
 
-- One or More Independent Features is used to **Predict** Continuous Dependent Variable
+- One or More **Independent Features** is used to **Predict** Continuous Dependent Numeric Variable
 - Dependent ( Output ) should be **Continuous** 
 - **Simple** Linear Regression : Find the **Line** of Best Fit
 - **Multiple** Linear Regression : Find the **Plane** | **Hyperplane** of Best Fit.
@@ -154,7 +154,7 @@
 
 <h3 name='logreg'>2. Logistic Regression</h3>
 
-- One or More Independent Features is used to **Classify** Discrete Labels 
+- One or More Independent Features is used to **Classify** Discrete Categorical Labels 
 - Dependent ( Output ) should be **Discrete** ( 0 or 1 )
 - Probability of Finite Number of Outcomes | Occurence.
  
