@@ -206,6 +206,8 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 - **Prediction** of Model is based on the **Voting** of Decision Trees Output ( **Majority Voting** )
 - Reduces Risk of **Error** and **Overfitting**.
 
+### Decision Tree and Random Forest 
+
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
 - SVM can be used for both **Regression** and **Classification** ( but Better use for Classification )
