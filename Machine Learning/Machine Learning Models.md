@@ -217,6 +217,7 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 - Works Better even if Data set has lot of **Outliers** ( Because SVM Focus only on **Support Vectors** closest to the Line  )
 - Should be Used if Data Set has lot of **Features** 
 - Take Long Time to **Train** and **Predict** if the Number of **Observations** are very Large
+- Kernel Functions : Linear | Radial Basis Function ( RBF ) | Polynomial | Exponential
 
 ### Benefits 
 
