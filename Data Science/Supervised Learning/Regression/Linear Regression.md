@@ -8,7 +8,7 @@
 
 ### Linear Regression 
 
-- Form of Regression where Target Variable is **Continuous**
+- **Target** Variable is **Continuous**
 - **Simple** to Implement 
 - Easier to **Interpret** Output
 - The **Best Fit Line** which gives **Least** Number of **Errors** ( Difference between **Actual** and **Predicted** Value ) for given **Data Points**.
@@ -16,7 +16,7 @@
 
 ### Logistic Regression 
 
-- Form of Regression where Target Variable is **Binary**
+- **Target** Variable is **Binary**
 
 
 ![Regression Line](Image/RegressionLine.png)
