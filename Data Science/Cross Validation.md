@@ -5,7 +5,7 @@
 - Whether Model is **Generalized** well for the **New Unseen Data**
 - Aim is to reduce **Overfitting**
 
-<h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
+<h3><a href='#hold'>Holdout</a>&nbsp;|&nbsp;<a href='#kfold'>K Fold</a>&nbsp;|&nbsp;<a href='#skfold'>Stratified K Fold</a>&nbsp;|&nbsp;<a href='#loocv'>Leave One Out</a> </h3>
 
 <h3 name='hold'> 1. Holdout Method ( Traditional Approach | Train Test Split )</h3>
 
