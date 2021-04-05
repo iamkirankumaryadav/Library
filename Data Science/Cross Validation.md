@@ -15,27 +15,27 @@
 
 <h3 name='kfold'> 2. K Fold Cross Validation</h3>
 
-- Data is divided into **k** subsets
-- One of **k** subset is used as **Validation Set**
-- **k - 1** subsets are used as **Training Set**
-- **Mean** Error of **k** trials is calculated
+- Data is divided into **K** subsets
+- One of **K** subset is used as **Validation Set**
+- **K - 1** subsets are used as **Training Set**
+- **Mean** Error of **K** trials is calculated
 - Reduces **Bias** and **Variance**
 - Sampling `without` Replacement
-- Very High Value of **K** will lead to **Over Fitting** 
-- Very Low Value of **K** will work similar to Train Test Split
+- Very High Value of **K** will lead to **Over Fitting** and Very Low Value of **K** will work similar to Train Test Split
 
 <h3 name='skfold'> 3. Stratified K Fold Cross Validation</h3>
 
-- Data is divided into **k** Subsets
-- Each Subset has **Equal Proportion** of samples of each **Target Class**
-- One of **k** subset is used as **Validation Set**
-- **k - 1** subsets are used as **Training Set**
-- **Mean** Error of **k** trials is calculated
-- Reduces **Bias** and **Variance**
+- Data is divided into **K** Subsets
+- Each Subset has **Equal Proportion** of samples of each **Target Class Labels**
+- One of **K** Subset is used as **Validation Set**
+- **K - 1** Subsets are used as **Training Set**
+- **Mean** Error of **K** trials is calculated
+- Reduce **Bias** and **Variance**
 
 <h3 name='loocv'> 4. Leave One Out Cross Validation | LOOCV</h3>
 
-- Leave **One Data** from the Training Dataset for **Validation**
+- K = N ( N : Number of Data Points in the Data Set )
+- Leave **One Data** from the Dataset for **Validation**
 - Use remaining Data Samples for **Training**
 - Repeated for all combinations
 - Approach is **Exhaustive**, Need to **Train** and **Validate** the Model for all **Possible Combinations**
