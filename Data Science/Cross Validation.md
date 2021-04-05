@@ -18,6 +18,8 @@
 - **Mean** Error of **k** trials is calculated
 - Reduces **Bias** and **Variance**
 - Sampling `without` Replacement
+- Very High Value of **K** will lead to **Over Fitting** 
+- Very Low Value of **K** will work similar to Train Test Split
 
 ### 3. Stratified K Fold Cross Validation
 - Data is divided into **k** subsets
