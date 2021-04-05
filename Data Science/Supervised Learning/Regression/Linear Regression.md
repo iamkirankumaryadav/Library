@@ -2,6 +2,8 @@
 
 # Linear Regression 📈
 
+<h3><a href='#linreg'>Linear Regression</a> | <a href='#simpleLinreg'>Simple Linear Regression</a> | <a href='mullinreg'>Multiple Linear Regression</a> | <a href='#ols'>Ordinary Least Square</a> | <a href='#gd'>Gradient Descent</a></h3>
+
 ### Regression
 
 - A Statistical Process for Estimating the **Relationships** among **Variables** and to make **Predictions**
@@ -75,7 +77,7 @@
 ### Gradient Descent
 - A Process of Optimizing the Values of the Coefficients by Iteratively Minimizing the **Error** of Model on Training Data.
 - Starts with Random Values for each Coefficient
-- Sum of Squared Errors (**SSE**) are Calculated for each Pair of Independent and Dependent Values.
+- Sum of Squared Errors ( **SSE** ) are Calculated for each Pair of Independent and Dependent Values.
 - **Learning Rate** is used as a Scale and the coefficients are updated in the direction towards minimizing the Error.
 - The Process is Repeated until a minimum SSE is Achieved or no further improvement is possible.
 - Learning Rate ( alpha ) Parameters that determines the size of Improvement Step on each Iteration.
