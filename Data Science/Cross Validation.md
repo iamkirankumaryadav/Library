@@ -9,10 +9,9 @@
 
 <h3 name='hold'> 1. Holdout Method ( Traditional Approach | Train Test Split )</h3>
 
-- Remove a Part of **Training Data** before Training and keep it for **Validation**
-- Used to **Evaluate** Models Ability to **Generalize** to **Unseen** Data
-- By Reducing the **Training Data**, we risk losing important **Patterns | Trends** in Dataset
-- Suffers from **High Variance**
+- Split the Data Set in ( 70% - 30% ) or ( 80% - 20% ) for Training | Validation | Testing 
+- Keep a Part of **Data Set** for **Validation** and Use rest of the Data Set for Training
+- Used to **Evaluate** Models Ability to **Generalize** New **Unseen** Data
 
 <h3 name='kfold'> 2. K Fold Cross Validation</h3>
 
@@ -27,7 +26,7 @@
 
 <h3 name='skfold'> 3. Stratified K Fold Cross Validation</h3>
 
-- Data is divided into **k** subsets
+- Data is divided into **k** Subsets
 - Each Subset has **Equal Proportion** of samples of each **Target Class**
 - One of **k** subset is used as **Validation Set**
 - **k - 1** subsets are used as **Training Set**
