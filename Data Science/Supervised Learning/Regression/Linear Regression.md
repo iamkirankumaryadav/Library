@@ -10,14 +10,8 @@
 
 - **Target** Variable is **Continuous Numeric**
 - **Simple** to Implement 
-- Easier to **Interpret** Output
 - The **Best Fit Line** which gives **Least** Number of **Errors** ( Difference between **Actual** and **Predicted** Value ) for given **Data Points**.
 - **Sensitive** to Overfitting ( But can be Prevented using some **Dimensionality Reduction**, **Regularization** and **Cross Validation** )
-
-### Logistic Regression 
-
-- **Target** Variable is **Binary Discrete**
-
 
 ![Regression Line](Image/RegressionLine.png)
 
