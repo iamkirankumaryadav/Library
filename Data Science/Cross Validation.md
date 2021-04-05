@@ -8,12 +8,14 @@
 <h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
 
 <h3 name='hold'> 1. Holdout Method ( **Traditional Approach** )</h3>
+
 - Remove a Part of **Training Data** before Training and keep it for **Validation**
 - Used to **Evaluate** Models Ability to **Generalize** to **Unseen** Data
 - By Reducing the **Training Data**, we risk losing important **Patterns | Trends** in Dataset
 - Suffers from **High Variance**
 
 <h3 name='kfold'> 2. K Fold Cross Validation</h3>
+
 - Data is divided into **k** subsets
 - One of **k** subset is used as **Validation Set**
 - **k - 1** subsets are used as **Training Set**
@@ -24,6 +26,7 @@
 - Very Low Value of **K** will work similar to Train Test Split
 
 <h3 name='skfold'> 3. Stratified K Fold Cross Validation</h3>
+
 - Data is divided into **k** subsets
 - Each Subset has **Equal Proportion** of samples of each **Target Class**
 - One of **k** subset is used as **Validation Set**
@@ -32,6 +35,7 @@
 - Reduces **Bias** and **Variance**
 
 <h3 name='loocv'> 4. Leave One Out Cross Validation | LOOCV</h3>
+
 - Leave **One Data** from the Training Dataset for **Validation**
 - Use remaining Data Samples for **Training**
 - Repeated for all combinations
