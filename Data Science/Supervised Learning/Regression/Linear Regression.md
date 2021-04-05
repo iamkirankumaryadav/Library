@@ -40,9 +40,9 @@
 
 ### R<sup>2</sup> : Coefficient of Determination
 
-- The **Variance** of the Data captured by the Model (0.7 to 0.9 is Good value for R<sup>2</sup>) 
-- Larger R<sup>2</sup> indicates a Better Fit (The Model can Explain the Variation of Predictions with Actual in much Better Way)
-- R<sup>2</sup> = 1 corresponds to SSR = 0 (**Perfect Fit**) 
+- The **Variance** of the Data captured by the Model ( **0.7** to **0.9** is Good value for R<sup>2</sup> ) 
+- Larger R<sup>2</sup> indicates a Better Fit ( The Model can Explain the **Variation** of **Predictions** with Actual in much Better Way )
+- R<sup>2</sup> = 1 corresponds to SSR = 0 ( **Perfect Fit** ) 
 - Low R<sup>2</sup> causes **Underfitting**
 - High R<sup>2</sup> resultss into **Overfitting**
 
@@ -68,7 +68,7 @@
 ### Ordinary Least Squares (OLS)
 - More than One Independent Features
 - Minimize the Sum of Squared Residuals | Errors 
-- Sum(Square(Distance between the Actual Data Point and the Predicted Point (Regression Line)))
+- Sum(Square(Distance between the Actual Data Point and the Predicted Point ( Regression Line )))
 - Treat Data as Matrix
 - Use Linear Algebra to Estimate | Predict the Optimal Value for the Coefficients.
 
@@ -86,13 +86,13 @@
 
 ### Regularization
 - Seek to Minimize SSE of the Model on Training Data 
-- Reduce **Complexity** of Model (**Overfitting**)
+- Reduce **Complexity** of Model ( **Overfitting** )
 - Add some Bias on Training Data for Decreasing Variance on Test Data 
 
-1. **LASSO** (L1) : OLS is modified to minimize the **Absolute** Sum of Coefficients : Cost Function + (Lambda) * |Slope|
-2. **Ridge** (L2) : OLS is modified to minimize the **Squared** Sum of Coefficients : Cost Function + (Lambda) * Square(Slope)
+1. **LASSO** ( L1 ) : OLS is modified to minimize the **Absolute** Sum of Coefficients : Cost Function + ( Lambda ) * | Slope |
+2. **Ridge** ( L2 ) : OLS is modified to minimize the **Squared** Sum of Coefficients : Cost Function + ( Lambda ) * Square( Slope )
 
-Used when there is Collinearity (One Independent Feature can completely Describe Other Independent Feature) in Data 
+Used when there is Collinearity ( One Independent Feature can completely Describe Other Independent Feature ) in Data 
 
 # Preparing Data for Linear Regression
 
@@ -176,7 +176,7 @@ Amount of R | Strength of Correlation
 
 ![Residual](Image/Residual.png)
 
-- Should be as low as Possible (Complete Removal of Error is Impossible)
+- Should be as low as Possible ( Complete Removal of Error is Impossible )
 
 ![Difference](Image/Difference.png)
 
