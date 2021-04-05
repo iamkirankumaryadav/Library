@@ -7,7 +7,7 @@
 
 <h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
 
-<h3 name='hold'> 1. Holdout Method ( **Traditional Approach** )</h3>
+<h3 name='hold'> 1. Holdout Method ( Traditional Approach | Train Test Split )</h3>
 
 - Remove a Part of **Training Data** before Training and keep it for **Validation**
 - Used to **Evaluate** Models Ability to **Generalize** to **Unseen** Data
