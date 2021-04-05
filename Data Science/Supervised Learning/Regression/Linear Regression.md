@@ -68,7 +68,7 @@
 ### Ordinary Least Squares (OLS)
 - More than One Independent Features
 - Minimize the Sum of Squared Residuals | Errors 
-- Sum(Square(Distance between the Actual Data Point and the Predicted Point ( Regression Line )))
+- Sum ( Actual Data Point - Predicted Point ( Regression Line ) <sup>2</sup> )
 - Treat Data as Matrix
 - Use Linear Algebra to Estimate | Predict the Optimal Value for the Coefficients.
 
