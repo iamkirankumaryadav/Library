@@ -83,3 +83,4 @@
 - [Quantdare](https://quantdare.com/)
 - [Aaiena](https://www.aaiena.com/)
 - [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
+- [Ultimate Cheat Sheet](https://towardsdatascience.com/your-ultimate-data-mining-machine-learning-cheat-sheet-9fce3fa16)
