@@ -2,7 +2,7 @@
 
 # Linear Regression 📈
 
-<h3><a href='#linreg'>Linear Regression</a> | <a href='#simpleLinreg'>Simple Linear Regression</a> | <a href='mullinreg'>Multiple Linear Regression</a> | <a href='#ols'>Ordinary Least Square</a> | <a href='#gd'>Gradient Descent</a></h3>
+<h3><a href='#linreg'>Linear Regression</a> | <a href='#simpleLinreg'>Simple Linear</a> | <a href='mullinreg'>Multiple Linear</a> | <a href='#ols'>Ordinary Least Square</a> | <a href='#gd'>Gradient Descent</a></h3>
 
 ### Regression
 
