@@ -25,11 +25,11 @@
 
 **Predict** the Value of a **Feature** based on the Value of Another Feature.
 
-### Y = B1 * X  + B0 | y = m * x + c
+### Y = B1 * X  + B0 or y = m * x + c
 
 ![Equation Line](Image/EquationLine.png)
 
-### B1 : Slope 
+### B1 | m : Slope 
 - Gradient | **Steepness** in Line | **Direction** of Line | **Weight**
 - Indicates how much the **Dependent Variable** changes, if an **Independent Variable**  changes by **One Unit**
 
@@ -37,7 +37,7 @@
 
 ![Negative Slope](Image/Negative.png)
 
-### B0 : Intercept 
+### B0 | c : Intercept 
 - Bias | Constant | The Place where **Regression Line** Intersects the Y Axis (Value of Y when X = 0)
 
 ### R<sup>2</sup> : Coefficient of Determination
@@ -48,7 +48,7 @@
 - Low R<sup>2</sup> causes **Underfitting**
 - High R<sup>2</sup> resultss into **Overfitting**
 
-### Residuals 
+### Residuals | Error ( e )
 - Actual - Prediction
 
 ### Simple Linear Regression
