@@ -11,9 +11,8 @@
 ### Linear Regression 
 
 - **Target** Variable is **Continuous Numeric**
-- **Simple** to Implement 
 - The **Best Fit Line** which gives **Least** Number of **Errors** ( Difference between **Actual** and **Predicted** Value ) for given **Data Points**.
-- Find the **Slope** ( Steepness of the Line | Angular Motion ) and **Intercept** ( Position of Line | Upward & Downward ) with Least **Residual** 
+- Find the **Slope** ( Steepness of the Line | Angular Motion ) and **Intercept** ( Position of Line | Upward & Downward ) with Least **Residual**. 
 - **Sensitive** to Overfitting ( But can be Prevented using some **Dimensionality Reduction**, **Regularization** and **Cross Validation** )
 
 ![Regression Line](Image/RegressionLine.png)
