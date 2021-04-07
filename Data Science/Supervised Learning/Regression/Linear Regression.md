@@ -42,7 +42,8 @@
 
 ### R<sup>2</sup> : Coefficient of Determination | Goodness of Fit
 
-- The **Variance** of the Data captured by the Model ( **0.7** to **0.9** is Good value for R<sup>2</sup> ) 
+- **Explains** The **Variance** of the Data captured by the Model ( **0.7** to **0.9** is Good value for R<sup>2</sup> ) 
+- If R<sup>2</sup> is 0.8 or 80% i.e. Regression Line Explaines 80% of **Variance** in Data | 80% of Prediction is Based on the **Available** Data.
 - Larger R<sup>2</sup> indicates a Better Fit ( The Model can Explain the **Variation** of **Predictions** with Actual in much Better Way )
 - R<sup>2</sup> = 1 corresponds to SSR = 0 ( **Perfect Fit** ) 
 - Low R<sup>2</sup> causes **Underfitting**
