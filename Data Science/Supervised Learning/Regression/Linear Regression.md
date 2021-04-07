@@ -68,28 +68,28 @@
 - **Range** Value of **Prediction** lies between 0 to 1
 
 ### Ordinary Least Squares (OLS)
-- More than One Independent Features
+- More than One **Independent Features**
 - Minimize the Sum of Squared Residuals | Errors 
 - Sum ( Actual Data Point - Predicted Point ( Regression Line ) <sup>2</sup> )
-- Treat Data as Matrix
-- Use Linear Algebra to Estimate | Predict the Optimal Value for the Coefficients.
+- Treat Data as **Matrix** ( Feature Matrix and Target Vector )
+- Use **Linear Algebra** | **Equation** of **Line** ( y = m * x + c ) to Estimate | Predict the **Optimal** Value for the **Coefficients**.
 
 ### Gradient Descent
-- A Process of Optimizing the Values of the Coefficients by Iteratively Minimizing the **Error** of Model on Training Data.
+- A Process of Optimizing the Values of the **Coefficients** ( Slope and Intercept ) by Iteratively Minimizing the **Error** of Model on Training Data.
 - Starts with Random Values for each Coefficient
-- Sum of Squared Errors ( **SSE** ) are Calculated for each Pair of Independent and Dependent Values.
-- **Learning Rate** is used as a Scale and the coefficients are updated in the direction towards minimizing the Error.
-- The Process is Repeated until a minimum SSE is Achieved or no further improvement is possible.
-- Learning Rate ( alpha ) Parameters that determines the size of Improvement Step on each Iteration.
+- Sum of Squared **Errors** | **Residuals** ( **SSE** | **SSR** ) are Calculated for each Pair of **Independent** and **Dependent** Values.
+- **Learning Rate** is used as a Scale and the **Coefficients** are updated in the direction towards **Minimizing** the **Error** | **Residuals**.
+- The Process is Repeated until a **Minimum SSE | SSR** is Achieved or no further improvement is possible.
+- **Learning Rate** ( **alpha** ) Parameters that determines the size of Improvement Step on each Iteration.
 
 ### Learning Rate
 - Determine the **Step Size** at each **Iteration** while moving towards a Minimum Loss Function ( Minimum Error )
 - Handles the Rate of **Convergence** and **Overshooting** ( High Learning Rate )
 
 ### Regularization
-- Seek to Minimize SSE of the Model on Training Data 
+- Seek to **Minimize SSE | SSR** of the Model on Training Data. 
 - Reduce **Complexity** of Model ( **Overfitting** )
-- Add some Bias on Training Data for Decreasing Variance on Test Data 
+- Add some **Bias** on Training Data for Decreasing **Variance** on Test Data.
 
 1. **LASSO** ( L1 ) : OLS is modified to minimize the **Absolute** Sum of Coefficients : Cost Function + ( Lambda ) * | Slope |
 2. **Ridge** ( L2 ) : OLS is modified to minimize the **Squared** Sum of Coefficients : Cost Function + ( Lambda ) * Square( Slope )
