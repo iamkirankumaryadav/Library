@@ -17,7 +17,7 @@
 
 ![Regression Line](Image/RegressionLine.png)
 
-**Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** 
+**Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** ( Slope and Intercept )
 
 **Predict** Dependent Variable based on One or More Independent Variables.
 
@@ -25,7 +25,7 @@
 
 **Predict** the Value of a **Feature** based on the Value of Another Feature.
 
-### Y = X * B1 + B0
+### Y = B1 * X  + B0 | y = m * x + c
 
 ![Equation Line](Image/EquationLine.png)
 
