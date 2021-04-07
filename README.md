@@ -70,6 +70,7 @@
 - [Code Basics]()
 - [Free Code Camp]()
 - [Simple Learning Pro]()
+- [CampusX](https://www.youtube.com/channel/UCCWi3hpnq_Pe03nGxuS7isg)
 
 ### Website
 - [Data Quest](https://www.dataquest.io/)
