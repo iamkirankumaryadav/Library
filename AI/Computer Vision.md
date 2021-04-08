@@ -15,7 +15,7 @@
 - Multiple Pixels arranged in Matrix ( **Rows** and **Columns** ) forms an **Image**
 - Each Pixels have `3 Channels` ( R [255,0,0] | G [0,255,0] | B [0,0,255] ) 8 Bits each.
 - Number between 0 to 255 represents `Intensity` of Color.
-- Binary : 0 or 1 ( `Single` Channel i.e 8 Bit )
+- Binary : 0 or 1 ( 1 **Bit** )
 - Black and White ( `Single` Channel | 8 Bits )
 - Grayscale ( `Single` Channel | 8 Bits )
 - RGB Color Image ( `3` Channels | `24` Bits | 8 Bits each Channel )
