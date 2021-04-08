@@ -96,7 +96,17 @@ Applications :
 
 ### 2. Connections and Weights
 - Nodes are Connected through **Edges**
-- A **Weight** is Assigned on each Connection 
+- A **Weight** is Assigned on each Connection | Edges
+- Bias is added at Nodes
+
+### 3. Activation Functions
+- A Function that takes in the **Weighted Sum** of all the **Inputs** from Previous Layer + **Bias** and Generates Output for Next Layer.
+
+1. **Sigmoid** : form S Shaped Curve ( Range between 0 and 1 )  
+2. **tanh** : Hyperbolic Tangent ( Range between -1 and 1 )
+3. **ReLu** : Rectified Linear Unit ( **0** for **Negative Input** and **Same Input** for Inputs > 0 ) max(0, x)
+4. **Leaky ReLu** : ( Allow **Small Negative** Inputs and Returns Same Input for Inputs > 0 ) max(0.1x, x)
+5. **ELU** : Exponential Linear Unit ( Similar to Linear for Inputs > 0 )
 
 #### ANN 
 - Artificial Neural Network
