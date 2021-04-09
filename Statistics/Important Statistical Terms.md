@@ -2,9 +2,7 @@
 
 # Statistical Concepts you should know for Data Science
 
-<h3> <a href='#data'>Data </a> </h3>
-<h3> <a href='#hyp'>Hypothesis </a> </h3>
-<h3> <a href='#sample'>Sampling </a> </h3>
+<h3> <a href='#data'>Data </a> </h3> | <h3> <a href='#hyp'>Hypothesis </a> </h3> | <h3> <a href='#sample'>Sampling </a> </h3>
 
 ### Independent | Feature | Regressor | Explanatory | Input | Predictor
 
@@ -95,12 +93,16 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 
 ![Error Type](Image/ErrorType.jpg)
 
-### 1. P Values
+### 1. P Values ( Significance Value )
 
-- **Probability** of **Achieving** a result.
-- Determine **Strength** of your Results in **Hypothesis Test**.
-- if p value < alpha ( 0.05 | 5% ) we remove that feature. ( **Reject** Null Hypothesis )
-- if p value > alpha ( 0.05 | 5% ) we keep that feature. ( **Accept NULL Hypothesis** : **H0** )
+- **Probability** Value of **Achieving** a result. ( **H0** | Null Hypothesis to be **True** and **Accepted** )
+- More **Likely** Observation around Mean | Median | Mode
+- Determine **Strength** | **Significance** of Research Results in **Hypothesis Test**.
+- if P value < alpha ( 0.05 | 5% ) we **remove** that feature. ( **Reject** Null Hypothesis )
+- if P value > alpha ( 0.05 | 5% ) we **keep** that feature. ( **Accept NULL Hypothesis** : **H0** )
+- **P Value** lies between 0 to 1
+- Two Tail Test, Left Tail Test and Right Tail Test
+- **Confidence Interval** : 95% and **Significance Level** as : 5%
 
 **Significance** Level ( **Alpha** )
 - At what point the **Null Hypothesis** is **Rejected**.
