@@ -167,10 +167,15 @@
 - Rapid changing Event follows **Exponential Distribution**.
 - Forecast and Prediction Events follows **Logistic Distribution** (Which Team will Win, Weather Forecast)
 
-<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
-
 <table>
   <tr>
     <td><img src='Image/Skewness.png'></td>
   </tr>
+  <tr colspan=3>
+    <th>Right Skewed</th>
+    <th>Symmetric</th>
+    <th>Left Skewed</th>
+  </tr>
 </table>
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
