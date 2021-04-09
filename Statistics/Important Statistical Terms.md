@@ -214,7 +214,7 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 
 ### 9. Bayes Theorem
 
-- Conditional Probability Statement
+- **Conditional** Probability Statement
 - Probability of event **B** happening given that another event **A** has already happened.
 - P ( A | B ) = ( P ( B | A ) * P ( A ) ) / P( B )
 
@@ -233,7 +233,7 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 ### 11. Chi Squared Test
 - Measure **Goodness** of **Fit** : **Sample** Data matches a **Population**
 - A **Very Small** Chi Square Test Statistic means Observed Data **Fits** your expected Data **Extremely Well**.
-- A **Very Large** Chi Square Test Statistic means Data **does not **Fits** Well.
+- A **Very Large** Chi Square Test Statistic means Data does not **Fits** Well.
 - A Test for **Independence** of two Categorical Variables and returns **Probability**.
 - Derive **Statistical Significance** of Relationship between the Variables.
 - Test whether the **Evidence** in the **Sample** is Strong enough to **Generalize** that relationship for a **Population**.
