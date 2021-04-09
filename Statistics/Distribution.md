@@ -172,14 +172,14 @@
     <td colspan=3><img src='Image/Skewness.png'></td>
   </tr>
   <tr>
-    <th>Right Skewed</th>
+    <th>Right Skew</th>
     <th>Symmetric</th>
-    <th>Left Skewed</th>
+    <th>Left Skew</th>
   </tr>
   <tr>
-    <th>Positive Skewed</th>
-    <th>Symmetric</th>
-    <th>Negative Skewed</th>
+    <th>Positive Skew</th>
+    <th>Symmetric ( Normal )</th>
+    <th>Negative Skew</th>
   </tr>
   <tr>
     <th>Mean > Median > Mode</th>
@@ -187,9 +187,9 @@
     <th>Mode > Median > Mean</th>
   </tr>
   <tr>
-    <th>Distribution of Rich Peoples in the World</th>
-    <th>Age, Height, Weight</th>
-    <th>Life of Human Being</th>
+    <th>Wealth ( Rich People )</th>
+    <th>Age, Height, Weight, Iris</th>
+    <th>Life Span of Human Being</th>
   </tr>
 </table>
 
