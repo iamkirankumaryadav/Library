@@ -168,8 +168,8 @@
 - Forecast and Prediction Events follows **Logistic Distribution** (Which Team will Win, Weather Forecast)
 
 <table>
-  <tr colspan=3>
-    <td><img src='Image/Skewness.png'></td>
+  <tr>
+    <td colspan=3><img src='Image/Skewness.png'></td>
   </tr>
   <tr>
     <th>Right Skewed</th>
