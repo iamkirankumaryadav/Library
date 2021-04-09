@@ -2,7 +2,7 @@
 
 # Statistical Concepts you should know for Data Science
 
-<h3> <a href='#data'>Data </a> </h3> | <h3> <a href='#hyp'>Hypothesis </a> </h3> | <h3> <a href='#sample'>Sampling </a> </h3>
+<h3> <a href='#data'>Data </a> | <a href='#hyp'>Hypothesis </a> | <a href='#sample'>Sampling </a> </h3>
 
 ### Independent | Feature | Regressor | Explanatory | Input | Predictor
 
