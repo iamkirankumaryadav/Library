@@ -168,13 +168,28 @@
 - Forecast and Prediction Events follows **Logistic Distribution** (Which Team will Win, Weather Forecast)
 
 <table>
-  <tr>
+  <tr colspan=3>
     <td><img src='Image/Skewness.png'></td>
   </tr>
-  <tr colspan=3>
+  <tr>
     <th>Right Skewed</th>
     <th>Symmetric</th>
     <th>Left Skewed</th>
+  </tr>
+  <tr>
+    <th>Positive Skewed</th>
+    <th>Symmetric</th>
+    <th>Negative Skewed</th>
+  </tr>
+  <tr>
+    <th>Mean > Median > Mode</th>
+    <th>Mean = Median = Mode</th>
+    <th>Mode > Median > Mean</th>
+  </tr>
+  <tr>
+    <th>Distribution of Rich Peoples in the World</th>
+    <th>Age, Height, Weight</th>
+    <th>Life of Human Being</th>
   </tr>
 </table>
 
