@@ -9,6 +9,8 @@ Term | Definition
 **Data Strategy** | Management of People, Pricess and Tools used in **Data Analysis**
 **Data Analytics** | **Science** of **Data**
 **Data Visualization** | Graphical Representation of **Information**
+**Data Modeling** | Creating a Model for **Reporting** and **Forecasting** Business Decisions
+**Forecasting** | Making **Predictions** based on **Past** and **Present** Data
 **Training Data Set** | Data used to **Train** the Model ( Allow Algorithm to **Learn** from Data )
 **Validation Data Set** | Data used to **Select the Best Model** ( **Optimal** Algorithm and **Hyperparameter** Settings )
 **Test Data Set** | Data used to provide an **Evaluation**
