@@ -54,25 +54,27 @@
 - Actual - Prediction
 
 <h3 name='simple'>Simple Linear Regression</h3>
-- Single Input | Independent Feature 
-- Dependent Variable is **Continuous**
-- Use Statistics to Estimate Coefficients
-- Mean | Median | Standard Deviations | Correlation and Covariance
+
+- Only One **Independent Features** and One **Dependent Variable** ( **Continuous Numeric** )
+- Use **Statistics** to Estimate **Coefficients** ( Slope and Intercept )
 
 <h3 name='multiple'>Multiple Linear Regression</h3>
-- Dependent Variable is **Continuous**
-- Muliple Input ( Independent Features ) 
+
+- More than One **Independent Features** and only One **Dependent Variable** ( **Continuous Numeric** )
+- Consider Features that have **Good Correlation** with Dependent Variable.
+- Checking Multicollinearity is Important.
 
 ### Logistic Regression
-- Dependent Variable is **Categorical**
+
+- Dependent Variable is **Discrete | Categorical**
 - Used for **Classification**  
 - **Probability** of **Occurence** of Target Label is Predicted on the basis of **Threshold** ( 0.5 )
-- **Range** Value of **Prediction** lies between 0 to 1
+- **Range** Value of **Prediction** lies between 0 to 1 ( Binary Classification )
 
 <h3 name='ols'>Ordinary Least Squares (OLS)</h3>
 
 - More than One **Independent Features**
-- Minimize the Sum of Squared Residuals | Errors 
+- Minimize the Sum of Squared **Residuals** | **Errors** 
 - Sum ( Actual Data Point - Predicted Point ( Regression Line ) <sup>2</sup> )
 - Treat Data as **Matrix** ( Feature Matrix and Target Vector )
 - Use **Linear Algebra** | **Equation** of **Line** ( y = m * x + c ) to Estimate | Predict the **Optimal** Value for the **Coefficients**.
@@ -80,7 +82,7 @@
 <h3 name='gd'>Gradient Descent</h3>
 
 - A Process of Optimizing the Values of the **Coefficients** ( Slope and Intercept ) by Iteratively Minimizing the **Error** of Model on Training Data.
-- Starts with Random Values for each Coefficient
+- Starts with Random Values for each **Coefficient**.
 - Sum of Squared **Errors** | **Residuals** ( **SSE** | **SSR** ) are Calculated for each Pair of **Independent** and **Dependent** Values.
 - **Learning Rate** is used as a Scale and the **Coefficients** are updated in the direction towards **Minimizing** the **Error** | **Residuals**.
 - The Process is Repeated until a **Minimum SSE | SSR** is Achieved or no further improvement is possible.
@@ -88,6 +90,7 @@
 
 ### Learning Rate
 - Determine the **Step Size** at each **Iteration** while moving towards a Minimum Loss Function ( Minimum Error )
+- **Step Size** is Decided on the Basis of How Far or Close is the Global Minima.
 - Handles the Rate of **Convergence** and **Overshooting** ( High Learning Rate )
 
 ### Regularization
@@ -105,7 +108,7 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
 <h3 name='ass'>Assumptions<h3>
   
 - **Linearity** : There should be **Linear Relationship** between **Dependent Variable** and **Independent Variables**
-- **Independence** : **Residuals** | **Errors** should be **Independent** to each other.
+- **Independence** : **Residuals** | **Errors** should be **Independent** of each other.
 - **Normality** : **Errors** | **Residuals** of the **Data** should be **Normally Distributed**. 
 - There should be Minimal **Multicollinearity** between **Independent Variables**
 - Error should be **Normally** Distributed ( P Value > 0.05  ) | Quantile Quantile Point : Data Points should be Close to Line
