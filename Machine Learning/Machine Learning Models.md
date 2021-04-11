@@ -43,14 +43,9 @@
   </tr>
   <tr>
     <td rowspan=3>
-      <ol type=1>
-        <li>
-          <a href=#linreg>Linear</a> ( Straight Line )
-          <ol type=A>
-            <li>Simple Linear ( Line of Best Fit )</li>
-            <li>Multiple Linear ( Plane of Best Fit )</li>
-          </ol>
-        </li>
+      <ol type=1>        
+        <li>Simple Linear ( Line of Best Fit )</li>
+        <li>Multiple Linear ( Plane of Best Fit )</li>            
         <li>Polynomial ( Curve of Best Fit )</li>
         <li>Lasso ( L1 ) and Ridge ( L2 )</li>
       </ol>
