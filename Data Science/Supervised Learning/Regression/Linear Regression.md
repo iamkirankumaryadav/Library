@@ -2,7 +2,7 @@
 
 # Linear Regression 📈
 
-<h3><a href='#linreg'>Linear Regression</a> | <a href='#simple'>Simple Linear</a> | <a href='multiple'>Multiple Linear</a> | <a href='#ols'>Ordinary Least Square</a> | <a href='#gd'>Gradient Descent</a></h3>
+<h3><a href='#linreg'>Linear Regression</a> | <a href='#simple'>Simple Linear</a> | <a href='multiple'>Multiple Linear</a> | <a href='#ols'>Ordinary Least Square</a> | <a href='#gd'>Gradient Descent</a> | <a href='#ass'>Assumptions</a></h3>
 
 ### Regression
 
@@ -59,7 +59,7 @@
 - Use Statistics to Estimate Coefficients
 - Mean | Median | Standard Deviations | Correlation and Covariance
 
-### Muliple Linear Regression
+<h3 name='multiple'>Multiple Linear Regression</h3>
 - Dependent Variable is **Continuous**
 - Muliple Input ( Independent Features ) 
 
@@ -69,14 +69,16 @@
 - **Probability** of **Occurence** of Target Label is Predicted on the basis of **Threshold** ( 0.5 )
 - **Range** Value of **Prediction** lies between 0 to 1
 
-### Ordinary Least Squares (OLS)
+<h3 name='ols'>Ordinary Least Squares (OLS)</h3>
+
 - More than One **Independent Features**
 - Minimize the Sum of Squared Residuals | Errors 
 - Sum ( Actual Data Point - Predicted Point ( Regression Line ) <sup>2</sup> )
 - Treat Data as **Matrix** ( Feature Matrix and Target Vector )
 - Use **Linear Algebra** | **Equation** of **Line** ( y = m * x + c ) to Estimate | Predict the **Optimal** Value for the **Coefficients**.
 
-### Gradient Descent
+<h3 name='gd'>Gradient Descent</h3>
+
 - A Process of Optimizing the Values of the **Coefficients** ( Slope and Intercept ) by Iteratively Minimizing the **Error** of Model on Training Data.
 - Starts with Random Values for each Coefficient
 - Sum of Squared **Errors** | **Residuals** ( **SSE** | **SSR** ) are Calculated for each Pair of **Independent** and **Dependent** Values.
@@ -100,7 +102,8 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
 
 # Preparing Data for Linear Regression
 
-### 1. Linear Assumptions
+<h3 name='ass'>Linear Assumptions<h3>
+  
 - **Linearity** : There should be **Linear Relationship** between **Dependent Variable** and **Independent Variables**
 - **Independence** : **Residuals** | **Errors** should be **Independent** to each other.
 - **Normality** : **Errors** | **Residuals** of the **Data** should be **Normally Distributed**. 
