@@ -107,9 +107,15 @@
 
 ![Machine Learning Map](Image/MLMap.jpg)
 
-### Features | Independent Variables | Dimensions | Attributes | Inputs | Predictors | Estimators
+> Features | Independent Variables | Dimensions | Attributes | Inputs | Predictors | Estimators
 
-### Target | Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value
+> Target | Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value
+
+> Model is the system that makes **Predictions** or **Classification**
+
+> **Parameters** are the Factors which are considered by the model to make **Predictions** or **Classification**
+
+> **Parameters** are Adjusted or Tuned in order to gain **Accuracy** and **Assurance** that the Model is giving Desired Results.
 
 ### Steps of Machine Learning
 1. Gathering Data
@@ -135,12 +141,6 @@
     <th>Predicts a Categorical Variable</th>
   </tr>
 </table>
-
-> Model is the system that makes **Predictions** or **Classification**
-
-> **Parameters** are the Factors which are considered by the model to make **Predictions** or **Classification**
-
-> **Parameters** are Adjusted or Tuned in order to gain **Accuracy** and **Assurance** that the Model is giving Desired Results.
 
 <h1 name='reg' align=center>Regression</h1>
 
