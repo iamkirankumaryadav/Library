@@ -158,7 +158,11 @@
   </tr>
   <tr>
     <td><strong>Simple Linear Regression</strong></td>
-    <td>Find the <strong>Line</strong> of Best Fit</td>
+    <td>Find the <strong>Line</strong> of Best Fit</td>    
+    <td><strong>Multiple Linear Regression</strong></td>
+    <td>Find the <strong>Plane | Hyperplane</strong> of Best Fit</td>  
+    <td><strong>Polynomial Linear Regression</strong></td>
+    <td>Find the <strong>Curve</strong> of Best Fit</td>
   </tr>
 </table>
 
