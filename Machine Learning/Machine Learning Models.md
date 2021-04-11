@@ -144,8 +144,6 @@
 
 <h1 name='reg' align=center>Regression</h1>
 
-<h3 name='linreg'>1. Linear Regression</h3>
-
 <table align=center>
   <tr>
     <th colspan=2><h3>Linear Regression</h3></th>
@@ -169,6 +167,8 @@
     <td colspan=2>Dependent Variable | Target | Output should be <b>Continuous</b></td>
   </tr>
 </table>
+
+<h3 name='linreg'>1. Linear Regression</h3>
 
 ![Linear Regression](Image/RegressionLine.png)
 
