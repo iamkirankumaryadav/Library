@@ -158,12 +158,16 @@
   </tr>
   <tr>
     <td><strong>Simple Linear Regression</strong></td>
-    <td>Find the <strong>Line</strong> of Best Fit</td>    
+    <td>Find the <strong>Line</strong> of Best Fit</td>            
+  </tr>
+  <tr>
     <td><strong>Multiple Linear Regression</strong></td>
     <td>Find the <strong>Plane | Hyperplane</strong> of Best Fit</td>  
+  </tr>
+  <tr>
     <td><strong>Polynomial Linear Regression</strong></td>
     <td>Find the <strong>Curve</strong> of Best Fit</td>
-  </tr>
+</tr>
 </table>
 
 ![Linear Regression](Image/RegressionLine.png)
