@@ -139,7 +139,7 @@
 
 <table align=center>
   <tr>
-    <th colspan=3><a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Linear%20Regression.md"><h3>Linear Regression</h3></a></th>
+    <th colspan=3><h3><a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Linear%20Regression.md">Linear Regression</a></h3></th>
   </tr>
   <tr>
     <td>1</td>
