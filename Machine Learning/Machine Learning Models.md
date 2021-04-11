@@ -152,6 +152,16 @@
 - **Multiple** Linear Regression : Find the **Plane** | **Hyperplane** of Best Fit.
 - **Polynomial** Regression : Find a **Curve** of Best Fit. 
 
+<table>
+  <tr>
+    <th colspan=2><h3>Linear Regression</h3></th>
+  </tr>
+  <tr>
+    <td><strong>Simple Linear Regression</strong></td>
+    <td>Find the <strong>Line</strong> of Best Fit</td>
+  </tr>
+</table>
+
 ![Linear Regression](Image/RegressionLine.png)
 
 ![Equation of Line](Image/EquationLine.png)
