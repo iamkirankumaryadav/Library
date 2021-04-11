@@ -157,12 +157,19 @@
     <td>Find the <strong>Curve</strong> of Best Fit</td>
   </tr>
   <tr>
+    <td>4</td>
+    <td><a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md"><b>Regularization</b></a></td>
+    <td>Helps to Improve Linear and Polynomial Regressions</td>
+  </tr>
+  <tr>
     <td colspan=3>One or More <b>Independent Features</b> is used to Predict <b>Continuous Dependent Numeric Variable</b></td>
   </tr>
   <tr>
     <td colspan=3>Dependent Variable | Target | Output should be <b>Continuous</b></td>
   </tr>
 </table>
+
+
 
 <h3 name='linreg'>1. Linear Regression</h3>
 
