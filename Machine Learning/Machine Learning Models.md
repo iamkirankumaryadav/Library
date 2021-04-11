@@ -98,6 +98,8 @@
     <td>
       <ol type=1>
         <li><a href=#pca>PCA</a></li>
+        <li><a href=#lda>LDA</a></li>
+        <li><a href=#tsne>t-SNE</a></li>
       </ul>
     </td>        
   </tr>  
