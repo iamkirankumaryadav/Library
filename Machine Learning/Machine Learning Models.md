@@ -334,15 +334,37 @@ B. Divisive
 
 ### B. Dimensionality Reduction
 
-- Aim is to find  the **Important Features** that can be used for by our Model for Better Predition.
+- Aim is to find  the **Important Features** that can be used by our Model for Better Predition.
 - Reducing the Number of **Irrelevant Features** that has no relation with the Target Feature.
 - There are some Features that brings **Multicollinearity** 
 - Feature **Elimination** | **Feature Selection** or Feature **Extraction**
 - Save Storage and Time by Improving Performance of Model.
 - Due to less number of Features it can be Visualized in 2D and 3D.
-- Project Data into Lower Dimension while Preserving as much as Useful Variability ( 19/20 ) as Possible
-- e.g If we Observe a Scatter Plot in Multidimesion it will be Complicated to Understand 
+- Project Data into Lower Dimension while Preserving as much as Useful Variability ( 19/20 ) as Possible.
+- e.g If we Observe a Scatter Plot in Multidimension it will be Complicated for Understanding. 
 - but if we Consider only 1 Dimension then It is just a Line and few Points in which some are close to Line and some are bit far away from line.
+- Combine Features or Remove Features to Reduce Dimensions.
+
+### Techniques of Dimensionality Reduction
+
+<h3 name='pca'>PCA ( Principal Component Analysis )</h3>
+
+- A **Dimensionality Reduction** Method ( Reduce the **Dimensions** of Large Data Sets )
+- **Transforming** a Large Data Set ( More Features ) into Smaller Data Set ( Without Lossing **Accuracy** )
+- Smaller Data Sets are Easier to **Explore** and **Visualize** and make Analyzing Data much **Easier** and **Faster** for **Machine Learning Algorithms** 
+- **Principal Components** are New Variables that are constructed as **Linear Combinations**
+- Combinations are done such a way that New Variables are **Uncorrelated** 
+- Most of Information within the Initial Variables is **Compressed** into **First Components**  
+- PCA tries to Put **Maximum Possible Information** in **First Component** and then Maximum remaining Information in the Corresponding **Components** 
+
+<h3 name='lda'>LDA ( Linear Discriminant Analysis )</h3>
+
+- Classification | Sperate Data into Different Categories or Classes
+
+<h3 name='tsne'>t-SNE ( t Distributed Stochastic Neighbor Embedding )</h3>
+
+- Non Linear Dimension Reduction ( Spiral, Mixed ) 
+- Data which is Complicated for Understanding ( 3 Dimensional )
 
 ### Anomaly Detection :
 - Automatically Discover **Unusual** Data Points in Data Set.
@@ -357,26 +379,6 @@ B. Divisive
 - **Select** Important Features | Helps to Improve **Accuracy** | Not Every Feature Adds Value to Solve Problem
 - **Remove** Unwanted Features | Irrelevant Features Affects Accuracy |
 - **Understanding** Each Feature before using it for Creating Machine Learning Model
-
-> Techniques of Dimensionality Reduction
-
-### Combine Features or Remove Features to Reduce Dimensions
-
-- **PCA** : Principal Component Analysis. ( Reduce Dimensions of Data ) ( Numeric )
-- **LDA** : Linear Discriminant Analysis. ( Sperate into Different Categories or Classes ) ( Categorical )
-- **t-SNE** : t Distributed Stochastic Neighbor Embedding ( Non Linear Dimension Reduction ) ( Spiral, Complicated 3D Jumbled Data )
-
-<h3 name='pca'>PCA ( Principal Component Analysis )</h3>
-
-- A **Dimensionality Reduction** Method ( Reduce the **Dimensions** of Large Data Sets )
-- **Transforming** a Large Data Set ( More Features ) into Smaller Data Set ( Without Lossing **Accuracy** )
-- Smaller Data Sets are Easier to **Explore** and **Visualize** and make Analyzing Data much **Easier** and **Faster** for **Machine Learning Algorithms** 
-- **Principal Components** are New Variables that are constructed as **Linear Combinations**
-- Combinations are done such a way that New Variables are **Uncorrelated** 
-- Most of Information within the Initial Variables is **Compressed** into **First Components**  
-- PCA tries to Put **Maximum Possible Information** in **First Component** and then Maximum remaining Information in the Corresponding **Components** 
-
-
 
 ### Standardization 
 - Standardize the **Range** of the **Continuous** Initial Variables so that each one of them contributes Equally to the **Analysis**.
