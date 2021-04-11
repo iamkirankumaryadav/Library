@@ -171,8 +171,6 @@
 
 <h3 name='linreg'>1. Linear Regression</h3>
 
-![Linear Regression](Image/RegressionLine.png)
-
 ![Equation of Line](Image/EquationLine.png)
 
 <h1 name='class' align=center>Classification</h1>
