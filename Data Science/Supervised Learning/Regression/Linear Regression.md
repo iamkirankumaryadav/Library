@@ -38,7 +38,7 @@
 ![Negative Slope](Image/Negative.png)
 
 ### B0 | c : Intercept 
-- Bias | Constant | The Place where **Regression Line** Intersects the Y Axis (Value of Y when X = 0)
+- Bias | Constant | The Place where **Regression Line** Intersects the Y Axis ( Value of Y when Value of X and Value of **Coefficients** = 0 )
 
 ### R<sup>2</sup> : Coefficient of Determination | Goodness of Fit
 
