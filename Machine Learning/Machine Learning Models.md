@@ -105,8 +105,6 @@
   </tr>  
 </table>
 
-![Machine Learning Map](Image/MLMap.jpg)
-
 > Features | Independent Variables | Dimensions | Attributes | Inputs | Predictors | Estimators
 
 > Target | Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value
@@ -403,5 +401,7 @@ B. Divisive
 
 ### Standardization 
 - Standardize the **Range** of the **Continuous** Initial Variables so that each one of them contributes Equally to the **Analysis**.
+
+![Machine Learning Map](Image/MLMap.jpg)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
