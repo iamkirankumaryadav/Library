@@ -11,3 +11,7 @@
 - CRM
 - HRM and People Management
 - Digital Supply Chain ( New Media Term for Delivery of Digital Media )
+
+### RapidMiner
+
+
