@@ -146,25 +146,28 @@
 
 <table align=center>
   <tr>
-    <th colspan=2><h3>Linear Regression</h3></th>
+    <th colspan=3><h3>Linear Regression</h3></th>
   </tr>
   <tr>
+    <td>1</td>
     <td><strong>Simple Linear Regression</strong></td>
     <td>Find the <strong>Line</strong> of Best Fit</td>            
   </tr>
   <tr>
+    <td>2</td>
     <td><strong>Multiple Linear Regression</strong></td>
     <td>Find the <strong>Plane | Hyperplane</strong> of Best Fit</td>  
   </tr>
   <tr>
+    <td>3</td>
     <td><strong>Polynomial Linear Regression</strong></td>
     <td>Find the <strong>Curve</strong> of Best Fit</td>
   </tr>
   <tr>
-    <td colspan=2>One or More <b>Independent Features</b> is used to Predict <b>Continuous Dependent Numeric Variable</b></td>
+    <td colspan=3>One or More <b>Independent Features</b> is used to Predict <b>Continuous Dependent Numeric Variable</b></td>
   </tr>
   <tr>
-    <td colspan=2>Dependent Variable | Target | Output should be <b>Continuous</b></td>
+    <td colspan=3>Dependent Variable | Target | Output should be <b>Continuous</b></td>
   </tr>
 </table>
 
