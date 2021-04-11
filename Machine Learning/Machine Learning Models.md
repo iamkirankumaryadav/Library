@@ -329,7 +329,7 @@ All follow Same Process in **Regression** and **Classification** the only differ
 <h3 name='hc'>2. Hierarchical Clustering</h3>
 
 A. Agglomerative
-- Bootom Up Approach
+- Bottom Up Approach
 - **AGNES** ( **Ag**glomerative **Nes**ting )
 - Each Data Point is considered as an Individual Cluster
 - At each Iteration, Similar Clusters merge with other Clusters until One Single Cluster remains.
