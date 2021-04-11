@@ -230,8 +230,6 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 - **Prediction** of Model is based on the **Voting** of Decision Trees Output ( **Majority Voting** )
 - Reduces Risk of **Error** and **Overfitting**.
 
-### Decision Tree and Random Forest 
-
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
 - SVM can be used for both **Regression** and **Classification** ( but Better use for Classification )
@@ -253,15 +251,14 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 
 ### Disadvantage
 
-- Choosing a Good Kernel Function is not easy
-- Long **Training Time** for Large Datasets.
-- Difficult to Interpret and Understand Final Model, Variable Weights and Individual Impact.
-- Not easy to **Fine Tune** and **Visualize**.
+- Choosing a **Good Kernel** Function, **Fine Tuning** and even **Visualization** is not easy
+- Long **Training Time** for **Large** Datasets.
+- Difficult to Understand **Final Model**, Variable Weights and Individual Impact.
 
 <h3 name='knn'>6. K Nearest Neighbours</h3>
 
 - **Multiclass** Classification Algorithm
-- Measures the **Geometrical Distance** ( **Euclidean Distance** )
+- Measures the **Geometrical Distance** ( **Euclidean Distance** ) 
 - **K** : Initialize **K** ( Number of Nearest **Neigbors** ) 
 - Calculate Distance between New **Test** Data Point and **K Nearest Neigbours** of **Training** Data Points
 - Sort the **Ordered** Calculated Distance in **Ascending Order**
