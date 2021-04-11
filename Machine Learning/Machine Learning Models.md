@@ -146,13 +146,7 @@
 
 <h3 name='linreg'>1. Linear Regression</h3>
 
-- One or More **Independent Features** is used to **Predict** Continuous Dependent Numeric Variable
-- Dependent ( Output ) should be **Continuous** 
-- **Simple** Linear Regression : Find the **Line** of Best Fit
-- **Multiple** Linear Regression : Find the **Plane** | **Hyperplane** of Best Fit.
-- **Polynomial** Regression : Find a **Curve** of Best Fit. 
-
-<table>
+<table align=center>
   <tr>
     <th colspan=2><h3>Linear Regression</h3></th>
   </tr>
@@ -167,7 +161,13 @@
   <tr>
     <td><strong>Polynomial Linear Regression</strong></td>
     <td>Find the <strong>Curve</strong> of Best Fit</td>
-</tr>
+  </tr>
+  <tr>
+    <td colspan=2>One or More <b>Independent Features</b> is used to Predict <b>Continuous Dependent Numeric Variable</b></td>
+  </tr>
+  <tr>
+    <td colspan=2>Dependent Variable | Target | Output should be <b>Continuous</b></td>
+  </tr>
 </table>
 
 ![Linear Regression](Image/RegressionLine.png)
