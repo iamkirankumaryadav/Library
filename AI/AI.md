@@ -2,7 +2,7 @@
 
 # AI 🤖
 
-Term | Definition
+<h3>Term</h3> | <h3>Definition</h3>
 :--- | :---
 **Data** | **Collection** of `Facts`
 **Data Design** | How you **Organize** Information
