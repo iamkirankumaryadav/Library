@@ -47,7 +47,8 @@
         <li>Simple Linear ( Line of Best Fit )</li>
         <li>Multiple Linear ( Plane of Best Fit )</li>            
         <li>Polynomial ( Curve of Best Fit )</li>
-        <li>Lasso ( L1 ) and Ridge ( L2 )</li>
+        <li>Lasso ( L1 )</li>
+        <li>Ridge ( L2 )</li>
       </ol>
     </td>
     <td rowspan=3>
