@@ -169,8 +169,6 @@
   </tr>
 </table>
 
-
-
 <h3 name='linreg'>1. Linear Regression</h3>
 
 ![Linear Regression](Image/RegressionLine.png)
@@ -363,7 +361,7 @@ B. Divisive
 - Due to less number of Features it can be Visualized in 2D and 3D.
 - Project Data into Lower Dimension while Preserving as much as Useful Variability ( 19/20 ) as Possible.
 - e.g If we Observe a Scatter Plot in Multidimension it will be Complicated for Understanding. 
-- but if we Consider only 1 Dimension then It is just a Line and few Points in which some are close to Line and some are bit far away from line.
+- Consider only 1 Dimension then It is just a Line and few Points in which some are close to Line and some are bit far away from line.
 - Combine Features or Remove Features to Reduce Dimensions.
 
 ### Techniques of Dimensionality Reduction
