@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# Open Computer Vision
+# Computer Vision
 
 - How Computers See and Gain **High Level Understanding** from `Digital Images` or `Videos`
 - Works on **Pattern Recognition**
