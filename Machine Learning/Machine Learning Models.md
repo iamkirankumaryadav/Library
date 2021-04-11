@@ -191,29 +191,28 @@
 - **Leaf** Node represents a Class **Label** | **Terminal** Node
 - **Splits** a Dataset based on **Different** Conditions ( Branch | Edge | Split )
 - Each **Branch** of Decision Tree Represents a Possible **Decision** or **Outcome**
-- Used **Binary** Classification and **Multiclass** Classification and even for **Regression**
+- Used especially for **Binary** Classification and **Multiclass** Classification and even used for **Regression**
 - Tree Models where the Target Variable takes a **Discrete** Set of Values are **Classification** Tree
 - Tree Models where the Target Variable takes a **Continuous** Values are **Regression** Tree
 - **CART** : **C**lassification **A**nd **R**egression **T**ree
-- Help us to **Analyze** the Possible **Consequences** of a **Decision**
-- Decision Tree can be **Pruned** if Necessary ( **Avoid Overfitting** )
+- Decision Tree can be **Pruned** if Necessary to **Avoid Overfitting** 
 
-### Information Gain 
+### Information Gain ( Which Feature will be Selected as Root Node ? )
 
-- **Information Gain** is used to decide which Feature ( **Root** Node ) to **Split** on at each step in Building the Tree
-- The Split with the Highest **Information Gain** will be taken as the First Split and the process will continue untill **IG** becomes 0
+- **High IG** is Better.
+- **Information Gain** decides which Feature will become Node and will **Split** the Data further for Building the **Tree**.
+- Split with the High **Information Gain** will be Considered as First Split and the process will continue untill **IG** becomes 0
 
 ### Gini Index ( Checks for Impurity in the Dataset )
 
-- Lowest Gini Index is selected 
-- Pure : All Data belongs to Same Class in a Subset ( Gini Index : 0 )
-- Impure : Data is Mixture of Different Classes in a Subset
+- **Low** Gini Index is Better.
+- **Pure** : All Data belongs to **Same** Class in a Subset ( Gini Index : 0 )
+- **Impure** : Data is Mixture of **Different** Classes in a Subset.
 
-### Entrophy
+### Entrophy ( Measure Disorder | Randomness | Uncertainity in Data )
 
-- Measure Randomness in the Information ( Disorder or Uncertainity )
-- Higher the Entrophy Harder to Draw Conclusion from Data | Information
-- Low Entrophy is Considered.
+- **Low** Entrophy is Better. ( Easy to Draw Conclusion from Data )
+- **High** Entrophy ( Hard to Draw Conclusion from Data )
 
 Advantage of Decision Tree | Disadvantage of Decision Tree
 :--- | :---
@@ -222,12 +221,12 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 
 ### How to Avoid Overfitting
 - Remove | **Prune** Branches with Less Importance ( Irrelevant Feature )
-- Early Stop ( Limit the Max Depth of the Tree )
+- Early Stop ( Limit the **Max Depth** of the Tree )
 
 <h3 name='forest'>4. Random Forests ( Ensemble Learning Technique | Bagging )</h3>
 
-- **Merge** a Collection of Parallel Arranged **Independent Decision Trees** to get more **Accurate** and **Stable** Prediction
-- Multiple **Decision Trees** ( Weak Learners ) trained **Parallel** Individually
+- **Merge** a Collection of Parallel Arranged **Independent Decision Trees** to get more **Accurate** and **Stable** Prediction.
+- Multiple **Decision Trees** ( Weak Learners ) trained **Parallel** and **Individually**. 
 - **Bootstrapped Data Sets** of Orignal Data and **Randomly** selecting **Subsets** at each step. ( **Sampling** with **Replacement** )
 - Bagging Technique ( **Multiple** Decision Trees are **Trained** in **Parallel** to Form a **Strong Learner** ) 
 - **Prediction** of Model is based on the **Voting** of Decision Trees Output ( **Majority Voting** )
