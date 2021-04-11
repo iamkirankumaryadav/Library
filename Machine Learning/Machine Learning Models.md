@@ -277,11 +277,11 @@ No effect of **Outliers** | Need Carefull **Parameter Tuning**
 
 > P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
 
-All follow Same Process in **Regression** and **Classification** the only difference is Output 
+All follow Same Process in **Regression** and **Classification** the only difference is in **Output** 
 
-> **Regression** Output : **Continuous**
+> **Regression** : **Continuous Numerical**
 
-> **Classification** Output : **Discrete**
+> **Classification**  : **Discrete Categorical**
 
 <h1 name='unsup' align=center>Unsupervised Learning ( Unlabeled Data )</h1>
 
