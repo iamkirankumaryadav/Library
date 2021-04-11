@@ -21,7 +21,7 @@ Term | Definition
 <a href='#ai'>AI</a> | **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**
 <a href='#dl'>Deep Learning</a> | **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**
 <a href='#nn'>Neural Network</a> | **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** 
-<a href='#nlp'>NLP</a> | Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** 
+<a href='https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Natural%20Language%20Processing.md'>NLP</a> | Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** 
 <a href='#cv'>Computer Vision</a> \| <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Computer%20Vision.md">CV</a> | Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** 
 <a href='#iot'>Internet of Things</a> | **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others 
 **Data Mining** | Turn Raw Data into Useful **Information**, Discovering **Patterns** in Large Dataset
