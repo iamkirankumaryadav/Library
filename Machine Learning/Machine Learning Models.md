@@ -112,8 +112,8 @@
 
 ### Steps of Machine Learning
 1. Gathering Data
-2. Preparing Data ( Data Preprocessing )
-3. Explore Data ( Exploratory Data Analysis | **EDA** ) 
+2. Explore Data ( Exploratory Data Analysis | **EDA** ) 
+3. Preparing Data ( Data Preprocessing | [Missing Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [Categorical Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [Imbalance Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md))
 4. Clean Data ( Data Cleaning )
 5. Feature Engineering ( Important Features to Train Model )
 6. Choosing a Correct Model
