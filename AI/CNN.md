@@ -34,9 +34,14 @@ e.g.
 - to Maintain the Dimension of Output as an Input, we use **Padding**
 - **Padding** : Adding Zeros to Input Matrix Symmetrically from all the Sides.
 
-![CNN Layer](Image/CNNLayers.png)
+<table align=center>
+  <tr><img src='Image/Stride.gif'></tr>
+  <tr><img src='Image/Padding.gif'></tr>
+</table>
 
 ### Layers in CNN
+
+![CNN Layer](Image/CNNLayers.png)
 
 ### 1. Input Layer : Image Data ( 3D Matrix )
 - Reshape Data into a **Single Column**
