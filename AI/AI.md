@@ -19,7 +19,7 @@ Term | Definition
 **Predictive Modeling** | A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**
 <a href='#ml'>Machine Learning</a> \| <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">ML</a> | Field of **Science** that gives Computer the Ability to **Learn** from **Data** without being **Explicitly** Programmed
 <a href='#ai'>AI</a> | **Simulation** of **Human Intelligence** in **Machines** to **Think** like **Humans** and **Mimic** their **Actions**
-<a href='#dl'>Deep Learning</a> | **Machine Learning** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**
+<a href='#dl'>Deep Learning</a> | **ML** inspired by **Human Brains** like **Detect Object**, **Recognize Speech**, **Translate Speech** and **Make Decisions**
 <a href='#nn'>Neural Network</a> | **Simulation** of **Human Brain** in **Computers** to **Think** like Humans to make **Decisions** and **Mimic** the **Actions** 
 <a href='https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Natural%20Language%20Processing.md'>NLP</a> | Science that gives **Machine** the **Ability** to **Read**, **Understand** and **Communicate** through **Human Language** 
 <a href='#cv'>Computer Vision</a> \| <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Computer%20Vision.md">CV</a> | Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** 
