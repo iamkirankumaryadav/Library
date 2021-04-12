@@ -183,14 +183,17 @@
  
 <h3 name='tree'>3. Decision Tree</h3>
 
-- **Root** Node and **Internal** Nodes are **Conditions**
-- **Leaf** Node represents a Class **Label** | **Terminal** Node
-- **Splits** a Dataset based on **Different** Conditions ( Branch | Edge | Split )
-- Each **Branch** of Decision Tree Represents a Possible **Decision** or **Outcome**
+- **Root** Node ) | Nodes ( Decisions | Conditions | Outcomes ) | Edges | Branches ( Splits of Trees ) | Leaf Node ( Terminal | Label | Class )
+- We Select the Feature as **Node** that **Splits** the Data very well.
+- Attribute with **High Information Gain** or **Low Entropy** is Selected as **Best Attribute** to Split upon.
 - Used especially for **Binary** Classification and **Multiclass** Classification and even used for **Regression**
 - Tree Models where the Target Variable takes a **Discrete** Set of Values are **Classification** Tree
 - Tree Models where the Target Variable takes a **Continuous** Values are **Regression** Tree
 - **CART** : **C**lassification **A**nd **R**egression **T**ree
+- Growing a Tree means Deciding Which **Feature** to Choose ? and What **Condition** to Use ? for splitting.
+- Continuous can be Converted into Binary or Boolean by Setting **Threshold**.
+
+- We should also know when to **Stop** ( **Max Depth** ) 
 - Decision Tree can be **Pruned** if Necessary to **Avoid Overfitting** 
 
 ### Information Gain ( Which Feature will be Selected as Root Node ? )
@@ -214,6 +217,9 @@ Advantage of Decision Tree | Disadvantage of Decision Tree
 :--- | :---
 Handle **Categorical** and **Numerical** Data | Prone to **Overfitting**
 No effect of **Outliers** | Need Carefull **Parameter Tuning**
+Handle **Non Linear Data** |
+
+> Individual Trees are prone to **Overfitting** but Improves when **Ensembled**.
 
 ### How to Avoid Overfitting
 - Remove | **Prune** Branches with Less Importance ( Irrelevant Feature )
