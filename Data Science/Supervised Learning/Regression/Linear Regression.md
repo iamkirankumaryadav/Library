@@ -50,7 +50,7 @@
 - High R<sup>2</sup> resultss into **Overfitting**
 - It Shows that Regression Line | **Best Fit Line** Predicts better than **Base Fit Line** ( **Mean** ) 
 
-### Residuals | Error ( e )
+### [Residuals](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) | Error ( e )
 - Actual - Prediction
 
 <h3 name='simple'>Simple Linear Regression</h3>
