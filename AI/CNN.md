@@ -5,7 +5,7 @@
 - **Face Recognition**
 - **Image Classification**
 
-![Channels](Image/2Channels.png)
+![Channels](Image/3Channels.png)
 
 ### Why should we Use CNN ?
 - Suppose we are working with **MNIST** Dataset, Each Image is 28 x 28 x 1 Channel ( 0 or 1 ), This Size is Manageable.
