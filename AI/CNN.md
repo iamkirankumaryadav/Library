@@ -5,6 +5,8 @@
 - **Face Recognition**
 - **Image Classification**
 
+![Channels](Image/2Channels.png)
+
 ### Why should we Use CNN ?
 - Suppose we are working with **MNIST** Dataset, Each Image is 28 x 28 x 1 Channel ( 0 or 1 ), This Size is Manageable.
 - What if Image Size is 1000 x 1000 which means ( 10<sup>2</sup> Neurons in Input Layer )
@@ -31,6 +33,8 @@ e.g.
 - Size of Output is **Smaller** than Input
 - to Maintain the Dimension of Output as an Input, we use **Padding**
 - **Padding** : Adding Zeros to Input Matrix Symmetrically from all the Sides.
+
+![CNN Layer](Image/CNNLayers.png)
 
 ### Layers in CNN
 
