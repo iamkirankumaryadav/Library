@@ -175,7 +175,7 @@
 
 <h1 name='class' align=center>Classification</h1>
 
-<h3 name='logreg'>2. Logistic Regression</h3>
+<h3 name='logreg'>2. Logistic Regression ( <a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md'>More</a> )</h3>
 
 - One or More Independent Features is used to **Classify** Discrete Categorical Labels 
 - Dependent ( Output ) should be **Discrete** ( 0 or 1 )
