@@ -23,6 +23,8 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 <h3 name="zscore"> Z Score or Extreme Value Analysis</h3>
 
+![Standard Deviation](Image/Std.gif)
+
 - How many **Standard Deviations** a **Data Point** is from the **Sample's Mean**
 - **z** = ( x - **mean** ) / **standard deviation**
 - Data Points after **3 Standard Deviations** ( mean +- 3 * std ) are considered as **Outliers**.
