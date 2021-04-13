@@ -142,7 +142,7 @@
 
 ![Recall](Image/Recall.png)
 
-<h3 name='fpr'>4. False Positive Rate ( `FPR` ) | Specificity</h3>
+<h3 name='fpr'>5. False Positive Rate ( `FPR` ) | Specificity</h3>
 
 - Focus on `Negative Class` ( How Good our Model is at `Correctly` predicting `Negative` Classes ? )
 - **Evaluates** Model only based on its **ability** to  **Predict** the `Negative Class`
@@ -152,7 +152,7 @@
 
 ### **Precision**, **TPR** and **FPR** is a Better Metric for Imbalanced Data Set because it **Focus** on only **One Class**.
 
-<h3 name='f1'>5. F1 Score</h3>
+<h3 name='f1'>6. F1 Score</h3>
 
 - Weighted Average of **Precision** and **Recall**
 - Useful for Datasets with `Uneven` | `Imbalanced` **Class Distribution** and it also considers FP and FN.
@@ -165,7 +165,7 @@
 
 > **Precision**, **Recall** and **F1 Score** are better `Metrics` for **Imbalanced Dataset**
 
-<h3 name='roc'>6. ROC Curve</h3>
+<h3 name='roc'>7. ROC Curve</h3>
 
 - Receiver Operating Characteristic Curve
 - Y Axis : True Positive Rate ( `TPR` )
@@ -175,7 +175,7 @@
 
 ![ROC](Image/ROC.svg)
 
-<h3 name='auc'>7. AUC</h3> 
+<h3 name='auc'>8. AUC</h3> 
 
 - `Area` Under **ROC Curve**
 - Shows the `Performance` of a Classification Model across all Classification `Thresholds`.
