@@ -77,10 +77,10 @@
 
 ![Classification](Image/Classification.png)
 
-- **True Positive** ( `TP` ) : Predicts 1 when Actual is 1
-- **True Negative** ( `TN` ) : Predicts 0 when Actual is 0
-- **False Positive** ( `FP` ) : Predicts 1 when Actual is 0 ( `Type I` Error | Incorrect **True Prediction** )
-- **False Negative** ( `FN` ) : Predicts 0 when Actual is 1 ( `Type II` Error | Incorrect **False Prediction** )
+- **True Positive** ( `TP` ) : Predicts `1` | Positive when Actual is `1` | Positive 
+- **True Negative** ( `TN` ) : Predicts `0` | Negative when Actual is `0` | Negative 
+- **False Positive** ( `FP` ) : Predicts `1` | Positive when Actual is `0` | Negative ( `Type I` Error | Incorrect **True Prediction** )
+- **False Negative** ( `FN` ) : Predicts `0` | Negative when Actual is `1` | Positive ( `Type II` Error | Incorrect **False Prediction** )
 
 > **FP** is `Acceptable` but **FN** is Dangerous | Fatal for Problems related to **Medical Field**
 
@@ -89,11 +89,14 @@
 ### 2. Classification Accuracy 
 - Number of `Correct` Prediction to the Number of **Total Predictions**
 - Accuracy Score is Good if Datasets contains well `Balanced` Class Distribution
+- Used when All the Classes ( TP, TN, FP and FN ) are Equally Important.
 
 ![Accuracy](Image/Accuracy.png)
 
 ### 3. Precision
 - Focus on `Positive Predictions` ( How Good our Model is when **Prediction** is `Positive` ? )
+- Measures the **Correctly** Identified Positive Cases from all the **Predicted** Positive Cases.
+- Used when the Costs of False Positives is **High**. ( e.g. There is Virus but still Antivirus is Predicting that the System is Safe it's Costly )
 - **Evaluates** Model only based on `Positive Predictions`
 
 ![Precision](Image/Precision.png)
@@ -101,6 +104,8 @@
 ### 4. Recall | True Positive Rate ( `TPR` ) | Sensitivity
 - Focus on `Positive Class` ( How Good our Model is at `Correctly` predicting `Positive` Classes ? )
 - **Evaluates** Model only based on its **ability** to  **Predict** the `Positive Class`
+- Measures the Correctly identified Positive Cases from all the **Actual Positive Cases**. 
+- Used when the Cost of False Negatives is **High**. ( e.g. Person is Really prone to COVID 19 but Test Result is Negative it can be Fatal. )
 - **True Positive Rate** : Proportion of **Positive Class** that is `Correctly` Predicted as **Positive**
 
 ![Recall](Image/Recall.png)
@@ -116,8 +121,10 @@
 
 ### 6. F1 Score
 - Weighted Average of **Precision** and **Recall**
-- Useful for Datasets with `Uneven` | `Imbalanced` **Class Distribution**
-- It also considers `FP` and `FN`
+- Useful for Datasets with `Uneven` | `Imbalanced` **Class Distribution** and it also considers FP and FN.
+- A Better Measure of the Incorrectly Classified Cases than the Accuracy Metric.
+- Accuracy is used when TP and TN are more Important and F1 Score is used when FN and FP are more Crucial.
+- **F1-score** is a Better Metric to Evaluate in **Real Life Application**.
 - `Best` Value for **F1 Score** is `1` | `Worst` Value for **F1 Score** is `0`
 
 ![F1](Image/F1.png)
