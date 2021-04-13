@@ -62,6 +62,7 @@ e.g.
 - **Classify** Images between Different Category by Training.
 
 ### 5. Activation Function : Softmax | Logistic + Dropout
+- **Activation Function** ( **ReLu** ) : If Input is in Negative Consider it as 0 else Accept the Input.
 - **Logistic** : **Binary** Classification
 - **Softmax**  : **Multiclass** Classification
 - When all Features are Connected to Full Connected Layer it can cause **Overfitting**.
