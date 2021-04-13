@@ -36,7 +36,7 @@ e.g.
 
 <table align=center>
   <tr><td>Stride</td><td>Padding</td></tr>
-  <tr><td><img src="Image/Stride.gif" width='500px'></td><td><img src="Image/Padding.gif" width='500px'></td></tr>
+  <tr><td><img src="Image/Stride.gif" width='400px' height='400px'></td><td><img src="Image/Padding.gif" width='400px' height='400px'></td></tr>
 </table>
 
 ### Layers in CNN
