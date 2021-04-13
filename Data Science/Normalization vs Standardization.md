@@ -37,19 +37,19 @@ Where to **Use** ?
 
 Where to **Use** ?
 - Algorithms that rely on Gradient Descent ( **Regression** )
-- Algorithms that Calculate Distance ( KNN, K Mean, Clusterings )
+- Algorithms that Calculate Distance ( KNN, K Mean, Clusterings, SVM )
+- Dimensionality Reduction Transformer Classes ( PCA, LDA, t-SNE )
 
 Not to **Use** 
-- Trees : Decision Trees and Ensemble Techniques.
+- Trees based Algorithms : CART, Decision Trees and Ensemble Techniques ( Naive Bayes, Random Forest, Bagged Trees and Boosted Trees ).
 
 **Techniques** 
 - Preprocessing.`StandardScaler()`
 
 ### Benefits 
 1. Helps **Gradient Descent** Converge more Quickly
-2. Helps the Model Learn Appropriate Weights for Each Feature. ( Model Pay more Attention to the Features having Wider Range )
-3. We Reduce the Effect of the Features with **Larger Scale** which plays a Dominating Role in the Model
-4. We Reduce the Effect of **Outlier**
+2. Helps the Model to Learn Appropriate Weights for Each Feature. ( Model Pay more Attention to the Features having Wider Range )
+3. Reduce the Effect of the Features with **Larger Scale** which plays a Dominating Role in the Model and the Effect of **Outlier**
 
 ### Transformation
 - Application of the Same Calculation to Every Point of the Data separately.
