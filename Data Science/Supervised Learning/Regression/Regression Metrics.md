@@ -41,7 +41,7 @@
 
 - `Predict` **Dependent Variable** on the basis of One or more **Independent** Variable ( s )
 
-<h3 name='mae'>1. Mean Absolute Error ( `MAE` ) </h3>
+<h3 name='mae'>1. Mean Absolute Error ( MAE ) </h3>
 
 ![MAE](Image/MAE.png)
 
@@ -52,7 +52,7 @@
 
 ![MAE Scikit Learn](Image/MAESK.png)
 
-<h3 name='mse'>2. Mean Squared Error ( `MSE` ) | LOSS</h3>
+<h3 name='mse'>2. Mean Squared Error ( MSE ) | LOSS</h3>
 
 ![MSE](Image/MSE.jpg)
 
@@ -61,7 +61,7 @@
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
-<h3 name='rmse'>3. Root Mean Square Error ( `RMSE` )</h3>
+<h3 name='rmse'>3. Root Mean Square Error ( RMSE )</h3>
 
 ![RMSE](Image/RMSE.png)
 
