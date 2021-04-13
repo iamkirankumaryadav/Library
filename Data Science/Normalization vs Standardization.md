@@ -9,26 +9,20 @@ x ( **Normal** \| **Rescaled** ) =  x - **min** ( x ) / **max** ( x ) - **min** 
 sklearn.preprocessing.`MinMaxScaler()` | sklearn.preprocessing.`StandardScaler()`
 Use for **RNN**, **CNN**, **Images** ( Neural Networks ) | Algorithms that uses **Gradient Descent** and Calculate **Distance** 
 
-### Data Normalization
-- Data Set may contain two **Features** with Different Range of Values, so we **Normalize** Data to bring down to Same **Range** | **Scale**
-
-Where to **Use** ?
-- Normalization works for Deep Learning well ( CNN, RNN ) and even for Images.
-- Standard Scaler is Better than Normalization in most cases.
+> Data Set contains **Features** with Different Range of Values, so we **Normalize** or **Standardize** Data to bring down to Same **Range** | **Scale**
 
 ### Scaling 
-- Converting **Floating Point** Feature values from their Natural Range (e.g. 100 to 900) into a Standard Range ( e.g. 0 to 1 or -1 to 1 )
-- A Feature Set consisting only Single Feature, Scaling provides little to no practical benefit.
-- Scaling is Beneficial if the Feature Set consists of **Multiple Features**.
+- Converting **Numeric Data Points** Feature values from their Natural Range (e.g. 100 to 900) into a Standard ( 0 to 1 ) or Normal Range ( -1 to 1 )
+- A Feature Set with only One Feature do not need Scaling, Beneficial only if the Feature Set consists of **Multiple Features**.
 
 ### Data Standardization ( Z Score Normalization )
 - Standardizing **Features** around center | Equalize the Range or Data **Variability**
 - Important when we **Compare** Measurements that have Different **Units**
 
 Where to **Use** ?
-- Algorithms that rely on Gradient Descent ( **Regression** )
-- Algorithms that Calculate Distance ( KNN, K Mean, Clusterings, SVM )
-- Dimensionality Reduction Transformer Classes ( PCA, LDA, t-SNE )
+- Algorithms that rely on Gradient Descent ( **Regressions** )
+- Algorithms that Calculate **Distance** ( K Nearest Neighbor - KNN , K Mean, Clusterings and SVM )
+- Dimensionality Reduction Transformer Classes ( PCA, LDA and t-SNE )
 
 Not to **Use** 
 - Probability based Algorithms : Naive Bayes
