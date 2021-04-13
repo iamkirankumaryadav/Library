@@ -56,7 +56,7 @@ e.g.
 - **Max Pooling** : Returns **Maximum** Value from the portion of the **Image**.
 - **Average Pooling** : Returns **Average** Value from the portion of the **Image**.
 
-### 4. Fully Connected Layer ( Classify Image into Label )
+### 4. Fully Connected Layer ( Connect Layers )
 - Involves **Weights**, **Biases** and **Neurons**.
 - **Connects** Neurons in One Layer to Neurons in another Layer.
 - **Classify** Images between Different Category by Training.
