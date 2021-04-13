@@ -67,6 +67,8 @@ e.g.
 - When all Features are Connected to Full Connected Layer it can cause **Overfitting**.
 - To Prevent from **Overfitting** few Neurons are **Dropped** Randomly from the **Neural Network**.
 
+![Max Pool](Image/MaxPool.png)
+
 ### 6. Output Layer
 - The **Label** of the Image in form of **One Hot Encoded**.
 
