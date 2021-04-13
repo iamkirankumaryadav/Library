@@ -37,7 +37,7 @@ e.g.
   <tr><td><img src="Image/Stride.gif" width='400px' height='400px'></td><td><img src="Image/Padding.gif" width='400px' height='400px'></td></tr>
 </table>
 
-### Layers in CNN
+### CNN Architecture ( Stack of Distinct Layer )
 
 ![CNN Layer](Image/CNNLayers.png)
 
@@ -62,7 +62,7 @@ e.g.
 - **Classify** Images between Different Category by Training.
 
 ### 5. Activation Function : Softmax | Logistic + Dropout
-- **Activation Function** ( **ReLu** ) : If Input is in Negative Consider it as 0 else Accept the Input.
+- **Activation Function** ( **ReLu** ) : **ReLu** Activation to make all **Negative Value** to **Zero**.
 - **Logistic** : **Binary** Classification
 - **Softmax**  : **Multiclass** Classification
 - When all Features are Connected to Full Connected Layer it can cause **Overfitting**.
