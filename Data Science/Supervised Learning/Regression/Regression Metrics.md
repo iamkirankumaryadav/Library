@@ -5,7 +5,7 @@
 <table align=center>
   <tr><th colspan=2><h3>Metrics</h3></th></tr>
   <tr>
-    <td><h4>Regression</h4>
+    <td><h3>Regression :</h3>
       <ol>
         <li>Mean Absolute Error ( <a href='#mae'>MAE</a> )</li>
         <li>Mean Squared Error ( <a href='#mse'>MSE</a> )</li>
@@ -14,7 +14,17 @@
         <li>Adjusted R<sup>2</sup> ( <a href='#ar2'>Adj R<sup>2</sup></a> )</li>
       </ol>
     </td>
-    <td><h4>Classification</h4>
+    <td><h3>Classification :</h3>
+       <ol>
+        <li><a href='#cm'>Confusion Matrix</a></li>
+        <li><a href='#acc'>Accuracy</a></li>
+        <li><a href='#pre'>Precision</a></li>
+        <li>Recall <a href='#tpr'>FPR</a> Sensitivity</li>
+        <li><a href='#fpr'>FPR</a> Specificity</li>
+        <li><a href='#f1'>F1 Score</a></li>
+        <li><a href='#roc'>ROC</a></li>
+        <li><a href='#auc'>AUC</a></li>
+      </ol>
     </td>
   </tr>
 </table>
