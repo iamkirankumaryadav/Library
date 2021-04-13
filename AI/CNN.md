@@ -65,7 +65,7 @@ e.g.
 - **Logistic** : **Binary** Classification
 - **Softmax**  : **Multiclass** Classification
 - When all Features are Connected to Full Connected Layer it can cause **Overfitting**.
-- To Prevent from **Overfitting** few Neurons are **Dropped** Randomly from the **Neural Network**.
+- **Dropout** : Few Neurons are **Dropped** Randomly from the **Neural Network** to Prevent from **Overfitting**.
 
 ![Max Pool](Image/MaxPool.png)
 
