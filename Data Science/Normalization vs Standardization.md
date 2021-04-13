@@ -19,15 +19,12 @@ Use for **Neural Networks** | Algorithms that rely on **Gradient Descent**, **Di
 - Standardize **Features** around center ( Mean ) | Equalize the Range or Data **Variability**
 - Important when we **Compare** Measurements that have Different **Units**
 
-Where to **Use** ?
-- Algorithms that rely on **Gradient Descent** ( **Regressions** )
-- Algorithms that Calculate **Distance** ( **KNN**, **K Mean**, **Clusterings** and **SVM** )
-- **Dimensionality Reduction** Transformer Classes ( **PCA**, **LDA** and **t-SNE** )
+Where to **Use** ? | Where **not** to **Use** ?
+:--- | :---
 
-Not to **Use** 
-- **Probability** based Algorithms : **Naive Bayes**
-- **Tree** based Algorithms : CART, Decision Trees.  
-- **Ensemble Learning Techniques** : Random Forest, Bagged Trees and Boosted Trees
+Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability** based Algorithms : **Naive Bayes**
+**Distance** based Algorithms ( **KNN**, **K Mean**, **Clusterings** and **SVM** ) | **Tree** based Algorithms : CART, Decision Trees.  
+**Dimensionality Reduction** Transformers ( **PCA**, **LDA** and **t-SNE** ) | **Ensemble Learning Techniques** : Random Forest, Bagged Trees and Boosted Trees
 
 ### Benefits 
 1. Helps **Gradient Descent** Converge more Quickly
