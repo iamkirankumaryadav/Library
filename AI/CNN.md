@@ -44,19 +44,19 @@ e.g.
 ### 1. Input Layer : Image Data ( 3D Matrix )
 - Reshape Data into a **Single Column**
 
-### 2. Convolution Layer
-- Feature Extractor Layer ( Feature of Image is Extracted in this Layer )
+### 2. Convolution Layer ( Feature Extraction )
+- Feature of Image is Extracted in this Layer. 
 - Slide **Filter** over the Image by a **Stride** until we go through the Whole Image.
 - Output will be Input for Next Layer.
 - Convolution Layer also contains **ReLu** Activation to make all **Negative Value** to **Zero**.
 
-### 3. Pooling Layer
-- **Pooling** Down Samples the **Spatial Volume** ( Dimensionality Reduction ) of Input Image for Next **Convolution** Layer.  
+### 3. Pooling Layer ( Dimensionality Reduction )
+- **Pooling** Down Samples the **Spatial Volume** of Input Image for Next **Convolution** Layer.  
 - Decreases **Computation Power** to Process Data. 
 - **Max Pooling** : Returns **Maximum** Value from the portion of the **Image**.
 - **Average Pooling** : Returns **Average** Value from the portion of the **Image**.
 
-### 4. Fully Connected Layer
+### 4. Fully Connected Layer ( Classify Image into Label )
 - Involves **Weights**, **Biases** and **Neurons**.
 - **Connects** Neurons in One Layer to Neurons in another Layer.
 - **Classify** Images between Different Category by Training.
