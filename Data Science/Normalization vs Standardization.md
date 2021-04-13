@@ -12,7 +12,7 @@ Use for **RNN**, **CNN**, **Images** ( Neural Networks ) | Algorithms that uses 
 > Data Set contains **Features** with Different Range of Values, so we **Normalize** or **Standardize** Data to bring down to Same **Range** | **Scale**
 
 ### Scaling 
-- Converting **Numeric Data Points** Feature values from their Natural Range (e.g. 100 to 900) into a Standard ( 0 to 1 ) or Normal Range ( -1 to 1 )
+- Convert **Numeric** Feature values from their Natural Range (e.g. 100 to 900) into a Standard ( 0 to 1 ) or Normal Range ( -1 to 1 )
 - A Feature Set with only One Feature do not need Scaling, Beneficial only if the Feature Set consists of **Multiple Features**.
 
 ### Data Standardization ( Z Score Normalization )
