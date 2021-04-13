@@ -17,17 +17,12 @@ Where to **Use** ?
 - Normalization works for Deep Learning well ( CNN, RNN ) and even for Images.
 - Standard Scaler is Better than Normalization in most cases.
 
-### Min Max Scaling
-- x ( **Rescaled** ) =  x - **min** ( x ) / **max** ( x ) - **min** ( x )
-
 ### Scaling 
 - Converting **Floating Point** Feature values from their Natural Range (e.g. 100 to 900) into a Standard Range ( e.g. 0 to 1 or -1 to 1 )
 - A Feature Set consisting only Single Feature, Scaling provides little to no practical benefit.
 - Scaling is Beneficial if the Feature Set consists of **Multiple Features**.
 
 ### Data Standardization ( Z Score Normalization )
-- z = x - **mean** ( x ) / **std** ( x )
-- **Mean** = 0 and **Standard Deviation** = 1
 - Standardizing **Features** around center | Equalize the Range or Data **Variability**
 - Important when we **Compare** Measurements that have Different **Units**
 
