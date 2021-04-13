@@ -110,12 +110,11 @@ Applications :
 4. **Leaky ReLu** : ( Allow **Small Negative** Inputs and Returns Same Input for Inputs > 0 ) max(0.1x, x)
 5. **ELU** : Exponential Linear Unit ( Similar to Linear for Inputs > 0 )
 
-### ANN 
+### Artificial Neural Network | ANN 
 
-- Artificial Neural Network
-- Simulate the Way the Human Brain Analyzes and Process Information.
+- Simulate the Way the **Human Brain** Analyzes and Process Information.
 - Foundation of AI | Solve Difficult Problems that are Impossible for Human Brain.
-- Finding Patterns and Relationships between Data like Human Brains.
+- Finding **Patterns** and **Relationships** between Data like Human Brains.
 
 - Application
 1. Foreign Exchange Trading
@@ -132,9 +131,8 @@ Designed for working with **Two Dimensional Image** Data
 4. Image Caption Generation
 5. Object Classification
 
-### RNN
+### Recurrent Neural Network | RNN
 
-- Recurrent Neural Network
 - Feed Forward and **Feedback** Netwrok 
 - Better for **Sequential** Data
 - Application
