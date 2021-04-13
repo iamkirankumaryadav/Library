@@ -3,9 +3,9 @@
 # Regression Metrics 🧮
 
 <table align=center>
-  <tr><th colspan=2>Metrics</th></tr>
+  <tr><th colspan=2><h3>Metrics</h3></th></tr>
   <tr>
-    <td>Regression
+    <td><h4>Regression</h4>
       <ol>
         <li>Mean Absolute Error ( <a href='#mae'>MAE</a> )</li>
         <li>Mean Squared Error ( <a href='#mse'>MSE</a> )</li>
@@ -14,7 +14,8 @@
         <li>Adjusted R<sup>2</sup> ( <a href='#ar2'>Adj R<sup>2</sup></a> )</li>
       </ol>
     </td>
-    <td>Classification</td>
+    <td><h4>Classification</h4>
+    </td>
   </tr>
 </table>
 
