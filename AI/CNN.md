@@ -27,10 +27,10 @@ e.g.
 - e.g. Image Dimension is 6 x 6 and Filter choice is 3 x 3 we get 4 x 4 Image
 
 ### C. Stride and Padding ( Hyperparameters )
-- Steps we move in Convolution ( By Default is One )
+- Steps we move in Convolution ( By Default is One ) Slide over Matrix by Step 1
 - Size of Output is **Smaller** than Input
 - to Maintain the Dimension of Output as an Input, we use **Padding**
-- **Padding** : Adding Zeros to Input Matrix Symmetrically from all the Sides.
+- **Padding** : Adding **Zeros** to Input Matrix Symmetrically from all the Sides.
 
 <table align=center>
   <tr><th>Stride</th><th>Padding</th></tr>
@@ -42,27 +42,26 @@ e.g.
 ![CNN Layer](Image/CNNLayers.png)
 
 ### 1. Input Layer : Image Data ( 3D Matrix )
-- Reshape Data into a **Single Column**
-
+- Input is a 3 Dimensional **Matrix** ( Height x Width x Channels )
+- **Kernels** we call it **Filters** it is also a 3 Dimensional Matrix ( **h** x **w** x **channels** )
+ 
 ### 2. Convolution Layer ( Feature Extraction )
-- Feature of Image is Extracted in this Layer. 
-- Slide **Filter** over the Image by a **Stride** until we go through the Whole Image.
-- Output will be Input for Next Layer.
+- **Feature** of Image is Extracted in this Layer. 
+- Slide **Filter** over the Image by a **Stride = 1** until we go through the Whole Image.
 - Convolution Layer also contains **ReLu** Activation to make all **Negative Value** to **Zero**.
 
 ### 3. Pooling Layer ( Dimensionality Reduction )
-- **Pooling** Down Samples the **Spatial Volume** of Input Image for Next **Convolution** Layer.  
+- **Pooling** : Down Samples the **Spatial Volume** ( **Flattens** ) of Input Image for Next **Convolution** Layer.  
 - Decreases **Computation Power** to Process Data. 
 - **Max Pooling** : Returns **Maximum** Value from the portion of the **Image**.
 - **Average Pooling** : Returns **Average** Value from the portion of the **Image**.
 
-### 4. Fully Connected Layer ( Connect Layers )
+### 4. Fully Connected Layer ( Feed Forward Connected Layers )
 - Takes **Weighted Sum** of all the **Inputs** from Previous Layer and Generates **Output** for Next Layer. 
 - **Connects** Neurons in One Layer to Neurons in another Layer.
 - **Classify** Images between Different Category by Training.
 
 ### 5. Activation Function : Softmax | Logistic + Dropout
-- **Activation Function** ( **ReLu** ) : **ReLu** Activation to make all **Negative Value** to **Zero**.
 - **Logistic** : **Binary** Classification
 - **Softmax**  : **Multiclass** Classification
 - When all the **Features** are Connected in a Fully Connected Layer it can cause **Overfitting**.
@@ -72,5 +71,6 @@ e.g.
 
 ### 6. Output Layer
 - The **Label** of the Image in form of **One Hot Encoded**.
+- Label is assigned with each Image ( What the Driver is Actually doing in the Vehicle )
 
 [CNN](https://towardsdatascience.com/covolutional-neural-network-cb0883dd6529)
