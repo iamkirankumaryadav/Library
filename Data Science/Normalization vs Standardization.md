@@ -21,7 +21,6 @@ Use for **Neural Networks** | Algorithms that rely on **Gradient Descent**, **Di
 
 Where to **Use** ? | Where **not** to **Use** ?
 :--- | :---
-
 Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability** based Algorithms : **Naive Bayes**
 **Distance** based Algorithms ( **KNN**, **K Mean**, **Clusterings** and **SVM** ) | **Tree** based Algorithms : CART, Decision Trees.  
 **Dimensionality Reduction** Transformers ( **PCA**, **LDA** and **t-SNE** ) | **Ensemble Learning Techniques** : Random Forest, Bagged Trees and Boosted Trees
