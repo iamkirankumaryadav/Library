@@ -8,7 +8,7 @@
 ### Why should we Use CNN ?
 - Suppose we are working with **MNIST** Dataset, Each Image is 28 x 28 x 1 Channel ( 0 or 1 ), This Size is Manageable.
 - What if Image Size is 1000 x 1000 which means 10<sup>6</sup> Neurons in **Input Layer**. 
-- Here comes CNN ( Simply CNN Extract the Feature of Image and Convert into Lower Dimension without loosing Characteristics )
+- Simply **CNN** Extract the Feature of Image and Convert into Lower Dimension without loosing Characteristics.
 
 e.g.
 - Initial Size of Image is 224 x 224 x 3 ( If you Proceed without Convolution : **1,00,352** number of Neurons in Input Layer )
