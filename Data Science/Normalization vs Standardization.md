@@ -40,5 +40,11 @@ Not to **Use**
 - **transform( )** : Transforms Data on the basis of what it **Learns** from Data | Applied on Test Set
 - **fit_transform( )** : First Learn ( **Fit** ) and then Apply in place ( **Transform** )
 - Applies Same **Transformation** to both Sets of Data ( **Train Set** and **Test Set** ) keeps **Consistency** and Prevents **Data Leakage**.
+- **Data Leakage** :  Sharing Information of Test Set with Train Set.
+
+### How to Prevent Data Leakage 
+- Never Apply **fit_transform( )** on Test Set.
+- Remove **Duplicate** Data.
+- In Time Series Data the Training Set should contain Past Data and Test Set should contain New Data based on Date and Time. ( Sort Dataset by Date ) 
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
