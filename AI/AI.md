@@ -49,7 +49,7 @@ Types :
 2. **General** AI ( Computer as Smart as Human )
 3. **Strong** AI ( **Super** AI ) Reduce Human Error | **24 x 7** Availability | Digital Assistance | Fast and Accurate Decisions.
 
-<h1 name='ml'>ML | Machine Learning</h1>
+<h1 name='ml'>Machine Learning | <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">ML</a></h1>
 
 - Subset of AI
 - Art of Extracting Knowledge from Data
