@@ -56,7 +56,7 @@ Not to **Use**
 - Application of the Same Calculation to Each and Every Data Point.
 - **fit( )** : Transformer Learns something about Data ( Mean, Scale and Statistics )
 - **transform( )** : Transforms Data on the basis of what it **Learns** from Data.
-- **fit_transform( )** : Learn and Apply at the Same time.
+- **fit_transform( )** : First Learn and then Apply in place.
 - **fit_transform( )** is applied on Train Set ( Learn from Data ) and apply only **transform( )**  on Test Set.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
