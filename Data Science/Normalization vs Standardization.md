@@ -16,17 +16,18 @@ Use for **Neural Networks** | Algorithms that rely on **Gradient Descent**, **Di
 - A Feature Set with only One Feature do not need Scaling, Beneficial only if the Feature Set consists of **Multiple Features**.
 
 ### Data Standardization ( Z Score Normalization )
-- Standardizing **Features** around center | Equalize the Range or Data **Variability**
+- Standardize **Features** around center ( Mean ) | Equalize the Range or Data **Variability**
 - Important when we **Compare** Measurements that have Different **Units**
 
 Where to **Use** ?
-- Algorithms that rely on Gradient Descent ( **Regressions** )
-- Algorithms that Calculate **Distance** ( K Nearest Neighbor - KNN , K Mean, Clusterings and SVM )
-- Dimensionality Reduction Transformer Classes ( PCA, LDA and t-SNE )
+- Algorithms that rely on **Gradient Descent** ( **Regressions** )
+- Algorithms that Calculate **Distance** ( **KNN**, **K Mean**, **Clusterings** and **SVM** )
+- **Dimensionality Reduction** Transformer Classes ( **PCA**, **LDA** and **t-SNE** )
 
 Not to **Use** 
-- Probability based Algorithms : Naive Bayes
-- Trees based Algorithms : CART, Decision Trees and Ensemble Techniques ( Random Forest, Bagged Trees and Boosted Trees ).
+- **Probability** based Algorithms : **Naive Bayes**
+- **Tree** based Algorithms : CART, Decision Trees.  
+- **Ensemble Learning Techniques** : Random Forest, Bagged Trees and Boosted Trees
 
 ### Benefits 
 1. Helps **Gradient Descent** Converge more Quickly
