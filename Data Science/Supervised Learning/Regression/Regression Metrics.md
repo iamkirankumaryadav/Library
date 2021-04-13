@@ -110,9 +110,9 @@
 - **Evaluates** Model only based on its **ability** to  **Predict** the `Negative Class`
 - **False Positive Rate** : Proportion of **Negative Class** that is `Correctly` Predicted as **Negative**
 
-> **TPR** and **FPR** is a Better Metric for Imbalanced Data Set because it **Focus** on only **One Class**.
-
 ![FPR](Image/FPR.png)
+
+### **TPR** and **FPR** is a Better Metric for Imbalanced Data Set because it **Focus** on only **One Class**.
 
 ### 6. F1 Score
 - Weighted Average of **Precision** and **Recall**
