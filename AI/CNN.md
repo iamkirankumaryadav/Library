@@ -1,9 +1,7 @@
 # CNN
 
 ### Convolutional Neural Network
-- CNN is used with **Computer Vision**
-- **Face Recognition**
-- **Image Classification**
+- CNN is used with **Computer Vision** | **Face Recognition** | **Image Classification**
 
 ![Channels](Image/3Channels.png)
 
