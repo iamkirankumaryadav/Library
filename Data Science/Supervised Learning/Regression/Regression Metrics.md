@@ -3,8 +3,19 @@
 # Regression Metrics 🧮
 
 <table align=center>
-  <tr><th colspan=2></th>Metrics</tr>
-  <tr><th>Regression</th><th>Classification</th></tr>
+  <tr><th colspan=2>Metrics</th></tr>
+  <tr>
+    <td>Regression
+      <ol>
+        <li>Mean Absolute Error ( <a href='#mae'>MAE</a> )</li>
+        <li>Mean Squared Error ( <a href='#mse'>MSE</a> )</li>
+        <li>Room Mean Squared Error ( <a href='#rmse'>RMSE</a> )</li>
+        <li>R<sup>2</sup> ( <a href='#r2'>R<sup>2</sup></a> )</li>
+        <li>Adjusted R<sup>2</sup> ( <a href='#ar2'>Adj R<sup>2</sup></a> )</li>
+      </ol>
+    </td>
+    <td>Classification</td>
+  </tr>
 </table>
 
 <a href="#linear"> <h3> Linear Regression </h3> </a> 
