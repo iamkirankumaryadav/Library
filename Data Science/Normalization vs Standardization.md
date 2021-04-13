@@ -23,7 +23,7 @@ Where to **Use** ? | Where **not** to **Use** ?
 :--- | :---
 Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability** based Algorithms : **Naive Bayes**
 **Distance** based Algorithms ( **KNN**, **K Mean**, **Clusterings** and **SVM** ) | **Tree** based Algorithms : CART, Decision Trees.  
-**Dimensionality Reduction** Transformers ( **PCA**, **LDA** and **t-SNE** ) | **Ensemble Learning Techniques** : Random Forest, Bagged Trees and Boosted Trees
+**Dimensionality Reduction** Transformers ( **PCA**, **LDA** and **t-SNE** ) | **Ensemble Learning Techniques** : Bagged Trees and Boosted Trees
 
 ### Benefits 
 1. Helps **Gradient Descent** Converge more Quickly
