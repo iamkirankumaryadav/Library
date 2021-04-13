@@ -45,6 +45,6 @@ Not to **Use**
 ### How to Prevent Data Leakage 
 - Never Apply **fit_transform( )** on Test Set.
 - Remove **Duplicate** Data.
-- In Time Series Data the Training Set should contain Past Data and Test Set should contain New Data based on Date and Time. ( Sort Dataset by Date ) 
+- Time Series Data : Train Set should contain Past Data and Test Set should contain New Data based on Date ( Sort Dataset by Date ) 
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
