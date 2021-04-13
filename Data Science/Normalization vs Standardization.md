@@ -53,6 +53,6 @@ Not to **Use**
 3. Reduce the Effect of the Features with **Larger Scale** which plays a Dominating Role in the Model and the Effect of **Outlier**
 
 ### Transformation
-- Application of the Same Calculation to Every Point of the Data separately.
+- Application of the Same Calculation to Each and Every Data Point.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
