@@ -41,7 +41,8 @@ Where to **Use** ?
 - Dimensionality Reduction Transformer Classes ( PCA, LDA, t-SNE )
 
 Not to **Use** 
-- Trees based Algorithms : CART, Decision Trees and Ensemble Techniques ( Naive Bayes, Random Forest, Bagged Trees and Boosted Trees ).
+- Probability based Algorithms : Naive Bayes
+- Trees based Algorithms : CART, Decision Trees and Ensemble Techniques ( Random Forest, Bagged Trees and Boosted Trees ).
 
 **Techniques** 
 - Preprocessing.`StandardScaler()`
