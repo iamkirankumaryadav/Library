@@ -18,7 +18,9 @@
 <h3 name="impute"> 2. Imputation</h3>
 
 - Replace the **Missing Data** with **Mean**, **Median** or **Mode**.
-- Sometimes it can Add **Variance** in Data but Better than deleting.
+- **SimpleImputer** is used to Fill the Missing Value 
+- **fit( )** : Learn the Value to be Imputed.
+- **transform( )** : Fill the Missing Values.
 
 <h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag ( Numeric Value )</h3>
 
