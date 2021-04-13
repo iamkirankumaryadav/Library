@@ -41,7 +41,7 @@
 
 - `Predict` **Dependent Variable** on the basis of One or more **Independent** Variable ( s )
 
-### 1. Mean Absolute Error ( `MAE` )
+<h3 name='mae'>1. Mean Absolute Error ( `MAE` ) </h3>
 
 ![MAE](Image/MAE.png)
 
@@ -52,7 +52,7 @@
 
 ![MAE Scikit Learn](Image/MAESK.png)
 
-### 2. Mean Squared Error ( `MSE` ) | LOSS
+<h3 name='mse'>2. Mean Squared Error ( `MSE` ) | LOSS</h3>
 
 ![MSE](Image/MSE.jpg)
 
@@ -61,14 +61,14 @@
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
-### 3. Root Mean Square Error ( `RMSE` )
+<h3 name='rmse'>3. Root Mean Square Error ( `RMSE` )</h3>
 
 ![RMSE](Image/RMSE.png)
 
 - Square Root of MSE
 - RMSE is useful when `Large` Errors are Undesired
 
-### 4. Coefficient of Determination ( R<sup>2</sup> )
+<h3 name='r2'>4. Coefficient of Determination ( R<sup>2</sup> )</h3>
 
 ![R2](Image/R2.png)
 
@@ -81,7 +81,8 @@
 
 ![R2 Goog or Bad](Image/R2Good.png)
 
-### 5. Adjusted R<sup>2</sup>
+<h3 name='ar2'>5. Adjusted R<sup>2</sup></h3>
+
 - Improvement of R<sup>2</sup>
 - Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup>
 
@@ -99,7 +100,8 @@
 
 > **Good Classifier** : `1 or 100%` | **Bad Classifier** < `0.5 or 50%`
 
-### 1. Confusion Matrix
+<h3 name='cm'>1. Confusion Matrix</h3>
+
 - Show `Correct` and `Incorrect` Predictions | Classifications on each **Class** | **Label**
 
 ![Classification](Image/Classification.png)
@@ -113,14 +115,16 @@
 
 ![Confusion Matrix](Image/ConfusionMatrix.png)
 
-### 2. Accuracy 
+<h3 name='acc'>2. Accuracy</h3>
+
 - Number of `Correct` Prediction to the Number of **Total Predictions**
 - Accuracy Score is Good if Datasets contains well `Balanced` Class Distribution
 - Used when All the Classes ( TP, TN, FP and FN ) are Equally Important.
 
 ![Accuracy](Image/Accuracy.png)
 
-### 3. Precision
+<h3 name='pre'>3. Precision</h3>
+
 - Focus on `Positive Predictions` ( How Good our Model is when **Prediction** is `Positive` ? )
 - Measures the **Correctly** Identified Positive Cases from all the **Predicted** Positive Cases.
 - Used when the Costs of False Positives is **High**. ( e.g. There is Virus but still Antivirus is Predicting that the System is Safe it's Costly )
@@ -128,7 +132,8 @@
 
 ![Precision](Image/Precision.png)
 
-### 4. Recall | True Positive Rate ( `TPR` ) | Sensitivity
+<h3 name='tpr'>4. Recall | True Positive Rate ( `TPR` ) | Sensitivity</h3>
+
 - Focus on `Positive Class` ( How Good our Model is at `Correctly` predicting `Positive` Classes ? )
 - **Evaluates** Model only based on its **ability** to  **Predict** the `Positive Class`
 - Measures the Correctly identified Positive Cases from all the **Actual Positive Cases**. 
@@ -137,7 +142,8 @@
 
 ![Recall](Image/Recall.png)
 
-### 4. False Positive Rate ( `FPR` ) | Specificity
+<h3 name='fpr'>4. False Positive Rate ( `FPR` ) | Specificity</h3>
+
 - Focus on `Negative Class` ( How Good our Model is at `Correctly` predicting `Negative` Classes ? )
 - **Evaluates** Model only based on its **ability** to  **Predict** the `Negative Class`
 - **False Positive Rate** : Proportion of **Negative Class** that is `Correctly` Predicted as **Negative**
@@ -146,7 +152,8 @@
 
 ### **Precision**, **TPR** and **FPR** is a Better Metric for Imbalanced Data Set because it **Focus** on only **One Class**.
 
-### 6. F1 Score
+<h3 name='f1'>5. F1 Score</h3>
+
 - Weighted Average of **Precision** and **Recall**
 - Useful for Datasets with `Uneven` | `Imbalanced` **Class Distribution** and it also considers FP and FN.
 - A Better Measure of the Incorrectly Classified Cases than the Accuracy Metric.
@@ -158,7 +165,8 @@
 
 > **Precision**, **Recall** and **F1 Score** are better `Metrics` for **Imbalanced Dataset**
 
-### 7. ROC Curve
+<h3 name='roc'>6. ROC Curve</h3>
+
 - Receiver Operating Characteristic Curve
 - Y Axis : True Positive Rate ( `TPR` )
 - X Axis : False Positive Rate ( `FPR` )
@@ -167,7 +175,8 @@
 
 ![ROC](Image/ROC.svg)
 
-### 8. AUC 
+<h3 name='auc'>7. AUC</h3> 
+
 - `Area` Under **ROC Curve**
 - Shows the `Performance` of a Classification Model across all Classification `Thresholds`.
 - AUC = 1.0 ( **Perfect** Classifier ) | AUC > 0.75 ( **Good** Classifier ) | AUC : **50%** ( **Bad** Classifier ) | AUC < 0.5 ( **Worst** Classifier )
