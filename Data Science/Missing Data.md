@@ -6,7 +6,7 @@
 
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
-<h3 name="del"> 1. Deletion or Drop</h3>
+<h3 name="del"> 1. Drop ( dropna( ) )</h3>
 
 - **Drop** Particular **Row** if it has a **NULL** value for Particular **Feature**. ( axis = 0 )
 - **Drop** Particular **Column** ( **Missing Values** > `70%` | axis = 1 )
@@ -15,7 +15,7 @@
 
 > But it is **Better** to Keep Data than to **Discard** it, Removing Data may lead to **Loss** of **Information**.
 
-<h3 name="impute"> 2. Imputation</h3>
+<h3 name="impute"> 2. Impute | Fill ( fillna( ) )</h3>
 
 - Replace the **Missing Data** with **Mean**, **Median** or **Mode** ( Numeric Data ) 
 - **Interpolation** : Predict Value with the Range of Date and Time ( Time Series Data ) 
