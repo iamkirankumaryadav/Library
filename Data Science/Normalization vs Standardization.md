@@ -12,7 +12,6 @@ Use for **RNN**, **CNN**, **Images** ( Neural Networks ) | Algorithms that uses 
 ### Data Normalization
 - **Rescale** Feature values range between 0 and 1
 - Data Set may contain two **Features** with Different Range of Values, so we **Normalize** Data to bring down to Same **Range** | **Scale**
-- x ( **Normal** ) =  x - **min** ( x ) / **max** ( x ) - **min** ( x )
 
 Where to **Use** ?
 - Normalization works for Deep Learning well ( CNN, RNN ) and even for Images.
