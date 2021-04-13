@@ -57,7 +57,7 @@ e.g.
 - **Average Pooling** : Returns **Average** Value from the portion of the **Image**.
 
 ### 4. Fully Connected Layer ( Connect Layers )
-- Takes **Weighted Sum** of all the **Inputs** from Previous Layer and Generates **Output** for Next Layer. )
+- Takes **Weighted Sum** of all the **Inputs** from Previous Layer and Generates **Output** for Next Layer. 
 - **Connects** Neurons in One Layer to Neurons in another Layer.
 - **Classify** Images between Different Category by Training.
 
