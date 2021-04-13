@@ -11,8 +11,7 @@ Use for **RNN**, **CNN**, **Images** | Algorithms that uses **Gradient Descent**
 
 ### Data Normalization
 - **Rescale** Feature values range between 0 and 1
-- Data Set may contain two **Features** with Different Range of Values
-- So we **Normalize** Data to bring down to Same **Range** | **Scale**
+- Data Set may contain two **Features** with Different Range of Values, so we **Normalize** Data to bring down to Same **Range** | **Scale**
 - x ( **Normal** ) =  x - **min** ( x ) / **max** ( x ) - **min** ( x )
 
 **Techniques** : 
