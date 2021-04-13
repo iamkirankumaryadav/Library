@@ -123,9 +123,9 @@ Applications :
 3. Speech Recognition
 
 ### Convolutional Neural Network | <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/AI/CNN.md" target='_blank'>CNN</a>
+ 
+Designed for working with **Two Dimensional Image** Data
 
-- 
-- Designed for working with Two Dimensional Image Datahttps://github.com/KIRANKUMAR7296/Library/blob/main/AI/CNN.md
 1. Decoding Facial Recognition
 2. Analyzing Documents
 3. Understanding Climate
