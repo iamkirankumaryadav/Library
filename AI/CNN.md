@@ -51,7 +51,7 @@ e.g.
 - Convolution Layer also contains **ReLu** Activation to make all **Negative Value** to **Zero**.
 
 ### 3. Pooling Layer
-- **Pooling** Reduce the **Spatial Volume** ( Dimensionality Reduction ) of Input Image after **Convolution**.  
+- **Pooling** Reduce the **Spatial Volume** ( Dimensionality Reduction | Down Sampling ) of Input Image for Next **Convolution** Layer.  
 - Decreases **Computation Power** to Process Data. 
 - **Max Pooling** : Returns **Maximum** Value from the portion of the **Image**.
 - **Average Pooling** : Returns **Average** Value from the portion of the **Image**.
