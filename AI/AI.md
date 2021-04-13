@@ -122,11 +122,10 @@ Applications :
 2. Forcasting Weather Patterns
 3. Speech Recognition
 
-### CNN
+### Convolutional Neural Network | <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/AI/CNN.md" target='_blank'>CNN</a>
 
-- Convolutional Neural Network
-- Designed for working with Two Dimensional Image Data
-- Important for Various Computer Vision Task ( Object Recognition )
+- 
+- Designed for working with Two Dimensional Image Datahttps://github.com/KIRANKUMAR7296/Library/blob/main/AI/CNN.md
 1. Decoding Facial Recognition
 2. Analyzing Documents
 3. Understanding Climate
