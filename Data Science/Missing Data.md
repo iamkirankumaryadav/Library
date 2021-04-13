@@ -48,16 +48,15 @@ from sklearn.linear_model import LinearRegression
 import pandas as pd
 
 data = pd.read_csv("train.csv")
-data = data[["Survived", "Pclass", "Sex", "SibSp", "Parch", "Fare", "Age"]]
+data = data[["Survived", "Sex", "Age"]]
 
-data["Sex"] = [1 if x=="male" else 0 for x in data["Sex"]]
+test_set = data[data["Age"].isnull()] # Missing Data will be Test Set
 
-test_data = data[data["Age"].isnull()]
-data.dropna(inplace=True)
+data.dropna(inplace=True) # Remaining Data ( Non Null ) will be used for Training the Model
 
 y_train = data["Age"]
 X_train = data.drop("Age", axis=1)
-X_test = test_data.drop("Age", axis=1)
+X_test = test_set.drop("Age", axis=1)
 
 model = LinearRegression()
 model.fit(X_train, y_train)
