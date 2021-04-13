@@ -2,7 +2,7 @@
 
 # Transform | Normalize | Standardize | Rescale | Scaling
 
-Normalization | Standardization
+Normalization | Standardization ( Z Score Normalization )
 :--- | :---
 x ( **Normal** ) =  x - **min** ( x ) / **max** ( x ) - **min** ( x ) | z = x - **mean** ( x ) / **std** ( x )
 **Range** between `0` and `1` | **Mean** = `0` and **Standard Deviation** = `1`
