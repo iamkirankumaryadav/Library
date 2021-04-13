@@ -2,6 +2,11 @@
 
 # Regression Metrics 🧮
 
+<table align=center>
+  <tr><th colspan=2></th>Metrics</tr>
+  <tr><th>Regression</th><th>Classification</th></tr>
+</table>
+
 <a href="#linear"> <h3> Linear Regression </h3> </a> 
 
 <a href="#logistic"> <h3> Logistic Regression | Classification </h3> </a>
@@ -77,16 +82,16 @@
 
 ![Classification](Image/Classification.png)
 
-- **True Positive** ( `TP` ) : Predicts `1` | Positive when Actual is `1` | Positive 
-- **True Negative** ( `TN` ) : Predicts `0` | Negative when Actual is `0` | Negative 
-- **False Positive** ( `FP` ) : Predicts `1` | Positive when Actual is `0` | Negative ( `Type I` Error | Incorrect **True Prediction** )
-- **False Negative** ( `FN` ) : Predicts `0` | Negative when Actual is `1` | Positive ( `Type II` Error | Incorrect **False Prediction** )
+- **True Positive** ( `TP` ) : Predicts `1` | `Positive` when Actual is `1` | `Positive` 
+- **True Negative** ( `TN` ) : Predicts `0` | `Negative` when Actual is `0` | `Negative` 
+- **False Positive** ( `FP` ) : Predicts `1` | `Positive` when Actual is `0` | `Negative` ( `Type I` Error | Incorrect **True Prediction** )
+- **False Negative** ( `FN` ) : Predicts `0` | `Negative` when Actual is `1` | `Positive` ( `Type II` Error | Incorrect **False Prediction** )
 
 > **FP** is `Acceptable` but **FN** is Dangerous | Fatal for Problems related to **Medical Field**
 
 ![Confusion Matrix](Image/ConfusionMatrix.png)
 
-### 2. Classification Accuracy 
+### 2. Accuracy 
 - Number of `Correct` Prediction to the Number of **Total Predictions**
 - Accuracy Score is Good if Datasets contains well `Balanced` Class Distribution
 - Used when All the Classes ( TP, TN, FP and FN ) are Equally Important.
