@@ -10,7 +10,6 @@ sklearn.preprocessing.`MinMaxScaler()` | sklearn.preprocessing.`StandardScaler()
 Use for **RNN**, **CNN**, **Images** ( Neural Networks ) | Algorithms that uses **Gradient Descent** and Calculate **Distance** 
 
 ### Data Normalization
-- **Rescale** Feature values range between 0 and 1
 - Data Set may contain two **Features** with Different Range of Values, so we **Normalize** Data to bring down to Same **Range** | **Scale**
 
 Where to **Use** ?
