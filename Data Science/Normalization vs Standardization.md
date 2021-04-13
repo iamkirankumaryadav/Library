@@ -14,9 +14,6 @@ Use for **RNN**, **CNN**, **Images** ( Neural Networks ) | Algorithms that uses 
 - Data Set may contain two **Features** with Different Range of Values, so we **Normalize** Data to bring down to Same **Range** | **Scale**
 - x ( **Normal** ) =  x - **min** ( x ) / **max** ( x ) - **min** ( x )
 
-**Techniques** : 
-- Preprocessing.`MinMaxScaler()`
-
 Where to **Use** ?
 - Normalization works for Deep Learning well ( CNN, RNN ) and even for Images.
 - Standard Scaler is Better than Normalization in most cases.
@@ -43,9 +40,6 @@ Where to **Use** ?
 Not to **Use** 
 - Probability based Algorithms : Naive Bayes
 - Trees based Algorithms : CART, Decision Trees and Ensemble Techniques ( Random Forest, Bagged Trees and Boosted Trees ).
-
-**Techniques** 
-- Preprocessing.`StandardScaler()`
 
 ### Benefits 
 1. Helps **Gradient Descent** Converge more Quickly
