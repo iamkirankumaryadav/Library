@@ -112,7 +112,7 @@
 
 ![FPR](Image/FPR.png)
 
-### **TPR** and **FPR** is a Better Metric for Imbalanced Data Set because it **Focus** on only **One Class**.
+### **Precision**, **TPR** and **FPR** is a Better Metric for Imbalanced Data Set because it **Focus** on only **One Class**.
 
 ### 6. F1 Score
 - Weighted Average of **Precision** and **Recall**
