@@ -28,7 +28,7 @@
 
 - Assign a **Unique Category** for Data with Missing Values or Assign with Most **Frequent**.
 
-<h3 name="predict"> 4. Predicting the Missing Value</h3>
+<h3 name="predict"> 4. Predict Missing Value</h3>
 
 - **Predict** the Missing Values with the Help of other Existing Data.
 - **Regression** ( Continuous Data ) and **Classification* ( Categorical Data ) Model can be used for Prediction and Classification.
