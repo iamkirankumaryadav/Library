@@ -115,7 +115,7 @@
 2. Explore Data ( Exploratory Data Analysis | **EDA** ) 
 3. Preparing Data ( Data Preprocessing | [Missing Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [Categorical Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [Imbalance Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md))
 4. Clean Data ( Data Cleaning )
-5. Feature Engineering ( Important Features to Train Model )
+5. Feature Engineering ( Important Features to Train Model | [Transformation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) )
 6. Choosing a Correct Model
 7. Training Data
 8. Testing Data and Evaluation ( [**Metrics**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md) )
