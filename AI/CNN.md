@@ -35,7 +35,7 @@ e.g.
 - **Padding** : Adding Zeros to Input Matrix Symmetrically from all the Sides.
 
 <table align=center>
-  <tr><td>Stride</td><td>Padding</td></tr>
+  <tr><th>Stride</th><th>Padding</th></tr>
   <tr><td><img src="Image/Stride.gif" width='400px' height='400px'></td><td><img src="Image/Padding.gif" width='400px' height='400px'></td></tr>
 </table>
 
