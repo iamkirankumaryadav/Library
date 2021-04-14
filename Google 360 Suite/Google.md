@@ -3,9 +3,10 @@
 ### A Collectiion of 7 Different Tools built for Enterprise ( Integrated as One Platform )
 
 ### 1. Google Analytics 360 ( Paid ) | Google Analytics ( Free )
-- How **Visitors** arrive at **Websites** and **Apps**.
+- How **Visitors** Arrive and **Interact** at **Websites** and **Apps**.
 - What they do while they are there.
 - How they Interact at different Stages of there Consumer Journey.
+- Which **Campaigns** are working.
 - Additional Features, Higher Limits, Support and Service Level Agreement ( SLA )
 
 ### 2. Optimize 360 ( Paid ) | Optimize ( Free )
