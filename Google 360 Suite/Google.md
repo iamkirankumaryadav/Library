@@ -2,7 +2,10 @@
 
 ### A Collectiion of 7 Different Tools built for Enterprise ( Integrated as One Platform )
 
-<table align=center><img src="Image/Google360Suite.png"></table>
+<table align=center>
+  <tr><img src="Image/Suite.png"></tr>
+  <tr><img src="Image/Google360Suite.png"></tr>
+</table>
 
 ### 1. Google Analytics 360 ( Paid ) | Google Analytics ( Free )
 - How **Visitors** Arrive and **Interact** at **Websites** and **Apps**.
