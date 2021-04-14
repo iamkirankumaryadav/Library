@@ -5,9 +5,9 @@
 ### Convolutional Neural Network
 - A **Deep Learning Algorithm** which takes **Image** as Input, Extract Information and Learn from Image ( Weights and Biases )
 - Able to Differentiate One Image from Other.
-- CNN is used with **Computer Vision**  
+- CNN is used with **Computer Vision** designed to process **Pixel Data**.
 - **Face Recognition** 
-- **Image Classification** : Breeds of Dogs | Cat or Dog
+- **Image Classification** : Breeds of Dogs | Cat or Dog.
 - **Video Recognition** : Recognize Object or Person in a Video.
 
 ![Channels](Image/3Channels.png)
