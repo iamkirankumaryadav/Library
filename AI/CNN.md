@@ -24,16 +24,16 @@ e.g.
 ### A. Image Representation
 - We Understand Image by its **Height** and **Width** ( 2D Matrix ) but due to **Color**, we use **Tensors** ( 3 Dimensions )
 - Images are encoded in **Color Channels**, Image Data is represented into each **Color Intensity**.
-- Information contained into a Image is the Intensity of each Channel Color 
+- Information contained into a Image is the Intensity of each Channel Color. 
 
 ### B. Edge Detection
 - Image has Vertical and Horizontal Edges which combines to form an Image.
 - Convolution Operation is used with some Filters for Detecting Edges.
-- e.g. Image Dimension is 6 x 6 and Filter choice is 3 x 3 we get 4 x 4 Image
+- e.g. Image Dimension is 6 x 6 and Filter choice is 3 x 3 we get 4 x 4 Image.
 
 ### C. Stride and Padding ( Hyperparameters )
-- Steps we move in Convolution ( By Default is One ) Slide over Matrix by Step 1
-- Size of Output is **Smaller** than Input
+- Steps we move in Convolution ( By Default is One ) Slide over Matrix by Sride Length = 1
+- Size of Output is **Smaller** than Input.
 - to Maintain the Dimension of Output as an Input, we use **Padding**
 - **Padding** : Adding **Zeros** to Input Matrix Symmetrically from all the Sides.
 
