@@ -110,6 +110,9 @@ Applications :
 4. **Leaky ReLu** : ( Allow **Small Negative** Inputs and Returns Same Input for Inputs > 0 ) max(0.1x, x)
 5. **ELU** : Exponential Linear Unit ( Similar to Linear for Inputs > 0 )
 
+### 4. Learnable Parameters
+- Parameters that will be Learned by the Model during the Training ( **Weights** and **Biases** )
+
 ### Artificial Neural Network | ANN 
 
 - Simulate the Way the **Human Brain** Analyzes and Process Information.
