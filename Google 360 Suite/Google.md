@@ -11,7 +11,8 @@
 ### 2. Optimize 360 ( Paid ) | Optimize ( Free )
 - Optimization Efforts ( Test, Create and Run A/B Test and Multivariate Test )
 - Perform Experiment and Accomplish **Personalization**.
-- Identify Target Groups and then Change Content to be more Relevant to them
+- Identify Target Groups and then Change Content to be more Relevant to them.
+- Understand and Optimize User Experience.
 
 ### 3. Attribution 360 ( Paid ) | Attribution ( Free )
 - Attribute the Value along the Path of Purchase.
