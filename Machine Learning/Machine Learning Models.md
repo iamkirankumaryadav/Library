@@ -183,7 +183,7 @@
  
 <h3 name='tree'>3. Decision Tree</h3>
 
-- **Root** Node ) | Nodes ( Decisions | Conditions | Outcomes ) | Edges | Branches ( Splits of Trees ) | Leaf Node ( Terminal | Label | Class )
+- **Root** Node | Nodes ( Decisions | Conditions | Outcomes ) | Edges | Branches ( Splits of Trees ) | Leaf Node ( Terminal | Label | Class )
 - We Select the Feature as **Node** that **Splits** the Data very well.
 - Attribute with **High Information Gain** or **Low Entropy** is Selected as **Best Attribute** to Split upon.
 - Used especially for **Binary** Classification and **Multiclass** Classification and even used for **Regression**
