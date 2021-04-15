@@ -144,7 +144,7 @@
 - Real Life Prediction or Classifications
 
 ### Small Pipelines 
-- **make_pipeline**(Imputer, Column Transformer, Classifier or Regressor)
+- **make_pipeline**( Imputer, Column Transformer, Estimator ) | Estimator : Classifier or Regressor.
 - pipeline can be directly used for Training using **fit( )** and it can even Predict using **predict( )**
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
