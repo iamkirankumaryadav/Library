@@ -114,6 +114,11 @@
 - Total Amount **Credited** or **Debited** for the Day 
 
 # Machine Learning Pipeline
+- Help to **Automate** Machine Learning **Workflows**.
+- Pipeline consist of Several Steps to Train the Model.
+- Pipelines are **Cyclic**, contains **Iterative** Steps to Continuously Improve the **Accuracy** of **Algorithm** and makes Model **Scalable**.
+- The Learning Algorithm Finds **Patterns** in the **Training Data** that Maps the **Features** to the **Target** and Create a ML Model.
+
 
 ### 1. Data 
 - Data Collection
