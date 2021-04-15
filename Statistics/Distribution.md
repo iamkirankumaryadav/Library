@@ -2,9 +2,26 @@
 
 # Types of **Distribution**
 
-<h3> Discrete :&nbsp; <a href='#uniform'>Uniform</a>&nbsp; |&nbsp; <a href='#bernoulli'>Bernoulli</a>&nbsp; |&nbsp; <a href='#binomial'>Binomial</a>&nbsp; |&nbsp; <a href='#poisson'>Poisson</a></h3>
-
-<h3> Continuous :&nbsp; <a href='#normal'>Normal</a>&nbsp; |&nbsp; <a href='#std'>Standard Normal</a>&nbsp; |&nbsp; <a href='#t'>T</a>&nbsp; |&nbsp; <a href='#chi'>Chi<sup>2</sup></a></h3>
+<table>
+  <tr>
+    <th><h3>Discrete</h3>
+      <ol>
+        <li><a href='#uniform'>Uniform</a></li>
+        <li><a href='#bernoulli'>Bernoulli</a></li>
+        <li><a href='#binomial'>Binomial</a></li>
+        <li><a href='#poisson'>Poisson</a></li>
+      </ol>
+    </th>
+    <th><h3>Continuous</h3>
+      <ol>
+        <li><a href='#normal'>Normal</a></li>
+        <li><a href='#std'>Standard Normal</a></li>
+        <li><a href='#t'>T Distribution</a></li>
+        <li><a href='#chi'>Chi<sup>2</sup></a></li>
+      </ol>
+    </th>
+  </tr>
+</table>
 
 # Density Curve
 
