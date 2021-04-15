@@ -127,7 +127,7 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 - Data is not selected **Randomly**.
 - **T Distribution** has **Small Peak** and **Fat Tails**.
 
-### ANOVA Test
+### 4. ANOVA Test
 
 - Analysis of Variance
 - Used to Test Categorical Variable ( Atleast 3 Different Categories )
@@ -140,21 +140,14 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 - Dependent Feature follows **Normal** Distribution
 - **Variation** for each Group in Category should be **Similar**
 
-### 5. Linear Regression and Assumptions
-
-- Model **Relationship** between a **Dependent Variable** and one or nore **Independent Variable**
-- Finding the Line of **Best Fit** that represents two or more variables.
-- Line of Best Fit is found by minimizing the **Sum of Squared Residuals**
-- Residuals : **Predicted** - **Actual**
-
-### Assumptions of Linear Regression
+### 5. Assumptions of Linear Regression
 
 1. **Linearity** : The Relationship between **X** and **Mean** of **Y** is linear.
 2. **Homoscedasticity** : The **Variance** of the **Residual** is the same for any value of **X**.
 3. **Independence** : **Observations** are **Independent** of each other.
 4. **Normality** : For any value of **X**, **Y** is normally distributed.
 
-### 5. Logistic Regression 
+### 6. Logistic Regression 
 
 1. Model the **Probability** of a **Discrete** Number of outcomes.
 2. Predict whether a person is **Alive** or **Dead** based on their **age**.
