@@ -115,10 +115,9 @@
 
 # Machine Learning Pipeline
 - Help to **Automate** Machine Learning **Workflows**.
-- Pipeline consist of Several Steps to Train the Model.
+- Pipeline **Chain** together Multiple Steps to **Train** the Model, Output of each Step is used as Input to the Next Step.
 - Pipelines are **Cyclic**, contains **Iterative** Steps to Continuously Improve the **Accuracy** of **Algorithm** and makes Model **Scalable**.
 - The Learning Algorithm Finds **Patterns** in the **Training Data** that Maps the **Features** to the **Target** and Create a ML Model.
-
 
 ### 1. Data 
 - Data Collection
@@ -143,5 +142,9 @@
 - Integrate with Application or Website
 - Fine Tuning
 - Real Life Prediction or Classifications
+
+### Small Pipelines 
+- **make_pipeline**(Imputer, Column Transformer, Classifier or Regressor)
+- pipeline can be directly used for Training using **fit( )** and it can even Predict using **predict( )**
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
