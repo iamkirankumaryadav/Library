@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-<h1 align=center>Types of **Distribution</h1>
+<h1 align=center>Types of Distribution</h1>
 
 <table align=center>
   <tr>
