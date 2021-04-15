@@ -2,24 +2,24 @@
 
 # Types of **Distribution**
 
-<table>
+<table align=center>
   <tr>
-    <th><h3>Discrete</h3>
+    <td><h3>Discrete</h3>
       <ol>
         <li><a href='#uniform'>Uniform</a></li>
         <li><a href='#bernoulli'>Bernoulli</a></li>
         <li><a href='#binomial'>Binomial</a></li>
         <li><a href='#poisson'>Poisson</a></li>
       </ol>
-    </th>
-    <th><h3>Continuous</h3>
+    </td>
+    <td><h3>Continuous</h3>
       <ol>
         <li><a href='#normal'>Normal</a></li>
         <li><a href='#std'>Standard Normal</a></li>
         <li><a href='#t'>T Distribution</a></li>
         <li><a href='#chi'>Chi<sup>2</sup></a></li>
       </ol>
-    </th>
+    </td>
   </tr>
 </table>
 
