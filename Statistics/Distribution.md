@@ -10,10 +10,10 @@
   <tr>
     <td>
       <ol>
-        <li><a href='#uniform'>Uniform</a></li>
-        <li><a href='#bernoulli'>Bernoulli</a></li>
-        <li><a href='#binomial'>Binomial</a></li>
-        <li><a href='#poisson'>Poisson</a></li>
+        <li><a href='#uniform'>Uniform</a> ( Equal )</li>
+        <li><a href='#bernoulli'>Bernoulli</a> ( Binary )</li>
+        <li><a href='#binomial'>Binomial</a> ( Binary + Trials )</li>
+        <li><a href='#poisson'>Poisson</a> ( Frquency )</li>
       </ol>
     </td>
     <td>
