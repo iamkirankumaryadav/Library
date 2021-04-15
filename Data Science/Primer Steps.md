@@ -145,6 +145,7 @@
 
 ### Small Pipelines 
 - **make_pipeline**( Imputer, Column Transformer, Estimator ) | Estimator : Classifier or Regressor.
+- We can Combine Preprocessing Steps with Data Modeling e.g. ( OneHotEncoder, SimpleImputer, LabelEncoder on Different Columns based on Requirement )
 - pipeline can be directly used for Training using **fit( )** and it can even Predict using **predict( )**
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
