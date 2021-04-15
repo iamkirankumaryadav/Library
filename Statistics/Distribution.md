@@ -11,17 +11,17 @@
     <td>
       <ol>
         <li><a href='#uniform'>Uniform</a> : X ~ U ( 3 , 7 )</li>
-        <li><a href='#bernoulli'>Bernoulli</a> : X ~ Bern ( Probability )</li>
-        <li><a href='#binomial'>Binomial</a> : X ~ B ( Trials , Probability )</li>
-        <li><a href='#poisson'>Poisson</a> : X ~ Po ( Frquency )</li>
+        <li><a href='#bernoulli'>Bernoulli</a> : X ~ Bern ( probability )</li>
+        <li><a href='#binomial'>Binomial</a> : X ~ B ( trials , probability )</li>
+        <li><a href='#poisson'>Poisson</a> : X ~ Po ( frquency )</li>
       </ol>
     </td>
     <td>
       <ol>
-        <li><a href='#normal'>Normal</a></li>
-        <li><a href='#std'>Standard Normal</a> ( Mean = 0, Std = 1 )</li>
-        <li><a href='#t'>T Distribution</a></li>
-        <li><a href='#chi'>Chi<sup>2</sup></a></li>
+        <li><a href='#normal'>Normal</a> : X ~ N ( mean, std )</li>
+        <li><a href='#std'>Standard Normal</a> ( mean = 0, std = 1 )</li>
+        <li><a href='#t'>T Distribution</a> : X ~ t ( degree of freedom )</li>
+        <li><a href='#chi'>Chi<sup>2</sup></a> : X ~ chi<sup>2</sup> ( degree of freedom )</li>
       </ol>
     </td>
   </tr>
