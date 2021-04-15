@@ -1,10 +1,11 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # Statistics
+<h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a></h3>
 
 > Describing **Distributions** using **Numbers**
 
-### Measures of Centre | Central Tendency
+<h3 name='center'>Measures of Centre | Central Tendency</h3>
 
 1. **Mean** 
 - Arithmetic average of Data Points.
@@ -16,7 +17,7 @@
 3. **Mode** 
 - Most Frequently observed **Data Value** | **Data Point**.
 
-### Measures of Spread
+<h3 name='spread'>Measures of Spread</h3>
 
 1. **Range**
 - Max - Min
