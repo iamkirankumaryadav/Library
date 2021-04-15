@@ -10,7 +10,7 @@
   <tr>
     <td>
       <ol>
-        <li><a href='#uniform'>Uniform</a> ( Equal )</li>
+        <li><a href='#uniform'>Uniform</a> : X ~ U ( 3 , 7 ) ( Equal )</li>
         <li><a href='#bernoulli'>Bernoulli</a> ( Binary )</li>
         <li><a href='#binomial'>Binomial</a> ( Binary + Trials )</li>
         <li><a href='#poisson'>Poisson</a> ( Frquency )</li>
