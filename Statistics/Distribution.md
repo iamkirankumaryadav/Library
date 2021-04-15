@@ -174,19 +174,20 @@
 - **Variance** in the Data is **Unknown**.
 - Tails are Fat at the both ends.
 
-<h3 name='chi'>4. Chi Squared Distribution</h3>  
+<h3 name='chi'>4. Chi Squared Distribution ( Goodness of Fit )</h3>  
 
 - **X ~ chi<sup>2</sup> ( k )** 
 - Variable **X** follows a **chi<sup>2</sup> Distribution** with k **Degree of Freedom**.
 - E( X ) = k
 - Var ( X ) = 2k
 - Few Events in Real Life.
-- Used in **Statistical Analysis** ( **Hypothesis Testing** and Computing **Confidence Intervals** )
-- Determine the **Goodness of Fitness**.
-- Distribution ( **X Axis** ) Starts from **Zero** and **Asymmetric** in Nature.
 - It is Squared therefore only **Positive**.
 - Rapid changing Event follows **Exponential Distribution**.
-- Forecast and Prediction Events follows **Logistic Distribution** (Which Team will Win, Weather Forecast)
+- Very Low Chi<sup>2</sup> : Data fits very well.
+- Very High Chi<sup>2</sup> : Data does not fits well.
+- Test for Independence of two Categorical Variables and returns Probability.
+- Probability = 0 : Categorical Variables are Dependent.
+- Probability = 1 : Categorical Variables are Independent.
 
 <table>
   <tr>
