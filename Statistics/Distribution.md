@@ -4,6 +4,10 @@
 
 <table align=center>
   <tr>
+    <th><h3>Discrete</h3></th>
+    <th><h3>Continuous</h3></th>
+  </tr>
+  <tr>
     <td><h3>Discrete</h3>
       <ol>
         <li><a href='#uniform'>Uniform</a></li>
