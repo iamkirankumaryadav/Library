@@ -370,7 +370,7 @@ B. Divisive
 
 ### Techniques of Dimensionality Reduction
 
-<h3 name='pca'>PCA ( Principal Component Analysis )</h3>
+<h3 name='pca'>PCA ( Principal Component Analysis )</h3> ( Linear )
 
 - A **Dimensionality Reduction** Method ( Reduce the **Dimensions** of Large Data Sets )
 - **Transforming** a Large Data Set ( More Features ) into Smaller Data Set ( Without Lossing **Accuracy** )
@@ -387,7 +387,10 @@ B. Divisive
 <h3 name='tsne'>t-SNE ( t Distributed Stochastic Neighbor Embedding )</h3>
 
 - Non Linear Dimension Reduction ( Spiral, Mixed ) 
-- Data which is Complicated for Understanding ( 3 Dimensional )
+- Data which is Complicated for Understanding ( Multi Dimensional Data )
+- A Tool to **Visualize** and **Explore** High Dimension Data.
+- Identify **Clusters** based on Similarity of Data Points.
+- Maps **Multi Dimensional Data** to a **Lower Dimensional Space**. 
 
 ### Anomaly Detection :
 - Automatically Discover **Unusual** Data Points in Data Set.
