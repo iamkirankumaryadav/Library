@@ -8,7 +8,7 @@
     <th><h3>Continuous</h3></th>
   </tr>
   <tr>
-    <td><h3>Discrete</h3>
+    <td>
       <ol>
         <li><a href='#uniform'>Uniform</a></li>
         <li><a href='#bernoulli'>Bernoulli</a></li>
@@ -16,7 +16,7 @@
         <li><a href='#poisson'>Poisson</a></li>
       </ol>
     </td>
-    <td><h3>Continuous</h3>
+    <td>
       <ol>
         <li><a href='#normal'>Normal</a></li>
         <li><a href='#std'>Standard Normal</a></li>
