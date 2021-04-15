@@ -119,7 +119,7 @@
 
 <h3 name='std'>2. Standard Normal Distribution</h3> 
 
-- **X ~ N ( mean = 0 , variance = 1 )** 
+- **X ~ N ( mean = 0 , standard deviation = 1 )** 
 - Variable **X** follows a **Normal Distribution** with **Mean** = 0 and **Variance** = 1. 
 
 - Each Number on **Horizontal Axis** represents **Z Score**.
