@@ -15,7 +15,7 @@
 - If Dataset is very large the posistion of **Median** : `( n + 1 ) / 2`
 
 3. **Mode** 
-- Most Frequently observed **Data Value** | **Data Point**.
+- Most Frequently observed or most Occuring **Data Value** | **Data Point**.
 
 <h3 name='spread'>Measures of Spread</h3>
 
