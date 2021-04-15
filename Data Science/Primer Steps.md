@@ -113,4 +113,30 @@
 - **Profit** or **Loss** of the Day 
 - Total Amount **Credited** or **Debited** for the Day 
 
+# Machine Learning Pipeline
+
+### 1. Data 
+- Data Collection
+- Data Preprocessing
+- Exploratory Data Analysis
+- Data Preprocessing
+
+### 2. Data Preparation
+- Data Cleaning
+- Feature Engineering
+- Data Visualization
+- Feature Extraction | Feature Selection
+- Transforation, Normalization or Standardization 
+
+### 3. Data Modeling 
+- Split the Data into Train Set and Test Set 
+- Train the Model on Train Set
+- Tune the Model on Validate Set
+- Evaluate the Model on Test Set
+
+### 4. Deployment
+- Integrate with Application or Website
+- Fine Tuning
+- Real Life Prediction or Classifications
+
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
