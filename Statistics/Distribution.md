@@ -19,7 +19,7 @@
     <td>
       <ol>
         <li><a href='#normal'>Normal</a></li>
-        <li><a href='#std'>Standard Normal</a></li>
+        <li><a href='#std'>Standard Normal</a> ( Mean = 0, Std = 1 )</li>
         <li><a href='#t'>T Distribution</a></li>
         <li><a href='#chi'>Chi<sup>2</sup></a></li>
       </ol>
