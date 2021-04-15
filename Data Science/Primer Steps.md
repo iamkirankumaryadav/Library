@@ -123,8 +123,8 @@
 
 ### 2. Data Preparation
 - Data Cleaning
-- Feature Engineering
-- Data Visualization
+- Feature Engineering ( Deal with Numerical Data + Handle Categorical Data )
+- Data Visualization ( Find Hidden Patterns )
 - Feature Extraction | Feature Selection
 - Transforation, Normalization or Standardization 
 
