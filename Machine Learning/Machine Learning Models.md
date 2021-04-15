@@ -399,9 +399,10 @@ B. Divisive
 - Basket Analysis : Items Bought Together | Goods Purchased at the Same Time Help to Develop Marketing Strategies.
 
 ### Feature Selection
-- **Select** Important Features | Helps to Improve **Accuracy** | Not Every Feature Adds Value to Solve Problem
-- **Remove** Unwanted Features | Irrelevant Features Affects Accuracy |
-- **Understanding** Each Feature before using it for Creating Machine Learning Model
+- **Select** Important Features | Helps to Improve **Accuracy** | Not Every Feature Adds Value to Solve Problem.
+- **Understanding** Each Feature before using it for Creating Machine Learning Model.
+- **Correaltion** between **Features** and **Target** helps to Select Better Features.
+- **Ensemble Learning Techniques** have a Parameter of **feature_importance** which helps us to find Important Features.
 
 ### Standardization 
 - Standardize the **Range** of the **Continuous** Initial Variables so that each one of them contributes Equally to the **Analysis**.
