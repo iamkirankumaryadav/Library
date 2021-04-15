@@ -11,9 +11,9 @@
     <td>
       <ol>
         <li><a href='#uniform'>Uniform</a> : X ~ U ( 3 , 7 )</li>
-        <li><a href='#bernoulli'>Bernoulli</a> : X ~ Bern ( p | Probability )</li>
-        <li><a href='#binomial'>Binomial</a> : X ~ B ( n | Trials , p | Probability )</li>
-        <li><a href='#poisson'>Poisson</a> ( Frquency )</li>
+        <li><a href='#bernoulli'>Bernoulli</a> : X ~ Bern ( Probability )</li>
+        <li><a href='#binomial'>Binomial</a> : X ~ B ( Trials , Probability )</li>
+        <li><a href='#poisson'>Poisson</a> : X ~ Po ( Frquency )</li>
       </ol>
     </td>
     <td>
