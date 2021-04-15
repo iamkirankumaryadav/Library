@@ -300,7 +300,7 @@ All follow Same Process in **Regression** and **Classification** the only differ
   </tr>
   <tr>
     <td>Group of Customers with Similar Purchasing Behavior</td>
-    <td>Customer Buy Product A also tend to Buy Product B</td>
+    <td>Customer Buy Phone also tend to Buy Phone Case</td>
   </tr>
 </table>
 
