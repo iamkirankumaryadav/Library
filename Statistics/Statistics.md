@@ -127,10 +127,6 @@ Amount of R | Strength of Correlation
 - Relationship between **Cause** and its **Effect**
 - One Variable affects other Variable ( Temperature affect Icecream Sale | Sale of Icecream is more in Summer )
 
-### Regression Line
-
-- **Predicts** the change in **Y** when **X** increases by **One Unit**.
-
 ### R Squared | R<sup>2</sup>
 
 - How close each Data point **Fits** to **Regression Line**.
@@ -152,7 +148,7 @@ Amount of R | Strength of Correlation
 - Measures how much two variables vary with each other.
 
 ### Confidence Interval ( alpha )
-- Gives a **Range** of Values which is likely to contain Population Parameter. ( Prediction will be True )
+- Gives a **Range** of Values which is likely to contain Population Parameter ( Prediction will be True )
 - **Range** of values that you expect your **Estimate** to fall between a certain % of the Time.
 - e.g Confidence Interval of 95% : You are Confident that 95 out of 100 Times the Estimation will Falls between **Confidence Interval** Range.
 
