@@ -68,7 +68,7 @@
 - Square Root of MSE
 - RMSE is useful when `Large` Errors are Undesired
 
-<h3 name='r2'>4. Coefficient of Determination ( R<sup>2</sup> )</h3>
+<h3 name='r2'>4. Coefficient of Determination ( R<sup>2</sup> ) | Squared Correlation Coefficient</h3>
 
 ![R2](Image/R2.png)
 
