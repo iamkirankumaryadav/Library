@@ -61,7 +61,7 @@
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
-<h3 name='rmse'>3. Root Mean Square Error ( RMSE )</h3>
+<h3 name='rmse'>3. Root Mean Square Error ( RMSE ) | Squared Correlation Coefficient</h3>
 
 ![RMSE](Image/RMSE.png)
 
@@ -72,7 +72,6 @@
 
 ![R2](Image/R2.png)
 
-- Squared `Correlation` Coefficient.
 - Provide basic Summary of How well a Model Fits the Data ( How well the Model Predicts New Observations )
 - R<sup>2</sup> = 0.99 ( Model Fits the Data very Well )
 - Help us to `Compare` **Current** Model with the **Base** Model
