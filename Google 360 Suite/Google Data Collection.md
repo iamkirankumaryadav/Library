@@ -45,7 +45,7 @@ Google Website Tag Manager
 
 ### cm : Custom Metric ( view time : Amount of Time User Watched the Video )
 
-### cid : Unique Client ID ( ID Measures how many times user access the Website | Also Used at the Time of Transaction or Purchase  )
+### cid : Unique Client ID ( ID Measures how many times user access the Website )
 
 > Unique Client ID is not Tracked in Icognito Mode ( Each and Every Time the User is a Fresh | New User ) 
 
