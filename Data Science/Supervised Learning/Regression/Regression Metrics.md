@@ -134,7 +134,7 @@
 
 ![Precision](Image/Precision.png)
 
-<h3 name='tpr'>4. Recall | True Positive Rate ( `TPR` ) | Sensitivity</h3>
+<h3 name='tpr'>4. Recall | True Positive Rate ( TPR ) | Sensitivity</h3>
 
 - Focus on `Positive Class` ( How Good our Model is at `Correctly` predicting `Positive` Classes ? )
 - **Evaluates** Model only based on its **ability** to  **Predict** the `Positive Class`
@@ -144,7 +144,7 @@
 
 ![Recall](Image/Recall.png)
 
-<h3 name='fpr'>5. False Positive Rate ( `FPR` ) | Specificity</h3>
+<h3 name='fpr'>5. False Positive Rate ( FPR ) | Specificity</h3>
 
 - Focus on `Negative Class` ( How Good our Model is at `Correctly` predicting `Negative` Classes ? )
 - **Evaluates** Model only based on its **ability** to  **Predict** the `Negative Class`
