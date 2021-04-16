@@ -87,8 +87,8 @@
 
 - Improvement of R<sup>2</sup> ( Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup> )
 - Compare Models with different number of **Predictors**.
-- Adjusted R<sup>2</sup> **Increases** only if the New Term improves the Model **More** than Expected.
-- Adjusted R<sup>2</sup> **Decreases** if the New Term improves the Model **Less** than Expected.
+- Adjusted R<sup>2</sup> **Increases** only if the New Term ( Independent Feature ) improves the Model **More** than Expected.
+- Adjusted R<sup>2</sup> **Decreases** if the New Term ( Independent Feature ) improves the Model **Less** than Expected.
 
 | MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
 | :--- | :--- | :---
