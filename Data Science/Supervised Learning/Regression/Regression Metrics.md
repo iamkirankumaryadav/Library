@@ -74,7 +74,7 @@
 
 - Squared `Correlation` Coefficient.
 - Provide basic Summary of How well a Model Fits the Data.
-- R<sup>0.99</sup> ( Model Fits the Data very Well )
+- R<sup>2</sup> = 0.99 ( Model Fits the Data very Well )
 - Help us to `Compare` **Current** Model with the **Base** Model
 
 ![R2 Score Scikit Learn](Image/R2Score.png)
