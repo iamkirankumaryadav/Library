@@ -86,6 +86,7 @@
 - Compare Models with different number of **Predictors** | **Independent Features**.
 - Adjusted R<sup>2</sup> **Increases** only if the New Term ( Independent Feature ) improves the Model **More** than Expected.
 - Adjusted R<sup>2</sup> **Decreases** if the New Term ( Independent Feature ) improves the Model **Less** than Expected.
+- **More Accurate Correlation** between Variables.
 
 | MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
 | :--- | :--- | :---
