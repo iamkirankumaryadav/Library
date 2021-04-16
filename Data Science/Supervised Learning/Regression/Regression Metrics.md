@@ -73,7 +73,7 @@
 ![R2](Image/R2.png)
 
 - Squared `Correlation` Coefficient.
-- Provide basic Summary of How well a Model Fits the Data.
+- Provide basic Summary of How well a Model Fits the Data ( How well the Model Predicts New Observations ).
 - R<sup>2</sup> = 0.99 ( Model Fits the Data very Well )
 - Help us to `Compare` **Current** Model with the **Base** Model
 
@@ -86,7 +86,10 @@
 <h3 name='ar2'>5. Adjusted R<sup>2</sup></h3>
 
 - Improvement of R<sup>2</sup>
-- Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup>
+- Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup>.
+- Compare Models with different number of **Predictors**.
+- Adjusted R<sup>2</sup> **Increases** only if the New Term improves the Model **More** than Expected.
+- Adjusted R<sup>2</sup> **Decreases** if the New Term improves the Model **Less** than Expected.
 
 | MAE or MSE or RMSE | R<sup>2</sup> |
 | :--- | :--- |
