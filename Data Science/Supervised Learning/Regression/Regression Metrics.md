@@ -91,10 +91,10 @@
 - Adjusted R<sup>2</sup> **Increases** only if the New Term improves the Model **More** than Expected.
 - Adjusted R<sup>2</sup> **Decreases** if the New Term improves the Model **Less** than Expected.
 
-| MAE or MSE or RMSE | R<sup>2</sup> |
-| :--- | :--- |
-| Good Model : Value closer to Zero | Good Model : Value closer to One |
-| Perfect Model : Value == 0 | Perfect Model : Value == 1 |
+| MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
+| :--- | :--- | :---
+| Good Model : Value closer to Zero | Good Model : Value closer to One | Increases only if New Term Improves Model as Expected
+| Perfect Model : Value == 0 | Perfect Model : Value == 1 | Decreases if New Term does not Improves Model as Expected
 
 <h3 name="logistic">Logistic Regression | Classification</h3>
 
