@@ -61,7 +61,7 @@
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
-<h3 name='rmse'>3. Root Mean Square Error ( RMSE ) | Squared Correlation Coefficient</h3>
+<h3 name='rmse'>3. Root Mean Square Error ( RMSE )</h3>
 
 ![RMSE](Image/RMSE.png)
 
