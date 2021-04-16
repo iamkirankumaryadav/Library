@@ -85,8 +85,7 @@
 
 <h3 name='ar2'>5. Adjusted R<sup>2</sup></h3>
 
-- Improvement of R<sup>2</sup>
-- Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup>.
+- Improvement of R<sup>2</sup> ( Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup> )
 - Compare Models with different number of **Predictors**.
 - Adjusted R<sup>2</sup> **Increases** only if the New Term improves the Model **More** than Expected.
 - Adjusted R<sup>2</sup> **Decreases** if the New Term improves the Model **Less** than Expected.
