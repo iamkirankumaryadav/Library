@@ -52,3 +52,23 @@
 - Tracking and Collecting Data from User Interactions Activities across TV, Mobile, Desktop, Tablet Search Engines.
 - Web Analytics like Google Analytics and Tag Manager.
 - A Tag is Passed which Triggers on User Interaction on Websites and Returns Payload ( Package ) which contains the Tracked Details. 
+
+### Email Marketing Automation
+- Automate Email Marketing Efforts and Engagement with Customers in a Personalized Way.
+
+### Search Advertising | Paid Advertising | Search Marketing | Pay Per Click | Cost Per Click
+- ADS which are Displayed at the Time of Searching on Search Engine.
+- Top 2 - 3 Results are Paid Advertisements ( Sponsered ADS | Green AD Symbol ) and after that the Organic Results are Displayed.
+- Paid Advertisement Results are always on top for Increasing the Likelihood of Clicks.
+- Google AdWords make Company to Pay for there ADS, Company are not Charged until Somebody Clicks on their ADS.
+- Company has to Pay for each Clicks i.e. it is called as Pay Per Click.
+- There is Bidding for ADS Location, Company who will Pay High will get Top Position in Search Result.
+
+### Display Advertising
+- Graphic Advertising on Internet Websites, Apps or Social Media through Banners or other Advertising Formats. 
+- ADS Formats : Text, Images, Flash, Popups, Blinking Cards, Video, and Audio. 
+- Purpose of Display Advertising is to Deliver Avertisements and Brand Messages or Offers to Site Visitors.
+
+### Content Marketing 
+- Strategic Marketing Approach focused on **Creating** and **Distributing** Valuable, Relevant, and Consistent Content.
+- Attract a Clearly defined Audience and Drive Profitable Customer Action.
