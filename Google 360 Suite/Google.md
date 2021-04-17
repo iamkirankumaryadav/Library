@@ -62,7 +62,9 @@ Every Tools are Integrated and Crafted to Achieve Specialization in each Factor.
 
 Double Click Studio Tools are Renamed and Redesigned.
 
-### Studio
+### Studio ( Google Analytics + Google Marketing Platform )
+- Create Rich Media Creatives and Dynamic Advertising Mediums for Online Marketing.
+- Rich Media ADS for Desktop, Mobiles, Tablets and TV's by using Simple Templates and Tools.
 
 ### Campaign Manager 
 - Web Based AD Management System for Advertisers and Agencies.
