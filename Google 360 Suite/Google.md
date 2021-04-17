@@ -1,4 +1,4 @@
-<p><img src='MarketingPlatform.svg'>Google 360 Suite </p>
+# Google 360 Suite 
 
 ### A Collectiion of 7 Different Tools built for Enterprise ( Integrated as One Platform )
 
