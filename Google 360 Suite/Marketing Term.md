@@ -71,4 +71,4 @@
 
 ### Content Marketing 
 - Strategic Marketing Approach focused on **Creating** and **Distributing** Valuable, Relevant, and Consistent Content.
-- Digital Marketing Campaigns to Attract a Clearly defined Audience and Drive Profitable Customer Action.
+- Digital Marketing Campaigns to Attract a Clearly defined Audience and Drive Profitable Customer Action ( Google DoubleClick Digital Marketing )
