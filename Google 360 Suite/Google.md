@@ -1,4 +1,4 @@
-# Google 360 Suite 
+# Google 360 Suite
 
 ### A Collectiion of 7 Different Tools built for Enterprise ( Integrated as One Platform )
 
@@ -52,3 +52,34 @@
 ### 7. Data Studio ( Free for Everyone )
 - Manage and **Automate** **Data Connections** with various Data Sources.
 - Prepare Data and Create Live **Dashboards** and **Reports** for **Analysis** and **Insights** + Share them across Organization.
+
+
+___ 
+
+# Google New Tools for Marketing and Advertisement 
+
+Every Tools are Integrated and Crafted to Achieve Specialization in each Factor.
+
+Double Click Studio Tools are Renamed and Redesigned.
+
+### Studio
+
+### Campaign Manager 
+- Web Based AD Management System for Advertisers and Agencies.
+- Helps to Manage **Digital Campaigns** across Websites and Mobile.
+- Includes Robust Set of Features for AD Serving, Targeting, Verification and Reporting.
+
+### Search AD 360 
+- What should User Search on Website ?
+- Search Campaign Management, Manages Awareness Campaigns with Real Time Performance KPI ( Key Performer Indicator )  
+- KPI Evaluate Success of an Organization ( Integrated with Data Analytics, Display and Video 360 and other Marketing Platforms )
+
+### Display and Video 360 
+- What should we Show to Customer for Successful Business Conversions.
+- Understand Viewing Audience and provide Better Recommendations.
+- End to End Campaign Management ( TV, Desktop, Mobile and Digital Platforms )
+- Reach the Right Audience on Right Time.
+- Media Planning and Creative Development to Measurement and Optimization.
+
+### Web Designer
+- GUI Tool to Create Interactive **HTML5 ADS** and other HTML Contents for Marketing.
