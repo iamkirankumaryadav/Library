@@ -47,6 +47,7 @@
 - Design and Target Surveys to Target Audiences ( Survey for the Product and Satisfaction | Feedback )
 
 ### 6. Tag Manager 360 ( Paid ) | Tag Manager ( Free )
+- Track Marketing Data by easily adding code snippets to their Website or AD.
 - Uses a Container Tag and Data Layer Tag to be Embedded in Every HTML Pages of Websites. 
 
 ### 7. Data Studio ( Free for Everyone )
