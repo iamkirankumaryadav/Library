@@ -31,7 +31,7 @@
 <h3 name="predict"> 4. Predict Missing Value</h3>
 
 - **Predict** the Missing Values with the Help of other Existing Data.
-- **Regression** ( Continuous Data ) and **Classification** ( Categorical Data ) Model can be used for Prediction and Classification.
+- **Continuous** and **Categorical** Data can be used for Prediction and Classification.
 - This method will bring **Better Accuracy**. 
 
 <h3 name="algo"> 5. Use Algorithm which Supports Missing Values</h3>
