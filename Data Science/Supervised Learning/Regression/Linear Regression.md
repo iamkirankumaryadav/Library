@@ -64,12 +64,26 @@
 - Consider Features that have **Good Correlation** with Dependent Variable.
 - Checking Multicollinearity is Important.
 
+### Polynomial Regression
+- Finding Best Fit Curve,
+
 ### Logistic Regression
 
 - Dependent Variable is **Discrete | Categorical**
 - Used for **Classification**  
 - **Probability** of **Occurence** of Target Label is Predicted on the basis of **Threshold** ( 0.5 )
 - **Range** Value of **Prediction** lies between 0 to 1 ( Binary Classification )
+
+### LASSO
+- Use **Shrinkage**, Good for **Multicollinearity**
+
+### Ridge Regression
+- Good for Data with Noise and **Multicollinearity**.
+
+### Stepwise Regression
+- More Advance Technique.
+- Uses Tests to Remove **Predictors**.
+- Can Handle Large Number of **Independent Variables**.
 
 <h3 name='ols'>Ordinary Least Squares (OLS)</h3>
 
