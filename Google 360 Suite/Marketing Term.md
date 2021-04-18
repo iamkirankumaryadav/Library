@@ -72,3 +72,13 @@
 ### Content Marketing 
 - Strategic Marketing Approach focused on **Creating** and **Distributing** Valuable, Relevant, and Consistent Content.
 - Digital Marketing Campaigns to Attract a Clearly defined Audience and Drive Profitable Customer Action ( Google DoubleClick Digital Marketing )
+
+### GTM ( Go to Market )
+- An Action Plan that specifies how a Company will reach **Target Customers** and **Achieve Competitive Advantage**.
+- What are we Selling ? ( What are we Offering ? )
+- Whom we are Selling ? ( Who are the Target Customers ? )
+- Where can we Reach ? ( What are the Channels ? )
+- How to Go in Market ?
+- When should we Launch ?
+- What is the Marketing Strategy ?
+
