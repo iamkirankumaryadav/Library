@@ -82,3 +82,11 @@
 - When should we Launch ?
 - What is the Marketing Strategy ?
 
+### KPI ( Key Performance Indicator )
+- Measurable Value that Demonstrates how effectively a Company is Achieving Key Business Objectives.
+- Organizations use KPI to **Evaluate** their Success at Reaching **Targets**.
+- Key Business Metrics are Tracked in **Real Time** Reporting Tools.
+- Review Business Objectives.
+- Analyze Current Performance.
+- Set a Short Term and Long Term KPI Targets.
+- Review Targets, Analyze and Evaluate.
