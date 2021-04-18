@@ -91,6 +91,21 @@
 - Set a Short Term and Long Term KPI Targets.
 - Review Targets, Analyze and Evaluate.
 
-### Data Life Cycle Visualizer
-- Understand from where the Data come from.
-- How it has Transformed throughout its Journey and where it is getting Consumed.
+# Enquero ( Power Me )
+
+### Intelligent Data Catalog
+- Find Accurate, Relevant and High Quality Data. ( Simplify Data Discovery, ML Driven Recommendation )
+- Comsume that Data for Analytics.
+- Capture both Technical and Business Metadata which can Help Data Consumers, BI Users and Data Engineers.
+- Gain Actionable Insights to Deliver Successful Business.
+
+### Data Life Cycle Visualizer ( Track Data from its Origin to Destination )
+- A Log of Data Roadmap which Captures the Flow of Data from the Source to Intermediatory System.
+- Also Measures all Transformations and Changes Occured throughout the way and where it is Consumed.
+- A Medium to Confirm that the Data is Trustworthy for **Analytics**, **Machine Learning**, **Reporting** or any **Business Activity**.
+
+### Connected Data Quality ( Explore and Analyze Quality of Data )
+- Check Quality of Data 
+- Everything depends on Quality of Data
+- Detect Anomalies such as Completeness, Accuracy, Consistency, Missing Data, Relevant, Outliers and Duplicate Data.
+
