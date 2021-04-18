@@ -90,3 +90,7 @@
 - Analyze Current Performance.
 - Set a Short Term and Long Term KPI Targets.
 - Review Targets, Analyze and Evaluate.
+
+### Data Life Cycle Visualizer
+- Understand from where the Data come from.
+- How it has Transformed throughout its Journey and where it is getting Consumed.
