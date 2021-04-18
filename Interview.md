@@ -22,6 +22,21 @@
 
 ### Model = Algorithm ( Parameters ) + Data
 
+### Data Pipeline ( Where and How the Data are Collected, Transformed and Loaded ) 
+- A Set of **Actions** that **Extract Data** from various **Sources**, Transform it into Proper Format and Load for Processing.
+- An Automated Process 
+- 1. Select Columns from Database
+- 2. Merge Columns 
+- 3. Subset Rows ( Sample ) 
+- 4 Substitute NA with Mean or Medians ( Impute )
+- 5. Load them in Other Database.
+- First Time the Process is Complicated but if you do it Right you will have to do it just once.
+- To have Automation you need to Think, Plan and Write Down in Simple Language, keep it Reproducible. ( Not only for you also for others. )
+
+### Data Lake
+- A Storage Repository where Data is Stored in its Natural | Raw format.
+- Data Warehouse uses Files or Folders Structure, Data Lakes uses Flat Architecture.
+
 ### Important Disclaimer
 - We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
 - But we cannot make a **100%** Accurate Model.
@@ -45,6 +60,12 @@ Parameter | Hyperparameter
 :--- | :---
 `Internal` Configuration Variables of the Model | `External` Configuration Variables of the Model
 Estimated or Learned from Data | Cannot be Estimated from Data ( Guides How to Train Algorithm )
+
+Data Ware House | Data Lake
+:--- | :---
+Structured + Pre-processed | Unstructured + Semi Structured + Structured + Raw
+Organized before Storing | Organized before using
+Business Professionals, Analyst, BI and Visualizations | **Data Scientists**, **Analytics** and **AI**
 
 | DBMS | RDBMS |
 | :--- | :---  |
