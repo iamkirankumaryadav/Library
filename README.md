@@ -62,14 +62,14 @@
 
 <h3 name="yt">YouTube</h3>
 
-- [Data Professor]()
-- [Corey Scafer]()
-- [Edureka]()
-- [Simplilearn]()
-- [Data School]()
-- [Code Basics]()
-- [Free Code Camp]()
-- [Simple Learning Pro]()
+- [Data Professor](https://www.youtube.com/channel/UCV8e2g4IWQqK71bbzGDEI4Q)
+- [Corey Scafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g)
+- [Edureka](https://www.youtube.com/user/edurekaIN)
+- [Simplilearn](https://www.youtube.com/user/Simplilearn)
+- [Data School](https://www.youtube.com/user/dataschool)
+- [Code Basics](https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ)
+- [Free Code Camp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
+- [Simple Learning Pro](https://www.youtube.com/channel/UCiiyrRcEuDSzInajTud90Sw)
 - [CampusX](https://www.youtube.com/channel/UCCWi3hpnq_Pe03nGxuS7isg)
 
 ### Website
@@ -82,6 +82,5 @@
 - [Matplotlib Plots](https://matplotlib.org/stable/tutorials/introductory/sample_plots.html)
 - [Scribbr](https://www.scribbr.com/category/statistics/)
 - [Quantdare](https://quantdare.com/)
-- [Aaiena](https://www.aaiena.com/)
 - [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 - [Ultimate Cheat Sheet](https://towardsdatascience.com/your-ultimate-data-mining-machine-learning-cheat-sheet-9fce3fa16)
