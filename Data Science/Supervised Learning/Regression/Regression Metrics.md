@@ -176,11 +176,13 @@
 - Plots TPR vs FPR at Different Classification `Thresholds`
 - If Threshold is near to `1.0` or `100%`: **Classifications** gets more **Accurate**.
 
+> ROC helps to Understand **Characteristics** of Curve by plotting TPR on Y Axis and FPR on X Axis at different Classification **Thresholds**.
+
 ![ROC](Image/ROC.svg)
 
 <h3 name='auc'>8. AUC | Area Under ROC Curve</h3> 
 
-- Shows the `Performance` of a Classification Model across all Classification `Thresholds`.
+- Helps to Understand the `Performance` of a Classification Model across all Classification `Thresholds`.
 - AUC = 1.0 ( **Perfect** Classifier ) | AUC > 0.75 ( **Good** Classifier ) | AUC : **50%** ( **Bad** Classifier ) | AUC < 0.5 ( **Worst** Classifier )
 
 ![AUC](Image/AUC.png)
