@@ -54,7 +54,7 @@ e.g.
 - Uses **ReLu** Activation Function to make all **Negative Value** to **Zero**.
 
 ### 3. Pooling Layer ( Dimensionality Reduction | Flattens )
-- **Pooling** : Down Samples the **Spatial Volume** ( **Flattens** ) of Input Image for Next **Convolution** Layer.  
+- **Pooling** : Down Samples the **Spatial Volume** of Input Image | **Flattens Input** for Next **Convolution** Layer.  
 - Decreases **Computation Power** to Process Data. 
 - **Max Pooling** : Returns **Maximum** Value from the portion of the **Image**.
 - **Average Pooling** : Returns **Average** Value from the portion of the **Image**.
