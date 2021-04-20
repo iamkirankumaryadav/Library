@@ -75,7 +75,7 @@ e.g.
 ![Max Pool](Image/MaxPool.png)
 
 ### 6. Output Layer
-- The **Label** of the Image in form of **One Hot Encoded**.
+- The **Label** of the Image in form of **One Hot Encoded** ( One Hot Vectors )
 - Label is assigned with each Image ( What the Driver is Actually doing in the Vehicle )
 
 [CNN](https://towardsdatascience.com/covolutional-neural-network-cb0883dd6529)
