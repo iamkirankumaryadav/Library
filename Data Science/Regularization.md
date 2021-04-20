@@ -10,6 +10,8 @@
 - Encourages Weight Values towards `Zero` ( But not Exactly `Zero` )
 - Penalize Weights that are too Large ( Learning Rate )
 - It Improves the **Generalization** Performance ( Performance on New Unseen Data )
+- If Lambda is very High | High Bias | Underfitting | Model not Trained well | More Error in Training Set.
+- if Lambda is very Low | High Variance | Overfitting | Model will not Generalize Well on New Unseen Data. 
 
 LASSO | Ridge | Elastic
 :--- | :--- | :---
