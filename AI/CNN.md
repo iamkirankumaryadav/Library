@@ -60,6 +60,8 @@ e.g.
 - **Average Pooling** : Returns **Average** Value from the portion of the **Image**.
 
 ### 4. Fully Connected Layer ( Feed Forward Connected Layers ) + Activation Function ( ReLu )
+- The Input to the **Fully Connected Layer** is the output from the **Final Pooling** or **Convolutional Layer**. 
+- Input is **Flattened** and then fed into the **Fully Connected Layer**.
 - Takes **Weighted Sum** of all the **Inputs** from Previous Layer and Generates **Output** for Next Layer. 
 - **Connects** Neurons in One Layer to Neurons in another Layer.
 - **Classify** Images between Different Category by Training.
