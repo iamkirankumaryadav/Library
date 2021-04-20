@@ -48,10 +48,10 @@ e.g.
 - Input is a 3 Dimensional **Matrix** ( Height x Width x Channels )
 - **Kernels** we call it **Filters** it is also a 3 Dimensional Matrix ( **h** x **w** x **channels** )
  
-### 2. Convolution Layer ( Feature Extraction )
+### 2. Convolution Layer ( Feature Extraction ) + Activation Function ( ReLu )
 - **Feature** of Image is Extracted in this Layer. 
 - Slide **Filter** over the Image by a **Stride = 1** until we go through the Whole Image.
-- Convolution Layer also contains **ReLu** Activation to make all **Negative Value** to **Zero**.
+- Uses **ReLu** Activation Function to make all **Negative Value** to **Zero**.
 
 ### 3. Pooling Layer ( Dimensionality Reduction )
 - **Pooling** : Down Samples the **Spatial Volume** ( **Flattens** ) of Input Image for Next **Convolution** Layer.  
@@ -59,14 +59,15 @@ e.g.
 - **Max Pooling** : Returns **Maximum** Value from the portion of the **Image**.
 - **Average Pooling** : Returns **Average** Value from the portion of the **Image**.
 
-### 4. Fully Connected Layer ( Feed Forward Connected Layers )
+### 4. Fully Connected Layer ( Feed Forward Connected Layers ) + Activation Function ( ReLu )
 - Takes **Weighted Sum** of all the **Inputs** from Previous Layer and Generates **Output** for Next Layer. 
 - **Connects** Neurons in One Layer to Neurons in another Layer.
 - **Classify** Images between Different Category by Training.
 
 ### 5. Activation Function : Softmax | Logistic + Dropout
-- **Logistic** : **Binary** Classification
-- **Softmax**  : **Multiclass** Classification
+- **ReLu** : **Negative Value** to **Zero**.
+- **Logistic** : **Binary** Classification ( 0 or 1 )
+- **Softmax**  : **Multiclass** Classification.
 - When all the **Features** are Connected in a Fully Connected Layer it can cause **Overfitting**.
 - **Dropout** : Few Neurons are **Dropped** Randomly from the **Neural Network** to Prevent from **Overfitting**.
 
