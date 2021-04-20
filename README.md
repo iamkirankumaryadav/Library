@@ -73,6 +73,7 @@
 - [CampusX](https://www.youtube.com/channel/UCCWi3hpnq_Pe03nGxuS7isg)
 
 ### Website
+- [SQL Online](https://sqliteonline.com/)
 - [Data Quest](https://www.dataquest.io/)
 - [Educative](https://www.educative.io/)
 - [Edpresso](https://www.educative.io/edpresso)
