@@ -67,7 +67,7 @@ e.g.
 ### 5. Activation Function : Softmax | Logistic + Dropout
 - **ReLu** : **Negative Value** to **Zero**.
 - **Logistic** : **Binary** Classification ( 0 or 1 )
-- **Softmax**  : **Multiclass** Classification.
+- **Softmax**  : **Multiclass** Classification ( Converts Numbers into Probabilities and the Vector Sum Ups to 1 )
 - When all the **Features** are Connected in a Fully Connected Layer it can cause **Overfitting**.
 - **Dropout** : Few Neurons are **Dropped** Randomly from the **Neural Network** to Prevent from **Overfitting**.
 
