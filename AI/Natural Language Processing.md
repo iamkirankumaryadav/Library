@@ -289,6 +289,19 @@ How to `Remove` Stopwords Using NLTK
 - Accepts a Text Corpus as an input, and returns a set of **Vectors** ( **Numeric Representation** of a given **Sentence**, **Paragraph** or **Document** )
 - Once trained, can Detect Synonymous Words or Suggest Additional Words for a Partial Sentence ( Autocomplete | Predict Next Words )
 - **doc2vec Vectors** are not converted to Array, They are converted to **List**
+- Learn Word **Association** from a Large Corpus of Text, Once Trained can Detect Synonyms and can Suggest Words.
+
+Word2Vec Matrix | TF-IDF Matrix
+:--- | :--- 
+Multi Dimensional Vector | Sparse Matrix
+Capture Words Relationship with other Words | Captures the Importance of Word in a given Documment
+Applied on each Word Individully | Applied to each Training Document
+More Memory Intensive | Less Memory Intensive
+Ideal for Single Word Problems | Ideal for Problems with Multiple Words or Document Files.
+
+### BERT 
+- Google's Pre trained **Bidirectional Encoder Representation for Transformers** used for **Transfer Learning**.
+
 
 [Text Classification](https://towardsdatascience.com/text-classification-with-nlp-tf-idf-vs-word2vec-vs-bert-41ff868d1794)
 
