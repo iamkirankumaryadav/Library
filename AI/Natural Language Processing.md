@@ -282,7 +282,6 @@ How to `Remove` Stopwords Using NLTK
 - **Average** of all Word **Vectors** is considered as One Complete Sentence ( We **loose** some Information while taking Average )
 - word2v **Vectors** are converted to **Array** for doing elementwise Operations ( Averaging )
 - Once trained, can Detect Synonymous Words or Suggest Additional Words for a Partial Sentence ( Autocomplete | Predict Next Words )
-- Learn Word **Association** from a Large Corpus of Text, Once Trained can Detect Synonyms and can Suggest Words.
 
 <h3 name="doc2vec"> Doc2vec </h3>
 
