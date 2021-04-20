@@ -1,8 +1,7 @@
 <h4 align=right><a href="https://github.com/KIRANKUMAR7296/Library/blob/main/AI/AI.md">Back to AI</a></h4>
 
-# CNN
+# Convolutional Neural Network ( CNN )
 
-### Convolutional Neural Network
 - A **Deep Learning Algorithm** which takes **Image** as Input, Extract Information and Learn from Image ( Weights and Biases )
 - Able to Differentiate One Image from Other.
 - CNN is used with **Computer Vision** designed to process **Pixel Data**.
