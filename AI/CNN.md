@@ -53,7 +53,7 @@ e.g.
 - Slide **Filter** over the Image by a **Stride = 1** until we go through the Whole Image.
 - Uses **ReLu** Activation Function to make all **Negative Value** to **Zero**.
 
-### 3. Pooling Layer ( Dimensionality Reduction )
+### 3. Pooling Layer ( Dimensionality Reduction | Flattens )
 - **Pooling** : Down Samples the **Spatial Volume** ( **Flattens** ) of Input Image for Next **Convolution** Layer.  
 - Decreases **Computation Power** to Process Data. 
 - **Max Pooling** : Returns **Maximum** Value from the portion of the **Image**.
