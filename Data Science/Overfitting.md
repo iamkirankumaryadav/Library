@@ -22,8 +22,8 @@
 - Get More **Training Data**
 
 ### 2. Apply Regularization  
-- Lasso ( L1 ) : Sum of `Absolute` pf Coefficients | Weights ( Can Lead Coefficient to Exactly 0 )
-- Ridge ( L2 ) : Sum of `Squared` of Coefficient | Weights ( **Penalize** Certain Value of **Weights** )
+- Lasso ( L1 ) : Sum of `Absolute` of **Coefficients** | Weights ( Can Lead Coefficient to Exactly 0 )
+- Ridge ( L2 ) : Sum of `Squared` of **Coefficients** | Weights ( **Penalize** Certain Value of **Weights** )
 - Able to Learn **Complex Data Patterns**.
 
 ### 3. K Fold Cross Validation and Grid Search Cross Validation
