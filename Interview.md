@@ -18,7 +18,7 @@
 
 ---
 
-### [Handle Missing Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [Detect Outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [Encode Categorical Feature](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [Handle Imbalanced Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md)
+### [Missing Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [Categorical Feature](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [Imbalanced Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md)
 
 ### Model = Algorithm ( Parameters ) + Data
 
