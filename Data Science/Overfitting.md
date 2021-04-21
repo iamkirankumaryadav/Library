@@ -33,7 +33,7 @@
 ### 3. K Fold Cross Validation and Grid Search Cross Validation
 - Measure How Well each **Iteration** of the Model Performs.
 - Until a certain Number of Iterations, **New Iteration** Improve the Model.
-- After some Point The Model's Ability of Generalize gets weak and Starts Overfitting.
+- After some Point The **Model's Ability** to **Generalize** gets weak and Starts **Overfitting**.
 
 ### 4. Feature Selection
 - Select only the **Important** Features ( Large Number of Features can Confuse the Model )
