@@ -48,5 +48,5 @@
 - **Removing Layers** or Number of **Elements** in the **Hidden Layers**.
 
 ### 7. Dropout Layers 
-- Randomly Remove Certain Features by Setting them to Zero.
+- Randomly **Remove** Certain Features by Setting them to Zero ( Fully Connected Layer )
   
