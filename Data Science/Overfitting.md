@@ -12,8 +12,8 @@
 
 ### 1. Metrics 
 - Observing Loss and Accuracy of Model on **Training Set** and **Test Set**
-- **model.score(X_train, y_train)**
-- **model.score(X_test, y_test)**
+- **model.score( X_train, y_train )**
+- **model.score( X_test, y_test )**
 
 
   
