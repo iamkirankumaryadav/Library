@@ -24,7 +24,7 @@
 ### 2. Apply Regularization  
 - Lasso ( L1 ) : Sum of `Absolute` of **Coefficients** | Weights ( Can Lead Coefficient to Exactly 0 )
 - Ridge ( L2 ) : Sum of `Squared` of **Coefficients** | Weights ( **Penalize** Certain Value of **Weights** )
-- Able to Learn **Complex Data Patterns**.
+- Able to Learn **Complex Data Patterns** | Decrease the **Complexity** of Model.
 
 ### 3. K Fold Cross Validation and Grid Search Cross Validation
 - Measure How Well each **Iteration** of the Model Performs.
@@ -36,9 +36,9 @@
 - Remove **Multicollinear Data** ( e.g DOB and Age can express each other so we can remove one of them )
 
 ### 5. Ensembling 
-- **Combine Predictions** from Multiple Separate Models.
-- **Bagging** Trains Multiple Models in **Parallel**
-- **Boosting** Trains Multiple Models in **Sequence** ( Improving Each Step Learning from Previous Mistakes ) 
+- **Combine Predictions** from Multiple Separate Models | Train Multiple **Weak Learners** to make them a Single **Strong Model**.
+- **Bagging** Trains Multiple Weak Learners in **Parallel**
+- **Boosting** Trains Multiple Weak Learners in **Sequence** ( Improving in Each Steps Learning from the Mistakes of Previous Models ) 
 
 ### 6. Reduce Layers ( Deep Learning )
 - **Removing Layers** or Number of **Elements** in the **Hidden Layers**.
