@@ -48,7 +48,7 @@
 
 ### Markdown
 
-- [Markdown Guide](https://www.markdownguide.org/) | [Markdown Presentation](https://www.slideas.app/)
+- [Markdown Guide](https://www.markdownguide.org/) | [Markdown Presentation](https://www.slideas.app/) | [Table Generator](https://www.tablesgenerator.com/markdown_tables)
 
 ### Data Science Specialist
 
