@@ -5,7 +5,7 @@
 <table align=center>
   <tr><th colspan=2><h3>Metrics</h3></th></tr>
   <tr>
-    <td><h3>Regression :</h3>
+    <td><h3><a href="#linear"> Regression</a> :</h3>
       <ol>
         <li>Mean Absolute Error ( <a href='#mae'>MAE</a> )</li>
         <li>Mean Squared Error ( <a href='#mse'>MSE</a> )</li>
@@ -14,7 +14,7 @@
         <li>Adjusted R<sup>2</sup> ( <a href='#ar2'>Adj R<sup>2</sup></a> )</li>
       </ol>
     </td>
-    <td><h3>Classification :</h3>
+    <td><h3><a href="#logistic">Classification</a> :</h3>
        <ol>
         <li><a href='#cm'>Confusion Matrix</a></li>
         <li><a href='#acc'>Accuracy</a></li>
@@ -28,8 +28,6 @@
     </td>
   </tr>
 </table>
-
- <h3> <a href="#linear"> Linear Regression </a> | <a href="#logistic"> Logistic Regression </a> </h3>
 
 1. We **Start** with some Initial Configuration of Model and `Predict` the **Output** based on some **Input**.
 2. Predicted Value is compared with the `Target` and Measure the `Performance` of our Model.
