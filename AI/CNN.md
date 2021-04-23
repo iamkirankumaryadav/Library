@@ -48,15 +48,18 @@ e.g.
 - **Kernels** we call it **Filters** it is also a `3` Dimensional **Matrix** ( **h** x **w** x **channels** )
  
 ### 2. Convolution Layer ( Feature Extraction ) + Activation Function ( ReLu )
-- **Feature** of Image is Extracted in this Layer. 
-- Slide **Filter** over the Image by a **Stride = 1** until we go through the Whole Image.
+- **Feature** of `Image` is Extracted in this Layer. 
+- Slide **Filter** | **Kernel** over the Image by a **Stride = 1** until we go through the Whole Image.
 - Uses `ReLu` **Activation Function** to make all **Negative Value** to `Zero`.
 
 ### 3. Pooling Layer ( Dimensionality Reduction | Flattens )
-- **Pooling** : Down Samples the **Spatial Volume** of Input Image | **Flattens Input** for Next **Convolution** Layer.  
+- **Pooling** : **Down Samples** the **Spatial Volume** of Input `Image` | **Flattens Input** for Next **Convolution** Layer.  
+- e.g ( Input = ( 1, 10, 64 ) to Output = ( 640 ) i.e 1 x 10 x 64 = 640 )
 - Decreases **Computation Power** to Process Data. 
 - **Max Pooling** : Returns **Maximum** Value from the portion of the **Image**.
 - **Average Pooling** : Returns **Average** Value from the portion of the **Image**.
+
+![Max Pool](Image/MaxPool.png)
 
 ### 4. Fully Connected Layer ( Feed Forward Connected Layers ) + Activation Function ( ReLu )
 - The Input to the **Fully Connected Layer** is the output from the **Final Pooling** or **Convolutional Layer**. 
@@ -64,18 +67,16 @@ e.g.
 - Takes **Weighted Sum** of all the **Inputs** from Previous Layer and Generates **Output** for **Last Layer**. 
 - **Connects** Neurons in One Layer to Neurons in Last Layer and **Classify** Images between Different Category.
 
-### 5. Activation Function : Softmax | Logistic + Dropout
+### Activation Function : Softmax | Logistic + Dropout
 - **ReLu** : **Negative Value** to **Zero**.
 - **Logistic** : **Binary** Classification ( 0 or 1 )
 - **Softmax**  : **Multiclass** Classification ( Converts Numbers into Probabilities and the Vector Sum Ups to 1 )
-- When all the **Features** are Connected in a Fully Connected Layer it can cause **Overfitting**.
+- When all the **Features** are Connected in a **Fully Connected Layer** it can cause **Overfitting**.
 - **Dropout** : Few Neurons are **Dropped** Randomly from the **Neural Network** to Prevent from **Overfitting**.
 
-![Max Pool](Image/MaxPool.png)
-
 ### 6. Output Layer
-- The **Label** of the Image in form of **One Hot Encoded** ( One Hot Vectors )
-- Label is assigned with each Image ( What the Driver is Actually doing in the Vehicle )
+- The `Label` of the `Image` in form of **One Hot Encoded** ( One Hot Vectors )
+- `Label` is assigned with each `Image` ( What the Driver is Actually doing in the Vehicle )
 
 ### Example
 
