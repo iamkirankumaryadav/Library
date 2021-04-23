@@ -11,6 +11,7 @@
 - Improves **Generalization** Performance ( Performance on New Unseen Data )
 - If Lambda is very High | High Bias | Underfitting | Model not Trained well | More Error in Training Set.
 - if Lambda is very Low | High Variance | Overfitting | Model will not **Generalize** Well on New Unseen Data. 
+- **LASSO** reduces **Coefficients** to Exactly `Zero` ( **Feature Selection** )
 
 LASSO | Ridge | Elastic
 :--- | :--- | :---
