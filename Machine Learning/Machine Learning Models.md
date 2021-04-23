@@ -383,6 +383,7 @@ B. Divisive
 <h3 name='lda'>LDA ( Linear Discriminant Analysis )</h3>
 
 - Classification | Sperate Data into Different Categories or Classes
+- LDA Creates **New Axis** ( **Maximize** the **Distance** between **Means** of **Two Classes** and **Minimize Variation** within each Class )
 
 <h3 name='tsne'>t-SNE ( t Distributed Stochastic Neighbor Embedding )</h3>
 
