@@ -88,13 +88,17 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 ![Gradient Boosting](Image/GB.png)
 
 ### 3. XGBoost | Extreme Gradient Boosting
+
+- **Regularized** form of **Gradient Boosting**, Uses Advanced **Regularization** ( `L1` and `L2` )
+- **High Performance**, Faster than Gradient Boosting.
 - Uses **2**<sup>nd</sup> Order **Partial Derivative** for Approximation
-- Choose a Better **Learning Rate** that suits our Model
+- Choose a Better **Learning Rate** that suits our Model.
+- Even Works Better for **Unstructured Data**.
 
 ### Hard Voting vs Soft Voting
 
-- Hard Voting : **Majority Voting** is more important
-- Soft Voting : **Predictive Probability** of Class is important, **Mean** of Probability is Calculated for each Class
+- Hard Voting : **Majority Voting** is more important.
+- Soft Voting : **Predictive Probability** of Class is important, **Mean** of `Probability` is Calculated for each Class.
 
 ### Activation Function
 - A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** ( + Adds **Bias** ) and Generates Output for **Next Layer**
