@@ -158,7 +158,7 @@
   </tr>
   <tr>
     <td>4</td>
-    <td><a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md"><b>Regularization</b></a></td>
+    <td><a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md"><b>Regularization</b> and <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md"><b>Metrics</b></a></td>
     <td>Helps to Improve Linear and Polynomial Regressions</td>
   </tr>
   <tr>
