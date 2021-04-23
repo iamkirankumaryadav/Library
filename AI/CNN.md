@@ -30,10 +30,9 @@ e.g.
 - e.g. Image Dimension is 6 x 6 and Filter choice is 3 x 3 we get 4 x 4 Image.
 
 ### C. Stride and Padding ( Hyperparameters )
-- Steps we move in Convolution ( By Default is One ) Slide over Matrix by Sride Length = 1
-- Size of Output is **Smaller** than Input.
-- to Maintain the Dimension of Output as an Input, we use **Padding**
-- **Padding** : Adding **Zeros** to Input Matrix Symmetrically from all the Sides.
+- **Steps** we move in Convolution ( By Default is One ) Slide over Matrix by **Stride** Length = `1`.
+- **Size** of **Output** is **Smaller** than **Input**, to Maintain the **Dimension** of **Output** as an **Input**, we use **Padding**.
+- **Padding** : Adding `Zeros` to **Input** `Matrix` **Symmetrically** from all the **Sides**.
 
 <table align=center>
   <tr><th>Stride</th><th>Padding</th></tr>
@@ -45,13 +44,13 @@ e.g.
 ![CNN Layer](Image/CNNLayers.png)
 
 ### 1. Input Layer : Image Data ( 3D Matrix )
-- Input is a 3 Dimensional **Matrix** ( Height x Width x Channels )
-- **Kernels** we call it **Filters** it is also a 3 Dimensional Matrix ( **h** x **w** x **channels** )
+- **Input** is a `3` Dimensional **Matrix** ( Height x Width x Channels )
+- **Kernels** we call it **Filters** it is also a `3` Dimensional **Matrix** ( **h** x **w** x **channels** )
  
 ### 2. Convolution Layer ( Feature Extraction ) + Activation Function ( ReLu )
 - **Feature** of Image is Extracted in this Layer. 
 - Slide **Filter** over the Image by a **Stride = 1** until we go through the Whole Image.
-- Uses **ReLu** Activation Function to make all **Negative Value** to **Zero**.
+- Uses `ReLu` **Activation Function** to make all **Negative Value** to `Zero`.
 
 ### 3. Pooling Layer ( Dimensionality Reduction | Flattens )
 - **Pooling** : Down Samples the **Spatial Volume** of Input Image | **Flattens Input** for Next **Convolution** Layer.  
@@ -77,5 +76,9 @@ e.g.
 ### 6. Output Layer
 - The **Label** of the Image in form of **One Hot Encoded** ( One Hot Vectors )
 - Label is assigned with each Image ( What the Driver is Actually doing in the Vehicle )
+
+### Example
+
+- [Distracted Driver Classification](https://github.com/KIRANKUMAR7296/Distracted-Driver-Classification)
 
 [CNN](https://towardsdatascience.com/covolutional-neural-network-cb0883dd6529)
