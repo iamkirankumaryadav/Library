@@ -370,17 +370,17 @@ B. Divisive
 
 ### Techniques of Dimensionality Reduction
 
-<h3 name='pca'>PCA ( Principal Component Analysis )</h3> ( Linear )
+<h3 name='pca'>PCA ( Principal Component Analysis )</h3> ( Unsupervised )
 
 - A **Dimensionality Reduction** Method ( Reduce the **Dimensions** of Large Data Sets )
 - **Transforming** a Large Data Set ( More Features ) into Smaller Data Set ( Without Lossing **Accuracy** )
-- Smaller Data Sets are Easier to **Explore** and **Visualize** and make Analyzing Data much **Easier** and **Faster** for **Machine Learning Algorithms** 
+- Small Data Sets are **Easiy** to **Explore** and **Visualize** and make Analyzing much **Easier** and **Faster** for **ML Algorithms** 
 - **Principal Components** are New Variables that are constructed as **Linear Combinations**
 - Combinations are done such a way that New Variables are **Uncorrelated** 
 - Most of Information within the Initial Variables is **Compressed** into **First Components**  
 - PCA tries to Put **Maximum Possible Information** in **First Component** and then Maximum remaining Information in the Corresponding **Components** 
 
-<h3 name='lda'>LDA ( Linear Discriminant Analysis )</h3>
+<h3 name='lda'>LDA ( Linear Discriminant Analysis ) ( Supervised )</h3>
 
 - Classification | Sperate Data into Different Categories or Classes
 - LDA Creates **New Axis** ( **Maximize** the **Distance** between **Means** of **Two Classes** and **Minimize Variation** within each Class )
