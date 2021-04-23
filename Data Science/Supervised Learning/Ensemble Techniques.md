@@ -44,32 +44,31 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 - **Ensemble** Learning Method constructs a **Collection** of `Decision Trees` in `Parallel` 
 - `Aggregate` the `Predictions` of each tree to **Determine** `Final Prediction`
-- Dataset is divided as **Subsets** | **Samples** and passed to **Multiple Base Learners** (Decision Tree)
+- Dataset is divided as **Subsets** | **Samples** and passed to **Multiple Base Learners** ( `Decision Tree` )
 - Training Sample consist of **Row Sampling** with **Replacement**.
-- Creating Decision Tree to its complete depth may cause **Overfitting**
-- But when we combine Multiple Decision Trees, **High Variance** gets converted to **Low Variance**, i.e. Reduces **Overfitting**
-- Can be used for **Classification** and **Regression**
+- Creating `Decision Tree` to its complete **Depth** may cause **Overfitting**.
+- But when we combine **Multiple** `Decision Trees`, **High Variance** gets converted to **Low Variance**, i.e. Reduces **Overfitting**
+- Can be used for **Classification** and **Regression**.
 - Regressor : **Mean** or **Median** of Output of Every **Decision Trees**
 - Classifier : **Majority Vote** from all **Decision Trees**.
 - Easily Handles **Outliers**, **Missing Data** and **Skewness**.
 - Accept **Continuous** as well as **Ordinal** Inputs.
 - Help to Understand **Important Features**. ( Parameter : `feature_importance` )
-- Works Good even if the Data is Messy ( Missing Values or Outliers )  
 
 ### B. Boosting
 
 ![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
-- An Ensemble Method that **Aggregates** a number of Weak Methods to Create one **Strong Model**
-- Boosting effectively Learns from its Mistake with each Iteration
-- Decision Trees are Created with only **One Depth** or only **One Split** ( **Stumps** )
-- Base Learners | Weak Learners are Created **Sequentially** and the **Subsamples** are passed for Training
-- Samples are Created using **Row Sampling** and **Column Sampling**
-- Boosting combines **Weak Learners Sequentially** by correcting **Previous Errors** ( Forcing them to Improve )
-- **Weight** is attached with each and every **Instance** | Row | Record
-- If the portion of Dataset is incorrectly classified then that portion is transfered to next **Base Learner** for Training again
-- Weights are **Adjusted** before each Training and Miss Classified Instances are focused with High Priority
-- Test Sample is passed to each Model for the Output
+- An Ensemble Method that **Aggregates** a number of **Weak Learners** to Create one **Strong Model**.
+- **Boosting** effectively Learns from its Mistake with each Iteration.
+- `Decision Trees` are Created with only **One Depth** or only **One Split** ( **Stumps** )
+- Base Learners | Weak Learners are Created **Sequentially** and the **Samples** are passed for Training.
+- **Samples** are Created using **Row Sampling** and **Column Sampling**.
+- **Boosting** combines **Weak Learners Sequentially** by correcting **Previous Errors** ( Forcing them to Improve )
+- **Weight** is attached with each and every **Instance** | **Row** | **Record**.
+- If the **Sample** of Dataset is **Incorrectly Classified** then that **Sample** is Transfered to next **Base Learner** for **Training** again.
+- **Weights** are **Adjusted** before each **Training** and **Miss Classified Instances** are focused with **High Priority**.
+- **Test Sample** is passed to each Model for the **Final Output**.
 
 ### 1. ADABOOST
 
