@@ -32,7 +32,9 @@ Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability
 4. Reduce the Effect of the Features with **Larger Scale** which plays a **Dominating Role** in the Model and the Effect of **Outlier**.
 
 ### Transformation
-- Application of the Same **Calculation** to Each and Every Data Point.
+
+- Split the Data Set into Train Set and Test Set.
+- Application of the Same **Calculation** to Each and Every Data Point in Train Set and Test Set ( No need to Scale **Dependent Variable** )
 - **fit( )** : **Transformer** Learn **Parameters** and **Scales** of Data ( Mean, Scale and Statistics ) | Applied on **Train Set**.
 - **transform( )** : **Transforms** Data on the basis of what it **Learns** from **fit( )** | Applied on **Test Set**.
 - **fit_transform( )** : First Learn ( **Fit** ) and then Apply in place ( **Transform** )
