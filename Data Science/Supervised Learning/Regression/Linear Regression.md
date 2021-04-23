@@ -17,13 +17,10 @@
 
 ![Regression Line](Image/RegressionLine.png)
 
-**Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** ( `Slope` and `Intercept` )
-
-**Predict** Dependent Variable based on One or More Independent Variables.
-
-**Measure** the Influence of One or More Independent Variable on Dependent Variable.
-
-**Predict** the Value of a **Feature** based on the Value of Another Feature.
+- **Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** ( `Slope` and `Intercept` )
+- **Predict** Dependent Variable based on One or More Independent Variables.
+- **Measure** the Influence of One or More Independent Variable on Dependent Variable.
+- **Predict** the Value of a **Feature** based on the Value of Another Feature.
 
 ### Y = B1 * X  + B0 or y = m * x + c
 
