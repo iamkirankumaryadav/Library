@@ -15,7 +15,7 @@ Samples Randomly | Boosting Samples by Increasing Weight for **Wrong** Predictio
 Models are Built **Independently** | New Models are Improved version of Previous Built Models
 Less Time to Train | More Time to Train
 **Easy** to Tune | **Hard** to Tune
-**Hard** to Overfit or **Least** Chance of **Overfitting** | **Easy** to Overfit
+**Hard** to Overfit or **Least** Chance of **Overfitting** | **Easy** to Overfit ( Memorize the Data )
 Training Data Subsets are Drawn Randomly with **Replacement** | Every New Subsets comprises the Elements that are **Missclassified** by **Previous Models**
 Applied where Classifier are **Unstable** and **Complex** ( **High Variance** ) | Classifier is **Stable** and **Simple** ( **High Bias** )
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XGBoost
