@@ -8,7 +8,7 @@
 - Model has **Memorized** the Data including **Noise** and **Error** with very Good **Accuracy**.
 
 ### High Variance : High Error on Test Set
-- Model Performs **Better** on **Training Data** but it does not **Generalize** Well on the **New Unseen Data** ( **Test Data** ).
+- Model Performs **Better** on **Training Data** but it does not **Generalize** Well on the **New Unseen Data** ( **Test Data** )
 
 ### How to Identify Overfitting ? 
 
