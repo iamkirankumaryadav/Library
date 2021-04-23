@@ -29,7 +29,7 @@
   </tr>
 </table>
 
- <h3> <a href="#linear"> Linear Regression </a> | <a href="#logistic"> Logistic Regression | Classification </a> </h3>
+ <h3> <a href="#linear"> Linear Regression </a> | <a href="#logistic"> Logistic Regression </a> </h3>
 
 1. We **Start** with some Initial Configuration of Model and `Predict` the **Output** based on some **Input**.
 2. Predicted Value is compared with the `Target` and Measure the `Performance` of our Model.
