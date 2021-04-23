@@ -116,35 +116,33 @@
 <h3 name='acc'>2. Accuracy</h3>
 
 - Number of `Correct` Prediction to the Number of **Total Predictions**
-- Accuracy Score is Good if Datasets contains well `Balanced` Class Distribution
-- Used when All the Classes ( TP, TN, FP and FN ) are Equally Important.
+- Accuracy Score is Good if Datasets contains well `Balanced` **Class Distribution**.
+- Used when All the Classes ( `TP`, `TN`, `FP` and `FN` ) are **Equally** Important.
 
 ![Accuracy](Image/Accuracy.png)
 
 <h3 name='pre'>3. Precision</h3>
 
-- Focus on `Positive Predictions` ( How Good our Model is when **Prediction** is `Positive` ? )
-- Measures the **Correctly** Identified Positive Cases from all the **Predicted** Positive Cases.
-- Used when the Costs of False Positives is **High**. ( e.g. There is Virus but still Antivirus is Predicting that the System is Safe it's Costly )
-- **Evaluates** Model only based on `Positive Predictions`
+- Focus on **Positive** `Predictions` ( How Good our Model is when **Prediction** is `Positive` ? )
+- Measures the **Correctly** Identified **Positive Cases** from all the **Predicted Positive Cases**.
+- Used when the **Cost** of False Positives ( `FP` ) is **High**. ( e.g. There is Virus but still Antivirus is Predicting that the System is Safe it's Costly )
+- **Evaluates** Model only based on **Positive Predictions**.
 
 ![Precision](Image/Precision.png)
 
 <h3 name='tpr'>4. Recall | True Positive Rate ( TPR ) | Sensitivity</h3>
 
-- Focus on `Positive Class` ( How Good our Model is at `Correctly` predicting `Positive` Classes ? )
-- **Evaluates** Model only based on its **ability** to  **Predict** the `Positive Class`
-- Measures the Correctly identified Positive Cases from all the **Actual Positive Cases**. 
-- Used when the Cost of False Negatives is **High**. ( e.g. Person is Really prone to COVID 19 but Test Result is Negative it can be Fatal. )
-- **True Positive Rate** : Proportion of **Positive Class** that is `Correctly` Predicted as **Positive**
+- Focus on **Positive** `Class` ( How Good our Model is at `Correctly` predicting `Positive` **Classes** ? )
+- Measures the **Correctly** Identified **Positive Cases** from all the **Actual Positive Cases**. 
+- Used when the **Cost** of False Negatives ( `FN` ) is **High**. ( e.g. Person is Really prone to COVID 19 but Test Result is Negative it can be Fatal. )
+- **True Positive Rate** : Proportion of **Positive Class** that is `Correctly` Predicted as **Positive**.
 
 ![Recall](Image/Recall.png)
 
 <h3 name='fpr'>5. False Positive Rate ( FPR ) | Specificity</h3>
 
-- Focus on `Negative Class` ( How Good our Model is at `Correctly` predicting `Negative` Classes ? )
-- **Evaluates** Model only based on its **ability** to  **Predict** the `Negative Class`
-- **False Positive Rate** : Proportion of **Negative Class** that is `Correctly` Predicted as **Negative**
+- Measures the **Incorrectly** Identified **Positive Cases** from all the **Actual Negative Cases**. 
+- **False Positive Rate** : Proportion of **Negative Class** that is `Incorrectly` Predicted as **Positive**.
 
 ![FPR](Image/FPR.png)
 
@@ -154,31 +152,28 @@
 
 - Weighted Average ( Harmonic Mean ) of **Precision** and **Recall**
 - Useful for Datasets with `Uneven` | `Imbalanced` **Class Distribution** and it also considers FP and FN.
-- A Better Measure for the Incorrectly Classified Cases than the Accuracy Metric.
-- Accuracy is used when TP and TN are more Important and F1 Score is used when FN and FP are more **Crucial**.
-- **F1-score** is a Better Metric to Evaluate in **Real Life Application**.
-- F1 Score Keeps a Balance between Recall and Precision for the Classifier | Model.
+- **Better Measure** for the **Incorrectly Classified Cases** than the **Accuracy Metric**.
+- **Accuracy** is used when `TP` and `TN` are more **Important* and **F1 Score** is used when `FN` and `FP` are more **Crucial**.
+- **F1-score** is a **Better Metric** to **Evaluate** in **Real Life Application**.
+- **F1 Score** Keeps a `Balance` between **Recall** and **Precision** for the **Classifier** | **Model**.
 - `Best` Value for **F1 Score** is `1` | `Worst` Value for **F1 Score** is `0`
 
 ![F1](Image/F1.png)
 
 > **Precision**, **Recall** and **F1 Score** are better `Metrics` for **Imbalanced Dataset**
 
-<h3 name='roc'>7. ROC Curve</h3>
+<h3 name='roc'>7. ROC | Receiver Operating Characteristic Curve</h3>
 
-- Receiver Operating Characteristic Curve
-- Y Axis : True Positive Rate ( `TPR` )
-- X Axis : False Positive Rate ( `FPR` )
-- Plots TPR vs FPR at Different Classification `Thresholds`
+- Helps to Understand **Characteristics** of Curve by plotting `TPR` on **Y Axis** and `FPR` on **X Axis** at different Classification **Thresholds**.
+- **Y Axis** : True Positive Rate ( `TPR` ) vs **X Axis** : False Positive Rate ( `FPR` )
+- **Plots** `TPR` vs `FPR` at Different Classification `Thresholds`
 - If Threshold is near to `1.0` or `100%`: **Classifications** gets more **Accurate**.
-
-> ROC helps to Understand **Characteristics** of Curve by plotting TPR on Y Axis and FPR on X Axis at different Classification **Thresholds**.
 
 ![ROC](Image/ROC.svg)
 
 <h3 name='auc'>8. AUC | Area Under ROC Curve</h3> 
 
-- Helps to Understand the `Performance` of a Classification Model across all Classification `Thresholds`.
+- Helps to Understand **Performance** of a **Classification Model** across all Classification `Thresholds`.
 - AUC = 1.0 ( **Perfect** Classifier ) | AUC > 0.75 ( **Good** Classifier ) | AUC : **50%** ( **Bad** Classifier ) | AUC < 0.5 ( **Worst** Classifier )
 
 ![AUC](Image/AUC.png)
