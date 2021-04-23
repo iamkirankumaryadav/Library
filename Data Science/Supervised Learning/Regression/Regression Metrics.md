@@ -10,7 +10,7 @@
       <ol>
         <li>Mean Absolute Error ( <a href='#mae'>MAE</a> )</li>
         <li>Mean Squared Error ( <a href='#mse'>MSE</a> )</li>
-        <li>Room Mean Squared Error ( <a href='#rmse'>RMSE</a> )</li>
+        <li>Root Mean Squared Error ( <a href='#rmse'>RMSE</a> )</li>
         <li>Coefficient of Determination ( <a href='#r2'>R<sup>2</sup></a> )</li>
         <li>Adjusted R<sup>2</sup> ( <a href='#ar2'>Adj R<sup>2</sup></a> )</li>
       </ol>
