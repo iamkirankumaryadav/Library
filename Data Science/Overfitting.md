@@ -24,7 +24,8 @@
 - Get More **Training Data**
 
 ### 2. Apply Regularization  
-- Lasso ( L1 ) : Sum of `Absolute` of **Coefficients** | Weights ( Can Lead Coefficient to Exactly 0 )
+- Lasso ( L1 ) : Sum of `Absolute` of **Coefficients** | Weights ( **Coefficient** to Exactly 0 )
+- **Simplify** the Model + **Feature Selection**.
 - Ridge ( L2 ) : Sum of `Squared` of **Coefficients** | Weights ( **Penalize** Certain Value of **Weights** )
 - Able to Learn **Complex Data Patterns** | Decrease the **Complexity** of Model.
 
@@ -34,8 +35,8 @@
 - After some Point The **Model's Ability** to **Generalize** gets weak and Starts **Overfitting**.
 
 ### 4. Feature Selection
-- Select only the **Important** Features ( Large Number of Features can Confuse the Model )
-- Remove **Multicollinear Data** ( e.g DOB and Age can express each other so we can remove one of them )
+- Select only the **Important** Features ( Large Number of Features can **Confuse** the Model )
+- Remove **Multicollinear Data** ( e.g DOB and Age can Express each other so we can remove one of them )
 
 ### 5. Ensembling 
 - **Combine Predictions** from Multiple Separate Models | Train Multiple **Weak Learners** to make them a Single **Strong Model**.
@@ -45,7 +46,7 @@
 ### 6. Reduce Layers ( Deep Learning )
 - **Removing Layers** or Number of **Elements** in the **Hidden Layers**.
 
-### 7. Dropout Layers 
+### 7. Dropout Layers ( Deep Learning )
 - Randomly **Remove** Certain Features by Setting them to Zero ( Fully Connected Layer )
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
