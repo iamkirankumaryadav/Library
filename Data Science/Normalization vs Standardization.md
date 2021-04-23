@@ -29,7 +29,7 @@ Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability
 1. Helps **Gradient Descent** Converge ( Achieve Global Minima ) more Quickly.
 2. Helps the Model to Learn Appropriate **Weights** for Each **Feature** ( Model Pay more Attention to the Features having `High` **Range** )
 3. Otherwise, Feature with `High` **Range** is given more **Importance** as compared to Feature with `Low` **Range** even if it is Better Feature.
-4. Reduce the Effect of the Features with **Larger Scale** which plays a Dominating Role in the Model and the Effect of **Outlier**.
+4. Reduce the Effect of the Features with **Larger Scale** which plays a **Dominating Role** in the Model and the Effect of **Outlier**.
 
 ### Transformation
 - Application of the Same **Calculation** to Each and Every Data Point.
