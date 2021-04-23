@@ -4,7 +4,7 @@
 
 - **Biasing** Data towards particular **Small Values** near **Zero**. 
 - **Biasing** is Achieved by Adding a **Tuning Parameter** to encourage those Values.
-- Adding **Bias** to Training Data to Reduce | Balance **Variance**, Prevent from **Overfitting**.
+- Adding **Bias** to Training Data to Reduce | Balance **Variance**, Prevent from [Overfitting](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Overfitting.md).
 - **Simplify** Complicated Models ( Simple Models avoids **Overfitting**, but may lead to **Underfitting**, So some **Tradeoff** is Important )
 - Reducing the **Steepness** of the Slope | **Shrink** the Coefficient ( `Slope` ) towards `Zero`.
 - Add **Penalty** to the **Loss Term** | Sum ( Actual - Prediction ) <sup>2</sup> | **Sum of Squared Residuals**.
