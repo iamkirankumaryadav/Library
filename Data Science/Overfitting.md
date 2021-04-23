@@ -23,7 +23,7 @@
 ### 1. More Data
 - Get More **Training Data**
 
-### 2. Apply Regularization  
+### 2. Apply [Regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) 
 - Lasso ( L1 ) : Sum of `Absolute` of **Coefficients** | Weights ( **Coefficient** to Exactly 0 )
 - **Simplify** the Model + **Feature Selection**.
 - Ridge ( L2 ) : Sum of `Squared` of **Coefficients** | Weights ( **Penalize** Certain Value of **Weights** )
