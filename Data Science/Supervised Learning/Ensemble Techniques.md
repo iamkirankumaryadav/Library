@@ -33,7 +33,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ![Ensemble Bagging](Image/EnsembleBagging.svg)
 
-- Dataset is divided into **Subsets** | **Samples** and passed to **Multiple Base Learners**.
+- Dataset is divided into **Subsets** | **Samples** and passed to **Multiple Base Learners** in **Parallel**.
 - Sample is passed with **Row Sampling** with **Replacement** ( **Bootstrap** )
 - Each **Learning Model** is **Trained** on its particular **Sample** of Data
 - **Voting Classifier** is used to find the Final Result ( **Aggregation** )
@@ -59,7 +59,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
-- An Ensemble Method that **Aggregates** a number of **Weak Learners** to Create one **Strong Model**.
+- An Ensemble Method that **Aggregates** a number of **Weak Learners** in **Sequence** to Create one **Strong Model**.
 - **Boosting** effectively Learns from its Mistake with each Iteration.
 - `Decision Trees` are Created with only **One Depth** or only **One Split** ( **Stumps** )
 - Base Learners | Weak Learners are Created **Sequentially** and the **Samples** are passed for Training.
