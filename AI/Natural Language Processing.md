@@ -219,6 +219,7 @@ How to `Remove` Stopwords Using NLTK
 ### Information Retrieval
 - Process of **Accessing** and **Retrieval** of appropriate Information  from Text.
 - **Extracting** `Title`, `Text` and `Media` from a `Book`, `Artice` or Simply `Web Page`.
+- HTML `Tags` from `Web Page`.
 - e.g. `Google Search`
 
 <h3 name="cloud"> Word Cloud </h3>
