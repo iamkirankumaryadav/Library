@@ -38,7 +38,7 @@ Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability
 - **fit( )** : **Learn Parameters** and **Scales** of Data which will be needed to **Transform** the Data | Applied on `Train` Set.
 - **transform( )** : **Transforms** Data on the basis of what it **Learns** from **fit( )** | Applied on `Test` Set.
 - **fit_transform( )** : First Learn ( **Fit** ) and then Apply in place ( **Transform** )
-- Applies Same **Transformation** to both Sets of Data ( **Train Set** and **Test Set** ) keeps **Consistency** and Prevents **Data Leakage**.
+- Applies Same **Transformation** to both Sets of Data ( `Train` Set and `Test` Set ) keeps **Consistency** and Prevents **Data Leakage**.
 - **Data Leakage** :  **Sharing Information** of **Test Set** with **Train Set**.
 
 ### How to Prevent Data Leakage 
