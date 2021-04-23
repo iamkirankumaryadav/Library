@@ -231,16 +231,15 @@ How to `Remove` Stopwords Using NLTK
 - Large Collection of Documents ( Accurate Grammer Phrases ) | Knowledge Base that can be used to infer and Validate Language Rules.
 
 ### Sparse Matrix
-- A **Matrix** in which most entries are `0`
-- Efficient Storage
+- A **Matrix** in which most entries are `0` helps in **Efficient Storage**.
 - Stores only `Location` of **non zero elements**.
 
 ### Chunking
 - Grouping `Individual` Pieces of Information into Bigger Piece.
 
 ### Transformation
-- Power Transformation ( Square, Square Root )
-- Standardizing Data 
+- **Power** Transformation ( `Square`, `Square Root` )
+- Standardization or Normalization of Data. 
 
 <table align='center'>
   <tr>
