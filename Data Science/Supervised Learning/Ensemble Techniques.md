@@ -72,17 +72,18 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ### 1. ADABOOST
 
-- In ADABOOST **Weights** is assigned with **Incorrect Values** in Samples.
+- In `ADABOOST` **Weights** is assigned with **Incorrect Values** in Samples.
 - **Sequential Tree** growing  with **Weighted Samples**.
-- Base Learners are **Decision Trees**.
-- Decision Trees are Created with only **One Depth** or only **One Split** (**Stumps**)
-- The Stump will **Low Entrophy** or **High Information Gain** is Selected First
-- ADABOOST allow us to capture **Non Linear Relationships**
+- **Base Learners** are **Decision Trees**.
+- `Decision Trees` are Created with only **One Depth** or only **One Split** (**Stumps**)
+- The `Stump` will **Low Entrophy** or **High Information Gain** is Selected First.
+- `ADABOOST` allow us to Capture **Non Linear Relationships**.
 
 ### 2. Gradient Boosting
-- Uses the **Loss Function** of Base Model ( **Decision Tree** ) for minimizing the **Error** of overall Model
-- An **Iterative** Approach
-- **Combine** Weak Learners to Create a **Strong** Learner by Focusing on Mistakes of Prior Iterations
+
+- Uses **Gradient Descent Approach**, Minimize a **Loss** Function.
+- Uses the **Loss Function** of Base Model ( **Decision Tree** ) for Minimizing the **Error** of overall Model.
+- An **Iterative** Approach, **Combine** Weak Learners to Create a **Strong** Learner by Focusing on Mistakes of **Prior Iterations**.
 
 ![Gradient Boosting](Image/GB.png)
 
