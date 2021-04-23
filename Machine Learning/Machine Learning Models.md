@@ -285,7 +285,7 @@ All follow Same Process in **Regression** and **Classification** the only differ
 
 > **Regression** : **Continuous Numerical**
 
-> **Classification**  : **Discrete Categorical**
+> **Classification**  : **Categorical**
 
 <h1 name='unsup' align=center>Unsupervised Learning ( Unlabeled Data )</h1>
 
