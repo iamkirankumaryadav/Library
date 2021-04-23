@@ -12,7 +12,7 @@
 
 ### How to Identify Overfitting ? 
 
-### 1. Hold Out Data | Split Data Set | Observe Accuracy and Loss
+### Hold Out Data | Split Data Set | Observe Accuracy and Loss
 - **Split** the **Data Set** into **Train Set** and **Test Set**
 - Check whether the Trained Model **Generalizes** Well on **New Unseen Test Data**. 
 - **Accuracy** of **Train Set** : **model.score( X_train, y_train )**
