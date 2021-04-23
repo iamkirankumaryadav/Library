@@ -251,8 +251,8 @@ How to `Remove` Stopwords Using NLTK
     </th>
   </tr>
   <tr>
-    <td>Word 2 Vector</td>
-    <td>Doc 2 Vector</td>
+    <th>Word 2 Vector</th>
+    <th>Document 2 Vector</th>
   </tr>
   <tr>
     <th colspan='2'>Accept large Corpus of Text as Input</th>
