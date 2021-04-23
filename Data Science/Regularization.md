@@ -31,9 +31,8 @@ Loss Function | Cost Function ( Quantifies Error between Predicted Values and Ex
 
 # Elastic Net :
 - Elastic Net combines L1 and L2 and does not **Eliminates** Highly Colliner Coefficient ( Slope )
-- Learning Rate | Parameter means an **Iterative** Process. 
+- Learning Rate | Parameter means an **Iterative** Process, Aim is to **Minimize** the `Loss`. 
 - Updates `Slope` and `Intercept` at every Step by reducing the **Loss** | **Cost Function** as much as possible.
-- Aim is to **Minimize** the `Loss`. 
 
 ### Regularization Improves Regression
 - Consider we Fit Regression Model on `100` Features | If we Train Model with `100` Features
