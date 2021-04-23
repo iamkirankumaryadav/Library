@@ -21,6 +21,7 @@
 **Predict** Dependent Variable based on One or More Independent Variables.
 **Measure** the Influence of One or More Independent Variable on Dependent Variable.
 **Predict** the Value of a **Feature** based on the Value of Another Feature.
+
 ### Y = B1 * X  + B0 or y = m * x + c
 
 ![Equation Line](Image/EquationLine.png)
