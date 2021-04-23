@@ -223,9 +223,9 @@ How to `Remove` Stopwords Using NLTK
 
 <h3 name="cloud"> Word Cloud </h3>
 
-- A **Graphical** Display of Words in a Corpus
-- **Size** of Word based on number of **Occurences**
-- Visual View of the Most Popular Terms
+- A **Graphical** Display of Words in a `Corpus`.
+- **Size** of Word based on number of **Occurences**.
+- **Visual** View of the Most Popular Terms.
 
 ### Corpus | Corpora
 - Large Collection of Documents ( Accurate Grammer Phrases ) | Knowledge Base that can be used to infer and Validate Language Rules.
