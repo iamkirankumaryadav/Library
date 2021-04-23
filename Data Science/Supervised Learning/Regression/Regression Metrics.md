@@ -68,7 +68,7 @@
 
 - Helps to Understand How well the Model **Fits** the Data and How well the Model **Predicts** New Observations.
 - Ideal Value for R<sup>2</sup> is between 70% to 90% ( Model Fits the Data very Well )
-- Help us to `Compare` **Current** Model with the **Base** Model
+- Help us to `Compare` **Current** Model with the **Base** Model.
 
 ![R2 Score Scikit Learn](Image/R2Score.png)
 
@@ -78,9 +78,9 @@
 
 - Improvement of R<sup>2</sup> ( Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup> )
 - Compare Models with different number of **Predictors** | **Independent Features**.
-- Adjusted R<sup>2</sup> **Increases** only if the New Term ( Independent Feature ) improves the Model **More** than Expected.
-- Adjusted R<sup>2</sup> **Decreases** if the New Term ( Independent Feature ) improves the Model **Less** than Expected.
-- **More Accurate Correlation** between Variables.
+- Adjusted R<sup>2</sup> **Increases** only if the New Term ( Independent Feature ) Improves the Model **More** than Expected.
+- Adjusted R<sup>2</sup> **Decreases** if the New Term ( Independent Feature ) Improves the Model **Less** than Expected.
+- Provides **More Accurate Correlation** between Variables.
 
 | MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
 | :--- | :--- | :---
