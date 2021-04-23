@@ -85,3 +85,7 @@
 - [Quantdare](https://quantdare.com/)
 - [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 - [Ultimate Cheat Sheet](https://towardsdatascience.com/your-ultimate-data-mining-machine-learning-cheat-sheet-9fce3fa16)
+
+### Linked Learning
+
+- [John Rischin](https://www.linkedin.com/learning/instructors/joshua-rischin)
