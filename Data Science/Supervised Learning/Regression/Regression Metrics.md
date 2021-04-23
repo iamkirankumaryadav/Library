@@ -43,8 +43,7 @@
 ![MAE](Image/MAE.png)
 
 - `Absolute` Difference between **Actual Value** and **Predicted Value**.
-- `MAE` is better for **Outliers** 
-- `Fails` in case of **Large Errors**
+- `MAE` is better for **Outliers**, `Fails` in case of **Large Errors**
 
 ![MAE Scikit Learn](Image/MAESK.png)
 
@@ -52,8 +51,8 @@
 
 ![MSE](Image/MSE.jpg)
 
-- Squared Difference between the `Actual` Value and the `Predicted` Value
-- Square the Differences, Penalizes even Samll Error
+- `Squared` Difference between the **Actual Value** and the **Predicted Value**.
+- **Square** Differences, **Penalizes** even **Samll Error**.
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
