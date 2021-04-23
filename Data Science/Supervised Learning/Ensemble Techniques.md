@@ -44,7 +44,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 - **Ensemble** Learning Method constructs a **Collection** of `Decision Trees` in `Parallel` 
 - `Aggregate` the `Predictions` of each tree to **Determine** `Final Prediction`
-- Dataset is divided as **Subsamples** and passed to **Multiple Base Learners** (Decision Tree)
+- Dataset is divided as **Subsets** | **Samples** and passed to **Multiple Base Learners** (Decision Tree)
 - Training Sample consist of **Row Sampling** with **Replacement**.
 - Creating Decision Tree to its complete depth may cause **Overfitting**
 - But when we combine Multiple Decision Trees, **High Variance** gets converted to **Low Variance**, i.e. Reduces **Overfitting**
