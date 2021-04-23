@@ -42,9 +42,8 @@
 
 ![MAE](Image/MAE.png)
 
-- Absolute Difference between `Actual` Value and `Predicted` Value.
-- MAE is better for **Outliers** 
-- All **Individual Differences** are weighted equally
+- `Absolute` Difference between **Actual Value** and **Predicted Value**.
+- `MAE` is better for **Outliers** 
 - `Fails` in case of **Large Errors**
 
 ![MAE Scikit Learn](Image/MAESK.png)
