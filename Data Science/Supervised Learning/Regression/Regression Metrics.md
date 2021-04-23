@@ -70,7 +70,7 @@
 
 ![R2](Image/R2.png)
 
-- Helps to Understand How well the Model Fits the Data and How well the Model Predicts New Observations.
+- Helps to Understand How well the Model **Fits** the Data and How well the Model **Predicts** New Observations.
 - Ideal Value for R<sup>2</sup> is between 70% to 90% ( Model Fits the Data very Well )
 - Help us to `Compare` **Current** Model with the **Base** Model
 
