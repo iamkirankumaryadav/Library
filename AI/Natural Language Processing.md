@@ -44,15 +44,15 @@
 
 <h3 name="mine"> Text Mining | Text Analysis </h3>
 
-- **Analyze** and **Understand** Text Data 
-- Deriving **Meaningful Information** from Natural Language **Text** and **Speech**.
+- **Analyze** and **Understand** Text Data + Derive **Meaningful Information** from Natural Language ( **Text** and **Speech** )
 
 ### Types of Text Data 
-- Web, Blogs, Comments, Reviews and Notes
-- Social Media : Messages, Hashtags, Reference
-- Operations : Logs and Trails
+- Web, Blogs, Comments, Reviews and Notes.
+- Social Media : Messages, Hashtags, Reference.
+- Operations : Logs and Trails.
 - Emails ( Spam or Ham )
-- Voice **Transcriptions** ( Videos )
+- Voice **Transcriptions** 
+- Videos Subtitles 
 
 ### Process :
 
@@ -84,7 +84,7 @@
 2. Remove `Punctuation`
 3. Remove `Stopwords`
 4. Stemming | Lemmatizing
-5. `Vectorize` Data to Prepare for Model Built
+5. `Vectorize` Data to Prepare for Model Built ( Feature Vector )
 6. **Feature Engineering** ( **Creating** New Feature or **Transforming** Existing Features to get most out of Data )
 
 <h3 name="token"> Tokenization </h3>
@@ -93,39 +93,33 @@
 
 <h3 name="stem"> Stemming </h3>
 
-- Reducing **Derived** Words to there `Stem` Words.
-- `Cut` end of the Words into its `Stem` Form.
+- Reducing **Derived** Words to there `Stem` | `Root` | `Base` Form.
 - Remove `Suffix` and `Prefix` from the Word.
-- Stem may not be an **Actual** Word.
-- Easy for `Read` and `Compare`.
+- Stem may not be an **Actual** Word, Easy for `Read` and `Compare`.
 - e.g. Studies > Studi | Studying > Study
 
-> Stemming is applied on **Tokens** ( `stem ( token )` ) 
+> **Stemming** is applied on **Tokens** ( `stem ( token )` ) 
 
 ### Why Stemming ?
-- Reduce `Corpus` of Words
-- Correlates Words with `Similar` Meanings.
+- Reduce `Corpus` of Words and Correlate Words with `Similar` Meanings.
 
 ### Types of Stemmers
 1. **Porter** Stemmer ( **Oldest** but very **low Accuracy** : fairly > `fairli` )
-2. **Snowball** Stemmer ( Better than **Porter** and **Lancaster** : fairly > `fair` )
+2. **Snowball** Stemmer ( **Better** than **Porter** and **Lancaster** : fairly > `fair` )
 3. **Lancaster** Stemmer ( **Fastest** with **Least Accuracy** )
-4. Regex Based Stemmer
 
 <h3 name="lemma"> Lemmatization </h3>
   
-- Grouping together the **Derived forms** of Word so that they can be Analyzed as a `Single` ( Base ) form
+- Grouping together the **Derived forms** of Word so that they can be Analyzed as a `Single` ( Base ) form.
 - Actually `Transforms` words to the **Actual Root**.
-- `Reduce` Words into its `Base` Form.
-- Used in Search Engines to Search by `Keywords`.
-- `Lemma` is Actual Word.
-- Better > Good.
+- **Reduce** Words to its `Base` Form.
+- Used in **Search Engines** to Search by `Keywords`.
+- `Lemma` is Actual Word ( Better > Good )
 
 ### WordNet Lemmatizer
-- **Database** for `English`
-- `Nouns`, `Verbs`, `Adjectives` and `Adverbs` are **Grouped** into Sets of **Cognitive Synonyms**. 
-- Most Popular **Lemmatizer**
-- e.g. { 'consult', 'consultation', 'consulting', 'consultant' } > consult
+- **Database** for `English` ( Most Popular **Lemmatizer** )
+- `Nouns`, `Verbs`, `Adjectives` and `Adverbs` are **Grouped** into Sets of **Cognitive Synonyms**.  
+- e.g. { 'consult', 'consultation', 'consulting', 'consultant' } - consult
 
 Stemming | Lemmatization
 :--- | :---
@@ -136,33 +130,33 @@ Simply `Chops` End of the Word to `Stem` | **Converts** the Word to its **Meanin
 - Map the Words wiith different Case to the same `Lowercase` form.
 
 ### Noise Removal
-- Removing Characters, Digits and Pieces of Text that can `Interfere` with Text Analysis.
-- `Punctuation` removal, `Special Character` removal, `Number` removal, `HTML` formatting removal, `Source Code` removal, `Header` removal.
+- Removing **Special Characters**, Digits and Pieces of Text that can `Interfere` with Text Analysis.
+- Remove `Punctuation`, `Special Character`, `Number`, `HTML` formatting, `Source Code`, `Header`.
 
 <h3 name="norm"> Text Normalization </h3>
 
 - Transforming Text into a **Standard** form.
 - e.g. 'gooood' and 'gud' transformed to 'good'
 - Mapping of near **Identical** words such as 'stopwords', 'stop-words' and 'stop words' to just 'stopwords'
-- Important for **Noisy**, **Misspelled**, **Slang** and **Out of Vocabulory** ( `OOV` ) Words are used. 
+- Important when **Noisy**, **Misspelled**, **Slang** and **Out of Vocabulory** ( `OOV` ) Words are used. 
 - **Out of Vocabulory** ( `OOV` ) : **Social Media** Comments, **Blog** Comments and **Text Messages**.
 
 <h3 name="stop"> Stop Word </h3>
 
-- Filter out **Useless** low information Words in a Sentence
-- Stop words are the Filler words.
+- Filter out **Useless** low information Words in a Sentence.
+- Stop words are the **Filler** words.
 - we can `Focus` on the **Important Words** instead.
 - Search Engine only Search on the Basis of `Keywords`.
 - Search Engines are programmed to `ignore` **Stop Words**.
 
 How to `Remove` Stopwords Using NLTK
 
-1. Tokenize 
-2. Compare with List of Stopwords and Drop that Words ( Token for Token in Text if not in Stopwords.words( ) ) 
+1. **Tokenize** and Compare with List of Stopwords and Drop that Words 
+2. **Code** : Token for Token in Text if not in `Stopwords.words()` 
 
 <h3 name="pos"> POS : Parts of Speech </h3>
-- Classify the part of Speech `tag` of each `Token`.
-- Identify Noun, Verb, Adjective in Sentence.
+- Classify the **Part of Speech** `tag` of each `Token`.
+- Identify `Noun`, `Verb`, `Adjective` in Sentence.
 
 <h3 name="bag"> Bag of Words </h3>
 
@@ -180,19 +174,19 @@ How to `Remove` Stopwords Using NLTK
 
 ![TFIDF](Image/TFIDF.png)
 
-- Term Frequency - Inverse Document Frequency
-- Create a Document Term **Matrix** 
+- **Term Frequency** - **Inverse Document Frequency**.
+- Create a Document Term **Matrix**.
 - One **Row** per **Document** ( Number of Time the Term appears in Document )
 - One **Column** per **Word** in the **Corpus** ( Number of Documents containing the Word )
-- Shows how Important a given **Word** is to the **Document** 
+- Shows how **Important** a given **Word** is to the **Document**. 
 
 ### Feature Vector
 - An `N Dimensional Vector` of **Numerical Features** that Represents some `Object`.
 
 ### Different Types
-1. Count Vectorization ( Create a **Document Term Matrix**   that represents **Count** of `Occurence` )
-2. N Grams
-3. Term Frequence - Inverse Document Frequency ( TD - IDF ) 
+1. **Count** Vectorization ( Create a **Document Term Matrix**   that represents **Count** of `Occurence` )
+2. **N Grams** ( Combination of `Adjacent` Words )
+3. **Term Frequence** - **Inverse Document Frequency** ( `TD - IDF` ) 
 
 <h3 name="ngram"> N Grams </h3>
 
