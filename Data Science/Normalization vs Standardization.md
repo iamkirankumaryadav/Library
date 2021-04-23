@@ -16,8 +16,8 @@ Use for **Neural Networks** ( ANN, CNN, RNN ) | Algorithms that rely on **Gradie
 - A Feature Set with only One Feature do not need Scaling, Beneficial only if the Feature Set consists of **Multiple Features**.
 
 ### Data Standardization ( Z Score Normalization )
-- Standardize **Features** around center ( Mean ) | Equalize the Range or Data **Variability**
-- Important when we **Compare** Measurements that have Different **Units**
+- Standardize **Features** around center ( Mean ) | Equalize the Range or Data **Variability**.
+- Important when we **Compare** Measurements that have Different **Units**.
 
 Where to **Use** ? | Where **not** to **Use** ?
 :--- | :---
