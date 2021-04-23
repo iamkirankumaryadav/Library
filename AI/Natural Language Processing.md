@@ -193,17 +193,19 @@ How to `Remove` Stopwords Using NLTK
 - **Combinations** of `Adjacent` Words of length **N** in the Text
 
 ### Bigrams
-- Form **Pair** of `Adjacent` Words from Sentence
+
+- Form **Pair** of `Adjacent` Words from Sentence.
 
 ### Trigrams
+
 - Form Set of **Three** `Adjacent` Words
 
-> Google Search **Suggests** Bigrams, Trigrams in there `Keyword` **Suggestions**.  
+> Google Search **Suggests** `Bigrams`, `Trigrams` in there `Keyword` **Suggestions**.  
 
 <h3 name="ner"> Name Entity Recognition </h3>
 
-1. Recognize Elements in Text by `Category` ( Movie, Person, Location, Organization, Quantity Unit, Monetory Value | Financial Term )
-2. `Identification` | `Extraction` technique that automatically identifies named `Entities` in a Text and Classifies in Predefined Categories.
+1. **Recognize** Elements in Text by **Category** ( `Movie`, `Person`, `Location`, `Organization`, `Quantity Unit`, `Monetory Value` | `Financial` Term )
+2. `Identification` | `Extraction` technique that automatically identifies named `Entities` in a Text and Classifies in **Predefined Categories**.
 
 ![NER](Image/NER.png)
 
