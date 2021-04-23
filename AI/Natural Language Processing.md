@@ -214,7 +214,7 @@ How to `Remove` Stopwords Using NLTK
 - Analyze String by `Symbol`. 
 
 ### Sentiment Analysis
-- Feeling, Emotion, Reaction, Satisfaction of User | Customer | Consumer expressing there Feedback and Reaction.
+- `Feeling`, `Emotion`, `Reaction`, `Satisfaction` of User | Customer | Consumer expressing there `Feedback`.
 
 ### Information Retrieval
 - Process of **Accessing** and **Retrieval** of appropriate Information  from Text.
