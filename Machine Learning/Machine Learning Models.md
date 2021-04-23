@@ -32,7 +32,7 @@
       Predict Continuous Numerical Data
     </th>
     <th>
-      Classify Discrete Categorical Data
+      Classify Categorical Data
     </th>
     <th>
       Group Similar Data 
@@ -177,8 +177,8 @@
 
 <h3 name='logreg'>2. Logistic Regression ( <a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md'>More</a> )</h3>
 
-- One or More Independent Features is used to **Classify** Discrete Categorical Labels 
-- Dependent ( Output ) should be **Discrete** ( 0 or 1 )
+- One or More Independent Features is used to **Classify** Categorical Labels 
+- Dependent ( Output ) should be **Categorical** ( 0 or 1 )
 - Probability of Finite Number of Outcomes | Occurence.
  
 <h3 name='tree'>3. Decision Tree</h3>
@@ -187,7 +187,7 @@
 - We Select the Feature as **Node** that **Splits** the Data very well.
 - Attribute with **High Information Gain** or **Low Entropy** is Selected as **Best Attribute** to Split upon.
 - Used especially for **Binary** Classification and **Multiclass** Classification and even used for **Regression**
-- Tree Models where the Target Variable takes a **Discrete** Set of Values are **Classification** Tree
+- Tree Models where the Target Variable takes a **Categorical** Set of Values are **Classification** Tree
 - Tree Models where the Target Variable takes a **Continuous** Values are **Regression** Tree
 - **CART** : **C**lassification **A**nd **R**egression **T**ree
 - Growing a Tree means Deciding Which **Feature** to Choose ? and What **Condition** to Use ? for splitting.
