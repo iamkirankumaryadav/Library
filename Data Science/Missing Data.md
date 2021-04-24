@@ -29,7 +29,7 @@
 
 ### Disadvantage
 
-- Changes the **Distribution** of Dataset ( Mean, Median, Variance and Standard Deviation )
+- Changes the **Distribution** of Dataset ( `Mean`, `Median`, `Variance` and `Standard Deviation` )
 - Bring New **Outliers**.
 - Changes the **Correlation** among Data.
 
