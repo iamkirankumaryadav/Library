@@ -19,7 +19,6 @@
 
 - **Fill** | **Impute** the `Numerical` **Missing Data** with **Mean** or **Median** ( **Univariate** Imputation ) 
 - **Fill** | **Impute** the `Categorical` **Missing Data** with **Mode** or **Most Frequent** (  **Univariate** Imputation ) 
-- **Fill Missing Data** with the Help of other **Features** | **Columns** by **Predicting** ( **Multivariate** Imputation ) 
 - **Interpolation** : **Predict Missing Data** with the Range of **Date** and **Time** ( Time Series Data ) 
 - Prevent from Data Loss but can cause **Data Leakage**.
 - `SimpleImputer()` is used to Fill the Missing Value ( **Univariate Imputation** ) 
@@ -39,8 +38,8 @@
 
 <h3 name="predict"> 4. Predict Missing Value</h3>
 
-- **Predict** the Missing Values with the Help of other Existing Data.
-- **Continuous** and **Categorical** Data can be used for Prediction and Classification.
+- **Fill Missing Data** with the Help of other **Features** | **Columns** by **Predicting** ( **Multivariate** Imputation ) 
+- **Continuous** and **Categorical** Data can be used for **Prediction** and **Classification**.
 - This method will bring **Better Accuracy**. 
 
 <h3 name="algo"> 5. Use Algorithm which Supports Missing Values</h3>
