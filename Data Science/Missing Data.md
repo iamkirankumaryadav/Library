@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# How to Deal with Missing Data
+# How to Deal with Missing Data | Handle Missing Data
 
 **Missing Data** : NAN, nan, NaN ( Ignored while **Arithmetic Operations** )
 
