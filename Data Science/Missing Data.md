@@ -17,12 +17,22 @@
 
 <h3 name="impute"> 2. Impute | Fill ( fillna( ) )</h3>
 
-- Replace the **Missing Data** with **Mean**, **Median** or **Mode** ( Numeric Data ) 
-- **Interpolation** : Predict Value with the Range of Date and Time ( Time Series Data ) 
+- **Fill** | **Impute** the `Numerical` **Missing Data** with **Mean** or **Median** ( **Univariate** Imputation ) 
+- **Fill** | **Impute** the `Categorical` **Missing Data** with **Mode** or **Most Frequent** (  **Univariate** Imputation ) 
+- **Fill Missing Data** with the Help of other **Features** | **Columns** by **Predicting** ( **Multivariate** Imputation ) 
+- **Interpolation** : **Predict Missing Data** with the Range of **Date** and **Time** ( Time Series Data ) 
 - Prevent from Data Loss but can cause **Data Leakage**.
-- **SimpleImputer** is used to Fill the Missing Value. 
+- **SimpleImputer** is used to Fill the Missing Value ( **Univariate Imputation** ) 
 - **fit( )** : Learn the Value to be Imputed.
 - **transform( )** : Fill the Missing Values.
+- **KNNImputer** : **Fill Missing Data** with the Help of **Nearest Neighbors**.
+- **IterativeImputer** : 
+
+### Disadvantage
+
+- Changes the **Distribution** of Dataset ( Mean, Median, Variance and Standard Deviation )
+- Bring New **Outliers**.
+- Changes the **Correlation** among Data.
 
 <h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag ( Numeric Value )</h3>
 
