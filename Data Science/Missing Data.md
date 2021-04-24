@@ -33,7 +33,7 @@
 
 <h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag ( Numeric Value )</h3>
 
-- Assign a **Unique Category** for Data with **Missing Values** or Assign with Most **"Missing"**.
+- Assign a **Unique Category** for Data with **Missing Values** or Assign with Most `"Missing"`.
 - **Flag** the **Numeric Missing Data** with `-1` or `0` ( Create Difference between **Missing Data** and the Remaining Non Missing Data ) 
 
 <h3 name="predict"> 4. Predict Missing Value</h3>
