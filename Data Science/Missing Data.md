@@ -8,7 +8,7 @@
 
 <h3 name="del"> 1. Drop ( dropna( ) )</h3>
 
-- **Drop** Particular **Row** if it has a **NULL** value for Particular **Feature**. ( axis = 0 )
+- **Drop** Particular **Row** | **Observation** if it has a **NULL** value for Particular **Feature**. ( axis = 0 )
 - **Drop** Particular **Column** ( **Missing Values** > `70%` | axis = 1 )
 - If **Missing Data** is limited to Small number of **Observations**, eliminate those cases from the **Analysis**.
 - Deleting an Irrelevant **Rows** or **Columns** helps to get a **Robust Model**.
