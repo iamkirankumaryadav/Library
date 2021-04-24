@@ -19,12 +19,11 @@
 
 - **Fill** | **Impute** the `Numerical` **Missing Data** with **Mean** or **Median** ( **Univariate** Imputation ) 
 - **Fill** | **Impute** the `Categorical` **Missing Data** with **Mode** or **Most Frequent** (  **Univariate** Imputation ) 
-- **Interpolation** : **Predict Missing Data** with the Range of **Date** and **Time** ( Time Series Data ) 
-- Prevent from Data Loss but can cause **Data Leakage**.
 - `SimpleImputer()` is used to Fill the Missing Value ( **Univariate Imputation** ) 
 - `fit()` : Learn the Value to be Imputed and `transform()` : Fill the Missing Values.
 - `KNNImputer()` : **Fill Missing Data** with the Help of **Nearest Neighbors**.
 - `IterativeImputer()` : 
+- Prevent from Data Loss but can cause **Data Leakage**.
 
 ### Disadvantage
 
@@ -40,6 +39,7 @@
 
 - **Fill Missing Data** with the Help of other **Features** | **Columns** by **Predicting** ( **Multivariate** Imputation ) 
 - **Continuous** and **Categorical** Data can be used for **Prediction** and **Classification**.
+- **Interpolation** : **Predict Missing Data** with the Range of **Date** and **Time** ( Time Series Data ) 
 - This method will bring **Better Accuracy**. 
 
 <h3 name="algo"> 5. Use Algorithm which Supports Missing Values</h3>
