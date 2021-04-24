@@ -22,10 +22,10 @@
 - **Fill Missing Data** with the Help of other **Features** | **Columns** by **Predicting** ( **Multivariate** Imputation ) 
 - **Interpolation** : **Predict Missing Data** with the Range of **Date** and **Time** ( Time Series Data ) 
 - Prevent from Data Loss but can cause **Data Leakage**.
-- **SimpleImputer** is used to Fill the Missing Value ( **Univariate Imputation** ) 
+- `SimpleImputer()` is used to Fill the Missing Value ( **Univariate Imputation** ) 
 - `fit()` : Learn the Value to be Imputed and `transform()` : Fill the Missing Values.
-- **KNNImputer** : **Fill Missing Data** with the Help of **Nearest Neighbors**.
-- **IterativeImputer** : 
+- `KNNImputer()` : **Fill Missing Data** with the Help of **Nearest Neighbors**.
+- `IterativeImputer()` : 
 
 ### Disadvantage
 
