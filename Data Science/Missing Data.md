@@ -10,7 +10,7 @@
 
 - **Drop** Particular **Row** | **Observation** if it has a **NULL** value for Particular **Feature**. ( `axis = 0` )
 - **Drop** Particular **Column** ( **Missing Values** > `70%` | `axis = 1` )
-- **Drop Missing Data** if the **Missing Observations** < `5%`.
+- **Drop** if the **Observations** | **Rows** of **Missing Data** < `5%`.
 - Deleting an Irrelevant **Rows** or **Columns** helps to get a **Robust Model**.
 
 > But it is **Better** to Keep Data than to **Discard** it, Removing Data may lead to **Loss** of **Information**.
