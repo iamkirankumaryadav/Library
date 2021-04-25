@@ -27,9 +27,9 @@
 
 ### Disadvantage
 
-- Changes the **Distribution** of Dataset ( `Mean`, `Median`, `Variance` and `Standard Deviation` )
-- Bring New **Outliers**.
-- Changes the **Correlation** among Data.
+- Changes the `Distribution` of Dataset ( `Mean`, `Median`, `Variance` and `Standard Deviation` )
+- Bring New `Outliers`.
+- Changes the `Correlation` among Data.
 
 <h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag ( Numeric Value )</h3>
 
