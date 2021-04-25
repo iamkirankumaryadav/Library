@@ -272,7 +272,7 @@ How to `Remove` Stopwords Using NLTK
     <th colspan='2'>Use Neural Network to Learn Word Association from a Large Corpus of Text</th>
   </tr>
   <tr>
-    <th colspan='2'>Detect Synonymous Words or Suggest Next Words for a Partial Sentencet ( Autocomplete | Search Bar Suggestion )</th>
+    <th colspan='2'>Detect Synonymous Words or Suggest Next Words for a Partial Sentence ( Autocomplete | Search Bar Suggestion )</th>
   </tr>
  </table>
 
