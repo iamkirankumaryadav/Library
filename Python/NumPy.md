@@ -19,7 +19,7 @@
     <td colspan="4"><img src="Image/Dim.png" alt="Dimensions"></td>
   </tr>
   <tr>
-    <td><strong>0</strong> Dimension</td>
+    <td>0 Dimension</td>
     <td>1 Dimension</td>
     <td>2 Dimensions</td>
     <td>3 Dimensions</td>
