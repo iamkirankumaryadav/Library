@@ -71,9 +71,7 @@
 
 ### What is Variability ?
 
-- How **Spread** Out the Data is. 
-- Data Points are Distributed.  
-- Far Distance with Each Other.
+- How **Spread** Out the Data is ( Data Points are `Close` to each other or `Scattered` Away )
 
 ### How to Describe ?
 
