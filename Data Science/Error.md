@@ -3,20 +3,18 @@
 # Error in Linear Regression
 
 ### Manage Noise
-- The Model created will have a lot more `Error` because of `Noise`, `Noise` is Unwanted that **Weakens** the Learning Process of **Model**.
+- Created **Model** will have a lot of `Error` because of `Noise`, `Noise` is Unwanted that **Weakens** the Learning Process of **Model**.
 
-> Reasons for **Noise**
-- Large Training Data Set
-- Errors in Input Data 
-- Data Labelling Error
-- Lack of Data ( Missing Data not Handled Properly )
-- Unobservable Attributes that might affect Classifications ( Sometimes **Data Visualization** helps to Find **Hidden Patterns** )
+### Reasons for **Noise**
+- `Large` Training Data Set | Errors in Input Data | Data Labelling Error | Unobserved Attributes | Hidden Patterns.
+
+### Data Visualization helps to Find Hidden Patterns.
 
 ### Important Confusing Terms
 
-1. RSS | SSE
-2. ESS | SSR
-3. TSS | SST
+1. RSS ( Sum of Squared Residual ) | SSE ( Sum of Squared Error )
+2. ESS ( Explained Sum of Square ) | SSR ( Sum of Squared Regression ) 
+3. TSS ( Total Sum of Square ) | SST ( Sum of Squared Total )
 4. R Squared 
 
 ### RSS | SSE
