@@ -12,7 +12,7 @@
 - **Penalize** Weights that are too Large ( Learning Rate | `Lambda` )
 - Improves **Generalization** Performance ( Performance on New Unseen Data )
 - If Lambda is `High` | High `Bias` | Underfitting | `Simple` Model | More Error in Train Set.
-- if Lambda is `Low` | High `Variance` | Overfitting | `Complicated` Model | Model Learn Noise + Error not **Generalize** Well on **New Unseen Data**. 
+- if Lambda is `Low` | High `Variance` | Overfitting | `Complicated` Model | Not **Generalize** well for **New Unseen Data**.
 - `L1` Regularization add a `L1` Penalty equal to the `Absolute` Value of Magnitude of Coefficients | Weight | Slope.
 - `L2` Regularization add a `L2` Penalty equal to the `Square` Value of Magnitude of Coefficients | Weight | Slope.
 - `LASSO` reduces **Coefficients** to Exactly `Zero` ( **Feature Selection** )
