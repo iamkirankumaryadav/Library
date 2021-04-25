@@ -117,6 +117,7 @@
 - `Lemma` is Actual Word ( Better > Good )
 
 ### WordNet Lemmatizer
+
 - **Database** for `English` ( Most Popular **Lemmatizer** )
 - `Nouns`, `Verbs`, `Adjectives` and `Adverbs` are **Grouped** into Sets of **Cognitive Synonyms**.  
 - e.g. { 'consult', 'consultation', 'consulting', 'consultant' } - consult
@@ -127,9 +128,11 @@ Stemming | Lemmatization
 Simply `Chops` End of the Word to `Stem` | **Converts** the Word to its **Meaningful** `Base` Form
 
 ### Text Preprocessing
+
 - Map the Words wiith different Case to the same `Lowercase` form.
 
 ### Noise Removal
+
 - Removing **Special Characters**, Digits and Pieces of Text that can `Interfere` with Text Analysis.
 - Remove `Punctuation`, `Special Character`, `Number`, `HTML` formatting, `Source Code`, `Header`.
 
@@ -155,6 +158,7 @@ How to `Remove` Stopwords Using NLTK
 2. **Code** : Token for Token in Text if not in `Stopwords.words()` 
 
 <h3 name="pos"> POS : Parts of Speech </h3>
+
 - Classify the **Part of Speech** `tag` of each `Token`.
 - Identify `Noun`, `Verb`, `Adjective` in Sentence.
 
