@@ -27,7 +27,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 - How many **Standard Deviations** a **Data Point** is from the **Sample's Mean**
 - **z** = ( x - **mean** ) / **standard deviation**
-- Data Points after **3 Standard Deviations** ( mean +- 3 * std ) are considered as **Outliers**.
+- Data Points after **3 Standard Deviations** ( `mean` +- `3` * `std` ) are considered as **Outliers**.
 
 > **Solution** : Apply Transformation of Data : Scaling
 
