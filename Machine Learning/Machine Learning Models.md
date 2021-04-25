@@ -98,6 +98,13 @@
       </ul>
     </td>        
   </tr>  
+  <tr>
+    <th>Anomaly Detection</th>    
+  </tr>
+  <tr>
+    <td>      
+    </td>        
+  </tr>  
 </table>
 
 > Features | Independent Variables | Dimensions | Attributes | Inputs | Predictors | Estimators
