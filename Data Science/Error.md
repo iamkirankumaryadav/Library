@@ -100,8 +100,8 @@
 ### Variance
 
 - How Spread Out Data is ?
-- `Small` Variance : Data Set is Tight Clustered ( Near to `Mean` ).
-- `Large` Variance : Data Set is Spread Apart ( Away from `Mean` )
+- `Small` Variance : Data Set is Tight Clustered ( `Near` to Mean ).
+- `Large` Variance : Data Set is Spread Apart ( `Away` from Mean )
 
 ### Standard Deviation
 
