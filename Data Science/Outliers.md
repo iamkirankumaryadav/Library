@@ -79,17 +79,17 @@ How many **Features** to take into account to **Detect Outliers** ?
       <ol type="1">
         <li>Linear Regression</li>
         <li>Logistic Regression</li>
-        <li>K Nearest Neighbours</li>
+        <li>K Nearest Neighbours ( KNN )</li>
         <li>K Means Clustering</li>
         <li>Support Vector Machine</li>
-        <li>Principle Component Analysis</li>
+        <li>Principle Component Analysis ( PCA )</li>
       </ol>
     </td>
     <td>
       <ol type="1">
-        <li>Decision Tree</li>
-        <li>Random Forest</li>
         <li>Naive Bayes</li>
+        <li>Decision Tree</li>
+        <li>Random Forest</li>        
         <li>Boosting Algorithms</li>        
       </ol>
     </td>
