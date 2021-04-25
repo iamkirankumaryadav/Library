@@ -13,10 +13,10 @@
 ### How to Identify Overfitting ? 
 
 ### Hold Out Data | Split Data Set | Observe Accuracy and Loss
-- **Split** the **Data Set** into **Train Set** and **Test Set**
+- **Split** the **Data Set** into `Train Set` and `Test Set`.
 - Check whether the Trained Model **Generalizes** Well on **New Unseen Test Data**. 
-- **Accuracy** of **Train Set** : **model.score( X_train, y_train )**
-- **Accuracy** of **Test Set** : **model.score( X_test, y_test )**
+- **Accuracy** of **Train Set** : `model.score( X_train, y_train )`
+- **Accuracy** of **Test Set** : `model.score( X_test, y_test )`
 
 ### How to Prevent from Overfitting ?
 
