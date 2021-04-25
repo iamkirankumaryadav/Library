@@ -15,7 +15,7 @@
 How many **Features** to take into account to **Detect Outliers** ?
 - **Univariate** | **Multivariate**
 
-> **Data Visualization** is a most important part that plays the role of communicating with Data and Visualize Outlier.
+> **Data Visualization** is a most important part that plays the role of communicating with Data and Visualize `Outlier`.
 
 > **Boxplot**, **Scatter Plot** and **Histograms** are better plots to find **Outliers** in the Data Set.
 
