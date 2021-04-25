@@ -97,7 +97,8 @@
         <li><a href=#lda>LDA</a></li>
         <li><a href=#tsne>t-SNE</a></li>
       </ul>
-    </td>        
+    </td>  
+    <td></td>
   </tr>    
 </table>
 
