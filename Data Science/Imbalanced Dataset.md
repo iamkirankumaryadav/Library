@@ -22,7 +22,7 @@
 
 ### B. Change Evaluation Metrics for Better Performance
 - Choosing Right Evaluation Metrics is Important.
-- **F1 Score** : Number between `0` and `1` ( Harmonic Mean of `Recall` and `Precision` )
+- `F1 Score` : Number between `0` and `1` ( Harmonic Mean of `Recall` and `Precision` )
 - **Precision** : Focus on **Positive Predictions**
 - **Recall** ( `TPR` ) : Focus on **Positive Predictions**
 - **F1 Score** is a **Harmonic Mean** of `Recall` and `Precision` ( Keep a `Balance` between `Recall` and `Precision` for the **Classifier** )
