@@ -1,9 +1,8 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# Regression Metrics 🧮
+# Metrics 🧮
 
-<table align=center>
-  <tr><th colspan=2><h3>Metrics</h3></th></tr>
+<table align=center> 
   <tr><th><h3><a href="#linear"> Regression</a></h3></th><th><h3><a href="#logistic">Classification</a></h3></th></tr>
   <tr>
     <td>
