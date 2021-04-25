@@ -97,14 +97,7 @@
         <li><a href=#tsne>t-SNE</a></li>
       </ul>
     </td>        
-  </tr>  
-  <tr>
-    <th>Anomaly Detection</th>    
-  </tr>
-  <tr>
-    <td>      
-    </td>        
-  </tr>  
+  </tr>    
 </table>
 
 > Features | Independent Variables | Dimensions | Attributes | Inputs | Predictors | Estimators
