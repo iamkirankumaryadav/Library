@@ -2,10 +2,10 @@
 
 ### Imbalanced Data Set
 
-- **Class Labels** should be `Balanced` otherwise it Predicts a **Biased Output** or Classify Biased to only one Class Label.
+- **Class Labels** should be `Balanced` otherwise it Predicts a **Biased Output**.
 
 ### A. Stratified Sampling
-- Create a Sample containing `Equal` number of Each `Class Labels` to Train the Model
+- Create a Sample containing `Equal` Proportion of Each `Class Labels` to Train the Model.
 
 ### 1. Up Sample or Over Sampling Minority Class | Sampling with Replacement ( SMOTE : Synthetic Minority Oversampling Technique )
 - Randomly **Duplicate** the Minority Class Observations in order to **Reinforce** the Learning of Data.
