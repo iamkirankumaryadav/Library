@@ -1,15 +1,10 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # NumPy
-- **Numerical** Python
-- **Array** Processing
-- **N Dimensional** Array
-- **Matrix** Data Structure
-- Mathematical Operations
+- **Numerical** Python | Mathematical Operations | **Element wise** Arithmetic Operations
+- **Array** Processing | **N Dimensional** Array | **Matrix** Data Structure
 - **Statistical** and **Algebraic** Computations
-- **Broadcasting**
-- Supports **Scientific** and **Financial** Calculations
-- **Element wise** Arithmetic Operations
+- **Broadcasting** | Supports **Scientific** and **Financial** Calculations
 
 <table align="center">
   <tr>
