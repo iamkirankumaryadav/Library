@@ -397,7 +397,7 @@ B. Divisive
 
 ### Anomaly Detection :
 - Automatically Discover **Unusual** Data Points in Data Set.
-- Used to Find Fraudulent Transactions, Identify an Outlier caused by Human Error during Data Entry.
+- Used to Find Fraudulent Transactions, Identify an `Outlier` caused by Human Error during Data Entry.
 - Reduces Complexity of Data and Helps to Understand Data more Clearly and Better Way.
 
 ### Association Mining :
