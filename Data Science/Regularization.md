@@ -11,8 +11,8 @@
 - Encourages **Coefficient** | **Weight** towards `Zero` ( But not Exactly `Zero` )
 - **Penalize** Weights that are too Large ( Learning Rate | `Lambda` )
 - Improves **Generalization** Performance ( Performance on New Unseen Data )
-- If Lambda is very `High` | High `Bias` | Underfitting | Model not Trained well | More Error in Training Set.
-- if Lambda is very `Low` | High `Variance` | Overfitting | Model will not **Generalize** Well on New Unseen Data. 
+- If Lambda is `High` | High `Bias` | Underfitting | `Simple` Model | More Error in Train Set.
+- if Lambda is `Low` | High `Variance` | Overfitting | `Complicated` Model | Model Learn Noise + Error not **Generalize** Well on **New Unseen Data**. 
 - `L1` Regularization add a `L1` Penalty equal to the `Absolute` Value of Magnitude of Coefficients | Weight | Slope.
 - `L2` Regularization add a `L2` Penalty equal to the `Square` Value of Magnitude of Coefficients | Weight | Slope.
 - `LASSO` reduces **Coefficients** to Exactly `Zero` ( **Feature Selection** )
@@ -30,8 +30,6 @@ Loss Function | Cost Function ( Quantifies Error between Predicted Values and Ex
 
 - `Bias` Increases with **Increase** in Lambda.
 - `Variance` Increases with **Decrease** in Lambda.
-- If **Lambda** Value is **High** | Model will be **Simple** | **Underfitting** | **High Bias** | Model will not Learn Enough about Training Data.
-- If **Lambda** Value is **Low** | Model will be **Complex** | **Overfitting** | **High Variance** | Model will Learn too much about Training Data.
 - Ideal Value of Lambda produces Model that **Generalizes** Well on **New Unseen Data**.
 
 # Elastic Net :
