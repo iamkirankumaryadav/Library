@@ -28,13 +28,12 @@ Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
 
 Loss Function | Cost Function ( Quantifies Error between Predicted Values and Expected Values )
 
-- `Bias` Increases with **Increase** in Lambda.
-- `Variance` Increases with **Decrease** in Lambda.
-- Ideal Value of Lambda produces Model that **Generalizes** Well on **New Unseen Data**.
+- `Bias` Increases with **Increase** in `Lambda` and `Variance` Increases with **Decrease** in Lambda.
+- **Ideal** Value of `Lambda` produces Model that **Generalizes** Well on **New Unseen Data** ( `Low Bias` and `Low Variance` )
 
 # Elastic Net :
-- Elastic Net combines L1 and L2 and does not **Eliminates** Highly Colliner Coefficient ( Slope )
-- Learning Rate | Parameter means an **Iterative** Process, Aim is to **Minimize** the `Loss`. 
+- Elastic Net combines `L1` and `L2` and does not **Eliminates** Highly Colliner Coefficient ( Slope )
+- `Learning Rate` | Parameter means an **Iterative** Process, Aim is to **Minimize** the `Loss`. 
 - Updates `Slope` and `Intercept` at every Step by reducing the **Loss** | **Cost Function** as much as possible.
 
 ### Regularization Improves Regression
