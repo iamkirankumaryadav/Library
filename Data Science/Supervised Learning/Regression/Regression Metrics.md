@@ -19,8 +19,8 @@
         <li><a href='#cm'>Confusion Matrix</a></li>
         <li><a href='#acc'>Accuracy</a></li>
         <li><a href='#pre'>Precision</a></li>
-        <li>Recall | <a href='#tpr'>TPR</a> | Sensitivity</li>
-        <li><a href='#fpr'>FPR</a> | Specificity</li>
+        <li>Recall | True Positive Rate ( <a href='#tpr'>TPR</a> ) | Sensitivity</li>
+        <li>False Positive Rate ( <a href='#fpr'>FPR</a> ) | Specificity</li>
         <li><a href='#f1'>F1 Score</a></li>
         <li><a href='#roc'>ROC</a></li>
         <li><a href='#auc'>AUC</a></li>
