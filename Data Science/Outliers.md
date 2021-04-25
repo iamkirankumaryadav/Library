@@ -42,9 +42,9 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 1. Setup a **Filter** and **Trim** Data Set.
 2. Remove the Outlier if it is very Small.
-3. **Inter Quartile** Range 
+3. **Inter Quartile** Range ( `IQR` ) 
 4. Change the Value of Outlier or Replace it with something Meaningful.
-5. Rescale Data or Standardize
+5. `Rescale` Data or Standardize.
 6. Apply Ensemble Learning Techniques ( Bagging and Boosting )
 
 <h3 name="summary"> Five Number Summary</h3>
