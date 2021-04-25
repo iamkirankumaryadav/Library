@@ -24,9 +24,9 @@
 - Get More **Training Data**
 
 ### 2. Apply [Regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) 
-- Lasso ( L1 ) : Sum of `Absolute` of **Coefficients** | Weights ( **Coefficient** to Exactly 0 )
+- Lasso ( `L1` ) : Sum of `Absolute` of **Coefficients** | Weights ( **Coefficient** to Exactly 0 )
 - **Simplify** the Model + **Feature Selection**.
-- Ridge ( L2 ) : Sum of `Squared` of **Coefficients** | Weights ( **Penalize** Certain Value of **Weights** )
+- Ridge ( `L2` ) : Sum of `Squared` of **Coefficients** | Weights ( **Penalize** Certain Value of **Weights** )
 - Able to Learn **Complex Data Patterns** | Decrease the **Complexity** of Model.
 
 ### 3. K Fold Cross Validation and Grid Search Cross Validation
@@ -47,6 +47,6 @@
 - **Removing Layers** or Number of **Elements** in the **Hidden Layers**.
 
 ### 7. Dropout Layers ( Deep Learning )
-- Randomly **Remove** Certain Features by Setting them to Zero ( Fully Connected Layer )
+- Randomly **Remove** Certain Features by Setting them to `Zero` ( Fully Connected Layer )
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
