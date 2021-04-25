@@ -23,11 +23,11 @@
 
 ![RSS|SSE](Image/SSE_RSS.jpg)
 
-- e : Error
-- SSE = Sum ( Actual - Prediction ) <sup>2</sup>
-- Residuals : Sum of Squares of Errors.
+- `e` : Error
+- `SSE` = Sum ( Actual - Prediction ) <sup>2</sup>
+- `Residuals` : Sum of Squares of Errors.
 - Unexplained Variability.
-- Variability : Distance of Actual Value from its Mean or Predicted Value.
+- `Variability` : Distance of Actual Value from its Mean or Predicted Value.
 
 ### ESS | SSR
 
