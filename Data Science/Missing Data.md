@@ -13,7 +13,7 @@
 - **Drop** if the **Observations** | **Rows** of **Missing Data** < `5%`.
 - Deleting an Irrelevant **Rows** or **Columns** helps to get a **Robust Model**.
 
-> But it is **Better** to Keep Data than to **Discard** it, Removing Data may lead to **Loss** of **Information**.
+> But it is **Better** to Keep Data than to **Discard** it, Removing Data may lead to **Loss** of **Important Information**.
 
 <h3 name="impute"> 2. Impute | Fill ( fillna( ) )</h3>
 
