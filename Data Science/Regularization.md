@@ -22,7 +22,7 @@ LASSO | Ridge | Elastic
 :--- | :--- | :---
 Least Absolute Shrinkage Selection Operator \| L1 | Mountain Ridges \| L2 | Between L1 and L2 
 Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> | Loss + lambda1 * \| slope \| + lambda2 * slope<sup>2</sup>
-Sum of `Absolute` of Coefficient ( Weights ) | Sum of `Squared` of Coefficients | Mix of `Absolute` and `Square`
+Sum of `Absolute` of Coefficient ( Weights ) | Sum of `Square` of Coefficients | Mix of `Absolute` and `Square`
 Can lead Coefficient to **Exactly** `Zero` | **Minimize** Coefficient but not `Zero`
 Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
 
