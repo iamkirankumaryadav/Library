@@ -12,10 +12,10 @@
 
 ### Important Confusing Terms
 
-1. Sum of Squared Residual ( `RSS` ) | Sum of Squared Error ( `SSE` )
-2. Explained Sum of Square ( `ESS` ) | Sum of Squared Regression ( `SSR` )
-3. Total Sum of Square ( `TSS` ) | Sum of Squared Total ( `SST` )
-4. R Squared ( R<sup>2</sup> | Coefficient of Determination | Squared Correlation Coefficient )
+1. Sum of Squared Residual ( `RSS` ) or Sum of Squared Error ( `SSE` )
+2. Explained Sum of Square ( `ESS` ) or Sum of Squared Regression ( `SSR` )
+3. Total Sum of Square ( `TSS` ) or Sum of Squared Total ( `SST` )
+4. R Squared or R<sup>2</sup> or Coefficient of Determination or Squared Correlation Coefficient 
 
 ### RSS | SSE
 
