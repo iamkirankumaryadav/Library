@@ -148,7 +148,7 @@
 - Weighted Average ( Harmonic Mean ) of **Precision** and **Recall**
 - Useful for Datasets with `Uneven` | `Imbalanced` **Class Distribution** and it also considers FP and FN.
 - **Better Measure** for the **Incorrectly Classified Cases** than the **Accuracy Metric**.
-- **Accuracy** is used when `TP` and `TN` are more **Important* and **F1 Score** is used when `FN` and `FP` are more **Crucial**.
+- **Accuracy** is used when `TP` and `TN` are more **Important** and **F1 Score** is used when `FN` and `FP` are more **Crucial**.
 - **F1-score** is a **Better Metric** to **Evaluate** in **Real Life Application**.
 - **F1 Score** Keeps a `Balance` between **Recall** and **Precision** for the **Classifier** | **Model**.
 - `Best` Value for **F1 Score** is `1` | `Worst` Value for **F1 Score** is `0`
