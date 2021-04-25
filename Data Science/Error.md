@@ -3,8 +3,7 @@
 # Error in Linear Regression
 
 ### Manage Noise
-- The Model created will have a lot more Errors because of Noise.
-- Noise is Unwanted that **Weakens** the Learning Process of Model.
+- The Model created will have a lot more `Error` because of `Noise`, `Noise` is Unwanted that **Weakens** the Learning Process of **Model**.
 
 > Reasons for **Noise**
 - Large Training Data Set
