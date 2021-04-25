@@ -88,6 +88,7 @@
   </tr>
   <tr>
     <th>Dimension Reduction</th>    
+    <th>Anomaly Detection</th>    
   </tr>
   <tr>
     <td>
