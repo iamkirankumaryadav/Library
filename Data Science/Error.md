@@ -85,25 +85,23 @@
 ### Range 
 
 - Range = Max - Min
-
 - Distance between the Largest and Smallest Data Point in a Data Set.
 
 ### Interquartile Range
 
-- Data Set is Divided in 4 Equal Quartiles
-- IQR = Q3 - Q1
-- Tells where most of the Values Lies.
-- Q0 = Min
-- Q1 = First Quartile | 25th Percentile
-- Q2 = Second Quartile | Median | 50th Percentile.
-- Q3 = Third Quartile | 75th Percentile
-- Q4 = Fourth Quartile | Max
+- Data Set is Divided in 4 Equal `Quartiles` | `Quarters` ( Tells where most of the Values Lies )
+- `IQR` = Q3 - Q1 
+- `Q0` = Min
+- `Q1` = First Quartile | 25th Percentile
+- `Q2` = Second Quartile | Median | 50th Percentile.
+- `Q3` = Third Quartile | 75th Percentile
+- `Q4` = Max
 
 ### Variance
 
 - How Spread Out Data is ?
-- Small Variance = Data Set is Tight Clustered.
-- Large Variance = Data Set is Spread Apart.
+- `Small` Variance : Data Set is Tight Clustered ( Near to `Mean` ).
+- `Large` Variance : Data Set is Spread Apart ( Away from `Mean` )
 
 ### Standard Deviation
 
