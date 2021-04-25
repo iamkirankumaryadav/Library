@@ -372,7 +372,7 @@ B. Divisive
 
 ### Techniques of Dimensionality Reduction
 
-<h3 name='pca'>PCA ( Principal Component Analysis )</h3> ( Unsupervised )
+<h3 name='pca'>PCA ( Principal Component Analysis ) ( Unsupervised )</h3> 
 
 - A **Dimensionality Reduction** Method ( Reduce the **Dimensions** of Large Data Sets )
 - **Transforming** a Large Data Set ( More Features ) into Smaller Data Set ( Without Lossing **Accuracy** )
