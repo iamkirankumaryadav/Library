@@ -15,7 +15,7 @@
 1. Sum of Squared Residual ( `RSS` ) | Sum of Squared Error ( `SSE` )
 2. Explained Sum of Square ( `ESS` ) | Sum of Squared Regression ( `SSR` )
 3. Total Sum of Square ( `TSS` ) | Sum of Squared Total ( `SST` )
-4. R Squared ( R<sup>2</sup> | Coefficient of Determinants )
+4. R Squared ( R<sup>2</sup> | Coefficient of Determination | Squared Correlation Coefficient )
 
 ### RSS | SSE
 
