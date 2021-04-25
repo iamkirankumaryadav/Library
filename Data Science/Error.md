@@ -84,7 +84,7 @@
 
 ### Range 
 
-- Range = Max - Min
+- `Range` = `Max` - `Min`
 - Distance between the Largest and Smallest Data Point in a Data Set.
 
 ### Interquartile Range
