@@ -7,18 +7,18 @@
 ### A. Stratified Sampling
 - Create a Sample containing `Equal` Proportion of Each `Class Labels` to Train the Model.
 
-### 1. Up Sample or Over Sampling Minority Class | Sampling with Replacement 
+### 1. Up | Over Sampling Minority Class | Sampling with Replacement 
 
 ### ( SMOTE : Synthetic Minority Oversampling Technique )
 
 - Randomly **Duplicate** the Minority Class Observations in order to **Reinforce** the Learning of Data.
-- Resample Minority Class with Replacement, Setting Number of Samples to Match with Majority Class.
-- Combine the Up Sampled Data with Orignal Majority Class Dataframe.
+- Resample Minority Class with Replacement, Setting Number of Samples to Match with `Majority` Class.
+- Combine the `Up Sampled` Data with Orignal `Majority` Class Dataframe.
 
-### 2. Down Sample or Under Sampling Majority Class | Sampling Without Replacement 
-- Randomly **Removing** Majority Class Observations ( Resampling **without** Replacement )
-- Resample Majority Class `without` Replacement, Setting Number of Samples to Match with Minority Class.
-- Combine the Down Sampled Data with Orignal Minority Class Dataframe.
+### 2. Down | Under Sampling Majority Class | Sampling Without Replacement 
+- Randomly **Drop** Majority Class Observations ( Resampling **without** Replacement )
+- Resample Majority Class `without` Replacement, Setting Number of Samples to Match with `Minority` Class.
+- Combine the `Down Sampled` Data with Orignal `Minority` Class Dataframe.
 
 ### B. Change Evaluation Metrics for Better Performance
 - Choosing Right Evaluation Metrics is Important
