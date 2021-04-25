@@ -84,7 +84,7 @@
         <li><a href="#dbscan">DBSCAN</a></li>      
       </ol>
     </td>
-    <td rowspan=3></td>
+    <td></td>
   </tr>
   <tr>
     <th>Dimension Reduction</th>    
