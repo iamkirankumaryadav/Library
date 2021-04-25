@@ -3,8 +3,7 @@
 # NumPy
 - **Numerical** Python | Mathematical Operations | **Element wise** Arithmetic Operations
 - **Array** Processing | **N Dimensional** Array | **Matrix** Data Structure
-- **Statistical** and **Algebraic** Computations
-- **Broadcasting** | Supports **Scientific** and **Financial** Calculations
+- **Statistical** and **Algebraic** Computations | **Broadcasting** | Supports **Scientific** and **Financial** Calculations
 
 <table align="center">
   <tr>
