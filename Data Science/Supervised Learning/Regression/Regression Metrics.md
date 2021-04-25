@@ -51,7 +51,7 @@
 ![MSE](Image/MSE.jpg)
 
 - `Squared` Difference between the **Actual Value** and the **Predicted Value**.
-- **Square** Differences, **Penalizes** even **Samll Error** ( Help to Observe very Small Errors )
+- **Square** Differences, **Penalizes** even `Small` Error.
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
