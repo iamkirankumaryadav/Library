@@ -21,11 +21,11 @@
 - Combine the `Down Sampled` Data with Orignal `Minority` Class Dataframe.
 
 ### B. Change Evaluation Metrics for Better Performance
-- Choosing Right Evaluation Metrics is Important
-- **F1 Score** : Number between 0 and 1 ( Harmonic Mean of Recall and Precision )
+- Choosing Right Evaluation Metrics is Important.
+- **F1 Score** : Number between `0` and `1` ( Harmonic Mean of `Recall` and `Precision` )
 - **Precision** : Focus on **Positive Predictions**
-- **Recall** ( TPR ) : Focus on **Positive Predictions**
-- **F1 Score** is a **Harmonic Mean** of Recall and Precision ( Keep a Balance between Recall and Precision for the **Classifier** )
+- **Recall** ( `TPR` ) : Focus on **Positive Predictions**
+- **F1 Score** is a **Harmonic Mean** of `Recall` and `Precision` ( Keep a `Balance` between `Recall` and `Precision` for the **Classifier** )
 
 ### C. Use Cross Validation 
 - Use **Stratified K Fold Cross Validation** with Equal Class Labels to Train the Model
