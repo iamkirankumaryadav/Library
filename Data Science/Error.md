@@ -66,8 +66,8 @@
 
 ### Note
 
-- R<sup>2</sup> = 0 or R<sup>2</sup> = 1 is very Rare.
-- R<sup>2</sup> Actually Ranges between 0.2 to 0.9
+- R<sup>2</sup> = `0` or R<sup>2</sup> = `1` is very Rare.
+- R<sup>2</sup> Actually Ranges between `0.2` to `0.9`.
 
 ### What is Variability ?
 
