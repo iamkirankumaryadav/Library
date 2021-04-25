@@ -28,14 +28,14 @@
 - **F1 Score** is a **Harmonic Mean** of `Recall` and `Precision` ( Keep a `Balance` between `Recall` and `Precision` for the **Classifier** )
 
 ### C. Use Cross Validation 
-- Use **Stratified K Fold Cross Validation** with Equal Class Labels to Train the Model
+- Use **Stratified K Fold Cross Validation** with Equal Class Labels to Train the Model.
 
 ### D. Use Algorithms that Supports Imbalanced Data Set ( Ensembled Methods )
 
 ### 1. Random Forest Classifier 
-- Parameter **class_weights** : We can Specify a Higher Weight for the **Minority Class**.
+- Parameter `class_weights` : We can Specify a Higher Weight for the **Minority Class**.
 
 ### E. Manual Methods
-- Collect more Data for Minority Class.
+- Collect more Data for `Minority` Class.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
