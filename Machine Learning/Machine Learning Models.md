@@ -364,7 +364,7 @@ B. Divisive
 - There are some Features that brings **Multicollinearity** 
 - Feature **Elimination** | **Feature Selection** or Feature **Extraction**
 - Save Storage and Time by Improving Performance of Model.
-- Due to less number of Features it can be Visualized in 2D and 3D.
+- Due to less number of Features it can be Visualized in `2D` and `3D`.
 - Project Data into Lower Dimension while Preserving as much as Useful Variability ( 19/20 ) as Possible.
 - e.g If we Observe a Scatter Plot in Multidimension it will be Complicated for Understanding. 
 - Consider only 1 Dimension then It is just a Line and few Points in which some are close to Line and some are bit far away from line.
