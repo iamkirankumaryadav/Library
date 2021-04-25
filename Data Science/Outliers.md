@@ -61,10 +61,8 @@ How many **Features** to take into account to **Detect Outliers** ?
 - Horizontal Line on both ends of Boxplots are **Whiskers**.
 - Box is called **Interquartile Range** ( **IQR** ).
 - **IQR = Q3 - Q1** 
-
-> Data Value is considered as **Outlier** 
-- Data Value **<** Q1 - 1.5 * ( **IQR** ) 
-- Data Value **>** Q3 + 1.5 * ( **IQR** ) 
+- Data Value **<** Q1 - 1.5 * **IQR** 
+- Data Value **>** Q3 + 1.5 * **IQR**
 
 > **Outlier** is represented by dot ( **o** ) in **Boxplot**  
 
