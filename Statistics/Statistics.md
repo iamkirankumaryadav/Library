@@ -78,7 +78,7 @@
 
 - Measures the `Direction` ( Positive or Negative ) and `Strength` ( `-1` to `1` ) of **Relationship** between two **Quantitative** Variable.
 - One Variable can Predict the other Variable.
-- Varies between `-1` to `1`
+- Varies between `-1` ( Strong Negative Correlation ) to `1` ( Strong Positive Correlation )
 
 Amount of `R` | Strength of Correlation
 :--- | :---
