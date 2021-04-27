@@ -163,13 +163,12 @@
 
 - **Multiplication** and **Division** will **Contract** or **Expand** on **Y Axis**.
 
-<h3 name='t'>3. T Distribution</h3>
+<h3 name='t'>3. T Distribution ( A Normal Distrbution used for Small Sample Size )</h3>
 
 - **X ~ t ( k )** 
 - Variable **X** follows a **t Distribution** with k **Degree of Freedom**.
 - Most Observations falls close to **Mean**
 - Rest Observations make up the **Tails** on either side.
-- A Normal Distrbution used for **Small Sample Size**.
 - Used for **Hypothesis Testing** with **Limited Data**.
 - **Variance** in the Data is **Unknown**.
 - Tails are Fat at the both ends.
