@@ -184,7 +184,7 @@
 - Rapid changing Event follows **Exponential Distribution**.
 - Very Low Chi<sup>2</sup> : Data fits very well.
 - Very High Chi<sup>2</sup> : Data does not fits well.
-- Test for Independence of two Categorical Variables and returns Probability.
+- Test for Independence of Two `Categorical` Variables and returns `Probability`.
 - Probability = 0 : Categorical Variables are Dependent.
 - Probability = 1 : Categorical Variables are Independent.
 
