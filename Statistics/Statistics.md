@@ -17,12 +17,12 @@
 
 1. **Range** : Max - Min
 
-2. **Standard Deviation** (**S**)
+2. **Standard Deviation** ( **S** )
 - How close the **Data Values** in the Dataset are to the **Mean**
 - **Small** Standard Deviation means low **Variability** | Most of the Data points are close to **Mean**
 - **Large** Standard Deviation means high **Variability** | Most of the Data points are far away from the **Mean**
 
-3. **Variance** (**S**<sup>2</sup>)
+3. **Variance** ( **S**<sup>2</sup> )
 
 ### The **Effect** of **Transforming** Data on **Spread** and **Centre**
 
@@ -134,7 +134,7 @@ Amount of `R` | Strength of Correlation
 
 ![R is Low](Image/R1.png)
 
-### Correlation ( R ) and ( R<sup>2</sup> ) are Different.
+### Correlation ( `R` ) and ( R<sup>2</sup> ) are Different.
 
 ![Difference](Image/RRS.png)
 
