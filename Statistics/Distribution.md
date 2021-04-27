@@ -68,7 +68,7 @@
 
 - **X ~ Bern ( p )**
 - Variable `X` follows a **Bernoulli Distribution** with `p` ( Probability | Likelihood ) of **Success**. 
-- Event with only 1 Trial and 2 Possible Outcomes ( True or False | Yes or No | 1 or 0 ) 
+- Event with only `1` **Trial** and `2` **Possible Outcomes** ( `True` or `False` | `Yes` or `No` | `1` or `0` ) 
 - We know the **Probability** of Outcome.
 - If probability of one outcome is **p**( `1` ) the probability of an other outcome is **1 - p**( `0` ).
 - E ( X ) = p or ( 1 - p ) | p > 1 - p
