@@ -39,7 +39,7 @@
 
 ### Email Marketing
 - Sending `Commercial` Message to the Group of People ( Target Audience ) using `Email`.
-- Information Accumulated from Data Science helps to `Estimate` what Buyers like, How they Like to Shop and When they are likely to make `Purchase`.
+- Information Accumulated helps to `Estimate` what Buyers like, How they Like to Shop and When they are likely to make `Purchase`.
 
 ### Personalized Email
 - Data Science helps to Generate `Targeted` Emails containing Product Suggestions based on Customer Experience.
@@ -50,4 +50,4 @@
 - Adapt and Improve according to Customer Behaviour ( Automatically adjust the Content and Personalization )
 - Relevant **Product Recommendations** ( Specially Recommended Mails )
 
-Google has been able to Improve the User Experience based on Data Collected on Previous Search and Clicks ( Data Science and Machine Learning )
+`Google` has been able to Improve the **User Experience** based on Data Collected on Previous Search and Clicks ( `Data Science` and `Machine Learning` )
