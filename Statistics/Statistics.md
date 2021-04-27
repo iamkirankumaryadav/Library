@@ -38,21 +38,21 @@
 
 -  A Data Value that is numerically **Distant** from a Dataset.
 
-1. Effect on **Mean**
+1. Effect on `Mean`
 -  Heavily affected
 
-2. Effect on **Median**
+2. Effect on `Median`
 -  **Low** or **No** affect on the **Median**
 -  Median only cares about **Centre**.
 
-3. Effect on **Mode**
+3. Effect on `Mode`
 -  **No** affect on the **Mode** 
 -  Mode only cares about **Most Frequent** Data Value.
 
-4. Effect on **Range**
+4. Effect on `Range`
 -  **Heavily** affects the **Range** ( Outlier can be very High ( **Max** ) or Low ( **Min** ) value )
 
-6. Effect on **Standard Deviation**
+6. Effect on `Standard Deviation`
 -  **Heavily** affected because **Mean** is considered while Calculating **Standard Deviation**.
 
 ### Five Number Summary
@@ -60,9 +60,9 @@
 > Divide the Data into 4 Equal Quarters
 
 1. Minimum : **Smallest** value in a Dataset.
-2. 1<sup>st</sup> **Quartile** ( **Q1** ) | 25<sup>th</sup> **Percentile** : 25% of Data Values are smaller and 75% are larger.
-3. 2<sup>nd</sup> **Quartile** ( **Q2** ) | 50<sup>th</sup> **Percentile** : **Median** | 50% of Data Values are smaller and 50% are larger the Median.
-4. 3<sup>rd</sup> **Quartile** ( **Q3** ) | 75<sup>th</sup> **Percentile** : 75% of Data Values are smaller and 25% are larger.
+2. 1<sup>st</sup> **Quartile** ( `Q1` ) | 25<sup>th</sup> **Percentile** : 25% of Data Values are smaller and 75% are larger.
+3. 2<sup>nd</sup> **Quartile** ( `Q2` ) | 50<sup>th</sup> **Percentile** : **Median** | 50% of Data Values are smaller and 50% are larger the Median.
+4. 3<sup>rd</sup> **Quartile** ( `Q3` ) | 75<sup>th</sup> **Percentile** : 75% of Data Values are smaller and 25% are larger.
 5. Maximum : **Largest** Value in a Dataset.
 
 > **Five Number Summary** can be visually represented using **Boxplot**.
