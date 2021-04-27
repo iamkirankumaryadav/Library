@@ -10,10 +10,10 @@
   <tr>
     <td>
       <ol>
-        <li><a href='#uniform'>Uniform</a> : X ~ U ( 3 , 7 )</li>
-        <li><a href='#bernoulli'>Bernoulli</a> : X ~ Bern ( probability )</li>
-        <li><a href='#binomial'>Binomial</a> : X ~ B ( trials , probability )</li>
-        <li><a href='#poisson'>Poisson</a> : X ~ Po ( frquency )</li>
+        <li><a href='#uniform'>Uniform</a> : X ~ U ( 3 , 7 ) Equal Distribution</li>
+        <li><a href='#bernoulli'>Bernoulli</a> : X ~ Bern ( Probability )</li>
+        <li><a href='#binomial'>Binomial</a> : X ~ B ( Trials , Probability )</li>
+        <li><a href='#poisson'>Poisson</a> : X ~ Po ( Frequency )</li>
       </ol>
     </td>
     <td>
