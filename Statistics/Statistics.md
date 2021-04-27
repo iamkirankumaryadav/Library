@@ -68,7 +68,7 @@
 > **Five Number Summary** can be visually represented using **Boxplot**.
 - Horizontal Line on both ends of Boxplots are **Whiskers**.
 - Box is called **Interquartile Range** ( **IQR** ).
-- **IQR = Q3 - Q1** 
+- `IQR` = Q3 - Q1
 
 > Data Value is considered as **Outlier** 
 - Data Value **<** Q1 - 1.5 * ( **IQR** ) 
@@ -97,7 +97,7 @@
 
 - Measures the **Direction** and **Strength** of **Relationship** between two **Quantitative** Variable.
 - One Variable can Predict the other Variable.
-- Varies between -1 to 1
+- Varies between `-1` to `1`
 
 Amount of R | Strength of Correlation
 :--- | :---
