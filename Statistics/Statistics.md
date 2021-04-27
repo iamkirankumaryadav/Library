@@ -33,20 +33,15 @@
 
 -  A Data Value that is numerically **Distant** from a Dataset.
 
-1. Effect on `Mean`
--  Heavily affected
+1. Effect on `Mean` : Heavily affected
 
-2. Effect on `Median`
--  **Low** or **No** affect on the `Median`, Median only cares about **Centre**.
+2. Effect on `Median` : **Low** or **No** affect on the `Median`, Median only cares about **Centre**.
 
-3. Effect on `Mode`
--  **No** affect on the **Mode**, Mode only cares about **Most Frequent** Data Value.
+3. Effect on `Mode` : **No** affect on the **Mode**, Mode only cares about **Most Frequent** Data Value.
 
-4. Effect on `Range`
--  **Heavily** affects the **Range** ( Outlier can be very High ( **Max** ) or Low ( **Min** ) value )
+4. Effect on `Range` : **Heavily** affects the **Range** ( Outlier can be very High ( **Max** ) or Low ( **Min** ) value )
 
-6. Effect on `Standard Deviation`
--  **Heavily** affected because **Mean** is considered while Calculating **Standard Deviation**.
+6. Effect on `Standard Deviation` : **Heavily** affected because **Mean** is considered while Calculating **Standard Deviation**.
 
 ### Five Number Summary
 
