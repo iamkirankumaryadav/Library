@@ -15,7 +15,7 @@
 
 <h3 name='spread'>Measures of Spread</h3>
 
-1. **Range** : Max - Min
+1. **Range** : `Max` - `Min`
 
 2. **Standard Deviation** ( **S** )
 - How close the **Data Values** in the Dataset are to the **Mean**
