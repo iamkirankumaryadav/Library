@@ -67,10 +67,10 @@
 <h3 name='bernoulli'>2. Bernoulli Distribution</h3>
 
 - **X ~ Bern ( p )**
-- Variable **X** follows a **Bernoulli Distribution** with **p** ( probability | likelihood ) of success. 
+- Variable `X` follows a **Bernoulli Distribution** with `p` ( Probability | Likelihood ) of **Success**. 
 - Event with only 1 Trial and 2 Possible Outcomes ( True or False | Yes or No | 1 or 0 ) 
 - We know the **Probability** of Outcome.
-- If probability of one outcome is **p**(1) the probability of an other outcome is **1 - p**(0).
+- If probability of one outcome is **p**( `1` ) the probability of an other outcome is **1 - p**( `0` ).
 - E ( X ) = p or ( 1 - p ) | p > 1 - p
 - **Expected Outcome** Probability of X : **p** | **Alternative Outcome** : **1 - p**
 - Variance : p * ( 1 - p )
