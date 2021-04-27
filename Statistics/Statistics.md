@@ -7,20 +7,15 @@
 
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
-1. **Mean** 
-- Arithmetic average of Data Points.
+1. **Mean** : Arithmetic average of Data Points.
 
-2. **Median**  
-- The Data Value that is in the **Middle** of an **Ordered** Dataset.
-- If Dataset is very large the posistion of **Median** : `( n + 1 ) / 2`
+2. **Median** : **Middle** Data Value of an **Ordered** Dataset | Large Data Set : **Median** Position : `( n + 1 ) / 2`
 
-3. **Mode** 
-- Most Frequently observed or most Occuring **Data Value** | **Data Point**.
+3. **Mode** : Most Frequent | Most Occuring **Data Value** | **Data Point**.
 
 <h3 name='spread'>Measures of Spread</h3>
 
-1. **Range**
-- Max - Min
+1. **Range** : Max - Min
 
 2. **Standard Deviation** (**S**)
 - How close the **Data Values** in the Dataset are to the **Mean**
@@ -76,8 +71,7 @@
 
 > **Outlier** is represented by dot ( **.** ) in **Boxplot** 
 
-### Percentile
-- Describe Percentage ( **%** ) of Data Values that Fall **At** or **Below** another **Data Value**. 
+### Percentile : Describe Percentage ( **%** ) of Data Values that Fall **At** or **Below** another **Data Value**. 
 
 1. 25<sup>th</sup> **Percentile** | 1<sup>st</sup> **Quartile**
 - 25% of Data Points are **as small** or smaller.
