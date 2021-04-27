@@ -37,12 +37,10 @@
 -  Heavily affected
 
 2. Effect on `Median`
--  **Low** or **No** affect on the **Median**
--  Median only cares about **Centre**.
+-  **Low** or **No** affect on the `Median`, Median only cares about **Centre**.
 
 3. Effect on `Mode`
--  **No** affect on the **Mode** 
--  Mode only cares about **Most Frequent** Data Value.
+-  **No** affect on the **Mode**, Mode only cares about **Most Frequent** Data Value.
 
 4. Effect on `Range`
 -  **Heavily** affects the **Range** ( Outlier can be very High ( **Max** ) or Low ( **Min** ) value )
@@ -52,7 +50,7 @@
 
 ### Five Number Summary
 
-> Divide the Data into 4 Equal Quarters
+> Divide the Data into 4 Equal `Quarters`
 
 1. Minimum : **Smallest** value in a Dataset.
 2. 1<sup>st</sup> **Quartile** ( `Q1` ) | 25<sup>th</sup> **Percentile** : 25% of Data Values are smaller and 75% are larger.
@@ -62,7 +60,7 @@
 
 > **Five Number Summary** can be visually represented using **Boxplot**.
 - Horizontal Line on both ends of Boxplots are **Whiskers**.
-- Box is called **Interquartile Range** ( **IQR** ).
+- Box is called **Interquartile Range** ( `IQR` )
 - `IQR` = Q3 - Q1
 
 > Data Value is considered as **Outlier** 
