@@ -50,4 +50,4 @@
 - Adapt and Improve according to Customer Behaviour ( Automatically adjust the Content and Personalization )
 - Relevant **Product Recommendations** ( Specially Recommended Mails )
 
-`Google` has been able to Improve the **User Experience** based on Data Collected on Previous Search and Clicks ( `Data Science` and `Machine Learning` )
+`Google`Improved the **User Experience** based on Data Collected on Previous Search and Clicks ( `Data Science` and `Machine Learning` )
