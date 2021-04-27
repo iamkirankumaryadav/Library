@@ -93,7 +93,7 @@
 - One Variable can Predict the other Variable.
 - Varies between `-1` to `1`
 
-Amount of R | Strength of Correlation
+Amount of `R` | Strength of Correlation
 :--- | :---
 0.0  | No Correlation
 0.1 - 0.3 | Little Correlation
