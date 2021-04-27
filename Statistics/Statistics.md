@@ -60,7 +60,7 @@
 
 ### Percentile : Describe Percentage ( **%** ) of Data Values that Fall **At** or **Below** another **Data Value**. 
 
-1. 25<sup>th</sup> **Percentile** | 1<sup>st</sup> **Quartile**
+1. 25<sup>th</sup> **Percentile** | 1<sup>st</sup> **Quartile** 
 - 25% of Data Points are **as small** or smaller.
 - 75% of Data Points are **as large** or larger.
 
