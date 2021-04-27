@@ -8,9 +8,7 @@
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
 1. **Mean** : Arithmetic `Average` of Data Points.
-
 2. **Median** : **Middle** Data Value of an **Ordered** Dataset | Large Data Set : **Median** Position : `( n + 1 ) / 2`
-
 3. **Mode** : Most Frequent | Most Occuring **Data Value** | **Data Point**.
 
 <h3 name='spread'>Measures of Spread</h3>
@@ -34,13 +32,9 @@
 -  A Data Value that is numerically **Distant** from a Dataset.
 
 1. `Mean` : Heavily affected
-
 2. `Median` : **Low** or **No** affect on the `Median`, Median only cares about **Centre**.
-
 3. `Mode` : **No** affect on the **Mode**, Mode only cares about **Most Frequent** Data Value.
-
 4. `Range` : **Heavily** affects the **Range** ( Outlier can be very High ( **Max** ) or Low ( **Min** ) value )
-
 6. `Standard Deviation` : **Heavily** affected because **Mean** is considered while Calculating **Standard Deviation**.
 
 ### Five Number Summary
