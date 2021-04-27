@@ -51,3 +51,46 @@
 - Relevant **Product Recommendations** ( Specially Recommended Mails )
 
 `Google`Improved the **User Experience** based on Data Collected on Previous Search and Clicks ( `Data Science` and `Machine Learning` )
+
+### Use Cases
+- SEO, SEM, Customer Engagement, Real Time Marketing Campaigns, Digital Advertising, Micro Targeting, Micro Segmentation.
+
+### Customer Segmentation
+- Grouping Customers into Segments according to their Purchase Behavior | Pattern
+- Details about Customers.
+- Find Patterns and Efficient Platforms ( Mobile, Desktop, Tablet )
+- Provide Unique User Experience
+- Real Time Test 
+- React and Respond Immediately
+
+### Predictive Analytics for Customer's Behavior
+- Cluster Models, Predictions, Collaboration Filtering, Regression Analysis ( Identify Correlation Patterns in Customer Behaviour )
+- Predict Future Tendency of Purchasing.
+
+### Predictive Analytics to Bring Right Product to the Market.
+- `Data Visualization` helps to make Right Decision about Product and Services should be Delivered to the Market.
+
+### Predictive Analytics for Targeting
+- Identify Highest Value Customers and Address them with Right Offer on Right Time.
+- Churn Analysis and Reason for Churning.
+
+### Recommendation Engine
+- Personalized User Experience
+- Match Preferences of a Customer with Product Feature.
+- Key Targeted Marketing Tool for `Email` and Online Marketing Campaigns.
+
+### Market Basket Analysis
+- Learn Buying `Patterns` and Predict Future Purchase Decisions.
+
+### Optimizing of Marketing Campaigns
+- Create an Efficient, Customer Oriented, Targeted Marketing Campaign ( Delivering the Right `Message` to Right People at Right Time )
+
+### 1. Choosing Write Tools 
+- Invest Money in those Tools that will Efficiently `Gather` and `Analyze` Data.
+- Integrate Tools with Existing `Systems` and `Data`.
+
+### 2. Measure the Metrics
+- Measure the Parameters comparing them to your `Marketing Goals`.
+
+### 3. Draw Conslusion
+- Right Data based Decisions to make your `Market Campaigns` as Successful as Possible.
