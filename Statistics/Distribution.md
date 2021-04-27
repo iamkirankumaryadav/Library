@@ -87,7 +87,7 @@
 
 - **X ~ Po ( lambda )** 
 - Number of **Occurences**.
-- lambda : **Frequency** with which an **Event** happens or not within a specific interval of **Time**. 
+- `lambda` : **Frequency** with which an **Event** happens within a specific Interval of **Time**. 
 - Number of **Goals** in Football | Number of **Baskets** in Basketball.
 - e.g. a Fire Fly lights up 3 times in 10 Seconds.
 
