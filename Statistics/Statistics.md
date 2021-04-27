@@ -95,9 +95,9 @@ Amount of `R` | Strength of Correlation
 ![Strength of Slope](Image/Strength.png)
 
 ### Test Correlation Coefficient for Significance ( T Test ) 
-- **Null** Hypothesis ( H0 ) : There is **No Linear Relationship**
-- **Alternate** Hypothesis ( H1 ) : There is a **Linear Relationship**
-- P Value is Calculated ( if P Value > 0.05 : Then Accept Null Hypothesis else Reject Null Hypothesis )
+- **Null** Hypothesis ( `H0` ) : There is **No Linear Relationship**
+- **Alternate** Hypothesis ( `H1` ) : There is a **Linear Relationship**
+- P Value is Calculated ( if P Value > `0.05` : Then Accept Null Hypothesis else Reject Null Hypothesis )
 
 ### Multicollinearity
 - Two or More Independent Features **Correlate** Strongly with each other.
