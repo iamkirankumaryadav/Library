@@ -7,7 +7,7 @@
 
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
-1. **Mean** : Arithmetic average of Data Points.
+1. **Mean** : Arithmetic `Average` of Data Points.
 
 2. **Median** : **Middle** Data Value of an **Ordered** Dataset | Large Data Set : **Median** Position : `( n + 1 ) / 2`
 
