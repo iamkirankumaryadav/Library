@@ -110,8 +110,7 @@ Amount of `R` | Strength of Correlation
 
 ### R Squared | R<sup>2</sup>
 
-- How close each Data point **Fits** to **Regression Line**.
-- How well the **Regression Line** predicts **Actual Value**.
+- How close each Data point **Fits** to **Regression Line** | **Regression Line** Predicts **Actual Value**.
 - Value of R<sup>2</sup> lies between `0` and `1`.
 - Closer to 1 : Better the Data Points Fit the **Regression Line**.
 
