@@ -2,6 +2,8 @@
 
 [Back Link](https://backlinko.com/hub/seo/seo-vs-sem)
 
+`89%` of Internet Users **Search Online** before they make a Purchase, even when the Purchase is ultimately made at a Local Business ( Shop )
+
 ### Google Ads
 - Online Advertising Platform Developed by **Google**
 - Advertiser `Bid` to Display Brief Advertisements, Service Offerings, Product Listing or Video to Web Users.
@@ -20,6 +22,32 @@
 - Getting Targeted Traffic to a Website from a Search Engine's Organic Ranking.
 - Helps in Improving a Site's Rankings in `Organic` ( `Non Paid` ) Section of Search Results.
 - Optimize Site for Search Engine ( Google, Bing, Amazon and YouTube )
-- Determine the Best Result ( Most Relevant Search Result )
+- **Determine** the Best Result ( Most Relevant Search Result )
 - Helps to Find Traffic ( What People Search for More )
 
+### SEM : Search Engine Marketing
+- Using `Paid` Strategies to Increase Search Visibility.
+- Brands Pay for `Ads` to Appear as Search Results on Search Engine Result Pages.
+
+### Data Science with SEO
+- Search Engine Watch ( Find the Reason behind the Traffic and Helps in Bringing the Most Relevant Results )
+
+### Machine Learning with SEO
+- `Algorithm` to Calculate **Trends** and **Characteristics** when analyzing SEO.
+- **Pattern Detection** : Identify `Spam` and `Duplicate` Content.
+- Learning about **User Preferences** ( Try to **Identify** what the User Actually wants to `Search` )
+
+### Email Marketing
+- Sending `Commercial` Message to the Group of People ( Target Audience ) using `Email`.
+- Information Accumulated from Data Science helps to `Estimate` what Buyers like, How they Like to Shop and When they are likely to make `Purchase`.
+
+### Personalized Email
+- Data Science helps to Generate `Targeted` Emails containing Product Suggestions based on Customer Experience.
+- Driving Purchases through Targeted Emails ( Sales, Offers and Coupons )
+- e.g I Purchased **Fasttrack** Watch, after that i always `Recieve` a Personalized Email about **New Arrivals** and **New Styles**.
+- Data Scientist gather `Demographic` Data and also Performs A B Testing to Identify which Works Best.
+- `Click Rate` is used to Determine **Email Campaign Performance**.
+- Adapt and Improve according to Customer Behaviour ( Automatically adjust the Content and Personalization )
+- Relevant **Product Recommendations** ( Specially Recommended Mails )
+
+Google has been able to Improve the User Experience based on Data Collected on Previous Search and Clicks ( Data Science and Machine Learning )
