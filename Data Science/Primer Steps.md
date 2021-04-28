@@ -68,13 +68,13 @@
 
 ### 1. Handling Missing Data
 - **Drop** ( Particular **Row** | Entire **Columns** )
-- **Impute** ( Mean | Median | Mode )
+- **Impute** ( Mean | Median | Mode ) ( `Univariate` )
 - **Flag** ( Continuous : 1 or 0 | Categorical : 'Missing' ) 
-- **Predict** from Existing Data
+- **Predict** from Existing Data ( `Multivariate` )
 
 ### 2. Categorical Encoding
-- **Label** Encoding ( **Ordinal** )
-- **One Hot** Encoding | Dummy Encoding ( **Nominal** ) 
+- **Label** Encoding ( `Ordinal` )
+- **One Hot** Encoding | Dummy Encoding ( `Nominal` ) 
 
 ### 3. Variable Transformation
 - Create **Normal Distribution**
