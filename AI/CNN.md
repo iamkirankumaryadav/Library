@@ -76,7 +76,7 @@ e.g.
 
 ### 6. Output Layer
 - `Label` of the `Image` is in form of **One Hot Encoded** ( `One Hot Vector` )
-- `Label` is assigned with each `Image` ( What the Driver is Actually doing in the Vehicle )
+- `Label` is assigned with each `Image` ( What the Driver is Actually doing in the Vehicle ? )
 
 ### Example
 
