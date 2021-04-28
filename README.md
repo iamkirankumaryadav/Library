@@ -90,3 +90,4 @@
 
 - [John Rischin](https://www.linkedin.com/learning/instructors/joshua-rischin)
 - [Chris Dalla Villa](https://www.linkedin.com/learning/instructors/chris-dallavilla)
+- [Michael Taylor](https://www.linkedin.com/learning/instructors/michael-taylor)
