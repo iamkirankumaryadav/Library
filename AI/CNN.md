@@ -52,16 +52,38 @@ e.g.
 - Slide **Filter** | **Kernel** over the Image by a **Stride = 1** until we go through the Whole Image.
 - Uses `ReLu` **Activation Function** to make all **Negative Value** to `Zero`.
 
-### 3. Pooling Layer ( Dimensionality Reduction | Flattens )
+> Parameters 
+
+- `filters` : Number of Filters in Convolution.
+- `kernel_size` : `Size` of Window.
+- `strides` : How Far will Pooling Window Move in one `Step`.
+- `padding` : valid ( no padding ) or `same` ( Add Same Padding from all sides )
+- `input_shape` : Size of Batch or Window.
+- `activation` : Activation Function to be Applied ( e.g. activation = "relu" )
+
+### 3. Batch Normalization ( **Batch** : Train Set )
+- **Stabilize** Learning ( Reduce Number of `Epochs` : One Cycle of Training and Reduce `Time` required to `Train` the **Neural Network** )
+- `Neural Network` becomes `Unbiased` and Optimize the Network by Restricting `Range` of `Weights`.
+- Compute `Mean` and `Standard Deviation` of the Feature in Mini Batch ( x - mean / std )
+- `axis` : Axis to be Normalized.
+- `epsilon` : Add `Variance` to Prevent from Divide by `0` Error.
+
+### 4. Pooling Layer ( Dimensionality Reduction | Flattens )
 - `Pooling` : **Down Samples** the **Spatial Volume** of Input `Image` | **Flattens Input** for Next **Convolution** Layer.  
 - e.g ( Input = ( 1, 10, 64 ) to Output = ( 640 ) i.e 1 x 10 x 64 = 640 )
 - Decreases **Computation Power** to Process Data. 
 - `Max` Pooling : Returns **Maximum** Value from the portion of the **Image**.
 - `Average` Pooling : Returns **Average** Value from the portion of the **Image**.
 
+> Parameters 
+
+- `pool_size` : Window `Size` ( Even if only one Integer is Passed it will be considered for both e.g. If 2 is Passed it is ( 2, 2 ) )
+- `strides` : How Far will Pooling Window Move | Steps.
+- `padding` : valid ( no padding ) or same ( Add Same Padding from all sides )
+
 ![Max Pool](Image/MaxPool.png)
 
-### 4. Fully Connected Layer ( Feed Forward Connected Layers ) + Activation Function ( ReLu )
+### 5. Fully Connected Layer ( Feed Forward Connected Layers ) + Activation Function ( ReLu )
 - The Input to the **Fully Connected Layer** is the output from the **Final Pooling** or **Convolutional Layer**. 
 - Input is **Flattened** and then fed into the **Fully Connected Layer**.
 - Takes **Weighted Sum** of all the **Inputs** from Previous Layer and Generates **Output** for **Last Layer**. 
@@ -71,7 +93,7 @@ e.g.
 - `ReLu` : **Negative Value** to `Zero`
 - `Logistic` : **Binary** Classification `0` or `1` 
 - `Softmax`  : **Multiclass** Classification ( Converts Numbers into Probabilities and the Vector Sum Up to `1` )
-- When all the **Features** are Connected in a **Fully Connected Layer** it can cause **Overfitting**.
+- When all the **Features** are **Connected** in a **Fully Connected Layer** it can cause `Overfitting`.
 - `Dropout` : Few Neurons are **Dropped** Randomly from the **Neural Network** to Prevent from **Overfitting**.
 
 ### 6. Output Layer
