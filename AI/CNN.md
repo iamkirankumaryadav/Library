@@ -58,7 +58,7 @@ e.g.
 - `kernel_size` : `Size` of Window.
 - `strides` : How Far will Pooling Window Move in one `Step`.
 - `padding` : valid ( no padding ) or `same` ( Add Same Padding from all sides )
-- `input_shape` : Size of Batch or Window.
+- `input_shape` : Size of `Batch` or Window.
 - `activation` : Activation Function to be Applied ( e.g. activation = "relu" )
 
 ### 3. Batch Normalization ( **Batch** : Train Set )
