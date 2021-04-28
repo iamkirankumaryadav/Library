@@ -75,7 +75,7 @@ e.g.
 - `Dropout` : Few Neurons are **Dropped** Randomly from the **Neural Network** to Prevent from **Overfitting**.
 
 ### 6. Output Layer
-- The `Label` of the `Image` in form of **One Hot Encoded** ( `One Hot Vector` )
+- `Label` of the `Image` is in form of **One Hot Encoded** ( `One Hot Vector` )
 - `Label` is assigned with each `Image` ( What the Driver is Actually doing in the Vehicle )
 
 ### Example
