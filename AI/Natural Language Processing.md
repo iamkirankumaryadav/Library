@@ -284,9 +284,12 @@ Applied on each Word Individully | Applied to each Training Document
 More Memory Intensive | Less Memory Intensive
 Ideal for Single Word Problems | Ideal for Problems with Multiple Words or Document Files.
 
+### One Hot Vector
+
+![One Hot Vector](Image/OHV.png)
+
 ### BERT 
 - Google's Pre trained **Bidirectional Encoder Representation for Transformers** used for **Transfer Learning**.
-
 
 [Text Classification](https://towardsdatascience.com/text-classification-with-nlp-tf-idf-vs-word2vec-vs-bert-41ff868d1794)
 
