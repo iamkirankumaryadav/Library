@@ -14,9 +14,7 @@
 2. Idea for **Feature Engineering**
 3. **Data Visualization** to Discover **Hidden Patterns** and **Relations** | Spot **Anomalies** | Detect **Outlier** ( **Five Number Summary** | **IQR** )
 4. **Scatter Plot**, **Histogram** and **Boxplot** for **Continuous** Variables ( **Outliers**, **Correlation**, **Measure of Spread** and **Central Tendency** )
-5. **Bar** Plot to know about **Categorical** Variables
-6. **Histogram** to understand **Distribution** of Data
-7. **Heatmap** ( **Correlation** )
+5. **Bar** Plot to know about **Categorical** Variables | **Histogram** to understand **Distribution** of Data | **Heatmap** ( **Correlation** )
 
 ### Ask Questions to Data 
 - How many **Observations** ? ( **Rows** )
