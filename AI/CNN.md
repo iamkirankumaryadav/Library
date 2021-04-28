@@ -68,11 +68,11 @@ e.g.
 - **Connects** Neurons in One Layer to Neurons in Last Layer and **Classify** Images between Different Category.
 
 ### Activation Function : Softmax | Logistic + Dropout
-- **ReLu** : **Negative Value** to **Zero**.
-- **Logistic** : **Binary** Classification ( 0 or 1 )
-- **Softmax**  : **Multiclass** Classification ( Converts Numbers into Probabilities and the Vector Sum Ups to 1 )
+- `ReLu` : **Negative Value** to **Zero**.
+- `Logistic` : **Binary** Classification ( `0` or `1` )
+- `Softmax`  : **Multiclass** Classification ( Converts Numbers into Probabilities and the Vector Sum Ups to 1 )
 - When all the **Features** are Connected in a **Fully Connected Layer** it can cause **Overfitting**.
-- **Dropout** : Few Neurons are **Dropped** Randomly from the **Neural Network** to Prevent from **Overfitting**.
+- `Dropout` : Few Neurons are **Dropped** Randomly from the **Neural Network** to Prevent from **Overfitting**.
 
 ### 6. Output Layer
 - The `Label` of the `Image` in form of **One Hot Encoded** ( One Hot Vectors )
