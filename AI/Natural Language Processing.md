@@ -232,10 +232,10 @@ How to `Remove` Stopwords Using NLTK
 - **Visual** View of the Most Popular Terms.
 
 ### Corpus | Corpora
-- Large Collection of Documents ( Accurate Grammer Phrases ) | Knowledge Base that can be used to infer and Validate Language Rules.
+- Large `Collection` of Documents ( Accurate Grammer Phrases ) | Knowledge Base that can be used to infer and Validate Language Rules.
 
 ### Sparse Matrix
-- A **Matrix** in which most entries are `0` helps in **Efficient Storage**.
+- A `Matrix` in which most entries are `0` helps in **Efficient Storage**.
 - Stores only `Location` of **non zero elements**.
 
 ### Chunking
