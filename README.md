@@ -89,3 +89,4 @@
 ### Linked Learning
 
 - [John Rischin](https://www.linkedin.com/learning/instructors/joshua-rischin)
+- [Chris Dalla Villa](https://www.linkedin.com/learning/instructors/chris-dallavilla)
