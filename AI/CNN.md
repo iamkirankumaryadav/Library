@@ -56,7 +56,7 @@ e.g.
 
 - `filters` : Number of Filters in Convolution.
 - `kernel_size` : `Size` of Window.
-- `strides` : How Far will Pooling Window Move in one `Step`.
+- `strides` : How Far will `Window` | `Filter` Move in one `Step`.
 - `padding` : valid ( no padding ) or `same` ( Add Same Padding from all sides )
 - `input_shape` : Size of `Batch` or Window.
 - `activation` : Activation Function to be Applied ( e.g. activation = "relu" )
