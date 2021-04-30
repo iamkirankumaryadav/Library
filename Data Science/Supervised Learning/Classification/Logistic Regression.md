@@ -2,10 +2,9 @@
 
 # Logistic Regression
 
-- **Classification** Algorithm 
-- Assign Observations to a **Discrete** Set of Classes.
+- **Classification** Algorithm | Assign Observations to a `Discrete` Set of Classes.
 - Predict the `Probability Distribution` of Class.
-- Transforms Output using **Sigmoid** Function to Return a `Probability Distribution` Value which can be mapped to 2 or more **Discrete** classes.
+- Transforms Output using `Sigmoid` Function to Return a `Probability Distribution` Value which can be mapped to 2 or more `Discrete` Classes.
 - Explain Relationship between One Dependent **Binary** Variable and One or more **Nominal**, **Ordinal**, **Interval** or **Ratio** Independent Variable.
 
 ### Logistic Function  | Sigmoid ( S Shaped Curve ) Function
