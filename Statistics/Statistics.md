@@ -13,7 +13,7 @@ When we Start anything we Start from Beginning but with a Data Set we Start from
 2. `Median` : **Middle** Data Value of an **Ordered** Dataset | Large Data Set : **Median** Position : `( n + 1 ) / 2`
 3. `Mode` : Most Frequent | Most Common | Most Occuring **Data Value** | **Data Point**.
 
-<h3 name='spread'>Measures of Spread</h3> ( Relationship of Individual Data Point with it's Mean )
+<h3 name='spread'>Measures of Spread ( Relationship of Individual Data Point with it's Mean )</h3> 
 
 1. `Range` : `Max` - `Min` ( Largest Data Point - Smallest Data Point ) in the Data Set.
 2. `Variance` ( **s**<sup>2</sup> ) : Spread Out between Data Points in a Data Set | Variability from the `Mean`.
