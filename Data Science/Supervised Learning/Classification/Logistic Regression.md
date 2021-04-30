@@ -4,8 +4,8 @@
 
 - **Classification** Algorithm 
 - Assign Observations to a **Discrete** Set of Classes.
-- Predict the **Probability**
-- Transforms its Output using **Sigmoid** Function to Return a **Probability** Value which can be mapped to 2 or more **Discrete** classes.
+- Predict the `Probability Distribution` of Class.
+- Transforms its Output using **Sigmoid** Function to Return a `Probability Distribution` Value which can be mapped to 2 or more **Discrete** classes.
 - Explain Relationship between One Dependent **Binary** Variable and One or more **Nominal**, **Ordinal**, **Interval** or **Ratio** Independent Variable.
 
 ### Logistic Function  | Sigmoid ( S Shaped Curve ) Function
