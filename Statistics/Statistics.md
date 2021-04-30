@@ -160,6 +160,14 @@ Amount of `R` | Strength of Correlation
 ### Sample Space
 - Sum of all **Probabilities** will equal `100%`
 
+### Every Possible Outcomes
+
+1. Permutation : Interested in `Order` 
+- `n!` : n **Factorial** ( 5! : 5 x 4 x 3 x 2 x 1 = 120 )
+-  <sub>n</sub>P<sub>r</sub> `n!` / `(n - r)!`
+
+2. Combinations : Not Interested in `Order`
+
 ![Cards](Image/Cards.jpg)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
