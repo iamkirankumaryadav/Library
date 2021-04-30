@@ -19,6 +19,9 @@
 - **Small** Standard Deviation means low **Variability** | Most of the **Data Points** are `Close` to **Mean**.
 - **Large** Standard Deviation means high **Variability** | Most of the **Data Points** are `Far` from the **Mean**.
 
+### Central Limit Theorem
+- As the **Sample Size** `Increases`, the `Distribution` of **Sample Mean** Approaches a **Normal Distribution**.
+
 ### The **Effect** of **Transforming** Data on **Spread** and **Centre**
 
 - Measures of **Centre** are Affected by every **Mathematical Operations** (+ - * /)
