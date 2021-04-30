@@ -83,9 +83,26 @@ Update : Update Table Set Column1 = Value1, Column2 = Value2 Where Condition;
 
 Delete : Delete From Table Where Column = Value;
 
-Select Top : Select Top 10 * From Table; | Select * From Table Limit = 10;
+### Select Top 
 
-Select Aggregate ( COUNT(), AVG(), SUM(), MIN(), MAX() )  
+```SQL
+SELECT TOP 10 * 
+FROM Table; 
+```
+
+```SQL
+SELECT * 
+FROM Table 
+LIMIT = 10;
+```
+
+### Select Aggregate 
+
+1. COUNT()
+2. AVG()
+3. SUM()
+4. MIN()
+5. MAX() 
 
 ```SQL
 SELECT SUM(Column) AS SumColumn 
