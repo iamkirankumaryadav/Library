@@ -115,30 +115,32 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 
 - A **Hypothesis Test** with a **Normal Distribution** that uses a **Z Statistics**.
 - We use **Z Test** when we have **Large Sample Size** ( **Data Size** > 30 )
-- Data is distributed **Normally**.
-- Data is selected **Randomly**.
-- Standard Normal Distribution ( Mean = 0 and Std = 1 )
+- Used when Data Points are **Independent** and Data is **Normally** Distributed ( Data is Selected Randomly ).
 
 ### 3. T Test
 
 - A **Hypothesis Test** with a **T Distribution** that uses a **T Statistics**.
 - We use **T Test** when we have **Small Sample Size** ( **Data Size** < 30 )
-- Data is **not** distributed Normally.
-- Data is not selected **Randomly**.
+- Data is **not** distributed Normally and Data is not selected **Randomly**.
 - **T Distribution** has **Small Peak** and **Fat Tails**.
+- Used to Compare the `Means` of Two Groups.
+
+### Types of T Test 
+1. One Sample : Groups come from a Same Population ( Compare `Means` and `Standard Deviations` )
+2. Paired Sample : Group from Same Population ( Before and After Experiment )
+3. Two Sample : Groups come from Different Populations ( Two Different People from Two Different Cities )
 
 ### 4. ANOVA Test
 
-- Analysis of Variance
+- Analysis of `Variance`
 - Used to Test Categorical Variable ( Atleast 3 Different Categories )
 - Analyze the Difference between the **Means** of more than Two Groups
 - One Way ANOVA uses one **Independent Variable**
 - Two Way ANOVA uses two **Independent Variables**
 
 ### Assumptions of ANNOVA Test
-- Observations are **Independent**
-- Dependent Feature follows **Normal** Distribution
-- **Variation** for each Group in Category should be **Similar**
+- Observations are **Independent** and **Dependent Feature** follows **Normal** Distribution.
+- **Variation** for each Group in Category should be **Similar**.
 
 ### 5. Assumptions of Linear Regression
 
