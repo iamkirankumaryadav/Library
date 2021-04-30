@@ -9,7 +9,8 @@
 
 ### Logistic Function  | Sigmoid ( S Shaped Curve ) Function
 - Accepts any `Real` Value and Map it into a Value between `0` and `1`
-- The Probability Prediction must be Transformed to Binary | Dichotomous ( `0` and `1` )
+- The Probability Prediction must be Transformed to `Binary` | Dichotomous ( `0` and `1` )
+- Threshold : 0.5 ( Data Point < `0.5` is Considered as `0` else `1` )
 
 ### When to Use Logistic Regression
 - **Binary** Target Variable
