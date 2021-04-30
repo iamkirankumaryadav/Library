@@ -22,6 +22,9 @@
 ### Central Limit Theorem
 - As the **Sample Size** `Increases`, the `Distribution` of **Sample Mean** Approaches a **Normal Distribution**.
 
+### Confidence Interval
+- A `Range` of Value we are sure that our Population `Value` will lies there.
+
 ### The **Effect** of **Transforming** Data on **Spread** and **Centre**
 
 - Measures of **Centre** are Affected by every **Mathematical Operations** (+ - * /)
