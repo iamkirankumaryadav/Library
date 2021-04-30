@@ -1,5 +1,15 @@
 # Data Visualization
 
+### New Data is Generated every Second
+
+### Data is Collected and Stored.
+
+### Charts, Graphs and Tables add Meaning to Data
+
+### Data begins to Tell Some Story
+
+### Data is Illustrated using Visualization
+
 ### Purpose of Visualization
 - Make `Comparison` ( Magnitudes )
 
