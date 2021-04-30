@@ -13,10 +13,9 @@
 - Threshold : 0.5 ( `Probability` < `0.5` is Considered as `0` else `1` )
 
 ### When to Use Logistic Regression
-- **Binary** Target Variable
-- Better to Use with Small Data Set
-- **Fair** Data ( Not to Many Outliers or Missing Data in the Data Set ) 
-- Logistic Regression is good for **Fast Training** ( It is not the Best Performing Data )
+- **Binary** Target Variable | Better to Use with Small Data Set
+- **Fair** Data ( Not to Many `Outliers` or `Missing` Data in the Data Set ) 
+- Logistic Regression is good for **Fast Training** ( It is not the Best Performing Technique )
 
 ### Prepare Data for Logistic Regression
 
