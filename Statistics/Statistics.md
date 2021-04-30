@@ -5,6 +5,10 @@
 
 When we Start anything we Start from Beginning but with a Data Set we Start from `Centre`.
 
+`Sample` is **Representative** of `Population`.
+
+Larger Sample = Greater Accuracy = More Confidence
+
 > Describing **Distributions** using **Numbers**
 
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
@@ -152,6 +156,7 @@ Amount of `R` | Strength of Correlation
 - Gives a **Range** of Values which is likely to contain Population Parameter ( `Prediction` will be True )
 - **Range** of values that you expect your **Estimate** to fall between a certain % of the Time.
 - `Confidence Interval` : `95%` : You are Confident that 95 out of 100 Times the Estimation will Falls within **Confidence Interval** Range.
+- Applications : **Ranking**, **Seating Arrangements** or **Scheduling** ( How many Possible `Outcomes` )
 
 ### Probability
 - `Ratio` of a **Desired Event** to all **Possible Outcomes**.
@@ -167,7 +172,10 @@ Amount of `R` | Strength of Correlation
 -  <sub>n</sub>P<sub>r</sub> = `n!` / `(n - r)!` ( `n` : **Total** Number of Objects | `r` : Number of Objects to be **Selected** )
 -  e.g. 8 Runners and Select Top 3 : <sub>8</sub>P<sub>3</sub> = `8!` / `(8-3)!`
 
-2. Combinations : Not Interested in `Order`
+2. Combinations : Not Interested in `Order` | Random Combinations
+- -  <sub>n</sub>C<sub>r</sub> = `n!` / \[`r!` * `(n - r)!`\] 
+- `n` : **Total** Number of Objects  
+- `r` : Number of Objects to be **Selected** One Time )
 
 ![Cards](Image/Cards.jpg)
 
