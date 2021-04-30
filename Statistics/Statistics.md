@@ -154,8 +154,8 @@ Amount of `R` | Strength of Correlation
 
 ### Confidence Interval ( alpha )
 - Gives a **Range** of Values which is likely to contain Population Parameter ( `Prediction` will be True )
-- **Range** of values that you expect your **Estimate** to fall between a certain % of the Time.
-- `Confidence Interval` : `95%` : You are Confident that 95 out of 100 Times the Estimation will Falls within **Confidence Interval** Range.
+- If your **Prediction** Falls within the `Range` of **Confidence Interval** then it is `True` and Represents the **Population**.
+- `Confidence Interval` : `95%` : You are **Confident** that `95` out of `100` Times the Estimation will Falls within **Confidence Interval** Range.
 - Applications : **Ranking**, **Seating Arrangements** or **Scheduling** ( How many Possible `Outcomes` )
 
 ### Probability
