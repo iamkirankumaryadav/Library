@@ -153,7 +153,13 @@ Amount of `R` | Strength of Correlation
 - **Range** of values that you expect your **Estimate** to fall between a certain % of the Time.
 - `Confidence Interval` : `95%` : You are Confident that 95 out of 100 Times the Estimation will Falls within **Confidence Interval** Range.
 
+### Probability
+- `Ratio` of a **Desired Event** to all **Possible Outcomes**.
+- e.g. Flip a Coin : P(H) : 1 / 2 ( Desired Event ( H ) : Head and All Possible Outcomes : ( H and T ) : Head and Tail )
+
 ### Sample Space
 - Sum of all **Probabilities** will equal `100%`
+
+![Cards](Image/Cards.jpg)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
