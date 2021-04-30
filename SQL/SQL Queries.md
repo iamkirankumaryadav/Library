@@ -1,3 +1,5 @@
+<p align='right'><a href='https://github.com/KIRANKUMAR7296/Library'>Back to Questions</a></p>
+
 # SQL
 
 ### Select All 
@@ -303,3 +305,5 @@ SELECT ProductName, Price
 FROM Product
 WHERE Price > (SELECT AVG(Price) FROM Product);
 ```
+
+<p align='right'><a href='https://github.com/KIRANKUMAR7296/Library'>Back to Questions</a></p>
