@@ -22,6 +22,15 @@
 ### Central Limit Theorem
 - As the **Sample Size** `Increases`, the `Distribution` of **Sample Mean** Approaches a **Normal Distribution**.
 
+### Confidence
+- While **Sampling**, Different `Samples` can be **Randomly** selected from the Same **Population**.
+- Each **Sample** can often produce a Different **Confidence Interval**. 
+- Some **Confidence Intervals** include the True **Population Parameter** ( `Centre` and `Spread` ) and others do not.
+
+### Confidence Level
+- The `Percentage` of all Possible Samples that can be Expected to Include the True Population Parameter. 
+- `95%` **Confidence Level** implies that `95%` of the Confidence Intervals would Include the True **Population Parameter**.
+
 ### Confidence Interval
 - A `Range` of Value we are sure that our Population `Value` will lies there.
 
