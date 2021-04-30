@@ -116,18 +116,18 @@ FROM Table Where Column = A;
 3. Right Join
 4. Full Join | Full Outer Join
 
-### Join 3 Tables : 
-
-```SQL
-SELECT Table1.Column1, Table2.Column2, Table3.Column3 
-FROM ((Table2 INNER JOIN Table1 ON Table1.ID = Table2.ID ) Table3 INNER JOIN Table1 ON Table1.ID = Table3.ID)
-```
-
 ### Inner Join  
 
 ```SQL
 SELECT Table1.Column1, Table1.Column2, Table1.Column3 
 FROM Table1 INNER JOIN Table2 ON Table1.ID = Table2.ID
+```
+
+### Join 3 Tables : 
+
+```SQL
+SELECT Table1.Column1, Table2.Column2, Table3.Column3 
+FROM ((Table2 INNER JOIN Table1 ON Table1.ID = Table2.ID ) Table3 INNER JOIN Table1 ON Table1.ID = Table3.ID)
 ```
 
 # Union
