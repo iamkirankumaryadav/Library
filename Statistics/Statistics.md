@@ -164,7 +164,8 @@ Amount of `R` | Strength of Correlation
 
 1. Permutation : Interested in `Order` 
 - `n!` : n **Factorial** ( 5! : 5 x 4 x 3 x 2 x 1 = 120 )
--  <sub>n</sub>P<sub>r</sub> `n!` / `(n - r)!`
+-  <sub>n</sub>P<sub>r</sub> = `n!` / `(n - r)!` ( `n` : **Total** Number of Objects | `r` : Number of Objects to be **Selected** )
+-  e.g. 8 Runners and Select Top 3 : <sub>8</sub>P<sub>3</sub> = `8!` / `(8-3)!`
 
 2. Combinations : Not Interested in `Order`
 
