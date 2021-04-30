@@ -3,21 +3,24 @@
 # Statistics
 <h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a></h3>
 
+When we Start anything we Start from Beginning but with a Data Set we Start from `Centre`.
+
 > Describing **Distributions** using **Numbers**
 
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
 1. `Mean` : Arithmetic `Average` of Data Points.
 2. `Median` : **Middle** Data Value of an **Ordered** Dataset | Large Data Set : **Median** Position : `( n + 1 ) / 2`
-3. `Mode` : Most Frequent | Most Occuring **Data Value** | **Data Point**.
+3. `Mode` : Most Frequent | Most Common | Most Occuring **Data Value** | **Data Point**.
 
 <h3 name='spread'>Measures of Spread</h3>
 
-1. `Range` : `Max` - `Min`
-2. `Variance` ( **s**<sup>2</sup> ) : Spread between Data Points in a Data Set | Variability from the `Mean`.
+1. `Range` : `Max` - `Min` ( Largest Data Point - Smallest Data Point ) in the Data Set.
+2. `Variance` ( **s**<sup>2</sup> ) : Spread Out between Data Points in a Data Set | Variability from the `Mean`.
 3. `Standard Deviation` ( `s` ) : How close the **Data Points** in the Dataset are to the **Mean**.
 - **Small** Standard Deviation means low **Variability** | Most of the **Data Points** are `Close` to **Mean**.
 - **Large** Standard Deviation means high **Variability** | Most of the **Data Points** are `Far` from the **Mean**.
+4. `Z Score` : Data Point's Distance in **Standard Deviation** from the `Mean`.  (`z` = ( Data Point - `Mean` ) / `Std` )
 
 ### Central Limit Theorem
 - As the **Sample Size** `Increases`, the `Distribution` of **Sample Mean** Approaches a **Normal Distribution**.
