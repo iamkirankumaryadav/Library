@@ -156,7 +156,10 @@ Amount of `R` | Strength of Correlation
 - Gives a **Range** of Values which is likely to contain Population Parameter ( `Prediction` will be True )
 - If your **Prediction** Falls within the `Range` of **Confidence Interval** then it is `True` and Represents the **Population**.
 - `Confidence Interval` : `95%` : You are **Confident** that `95` out of `100` Times the Estimation will Falls within **Confidence Interval** Range.
-- Applications : **Ranking**, **Seating Arrangements** or **Scheduling** ( How many Possible `Outcomes` )
+
+### Confidence Level ( How much Percent Sure you can be ? )
+- `Percentage` of Possibility that the Sample Mean will Represent the True Population.
+- Normally `95%` of **Confidence Level** is Considered. 
 
 ### Probability
 - `Ratio` of a **Desired Event** to all **Possible Outcomes**.
@@ -171,6 +174,7 @@ Amount of `R` | Strength of Correlation
 - `n!` : n **Factorial** ( 5! : 5 x 4 x 3 x 2 x 1 = 120 )
 -  <sub>n</sub>P<sub>r</sub> = `n!` / `(n - r)!` ( `n` : **Total** Number of Objects | `r` : Number of Objects to be **Selected** )
 -  e.g. 8 Runners and Select Top 3 : <sub>8</sub>P<sub>3</sub> = `8!` / `(8-3)!`
+-  Applications : **Ranking**, **Seating Arrangements** or **Scheduling** ( How many Possible `Outcomes` )
 
 2. Combinations : Not Interested in `Order` | Random Combinations
 - -  <sub>n</sub>C<sub>r</sub> = `n!` / \[`r!` * `(n - r)!`\] 
