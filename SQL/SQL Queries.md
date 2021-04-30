@@ -37,20 +37,27 @@ WHERE Column = Value;
 ### Select Between  
 
 ```SQL
-Select * From Table Where Column Between A And B;
+SELECT * 
+FROM Table 
+WHERE Column BETWEEN A AND B;
 ```
 
-Select Like ( Pattern ) :  Select * From Table Where Column Like 'S%' ( Start with S );
+### Select Like ( Pattern )  
 
-'K%'    : Starts with K
-'%K'    : Ends with K
-'%K%'   : K at any Position
-'_K%'   : K at Second Position
-'A___%' : Four Letter Words Starting with A
-'K%V'   : Starting with K and Ending with V
-'[ABC]%': Starting with A, B and C
-'[!AB]%': Not Starting with A and B
---------------------------------------------------------------------------------------
+```SQL
+SELECT * 
+FROM Table 
+WHERE Column LIKE 'S%';
+```
+
+1. 'K%'    : Starts with K
+2. '%K'    : Ends with K
+3. '%K%'   : K at any Position
+4. '_K%'   : K at Second Position
+5. 'A___%' : Four Letter Words Starting with A
+6. 'K%V'   : Starting with K and Ending with V
+7. '[ABC]%': Starting with A, B and C
+8. '[!AB]%': Not Starting with A and B
 
 Select In : Select * From Table Where Column in ('A', 'B');
 
