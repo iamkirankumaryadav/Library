@@ -142,7 +142,7 @@ SELECT Column1, Column2, Column3
 FROM Table2
 ```
 
-### Condition 
+### Union + Condition 
 
 ```SQL
 SELECT Column1, Column2, Column3 
