@@ -153,4 +153,7 @@ Amount of `R` | Strength of Correlation
 - **Range** of values that you expect your **Estimate** to fall between a certain % of the Time.
 - `Confidence Interval` : `95%` : You are Confident that 95 out of 100 Times the Estimation will Falls within **Confidence Interval** Range.
 
+### Sample Space
+- Sum of all **Probabilities** will equal `100%`
+
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
