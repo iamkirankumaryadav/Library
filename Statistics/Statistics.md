@@ -52,6 +52,12 @@ When we Start anything we Start from Beginning but with a Data Set we Start from
 4. `Range` : **Heavily** affects the **Range** ( Outlier can be very High ( **Max** ) or Low ( **Min** ) value )
 6. `Standard Deviation` : **Heavily** affected because **Mean** is considered while Calculating **Standard Deviation**.
 
+### Empirical Rule 
+- Most of the Data Points in a given **Normally Distributed Data Set** fall within `3` **Standard Deviations** of the `Mean`.
+
+### Outlier 
+- A **Data Point** that is an `Abnormal` Distance from the other Values in the Data Set.
+
 ### Five Number Summary
 
 > Divide the Data into 4 Equal `Quarters`
