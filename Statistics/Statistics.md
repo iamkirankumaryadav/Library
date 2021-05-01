@@ -157,7 +157,7 @@ Amount of `R` | Strength of Correlation
 - `Different` **Samples** of `Same` **Population** will give **Different** `Mean` ( Sampling **Error** | **Variation** due to Sampling )
 
 ### Confidence Interval ( alpha )
-- Express a **Range** of Values within which we are Sure that **Population Parameters** lies ( `Prediction` will be True )
+- Express a `Range` of Values within which we are Sure that **Population Parameters** lies ( `Prediction` will be True )
 - Population `Parameters` : `Mean`, `Median`, **Difference** between `Means`, `Range`, `Variance` and `Standard Deviation`. 
 - `Mean` of Population lies between this Interval `Range` ( **Confidence Interval** )
 - `Base` **Estimate** is the **Sample** `Mean` ( Variation and Sample Size affects the Width of **Confidence Interval** )
