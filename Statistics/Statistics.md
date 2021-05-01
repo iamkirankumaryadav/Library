@@ -165,12 +165,12 @@ Amount of `R` | Strength of Correlation
 - `Confidence Interval` : `95%` : You are **Confident** that `95` out of `100` Times the Estimation will Falls within **Confidence Interval** Range.
 
 ### How Variance Affect Confidence Interval ?
-- IF Population contains `Similar` **Data Points** : Variation among **Data Points** will be `Low` | `Small` **Confidence Interval**.
-- Any `Sample` we consider from Population will be Similar to other `Sample`and **Estimation** will be very close to **Population Parameters**. 
-- IF Population contains `Varied` **Data Points** : Variation among **Data Points** will be `High` | Wide Confidence Interval.
-- Different `Sample` from Same Population will Differ more and **Estimation** will not be `Close` to **Population Parameters**. 
+- IF `Population` contains `Similar` **Data Points** : **Variation** among **Data Points** will be `Low` | `Small` **Confidence Interval**.
+- Any `Sample` we consider from `Population` will be Similar to other `Sample`and **Estimation** will be very close to **Population Parameters**. 
+- IF `Population` contains `Varied` **Data Points** : **Variation** among **Data Points** will be `High` | **Wide Confidence Interval**.
+- **Different** `Sample` from `Same` **Population** will Differ more and **Estimation** will not be `Close` to **Population Parameters**. 
 
-### How Sample Size Affects Confidence Interval ?
+### How Sample Size Affect Confidence Interval ?
 - `Small` **Sample Size** Varies more from each other : `Wider` **Confidence Interval**.
 - `More` **Variation** due to **Sampling** or **Sampling Error** with **Small Sample Size**.
 - `Large` **Sample** Reduce **Variation** : `Narrow` **Confidence Interval**.
