@@ -29,6 +29,9 @@
 ### Inferential Statistics
 - **Understand** the Population from the `Sample`.
 - Test `Hypothesis` and **Draw Conclusion** about **Population Parameters** based on a `Sample` taken from Population. 
+- `Sample` is likely to be a **Good Representation** of `Population`.
+- `Sample` will never be a **Perfect Representation** of `Population` ( Sampling Error )
+- Way the Sample is taken Matters ( Unbiased Sampling )
 - Population Parameters ( Mean, Median, Standard Deviation, Difference between Means )
 - Simple Test ( Hypothesis, T test, Chi<sup>2</sup> test )
 - Regression Analysis ( Simple Linear, Multiple Linear and Logistic )
@@ -102,6 +105,7 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 - if P value < alpha ( 0.05 | 5% ) we **remove** that feature. ( **Reject** Null Hypothesis )
 - if P value > alpha ( 0.05 | 5% ) we **keep** that feature. ( **Accept NULL Hypothesis** : **H0** )
 - **P Value** lies between 0 to 1
+- Significance Level : 0.05 or 5%
 - Two Tail Test, Left Tail Test and Right Tail Test
 - **Confidence Interval** : 95% and **Significance Level** as : 5%
 
