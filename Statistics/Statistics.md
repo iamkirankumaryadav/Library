@@ -157,7 +157,7 @@ Amount of `R` | Strength of Correlation
 - `Different` **Samples** of `Same` **Population** will give **Different** `Mean` ( Sampling **Error** | **Variation** due to Sampling )
 
 ### Confidence Interval ( alpha )
-- Expresses a **Range** of Values within which we are Sure that **Population Parameters** lies ( `Prediction` will be True )
+- Express a **Range** of Values within which we are Sure that **Population Parameters** lies ( `Prediction` will be True )
 - Population `Parameters` : `Mean`, `Median`, **Difference** between `Means`, `Range`, `Variance` and `Standard Deviation`. 
 - `Mean` of Population lies between this Interval `Range` ( **Confidence Interval** )
 - `Base` **Estimate** is the **Sample** `Mean` ( Variation and Sample Size affects the Width of **Confidence Interval** )
@@ -177,7 +177,7 @@ Amount of `R` | Strength of Correlation
 - `Large` **Sample** Balance the Unusual Data Points, Similar to each other and **Effect** of Sampling Error is Reduced.
 
 ### Confidence Level ( How much Percent Sure you can be ? )
-- Expresses a **Percentage** which we are Sure that **Population Parameters** lies ( `Prediction` will be True )
+- Express a `Percentage` which we are Sure that **Population Parameters** lies ( `Prediction` will be True )
 - `Percentage` of Possibility that the Sample Mean will Represent the True Population.
 - Normally `95%` of **Confidence Level** is Considered. 
 - `More` Confidence Level : `Wider` Confidence Interval.
