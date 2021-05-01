@@ -152,14 +152,36 @@ Amount of `R` | Strength of Correlation
 ### Covariance  
 - Measures how much two variables vary with each other.
 
+### Sampling Fact 
+- A `Sample` is never a **Perfect Representation** of the `Population`.
+- `Different` **Samples** of `Same` **Population** will give **Different** `Mean` ( Sampling **Error** | **Variation** due to Sampling )
+
 ### Confidence Interval ( alpha )
-- Gives a **Range** of Values which is likely to contain Population Parameter ( `Prediction` will be True )
-- If your **Prediction** Falls within the `Range` of **Confidence Interval** then it is `True` and Represents the **Population**.
+- Expresses a **Range** of Values within which we are Sure that **Population Parameters** lies ( `Prediction` will be True )
+- Population `Parameters` : `Mean`, `Median`, **Difference** between `Means`, `Range`, `Variance` and `Standard Deviation`. 
+- `Mean` of Population lies between this Interval `Range` ( **Confidence Interval** )
+- `Base` **Estimate** is the **Sample** `Mean` ( Variation and Sample Size affects the Width of **Confidence Interval** )
+- If **Prediction** Falls within the `Range` of **Confidence Interval** then it is `True` and Represents the **Population**.
 - `Confidence Interval` : `95%` : You are **Confident** that `95` out of `100` Times the Estimation will Falls within **Confidence Interval** Range.
 
+### How Variance Affect Confidence Interval ?
+- IF Population contains `Similar` **Data Points** : Variation among **Data Points** will be `Low` | `Small` **Confidence Interval**.
+- Any `Sample` we consider from Population will be Similar to other `Sample`and **Estimation** will be very close to **Population Parameters**. 
+- IF Population contains `Varied` **Data Points** : Variation among **Data Points** will be `High` | Wide Confidence Interval.
+- Different `Sample` from Same Population will Differ more and **Estimation** will not be `Close` to **Population Parameters**. 
+
+### How Sample Size Affects Confidence Interval ?
+- `Small` **Sample Size** Varies more from each other : `Wider` **Confidence Interval**.
+- `More` **Variation** due to **Sampling** or **Sampling Error** with **Small Sample Size**.
+- `Large` **Sample** Reduce **Variation** : `Narrow` **Confidence Interval**.
+- `Large` **Sample** Balance the Unusual Data Points, Similar to each other and **Effect** of Sampling Error is Reduced.
+
 ### Confidence Level ( How much Percent Sure you can be ? )
+- Expresses a **Percentage** which we are Sure that **Population Parameters** lies ( `Prediction` will be True )
 - `Percentage` of Possibility that the Sample Mean will Represent the True Population.
 - Normally `95%` of **Confidence Level** is Considered. 
+- `More` Confidence Level : `Wider` Confidence Interval.
+- `Low` Confidence Level : `Narrow` Confidence Interval.
 
 ### Probability
 - `Ratio` of a **Desired Event** to all **Possible Outcomes**.
