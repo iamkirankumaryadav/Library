@@ -27,8 +27,9 @@
 - Variance : Squared Deviations from Mean
 
 ### Inferential Statistics
-- **Understand** the Population from the Sample.
-- Test Hypothesis and Draw Conclusion about Population. 
+- **Understand** the Population from the `Sample`.
+- Test `Hypothesis` and **Draw Conclusion** about **Population Parameters** based on a `Sample` taken from Population. 
+- Population Parameters ( Mean, Median, Standard Deviation, Difference between Means )
 - Simple Test ( Hypothesis, T test, Chi<sup>2</sup> test )
 - Regression Analysis ( Simple Linear, Multiple Linear and Logistic )
 - Correlation 
