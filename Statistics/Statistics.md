@@ -21,7 +21,7 @@ Larger Sample = Greater Accuracy = More Confidence
 
 1. `Range` : `Max` - `Min` ( Largest Data Point - Smallest Data Point ) in the Data Set.
 2. `Variance` ( **s**<sup>2</sup> ) : Spread Out between Data Points in a Data Set | Variability from the `Mean`.
-3. `Standard Deviation` ( `s` ) : How close the **Data Points** in the Dataset are to the **Mean**.
+3. `Standard Deviation` ( `s` ) : Distance of the **Data Points** from the `Mean` in the **Data Set** ( `Sample` )
 - **Small** Standard Deviation means low **Variability** | Most of the **Data Points** are `Close` to **Mean**.
 - **Large** Standard Deviation means high **Variability** | Most of the **Data Points** are `Far` from the **Mean**.
 4. `Z Score` : Data Point's Distance in **Standard Deviation** from the `Mean`.  (`z` = ( Data Point - `Mean` ) / `Std` )
