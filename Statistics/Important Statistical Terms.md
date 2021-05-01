@@ -104,10 +104,9 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 - Determine **Strength** | **Significance** of Research Results in **Hypothesis Test**.
 - if P value < alpha ( 0.05 | 5% ) we **remove** that feature. ( **Reject** Null Hypothesis )
 - if P value > alpha ( 0.05 | 5% ) we **keep** that feature. ( **Accept NULL Hypothesis** : **H0** )
-- **P Value** lies between 0 to 1
-- Significance Level : 0.05 or 5%
-- Two Tail Test, Left Tail Test and Right Tail Test
-- **Confidence Interval** : 95% and **Significance Level** as : 5%
+- **P Value** lies between `0` to `1`.
+- Two Tail Test, Left Tail Test and Right Tail Test.
+- **Confidence Interval** : `95%` and **Significance Level** as : `5%`
 
 **Significance** Level ( **Alpha** )
 - At what point the **Null Hypothesis** is **Rejected**.
