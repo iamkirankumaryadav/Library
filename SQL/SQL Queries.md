@@ -282,17 +282,17 @@ WHERE EXISTS(SELECT Column2 FROM Table2 WHERE Table2.ID = Table1.ID)
 ### Select Any 
 
 ```SQL
-SELECT Column1 
-FROM Table1 
-WHERE Column1ID = ANY(SELECT Column FROM Table2 WHERE Column = 'Value')
+SELECT ProductName
+FROM Products 
+WHERE ProductID = ANY(SELECT ProductID FROM Orders WHERE Quantity = 'Value')
 ```
 
 ### Select All 
 
 ```SQL
-SELECT Column1 
-FROM Table1 
-WHERE Column1ID = ALL(SELECT Column FROM Table2 WHERE Column > 10)
+SELECT ProductName
+FROM Products 
+WHERE ProductID = ALL(SELECT ProductID FROM Orders WHERE Quantity = 'Value')
 ```
 
 ### Select Into 
