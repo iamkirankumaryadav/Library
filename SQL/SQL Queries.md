@@ -40,8 +40,8 @@ WHERE Column = Value;
 
 ```SQL
 SELECT * 
-FROM Table 
-WHERE Column BETWEEN A AND B;
+FROM Students 
+WHERE Age BETWEEN 8 AND 16;
 ```
 
 ### Select Like ( Pattern )  
