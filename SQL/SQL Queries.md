@@ -326,7 +326,8 @@ CASE
     WHEN Quantity = 30 THEN 'Quantity is Matching'
     WHEN Quantity < 30 THEN 'Quantity is Less than 30'
     ELSE 'Quantity is More than 30'
-END AS QuantityMessage
+END 
+AS QuantityMessage
 FROM OrderDetails;
 ```
 
