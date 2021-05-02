@@ -381,7 +381,7 @@ WHERE Price > (SELECT AVG(Price) FROM Product);
 ```SQL
 SELECT * 
 FROM Employees
-WHERE ID IN (SELECT ID FROM Employees WHERE Salary > 50000) ;
+WHERE ID IN (SELECT ID FROM Employees WHERE Salary > 50000);
 ```
 
 ### Extract String
@@ -390,6 +390,18 @@ WHERE ID IN (SELECT ID FROM Employees WHERE Salary > 50000) ;
 SELECT LEFT("Kirankumar Yadav", 10);
 ------------------------------------
 Output : Kirankumar
+
+SELECT RIGHT('Kirankumar Yadav', 5);
+------------------------------------
+Output : Yadav
+
+SELECT MID("Aspiring Data Scientist", 10, 4)
+--------------------------------------------
+Output : Data
+
+SELECT CONCAT("Data ", "Science ", "and ", "Artificial ", "Intelligence")
+-------------------------------------------------------------------------
+Output : Data Science and Artificial Intelligence
 ```   
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
