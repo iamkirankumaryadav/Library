@@ -48,8 +48,8 @@ WHERE Age BETWEEN 8 AND 16;
 
 ```SQL
 SELECT * 
-FROM Table 
-WHERE Column LIKE 'S%';
+FROM Employee 
+WHERE Name LIKE 'K%';
 ```
 
 1. 'K%'    : Starts with K
