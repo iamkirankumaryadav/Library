@@ -109,17 +109,51 @@ FROM Sales
 WHERE State = "Maharashtra" AND ( City = "Mumbai" OR City = "Pune" );
 ```
 
-Select Not : Select * From Table Where Not Column = A;
+### Select Not  
 
-Select Not And : Select * From Table Where Not Column1 = A And Not Column2 = B;
+```SQL
+SELECT * 
+FROM Sales 
+WHERE NOT City = "Mumbai";
+```
 
-Select Order By : Select Column1, Column2 From Table Order By Column1 DESC, Column2 ASC;
+### Select Not And 
 
-Insert : Insert Into Table(Column1, Column2, Column3) Values(Value1, Value2, Value3); 
+```SQL
+SELECT * 
+FROM Sales 
+WHERE NOT City = "Mumbai" AND NOT City = "Pune";
+```
 
-Update : Update Table Set Column1 = Value1, Column2 = Value2 Where Condition;
+### Select Order By  
 
-Delete : Delete From Table Where Column = Value;
+```SQL
+SELECT State, City
+FROM Sales 
+ORDER BY State DESC, City ASC;
+```
+
+### Insert 
+
+```SQL
+INSERT INTO Table(Column1, Column2, Column3) 
+VALUES(Value1, Value2, Value3); 
+```
+
+### Update 
+
+```SQL
+UPDATE Table 
+SET Column1 = Value1, Column2 = Value2 
+WHERE Condition;
+```
+
+### Delete 
+
+```SQL
+DELETE FROM Table 
+WHERE Column = Value;
+```
 
 ### Select Top 
 
@@ -144,7 +178,7 @@ LIMIT = 10;
 
 ```SQL
 SELECT SUM(Column) AS SumColumn 
-FROM Table Where Column = A;
+FROM Table WHERE Column = A;
 ```
 
 # Joins
