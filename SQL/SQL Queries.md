@@ -240,16 +240,16 @@ FROM Table2
 ### Group By 
 
 ```SQL
-SELECT COUNT(ID), Column1 
-FROM Table 
-GROUP BY Column1;
+SELECT Country, COUNT(Customer) 
+FROM Sales 
+GROUP BY Country;
 ```
 
 ```SQL
-SELECT COUNT(ID), Column1 
-FROM Table 
-GROUP BY Column1 
-ORDER BY Count(ID) DESC;
+SELECT Country, COUNT(Customer) 
+FROM Sales 
+GROUP BY Country 
+ORDER BY Count(Customer) DESC;
 ```
 
 ### Join + Group By 
