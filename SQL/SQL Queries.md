@@ -376,4 +376,12 @@ FROM Product
 WHERE Price > (SELECT AVG(Price) FROM Product);
 ```
 
+### Sub Queries | Inner Query | Nested Query
+
+```SQL
+SELECT * 
+FROM Employees
+WHERE ID IN (SELECT ID FROM Employees WHERE Salary > 50000) ;
+```
+
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
