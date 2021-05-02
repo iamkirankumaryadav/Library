@@ -384,4 +384,12 @@ FROM Employees
 WHERE ID IN (SELECT ID FROM Employees WHERE Salary > 50000) ;
 ```
 
+### Extract String
+
+```SQL
+SELECT LEFT("Kirankumar Yadav", 10);
+------------------------------------
+Output : Kirankumar
+```   
+
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
