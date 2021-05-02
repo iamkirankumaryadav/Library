@@ -61,17 +61,53 @@ WHERE Column LIKE 'S%';
 7. '[ABC]%': Starting with A, B and C
 8. '[!AB]%': Not Starting with A and B
 
-Select In : Select * From Table Where Column in ('A', 'B');
+### Select In 
 
-Select Null : Select * From Table Where Column Is Null
+```SQL
+SELECT * 
+FROM Sales 
+WHERE State IN ('Maharashtra', 'Banglore');
+```
 
-Select Not Null : Select * From Table Where Column Is Not Null
+### Select Null 
 
-Select And : Select * From Table Where Column1 = A And Column2 = B;
+```SQL
+SELECT * 
+FROM Shop 
+WHERE Sale IS NULL
+```
 
-Select Or : Select * From Table Where Column1 = A Or Column2 = B;
+### Select Not Null 
 
-Select And + Or : Select And : Select * From Table Where Column1 = A And ( Column2 = B or Column3 = C );
+```SQL
+SELECT * 
+FROM Shop 
+WHERE Sale IS NOT NULL
+```
+
+### Select And 
+
+```SQL
+SELECT * 
+FROM Sales 
+WHERE State = "Maharashtra" AND City = "Mumbai";
+```
+
+### Select Or 
+
+```SQL
+SELECT * 
+FROM Sales 
+WHERE State = "Maharashtra" OR City = "Mumbai";
+```
+
+### Select And + Or 
+
+```SQL
+SELECT * 
+FROM Sales
+WHERE State = "Maharashtra" AND ( City = "Mumbai" OR City = "Pune" );
+```
 
 Select Not : Select * From Table Where Not Column = A;
 
