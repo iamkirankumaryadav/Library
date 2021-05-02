@@ -257,7 +257,7 @@ ORDER BY Count(Customer) DESC;
 ```SQL
 SELECT Table1.Column1, Count(Table1.ID) 
 FROM Table1 LEFT JOIN Table2 ON Table1.ID = Table2.ID 
-GROUP BY Column1
+GROUP BY Column1;
 ```
 
 ### Join + Group By + Having 
