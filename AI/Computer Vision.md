@@ -132,6 +132,30 @@
 - Motion Sensor Cameras to Capture ( Name Plates ) Speeding Vehicles on Expressway
 - Robot Goal Keepers and Constant Football, Basketball and Cricket Monitoring.
 
+### Business Use Cases
+
+1. Visual Search Engines
+- Google Image, Bing and Yahoo Image Search
+- Google Lens ( Detailed Information from the Image
+- Pinterest Lens ( Visual Search for Online Shopping )
+
+2. Face Recognition at Facebook
+- Detect Face and Recognize the Person in an Image or Video.
+- Resognize Facial Expression.
+
+3. Amazon Go Stores
+- Shopping without Queue, Scan and Pay ( QR Code )
+- Motion and Weight Sensors, Cameras and Real Time Product Price Calculation.
+
+4. Tesla Auto Pilot
+- Autonomous Driving ( Eight Panaromic Cameras give 360 Degree Visibility upto 250 meters Range )
+- Ultrasonic Sensors are Installed to Detect Objects.
+- Radar Sensors to Process Information about Surroundings.
+- Adjust Speeds depending on Traffic Conditions, Brakes when approaching Obstacles, Change of Lane and Parking.
+
+5. Microsoft Inner Eye
+- Assist Radiology and Sergons who have to Works Closely for Inner Body Parts.
+- The Technology Presents 3D Models of Tumors ( Measure and Track Size and Spread ) 
 ### Deep Learning ( Convolutional Neural Network CNN )
 
 1. Create a Data Set comprised of Annotated Image or Use Existing One ( Annotation can be Category, Bounding Box and Classes )
@@ -148,3 +172,8 @@ But It is very Costly if we follow a Supervised Approach
 3. CelebFaces Attributes Dataset ( `CelebA` ) : `200K` Celebrity Images.
 4. `Indoor` Scene Recognition : `15,620` Images of Indoor Objects 
 5. `Plant` Image Analysis : `1` Million Images of Plants from 11 Different Species.
+
+### HAAR ( First Real Time Face Detector )
+- Digital Image `Feature` used in Object Recognition.
+- Features represents Edges and Lines.
+- In Case of Face these Features allow for Capturing Important Elements ( Nouse, Mouth, Eyes and Distance between Eye Brows )
