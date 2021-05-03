@@ -2,7 +2,7 @@
 
 # NumPy
 - **Numerical** Python | Mathematical Operations | **Element wise** Arithmetic Operations | Supports **Scientific** and **Financial** Calculations
-- **Array** Processing | **N Dimensional** Array | **Matrix** Data Structure
+- `Array` Processing | `N` **Dimensional** Array | `Matrix` Data Structure
 - **Statistical** and **Algebraic** Computations | **Broadcasting** ( Arithmetic Operations between Array of Different Shapes ) 
 
 <table align="center">
