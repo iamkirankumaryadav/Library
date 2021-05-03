@@ -36,7 +36,7 @@
 </table>
 
 - Ability of a Computer to `Understand`, `Learn`, `Analyze`, `Manipulate`, `Generate`, `Interact` and `Communicate` **Human Language**.
-- Interaction between Computers and Humans using the Natural Language.
+- Interaction between `Computers` and `Humans` using the Natural Language.
 
 <h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
 
