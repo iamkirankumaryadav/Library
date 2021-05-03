@@ -24,6 +24,8 @@
 
 ### [Pandas vs SQL](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html#join)
 
+**Time** Complexity of Occurence of Characters in a String : `O(n)`
+
 ### Model = Algorithm ( Parameters ) + Data
 
 ### Data Pipeline ( Where and How the Data are Collected, Transformed and Loaded ) 
