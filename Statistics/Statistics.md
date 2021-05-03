@@ -19,6 +19,8 @@ Larger Sample = Greater Accuracy = More Confidence
 
 <h3 name='spread'>Measures of Spread ( Relationship of Individual Data Point with it's Mean )</h3> 
 
+How the **Observations** are `Spread` Out or Scattered on each side of the `Center` ( Mean | Median | Mode )
+
 1. `Range` : `Max` - `Min` ( Largest Data Point - Smallest Data Point ) in the Data Set.
 2. `Variance` ( **s**<sup>2</sup> ) : Spread Out between Data Points in a Data Set | Variability from the `Mean`.
 3. `Standard Deviation` ( `s` ) : Distance of the **Data Points** from the `Mean` in the **Data Set** ( `Sample` )
