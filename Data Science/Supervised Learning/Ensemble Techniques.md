@@ -9,7 +9,7 @@ Create Multiple Models and then combine them to Produce **Better** Results ( Hig
 Bagging ( Bootstrap Aggregation ) | Boosting
 :--- | :---
 **Parallel** | **Series**
-Decreases **Variance** ( Solve **Overfitting** ) | Decreases **Bias** ( Improves **Training** )
+Decreases **Variance** ( Solve **Overfitting** ) | Decreases **Bias** ( Improve **Training** )
 Each Model Receives Equal Weight | Models are Weighted based on their **Performance**
 Samples Randomly | Boosting Samples by Increasing Weight for **Wrong** Predictions
 Models are Built **Independently** | New Models are Improved version of Previous Built Models
