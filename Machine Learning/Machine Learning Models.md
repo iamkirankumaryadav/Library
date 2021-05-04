@@ -375,7 +375,7 @@ B. Divisive
 
 - A **Dimensionality Reduction** Method ( Reduce the **Dimensions** of Large Data Sets )
 - **Transforming** a Large Data Set ( More Features ) into Smaller Data Set ( Without Lossing **Accuracy** )
-- Small Data Sets are **Easiy** to **Explore** and **Visualize** and make Analyzing much **Easier** and **Faster** for **ML Algorithms** 
+- Small Data Sets are **Easy** to **Explore** and **Visualize** and make Analyzing much **Easier** and **Faster** for **ML Algorithms** 
 - **Principal Components** are New Variables that are constructed as **Linear Combinations**
 - Combinations are done such a way that New Variables are **Uncorrelated** 
 - Most of Information within the Initial Variables is **Compressed** into **First Components**  
