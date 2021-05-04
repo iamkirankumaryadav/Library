@@ -16,7 +16,7 @@ Models are Built **Independently** | New Models are Improved version of Previous
 Less Time to Train | More Time to Train
 **Easy** to Tune | **Hard** to Tune
 **Hard** to Overfit or **Least** Chance of **Overfitting** | **Easy** to Overfit ( Memorize the Data + Noise )
-Samples are Drawn Randomly with **Replacement** | Every New Samples comprises the Elements that are **Missclassified** by **Previous Models**
+Samples are Drawn Randomly with **Replacement** | Samples are Elements that are **Missclassified** by **Previous Models**
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XGBoost
 
 ![Ensembles](Image/Ensembles.png)
