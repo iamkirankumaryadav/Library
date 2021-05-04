@@ -229,7 +229,7 @@ Handle **Non Linear Data** |
 <h3 name='forest'>4. Random Forests ( Ensemble Learning Technique | Bagging )</h3>
 
 - **Merge** a Collection of Parallel Arranged **Independent Decision Trees** to get more **Accurate** and **Stable** Prediction.
-- Multiple **Decision Trees** ( Weak Learners ) trained **Parallel** and **Individually**. 
+- Multiple **Decision Trees** ( Weak Learners ) trained **Parallel** and **Individually** | **Independently**. 
 - **Bootstrapped Data Sets** of Orignal Data and **Randomly** selecting **Subsets** at each step. ( **Sampling** with **Replacement** )
 - Bagging Technique ( **Multiple** Decision Trees are **Trained** in **Parallel** to Form a **Strong Learner** ) 
 - **Prediction** of Model is based on the **Voting** of Decision Trees Output ( **Majority Voting** )
