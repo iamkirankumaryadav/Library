@@ -33,8 +33,8 @@
 - Row Column Selection and Slicing
 - Filter Data 
 - Data Alignment
-- Merge and Join
-- Group By
+- Merge, Join and Concat
+- Group By and Aggregate
 - Reshaping and Sorting
 - Time Series
 
