@@ -194,7 +194,6 @@
 - **CART** : **C**lassification **A**nd **R**egression **T**ree
 - Growing a Tree means Deciding Which **Feature** to Choose ? and What **Condition** to Use ? for splitting.
 - Continuous can be Converted into Binary or Boolean by Setting **Threshold**.
-
 - We should also know when to **Stop** ( **Max Depth** ) 
 - Decision Tree can be **Pruned** if Necessary to **Avoid Overfitting** 
 
