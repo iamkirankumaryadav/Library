@@ -32,7 +32,7 @@ Loss Function | Cost Function ( Quantifies Error between Predicted Values and Ex
 - **Ideal** Value of `Lambda` produces Model that **Generalizes** Well on **New Unseen Data** ( `Low Bias` and `Low Variance` )
 
 # Elastic Net :
-- Elastic Net combines `L1` and `L2` and does not **Eliminates** Highly Colliner Coefficient ( Slope )
+- Elastic Net combines `L1` and `L2` and does not **Eliminates** Highly Collinear Coefficient ( Slope )
 - `Learning Rate` | Parameter means an **Iterative** Process, Aim is to **Minimize** the `Loss`. 
 - Updates `Slope` and `Intercept` at every Step by reducing the **Loss** | **Cost Function** as much as possible.
 
