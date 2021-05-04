@@ -4,9 +4,9 @@
 
 > `Row` or `Index` or `Record` or `Tuple`
 
-> One Entire **Column** is known as **Field** ( Homogeneous Data )
+> One Entire `Column` is known as `Field` ( Homogeneous Data )
 
-> One Entire **Row** is called as **Record**  ( Heterogeneous Data )
+> One Entire `Row` is called as `Record` ( Heterogeneous Data )
 
 - **Panel** Data ( Tabular Data in **Financial** Terms )
 - Data Analysis Tool ( **Explore**, **Analyze** and **Manipulate** Data )
