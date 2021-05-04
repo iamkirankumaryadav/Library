@@ -29,7 +29,7 @@
 
 - Data is Aligned in Tabular form with **Rows** and **Columns**.
 
-### Important Features of Pandas Linrary
+### Important Features of Pandas Library
 - Row Column Selection and Slicing
 - Filter Data 
 - Data Alignment
