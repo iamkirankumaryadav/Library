@@ -52,7 +52,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - Regressor : **Mean** or **Median** of Output of Every **Decision Trees**
 - Classifier : **Majority Vote** from all **Decision Trees**.
 - Easily Handles **Outliers**, **Missing Data** and **Skewness**.
-- Accept **Continuous** as well as **Ordinal** Inputs.
+- Accept **Continuous** as well as **Categorical** Inputs.
 - Help to Understand **Important Features**. ( Parameter : `feature_importance` )
 
 ### B. Boosting
