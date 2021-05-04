@@ -81,7 +81,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ### 2. Gradient Boosting
 
-- Uses **Gradient Descent Approach**, Minimize a **Loss** Function.
+- Uses **Gradient Descent Approach**, Minimize a **Loss** Function ( Overall Prediction Error )
 - Uses the **Loss Function** of Base Model ( **Decision Tree** ) for Minimizing the **Error** of overall Model.
 - An **Iterative** Approach, **Combine** Weak Learners to Create a **Strong** Learner by Focusing on Mistakes of **Prior Iterations**.
 
@@ -90,8 +90,8 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 ### 3. XGBoost | Extreme Gradient Boosting
 
 - **Regularized** form of **Gradient Boosting**, Uses Advanced **Regularization** ( `L1` and `L2` )
+- Uses **2**<sup>nd</sup> Order **Partial Derivative** for Approximation.
 - **High Performance**, Faster than Gradient Boosting.
-- Uses **2**<sup>nd</sup> Order **Partial Derivative** for Approximation
 - Choose a Better **Learning Rate** that suits our Model.
 - Even Works Better for **Unstructured Data**.
 
