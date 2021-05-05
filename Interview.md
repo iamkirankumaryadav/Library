@@ -26,6 +26,10 @@
 
 **Time** Complexity of Occurence of Characters in a String : `O(n)`
 
+### Log Function
+- `Log` is Inverse of `Exponent`
+- e.g. Base Investment : `5₹` and 5 Times Return : `125₹` ( Log<sub>5</sub> 125 : `3` Years )
+
 ### Model = Algorithm ( Parameters ) + Data
 
 ### Data Pipeline ( Where and How the Data are Collected, Transformed and Loaded ) 
