@@ -102,6 +102,11 @@ Unsupervised | Supervised
 K : Number of **Clusters** | K : Number of **Nearest** Neighbors
 Determine the Distances of Each Data Points to the **Centroid** and Assign each Point to Closest Cluster **Centroid** | **Calculate** Distance between **New** Data Point with **Nearest** K Neighbours.
 
+Variance | Covariance
+:--- | :---
+**Magnitude** | **Magnitude** and **Direction**
+**Data Points** from its `Mean` | Data Points **Varies** with respect to each other
+
 ### Which Algorithm Generates the Best Model ?
 
 Accuracy | Latency
