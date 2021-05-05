@@ -28,7 +28,7 @@
 
 ### Log Function
 - `Log` is Inverse of `Exponent`
-- e.g. Base Investment : `5₹` and 5 Times Return : `125₹` ( Log<sub>5</sub> 125 : `3` Years | 5<sup>3</sup> : 125 )
+- e.g. Base Investment : `5₹` and 5 Times Return : `125₹` ( Log<sub>5</sub> 125 : `3` Years | Log<sub>5</sub> 5<sup>3</sup> : 3 i.e. Log<sub>5</sub>5<sup>3</sup> = `1` * 3)
 
 ### Model = Algorithm ( Parameters ) + Data
 
