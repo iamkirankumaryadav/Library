@@ -26,7 +26,7 @@ Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> | Loss + lambda
 Sum of `Absolute` of Coefficient ( Weights ) | Sum of `Square` of Coefficients | Mix of `Absolute` and `Square`
 Can lead Coefficient to **Exactly** `Zero` | **Minimize** Coefficient but not `Zero`
 Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
-**Manhattan** Distance | **Euclidean** Distance ( Shortest Path )
+**Manhattan** Distance ( Sum of All Path ) | **Euclidean** Distance ( Shortest Path )
 
 Loss Function | Cost Function ( Quantifies Error between Predicted Values and Expected Values )
 
