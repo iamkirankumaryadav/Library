@@ -92,3 +92,4 @@
 - [Chris Dalla Villa](https://www.linkedin.com/learning/instructors/chris-dallavilla)
 - [Michael Taylor](https://www.linkedin.com/learning/instructors/michael-taylor)
 - [Bill Shander](https://www.linkedin.com/learning/instructors/bill-shander) ( Data Visualization )
+- [Curt Frye](https://www.linkedin.com/learning/instructors/curt-frye)
