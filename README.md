@@ -94,3 +94,6 @@
 - [Bill Shander](https://www.linkedin.com/learning/instructors/bill-shander) ( Data Visualization )
 - [Curt Frye](https://www.linkedin.com/learning/instructors/curt-frye)
 - [Robin Hunt](https://www.linkedin.com/learning/instructors/robin-hunt) ( Data Analytics )
+- [Nick Brazzi](https://www.linkedin.com/learning/instructors/nick-brazzi) ( Productivity )
+- [Jess Stratton](https://www.linkedin.com/learning/instructors/jess-stratton) ( Productivity )
+- [Garrick Chow](https://www.linkedin.com/learning/instructors/garrick-chow) ( Productivity and Mobile )
