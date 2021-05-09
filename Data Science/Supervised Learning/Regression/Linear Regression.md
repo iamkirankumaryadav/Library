@@ -22,7 +22,7 @@
 - **Measure** the Influence of One or More Independent Variable on Dependent Variable.
 - **Predict** the Value of a **Feature** based on the Value of Another Feature.
 - The Parameters `m` and `c` are **learnt** by the **Algorithm** based on the **Data Point** pairs of ( x, y )
-- There are few **Statistical Assumptions** aswell for **Linear Regression**. <a href="#ass">Assumptions</a>
+- There are few **Statistical** <a href="#ass">Assumptions</a> as well for **Linear Regression**. 
 - Also there are ways to **Evaluate** how **Good** our **Model** learnt from the **Data**, using **RMSE** and **R**<sup>2</sup>.
 
 
