@@ -119,7 +119,7 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
 
 # Preparing Data for Linear Regression
 
-<h3 name='ass'>Assumptions<h3>
+<h3 name='ass'>Assumptions</h3>
   
 - **Linearity** : There should be **Linear Relationship** between **Dependent Variable** and **Independent Variables**
 - **Independence** : **Residuals** | **Errors** should be **Independent** of each other.
