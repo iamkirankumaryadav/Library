@@ -136,7 +136,8 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
 
 ![Homoscedasticity](Image/Homo.png)
 
-- **Multicollinearity** : Two or more **Independent** Variables **Correlate** strongly with each other. ( Age - DOB )
+- **Multicollinearity** : Two or more **Independent** Variables **Correlate** strongly with each other. 
+- e.g. Experience vs Salary, Height vs Weight, Age of Car vs Car Price.
 - Observations and Features should be **Independent**  
 
 ### Covariance
