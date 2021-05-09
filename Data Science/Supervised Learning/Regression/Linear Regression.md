@@ -17,10 +17,14 @@
 
 ![Regression Line](Image/RegressionLine.png)
 
-- **Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** ( `Slope` and `Intercept` )
+- **Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** ( `Slope` : `m` and `Intercept` : `c` )
 - **Predict** Dependent Variable based on One or More Independent Variables.
 - **Measure** the Influence of One or More Independent Variable on Dependent Variable.
 - **Predict** the Value of a **Feature** based on the Value of Another Feature.
+- The Parameters `m` and `c` are **learnt** by the **Algorithm** based on the **Data Point** pairs of ( x, y )
+- There are few **Statistical Assumptions** aswell for **Linear Regression**. <a href="#ass">Assumptions</a>
+- Also there are ways to **Evaluate** how **Good** our **Model** learnt from the **Data**, using **RMSE** and **R**<sup>2</sup>.
+
 
 ### Y = B1 * X  + B0 or y = m * x + c
 
@@ -120,9 +124,9 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
 - **Linearity** : There should be **Linear Relationship** between **Dependent Variable** and **Independent Variables**
 - **Independence** : **Residuals** | **Errors** should be **Independent** of each other.
 - **Normality** : **Errors** | **Residuals** of the **Data** should be **Normally Distributed**. 
-- There should be Minimal **Multicollinearity** between **Independent Variables**
-- Error should be **Normally** Distributed ( P Value > 0.05  ) | Quantile Quantile Point : Data Points should be Close to Line
-- **Homoscedasticity** : **Variance** around the **Regression Line** should be **Same** for all values of the **Independent Variable**
+- There should be Minimal **Multicollinearity** between **Independent Variables**.
+- Error should be **Normally** Distributed ( P Value > 0.05  ) | Quantile Quantile Point : **Data Points** should be **Close** to **Line**.
+- **Homoscedasticity** : **Variance** around the **Regression Line** should be **Same** for all values of the **Independent Variable**.
 
 ![Error Normal Distribution](Image/ErrorDistribution.png)
 
