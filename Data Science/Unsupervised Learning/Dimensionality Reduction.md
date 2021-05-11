@@ -3,7 +3,9 @@
 # Dimensionality Reduction
 
 `Unsupervised` Machine Learning. 
+
 Number of **Features** ( `Columns` ) should be Low as compared to the number of **Observations** ( `Rows` ) in your Dataset. 
+
 Certain Algorithms Struggles to **Train** Effective Models ( Especially Algorithms which consist `Distance` Calculations )
 
 ### Feature Selection
