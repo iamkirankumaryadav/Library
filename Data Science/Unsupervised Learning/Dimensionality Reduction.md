@@ -29,30 +29,30 @@ e.g ( If a Public Health Data set contains 96% of Observations where for `35 Yea
 - Remove Highly Correlated Features ( Multicollinearity )
 - **Highly Correlated** Data provides **Redundant** Information
 
-### Linear Discriminant Analysis 
-- Supervised Algorithm
-- Seperate Classes
-- Works better with Large Data Set
+### Linear Discriminant Analysis ( LDA ) : Supervised
 
-### Principle Component Analysis ( PCA )
-- Dimensionality Reduction Method ( Reduce Dimensions of Large Data Sets, Explains Variance and Minimize **Correlation** )
+- `LDA` is used Especially for `Categorical` Data.
+- Seperate `Classes` | `Labels`.
+- Works better with Large Data Set.
+
+### Principle Component Analysis ( PCA ) : Unsupervised
+
+- Dimensionality Reduction Method ( Reduce `Dimensions` of Large Data Sets, Explains `Variance` and Minimize `Correlation` )
 - **Transforming** Large Set of Variables into Small without **Loss** of any Information in Large Dataset.
 - Reducing the Number of **Variables** of a Data Set.
-- Linear Combination of Orignal Features 
-- PCA is used for Numerical Data only
-- Divide the Variables into **Groups** ( High Correlated and Less Correlated ) 
+- `PCA` is used for `Numerical` Data only.
 
 ### Auto Encoder
 - `Unsupervised` Learning Method
 - Type of Artificial Neural Network
-- Learn | Discover the **Representation** | **Structure** of Data Set
-- Ignore Noise in Data 
+- Learn and Discover the **Representation** and **Structure** of Data Set.
+- Ignore Noise in Data. 
 
-### Applications of autoencoders include:
+### Applications of Auto Encoders include:
 
-1. Anomaly detection
+1. Anomaly detection.
 2. Removine Noise from Data ( Images, Audio )
 3. Image Inpainting | Conservation | Restoration ( **Reconstructing** Missing Part of an Image )
-4. Information Retrieval
+4. Information Retrieval.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
