@@ -10,8 +10,8 @@ Certain Algorithms Struggles to **Train** Effective Models ( Especially Algorith
 
 ### Feature Selection
 
-- Select only **Relevant** Features that make Impact on Target Variable.
-- Filter Irrelevant or Redundant Features from your Dataset
+- `Select` only **Relevant** Features that make Impact on Target Variable.
+- `Filter` Irrelevant or Redundant Features from your Dataset.
 
 ### Feature Extraction
 - Create a New Data Set with Relevant Features that Captures most of the **Information** and **Insights** 
