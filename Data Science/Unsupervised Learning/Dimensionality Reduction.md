@@ -26,7 +26,7 @@ Certain Algorithms Struggles to **Train** Effective Models ( Especially Algorith
 e.g ( If a Public Health Data set contains 96% of Observations where for `35 Years Old Men`, then `Age` and `Gender` Features can be Eliminated )
 
 ### Correlation Threshold
-- Remmove Highly Correlated Features ( Multicollinearity )
+- Remove Highly Correlated Features ( Multicollinearity )
 - **Highly Correlated** Data provides **Redundant** Information
 
 ### Linear Discriminant Analysis 
