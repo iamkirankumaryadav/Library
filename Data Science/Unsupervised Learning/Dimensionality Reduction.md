@@ -2,7 +2,7 @@
 
 # Dimensionality Reduction
 
-- Unsupervised Machine Learning 
+- `Unsupervised` Machine Learning 
 - When the Number of **Features** is very large relative to the number of **Observations** in your Dataset 
 - Certain Algorithms Struggles to **Train** Effective Models ( Especially Algorithms which consist Distance Calculations )
 
@@ -11,7 +11,7 @@
 - Select only **Relevant** Features that make Impact on Target Variable.
 - Filter Irrelevant or Redundant Features from your Dataset
 
-### Faeture Extraction
+### Feature Extraction
 - Create a New Data Set with Relevant Features that Captures most of the **Information** and **Insights** 
 
 ### Key Difference between Feature Selection and Feature Extraction
