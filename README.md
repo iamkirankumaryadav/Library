@@ -97,4 +97,5 @@
 - [Nick Brazzi](https://www.linkedin.com/learning/instructors/nick-brazzi) ( Productivity )
 - [Jess Stratton](https://www.linkedin.com/learning/instructors/jess-stratton) ( Productivity )
 - [Garrick Chow](https://www.linkedin.com/learning/instructors/garrick-chow) ( Productivity and Mobile )
-- [Adam Wilbert](https://www.linkedin.com/learning/instructors/adam-wilbert) ( Database and SQL )
+- [Adam Wilbert](https://www.linkedin.com/learning/instructors/adam-wilbert) ( `Database` and `SQL` )
+- [David Rivers](https://www.linkedin.com/learning/instructors/david-rivers) ( `Microsoft` and `Google` Productivity )
