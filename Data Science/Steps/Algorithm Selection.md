@@ -33,7 +33,7 @@ Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
 
 Bagging | Boosting
 :--- | :---
-Reduce Chance of **Overfitting** | Improve the **Prediction** | **Classification** of Model
+Reduce Chance of **Overfitting** | Improve the **Prediction** \| **Classification** of Model
 Trains Large Number of `Strong` Learners in `Parallel` | Trains a Large number of `Weak` Learners in `Sequence`
 Combines all Strong Learners for Predictions | Combines **Weak** Learner into **One Strong Learner** 
 Uses `Complex Base Models` and tries to `Smooth out` their Predictions | Uses `Simple Base Models` and tries to `Boost` their Aggregate complexity
