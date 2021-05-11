@@ -35,8 +35,7 @@ Bagging | Boosting
 :--- | :---
 Reduce Chance of **Overfitting** | Improve the **Prediction** \| **Classification** of Model
 Trains Large Number of `Strong` Learners in `Parallel` | Trains a Large number of `Weak` Learners in `Sequence`
-Combines all Strong Learners for Predictions | Combines **Weak** Learner into **One Strong Learner** 
-Uses `Complex Base Models` and tries to `Smooth out` their Predictions | Uses `Simple Base Models` and tries to `Boost` their Aggregate complexity
+Uses `Complex Base Models` and tries to `Simplify` their Predictions | Uses `Simple Base Models` and tries to `Improve`
 Each `Tree` is `Random` Subset of Features ( **Feature Selection** ) and Observations ( **Resmapling** ) | Each Tree in the `Sequence` tries to `Correct` the Prediction Errors of the Previous Tree 
 Don't have many Complicated Parameters to Tune | More Complicated to Tune
 
