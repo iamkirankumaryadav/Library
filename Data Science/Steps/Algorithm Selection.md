@@ -18,9 +18,9 @@
 
 > Loss = Sum of Square **Residual** ( Actual - Prediction ) <sup>2</sup> 
 
-LASSO | Ridge | Elastic
+LASSO ( `L1` ) | Ridge ( `L2` ) | Elastic ( `L1` + `L2` )
 :--- | :--- | :---
-Least Absolute Shrinkage and Selection Operator ( L1 ) | Mountain Ridges ( L2 ) | Between L1 and L2 
+Least Absolute Shrinkage and Selection Operator | Mountain Ridges | Between LASSO and Ridge  
 Loss + lambda * \| slope \| | Loss + lambda *  ( slope ) <sup>2</sup> | Loss + lambda1 * \| slope \| + lambda2 * ( slope ) <sup>2</sup>
 `Absolute` of Coefficient | `Square` of Coefficients | Mix of `Absolute` and `Square`
 Can lead Coefficient to Exactly Zero | Lead to Small Coefficient but not Zero | No Zero 
