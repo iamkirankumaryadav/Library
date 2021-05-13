@@ -16,7 +16,7 @@ Rows : Observations and Column : Feature.
 
 ### It is **Better** to Keep Data than to **Drop** it, Removing Data may lead to **Loss** of **Important Information**.
 
-<h3 name="impute"> 2. Impute | Fill ( fillna( ) )</h3>
+<h3 name="impute"> 2. Impute ( fillna( ) )</h3>
 
 - **Fill** | **Impute** the `Numerical` **Missing Data** with **Mean** or **Median** ( **Univariate** Imputation ) 
 - **Fill** | **Impute** the `Categorical` **Missing Data** with **Mode** or **Most Frequent** (  **Univariate** Imputation ) 
