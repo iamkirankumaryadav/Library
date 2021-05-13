@@ -81,11 +81,12 @@
 <h3 name="pipe"> NLP Pipeline </h3>
 
 1. Read **Raw** Text
-2. Remove `Punctuation`
-3. Remove `Stopwords`
-4. Stemming | Lemmatizing
-5. `Vectorize` Data to Prepare for Model Built ( Feature Vector )
-6. **Feature Engineering** ( **Creating** New Feature or **Transforming** Existing Features to get most out of Data )
+2. Apply `Tokenization`
+3. Remove `Punctuation`
+4. Remove `Stopwords`
+5. Stemming | Lemmatizing
+6. `Vectorize` Data to Prepare for Model Built ( Feature Vector )
+7. **Feature Engineering** ( **Creating** New Feature or **Transforming** Existing Features to get most out of Data )
 
 <h3 name="token"> Tokenization </h3>
 
