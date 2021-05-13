@@ -33,19 +33,18 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 <h3 name="dbscan"> ( DBSCAN ) | Density Based Spatial Clustering of Applications with Noise</h3>
 
-- **Clustering** methods are useful tools that helps us to **Visualize** and **Understand** Data better.
+- **Clustering** methods are useful tools that helps us to `Visualize` Data and Outliers.
 - Relationships between **Features** can be represented via **Clustering**.
-- **DBSCAN** is a **Density Based Clustering Algorithm**, it is focused on finding **Neighbors** by **Density**.
-- Outlier lies in No Cluster it is Seperate from every other Data point.
+- **Density Based Clustering Algorithm**, it is focused on finding **Neighbors** by **Density**.
+- `Outlier` lies in No Cluster it is Seperate from every other Data point.
 
 ### How to Deal with Outliers ?
 
-1. Setup a **Filter** and **Trim** Data Set.
-2. Remove the Outlier if it is very Small.
+1. Setup a `Filter` and `Trim` Data Set ( df\[(\[df\["Age"] >= 18]) & (df\["Age"] <= 44])]  )
+2. Remove the `Outlier` if it is very Small, Change the Value of `Outlier` or Replace it with something Meaningful.
 3. **Inter Quartile** Range ( `IQR` ) 
-4. Change the Value of Outlier or Replace it with something Meaningful.
-5. `Rescale` Data or Standardize.
-6. Apply Ensemble Learning Techniques ( Bagging and Boosting )
+5. `Rescale` Data | Standardize | Normalize ( Bring to Same Scale )
+6. Apply `Ensemble` Learning Techniques ( `Bagging` and `Boosting` )
 
 <h3 name="summary"> Five Number Summary</h3>
 
