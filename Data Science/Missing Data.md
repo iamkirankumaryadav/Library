@@ -2,7 +2,7 @@
 
 # How to Deal with Missing Data ?
 
-**Missing Data** : NAN, nan, NaN ( Ignored while **Arithmetic Operations** )
+**Missing Data** : NULL | NAN | nan | NaN ( Ignored while **Arithmetic Operations** )
 
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
