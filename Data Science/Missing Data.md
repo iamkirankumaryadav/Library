@@ -4,13 +4,14 @@
 
 **Missing Data** : `NULL` | `NAN` | `nan` | `NaN` ( Ignored while **Arithmetic Operations** )
 
+Rows : Observations and Column : Feature.
+
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
 <h3 name="del"> 1. Drop ( dropna( ) )</h3>
 
-- **Drop** Particular **Row** | **Observation** if it has a `NULL` value for Particular **Feature**. ( Rows of Missing Data < `5%` | `axis = 0` )
-- **Drop** Particular **Column** ( **Missing Values** > `70%` | `axis = 1` )
-- **Drop** if the **Observations** | **Rows** of **Missing Data** < `5%`.
+- `Drop` Particular **Observation** if it has a `NULL` value for Particular **Feature**. ( Rows of `Missing` Data < `5%` | `axis = 0` )
+- `Drop` Particular **Column** ( **Missing Values** > `70%` | `axis = 1` )
 - Deleting an Irrelevant **Rows** or **Columns** helps to get a **Robust Model**.
 
 > But it is **Better** to Keep Data than to **Discard** it, Removing Data may lead to **Loss** of **Important Information**.
