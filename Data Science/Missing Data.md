@@ -43,8 +43,8 @@ Rows : Observations and Column : Feature.
 
 <h3 name="predict"> 4. Predict Missing Value</h3>
 
-- **Fill Missing Data** with the Help of other **Features** | **Columns** by **Predicting** ( **Multivariate** Imputation ) 
-- **Continuous** and **Categorical** Data can be used for **Prediction** and **Classification**.
+- `Fill` **Missing Data** with the Help of other **Features** by **Predicting** ( **Multivariate** Imputation ) 
+- `Continuous` and `Categorical` Data can be used for `Prediction` and `Classification`.
 - **Interpolation** : **Predict Missing Data** with the Range of **Date** and **Time** ( Time Series Data ) 
 - This method will bring **Better Accuracy**. 
 
