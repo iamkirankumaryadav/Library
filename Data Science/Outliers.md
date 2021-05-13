@@ -40,9 +40,9 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 ### How to Deal with Outliers ?
 
-1. Setup a `Filter` and `Trim` Data Set ( df\[(\[df\["Age"] >= 18]) & (df\["Age"] <= 44])]  )
+1. Setup a `Filter` and `Trim` Data Set.
 2. Remove the `Outlier` if it is very Small, Change the Value of `Outlier` or Replace it with something Meaningful.
-3. **Inter Quartile** Range ( `IQR` ) 
+3. **Inter Quartile** Range ( `IQR` ) and Extreme Value Analysis ( `Z Score` )
 5. `Rescale` Data | Standardize | Normalize ( Bring to Same Scale )
 6. Apply `Ensemble` Learning Techniques ( `Bagging` and `Boosting` )
 
