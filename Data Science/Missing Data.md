@@ -21,7 +21,7 @@ Rows : Observations and Column : Feature.
 - `Impute` the `Numerical` **Missing Data** with `Mean` or `Median` ( **Univariate** Imputation ) 
 - `Impute` the `Categorical` **Missing Data** with `Mode` or **Most Frequent** (  **Univariate** Imputation ) 
 - `SimpleImputer()` is used to `Fill` the Missing Value ( **Univariate Imputation** ) 
-- `fit()` : Learn the Value to be Imputed and `transform()` : Fill the Missing Values.
+- `fit()` : Learn the Values ( `Mean`, `Median`, `Mode` ) to be Imputed and `transform()` : `Fill` the Missing Values.
 - `KNNImputer()` : **Fill Missing Data** with the Help of **Nearest Neighbors**.
 - `IterativeImputer()` : 
 - Prevent from Data Loss but can cause **Data Leakage**.
