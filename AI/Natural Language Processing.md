@@ -47,7 +47,7 @@
 - **Analyze** and **Understand** Text Data + Derive **Meaningful Information** from Natural Language ( `Text` and `Speech` )
 
 ### Types of Text Data 
-- Web, Blogs, Comments, Reviews and Notes.
+- Web, Blogs, Articles, Comments, Reviews and Notes.
 - Social Media : Messages, Hashtags, Reference.
 - Operations : Logs and Trails.
 - Emails ( Spam or Ham )
