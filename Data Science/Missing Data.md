@@ -45,8 +45,7 @@ Rows : Observations and Column : Feature.
 
 - `Fill` **Missing Data** with the Help of other **Features** by **Predicting** ( **Multivariate** Imputation ) 
 - `Continuous` and `Categorical` Data can be used for `Prediction` and `Classification`.
-- **Interpolation** : **Predict Missing Data** with the Range of **Date** and **Time** ( Time Series Data ) 
-- This method will bring **Better Accuracy**. 
+- `Interpolation` : `Predict` **Missing Data** with the Range of `Date` and `Time` ( Time Series Forecasting ) 
 
 <h3 name="algo"> 5. Use Algorithm which Supports Missing Values</h3>
 
@@ -55,7 +54,7 @@ Rows : Observations and Column : Feature.
 - **KNN** fills **Missing Value** by taking the **Majority** of the **K Nearest** Values.
 - **Random Forest** works well on **Non Linear** and **Categorical Data**.
 
-> **Domain Knowledge** can also help us to Deal with the **Missing Data**.
+### Domain Knowledge can also help us to Deal with the Missing Data.
 
 ```python
 from sklearn.linear_model import LinearRegression
