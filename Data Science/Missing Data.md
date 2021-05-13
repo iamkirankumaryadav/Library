@@ -26,6 +26,10 @@ Rows : Observations and Column : Feature.
 - `IterativeImputer()` : 
 - Prevent from Data Loss but can cause **Data Leakage**.
 
+### Data Leakage 
+- `Sensitive` Information is shared with an `Unauthorized` User.
+- Accidently Sharing Data between the `Train` and `Test` Set.
+
 ### Disadvantage
 
 - Changes the `Distribution` of Dataset ( `Mean`, `Median`, `Variance` and `Standard Deviation` )
