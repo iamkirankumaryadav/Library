@@ -18,9 +18,9 @@ Rows : Observations and Column : Feature.
 
 <h3 name="impute"> 2. Impute ( fillna( ) )</h3>
 
-- **Fill** | **Impute** the `Numerical` **Missing Data** with **Mean** or **Median** ( **Univariate** Imputation ) 
-- **Fill** | **Impute** the `Categorical` **Missing Data** with **Mode** or **Most Frequent** (  **Univariate** Imputation ) 
-- `SimpleImputer()` is used to Fill the Missing Value ( **Univariate Imputation** ) 
+- `Impute` the `Numerical` **Missing Data** with `Mean` or `Median` ( **Univariate** Imputation ) 
+- `Impute` the `Categorical` **Missing Data** with `Mode` or **Most Frequent** (  **Univariate** Imputation ) 
+- `SimpleImputer()` is used to `Fill` the Missing Value ( **Univariate Imputation** ) 
 - `fit()` : Learn the Value to be Imputed and `transform()` : Fill the Missing Values.
 - `KNNImputer()` : **Fill Missing Data** with the Help of **Nearest Neighbors**.
 - `IterativeImputer()` : 
