@@ -43,12 +43,12 @@ How many **Features** to take into account to **Detect Outliers** ?
 1. Setup a `Filter` and `Trim` Data Set.
 2. Remove the `Outlier` if it is very Small, Change the Value of `Outlier` or Replace it with something Meaningful.
 3. **Inter Quartile** Range ( `IQR` ) and Extreme Value Analysis ( `Z Score` )
-5. `Rescale` Data | `Standardize` | `Normalize` ( Bring to Same Scale )
+5. `Rescale` | `Standardize` | `Normalize` ( Bring to Same Scale )
 6. Apply `Ensemble` Learning Techniques ( `Bagging` and `Boosting` )
 
 <h3 name="summary"> Five Number Summary</h3>
 
-> Divide the Data into 4 Equal Quarters ( `Quartiles` ) 
+###  Divide the Data into `4` Equal Quarters ( `Quartiles` ) 
 
 1. Minimum : **Smallest** value in a Dataset.
 2. 1<sup>st</sup> **Quartile** ( **Q1** ) | 25<sup>th</sup> **Percentile** : `25%` of Data Values are smaller and 75% are larger.
@@ -60,8 +60,8 @@ How many **Features** to take into account to **Detect Outliers** ?
 - `Horizontal Line` on both ends of Boxplots are `Whiskers`.
 - `Box` is called **Interquartile Range** ( `IQR` ).
 - **IQR = Q3 - Q1** 
-- Data Value **<** Q1 - 1.5 * **IQR** 
-- Data Value **>** Q3 + 1.5 * **IQR**
+- Data Value **<** `Q1` - `1.5` * `IQR`
+- Data Value **>** `Q3` + `1.5` * `IQR`
 
 > **Outlier** is represented by dot ( **o** ) in **Boxplot**  
 
