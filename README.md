@@ -100,4 +100,4 @@
 - [Adam Wilbert](https://www.linkedin.com/learning/instructors/adam-wilbert) ( `Database` and `SQL` )
 - [David Rivers](https://www.linkedin.com/learning/instructors/david-rivers) ( `Microsoft` and `Google` Productivity )
 - [Lillian Pierson](https://www.linkedin.com/learning/instructors/lillian-pierson-p-e) ( `Python` for Data Science )
-- [Sahil Malik](https://www.linkedin.com/learning/instructors/sahil-malik) (`Azure` Machine Learning)
+- [Sahil Malik](https://www.linkedin.com/learning/instructors/sahil-malik) ( `Azure` Machine Learning )
