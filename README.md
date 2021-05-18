@@ -86,6 +86,13 @@
 - [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 - [Ultimate Cheat Sheet](https://towardsdatascience.com/your-ultimate-data-mining-machine-learning-cheat-sheet-9fce3fa16)
 
+### Udemy 
+
+-[Maven Analytics](https://www.udemy.com/user/maven-analytics/) (Analytics and Business Intelligence)
+-[Chris Dutton](https://www.udemy.com/user/chrisdutton3/) (Owner of Maven Analytics)
+-[Aaron Parry](https://www.udemy.com/user/aaron-parry/) (Power BI)
+-[Lan Little John](https://www.udemy.com/user/ianlittlejohn2/) (Excel, Power BI and Data Studio)
+
 ### Linked Learning
 
 - [John Rischin](https://www.linkedin.com/learning/instructors/joshua-rischin)
