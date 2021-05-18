@@ -92,8 +92,8 @@
 - [Chris Dutton](https://www.udemy.com/user/chrisdutton3/) ( Owner of Maven Analytics )
 - [Aaron Parry](https://www.udemy.com/user/aaron-parry/) ( Power BI )
 - [Lan Little John](https://www.udemy.com/user/ianlittlejohn2/) ( Excel, Power BI and Data Studio )
-- [Enrique Ruiz](https://www.udemy.com/user/enrique-ruiz-tapia/) (Excel Expert)
-- [Dustin Cabral](https://www.udemy.com/user/dustin-cabral-2/) (Tableau Expert)
+- [Enrique Ruiz](https://www.udemy.com/user/enrique-ruiz-tapia/) ( Excel Expert )
+- [Dustin Cabral](https://www.udemy.com/user/dustin-cabral-2/) ( Tableau Expert )
 
 ### Linked Learning
 
