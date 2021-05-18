@@ -88,10 +88,10 @@
 
 ### Udemy 
 
--[Maven Analytics](https://www.udemy.com/user/maven-analytics/) (Analytics and Business Intelligence)
--[Chris Dutton](https://www.udemy.com/user/chrisdutton3/) (Owner of Maven Analytics)
--[Aaron Parry](https://www.udemy.com/user/aaron-parry/) (Power BI)
--[Lan Little John](https://www.udemy.com/user/ianlittlejohn2/) (Excel, Power BI and Data Studio)
+- [Maven Analytics](https://www.udemy.com/user/maven-analytics/) (Analytics and Business Intelligence)
+- [Chris Dutton](https://www.udemy.com/user/chrisdutton3/) (Owner of Maven Analytics)
+- [Aaron Parry](https://www.udemy.com/user/aaron-parry/) (Power BI)
+- [Lan Little John](https://www.udemy.com/user/ianlittlejohn2/) (Excel, Power BI and Data Studio)
 
 ### Linked Learning
 
