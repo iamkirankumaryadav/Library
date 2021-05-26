@@ -4,7 +4,9 @@
 
 **Missing Data** : `NULL` | `NAN` | `nan` | `NaN` ( Ignored while **Arithmetic Operations** )
 
-Rows : Observations and Column : Feature.
+### Row | Observation | Tuple
+
+### Column | Feature | Field
 
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
