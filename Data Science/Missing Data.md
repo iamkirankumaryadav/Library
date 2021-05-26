@@ -16,7 +16,9 @@
 - `Drop` Particular **Column** ( **Missing Values** > `70%` | `axis = 1` )
 - Deleting an Irrelevant **Rows** or **Columns** helps to get a **Robust Model**.
 
-### It is **Better** to Keep Data than to **Drop** it, Removing Data may lead to **Loss** of **Important Information**.
+It is **Better** to Keep Data than to `Drop` it, Removing Data may lead to `Loss` of **Important Information**.
+
+If One Data in Observation is Missing other Values in the Observations may be Important.
 
 <h3 name="impute"> 2. Impute ( fillna( ) )</h3>
 
