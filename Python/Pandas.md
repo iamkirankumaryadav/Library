@@ -1,13 +1,13 @@
 # Pandas 🐼
 
-> `Feature` or `Column` or `Attribute` or `Series` or `Field`
+Toolkit for Analyzing, Filtering, Manipulating, Aggregating, Merging, Pivoting and Cleaning Data.
 
-> `Row` or `Index` or `Record` or `Tuple`
+### Excel for Python. 
 
-> One Entire `Column` is known as `Field` ( Homogeneous Data )
-
-> One Entire `Row` is called as `Record` ( Heterogeneous Data )
-
+- `Feature` or `Column` or `Attribute` or `Series` or `Field`
+- `Row` or `Index` or `Record` or `Tuple`
+- One Entire `Column` is known as `Field` ( Homogeneous Data )
+- One Entire `Row` is called as `Record` ( Heterogeneous Data )
 - **Panel** Data ( Tabular Data in **Financial** Terms )
 - Data Analysis Tool ( **Explore**, **Analyze** and **Manipulate** Data )
 - Data **Import** ( Read ) and **Export** ( Write ) ( `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json` etc )
