@@ -1,6 +1,6 @@
 # Pandas 🐼
 
-> `Feature` or `Column` or `Attribute` or `Series`
+> `Feature` or `Column` or `Attribute` or `Series` or `Field`
 
 > `Row` or `Index` or `Record` or `Tuple`
 
