@@ -91,3 +91,18 @@ A Supply Chain Management,
 - Shape and Design
 - Production Capability ( They will always get the Product in Stock )
 - Secrecy
+
+Sometimes the Product is good but customer receives the product late or not as per desired due to supplier mistake.
+
+There should be good relationship between Buyers and Suppliers.
+
+### 3. Managing Quality 
+- Design
+- Business Process
+- Employee Skills and Training
+- Reliability 
+- Consistency
+- Manufacturing Quality
+- Long Term Quality Control
+- Facilities and Equipment
+- Raw Materials and Logistics
