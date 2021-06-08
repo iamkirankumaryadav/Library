@@ -15,7 +15,7 @@ a competitive advantage in the marketplace.
 
 Cut excess costs and deliver the products to the customer faster.
 
-Nowdays delivery made by Flipkarts and Amazon in 2 - 3 days is due to Suppy Chain Management.
+e.g. Nowdays delivery made by `Flipkart` and `Amazon` in 2 - 3 days is due to Suppy Chain Management.
 
 ### Aim
 
