@@ -17,7 +17,7 @@ Cut excess costs and deliver the products to the customer faster.
 
 e.g. Nowdays delivery made by `Flipkart` and `Amazon` in 2 - 3 days is due to Suppy Chain Management.
 
-### Aim
+# Aim
 
 ```
 Providing 
@@ -30,7 +30,7 @@ at the Right Cost,
 to the Right Customer.
 ```
 
-### Stages
+# Stages
 
 ### 1. Plan    
 - Plan a Strategy to Address how a given good or service will meet the needs of the customers.
@@ -57,7 +57,7 @@ Each Stage add up a cost to the Product.
 
 High Importance and High Risk : Good Quality of Foods (Important to understand Supply Chain of Food Products)
 
-### Kinds of Wastes in Supply Chain.
+# Kinds of Wastes in Supply Chain.
 
 ### 1. Transportation
 - Moving People, Product or Information.
@@ -83,7 +83,7 @@ High Importance and High Risk : Good Quality of Foods (Important to understand S
 - Not taking full advantage of your Skills, Knowledge and Capabilities so that job gets done quickly.
 
 
-### Prepare for Disruption in Supply Chain
+# Prepare for Disruption in Supply Chain
 
 ### 1. Having Alternate Suppliers
 - Having Safety Stock Inventory helps Interruptions in Supply.
