@@ -156,7 +156,8 @@
 <h3 name='roc'>7. ROC | Receiver Operating Characteristic Curve</h3>
 
 - Helps to Understand **Characteristics** of Curve by plotting `TPR` on **Y Axis** and `FPR` on **X Axis** at different Classification **Thresholds**.
-- **Y Axis** : True Positive Rate ( `TPR` ) vs **X Axis** : False Positive Rate ( `FPR` )
+- **Y Axis** : True Positive Rate ( `TPR` )  
+- **X Axis** : False Positive Rate ( `FPR` )
 - **Plots** `TPR` vs `FPR` at Different Classification `Thresholds`
 - If Threshold is near to `1.0` or `100%`: **Classifications** gets more **Accurate**.
 
