@@ -106,3 +106,7 @@ There should be good relationship between Buyers and Suppliers.
 - Long Term Quality Control
 - Facilities and Equipment
 - Raw Materials and Logistics
+
+Now a days Contract Manufacturing is done for managing a quality. 
+e.g. Samsung builds great screen Amoled Panels so every mobile company pay samsung for display.
+     Snapdragon makes a great quality prcessor so every mobile company pay snapdragon for processors.
