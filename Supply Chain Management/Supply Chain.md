@@ -19,14 +19,16 @@ Nowdays delivery made by Flipkarts and Amazon in 2 - 3 days is due to Suppy Chai
 
 ### Aim
 
+```
 Providing 
-The Right Product, 
+The Right `Product`, 
 in the Right Quantity, 
 of the Right Quality, 
 in the Right Place,
 at the Right Time, 
 at the Right Cost,
 to the Right Customer.
+```
 
 ### Stages
 
