@@ -119,16 +119,13 @@
 
 <h3 name='pre'>3. Precision</h3>
 
-- Focus on **Positive** `Predictions` ( How Good our Model is when **Prediction** is `Positive` ? )
 - Measures the **Correctly** Identified **Positive Cases** from all the **Predicted Positive Cases**.
 - Used when the **Cost** of False Positives ( `FP` ) is **High**. ( e.g. There is Virus but still Antivirus is Predicting that the System is Safe it's Costly )
-- **Evaluates** Model only based on **Positive Predictions**.
 
 ![Precision](Image/Precision.png)
 
 <h3 name='tpr'>4. Recall | True Positive Rate ( TPR ) | Sensitivity</h3>
 
-- Focus on **Positive** `Class` ( How Good our Model is at `Correctly` predicting `Positive` **Classes** ? )
 - Measures the **Correctly** Identified **Positive Cases** from all the **Actual Positive Cases**. 
 - Used when the **Cost** of False Negatives ( `FN` ) is **High**. ( e.g. Person is Really prone to COVID 19 but Test Result is Negative it can be Fatal. )
 - **True Positive Rate** : Proportion of **Positive Class** that is `Correctly` Predicted as **Positive**.
