@@ -17,6 +17,8 @@ Cut excess costs and deliver the products to the customer faster.
 
 Nowdays delivery made by Flipkarts and Amazon in 2 - 3 days is due to Suppy Chain Management.
 
+### Aim
+
 Providing 
 The Right Product, 
 in the Right Quantity, 
@@ -28,24 +30,24 @@ to the Right Customer.
 
 ### Stages
 
-1. Plan    
+### 1. Plan    
 - Plan a Strategy to Address how a given good or service will meet the needs of the customers.
 
-2. Develop 
+### 2. Develop 
 - Build a strong relationship with Suppliers of Raw Materials needed in making the Product.
 - Planning methods for shipping, delivery and payment.
 
-3. Make
+### 3. Make
 - The Product is Manufactured, Tested, Packaged, and Scheduled for Delivery.
 
-4. Deliver 
+### 4. Deliver 
 - Customer Orders are received and delivery of the goods is planned (Logistics) 
 - Company coordinate the Receipt of Orders from Customers,
 - Develop a Network of Warehouses (Places to Store Products HUB + Transportations)
 - Pick Carriers (Blue Dart, FedEx) to get Products to Customers (Delivery Partner)
 - Set up an invoicing system to receive payments (Cash on Delivery, Online Payment, Card Payment)
 
-5. Return  
+### 5. Return  
 - Customer may replace or return defective products (Carriers)
 - Company will also address queries of customers (Help Line, Customer Care)
 
@@ -53,45 +55,45 @@ Each Stage add up a cost to the Product.
 
 High Importance and High Risk : Good Quality of Foods (Important to understand Supply Chain of Food Products)
 
-8 Different Kinds of waste in Supply Chain
+### Kinds of Wastes in Supply Chain.
 
-1. Transportation
+### 1. Transportation
 - Moving People, Product or Information.
 
-2. Inventory 
+### 2. Inventory 
 - Storing more Products then you need.
 
-3. Motion
+### 3. Motion
 - Moving something, even for short distance.
 
-4. Waiting
+### 4. Waiting
 
-5. Overproduction
+### 5. Overproduction
 - Making more than what we need right now.
 
-6. Overprocessing
+### 6. Overprocessing
 - Doing more work than you need to get the job done.
 
-7. Defects 
+### 7. Defects 
 - Anything you waste energy and time on that you are not able to use.
 
-8. Skills
+### 8. Skills
 - Not taking full advantage of your Skills, Knowledge and Capabilities so that job gets done quickly.
 
 
 ### Prepare for Disruption in Supply Chain
 
-1. Having Alternate Suppliers
+### 1. Having Alternate Suppliers
 - Having Safety Stock Inventory helps Interruptions in Supply.
 
-2. Sharing or Transfer Inventory 
+### 2. Sharing or Transfer Inventory 
 - If another Supplier has more amount of Storage.
 
-3. Expedite Transportation
+### 3. Expedite Transportation
 - Maybe Pay a little more to get the Delivery right next day.
 
-4. Conserve 
+### 4. Conserve 
 - Do you really need as much as you are buying.
 
-5. Substitute
+### 5. Substitute
 - Any other products which can be used in absence of regular product used by you.
