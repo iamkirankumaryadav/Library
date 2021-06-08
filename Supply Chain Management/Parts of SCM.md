@@ -31,4 +31,4 @@ Product reaches to Customer after following a long chain of peoples, process and
 
 ### 4. Accounting ( Discover opportunities to cut cost. )
 
-### 5. Finance ( Money to buy raw materials, build plant, hire workers, warehouses for storage, fleets for transportation, decide budget and plan on return on investments ) 
+### 5. Finance ( Money to buy raw materials, build plant, hire workers, budget and plan on ROI ) 
