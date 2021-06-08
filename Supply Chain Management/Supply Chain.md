@@ -1,4 +1,4 @@
-### Supply Chain 🥕🍅🥔 > 🚚 > 🏭 > 📦 > 🚛 > 👩🏻‍🤝‍👩🏻🍟
+# Supply Chain 🥕🍅🥔 > 🚚 > 🏭 > 📦 > 🚛 > 👩🏻‍🤝‍👩🏻🍟
 
 A complex system made up of people, processes and technologies that's engineered and managed to deliver.
 
