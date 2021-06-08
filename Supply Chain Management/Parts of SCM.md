@@ -11,7 +11,7 @@
 
 Product reaches to Customer after following a long chain of peoples, process and technology.
 
-### Integrated Plans help Companies
+# Integrated Plans help Companies
 
 ### 1. Buy Materials
 
