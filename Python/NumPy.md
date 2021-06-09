@@ -44,5 +44,14 @@ np.array( [1, 2, 3] ) |	1d Array
 np.array( [ ( 1, 2, 3), (4, 5, 6) ] ) |	2d Array
 np.arange( start, stop, step ) |	Range Array
 
+### Placeholders 
+
+Operator | Description
+:--- | :---
+np.linspace(0,2,9) |	Add evenly spaced values btw interval to array of length
+np.zeros((1,2))	| Create and array filled with zeros
+np.ones((1,2)) |	Creates an array filled with ones
+np.random.random((5,5)) |	Creates random array
+np.empty((2,2)) |	Creates an empty array
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
