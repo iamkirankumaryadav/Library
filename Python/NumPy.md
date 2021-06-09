@@ -1,7 +1,7 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # NumPy
-- **Numerical** Python | Mathematical Operations | **Element wise** Arithmetic Operations | Supports **Scientific** and **Financial** Calculations
+- **Numerical** Python | Mathematical Operations | **Element wise** Arithmetic Operations | **Scientific** and **Financial** Calculations
 - `Array` Processing | `N` **Dimensional** Array | `Matrix` Data Structure
 - **Statistical** and **Algebraic** Computations | **Broadcasting** ( Arithmetic Operations between Array of Different Shapes ) 
 
