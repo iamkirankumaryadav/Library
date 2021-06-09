@@ -32,5 +32,5 @@
 
 ### Power BI =  Power BI Desktop + Power BI Service
 
-- Power BI  = Power BI Desktop ( Create and Publish to Service ) 
-- Power BI Service ( Sharing and Collaboration )
+- Power BI `Desktop` ( Create and Publish to Service ) 
+- Power BI `Service` ( Sharing and Collaboration )
