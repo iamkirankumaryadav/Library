@@ -38,4 +38,11 @@
   </tr>    
 </table>
 
+Operator |	Description
+:--- | :---
+np.array([1,2,3]) |	1d Array
+np.array([(1,2,3),(4,5,6)]) |	2d Array
+np.arange(start,stop,step) |	Range Array
+
+
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
