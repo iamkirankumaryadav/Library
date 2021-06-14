@@ -34,3 +34,9 @@
 
 - Power BI `Desktop` ( Create and Publish to Service ) 
 - Power BI `Service` ( Sharing and Collaboration )
+
+### Important Points
+
+Few Important Points which we can know only by Experience.
+
+1. When we open `CSV` File in Microsoft Excel it opens as a `Sheet`.
