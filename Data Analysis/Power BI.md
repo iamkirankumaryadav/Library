@@ -8,7 +8,7 @@
 
 ### 1. Power Query
 - `ETL` tool ( Extract, Transform and Load Data )
-- Clean the Data ( Missing | NULL | Empty Data )
+- When you Get Data in Power BI Desktop and Click on `Transform`, New Window opens that is known as Power Query. 
 
 ### 2. Power Pivot
 - Data Modeling ( Connect multiple Data Sources and create Relationship between them ) 
@@ -16,6 +16,7 @@
 ### 3. Power View
 - Create 250 + Charts 
 - Presentation, Reports and Dashboards.
+- When you Get Data in Power BI Desktop and Click on `Load`, Data directly loads in Power View.
 
 ### 4. Power BI Service 
 - Share your Reports with different peoples in team.
