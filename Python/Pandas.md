@@ -19,6 +19,7 @@ Toolkit for Analyzing, Filtering, Manipulating, Aggregating, Merging, Pivoting a
 - **Data Types** : **Series** ( **1** Dimensional ) and **DataFrames** ( **2** Dimensional )
 - Panel : **3** Dimensional ( major_axis and minor_axis )
 - Load - Manipulate - Prepare - Model - Analyze.
+- Transform, Explore, Join, Manipulate, Merge, Clean, Stack and Visualize.  
 
 ### Series ( 1 Dimensional Array )
 
