@@ -55,3 +55,12 @@ for i in df.iterrows():
             </td>
       </tr>
 </table>
+
+### Basic Manipulation
+
+1. Indexing
+2. Slicing
+3. Ordering
+4. Filtering
+5. Replacing
+6. Cleaning
