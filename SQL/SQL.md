@@ -131,9 +131,9 @@ Varchar : Variable Length
 
 Primary Key | Foreign Key
 :--- | :---
-Unique Key in the Table | Primary Key of another Table
-Table can contain only One Primary Key | More than One Foreign Key
-Primary Key cannot contain `Duplicate` Value | Can contain Duplicate Value
+`Unique` Key in the Table | Primary Key of another Table
+Table can contain only `One` Primary Key | Table can contain `more` than one Foreign Key
+Primary Key `cannot` contain `Duplicate` Value | Foreign Key `can` contain `Duplicate` Value
 
 ### Constraints
 - Specify Limitation on Data Types of the Table
