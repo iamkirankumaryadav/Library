@@ -10,15 +10,15 @@ Column | Field
 
 Page : Basic Unit of Database File (I/O)
 
-NULL : Unavailable | Unknown | Unassigned | NA
+`NULL` : Unavailable | Unknown | Unassigned | NA
 
-Zero | 0 : Number
+`Zero` | 0 : Number
 
 blank space (' ' | " ") : Character 
 
-Metadata : Data | Attributes about Data | Data that Describes Information about other Data.
+`Metadata` : Attributes about Data | Data that Describes Information about other Data (Memory Usage, Address, etc)
 
-Current Date : GetDate() Date + Timestamp
+Current `Date` : GetDate() Date + Timestamp
 
 ### Query Optimization
 - Determine the most Efficient way to Execute a given Query by considering every Query Plan.
