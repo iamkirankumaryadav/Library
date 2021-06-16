@@ -20,15 +20,15 @@ Metadata : Data | Attributes about Data | Data that Describes Information about 
 
 Current Date : GetDate() Date + Timestamp
 
-# Query Optimization
-- Determine the most Efficient way to Execute a given Query by considering every Query Plan
-  Large number of Queries can be Executed in Less Time 
-  Reduce Time and Space Complexity.
+### Query Optimization
+- Determine the most Efficient way to Execute a given Query by considering every Query Plan.
+- Large number of Queries can be Executed in Less Time. 
+- Reduce `Time` and `Space` Complexity.
 
-# Subsets of SQL
+### Subsets of SQL
 
 ### DDL (Definition) : Define Data Structure 
-- CREATE  
+- CREATE
 - ALTER 
 - DROP 
 - RENAME 
@@ -56,15 +56,15 @@ Current Date : GetDate() Date + Timestamp
 ### Non Relational : NoSQL 
 - Data in the form of Dictionary (Key Value Pairs) | MongoDB
 
-# Database Engine (Oracle, SQL Server, DB2, MySQL, PostgreSQL)
+### Database Engine (Oracle, SQL Server, DB2, MySQL, PostgreSQL)
 - Data Repository (Tables | Procedures | Functions | Views) related to Organization and Business or Personal Database.
 - PostgreSQL is Free Open Source | Developed by Community of Developers
 
 # ACID Properties
 - A : Atomicity | All or Nothing
-- C : Consistency | Gurantees Committed Transaction State | Data Meet All Validation Rules
-- I : Isolation | Transparent and Independent | Concurrency
-- D : Durability | Commited Data is Never Lost
+- C : Consistency | Gurantees Committed Transaction State | Data Meet All Validation Rules.
+- I : Isolation | Transparent and Independent | Concurrency.
+- D : Durability | Commited Data is Never Lost.
 
 ### Data Integrity
 - Accuracy as well as the Consistency of Data stored in DB
@@ -73,23 +73,20 @@ Current Date : GetDate() Date + Timestamp
 - Two or more Computing Process Executing at the Same Time.
 
 ### Connection 
-- The Means of Communication between a Client and a Server.
+- The Means of Communication between a `Client` and a `Server`.
 
 ### Deadlock 
 - A State in which Resource is Occupied by Two or More Process
-  Process is Requesting for Resource which is already occupied by some other Process.
+- Process is Requesting for Resource which is already occupied by some other Process.
 
 ### View 
-- Logical Representation of One or More Tables.
+- Logical Representation of One or More `Tables`.
 
 ### Geospatial Data Type
 - Data Types which are Specificially Optimized for Storage of Geographic Coordinate based Data.
 
 ### Hash
 - An Indexing Method provided for Fast Retrieval.
-
-### Inner Join
-- Join between Two Tables where only the Rows with Matching Foreign and Primary Key Values are returned.
 
 ### Join
 - An Operation in which Rows of 1 Table are related to Rows of another through Common Column Value.
