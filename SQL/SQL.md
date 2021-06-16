@@ -1,12 +1,12 @@
-# SQL    (DB : Data Base)
-Structured Query Language
-Core of Relational DB used to Access and Manage DB
+# SQL (Structured Query Language)
+
+Core of `Relational` Database used to Access and Manage Data.
 
 Data Mart > Data Warehouse > Data Base > Table
 
 Row | Record
 
-Column | Field | Key
+Column | Field 
 
 Page : Basic Unit of Database File (I/O)
 
