@@ -232,8 +232,11 @@ Performs `Insert` : If the Row does not Exist.
 - Provide Condition to Query
 - Filter the Rows 
 
-Column Level Constraints :Limitations applied on Column
-Table Level Constraints : Limitations applied on Entire Table
+### Column Level Constraints 
+- Limitations applied on `Column`.
+
+### Table Level Constraints 
+- Limitations applied on Entire `Table`.
 
 ### Pattern Matching
 
