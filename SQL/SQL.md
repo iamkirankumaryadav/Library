@@ -35,24 +35,18 @@ Current Date : GetDate() Date + Timestamp
 - TRUNCATE 
 - COMMENT
 
-### DQL (Query) 
-- Retrieve Data from DB SELECT  
+### DQL (Query) : Retrieve Data from Database 
+- SELECT 
 
-### DML (Manipulation) 
-- Manupulate Data in Database 
+### DML (Manipulation) : Manupulate Data in Database 
 - INSERT 
 - UPDATE 
 - DELETE 
 - MERGE
 
-### DCL (Control) : 
-- Control Access to Data store in Database 
+### DCL (Control) : Control Access to Data stored in Database 
 - GRANT 
 - REVOKE
-
-# DBMS
-- S/W Application
-- Allow user to Interact with Database
 
 # Types of Database
 
