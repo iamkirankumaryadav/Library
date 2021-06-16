@@ -343,7 +343,7 @@ FROM OrderDetails;
 
 ### Select Null : 
 
-`IFNULL`(Column, Value) : If Value is NULL Replace it by 0 
+`IFNULL` (Column, Value) : If Value is NULL Replace it by 0 
 
 ```SQL
 SELECT Product, IFNULL(Price, 0) 
