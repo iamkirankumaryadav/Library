@@ -352,12 +352,12 @@ FROM Products.
 
 ### Sql Constraints
 
-1. NOT NULL
-2. AUTO_INCREMENT
-3. PRIMARY KEY
-4. FOREIGN KEY
-5. CHECK
-6. DEFAULT
+1. NOT NULL : Enforces a column to Not Accept Null Value.
+2. AUTO_INCREMENT : Automatically generate sequential numbers.
+3. PRIMARY KEY : Uniquely identify the `Row` in the table.
+4. FOREIGN KEY : Primary key in another table.
+5. CHECK : `Limit` the value range that can be placed in a column.
+6. DEFAULT : Set a `Default` value for the column.
 
 ```SQL
 CREATE TABLE Employee
@@ -371,6 +371,7 @@ CREATE TABLE Employee
 ```
 
 ### Sql Views
+- `Virtual` table that contains data from one or more table.
 
 ```SQL
 CREATE VIEW [Indian Customer] AS
@@ -388,6 +389,7 @@ WHERE Price > (SELECT AVG(Price) FROM Product);
 ```
 
 ### Sub Queries | Inner Query | Nested Query
+- A Query within another SQL Query.
 
 ```SQL
 SELECT * 
