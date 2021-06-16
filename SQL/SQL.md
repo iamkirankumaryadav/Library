@@ -148,118 +148,119 @@ Varchar : Variable Length
 6.FOREIGN KEY : Link Two Tables Together | Identify Relationship between Tables by Referencing Columns.
 
 # Delete vs Truncate
-Delete : Delete a Row in a Table
-         Rollback Data
-         DML Command
-         Slower
 
-Truncate : Delete ALl the Rows from a Table
-           Cannot Rollback Data
-           DDL Command
-           Faster
+Delete | Truncate
+:--- | :---
+Delete a Row in a Table | Delete All the Rows from a Table
+Rollback Data | Cannot Rollback Data
+`DML` Command | `DDL` Command
+Slow | Fast
 	
-# Normalization 
+### Normalization 
 - Way of Organizing Data in the Database.
-  Divide Large Tables into Small Tables and Link them using Relationships
-  Avoid Duplication and Redundancy
+- Divide Large Tables into Small Tables and Link them using Relationships.
+- Avoid Duplication.
+- More Table with Less Rows 
+- Efficient Data Access	
+- Quick Search | Easy Modification
+- Compact Database
 
-More Table with Less Rows 
-Efficient Data Access	
-Quick Search | Easy Modification
-Compact Database
-
-# Denormalization
+### Denormalization
 - Add Redundant Data to one or more Tables.
 
-# Entity
+### Entity
 - A Person, Place or thing in the Real World about which Data is Stored in Database.
 
-# Relationship
+### Relationship
 - Relation or Links between Entities that have something to do with each other.
 
-# Index 
-- Index Refers to a Record or Row for Retrieval of Data
+### Index 
+- Index Refers to a Record or `Row` for Retrieval of Data.
 
-Unique Index : Each and Every Index Value is Unique (AUTONUM)
+### Unique Index 
+- Each and Every Index Value is Unique (AUTONUM)
 
-Clustered Index : Group of Index (Age between 5 to 18) | (States)
+### Clustered Index 
+- Group of Index (Age between 5 to 18) | (States)
 
-Non Clustered : Maintain Logical Order | Alphabetical (A to Z) or Ascending | Descending
+### Non Clustered 
+- Maintain Logical Order | Alphabetical (A to Z) or Ascending | Descending or Numerical (1, 2, 3 ....) e.g Textbook
 
-# Trigger 
+### Trigger 
 - Special Type of Stored Procedure 
-  Defined to Execute Automatically after Data Modification
-  Allows to Execute Batch of Process (Insert | Update | Delete Queries)
+- Defined to Execute Automatically after Data Modification
+- Allows to Execute Batch of Process (Insert | Update | Delete Queries)
 
-# Sub Query 
-- A Query inside another Query defined to Retrieve Data 
-  Outer Query is the Main Query and Inner Query is Sub Query
-  Sub Query is Executed before Main Query
-  Can be Nested inside a SELECT | UPDATE or any other Query
-  Can also use any Comparison Operators.
+### Sub Query 
+- A Query inside another Query defined to Retrieve Data. 
+- Outer Query is the Main Query and Inner Query is Sub Query.
+- Sub Query is Executed before Main Query.
+- Can be Nested inside a SELECT | UPDATE or any other Query.
+- Can also use any Comparison Operators.
 
-# Correlated Sub Query
+### Correlated Sub Query
 - Select the Data from a Table Referenced in the outer Query | Dependent on Column of Other Tabl
 
-# Non Correlated Sub Query
+### Non Correlated Sub Query
 - Independent Query | Output of Sub Query is Substituted in the Main Query.
 
-# Group Function | Aggregate 
+### Group Function | Aggregate 
 - Evaluate Mathematical Calculation and Return Single Value.
 - Work on the Set of Rows and Result one Result Per Group. (AVG | COUNT | MAX | MIN | SUM | VARIANCE)
 
-# Scalar Function
+### Scalar Function
 - Single Value based on Input e.g. NOW()
 
 # BETWEEN vs IN
 
-Between : Range                           e.g BETWEEN 5 AND 10
-In : Check for Specific Values Provided   e.g. Value IN (5,6,7,8,9,10)
+- `Between` : Range                           e.g BETWEEN 5 AND 10
+- `In` : Check for Specific Values Provided   e.g. Value IN (5,6,7,8,9,10)
 
-# Use of SQL Functions
-1.Perform Some Calculations on the Data
-2.Modify Individual Data Items
-3.Manipulate Output
-4.Format Dates and Numbers
-5.Convert Data Types
+### Use of SQL Functions
+1. Perform Some Calculations on the Data
+2. Modify Individual Data Items
+3. Manipulate Output
+4. Format Dates and Numbers
+5. Convert Data Types
 
-# MERGE Statement
+### MERGE Statement
 
 Allows Conditional Update or Insertion of Data into a Table
 
-Performs Update : If Rows Exists.
-Performs Insert : If the Row does not Exist.
+Performs `Update` : If Rows Exists.
+Performs `Insert` : If the Row does not Exist.
 
-# CLAUSE (WHERE | HAVING)
+### CLAUSE (WHERE | HAVING)
 - Limit the Result
-  Provide Condition to Query
-  Filter the Rows 
+- Provide Condition to Query
+- Filter the Rows 
 
 Column Level Constraints :Limitations applied on Column
 Table Level Constraints : Limitations applied on Entire Table
 
-# Pattern Matching
+### Pattern Matching
 
 Like (%) : Match Zero or More Character
+Underscore (\_\) : Match Exactly One Character
 
-Underscore (_) : Match Exactly One Character
-
-Unique : DISTINCT
-
-# View 
+### View 
 
 - Virtual Table | Subset of Data | Data of One or More Table combined on Relationship
-  Restrict Access to Orignal Data Table
-  Make Simple Query | Focus on Required Data
-  Ensure Data Independence
+- Restrict Access to Orignal Data Table
+- Make Simple Query | Focus on Required Data
+- Ensure Data Independence
 
-# Collation
+### Collation
 - Set of Rules that Determines How to Store and Compare Data.
 
-# Local : Variable can be Accessed | Used | Exist only inside particular Function.
-# Global : Variable can be Accessed throughout the Program
+### Local 
+- Variable can be Accessed | Used | Exist only inside particular Function.
 
-# Stuff vs Replace
-  Stuff : Overwrite Existing Character | Part of Character | Add or Insert String into Existing String
+### Global 
+- Variable can be Accessed throughout the Program
 
-  Replace : Replace the Existing Character and all its Occurence
+### Stuff vs Replace
+  
+1. Stuff : Overwrite Existing Character | Part of Character | Add or Insert String into Existing String
+
+2. Replace : Replace the Existing Character and all its Occurence
