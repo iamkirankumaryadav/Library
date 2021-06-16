@@ -214,18 +214,17 @@ Slow | Fast
 - `In` : Check for Specific Values Provided   e.g. Value IN (5,6,7,8,9,10)
 
 ### Use of SQL Functions
-1. Perform Some Calculations on the Data
-2. Modify Individual Data Items
-3. Manipulate Output
-4. Format Dates and Numbers
-5. Convert Data Types
+1. Perform Some Calculations on the Data.
+2. Modify Individual Data Items.
+3. Manipulate Output.
+4. Format Dates and Numbers.
+5. Convert Data Types.
 
 ### MERGE Statement
 
 Allows Conditional Update or Insertion of Data into a Table
-
-Performs `Update` : If Rows Exists.
-Performs `Insert` : If the Row does not Exist.
+- Performs `Update` : If Rows Exists.
+- Performs `Insert` : If the Row does not Exist.
 
 ### CLAUSE (WHERE | HAVING)
 - Limit the Result
@@ -240,27 +239,26 @@ Performs `Insert` : If the Row does not Exist.
 
 ### Pattern Matching
 
-Like (%) : Match Zero or More Character
-Underscore (\_\) : Match Exactly One Character
+`Like` (%) : Match `Zero` or `More` Characters.
+`Underscore` (\_\) : Match `Exactly` One Characters.
 
 ### View 
 
-- Virtual Table | Subset of Data | Data of One or More Table combined on Relationship
-- Restrict Access to Orignal Data Table
-- Make Simple Query | Focus on Required Data
-- Ensure Data Independence
+- `Virtual` Table | `Subset` of Data | Data of `One` or `More` Table combined on Relationship.
+- `Restrict` Access to Orignal Data Table.
+- Make Simple Query | Focus on Required Data.
 
 ### Collation
-- Set of Rules that Determines How to Store and Compare Data.
+- Set of Rules that Determines How to `Store` and `Compare` Data.
 
 ### Local 
 - Variable can be Accessed | Used | Exist only inside particular Function.
 
 ### Global 
-- Variable can be Accessed throughout the Program
+- Variable can be Accessed throughout the Program.
 
 ### Stuff vs Replace
   
-1. Stuff : Overwrite Existing Character | Part of Character | Add or Insert String into Existing String
+1. `Stuff` : `Overwrite` existing character or part of character | `Add` or `Insert` string to existing string.
 
-2. Replace : Replace the Existing Character and all its Occurence
+2. `Replace` : `Replace` the existing character and all its Occurence.
