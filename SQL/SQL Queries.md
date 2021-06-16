@@ -18,6 +18,7 @@ FROM Table;
 ```	
 
 ### Select Distint 
+- Select `Unique` value of the specified Column from the Table.
 
 ```SQL
 SELECT DISTINCT Column 
@@ -25,6 +26,7 @@ FROM Table;
 ```
 
 ### Select Count 
+- Total Number of `Rows`.
 
 ```SQL
 SELECT COUNT(DISTINCT Column) 
@@ -128,6 +130,7 @@ WHERE NOT City = "Mumbai" AND NOT City = "Pune";
 ```
 
 ### Select Order By  
+- `Sort`Table by Column in Ascending and Descending Order. 
 
 ```SQL
 SELECT State, City
@@ -136,6 +139,7 @@ ORDER BY State DESC, City ASC;
 ```
 
 ### Insert 
+- Add Row 
 
 ```SQL
 INSERT INTO Table(Column1, Column2, Column3) 
@@ -172,8 +176,8 @@ LIMIT = 10;
 
 ### Select Aggregate 
 
-1. COUNT()
-2. AVG()
+1. COUNT() : Total number of `Rows`.
+2. AVG() : Average | Mean
 3. SUM()
 4. MIN()
 5. MAX() 
