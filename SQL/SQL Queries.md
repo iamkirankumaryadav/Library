@@ -3,12 +3,14 @@
 # SQL
 
 ### Select All 
+- Select `all` columns of the Table.
 
 ```SQL
 SELECT * FROM Table;
 ```
 
 ### Select Columns 
+- Select `specific` columns from the Table.
 
 ```SQL
 SELECT Column1, Column2, Column3 
