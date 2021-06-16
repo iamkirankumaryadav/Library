@@ -26,80 +26,100 @@ Current Date : GetDate() Date + Timestamp
   Reduce Time and Space Complexity.
 
 # Subsets of SQL
-DDL (Definition) : Define Data Structure | CREATE | ALTER | DROP | RENAME | TRUNCATE | COMMENT
-DQL (Query) : Retrieve Data from DB SELECT  
-DML (Manipulation) : Manupulate Data in DB - INSERT | UPDATE | DELETE | MERGE
-DCL (Control) : Control Access to Data store in DB - GRANT | REVOKE
+
+### DDL (Definition) : Define Data Structure 
+- CREATE  
+- ALTER 
+- DROP 
+- RENAME 
+- TRUNCATE 
+- COMMENT
+
+### DQL (Query) 
+- Retrieve Data from DB SELECT  
+
+### DML (Manipulation) 
+- Manupulate Data in Database 
+- INSERT 
+- UPDATE 
+- DELETE 
+- MERGE
+
+### DCL (Control) : 
+- Control Access to Data store in Database 
+- GRANT 
+- REVOKE
 
 # DBMS
-S/W Application
-Allow user to Interact with Database
+- S/W Application
+- Allow user to Interact with Database
 
 # Types of Database
-- Relational : Structured Database | Data is stored in Relations (Tables)
-  Non Relational : NoSQL | Data in the form of Dictionary (Key Value Pairs) | MongoDB
 
-# Database Engine
-  (Oracle, SQL Server, DB2, MySQL, PostgreSQL)
+### Relational 
+- Structured Database | Data is stored in Relations (Tables)
+  
+### Non Relational : NoSQL 
+- Data in the form of Dictionary (Key Value Pairs) | MongoDB
+
+# Database Engine (Oracle, SQL Server, DB2, MySQL, PostgreSQL)
 - Data Repository (Tables | Procedures | Functions | Views) related to Organization and Business or Personal Database.
 - PostgreSQL is Free Open Source | Developed by Community of Developers
 
 # ACID Properties
 - A : Atomicity | All or Nothing
-  C : Consistency | Gurantees Committed Transaction State | Data Meet All Validation Rules
-  I : Isolation | Transparent and Independent | Concurrency
-  D : Durability | Commited Data is Never Lost
+- C : Consistency | Gurantees Committed Transaction State | Data Meet All Validation Rules
+- I : Isolation | Transparent and Independent | Concurrency
+- D : Durability | Commited Data is Never Lost
 
-# Data Integrity
+### Data Integrity
 - Accuracy as well as the Consistency of Data stored in DB
 
-# Concurrency
+### Concurrency
 - Two or more Computing Process Executing at the Same Time.
 
-# Connection 
+### Connection 
 - The Means of Communication between a Client and a Server.
 
-# Deadlock 
+### Deadlock 
 - A State in which Resource is Occupied by Two or More Process
   Process is Requesting for Resource which is already occupied by some other Process.
 
-# View 
+### View 
 - Logical Representation of One or More Tables.
 
-# Geospatial Data Type
+### Geospatial Data Type
 - Data Types which are Specificially Optimized for Storage of Geographic Coordinate based Data.
 
-# Hash
+### Hash
 - An Indexing Method provided for Fast Retrieval.
 
-# Inner Join
+### Inner Join
 - Join between Two Tables where only the Rows with Matching Foreign and Primary Key Values are returned.
 
-# Join
+### Join
 - An Operation in which Rows of 1 Table are related to Rows of another through Common Column Value.
 
-INNER : Return only Common | Matching Rows 
+### 1. INNER : Return only Common | Matching Rows 
 
-LEFT : Return All Rows from Left Table and Matching from Right Table
+### 2. LEFT : Return All Rows from Left Table and Matching from Right Table
 
-RIGHT : Return All Rows from Right Table and Matching from Left Table
+### 3. RIGHT : Return All Rows from Right Table and Matching from Left Table
 
-FULL : Returns all the Records from Left and Right
+### 4. FULL : Returns all the Records from Left and Right
 
-# Modification Stored Procedure 
+### 5. Natural Join : Join formed between two Tables with Same Column Name and Same Data Type.
+
+### 6. Cross Join : Cross Product | Cartesian Product of Two Tables
+
+### Modification Stored Procedure 
 - An SQL Stored Procedure that contains 1 or more INSERT | UPDATE and DELETE Statements.
 
-# Natural Join
-- Join formed between two Tables with Same Column Name and Same Data Type.
-
-# Cross Join
-- Cross Product | Cartesian Product of Two Tables
-
-# OOP 
+### OOP 
 - Programming Paradigm that relies on Concept of Class and Objects
   Stucture a S/W Program into Simple Reusable Blueprints used to Create Individual Instance of Class.
 
-# Stored Procedure 
+### Stored Procedure 
 - Set of SQL Statements with an Assigned Name, stored in RDBMS as a Group, that can be Reused by Multiple Programs.
 
 # CHAR vs VARCHAR
