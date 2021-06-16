@@ -40,7 +40,7 @@ SELECT * FROM Table
 WHERE Column = Value;
 ```
 
-### Select Between  
+### Select Between (Range)
 
 ```SQL
 SELECT * 
@@ -65,7 +65,7 @@ WHERE Name LIKE 'K%';
 7. '[ABC]%': Starting with A, B and C
 8. '[!AB]%': Not Starting with A and B
 
-### Select In 
+### Select In (Specific Value)
 
 ```SQL
 SELECT * 
@@ -189,10 +189,10 @@ FROM Table WHERE Column = A;
 
 # Joins
 
-1. Inner Join
-2. Left Join
-3. Right Join
-4. Full Join | Full Outer Join
+1. Inner Join : Matching `Rows` in both Table.
+2. Left Join : `All` the Rows from Left Table and Matching Rows from Right Table.
+3. Right Join : `All` the Rows from Right Table and Matching Rows from Left Table.
+4. Full Join | Full Outer Join : `All` the Rows from both the Table.
 
 ### Inner Join  
 
@@ -208,9 +208,8 @@ SELECT Table1.Column1, Table2.Column2, Table3.Column3
 FROM ((Table2 INNER JOIN Table1 ON Table1.ID = Table2.ID ) Table3 INNER JOIN Table1 ON Table1.ID = Table3.ID)
 ```
 
-# Union
-
-### Distinct Union 
+### Union (Distinct)
+- `Combine` Tables and Subsets (Combines only `Distinct` Rows)
 
 ```SQL
 SELECT Column1, Column2, Column3 
@@ -234,6 +233,7 @@ ORDER BY Column1
 ```
 
 ### Union All  
+- `Combine` Tables and Subsets (Combines `All` Rows)
 
 ```SQL
 SELECT Column1, Column2, Column3 
@@ -244,6 +244,7 @@ FROM Table2
 ```
 
 ### Group By 
+- Group `Rows` with same value.
 
 ```SQL
 SELECT Country, COUNT(Customer) 
@@ -278,6 +279,7 @@ ORDER BY Count(ID) DESC;
 ```
                             
 ### Where Exists   
+- Test for the Existence of any `Row` in a Sub Query.
 
 ```SQL
 SELECT Column1 
@@ -286,6 +288,7 @@ WHERE EXISTS(SELECT Column2 FROM Table2 WHERE Table2.ID = Table1.ID)
 ```
 
 ### Select Any 
+- Returns `True` if the operation is `True` for any of the value.
 
 ```SQL
 SELECT ProductName
@@ -294,6 +297,7 @@ WHERE ProductID = ANY(SELECT ProductID FROM Orders WHERE Quantity = 'Value')
 ```
 
 ### Select All 
+- Returns `True` if the operation is `True` for all of the value.
 
 ```SQL
 SELECT ProductName
