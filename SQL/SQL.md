@@ -119,42 +119,48 @@ Current Date : GetDate() Date + Timestamp
 ### Stored Procedure 
 - Set of SQL Statements with an Assigned Name, stored in RDBMS as a Group, that can be Reused by Multiple Programs.
 
-# CHAR vs VARCHAR
+### CHAR vs VARCHAR
 Both are Character Data Type
 Char : Fixed Length
 Varchar : Variable Length
 
-# Primary Key 
+### Primary Key 
 - A Column (Collection) that Uniquely Identifies Each Row in Table.
 - Uniquely Identifies a Single Row in the Table
 - Null Values are not Allowed
 
-# Constraints
-- Specify Limitation on Data Types of the Table
-1.NOT NULL : Column should not Accept Null Value
-2.CHECK    : Integrity (Limit the Value Range that can be Placed in Column) e.g. Salary should be between 2L to 4L
-3.DEFAULT  : Default Value for a Column 
-4.UNIQUE   : Each and Every Value in the Column is Unique.
-5.PRIMARY KEY : Uniquely Identify Each Row | No NULL Allowed
-6.FOREIGN KEY : Link Two Tables Together | Identify Relationship between Tables by Referencing Columns.
+Primary Key | Foreign Key
+:--- | :---
+Unique Key in the Table | Primary Key of another Table
+Table can contain only One Primary Key | More than One Foreign Key
+Primary Key cannot contain `Duplicate` Value | Can contain Duplicate Value
 
-# Delete vs Truncate
+### Constraints
+- Specify Limitation on Data Types of the Table
+1. `NOT NULL` : Column should not Accept Null Value
+2. `CHECK`    : Integrity (Limit the Value Range that can be Placed in Column) e.g. Salary should be between 2L to 4L
+3. `DEFAULT`  : Default Value for a Column 
+4. `UNIQUE`   : Each and Every Value in the Column is Unique.
+5. `PRIMARY` KEY : Uniquely Identify Each Row | No NULL Allowed
+6. `FOREIGN` KEY : Link Two Tables Together | Identify Relationship between Tables by Referencing Columns.
+
+### Delete vs Truncate
 
 Delete | Truncate
 :--- | :---
-Delete a Row in a Table | Delete All the Rows from a Table
+Delete a Row in a Table | Delete `All` the Rows from a Table
 Rollback Data | Cannot Rollback Data
-`DML` Command | `DDL` Command
+`DML` (Manipulation) Command | `DDL` (Definition) Command
 Slow | Fast
 	
 ### Normalization 
 - Way of Organizing Data in the Database.
-- Divide Large Tables into Small Tables and Link them using Relationships.
+- Divide `Large` Tables into `Small` Tables and Link them using Relationships.
 - Avoid Duplication.
-- More Table with Less Rows 
-- Efficient Data Access	
-- Quick Search | Easy Modification
-- Compact Database
+- More Table with Less Rows. 
+- Efficient Data Access.	
+- Quick Search | Easy Modification.
+- Compact Database.
 
 ### Denormalization
 - Add Redundant Data to one or more Tables.
