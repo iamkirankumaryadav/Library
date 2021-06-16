@@ -100,17 +100,23 @@ Current Date : GetDate() Date + Timestamp
 ### Join
 - An Operation in which Rows of 1 Table are related to Rows of another through Common Column Value.
 
-### 1. INNER : Return only Common | Matching Rows 
+### 1. INNER 
+- Return only Common | Matching Rows 
 
-### 2. LEFT : Return All Rows from Left Table and Matching from Right Table
+### 2. LEFT 
+- Return All Rows from Left Table and Matching from Right Table
 
-### 3. RIGHT : Return All Rows from Right Table and Matching from Left Table
+### 3. RIGHT 
+- Return All Rows from Right Table and Matching from Left Table
 
-### 4. FULL : Returns all the Records from Left and Right
+### 4. FULL 
+- Returns all the Records from Left and Right
 
-### 5. Natural Join : Join formed between two Tables with Same Column Name and Same Data Type.
+### 5. Natural Join 
+- Join formed between two Tables with Same Column Name and Same Data Type.
 
-### 6. Cross Join : Cross Product | Cartesian Product of Two Tables
+### 6. Cross Join 
+- Cross Product | Cartesian Product of Two Tables
 
 ### Modification Stored Procedure 
 - An SQL Stored Procedure that contains 1 or more INSERT | UPDATE and DELETE Statements.
