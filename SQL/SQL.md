@@ -177,12 +177,6 @@ Slow | Fast
 ### Unique Index 
 - Each and Every Index Value is Unique (AUTONUM)
 
-### Clustered Index 
-- Group of Index (Age between 5 to 18) | (States)
-
-### Non Clustered 
-- Maintain Logical Order | Alphabetical (A to Z) or Ascending | Descending or Numerical (1, 2, 3 ....) e.g Textbook
-
 ### Trigger 
 - Special Type of Stored Procedure 
 - Defined to Execute Automatically after Data Modification
