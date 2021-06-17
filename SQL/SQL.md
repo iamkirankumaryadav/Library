@@ -38,7 +38,7 @@ Current `Date` : GetDate() Date + Timestamp
 ### DQL (Query) : Retrieve Data from Database 
 - SELECT 
 
-### DML (Manipulation) : Manupulate Data in Database 
+### DML (Manipulation) : Manipulate Data in Database 
 - INSERT 
 - UPDATE 
 - DELETE 
