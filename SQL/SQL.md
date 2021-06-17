@@ -25,29 +25,6 @@ Current `Date` : GetDate() Date + Timestamp
 - Large number of Queries can be Executed in Less Time. 
 - Reduce `Time` and `Space` Complexity.
 
-### Subsets of SQL
-
-### DDL (Definition) : Define Data Structure 
-- CREATE
-- ALTER 
-- DROP 
-- RENAME 
-- TRUNCATE 
-- COMMENT
-
-### DQL (Query) : Retrieve Data from Database 
-- SELECT 
-
-### DML (Manipulation) : Manipulate Data in Database 
-- INSERT 
-- UPDATE 
-- DELETE 
-- MERGE
-
-### DCL (Control) : Control Access to Data stored in Database 
-- GRANT 
-- REVOKE
-
 # Types of Database
 
 ### Relational 
