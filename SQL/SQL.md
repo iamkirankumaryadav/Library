@@ -1,4 +1,4 @@
-# SQL (Structured Query Language)
+# SQL ( Structured Query Language )
 
 Core of `Relational` Database used to Access and Manage Data.
 
