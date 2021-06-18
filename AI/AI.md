@@ -10,10 +10,10 @@ Term | Definition
 **Data Analytics** | **Science** of **Data**.
 **Data Visualization** | Graphical Representation of **Information**.
 **Data Modeling** | Creating a Model for **Reporting** and **Forecasting** Business Decisions.
-**Data Analysis** | **Collect**, **Transform** and **Organize** Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**
-**Data Science** | **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**
-**Forecasting** | Making **Predictions** based on **Past** and **Present** Data
-**Training Data Set** | Data used to **Train** the Model ( Allow Algorithm to **Learn** from Data )
+**Data Analysis** | **Collect**, **Transform** and **Organize** Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**.
+**Data Science** | **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**.
+**Forecasting** | Making **Predictions** based on **Past** and **Present** Data.
+**Training Data Set** | Data used to **Train** the Model ( Allow **Algorithm** to **Learn** from Data )
 **Validation Data Set** | Data used to **Select the Best Model** ( **Optimal** Algorithm and **Hyperparameter** Settings )
 **Test Data Set** | Data used to provide an **Evaluation**
 **Predictive Modeling** | A Process that uses **Data** and **Statistics** to **Predict** outcomes with **Data Models**
