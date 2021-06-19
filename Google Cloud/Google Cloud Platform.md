@@ -26,9 +26,10 @@ Before **Cloud Computing** to Host a **Website** or **Application** on a Server 
 
 ### Cloud Service Providers 
 
-- `Amazon` : `AWS` ( Amazon Web Services ) Leading Cloud Service Provider.
+- `Amazon` : `AWS` | Amazon Web Services | Leading Cloud Service Provider.
 - `IBM` : IBM Cloud
-- `Microsoft` : `Azure` ( Well Integrated with Microsoft Family )
-- `Google` : `GCP` Google Cloud Platform ( Fairly Integrated with Google Products ) Latest and Best Optimized Pricing. 
+- `Microsoft` : `Azure` | Well Integrated with Microsoft Family | Best for Hybrid Computing.
+- `Google` : `GCP` Google Cloud Platform | Fairly Integrated with Google Products | Latest and Best Optimized Pricing. 
 
 `Google` is growing very fast towards market. `Cheaper` than all others.
+
