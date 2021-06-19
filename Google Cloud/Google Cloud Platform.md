@@ -4,4 +4,4 @@
 
 ### Why Cloud Computing ?
 
-Before **Cloud Computing** to Host a **Website** on a Server company needed to setup an **Infrastructure**  and **Manpower** for management.
+Before **Cloud Computing** to Host a **Website** on a Server company needed to setup an **Infrastructure** ( Servers ) and **Manpower** ( Developer, System Engineers, etc... ) for management.
