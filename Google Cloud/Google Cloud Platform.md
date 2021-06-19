@@ -26,7 +26,7 @@ Before **Cloud Computing** to Host a **Website** or **Application** on a Server 
 
 ### Cloud Service Providers 
 
-- `Amazon` : AWS (Amazon Web Services)
+- `Amazon` : AWS (Amazon Web Services) Leading Cloud Service Provider.
 - `IBM` : IBM Cloud
-- `Google` : Google Cloud Platform
-- `Microsoft` : Azure
+- `Google` : Google Cloud Platform (Integrated with Google Products)
+- `Microsoft` : Azure (Integrated with Microsoft Family)
