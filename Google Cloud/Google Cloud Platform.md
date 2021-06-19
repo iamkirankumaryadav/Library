@@ -6,7 +6,7 @@
 
 Before **Cloud Computing** to Host a **Website** or **Application** on a Server company needed to setup an **Infrastructure** (Servers) and **Manpower** (Developer, System Engineers, etc) for management.
 
-Problems :
+### Problems :
 1. Invest Heavily for **Setup** and **Resources**.
 2. Monitoring **Scalability** and **Flexibilty**.
 3. Less Time to Focus on Business.
