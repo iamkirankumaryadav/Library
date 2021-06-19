@@ -1,4 +1,4 @@
-<p align=center><img src='Cloud.png' width=25%></p>
+<p align=center><img src='Cloud.png' width=10%></p>
 
 # Google Cloud Platform
 
