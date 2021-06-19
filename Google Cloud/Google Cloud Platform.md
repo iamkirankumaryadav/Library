@@ -35,7 +35,7 @@ Before **Cloud Computing** to Host a **Website** or **Application** on a Server 
 
 ### What is Google Cloud Platform ?
 
-- On demand Cloud Service Provider like `Compute`, `Storage` and `networking`.
+- On demand Cloud Service Provider like `Compute`, `Storage` and `Network`.
 - It can be accessed throught the Internet across the `Globe`. 
 - User is not required to Manage the `Resource` and `Infrastructure`.
 - User will just `Focus` on Business.
