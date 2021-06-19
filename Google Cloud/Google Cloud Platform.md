@@ -10,3 +10,5 @@ Problems :
 1. Data Security Risks.
 2. Data Storage Risks.
 3. Maintenance Cost. 
+4. Lack of Planning.
+5. Monitoring Resources.
