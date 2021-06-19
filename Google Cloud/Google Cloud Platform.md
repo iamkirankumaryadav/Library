@@ -7,8 +7,12 @@
 Before **Cloud Computing** to Host a **Website** or **Application** on a Server company needed to setup an **Infrastructure** (Servers) and **Manpower** (Developer, System Engineers, etc...) for management.
 
 Problems :
-1. Data Security Risks.
-2. Data Storage Risks.
-3. Maintenance Cost. 
-4. Lack of Planning.
-5. Monitoring Resources.
+1. Invest Heavily for **Setup** and **Resources**.
+2. Monitoring **Scalability** and **Flexibilty**.
+3. Less Time to Focus on Business.
+4. Data **Security** Risks.
+5. Data **Storage** Risks.
+6. **Maintenance** Cost. 
+7. Lack of Planning.
+
+
