@@ -1,4 +1,4 @@
-<p align=center><img src='Cloud.png' width=10%></p>
+<p align=center><img src='Cloud.png' width=8%></p>
 
-<h3 align=center><a href='https://cloud.google.com/'>Google Cloud</a><h3>
+<h2 align=center><a href='https://cloud.google.com/'>Google Cloud</a><h2>
 
