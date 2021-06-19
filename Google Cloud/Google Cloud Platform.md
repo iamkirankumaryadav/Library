@@ -23,3 +23,10 @@ Before **Cloud Computing** to Host a **Website** or **Application** on a Server 
 - **Security**, **Infrastructure**, **Maintenance** and **Planning** everything is managed by the Service Provider.
 - Helps us to only **Focus** on our Business.
 - Access from across the **Globe** 24 x 7 
+
+### Cloud Service Providers 
+
+- `Amazon` : AWS (Amazon Web Services)
+- `IBM` : IBM Cloud
+- `Google` : Google Cloud Platform
+- `Microsoft` : Azure
