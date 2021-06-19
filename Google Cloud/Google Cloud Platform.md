@@ -41,3 +41,10 @@ Before **Cloud Computing** to Host a **Website** or **Application** on a Server 
 - User will just `Focus` on Business.
 - Provides `Virtual Machines`, `Storage`, `Security`, `Scalability` and `Flexibility`.
 
+### How they Provide Fast Service ?
+
+- Data is stored at Data Centers which is present in Multiple Regions.
+- e.g. In India consider Data Centers are present in `Mumbai`, `Delhi`, `Kolkata`, `Bangalore` and `Hyderabad`.
+- So User uses the Services from the Region closer to him.
+- If any of the Server fails he will get the Service from another region.
+- There will be very low to `No Latency` if the Service is offered from another Region Server.
