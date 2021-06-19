@@ -47,4 +47,4 @@ Before **Cloud Computing** to Host a **Website** or **Application** on a Server 
 - e.g. In India consider Data Centers are present in `Mumbai`, `Delhi`, `Kolkata`, `Bangalore` and `Hyderabad`.
 - So User uses the Services from the Region closer to him.
 - If any of the Server fails he will get the Service from another region.
-- There will be very low to `No Latency` if the Service is offered from another Region Server.
+- There will be very low to No `Latency` if the Service is offered from another Region Server.
