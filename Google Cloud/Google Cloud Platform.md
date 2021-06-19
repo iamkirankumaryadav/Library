@@ -39,4 +39,5 @@ Before **Cloud Computing** to Host a **Website** or **Application** on a Server 
 - It can be accessed throught the Internet across the `Globe`. 
 - User is not required to Manage the `Resource` and `Infrastructure`.
 - User will just `Focus` on Business.
+- Provides `Virtual Machines`, `Storage`, `Security`, `Scalability` and `Flexibility`.
 
