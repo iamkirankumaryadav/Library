@@ -19,6 +19,6 @@ Problems :
 
 - Cloud Computing is like our Electricity, Water and Gas Supply.
 - **Pay** only for How much you use (Optimum)
-- No Waste of Resource, Energy and Money.
+- No Waste of **Resource**, **Energy** and **Money**.
 - **Security**, **Infrastructure**, **Maintenance** and **Planning** everything is managed by the Service Provider.
 - Helps us to only **Focus** on our Business.
