@@ -22,3 +22,4 @@ Before **Cloud Computing** to Host a **Website** or **Application** on a Server 
 - No Waste of **Resource**, **Energy** and **Money**.
 - **Security**, **Infrastructure**, **Maintenance** and **Planning** everything is managed by the Service Provider.
 - Helps us to only **Focus** on our Business.
+- Access from across the **Globe** 24 x 7 
