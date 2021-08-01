@@ -110,3 +110,7 @@
 - [David Rivers](https://www.linkedin.com/learning/instructors/david-rivers) ( `Microsoft` and `Google` Productivity )
 - [Lillian Pierson](https://www.linkedin.com/learning/instructors/lillian-pierson-p-e) ( `Python` for Data Science )
 - [Sahil Malik](https://www.linkedin.com/learning/instructors/sahil-malik) ( `Azure` Machine Learning )
+
+### Medium
+
+- [Arpita Ghosh](https://arpita-ghosh.medium.com/)
