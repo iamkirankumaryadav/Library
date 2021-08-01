@@ -113,4 +113,4 @@
 
 ### Medium
 
-- [Arpita Ghosh](https://arpita-ghosh.medium.com/)
+- [Arpita Ghosh](https://arpita-ghosh.medium.com/) ( `Power BI` )
