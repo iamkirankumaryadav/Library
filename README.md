@@ -99,6 +99,10 @@
 - [Andrei Neagoie](https://www.udemy.com/user/andrei-neagoie/) ( Data Science, Web Design and Development, Python )
 - [Daniel Bourke](https://www.udemy.com/user/daniel-bourke-52/) ( Machine Learning )
 - [Dr. Angela Yu](https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/) ( Web Design and Development, Python )
+- [Mariel Aim](https://www.udemy.com/user/mariel-aim-2/) ( Business Intelligence )
+- [Data is Good Academy](https://www.udemy.com/user/data-is-good-2/) ( Data Science, BI and AI )
+- [Dee Naidoo](https://www.udemy.com/user/devasha-naidoo/) ( Tableau )
+- [Nikolai Schuler](https://www.udemy.com/user/nikolai-schuler/) ( Power BI )
 
 ### Linked Learning
 
