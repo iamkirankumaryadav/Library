@@ -94,6 +94,7 @@
 - [Lan Little John](https://www.udemy.com/user/ianlittlejohn2/) ( Excel, Power BI and Data Studio )
 - [Enrique Ruiz](https://www.udemy.com/user/enrique-ruiz-tapia/) ( Excel Expert )
 - [Dustin Cabral](https://www.udemy.com/user/dustin-cabral-2/) ( Tableau Expert )
+- [Leila Gharani](https://www.udemy.com/user/leila-gharani/) ( Microsoft Most Valuable Professional )
 
 ### Linked Learning
 
