@@ -94,6 +94,11 @@
 - [Lan Little John](https://www.udemy.com/user/ianlittlejohn2/) ( Excel, Power BI and Data Studio )
 - [Dustin Cabral](https://www.udemy.com/user/dustin-cabral-2/) ( Tableau Expert )
 - [Leila Gharani](https://www.udemy.com/user/leila-gharani/) ( Microsoft Most Valuable Professional )
+- [Kirill Eremenko](https://www.udemy.com/user/kirilleremenko/) ( Data Science, Machine Learning and Deep Learning )
+- [Jose Portilla](https://www.udemy.com/user/joseportilla/) ( Data Science )
+- [Andrei Neagoie](https://www.udemy.com/user/andrei-neagoie/) ( Data Science, Web Design and Development, Python )
+- [Daniel Bourke](https://www.udemy.com/user/daniel-bourke-52/) ( Machine Learning )
+- [Dr. Angela Yu](https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/) ( Web Design and Development, Python )
 
 ### Linked Learning
 
