@@ -103,6 +103,7 @@
 - [Data is Good Academy](https://www.udemy.com/user/data-is-good-2/) ( Data Science, BI and AI )
 - [Dee Naidoo](https://www.udemy.com/user/devasha-naidoo/) ( Tableau )
 - [Nikolai Schuler](https://www.udemy.com/user/nikolai-schuler/) ( Power BI )
+- [New Horizon](https://www.udemy.com/user/vincent-gomez-9/) ( Data Analysis )
 
 ### Linked Learning
 
