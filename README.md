@@ -104,6 +104,7 @@
 - [Dee Naidoo](https://www.udemy.com/user/devasha-naidoo/) ( Tableau )
 - [Nikolai Schuler](https://www.udemy.com/user/nikolai-schuler/) ( Power BI )
 - [New Horizon](https://www.udemy.com/user/vincent-gomez-9/) ( Data Analysis )
+- [Microsoft Excel Data Analysis](https://www.udemy.com/course/excel-data-analysis/) ( Excel )
 
 ### Linked Learning
 
