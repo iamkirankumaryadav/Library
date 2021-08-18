@@ -2,7 +2,7 @@
 
 <p align="center"> 
   <strong> Data Science </strong> | 
-  <strong> Machine Learning </strong> | 
+  <strong> Business Intelligence </strong> | 
   <strong> <a href="#ai"> Artificial Intelligence </a> </strong> | 
   <strong> <a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/"> Python </a> </strong> | 
   <strong> Statistics </strong> | 
