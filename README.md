@@ -17,7 +17,7 @@
   <strong> <a href="#yt"> YouTube </a> </strong> | 
   <strong> Articles </strong> | 
   <strong> Documentations </strong> | 
-  <strong> <a href="#websites"> Websites </a> </strong> 
+  <strong> <a href="#website"> Websites </a> </strong> 
 </p>
 
 ### Important Libraries
