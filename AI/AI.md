@@ -7,10 +7,10 @@ Term | Definition
 **Data** | **Collection** of `Facts`
 **Data Design** | How you **Organize** Information and Data.
 **Data Strategy** | Management of `People`, `Prices` and `Tools` used in **Data Analysis**.
-**Data Analytics** | **Science** of **Data**.
+**Data Analytics** | Future Prediction or Forecasting.
 **Data Visualization** | Graphical Representation of **Information**.
 **Data Modeling** | Creating a Model for **Reporting** and **Forecasting** Business Decisions.
-**Data Analysis** | **Collect**, **Transform** and **Organize** Data in order to Draw **Conclusion**,  **Make Predictions** and **Decisions**.
+**Data Analysis** | **Collect**, **Transform** and **Organize** Data in order to Draw **Conclusion** from the past Data.
 **Data Science** | **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**.
 **Forecasting** | Making **Predictions** based on **Past** and **Present** Data.
 **Training Data Set** | Data used to **Train** the Model ( Allow **Algorithm** to **Learn** from Data )
