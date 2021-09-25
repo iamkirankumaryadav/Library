@@ -2,7 +2,7 @@
 
 ### Elite Data Science Primer
 
-<h3><a href='#eda'>Exploratory Data Analysis</a> ( EDA )&nbsp; |&nbsp; <a href='#clean'>Data Cleaning</a>&nbsp; |&nbsp; <a href='#fe'>Feature Engineering</a></h3>
+<h3><a href='#eda'>Exploratory Data Analysis</a> ( EDA )&nbsp;|&nbsp;<a href='#clean'>Data Cleaning</a>&nbsp;|&nbsp;<a href='#fe'>Feature Engineering</a>&nbsp;|&nbsp;<a href='#dp'>Data Preprocessing</a></h3>
 
 <h2 name='eda'>1. Exploratory Data Analysis</h2>
 
@@ -145,5 +145,10 @@
 - `make_pipeline`( Imputer, Column Transformer, Estimator ) | Estimator : Classifier or Regressor.
 - `make_column_transformer()` : We can apply different **Encoder** on different Column **Individually** based on Requirement )
 - pipeline can be directly used for Training using `fit()` and it can even Predict using `predict()`
+
+<h2 name='dp'>4. Data Preprocessing</h2>
+
+- A process of preparing the raw data and making it suitable for analytics, insights and machine learning model.
+- First crucial step while creating a machine learning model.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
