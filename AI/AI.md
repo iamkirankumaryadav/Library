@@ -56,7 +56,7 @@ Types :
 - Art of extracting knowledge from data.
 - Computers learn from data and act like humans.
 - Computers learn from **past** data without being explicitly programmed.
-- Find patterns and relationship between **Features** and **Labels**.
+- Find patterns and relationship between `Features` and `Labels`
 - Improve automatically through **experience**.
 - A set of algorithms that allows computers to learn from data without being explicitly programmed.
 - Deals with **Structured** and **Semi Structured** data.
