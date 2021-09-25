@@ -29,7 +29,7 @@ Term | Definition
 **Cloud** | A Place to Keep Data **Online**, rather than Computer Hard Drive.
 **Ecosystem** | Various elements interacts in order to **Produce**, **Manage**, **Store**, **Organize**, **Analyze** and **Share** Data.
 Data Driven Decision Making | Using Facts to Guide Business Strategy.
-Analytical Skills | Qualities and Characteristics associated with **Solving** Problems using **Facts**
+Analytical Skills | Qualities and Characteristics associated with **Solving** Problems using **Facts**.
 
 ---
 
