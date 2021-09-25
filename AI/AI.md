@@ -7,7 +7,7 @@ Term | Definition
 **Data** | **Collection** of `Facts`
 **Data Design** | How you **Organize** Information and Data.
 **Data Strategy** | Management of `People`, `Prices` and `Tools` used in **Data Analysis**.
-**Data Ingestion** | Unstructured data is extracted from multiple sources and prepared for **Analytics**, **Insights** or **Model building**.
+**Data Ingestion** | Unstructured data extracted from multiple sources and prepared for **Analytics**, **Insights** or **Model building**.
 **Data Analytics** | Future Prediction or Forecasting.
 **Data Visualization** | Graphical Representation of **Information**.
 **Data Modeling** | Creating a Model for **Reporting** and **Forecasting** Business Decisions.
