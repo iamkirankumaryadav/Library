@@ -39,27 +39,27 @@ AI > ML > DL
 
 <h1 name='ai'>AI | Artificial Intelligence</h1>
 
-- Computers Perform the Task that Normally requires Human Intelligence.
-- Mimic the Intelligence or Behavioural Patterns of Humans.
-- Ability to Learn and Reason like Humans.
-- Make Smart Computers like Human to Solve Complex Problems
-- Deals with Structures | Semi Structured and Unstructured Data
+- Computers perform the task that normally requires **Human Intelligence**.
+- Mimic the **Intelligence** or **Behavioural** patterns of humans.
+- Ability to learn and reason like humans.
+- Make smart computers like human to solve complex problems.
+- Deals with **Structured** | **Semi Structured** and **Unstructured** Data.
 
 Types :
-1. **Weak** AI ( **Narrow** AI ) | Good in `One` Task
+1. **Weak** AI ( **Narrow** AI ) | Good in `One` Task.
 2. **General** AI ( Computer as Smart as Human )
 3. **Strong** AI ( **Super** AI ) Reduce Human Error | **24 x 7** Availability | Digital Assistance | Fast and Accurate Decisions.
 
 <h1 name='ml'>Machine Learning | <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">ML</a></h1>
 
 - Subset of AI
-- Art of Extracting Knowledge from Data
-- Computers Learn from Data and Act like Humans.
-- Computers Learn from Past Data without being Explicitly Programmed.
-- Find Patterns and Relationship between Features and Labels.
-- Improve Automatically through Experience.
-- A Set of Algorithms that Allows Computers to Learn from Data without being Explicitly Programmed.
-- Deals with Structured and Semi Structured Data.
+- Art of extracting knowledge from data.
+- Computers learn from data and act like humans.
+- Computers learn from **past** data without being explicitly programmed.
+- Find patterns and relationship between **Features** and **Labels**.
+- Improve automatically through **experience**.
+- A set of algorithms that allows computers to learn from data without being explicitly programmed.
+- Deals with **Structured** and **Semi Structured** data.
 
 Types :
 1. Supervised Learning
