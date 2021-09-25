@@ -26,9 +26,9 @@ Term | Definition
 <a href='#cv'>Computer Vision</a> \| <a href="https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Computer%20Vision.md">CV</a> | Field of AI that **Trains Computers** to **Understand** the **Visual World** like a **Human Eye** 
 <a href='#iot'>Internet of Things</a> | **Network** of **Physical Objects** embedded with **Sensors**, **Connecting** and **Exchanging Data** with each others 
 **Data Mining** | Turn Raw Data into Useful **Information**, Discovering **Patterns** in Large Dataset
-**Cloud** | A Place to Keep Data **Online**, rather than Computer Hard Drive
-**Ecosystem** | Various Elements that Interact with One another in Order to **Produce**, **Manage**, **Store**, **Organize**, **Analyze** and **Share** Data
-Data Driven Decision Making | Using Facts to Guide Business Strategy
+**Cloud** | A Place to Keep Data **Online**, rather than Computer Hard Drive.
+**Ecosystem** | Various elements interacts in order to **Produce**, **Manage**, **Store**, **Organize**, **Analyze** and **Share** Data.
+Data Driven Decision Making | Using Facts to Guide Business Strategy.
 Analytical Skills | Qualities and Characteristics associated with **Solving** Problems using **Facts**
 
 ---
