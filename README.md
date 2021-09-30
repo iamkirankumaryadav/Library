@@ -55,6 +55,7 @@
 - [Chris Albon](https://chrisalbon.com/)
 - [Real Python](https://realpython.com/)
 - [The Clever Programmer](https://thecleverprogrammer.com/)
+- [Data Science School](https://courses.dataschool.io/)
 
 <h3 name="ai">Artificial Intelligence</h3>
 
