@@ -13,11 +13,11 @@ Use for **Neural Networks** ( ANN, CNN, RNN ) | Algorithms that rely on **Gradie
 
 ### Scaling 
 - Convert **Numeric** Feature values from their `Natural` **range** ( e.g. 100 to 900 ) into a `Standard` or `Normal` **range**.
-- A feature set with only One Feature do not need Scaling, Beneficial only if the Feature Set consists of **Multiple** features.
+- A feature set with only one feature do not need Scaling, Beneficial only if the Feature Set consists of **Multiple** features.
 
 ### Data Standardization ( Z Score Normalization )
-- Standardize **Features** around center ( `Mean` ) | Equalize the Range or Data **Variability**.
-- Important when we **Compare** Measurements that have Different **Units**.
+- Standardize features around center ( `Mean` ) | Equalize the range or data **Variability**.
+- Important when we **compare** measurements that have different **Units**.
 
 Where to **Use** ? | Where **not** to **Use** ?
 :--- | :---
