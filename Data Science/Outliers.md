@@ -26,43 +26,43 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 ![Standard Deviation](Image/Std.png)
 
-- How many **Standard Deviations** a **Data Point** is from the **Sample's Mean**
+- How many `Standard Deviations` a data point is away from it's **Sample's Mean**.
 - **z** = ( x - **mean** ) / **standard deviation**
-- Data Points after **3 Standard Deviations** ( `mean` +- `3` * `std` ) are considered as **Outliers**.
+- Data points after **3 Standard Deviations** ( `mean` +- `3` * `std` ) are considered as `Outliers`
 
-> **Solution** : Apply Transformation of Data : Scaling
+> **Solution** : Apply Transformation of Data : Scaling ( Bring scales at same level )
 
 <h3 name="dbscan"> ( DBSCAN ) | Density Based Spatial Clustering of Applications with Noise</h3>
 
-- **Clustering** methods are useful tools that helps us to `Visualize` Data and Outliers.
-- Relationships between **Features** can be represented via **Clustering**.
+- `Clustering` methods are useful tools that helps us to `Visualize` Data and `Outliers`
+- Relationships between **Features** can be represented via `Clustering`
 - **Density Based Clustering Algorithm**, it is focused on finding **Neighbors** by **Density**.
-- `Outlier` lies in No Cluster it is Seperate from every other Data point.
+- `Outlier` lies in no cluster region, it is seperate from every other data point.
 
 ### How to Deal with Outliers ?
 
 1. Setup a `Filter` and `Trim` Data Set.
-2. Remove the `Outlier` if it is very Small, Change the Value of `Outlier` or Replace it with something Meaningful.
+2. Remove the `Outlier` if it is very Small, Change the Value of `Outlier` or Replace it with something meaningful.
 3. **Inter Quartile** Range ( `IQR` ) and Extreme Value Analysis ( `Z Score` )
-5. `Rescale` | `Standardize` | `Normalize` ( Bring to Same Scale )
+5. `Rescale` | `Standardize` | `Normalize` ( Bring to same scale )
 6. Apply `Ensemble` Learning Techniques ( `Bagging` and `Boosting` )
 
 <h3 name="summary"> Five Number Summary</h3>
 
 >  Divide the Data into `4` Equal Quarters ( `Quartiles` ) 
 
-1. Minimum : **Smallest** value in a Dataset.
-2. 1<sup>st</sup> **Quartile** ( **Q1** ) | 25<sup>th</sup> **Percentile** : `25%` of Data Values are smaller and 75% are larger.
-3. 2<sup>nd</sup> **Quartile** ( **Q2** ) | 50<sup>th</sup> **Percentile** : **Median** | `50%` of Data Values are smaller and 50% are larger the Median.
-4. 3<sup>rd</sup> **Quartile** ( **Q3** ) | 75<sup>th</sup> **Percentile** : `75%` of Data Values are smaller and 25% are larger.
-5. Maximum : **Largest** Value in a Dataset.
+1. Minimum : **Smallest** value in a dataset.
+2. 1<sup>st</sup> **Quartile** ( **Q1** ) | 25<sup>th</sup> **Percentile** : `25%` of data values are smaller and 75% are larger.
+3. 2<sup>nd</sup> **Quartile** ( **Q2** ) | 50<sup>th</sup> **Percentile** : **Median** | `50%` of data values are smaller and 50% are larger the median.
+4. 3<sup>rd</sup> **Quartile** ( **Q3** ) | 75<sup>th</sup> **Percentile** : `75%` of data values are smaller and 25% are larger.
+5. Maximum : **Largest** Value in a dataset.
 
 > **Five Number Summary** can be visually represented using **Boxplot**.
 - `Horizontal Line` on both ends of Boxplots are `Whiskers`.
 - `Box` is called **Interquartile Range** ( `IQR` )
 - `IQR` = `Q3` - `Q1`
-- Data Value **<** `Q1` - `1.5` * `IQR`
-- Data Value **>** `Q3` + `1.5` * `IQR`
+- Data value **<** `Q1` - `1.5` * `IQR`
+- Data value **>** `Q3` + `1.5` * `IQR`
 
 > **Outlier** is represented by dot ( **o** ) in **Boxplot**  
 
