@@ -18,7 +18,7 @@
 
 It is **Better** to keep data than to `Drop` it, Removing data may lead to `Loss` of important information.
 
-If one value in observation is **Missing** other values in the observations may be important.
+If one value in observation is `Missing` other values in the observations may be important.
 
 <h3 name="impute"> 2. Impute ( fillna( ) )</h3>
 
