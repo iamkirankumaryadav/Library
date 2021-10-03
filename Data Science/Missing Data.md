@@ -26,7 +26,7 @@ If one value in observation is `Missing` other values in the observations may be
 - `Impute` the `Categorical` missing data with `Mode` or `Most Frequent` (  **Univariate** Imputation ) 
 - `SimpleImputer()` is used to `Fill` the missing value ( **Univariate Imputation** ) 
 - `fit()` : Learn the values ( `Mean`, `Median`, `Mode` ) to be imputed and `transform()` : `Fill` the missing values.
-- `KNNImputer()` : **Fill** missing data with the help of ** K Nearest Neighbors**.
+- `KNNImputer()` : **Fill** missing data with the help of **K Nearest Neighbors**.
 - `IterativeImputer()` : 
 - Prevent from Data Loss but can cause **Data Leakage**.
 
