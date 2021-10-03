@@ -22,11 +22,11 @@ If one value in observation is `Missing` other values in the observations may be
 
 <h3 name="impute"> 2. Impute ( fillna( ) )</h3>
 
-- `Impute` the `Numerical` **Missing Data** with `Mean` or `Median` ( **Univariate** Imputation ) 
-- `Impute` the `Categorical` **Missing Data** with `Mode` or `Most Frequent` (  **Univariate** Imputation ) 
-- `SimpleImputer()` is used to `Fill` the Missing Value ( **Univariate Imputation** ) 
-- `fit()` : Learn the Values ( `Mean`, `Median`, `Mode` ) to be Imputed and `transform()` : `Fill` the Missing Values.
-- `KNNImputer()` : **Fill Missing Data** with the Help of **Nearest Neighbors**.
+- `Impute` the `Numerical` missing data with `Mean` or `Median` ( **Univariate** Imputation ) 
+- `Impute` the `Categorical` missing data with `Mode` or `Most Frequent` (  **Univariate** Imputation ) 
+- `SimpleImputer()` is used to `Fill` the missing value ( **Univariate Imputation** ) 
+- `fit()` : Learn the values ( `Mean`, `Median`, `Mode` ) to be imputed and `transform()` : `Fill` the missing values.
+- `KNNImputer()` : **Fill** missing data with the help of **Nearest Neighbors**.
 - `IterativeImputer()` : 
 - Prevent from Data Loss but can cause **Data Leakage**.
 
