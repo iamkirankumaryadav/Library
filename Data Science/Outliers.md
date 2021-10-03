@@ -5,19 +5,20 @@
 <h3><a href="#zscore">Z Score</a> ( Extreme Value Analysis ) | <a href="#dbscan">DBSCAN</a> | <a href="#summary">5 Number Summary</a> | <a href="#algo">Algorithm</a></h3>
 
 ### Outliers
-- **Data Point** that differs significantly from other **Observations** in the Dataset.
-- Outliers in a **Dataset** can **Skew** the Data and lead to make False Decisions based on **Faulty Data**.
+- **Data Point** that differs significantly from other **Observations** in the dataset.
+- `Outliers` in a dataset can `Skew` the data and lead to make false decisions based on **Faulty** data.
 
 ### Cause of Outliers 
 
 > Human Error ( Data Entry ) | Measurement ( Instrumental ) | Experimental ( Data Extraction ) | Natural Case ( Special Unique Case )
 
 How many **Features** to take into account to **Detect Outliers** ?
+
 - **Univariate** | **Multivariate**
 
-> **Data Visualization** is a most important part that plays the role of communicating with Data and Visualize `Outlier`.
+> **Data Visualization** is a most important part that plays the role of communicating with data and visualize `Outlier`.
 
-> **Boxplot**, **Scatter Plot** and **Histograms** are better plots to find **Outliers** in the Data Set.
+> **Boxplot**, **Scatter Plot** and **Histograms** are better plots to find **Outliers** in the data set.
 
 ### Methods for Outlier Detection
 
