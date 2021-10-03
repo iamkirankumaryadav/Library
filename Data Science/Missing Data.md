@@ -28,17 +28,17 @@ If one value in observation is `Missing` other values in the observations may be
 - `fit()` : Learn the values ( `Mean`, `Median`, `Mode` ) to be imputed and `transform()` : `Fill` the missing values.
 - `KNNImputer()` : **Fill** missing data with the help of **K Nearest Neighbors**.
 - `IterativeImputer()` : 
-- Prevent from Data Loss but can cause **Data Leakage**.
+- Prevent from data loss but can cause **Data Leakage**.
 
 ### Data Leakage 
-- `Sensitive` Information is shared with an `Unauthorized` User.
-- Accidently Sharing Data between the `Train` and `Test` Set.
+- `Sensitive` information is shared with an `Unauthorized` user.
+- Accidently sharing data between the `Train` and `Test` set.
 
 ### Disadvantage
 
-- Changes the `Distribution` of Dataset ( `Mean`, `Median`, `Variance` and `Standard Deviation` )
-- Bring New `Outliers`.
-- Changes the `Correlation` among Data.
+- Change the `Distribution` of dataset ( `Mean`, `Median`, `Variance` and `Standard Deviation` )
+- Bring new `Outliers`.
+- Change the `Correlation` among data ( `Features` ).
 
 <h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag ( Numeric Value )</h3>
 
