@@ -43,7 +43,7 @@ If one value in observation is `Missing` other values in the observations may be
 <h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag ( Numeric Value )</h3>
 
 - Assign a **Unique** category for data with missing values or assign with `"Missing"` flag.
-- **Flag** the **Numeric** missing data with `-1` or `0` ( Create Difference between **Missing** data and the remaining non missing data ) 
+- **Flag** the **Numeric** missing data with `-1` or `0` ( Create difference between missing data and remaining non missing data ) 
 
 <h3 name="predict"> 4. Predict Missing Value</h3>
 
