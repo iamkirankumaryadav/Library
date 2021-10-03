@@ -186,28 +186,28 @@
 <h3 name='tree'>3. Decision Tree</h3>
 
 - **Root** Node | Nodes ( Decisions | Conditions | Outcomes ) | Edges | Branches ( Splits of Trees ) | Leaf Node ( Terminal | Label | Class )
-- We Select the Feature as **Node** that **Splits** the Data very well.
-- Attribute with **High Information Gain** or **Low Entropy** is Selected as **Best Attribute** to Split upon.
-- Used especially for **Binary** Classification and **Multiclass** Classification and even used for **Regression**
-- Tree Models where the Target Variable takes a **Categorical** Set of Values are **Classification** Tree
-- Tree Models where the Target Variable takes a **Continuous** Values are **Regression** Tree
-- **CART** : **C**lassification **A**nd **R**egression **T**ree
-- Growing a Tree means Deciding Which **Feature** to Choose ? and What **Condition** to Use ? for splitting.
-- Continuous can be Converted into Binary or Boolean by Setting **Threshold**.
-- We should also know when to **Stop** ( **Max Depth** ) 
-- Decision Tree can be **Pruned** if Necessary to **Avoid Overfitting** 
+- We select the feature as **Node** that **Splits** the data very well.
+- Attribute with **High Information Gain** or **Low Entropy** is selected as **Best Attribute** to split.
+- Used especially for **Binary** classification and **Multiclass** classification and even used for **Regression**.
+- Models where the `Target` variable takes a **Categorical** set of values are **Classification** tree.
+- Models where the `Target` variable takes a **Continuous** values are **Regression** Tree.
+- **CART** : **C**lassification **A**nd **R**egression **T**ree.
+- Growing a tree means deciding which **Feature** to choose ? and what condition to use ? for splitting.
+- Continuous can be converted into `Binary` or `Boolean` by setting **Threshold** value.
+- We should also know when to **Stop** | **Terminate** ( **Max Depth** ) 
+- Decision tree can be **Pruned** if necessary to avoid `Overfitting` 
 
-### Information Gain ( Which Feature will be Selected as Root Node ? )
+### Information Gain ( Which Feature will be selected as Root Node ? )
 
-- **High IG** is Better.
-- **Information Gain** decides which Feature will become Node and will **Split** the Data further for Building the **Tree**.
-- Split with the High **Information Gain** will be Considered as First Split and the process will continue untill **IG** becomes 0
+- **High IG** is better.
+- **Information Gain** decides which feature will become `Node` and will **Split** the data further for building the **Tree**.
+- Split with the high **Information Gain** will be considered as first split and the process will continue untill **IG** becomes 0.
 
-### Gini Index ( Checks for Impurity in the Dataset )
+### Gini Index ( Checks for Impurity in the dataset )
 
-- **Low** Gini Index is Better.
-- **Pure** : All Data belongs to **Same** Class in a Subset ( Gini Index : 0 )
-- **Impure** : Data is Mixture of **Different** Classes in a Subset.
+- **Low** Gini Index is better.
+- **Pure** : All data belongs to **Same** class in a subset ( Gini Index : 0 )
+- **Impure** : Data is mixture of **Different** classes in a subset.
 
 ### Entrophy ( Measure Disorder | Randomness | Uncertainity in Data )
 
@@ -217,72 +217,72 @@
 Advantage of Decision Tree | Disadvantage of Decision Tree
 :--- | :---
 Handle **Categorical** and **Numerical** Data | Prone to **Overfitting**
-No effect of **Outliers** | Need Carefull **Parameter Tuning**
+No effect of **Outliers** | Need carefull **Parameter Tuning**
 Handle **Non Linear Data** |
 
-> Individual Trees are prone to **Overfitting** but Improves when **Ensembled**.
+> Individual trees are prone to **Overfitting** but improves when **Ensembled**.
 
 ### How to Avoid Overfitting
-- Remove | **Prune** Branches with Less Importance ( Irrelevant Feature )
-- Early Stop ( Limit the **Max Depth** of the Tree )
+- Remove | **Prune** branches with less importance ( Irrelevant Feature )
+- Early stop ( Limit the **Max Depth** of the tree )
 
 <h3 name='forest'>4. Random Forests ( Ensemble Learning Technique | Bagging )</h3>
 
-- **Merge** a Collection of Parallel Arranged **Independent Decision Trees** to get more **Accurate** and **Stable** Prediction.
-- Multiple **Decision Trees** ( Weak Learners ) trained **Parallel** and **Individually** | **Independently**. 
-- **Bootstrapped Data Sets** of Orignal Data and **Randomly** selecting **Subsets** at each step. ( **Sampling** with **Replacement** )
-- Bagging Technique ( **Multiple** Decision Trees are **Trained** in **Parallel** to Form a **Strong Learner** ) 
-- **Prediction** of Model is based on the **Voting** of Decision Trees Output ( **Majority Voting** )
-- Reduces Risk of **Error** and **Overfitting**.
+- **Merge** a collection of `Parallel` arranged **Independent Decision Trees** to get more **Accurate** and **Stable** Prediction.
+- Multiple **Decision Trees** ( Weak Learners ) trained `Parallel` and **Individually** | **Independently**. 
+- **Bootstrapped Data Sets** of orignal data and **Randomly** selecting subsets at each step. ( **Row Sampling** with **Replacement** )
+- Bagging technique ( **Multiple** Decision Trees are trained in `Parallel` to form one **Strong Learner** ) 
+- **Prediction** of model is based on the **Voting** of Decision trees output ( **Majority Voting** )
+- Reduces risk of **Error** and **Overfitting**.
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
-- SVM can be used for both **Regression** and **Classification** ( but Better use for Classification )
-- Finds a Optimal **Line** or **Hyperplane** that Separates the 2 **Distinct** Classes with Maximum **Margin** in **N Dimensional Space**.
-- **Hyperplanes** are **Decision Boundaries** that help to `Classify` the Data Points.
-- Data Points are **Support Vectors**.
-- SVM can be used for **Linear** and **Non Linear** Data.
-- SVM uses **Kernel Trick** for **Non Linear** Data which Creates a **Hyperplane** in **N Dimensional Space** for Linear Seperation.
-- Works Better even if Data set has lot of **Outliers** ( Because SVM Focus only on **Support Vectors** closest to the Line  )
-- Should be Used if Data Set has lot of **Features** 
-- Take Long Time to **Train** and **Predict** if the Number of **Observations** are very Large
-- Kernel Functions : Linear | Radial Basis Function ( RBF ) | Polynomial | Exponential
+- `SVM` can be used for both **Regression** and **Classification** ( but better used for Classification )
+- Finds an optimal **Line** or **Hyperplane** that separates the 2 **Distinct** classes with Maximum **Margin** in **N Dimensional Space**.
+- **Hyperplanes** are **Decision Boundaries** that help to `Classify` the data points.
+- Data points are **Support Vectors**.
+- `SVM` can be used for **Linear** and **Non Linear** Data.
+- SVM uses **Kernel Trick** for **Non Linear** Data which creates a **Hyperplane** in **N Dimensional Space** for linear seperation.
+- Works better even if data set has lot of **Outliers** ( Because SVM focus only on **Support Vectors** closest to the Line  )
+- Should be used if data set has lot of Independent **Features**. 
+- Take long time to **Train** and **Predict** if the number of **Observations** are very large.
+- Kernel Functions : Linear | Radial Basis Function ( RBF ) | Polynomial | Exponential.
 
 ### Benefits 
 
 - SVM also works well with **Unstructured** and **Semi Structured** Data ( Text, Image, Tree )
-- **Generalize** Well ( Works well on New Unseen Data )
-- Risk of **Overfitting** is Less.
+- **Generalize** well ( Works well on new unseen data )
+- Risk of **Overfitting** is less.
 
 ### Disadvantage
 
-- Choosing a **Good Kernel** Function, **Fine Tuning** and even **Visualization** is not easy
-- Long **Training Time** for **Large** Datasets.
-- Difficult to Understand **Final Model**, Variable Weights and Individual Impact.
+- Choosing a **Good Kernel** function, **Fine Tuning** and even **Visualization** is not easy.
+- Long **Training Time** for **Large** datasets.
+- Difficult to understand **Final Model**, variable weights and individual impact.
 
 <h3 name='knn'>6. K Nearest Neighbours</h3>
 
-- **Multiclass** Classification Algorithm
+- **Multiclass** Classification Algorithm.
 - Measures the **Geometrical Distance** ( **Euclidean Distance** ) 
 - **K** : Initialize **K** ( Number of Nearest **Neigbors** ) 
-- Calculate Distance between New **Test** Data Point and **K Nearest Neigbours** of **Training** Data Points
-- Sort the **Ordered** Calculated Distance in **Ascending Order**
-- Get Nearest ( **Least** Distance ) to it or most **Frequent Classes** in Neighbor
-- **Regression** : **Mean** of K Nearest Distances ( Labels )
-- **Classification** : **Mode** of K Nearest Distances ( Labels )
+- Calculate distance between new **Test** data point and **K Nearest Neigbours** of training data points.
+- Sort the **Ordered** calculated distance in **Ascending Order**.
+- Get nearest | shortest ( **Least** Distance ) to it or most **Frequent Classes** in neighbor.
+- **Regression** : **Mean** of K Nearest Distances ( Mean of Labels )
+- **Classification** : **Mode** of K Nearest Distances ( Most Frequent Labels )
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
 - Based on **Conditional Probability** | Class **Prediction** Probability ( Used for **Binary** and **Multiclass** Classification )
 - Probabilistic Machine Learning Model ( Likelihood, Prior Probability and Posterior Probability )
 - Probability of **Event A** if **Event B** has already occured.
-- **Naive** : Because it assumes that all of the **Features** are **Independent** from each other.
-- e.g **Classification** of Dogs Breed ( Naive Bayes tries to Create a **Probability** that the Dog belongs in each Class | Label )
-- Weights can be Added to Improve **Accuracy** 
+- **Naive** : Assumes that all of the **Features** are **Independent** from each other.
+- e.g **Classification** of Dogs Breed ( Naive Bayes tries to create a **Probability** that each Dog belongs to seperate Class | Label )
+- Weights can be added to improve **Accuracy**. 
 
 > P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
 
-All follow Same Process in **Regression** and **Classification** the only difference is in **Output** 
+All follow same process in **Regression** and **Classification** the only difference is in **Output**. 
 
 > **Regression** : **Continuous Numerical**
 
