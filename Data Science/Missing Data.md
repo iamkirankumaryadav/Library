@@ -14,9 +14,9 @@
 
 - `Drop` **Observations** if it has a `NULL` value for particular **Columns** ( Rows of `Missing` Data < `5%` | `axis = 0` )
 - `Drop` **Columns** if ( **Missing Values** > `70%` | `axis = 1` )
-- Deleting an Irrelevant **Rows** or **Columns** helps to get a **Robust Model**.
+- Deleting irrelevant **Rows** or **Columns** helps to get a **Robust Model**.
 
-It is **Better** to Keep Data than to `Drop` it, Removing Data may lead to `Loss` of **Important Information**.
+It is **Better** to keep data than to `Drop` it, Removing data may lead to `Loss` of important information.
 
 If one value in observation is **Missing** other values in the observations may be important.
 
