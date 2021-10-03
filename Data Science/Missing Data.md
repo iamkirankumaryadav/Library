@@ -47,9 +47,9 @@ If one value in observation is `Missing` other values in the observations may be
 
 <h3 name="predict"> 4. Predict Missing Value</h3>
 
-- `Fill` **Missing Data** with the Help of other **Features** by **Predicting** ( **Multivariate** Imputation ) 
-- `Continuous` and `Categorical` Data can be used for `Prediction` and `Classification`.
-- `Interpolation` : `Predict` **Missing Data** with the Range of `Date` and `Time` ( Time Series Forecasting ) 
+- `Fill` missing data with the Help of other **Features** by **Predicting** ( **Multivariate** Imputation ) 
+- `Continuous` and `Categorical` data can be used for `Prediction` and `Classification`.
+- `Interpolation` : `Predict` missing data with the range of `Date` and `Time` ( Time Series Forecasting ) 
 
 <h3 name="algo"> 5. Use Algorithm which Supports Missing Values</h3>
 
