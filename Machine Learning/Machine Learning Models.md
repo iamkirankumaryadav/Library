@@ -110,7 +110,7 @@
 
 > **Parameters** are the Factors which are considered by the model to make **Predictions** or **Classification**
 
-> **Parameters** are Adjusted or Tuned in order to gain **Accuracy** with least [**Error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) and **Assurance** that the Model is giving Desired Results. 
+> **Parameters** are adjusted or tuned in order to gain **Accuracy** with least [**Error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) and **Assurance** that the model is giving desired expected results. 
 
 ### Steps of Machine Learning
 1. Gathering Data
