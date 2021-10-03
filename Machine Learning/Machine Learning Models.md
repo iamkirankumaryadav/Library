@@ -108,7 +108,7 @@
 
 > Model is the system that makes **Predictions** or **Classification**
 
-> **Parameters** are the Factors which are considered by the model to make **Predictions** or **Classification**
+> **Parameters** are factors which are considered by the model to make **Predictions** or **Classification**
 
 > **Parameters** are tuned to gain **Accuracy** with least [**Error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) and **Assurance** that the model is giving desired expected results. 
 
