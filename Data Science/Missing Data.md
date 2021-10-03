@@ -49,14 +49,15 @@ If one value in observation is `Missing` other values in the observations may be
 
 - `Fill` missing data with the Help of other **Features** by **Predicting** ( **Multivariate** Imputation ) 
 - `Continuous` and `Categorical` data can be used for `Prediction` and `Classification`.
-- `Interpolation` : `Predict` missing data with the range of `Date` and `Time` ( Time Series Forecasting ) 
+- `Interpolation` : `Predict` missing data with the range of `Date` and `Time` ( Time Series `Forecasting` ) 
 
 <h3 name="algo"> 5. Use Algorithm which Supports Missing Values</h3>
 
 - **KNN**, **Naive Bayes** and **Random Forest**.
-- **KNN** works on Principle of **Distance Measure**.
-- **KNN** fills **Missing Value** by taking the **Majority** of the **K Nearest** Values.
+- **KNN** works on principle of **Distance Measure**.
+- **KNN** fills missing value by taking the majority of the **K Nearest** values.
 - **Random Forest** works well on **Non Linear** and **Categorical Data**.
+- Weak learners are trained by non missing data and tested on data with missing values.
 
 ### Domain Knowledge can also help us to Deal with the Missing Data.
 
