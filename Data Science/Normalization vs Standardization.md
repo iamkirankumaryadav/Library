@@ -34,12 +34,12 @@ Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability
 ### Transformation
 
 - **Split** the Data Set into `Train` Set and `Test` Set.
-- Application of the Same **Calculation** to Each and Every Data Point in `Train` Set and `Test` Set ( No need to Scale **Dependent Variable** )
-- `fit()` : **Learn Parameters** and **Scales** of Data which will be needed to **Transform** the Data | Applied on `Train` Set.
-- `transform()` : **Transforms** Data on the basis of what it **Learns** from **fit( )** | Applied on `Test` Set.
-- `fit_transform()` : First Learn ( **Fit** ) and then Apply in place ( **Transform** )
-- Applies Same **Transformation** to both Sets of Data ( `Train` Set and `Test` Set ) keeps **Consistency** and Prevents **Data Leakage**.
-- **Data Leakage** :  **Sharing Information** of **Test Set** with **Train Set**.
+- Application of the same **Calculation** to each and every data point in `Train` set and `Test` set ( No need to scale **Dependent Variable** )
+- `fit()` : **Learn Parameters** and **Scales** of data which will be needed to **Transform** the data | Applied on `Train` set.
+- `transform()` : **Transforms** data on the basis of what it **Learns** from **fit( )** | Applied on `Test` set.
+- `fit_transform()` : First Learn ( **Fit** ) and then apply in place ( **Transform** )
+- Applies same **Transformation** to both sets of data ( `Train` Set and `Test` Set ) keeps **Consistency** and prevents **Data Leakage**.
+- **Data Leakage** :  **Sharing information** of **Test Set** with **Train Set**.
 
 ### How to Prevent Data Leakage 
 - Never Apply `fit_transform()` on Test Set.
