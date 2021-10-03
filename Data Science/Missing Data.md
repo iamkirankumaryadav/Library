@@ -12,7 +12,7 @@
 
 <h3 name="del"> 1. Drop ( dropna( ) )</h3>
 
-- `Drop` **Observations** if it has a `NULL` value for Particular **Feature** ( Rows of `Missing` Data < `5%` | `axis = 0` )
+- `Drop` **Observations** if it has a `NULL` value for particular **Feature** ( Rows of `Missing` Data < `5%` | `axis = 0` )
 - `Drop` Particular **Column** ( **Missing Values** > `70%` | `axis = 1` )
 - Deleting an Irrelevant **Rows** or **Columns** helps to get a **Robust Model**.
 
