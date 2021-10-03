@@ -6,10 +6,10 @@ Bias | Variance
 :--- | :---
 **High** Bias ( High Error on **Train** Set ) | **High** Variance ( High Error on **Test** Set )
 **Low** Bias ( Low Error on **Train** Set \| Model is Trained **Well** ) | **Low** Variance ( Low Error on **Test** Set \| **Prediction** is `Close` to **Actual** )
-Model is not **Trained** Properly | Model does not **Generalize** well on **New Unknown Data**
-**Simple** Model is Created | **Complicated** Model is Created
-Model make **Simplified Assumptions** while Learning | Model **Learn** Data with **Noise** and **Confusion**
-Model do not Capture Hidden Patterns and Relations properly | Model **Memorize** Patterns and Relations + Noise + Error
+High Bias : Model is not **Trained** Properly | Model does not **Generalize** well on **New Unknown Data**
+High Bias : **Simple** Model is Created | **Complicated** Model is Created
+Simple Model make **Simplified Assumptions** while Learning | Model **Learn** Data with **Noise** and **Confusion**
+Simple Model do not capture **Hidden** Patterns and Relations properly | Model **Memorize** Patterns and Relations + Noise + Error
 Low Bias Algorithms ( Decision Tree, KNN, SVM ) | Low Variance Algorithms ( Regression, LDA )
 High Bias Algorithm ( Regression ) | High Variance Algorithm ( Decision Tree, KNN, SVM ) 
 
