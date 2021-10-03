@@ -21,7 +21,7 @@
 - Combine the `Down Sampled` data with orignal `Minority` class dataframe.
 
 ### B. Change Evaluation Metrics for Better Performance
-- Choosing Right Evaluation Metrics is Important.
+- Choosing right evaluation metrics is important.
 - `F1 Score` : Number between `0` and `1` ( Harmonic Mean of `Recall` and `Precision` )
 - **Precision** : Focus on **Positive Predictions**
 - **Recall** ( `TPR` ) : Focus on **Positive Predictions**
