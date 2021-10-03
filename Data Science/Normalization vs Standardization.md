@@ -34,7 +34,7 @@ Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability
 
 ### Transformation
 
-- **Split** the Data Set into `Train` Set and `Test` Set.
+- **Split** the Data Set into `Train` set and `Test` set.
 - Application of the same **Calculation** to each and every data point in `Train` set and `Test` set ( No need to scale **Dependent Variable** )
 - `fit()` : **Learn Parameters** and **Scales** of data which will be needed to **Transform** the data | Applied on `Train` set.
 - `transform()` : **Transforms** data on the basis of what it **Learns** from **fit( )** | Applied on `Test` set.
