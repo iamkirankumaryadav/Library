@@ -51,7 +51,7 @@ If one value in observation is `Missing` other values in the observations may be
 - `Continuous` and `Categorical` data can be used for `Prediction` and `Classification`.
 - `Interpolation` : `Predict` missing data with the range of `Date` and `Time` ( Time Series `Forecasting` ) 
 
-<h3 name="algo"> 5. Use Algorithm which Supports Missing Values</h3>
+<h3 name="algo"> 5. Use Algorithms which works fine with missing values</h3>
 
 - **KNN**, **Naive Bayes** and **Random Forest**.
 - **KNN** works on principle of **Distance Measure**.
