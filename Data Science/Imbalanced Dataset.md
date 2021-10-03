@@ -2,23 +2,23 @@
 
 ### Imbalanced Data Set
 
-- **Class Labels** should be `Balanced` otherwise it Predicts a **Biased Output**.
+- **Class** labels should be `Balanced` otherwise it predicts a **Biased Output**.
 
 ### A. Stratified Sampling
-- Create a Sample containing `Equal` Proportion of Each `Class Labels` to Train the Model.
+- Create a sample containing `Equal` proportion of each `Class Labels` to train the model ( 50 Red, 50 Blue and 50 Green )
 
 ### 1. Up | Over Sampling Minority Class | Sampling with Replacement 
 
 ### ( SMOTE : Synthetic Minority Oversampling Technique )
 
-- Randomly **Duplicate** the Minority Class Observations in order to **Reinforce** the Learning of Data.
-- Resample Minority Class with Replacement, Setting Number of Samples to Match with `Majority` Class.
-- Combine the `Up Sampled` Data with Orignal `Majority` Class Dataframe.
+- Randomly **Duplicate** the minority class observations in order to **Reinforce** the learning of data.
+- Resample minority class with `Replacement`, Setting number of samples to match with `Majority` class.
+- Combine the `Up Sampled` data with orignal `Majority` class dataframe.
 
 ### 2. Down | Under Sampling Majority Class | Sampling Without Replacement 
-- Randomly **Drop** Majority Class Observations ( Resampling **without** Replacement )
-- Resample Majority Class `without` Replacement, Setting Number of Samples to Match with `Minority` Class.
-- Combine the `Down Sampled` Data with Orignal `Minority` Class Dataframe.
+- Randomly **Drop** majority class observations ( Resampling **without** Replacement )
+- Resample Majority class `without` Replacement, Setting number of samples to match with `Minority` class.
+- Combine the `Down Sampled` data with orignal `Minority` class dataframe.
 
 ### B. Change Evaluation Metrics for Better Performance
 - Choosing Right Evaluation Metrics is Important.
