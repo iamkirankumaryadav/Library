@@ -111,7 +111,7 @@
 
 <h3 name='acc'>2. Accuracy</h3>
 
-- Number of `Correct` Prediction to the Number of **Total Predictions**
+- Number of `Correct` Prediction to the Number of `Total Predictions`
 - Accuracy Score is Good if Datasets contains well `Balanced` **Class Distribution**.
 - Used when All the Classes ( `TP`, `TN`, `FP` and `FN` ) are **Equally** Important.
 
@@ -119,14 +119,14 @@
 
 <h3 name='pre'>3. Precision</h3>
 
-- Measures the **Correctly** Identified **Positive Cases** from all the **Predicted Positive Cases**.
+- Measures the `Correctly` Identified `Positive` cases from all the `Predicted Positive` cases.
 - Used when the **Cost** of False Positives ( `FP` ) is **High**. ( e.g. There is Virus but still Antivirus is Predicting that the System is Safe it's Costly )
 
 ![Precision](Image/Precision.png)
 
 <h3 name='tpr'>4. Recall | True Positive Rate ( TPR ) | Sensitivity</h3>
 
-- Measures the **Correctly** Identified **Positive Cases** from all the **Actual Positive Cases**. 
+- Measures the `Correctly` Identified `Positive` cases from all the `Actual Positive` cases. 
 - Used when the **Cost** of False Negatives ( `FN` ) is **High**. ( e.g. Person is Really prone to COVID 19 but Test Result is Negative it can be Fatal. )
 - **True Positive Rate** : Proportion of **Positive Class** that is `Correctly` Predicted as **Positive**.
 
@@ -134,7 +134,7 @@
 
 <h3 name='fpr'>5. False Positive Rate ( FPR ) | Specificity</h3>
 
-- Measures the **Incorrectly** Identified **Positive Cases** from all the **Actual Negative Cases**. 
+- Measures the `Incorrectly` Identified `Positive` cases from all the `Actual Negative` cases. 
 - **False Positive Rate** : Proportion of **Negative Class** that is `Incorrectly` Predicted as **Positive**.
 
 ![FPR](Image/FPR.png)
