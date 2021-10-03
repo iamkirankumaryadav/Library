@@ -12,8 +12,8 @@ sklearn.preprocessing.`MinMaxScaler()` | sklearn.preprocessing.`StandardScaler()
 Use for **Neural Networks** ( ANN, CNN, RNN ) | Algorithms that rely on **Gradient Descent**, **Distance** and **Dimensions**
 
 ### Scaling 
-- Convert **Numeric** Feature values from their `Natural` **Range** ( e.g. 100 to 900 ) into a `Standard` or `Normal` **Range**.
-- A Feature Set with only One Feature do not need Scaling, Beneficial only if the Feature Set consists of **Multiple Features**.
+- Convert **Numeric** Feature values from their `Natural` **range** ( e.g. 100 to 900 ) into a `Standard` or `Normal` **range**.
+- A feature set with only One Feature do not need Scaling, Beneficial only if the Feature Set consists of **Multiple** features.
 
 ### Data Standardization ( Z Score Normalization )
 - Standardize **Features** around center ( `Mean` ) | Equalize the Range or Data **Variability**.
