@@ -42,12 +42,12 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ### 1. Random Forest 
 
-- **Ensemble** Learning Method constructs a **Collection** of `Decision Trees` in `Parallel` 
+- **Ensemble** learning method constructs a **Collection** of `Decision Trees` in `Parallel` 
 - `Aggregate` the `Predictions` of each tree to **Determine** `Final Prediction`
-- Dataset is divided as **Subsets** | **Samples** and passed to **Multiple Base Learners** ( `Decision Tree` )
-- Training Sample consist of **Row Sampling** with **Replacement**.
-- Creating `Decision Tree` to its complete **Depth** may cause **Overfitting**.
-- But when we combine **Multiple** `Decision Trees`, **High Variance** gets converted to **Low Variance**, i.e. Reduces **Overfitting**
+- Dataset is divided as **Subsets** | **Samples** and passed to Multiple `Base` learners ( `Decision Tree` )
+- Training sample consist of **Row Sampling** with **Replacement**.
+- Creating `Decision Tree` to its complete `Depth` may cause `Overfitting`
+- But when we combine **Multiple** `Decision Trees`, **High Variance** gets converted to **Low Variance**, i.e. Reduces `Overfitting`
 - Can be used for **Classification** and **Regression**.
 - Regressor : **Mean** or **Median** of Output of Every **Decision Trees**
 - Classifier : **Majority Vote** from all **Decision Trees**.
