@@ -110,6 +110,6 @@
 
 - Data is **Close** or **Away** from Mean.
 - `Tall` Bell curve : Data is `Tightly` around Mean.
-- `Small` Bell curve : Data is `Uniformely Spread`.
+- `Small` Bell curve : Data is `Uniformely` Spread.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
