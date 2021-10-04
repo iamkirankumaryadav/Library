@@ -30,8 +30,9 @@ Feature **Selection** and Feature **Elimination** | Feature **Shrinkage**
 
 Loss Function | Cost Function ( Quantifies Error between Predicted Values and Expected Values )
 
-- `Bias` Increases with **Increase** in `Lambda` and `Variance` Increases with **Decrease** in Lambda.
-- **Ideal** Value of `Lambda` produces Model that **Generalizes** Well on **New Unseen Data** ( `Low Bias` and `Low Variance` )
+- `Bias` increases with increase in `Lambda` 
+- `Variance` increases with decrease in `Lambda`.
+- **Ideal** value of `Lambda` to produces model that **Generalizes** the new unseen data well : `Low Bias` and `Low Variance`
 
 # Elastic Net :
 - Elastic Net combines `L1` and `L2` and does not **Eliminates** Highly Collinear Coefficient ( Slope )
