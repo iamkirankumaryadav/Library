@@ -106,10 +106,10 @@
 
 ### Standard Deviation
 
-- Sum ( X - Mean ) /  N 
+- `STD` = Sum ( X - Mean ) /  N 
 - `X` : Input data point.
-- `Mean` : Mean of the Population.
-- `N` : Total Population.
+- `Mean` : The Population Mean.
+- `N` : Total number of Observations.
 - Data is **Close** to Mean or **Away** from Mean.
 - `Tall` Bell curve : Data is `Tightly` around Mean.
 - `Small` Bell curve : Data is `Uniformely Spread`.
