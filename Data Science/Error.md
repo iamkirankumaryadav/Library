@@ -108,7 +108,7 @@
 
 ![STD](Image/STD.png)
 
-- Data is **Close** to Mean or **Away** from Mean.
+- Data is **Close** or **Away** from Mean.
 - `Tall` Bell curve : Data is `Tightly` around Mean.
 - `Small` Bell curve : Data is `Uniformely Spread`.
 
