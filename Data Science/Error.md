@@ -106,6 +106,8 @@
 
 ### Standard Deviation
 
+![STD](Image/STD.png)
+
 - `STD` = Sum ( X - Mean ) /  N 
 - `X` : Input data point.
 - `Mean` : The Population Mean.
