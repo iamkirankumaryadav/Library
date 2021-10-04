@@ -67,8 +67,8 @@
 
 - Helps to understand how well the model `Fits` the data | How well the model `Predicts` new observations.
 - Measure how `Close` each **data point** `Fits` the **Regression Line** | How well the **Regression Line** `Predicts` **Actual Values**.
-- Ideal Value for R<sup>2</sup> is between `70%` to `90%` ( Model `Fits` the Data very well )
-- Help us to `Compare` **Current** Model with the **Base** Model.
+- Ideal Value for R<sup>2</sup> is between `70%` to `90%` ( Model `Fits` the data very well )
+- Help us to `Compare` **Created** model with the **Base** model.
 
 ![R2 Score Scikit Learn](Image/R2Score.png)
 
@@ -77,10 +77,10 @@
 <h3 name='ar2'>5. Adjusted R<sup>2</sup></h3>
 
 - Improvement of R<sup>2</sup> ( Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup> )
-- Compare Models with different number of **Predictors** | **Independent Features**.
-- Adjusted R<sup>2</sup> **Increases** only if the New Term ( Independent Feature ) Improves the Model **More** than Expected.
-- Adjusted R<sup>2</sup> **Decreases** if the New Term ( Independent Feature ) Improves the Model **Less** than Expected.
-- Provides **More Accurate** `Correlation` between Variables.
+- Compare models with different number of `Independent` features.
+- Adjusted R<sup>2</sup> **Increases** only if the new `Independent` feature improves the model **More** than expected.
+- Adjusted R<sup>2</sup> **Decreases** if the new `Independent` feature ) improves the model **Less** than expected.
+- Provides more accurate `Correlation` between features.
 
 | MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
 | :--- | :--- | :---
