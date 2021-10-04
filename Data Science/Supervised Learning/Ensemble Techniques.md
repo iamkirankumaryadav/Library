@@ -33,10 +33,10 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ![Ensemble Bagging](Image/EnsembleBagging.svg)
 
-- Dataset is divided into **Subsets** | **Samples** and passed to **Multiple Base Learners** in **Parallel**.
-- Sample is passed with **Row Sampling** with **Replacement** ( **Bootstrap** )
-- Each **Learning Model** is **Trained Independently** on its particular **Sample** of Data.
-- **Voting Classifier** is used to find the Final Result ( **Aggregation** )
+- Dataset is divided into **Subsets** | **Samples** and passed to multiple **Base** learners in `Parallel`.
+- Sample is passed as `Row Sampling` with `Replacement` ( This process is called as `Bootstrap` )
+- Each **Learning Model** is trained **Independently** on its particular **Sample** of data.
+- **Voting Classifier** is used to find the final result ( This process is called as `Aggregation` )
 - Combine **Weak Base Learners** into **Strong Learners** in terms of **Classifier** or **Prediction**.
 - **Test Sample** is passed to each **Model** for the **Output**, **Final Prediction** is based on **Voting**.
 
