@@ -3,12 +3,15 @@
 # Error in Linear Regression
 
 ### Manage Noise
-- Created **Model** will have a lot of `Error` because of `Noise`, `Noise` is Unwanted that **Weakens** the Learning Process of **Model**.
+- Created **Model** will have a lot of `Error` because of `Noise`
+- `Noise` is unwanted, It **Weakens** the learning process of **Model**.
 
 ### Reasons for **Noise**
-- `Large` Training Data Set | Errors in Input Data | Data Labelling Error | Unobserved Attributes | Hidden Patterns.
+- `Large` Training Data Set. ( More Features as compared to Observations )  
+- Unobserved Attributes. 
+- Hidden complicated patterns.
 
-### Data Visualization helps to Find Hidden Patterns.
+### Data Visualization helps to find Hidden Patterns.
 
 ### Important Confusing Terms
 
@@ -55,8 +58,8 @@
 
 ### R Squared
 
-- Measures Goodness of Fit
-- Explains Variability of Model.
+- Measures Goodness of Fit ( How well the model fits the data ? )
+- Explains Variability of Model ( How close the data points are to the regression line ? )
 - R<sup>2</sup> = SSR / SST
 - R<sup>2</sup> = ESS / TSS
 - Explained Variability / Total Variability.
@@ -71,24 +74,24 @@
 
 ### What is Variability ?
 
-- How **Spread** Out the Data is ( Data Points are `Close` to each other or `Scattered` Away )
+- How **spread** out the data is ( Data points are `Close` to each other or `Scattered` away )
 
 ### How to Describe ?
 
 1. Range
-2. Interquartile range
-3. Variance
-4. Standard Deviation
+2. Interquartile range | `IQR` 
+3. Variance | `VAR`
+4. Standard Deviation | `STD`
 
 ### Range 
 
 - `Range` = `Max` - `Min`
-- Distance between the Largest and Smallest Data Point in a Data Set.
+- Distance between the largest and smallest data point in a data set.
 
 ### Interquartile Range
 
-- Data Set is Divided in 4 Equal `Quartiles` | `Quarters` ( Tells where most of the Values Lies )
-- `IQR` = Q3 - Q1 
+- Data set is divided in 4 equal `Quartiles` | `Quarters` ( Tells where most of the values lies )
+- `IQR` = `Q3` - `Q1` 
 - `Q0` = Min
 - `Q1` = First Quartile | 25th Percentile
 - `Q2` = Second Quartile | Median | 50th Percentile.
@@ -97,14 +100,14 @@
 
 ### Variance
 
-- How Spread Out Data is ?
-- `Small` Variance : Data Set is Tight Clustered ( Data Points are `Close` to each other ).
-- `Large` Variance : Data Set is Spread Apart ( Data Points are `Scattered` )
+- How spread out the data points are ?
+- `Small` Variance : Data set is tightly clustered ( Data points are `Close` to each other )
+- `Large` Variance : Data set is spread apart ( Data points are `Scattered` away from each other )
 
 ### Standard Deviation
 
-- Data is **Closer** to the Mean or **Away** from the Mean.
-- `Tall` Bell Curve : Data is `Tightly` around Mean.
-- `Small` Bell Curve : Data is `Uniformely Spread`.
+- Data is **Close** to Mean or **Away** from Mean.
+- `Tall` Bell curve : Data is `Tightly` around Mean.
+- `Small` Bell curve : Data is `Uniformely Spread`.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
