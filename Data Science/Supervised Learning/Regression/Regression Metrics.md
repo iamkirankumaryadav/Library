@@ -101,10 +101,10 @@
 ![Classification](Image/Classification.png)
 
 ```
-- **True Positive** ( `TP` )  : Predicts `1` | `Positive` when Actual is `1` | `Positive` 
-- **True Negative** ( `TN` )  : Predicts `0` | `Negative` when Actual is `0` | `Negative` 
-- **False Positive** ( `FP` ) : Predicts `1` | `Positive` when Actual is `0` | `Negative` ( `Type I` Error | Incorrect **True Prediction** )
-- **False Negative** ( `FN` ) : Predicts `0` | `Negative` when Actual is `1` | `Positive` ( `Type II` Error | Incorrect **False Prediction** )
+- True Positive ( `TP` )  : Predicts `1` | `Positive` when Actual is `1` | `Positive` 
+- True Negative ( `TN` )  : Predicts `0` | `Negative` when Actual is `0` | `Negative` 
+- False Positive ( `FP` ) : Predicts `1` | `Positive` when Actual is `0` | `Negative` ( `Type I` Error | Incorrect True Prediction )
+- False Negative ( `FN` ) : Predicts `0` | `Negative` when Actual is `1` | `Positive` ( `Type II` Error | Incorrect False Prediction )
 ```
 
 > **FP** is `Acceptable` but **FN** is Dangerous | Fatal for Problems related to **Medical Field**
