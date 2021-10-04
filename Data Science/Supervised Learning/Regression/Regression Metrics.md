@@ -101,9 +101,9 @@
 ![Classification](Image/Classification.png)
 
 ```
-True Positive ( TP )  : Predicts 1 when Actual is 1 
-True Negative ( TN )  : Predicts 0 when Actual is 0 
-False Positive ( FP ) : Predicts 1 when Actual is 0 ( Type I Error | Incorrect True Prediction )
+True Positive  ( TP ) : Predicts 1 when Actual is 1 
+True Negative  ( TN ) : Predicts 0 when Actual is 0 
+False Positive ( FP ) : Predicts 1 when Actual is 0 ( Type I Error  | Incorrect True Prediction )
 False Negative ( FN ) : Predicts 0 when Actual is 1 ( Type II Error | Incorrect False Prediction )
 ```
 
