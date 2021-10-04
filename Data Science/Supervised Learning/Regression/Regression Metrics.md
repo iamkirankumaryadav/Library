@@ -41,7 +41,7 @@
 
 ![MAE](Image/MAE.png)
 
-- `Absolute` Difference between **Actual Value** and **Predicted Value**.
+- `Sum` of `Absolute` difference between **Actual** and **Predicted** values.
 - `MAE` is better for **Outliers**, `Fails` in case of **Large Errors**
 
 ![MAE Scikit Learn](Image/MAESK.png)
@@ -50,7 +50,7 @@
 
 ![MSE](Image/MSE.jpg)
 
-- `Squared` Difference between the **Actual Value** and the **Predicted Value**.
+- `Sum` of `Squared` difference between **Actual** and **Predicted** values.
 - **Square** Differences, **Penalizes** even `Small` Error.
 
 ![MSE Scikit Learn](Image/MSESK.png)
