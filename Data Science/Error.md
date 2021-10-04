@@ -97,6 +97,7 @@
 - `Q2` = Second Quartile | Median | 50th Percentile.
 - `Q3` = Third Quartile | 75th Percentile
 - `Q4` = Max
+- Outliers : Data Point < `Q1` - `1.5` * `IQR` or Data Point > `Q3` + `1.5` * `IQR`
 
 ### Variance
 
