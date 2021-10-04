@@ -13,10 +13,10 @@
 - Improves **Generalization** Performance ( Performance on New Unseen Data )
 - If Lambda is `High` | High `Bias` | Underfitting | `Simple` Model | More Error in Train Set.
 - if Lambda is `Low` | High `Variance` | Overfitting | `Complicated` Model | Not **Generalize** well for **New Unseen Data**.
-- `L1` Regularization add a `L1` Penalty equal to the `Absolute` Value of Magnitude of Coefficients | Weight | Slope.
-- `L2` Regularization add a `L2` Penalty equal to the `Square` Value of Magnitude of Coefficients | Weight | Slope.
-- `LASSO` reduces **Coefficients** to Exactly `Zero` ( **Feature Selection** )
-- `Ridge` reduces **Coefficients** to **Small Value** near Zero ( Not Exactly Zero | No Elimination )
+- `L1` Regularization add a `L1` penalty equal to the `Absolute` value of magnitude of `Slope` | Coefficients | Weight.
+- `L2` Regularization add a `L2` penalty equal to the `Squared` value of magnitude of `Slope` Coefficients | Weight.
+- `LASSO` reduces **Coefficients** exactly to `Zero` ( **Feature Selection** )
+- `Ridge` reduces **Coefficients** to **Small Value** near Zero ( Not exactly Zero | No Elimination )
 
 LASSO | Ridge | Elastic
 :--- | :--- | :---
