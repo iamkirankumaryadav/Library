@@ -90,14 +90,14 @@
 
 ### Interquartile Range
 
-- Data set is divided in 4 equal `Quartiles` | `Quarters` ( Tells where most of the values lies )
+- Data set is divided in `4` equal `Quartiles` | `Quarters` ( Tells where most of the values lies )
 - `IQR` = `Q3` - `Q1` 
 - `Q0` = Min
 - `Q1` = First Quartile | 25th Percentile
 - `Q2` = Second Quartile | Median | 50th Percentile.
 - `Q3` = Third Quartile | 75th Percentile
 - `Q4` = Max
-- Outliers : Data Point < `Q1` - `1.5` * `IQR` or Data Point > `Q3` + `1.5` * `IQR`
+- `Outliers` : Data Point < `Q1` - `1.5` * `IQR` or Data Point > `Q3` + `1.5` * `IQR`
 
 ### Variance
 
