@@ -128,3 +128,7 @@
 ### Medium
 
 - [Arpita Ghosh](https://arpita-ghosh.medium.com/) ( `Power BI` )
+
+### Design
+
+- [Paint 3d](https://youtube.com/playlist?list=PLWs4_NfqMtoycRV4YeGlaLePsD5cyRPrN)
