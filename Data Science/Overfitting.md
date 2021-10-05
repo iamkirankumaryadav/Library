@@ -36,18 +36,18 @@
 - After some point the **model's ability** to **Generalize** gets weak and starts **overfitting**.
 
 ### 4. Feature Selection
-- Select only the **Important** Features ( Large Number of Features can **Confuse** the Model )
-- Remove **Multicollinear Data** ( e.g DOB and Age can Express each other so we can remove one of them )
+- Select only **important** features ( Large number of features can **confuse** the model )
+- Remove **multicollinear** data ( e.g DOB and Age can express each other so we can remove one of them )
 
 ### 5. Ensembling 
-- **Combine Predictions** from Multiple Separate Models | Train Multiple **Weak Learners** to make them a Single **Strong Model**.
-- **Bagging** Trains Multiple `Individual` Learners in **Parallel**.
-- **Boosting** Trains Multiple `Weak` Learners in **Sequence** ( Improving in Each Steps Learning from the Mistakes of Previous Models ) 
+- **Combine** predictions from multiple separate models | Train multiple **Weak** learners to make them a single **strong** model.
+- **Bagging** trains multiple `Individual` learners in **parallel**.
+- **Boosting** trains multiple `Weak` learners in **sequence** ( Improving in each steps learning from the mistakes of previous models ) 
 
 ### 6. Reduce Layers ( Deep Learning )
-- **Removing Layers** or Number of **Elements** in the **Hidden Layers**.
+- **Removing layers** or **Elements** in the **hidden layers**.
 
 ### 7. Dropout Layers ( Deep Learning )
-- Randomly `Drop` Certain Features by Setting them to `Zero` ( Fully Connected Layer )
+- Randomly `drop` certain features by setting them to `Zero` ( Fully Connected Layer )
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
