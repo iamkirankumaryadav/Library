@@ -115,8 +115,8 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 
 ### Correlation
 
-- Measures the `Direction` ( Positive or Negative ) and `Strength` ( `-1` to `1` ) of **Relationship** between two **Quantitative** Variable.
-- One Variable can Predict the other Variable.
+- Measures the `Direction` ( Positive or Negative ) and `Strength` ( `-1` to `1` ) of **relationship** between two **Quantitative** variables.
+- One variable can **predict** the other variable.
 - Varies between `-1` ( Perfect `Negative` Correlation ) to `1` ( Perfect `Positive` Correlation )
 
 Amount of `R` | Strength of Correlation
