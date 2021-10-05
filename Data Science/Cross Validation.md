@@ -3,7 +3,7 @@
 # Cross Validation
 
 - Once model is trained, we just can't assume that it is going to perform well on the **new unseen data**.
-- We cant be sure that the model will give the desired **accuracy** and **variance**.
+- We cant be sure that the model will give the desired `accuracy` and `variance`
 - We need some kind of **assurance** for the **accuracy** of the **predictions** that our model will give. 
 - **Validation** : **Assurance** that your model is trained well ( **Low Bias** and **Low Variance** ) 
 - Whether model is **Generalized** well for the **new unseen data**.
