@@ -21,13 +21,24 @@ Larger Sample = Greater Accuracy = More Confidence
 
 How the **observations** are `spread` out or scattered on each side of the `center` ( Mean | Median | Mode )
 
-1. `Range` : `Max` - `Min` ( Largest Data Point - Smallest Data Point ) in the Data Set.
-2. `Variance` ( **s**<sup>2</sup> ) : Square of spread out between data points in a data set | Variability from the `Mean`.
-3. `Standard Deviation` ( `s` ) : Distance of the **data points** from the `Mean` in the **data set** ( `Sample` )
+### 1. Range 
+
+- `Range` : `Max` - `Min`  
+- The difference between the lowest data point value and highest data point value in the data set.
+
+### 2. Variance 
+- **s**<sup>2</sup> ) : Square of spread out between data points in a data set.
+- Variability from the `Mean`.
+
+### 3. Standard Deviation
+- `s` : Distance of the **data points** from the `Mean` in the **data set** ( `Sample` )
 - **Small** standard deviation means low **Variability** | Most of the **data points** are `close` to **Mean**.
 - **Large** standard deviation means high **Variability** | Most of the **data points** are `far` from the **Mean**.
-4. `Z Score` : Data point's distance in **Standard Deviation** from the `Mean` (`z` = ( `x` - `Mean` ) / `Std` )
-5. `x` : Data points.
+
+### 4. Z Score
+- `z` = ( `x` - `Mean` ) / `Std` )
+- `x` : Data Points
+- `Std` : Standard Deviation
 
 ### Central Limit Theorem
 - As the **sample size** increases, the `Distribution` of **sample mean** approaches towards **Normal Distribution**.
