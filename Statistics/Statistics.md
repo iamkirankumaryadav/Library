@@ -41,6 +41,8 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 - **Small** standard deviation means low **Variability** | Most of the **data points** are `close` to **Mean**.
 - **Large** standard deviation means high **Variability** | Most of the **data points** are `far` from the **Mean**.
 
+![Sample vs Population](Image/Sample.jpg)
+
 ### 4. Z Score
 - `z` = ( `x` - `Mean` ) / `Std` )
 - `x` : Data Points
