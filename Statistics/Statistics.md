@@ -17,6 +17,9 @@ Larger Sample = Greater Accuracy = More Confidence
 2. `Median` : **Middle** data value of an **Ordered** dataset | Large data set : **Median** Position : `( n + 1 ) / 2`
 3. `Mode` : Most frequent | Most Common | Most occuring data value | data point.
 
+### Central Limit Theorem
+- As the **sample size** increases, the `Distribution` of **sample mean** approaches towards **Normal Distribution**.
+
 <h3 name='spread'>Measures of Spread ( Relationship of individual data point with it's Mean )</h3> 
 
 How the **observations** are `spread` out or scattered on each side of the `center` ( Mean | Median | Mode )
@@ -45,9 +48,6 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 - `z` = ( `x` - `Mean` ) / `Std` )
 - `x` : Data Points
 - `Std` : Standard Deviation
-
-### Central Limit Theorem
-- As the **sample size** increases, the `Distribution` of **sample mean** approaches towards **Normal Distribution**.
 
 ### Confidence
 - While **Sampling**, different `Samples` can be **randomly** selected from the same **population**.
