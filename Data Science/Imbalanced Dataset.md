@@ -11,14 +11,14 @@
 
 ### ( SMOTE : Synthetic Minority Oversampling Technique )
 
-- Randomly **Duplicate** the minority class observations in order to **Reinforce** the learning of data.
-- Resample minority class with `Replacement`, Setting number of samples to match with `Majority` class.
-- Combine the `Up Sampled` data with orignal `Majority` class dataframe.
+- Randomly **duplicate** the minority class observations in order to **reinforce** the learning of data.
+- Resample minority class with `replacement`, Setting number of samples to match with `Majority` class.
+- Combine the `up sampled` data with orignal `majority` class data frame.
 
 ### 2. Down | Under Sampling Majority Class | Sampling Without Replacement 
-- Randomly **Drop** majority class observations ( Resampling **without** Replacement )
-- Resample Majority class `without` Replacement, Setting number of samples to match with `Minority` class.
-- Combine the `Down Sampled` data with orignal `Minority` class dataframe.
+- Randomly **drop** majority class observations ( Resampling **without** replacement )
+- Resample majority class `without` replacement, Setting number of samples to match with `minority` class.
+- Combine the `down sampled` data with orignal `minority` class data frame.
 
 ### B. Change Evaluation Metrics for Better Performance
 - Choosing right evaluation metrics is important.
