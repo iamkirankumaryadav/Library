@@ -70,8 +70,8 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 
 ### The **Effect** of **Transforming** Data on **Spread** and **Centre**
 
-- Measures of **Centre** are Affected by every **Mathematical Operations** (+ - * /)
-- Measures of **Spread** are only Affected by **Multiplication & Divison** (* and /)
+- Measures of **centre** are affected by every **mathematical operations** ( `+` `-` `*` `/` )
+- Measures of **spread** are affected only by **multiplication & divison** ( `*` and `/` )
 
 ### Empirical Rule 
 - Most of the Data Points in a given **Normally Distributed Data Set** fall within `3` **Standard Deviations** of the `Mean`.
