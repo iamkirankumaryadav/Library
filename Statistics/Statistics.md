@@ -30,11 +30,11 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 - Range is affected by the `Outlier`
 
 ### 2. Variance 
-- **S**<sup>2</sup> : Sum ( x - mean )<sup>2</sup> : 
+- `s`<sup>2</sup> : Sum ( x - mean )<sup>2</sup> : 
 - Sum of square of distance from its mean | `Variability` from its mean.
 
 ### 3. Standard Deviation
-- `S` : Distance of the **data points** from its `Mean` in the **data set** ( `Sample` )
+- `s` : Distance of the **data points** from its `Mean` in the **data set** ( `Sample` )
 - `Sigma` is used to denote Standard Deviation ( `Population` )
 - Square root of `Variance`
 - **Small** standard deviation means low **Variability** | Most of the **data points** are `close` to **Mean**.
