@@ -40,7 +40,8 @@
 - Remove **multicollinear** data ( e.g DOB and Age can express each other so we can remove one of them )
 
 ### 5. Ensembling 
-- **Combine** predictions from multiple separate models | Train multiple **Weak** learners to make them a single **strong** model.
+- **Combine** predictions from multiple separate models.
+- Train multiple **weak** learners to make them a single **strong** model.
 - **Bagging** trains multiple `Individual` learners in **parallel**.
 - **Boosting** trains multiple `Weak` learners in **sequence** ( Improving in each steps learning from the mistakes of previous models ) 
 
