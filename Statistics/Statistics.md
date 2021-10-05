@@ -26,7 +26,7 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 3. `Standard Deviation` ( `s` ) : Distance of the **data points** from the `Mean` in the **data set** ( `Sample` )
 - **Small** standard deviation means low **Variability** | Most of the **data points** are `close` to **Mean**.
 - **Large** standard deviation means high **Variability** | Most of the **data points** are `far` from the **Mean**.
-4. `Z Score` : Data point's distance in **Standard Deviation** from the `Mean`.  (`z` = ( x - `Mean` ) / `Std` )
+4. `Z Score` : Data point's distance in **Standard Deviation** from the `Mean` (`z` = ( `x` - `Mean` ) / `Std` )
 5. `x` : Data points.
 
 ### Central Limit Theorem
