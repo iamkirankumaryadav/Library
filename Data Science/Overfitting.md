@@ -8,32 +8,32 @@
 - Model has **memorized** the data including **noise** and **error** with very good **accuracy**.
 
 ### High Variance : High Error on Test Set
-- Model performs **better** on **Training** dataset but it does not **Generalize** well on the **new unseen data** set ( **Test Data** )
+- Model performs **better** on **Training** dataset but it does not **Generalize** well on the **new unseen** dataset ( **Test Data** )
 
 ### How to Identify Overfitting ? 
 
 ### Hold Out Data | Split Data Set | Observe Accuracy and Loss
-- **Split** the **Data Set** into `Train Set` and `Test Set`.
-- Check whether the Trained Model **Generalizes** Well on **New Unseen Test Data**. 
+- **Split** the **data Set** into `Train Set` and `Test Set`.
+- Check whether the trained model **Generalizes** well on **new unseen** test data. 
 - **Accuracy** of **Train Set** : `model.score( X_train, y_train )`
 - **Accuracy** of **Test Set** : `model.score( X_test, y_test )`
-- If **Accuracy** of **Train Set** is Better and **Accuracy** on **Test Set** is Worst ( `Overfitting` in the Model )
+- If **Accuracy** of **Train Set** is better and **Accuracy** on **Test Set** is worst ( There is an `Overfitting` in the model )
 
 ### How to Prevent from Overfitting ?
 
 ### 1. More Data
-- Get More **Training Data**
+- Get more data for **training**.
 
 ### 2. Apply [Regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) 
-- Lasso ( `L1` ) : Sum of `Absolute` of **Coefficients** | Weights ( **Coefficient** to Exactly 0 )
+- Lasso ( `L1` ) : Sum of `Absolute` of **Slope** | Coefficient | Weight ( **Coefficient** to Exactly 0 )
 - **Simplify** the Model + **Feature Selection**.
-- Ridge ( `L2` ) : Sum of `Squared` of **Coefficients** | Weights ( **Penalize** Certain Value of **Weights** )
-- Able to Learn **Complex Data Patterns** | Decrease the **Complexity** of Model.
+- Ridge ( `L2` ) : Sum of `Square` of **Slope** | Coefficient | Weight ( **Penalize** certain value of **slopes** towards zero )
+- Able to learn **complex data patterns** | Decreases the **complexity** of model.
 
 ### 3. K Fold Cross Validation and Grid Search Cross Validation
-- Measure How Well each **Iteration** of the Model Performs.
-- Until a certain Number of Iterations, **New Iteration** Improve the Model.
-- After some Point The **Model's Ability** to **Generalize** gets weak and Starts **Overfitting**.
+- Measure how well each **iteration** of the model performs.
+- Until certain iterations, **New iterations** improves the model.
+- After some point the **model's ability** to **Generalize** gets weak and starts **overfitting**.
 
 ### 4. Feature Selection
 - Select only the **Important** Features ( Large Number of Features can **Confuse** the Model )
