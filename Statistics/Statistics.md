@@ -30,12 +30,12 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 5. `x` : Data points.
 
 ### Central Limit Theorem
-- As the **Sample Size** `Increases`, the `Distribution` of **Sample Mean** Approaches a **Normal Distribution**.
+- As the **sample size** increases, the `Distribution` of **sample mean** approaches towards **Normal Distribution**.
 
 ### Confidence
-- While **Sampling**, Different `Samples` can be **Randomly** selected from the Same **Population**.
-- Each **Sample** can often produce a Different **Confidence Interval**. 
-- Some **Confidence Intervals** include the True **Population Parameter** ( `Centre` and `Spread` ) and others do not.
+- While **Sampling**, different `Samples` can be **randomly** selected from the same **population**.
+- Each **sample** can often produce a different **Confidence Interval**. 
+- Some **Confidence Intervals** include the true **Population Parameter** ( `Centre` and `Spread` ) and others do not.
 
 ### Confidence Level
 - The `Percentage` of all Possible Samples that can be Expected to Include the True Population Parameter. 
