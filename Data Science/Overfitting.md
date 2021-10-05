@@ -5,10 +5,10 @@
 ### Low Bias + High Variance = Overfitting
 
 ### Low Bias : Low Error on Train Set 
-- Model has **Memorized** the Data including **Noise** and **Error** with very Good **Accuracy**.
+- Model has **memorized** the data including **noise** and **error** with very good **accuracy**.
 
 ### High Variance : High Error on Test Set
-- Model Performs **Better** on **Training Data** but it does not **Generalize** Well on the **New Unseen Data** ( **Test Data** )
+- Model performs **better** on **Training** dataset but it does not **Generalize** well on the **new unseen data** set ( **Test Data** )
 
 ### How to Identify Overfitting ? 
 
