@@ -15,7 +15,7 @@ Larger Sample = Greater Accuracy = More Confidence
 
 1. `Mean` : `Average` of data points.
 2. `Median` : **Middle** data point value of an **ordered** dataset | Large data set : **Median** position : `( n + 1 ) / 2`
-3. `Mode` : Most frequent | Most Common | Most occuring data value | data point.
+3. `Mode` : Most frequent | Most common | Most occuring data point value.
 
 ### Central Limit Theorem
 - As the **sample size** increases, the `Distribution` of **sample mean** approaches towards **Normal Distribution**.
