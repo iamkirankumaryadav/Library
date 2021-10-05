@@ -147,13 +147,14 @@ Amount of `R` | Strength of Correlation
 
 ### Causality
 - Relationship between the **cause** and its **effect**.
-- One variable affects other variable ( Temperature affect icecream sale | Sale of icecream is more in summer as compared to winter and rain )
+- One variable affects other variable ( Temperature affect icecream sale | Sale of icecream is more in summer )
 
 ### R Squared | R<sup>2</sup>
 
-- How close each Data point **Fits** to **Regression Line** | **Regression Line** Predicts **Actual Value**.
+- How close each data point **fits** to **regression line**. 
+- How well the **Regression line** predicts almost **actual value**.
 - Value of R<sup>2</sup> lies between `0` and `1`.
-- Closer to 1 : Better the Data Points Fit the **Regression Line**.
+- Closer to `1` : Better the data points fit the **Regression line**.
 
 ![R is Low](Image/R007.png)
 
