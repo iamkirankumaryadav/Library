@@ -5,7 +5,7 @@
 <h3><a href="#zscore">Z Score</a> ( Extreme Value Analysis ) | <a href="#dbscan">DBSCAN</a> | <a href="#summary">5 Number Summary</a> | <a href="#algo">Algorithm</a></h3>
 
 ### Outliers
-- **Data Point** that differs significantly from other **Observations** in the dataset.
+- **Data point** that differs significantly from other **Observations** in the dataset.
 - `Outliers` in a dataset can `Skew` the data and lead to make false decisions based on **Faulty** data.
 
 ### Cause of Outliers 
