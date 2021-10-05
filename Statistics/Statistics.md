@@ -29,7 +29,7 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 - Here the lowest data point value is `5` and the highest data point value is `3616`
 - Range is affected by the `Outlier`
 
-### 2. Variance 
+### 2. Variance ( s <sup>2</sup> )
 - `s` <sup>2</sup> : Sum ( x - mean ) <sup>2</sup> / n ( `Population` ) 
 - `s` <sup>2</sup> : Sum ( x - mean ) <sup>2</sup> / n - 1 ( `Sample` ) 
 - Sum of square of distance from its mean | `Variability` from its mean.
