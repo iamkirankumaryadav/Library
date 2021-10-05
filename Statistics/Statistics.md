@@ -23,7 +23,7 @@ Larger Sample = Greater Accuracy = More Confidence
 - `Mode` concentrates only on the **most occuring** values, therefore it is not affected by an **outlier**.
 
 ### Central Limit Theorem
-- As the **sample size** increases, the `Distribution` of **sample mean** approaches towards **Normal Distribution**.
+- As the **sample size** increases, the **distribution** of **sample mean** approaches towards `Normal Distribution`.
 
 <h3 name='spread'>Measures of Spread ( Relationship of individual data point with it's Mean )</h3> 
 
