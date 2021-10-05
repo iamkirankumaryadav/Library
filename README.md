@@ -57,6 +57,10 @@
 - [The Clever Programmer](https://thecleverprogrammer.com/)
 - [Data School](https://courses.dataschool.io/)
 
+### Statistics 
+
+- [Math is Fun](https://www.mathsisfun.com/data/index.html)
+
 <h3 name="ai">Artificial Intelligence</h3>
 
 - [Elements of **AI**](https://www.elementsofai.com/) | [Building **AI**](https://buildingai.elementsofai.com/)
