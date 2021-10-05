@@ -13,20 +13,20 @@ Larger Sample = Greater Accuracy = More Confidence
 
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
-1. `Mean` : Arithmetic `Average` of Data Points.
-2. `Median` : **Middle** Data Value of an **Ordered** Dataset | Large Data Set : **Median** Position : `( n + 1 ) / 2`
-3. `Mode` : Most Frequent | Most Common | Most Occuring **Data Value** | **Data Point**.
+1. `Mean` : `Average` of data points.
+2. `Median` : **Middle** data value of an **Ordered** dataset | Large data set : **Median** Position : `( n + 1 ) / 2`
+3. `Mode` : Most frequent | Most Common | Most occuring data value | data point.
 
-<h3 name='spread'>Measures of Spread ( Relationship of Individual Data Point with it's Mean )</h3> 
+<h3 name='spread'>Measures of Spread ( Relationship of individual data point with it's Mean )</h3> 
 
-How the **Observations** are `Spread` Out or Scattered on each side of the `Center` ( Mean | Median | Mode )
+How the **observations** are `spread` out or scattered on each side of the `center` ( Mean | Median | Mode )
 
 1. `Range` : `Max` - `Min` ( Largest Data Point - Smallest Data Point ) in the Data Set.
-2. `Variance` ( **s**<sup>2</sup> ) : Spread Out between Data Points in a Data Set | Variability from the `Mean`.
-3. `Standard Deviation` ( `s` ) : Distance of the **Data Points** from the `Mean` in the **Data Set** ( `Sample` )
-- **Small** Standard Deviation means low **Variability** | Most of the **Data Points** are `Close` to **Mean**.
-- **Large** Standard Deviation means high **Variability** | Most of the **Data Points** are `Far` from the **Mean**.
-4. `Z Score` : Data Point's Distance in **Standard Deviation** from the `Mean`.  (`z` = ( Data Point - `Mean` ) / `Std` )
+2. `Variance` ( **s**<sup>2</sup> ) : Square of spread out between data points in a data set | Variability from the `Mean`.
+3. `Standard Deviation` ( `s` ) : Distance of the **data points** from the `Mean` in the **data set** ( `Sample` )
+- **Small** standard deviation means low **Variability** | Most of the **data points** are `close` to **Mean**.
+- **Large** standard deviation means high **Variability** | Most of the **data points** are `far` from the **Mean**.
+4. `Z Score` : Data point's distance in **Standard Deviation** from the `Mean`.  (`z` = ( Data Point - `Mean` ) / `Std` )
 
 ### Central Limit Theorem
 - As the **Sample Size** `Increases`, the `Distribution` of **Sample Mean** Approaches a **Normal Distribution**.
