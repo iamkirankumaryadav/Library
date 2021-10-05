@@ -74,7 +74,7 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 - Measures of **spread** are affected only by **multiplication & divison** ( `*` and `/` )
 
 ### Empirical Rule 
-- Most of the Data Points in a given **Normally Distributed Data Set** fall within `3` **Standard Deviations** of the `Mean`.
+- Most of the data points ( `99.7 %` ) in a given **normally distributed data set** fall within `3` **standard deviations**.
 
 ### Outlier 
 - A **Data Point** that is an `Abnormal` Distance from the other Values in the Data Set.
