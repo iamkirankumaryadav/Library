@@ -13,11 +13,14 @@ Larger Sample = Greater Accuracy = More Confidence
 
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
-1. `Mean` : `Average` of data points.
+1. `Mean` : `Average` of data points 
 2. `Median` : **Middle** data point value of an **ordered** dataset | Large data set : **Median** position : `( n + 1 ) / 2`
 3. `Mode` : Most frequent | Most common | Most occuring data point value.
 
 `Outlier` :  The data point value which are different or far away from all the other data point values.
+- `Mean` calculates **average**, therefore it is affected by an **outlier**.
+- `Median` concentrates only on **middle** value, therefore it is not affected by an **outlier**.
+- `Mode` concentrates only on the **most occuring** values, therefore it is not affected by an **outlier**.
 
 ### Central Limit Theorem
 - As the **sample size** increases, the `Distribution` of **sample mean** approaches towards **Normal Distribution**.
