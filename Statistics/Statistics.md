@@ -107,7 +107,7 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 
 2. 50<sup>th</sup> **Percentile** | 2<sup>nd</sup> **Quartile** | Median
 - 50% of data point values are **as small** or smaller.
-- 50% of data Points are **as large** or larger.
+- 50% of data point values are **as large** or larger.
 
 3. 75<sup>th</sup> **Percentile** | 3<sup>rd</sup> **Quartile**
 - 75% of data point values are **as small** or smaller.
