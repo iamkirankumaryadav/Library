@@ -18,8 +18,9 @@ Larger Sample = Greater Accuracy = More Confidence
 3. `Mode` : Most frequent | Most common | Most occuring data point value.
 
 `Outlier` :  The data point value which are different or far away from all the other data point values.
+
 - `Mean` calculates **average**, therefore it is affected by an **outlier**.
-- `Median` concentrates only on **middle** value, therefore it is not affected by an **outlier**.
+- `Median` concentrates only on **middle** value, therefore there is a very low to no affect by an **outlier**.
 - `Mode` concentrates only on the **most occuring** values, therefore it is not affected by an **outlier**.
 
 ### Central Limit Theorem
@@ -46,6 +47,7 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 - Distance of the **data points** from its **mean** in the **data set**.
 - **Small** standard deviation means low **variability** | Most of the **data points** are `close` to **mean**.
 - **Large** standard deviation means high **variability** | Most of the **data points** are `far away` from the **mean**.
+- Standard Deviation calculates **mean**, so it is affected by an `Outlier`
 
 ![Sample vs Population](Image/Sample.jpg)
 
@@ -70,16 +72,6 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 
 - Measures of **Centre** are Affected by every **Mathematical Operations** (+ - * /)
 - Measures of **Spread** are only Affected by **Multiplication & Divison** (* and /)
-
-### The **Effect** of **Outliers** on **Spread** and **Centre**
-
--  A Data Value that is numerically **Distant** from a Dataset.
-
-1. `Mean` : Heavily affected
-2. `Median` : **Low** or **No** affect on the `Median`, Median only cares about **Centre**.
-3. `Mode` : **No** affect on the **Mode**, Mode only cares about **Most Frequent** Data Value.
-4. `Range` : **Heavily** affects the **Range** ( Outlier can be very High ( **Max** ) or Low ( **Min** ) value )
-6. `Standard Deviation` : **Heavily** affected because **Mean** is considered while Calculating **Standard Deviation**.
 
 ### Empirical Rule 
 - Most of the Data Points in a given **Normally Distributed Data Set** fall within `3` **Standard Deviations** of the `Mean`.
