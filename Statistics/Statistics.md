@@ -99,7 +99,7 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 
 ### Percentile 
 
-> Describe Percentage ( % ) of data point value that fall **At** or **Below** another data point value. 
+Describe Percentage `%` of data point value that falls `At` or `Below` another data point value. 
 
 1. 25<sup>th</sup> **Percentile** | 1<sup>st</sup> **Quartile** 
 - 25% of data point values are **as small** or smaller.
@@ -113,7 +113,7 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 - 75% of data point values are **as small** or smaller.
 - 25% of data point values are **as large** or larger.
 
-> Percentage and Percentile is **Different**
+`Percentage` and `Percentile` are **different**.
 
 ### Correlation
 
@@ -141,13 +141,13 @@ Amount of `R` | Strength of Correlation
 - P Value is Calculated ( if P Value > `0.05` : Then Accept Null Hypothesis else Reject Null Hypothesis )
 
 ### Multicollinearity
-- Two or More Independent Features **Correlate** Strongly with each other.
-- Regression Equation becomes **Unstable** and Create **Confusio** 
-- **Remove** One Feature to Prevent from Multicollinearity and make Regression **Stable**.
+- Two or more independent features **correlate** strongly with each other.
+- Regression equation becomes **unstable** and create **confusion**.
+- **Remove** one feature to prevent from **multicollinearity** and make regression **stable**.
 
 ### Causality
-- Relationship between **Cause** and its **Effect**
-- One Variable affects other Variable ( Temperature affect Icecream Sale | Sale of Icecream is more in Summer )
+- Relationship between the **cause** and its **effect**.
+- One variable affects other variable ( Temperature affect icecream sale | Sale of icecream is more in summer as compared to winter and rain )
 
 ### R Squared | R<sup>2</sup>
 
