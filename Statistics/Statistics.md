@@ -76,27 +76,24 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 ### Empirical Rule 
 - Most of the data points ( `99.7 %` ) in a given **normally distributed data set** fall within `3` **standard deviations**.
 
-### Outlier 
-- A **Data Point** that is an `Abnormal` Distance from the other Values in the Data Set.
-
 ### Five Number Summary
 
 > Divide the Data into 4 Equal `Quarters`
 
-1. Minimum : **Smallest** value in a Dataset.
-2. 1<sup>st</sup> **Quartile** ( `Q1` ) | 25<sup>th</sup> **Percentile** : 25% of Data Values are smaller and 75% are larger.
-3. 2<sup>nd</sup> **Quartile** ( `Q2` ) | 50<sup>th</sup> **Percentile** : **Median** | 50% of Data Values are smaller and 50% are larger the Median.
-4. 3<sup>rd</sup> **Quartile** ( `Q3` ) | 75<sup>th</sup> **Percentile** : 75% of Data Values are smaller and 25% are larger.
-5. Maximum : **Largest** Value in a Dataset.
+1. `Min` : **lowest** data point value in a dataset.
+2. 1<sup>st</sup> **Quartile** ( `Q1` ) | 25<sup>th</sup> **Percentile** : 25% of data point values are smaller and 75% are larger.
+3. 2<sup>nd</sup> **Quartile** ( `Q2` ) | 50<sup>th</sup> **Percentile** : **Median** | 50% of data point values are smaller and 50% are larger.
+4. 3<sup>rd</sup> **Quartile** ( `Q3` ) | 75<sup>th</sup> **Percentile** : 75% of data point values are smaller and 25% are larger.
+5. `Max` : **Highest** data point value in a dataset.
 
 > **Five Number Summary** can be visually represented using **Boxplot**.
-- Horizontal Line on both ends of Boxplots are **Whiskers**.
+- Horizontal lines on both the ends of boxplot are **Whiskers**.
 - Box is called **Interquartile Range** ( `IQR` )
-- `IQR` = Q3 - Q1
+- `IQR` = `Q3` - `Q1`
 
-> Data Value is considered as **Outlier** 
-- Data Value **<** Q1 - 1.5 * ( **IQR** ) 
-- Data Value **>** Q3 + 1.5 * ( **IQR** ) 
+> Data point value is considered as **Outlier** if : 
+- Data point value **<** `Q1` - `1.5` * `IQR`
+- Data point value **>** `Q3` + `1.5` * `IQR`
 
 > **Outlier** is represented by dot ( **.** ) in **Boxplot** 
 
@@ -182,44 +179,4 @@ Amount of `R` | Strength of Correlation
 - `Confidence Interval` : `95%` : You are **Confident** that `95` out of `100` Times the Estimation will Falls within **Confidence Interval** Range.
 
 ### How Variance Affect Confidence Interval ?
-- IF `Population` contains `Similar` **Data Points** : **Variation** among **Data Points** will be `Low` | `Narrow` **Confidence Interval**.
-- Any `Sample` we consider from `Population` will be Similar to other `Sample`and **Estimation** will be very `Close` to **Population Parameters**. 
-- IF `Population` contains `Varied` **Data Points** : **Variation** among **Data Points** will be `High` | `Wide` **Confidence Interval**.
-- **Different** `Sample` from `Same` **Population** will Differ more and **Estimation** will not be `Close` to **Population Parameters**. 
-
-### How Sample Size Affect Confidence Interval ?
-- `Small` **Sample Size** Varies more from each other : `Wider` **Confidence Interval**.
-- `More` **Variation** due to **Sampling** or **Sampling Error** with `Small` **Sample Size**.
-- `Large` **Sample** Reduce **Variation** : `Narrow` **Confidence Interval**.
-- `Large` **Sample** Balance the Unusual Data Points, Similar to each other and **Effect** of Sampling Error is Reduced.
-
-### Confidence Level ( How much Percent Sure you can be ? )
-- Express a `Percentage` which we are Sure that **Population Parameters** lies ( `Prediction` will be True )
-- `Percentage` of Possibility that the Sample Mean will Represent the True Population.
-- Normally `95%` of **Confidence Level** is Considered. 
-- `More` Confidence Level : `Wider` Confidence Interval.
-- `Low` Confidence Level : `Narrow` Confidence Interval.
-
-### Probability
-- `Ratio` of a **Desired Event** to all **Possible Outcomes**.
-- e.g. Flip a Coin : P(H) : 1 / 2 ( Desired Event ( H ) : Head and All Possible Outcomes : ( H and T ) : Head and Tail )
-
-### Sample Space
-- Sum of all **Probabilities** will equal `100%`
-
-### Every Possible Outcomes
-
-1. Permutation : Interested in `Order` 
-- `n!` : n **Factorial** ( 5! : 5 x 4 x 3 x 2 x 1 = 120 )
--  <sub>n</sub>P<sub>r</sub> = `n!` / `(n - r)!` ( `n` : **Total** Number of Objects | `r` : Number of Objects to be **Selected** )
--  e.g. 8 Runners and Select Top 3 : <sub>8</sub>P<sub>3</sub> = `8!` / `(8-3)!`
--  Applications : **Ranking**, **Seating Arrangements** or **Scheduling** ( How many Possible `Outcomes` )
-
-2. Combinations : Not Interested in `Order` | Random Combinations
-- -  <sub>n</sub>C<sub>r</sub> = `n!` / \[`r!` * `(n - r)!`\] 
-- `n` : **Total** Number of Objects  
-- `r` : Number of Objects to be **Selected** One Time )
-
-![Cards](Image/Cards.jpg)
-
-<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+- IF `Population`
