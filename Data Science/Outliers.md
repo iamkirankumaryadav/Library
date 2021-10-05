@@ -11,8 +11,11 @@
 ### Cause of Outliers 
 
 > Human Error ( Data Entry ) 
+
 > Measurement ( Instrumental ) 
+
 > Experimental ( Data Extraction ) 
+
 > Natural Case ( Special Unique Case )
 
 How many **Features** to take into account to **Detect Outliers** ?
