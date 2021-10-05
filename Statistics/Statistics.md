@@ -162,7 +162,7 @@ Amount of `R` | Strength of Correlation
 
 ![R is Low](Image/R1.png)
 
-> Correlation ( `R` ) and ( R<sup>2</sup> ) are `Different`.
+Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different`.
 
 ![Difference](Image/RRS.png)
 
