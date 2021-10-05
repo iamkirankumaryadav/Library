@@ -30,7 +30,7 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 - Range is affected by the `Outlier`
 
 ### 2. Variance 
-- **s**<sup>2</sup> ) : Sum ( x - mean )<sup>2</sup> : 
+- **s**<sup>2</sup> : Sum ( x - mean )<sup>2</sup> : 
 - Sum of square of distance from its mean | `Variability` from its mean.
 
 ### 3. Standard Deviation
