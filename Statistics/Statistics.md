@@ -25,13 +25,18 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 
 - `Range` : `Max` - `Min`  
 - The difference between the lowest data point value and highest data point value in the data set.
+- Very high data point value can mislead the `Range` ( e.g. {8, 11, 5, 9, 7, 6, 3616 )
+- Here the lowest data point value is `5` and the highest data point value is `3616`
+- Range is affected by the `Outlier`
 
 ### 2. Variance 
-- **s**<sup>2</sup> ) : Square of spread out between data points in a data set.
-- Variability from the `Mean`.
+- **s**<sup>2</sup> ) : Sum ( x - mean )<sup>2</sup> : 
+- Sum of square of distance from its mean | `Variability` from its mean.
 
 ### 3. Standard Deviation
-- `s` : Distance of the **data points** from the `Mean` in the **data set** ( `Sample` )
+- `s` : Distance of the **data points** from its `Mean` in the **data set** ( `Sample` )
+- `Sigma` is used to denote Standard Deviation ( `Population` )
+- Square root of `Variance`
 - **Small** standard deviation means low **Variability** | Most of the **data points** are `close` to **Mean**.
 - **Large** standard deviation means high **Variability** | Most of the **data points** are `far` from the **Mean**.
 
