@@ -14,7 +14,7 @@ Larger Sample = Greater Accuracy = More Confidence
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
 1. `Mean` : `Average` of data points.
-2. `Median` : **Middle** data value of an **Ordered** dataset | Large data set : **Median** Position : `( n + 1 ) / 2`
+2. `Median` : **Middle** data point value of an **ordered** dataset | Large data set : **Median** position : `( n + 1 ) / 2`
 3. `Mode` : Most frequent | Most Common | Most occuring data value | data point.
 
 ### Central Limit Theorem
