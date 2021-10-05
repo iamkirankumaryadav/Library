@@ -97,19 +97,21 @@ How the **observations** are `spread` out or scattered on each side of the `cent
 
 > **Outlier** is represented by dot ( **.** ) in **Boxplot** 
 
-### Percentile : Describe Percentage ( **%** ) of Data Values that Fall **At** or **Below** another **Data Value**. 
+### Percentile 
+
+> Describe Percentage ( % ) of data point value that fall **At** or **Below** another data point value. 
 
 1. 25<sup>th</sup> **Percentile** | 1<sup>st</sup> **Quartile** 
-- 25% of Data Points are **as small** or smaller.
-- 75% of Data Points are **as large** or larger.
+- 25% of data point values are **as small** or smaller.
+- 75% of data point values are **as large** or larger.
 
 2. 50<sup>th</sup> **Percentile** | 2<sup>nd</sup> **Quartile** | Median
-- 50% of Data Points are **as small** or smaller.
-- 50% of Data Points are **as large** or larger.
+- 50% of data point values are **as small** or smaller.
+- 50% of data Points are **as large** or larger.
 
 3. 75<sup>th</sup> **Percentile** | 3<sup>rd</sup> **Quartile**
-- 75% of Data Points are **as small** or smaller.
-- 25% of Data Points are **as large** or larger.
+- 75% of data point values are **as small** or smaller.
+- 25% of data point values are **as large** or larger.
 
 > Percentage and Percentile is **Different**
 
