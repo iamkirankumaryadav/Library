@@ -64,7 +64,7 @@ How many **Features** to take into account to **Detect Outliers** ?
 5. Maximum : **Largest** Value in a dataset.
 
 > **Five Number Summary** can be visually represented using **Boxplot**.
-- Horizontal line on both ends of boxplots are `whiskers`.
+- Horizontal lines on both ends of boxplots are `whiskers`.
 - `Box` is called **Interquartile Range** ( `IQR` )
 - `IQR` = `Q3` - `Q1`
 - Data value **<** `Q1` - `1.5` * `IQR`
