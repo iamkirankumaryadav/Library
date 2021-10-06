@@ -2,7 +2,7 @@
 
 # Ensemble Techniques | Method
 
-The Combination of `Weak` learners into one very **accurate predicting algorithm** in order to decrease **Bias** and **Variance**.
+The combination of `weak` learners into one very **accurate predicting algorithm** in order to decrease **bias** and **variance**.
 
 Create multiple models and then combine them to produce **better** results ( High accuracy ) that any individual model.
 
