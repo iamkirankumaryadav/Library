@@ -2,9 +2,18 @@
 
 # Ensemble Techniques | Method
 
-> The Combination of **Weak Learners** into one very **Accurate Prediction Algorithm** in order to Decrease **Bias** and **Variance**.
+The Combination of `Weak` learners into one very **accurate predicting algorithm** in order to decrease **Bias** and **Variance**.
 
-Create Multiple Models and then combine them to Produce **Better** Results ( High Accuracy ) that any Single Model **Individually**.
+Create multiple models and then combine them to produce **better** results ( High accuracy ) that any individual model.
+
+### Why Ensemble 
+
+- `High variance` : The model is very sensitive to the new unseen data.
+- `Low accuracy` : One single model is not enough for training data.
+- Features `noise` and `bias`: The model relied heavily on one of the dominating feature with high scale or magnitude.
+- If we build an combine multiple models, the overall accuracy can be improved.
+- The combination can be implemented by aggregating the outputs of the individual models.
+- The main objective while training the models are reducing the model errors and maintaining the generalization ( Performance on new unseen data )
  
 Bagging ( Bootstrap Aggregation ) | Boosting
 :--- | :---
