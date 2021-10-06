@@ -88,7 +88,6 @@ How many **Features** to take into account to **Detect Outliers** ?
         <li>K Nearest Neighbours ( KNN )</li>
         <li>K Means Clustering</li>
         <li>Support Vector Machine</li>
-        <li>Principle Component Analysis ( PCA )</li>
       </ol>
     </td>
     <td>
