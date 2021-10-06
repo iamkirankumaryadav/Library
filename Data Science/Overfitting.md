@@ -38,6 +38,7 @@
 ### 4. Feature Selection
 - Select only **important** features ( Large number of features can **confuse** the model )
 - More observations are good for model training but more number of features confuses the model.
+- Each feature should be independent.
 - Remove **multicollinear** data ( e.g DOB and age can express each other so we can remove one of them )
 
 ### 5. Ensembling 
