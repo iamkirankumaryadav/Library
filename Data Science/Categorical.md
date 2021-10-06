@@ -13,20 +13,20 @@
 - Male or Female | Yes or No | True or False | 1 or 0
 
 ### Logistic Regression
-- Classify the `Target` variables into 2 classes.
-- If the `Target` variable has more than 2 Classes then Create **Dummy** variables. ( 1 or 0 )
-- Combine **Sparse** categories ( Category labels with very less observations )
+- Classify the `target` variables into 2 classes.
+- If the `target` variable has more than 2 classes then create **dummy** variables. ( 1 or 0 )
+- Combine **sparse** categories ( Category labels with very less observations )
 
 ### 1. Label Encoding
-- Substitute bins by **Mean** ( e.g. Age Bins by `Mean` of Age Group )
-- Label Encoding is better for `Ordinal` categories.
-- Rank Matters e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Post Graduate > Bachelor )
+- Substitute bins by **mean** ( e.g. Age bins by `mean` of age group )
+- Label encoding is better for `ordinal` categories.
+- Rank matters e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Post Graduate > Bachelor )
 
-> Some times use Business logic to remove **Redundancy** e.g. Pincode is enough instead of State and City 
+> Some times use business logic to remove **redundancy** e.g. Pincode is enough instead of state and city.
 
 ### 2. Dummy Coding | One Hot Encoding
-- Transform **Non Numerical Labels** to **Numerical Labels** ( **Binary** : `1` or `0` ) 
-- Convert a **Categorical** input variable into **Numeric** variable.
-- One Hot Encoding is better for `Nominal` categories ( `Rank` do not Matters )
+- Transform **non numerical labels** to **numerical labels** ( **Binary** : `1` or `0` ) 
+- Convert a **categorical** input variable into **numeric** variable.
+- One hot encoding is better for `nominal` categories ( `Rank` do not matters )
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
