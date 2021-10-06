@@ -2,7 +2,7 @@
 
 # How to Deal with Categorical Data ?
 
-- **Nominal** : No ordering | No ranking among the values of that `attribute`. e.g. **Genre** of music, movie and videos
+- **Nominal** : No ordering | No ranking among the values of that `attribute` e.g. **Genre** of music, movie and videos
 - **Ordinal** : Order | Rank among the values. e.g. Size of tshirts ( XS - S - M - L - XL - XXL ), education level, grades 
 - You can’t **train** the model directly with **categorical variables** in their raw form. 
 - **Transformation** of **categorical labels** in **numeric values** by applying some **encoding** is important.
