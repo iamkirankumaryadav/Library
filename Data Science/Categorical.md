@@ -2,12 +2,12 @@
 
 # How to Deal with Categorical Data ?
 
-- **Nominal** : No Ordering | No Ranking among the values of that `Attribute`. e.g. **Genre** of Music, Movie and Videos
-- **Ordinal** : Order | Rank among the values. e.g. Size of Tshirts ( XS - S - M - L - XL - XXL ), Education Level, Grades 
-- You can’t **Train** the model directly with **Categorical Variables** in their raw form. 
-- **Transformation** of **Categorical Labels** in **Numeric Values** by applying some **Encoding** is important.
-- Convert into **Numerical Values**, Combine `Sparse` classes ( Classes with very less **Labels** )
-- Set **Filter** to classes ( Class Labels should have atleast **50** Observations )
+- **Nominal** : No ordering | No ranking among the values of that `attribute`. e.g. **Genre** of music, movie and videos
+- **Ordinal** : Order | Rank among the values. e.g. Size of tshirts ( XS - S - M - L - XL - XXL ), education level, grades 
+- You can’t **train** the model directly with **categorical variables** in their raw form. 
+- **Transformation** of **categorical labels** in **numeric values** by applying some **encoding** is important.
+- Convert into **numerical values**, combine `sparse` classes ( Classes with very less **labels** )
+- Set **filter** to classes ( Class labels should have atleast **50** observations )
 
 ### Dichotomous ( Binary )
 - Male or Female | Yes or No | True or False | 1 or 0
