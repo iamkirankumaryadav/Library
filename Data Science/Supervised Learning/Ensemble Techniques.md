@@ -6,7 +6,7 @@ The Combination of `Weak` learners into one very **accurate predicting algorithm
 
 Create multiple models and then combine them to produce **better** results ( High accuracy ) that any individual model.
 
-### Why Ensemble 
+### Why Ensemble ?
 
 - `High variance` : The model is very sensitive to the new unseen data.
 - `Low accuracy` : One single model is not enough for training data.
