@@ -18,25 +18,25 @@ Create multiple models and then combine them to produce **better** results ( Hig
 Bagging ( Bootstrap Aggregation ) | Boosting
 :--- | :---
 **Parallel** | **Series** ( Iterative ) 
-Decrease **Variance** ( Solve **Overfitting** ) | Decrease **Bias** ( Improve **Training** )
-Each Model Receives Equal Weight | Models are Weighted based on their **Performance**
-Samples Randomly | Boosting Samples by Increasing Weight for **Wrong** Predictions
-Models are Built **Independently** | New Models are Improved version of Previous Built Models
-Less Time to Train | More Time to Train
-**Easy** to Tune | **Hard** to Tune
-**Hard** to Overfit or **Least** Chance of **Overfitting** | **Easy** to Overfit ( Memorize the Data + Noise )
-Samples are Drawn Randomly with **Replacement** | Samples are Elements that are **Missclassified** by **Previous Models**
+Decrease **variance** ( Solve **overfitting** ) | Decrease **bias** ( Improve **training** )
+Each model receives equal weight | Weights are assigned based on their **performance**
+Samples randomly ( Sample with replacement ) | Samples by increasing weight for **wrong** predictions
+Models are built **independently** | Models are improved version of previous built models
+Less time to train | More time to train ( Exhaustive approach )
+**Easy** to tune | **Hard** to tune
+**Least** Chance of **overfitting** | **Easy** to overfit ( Memorize the data + noise )
+Samples are drawn randomly with **replacement** | Samples are elements that are **missclassified** by **previous models**
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XGBoost
 
 ![Ensembles](Image/Ensembles.png)
 
 ### Benefits of Ensemble Methods
 
-1. Used for **Classification** and **Regression**.
-2. Easily Handles **Outliers** and **Missing Values**.
-3. Accepts various types of Inputs ( **Continuous** and **Ordinal** )
-4. Less likely to **Overfit** and Easy to **Tune**.
-5. Output **Feature Importance** ( Important Features for **Prediction** )
+1. Used for **classification** and **regression**.
+2. Easily handles **outliers** and **missing values**.
+3. Accepts various types of inputs ( **continuous** and **ordinal** )
+4. Less likely to **overfit** and easy to **tune**.
+5. Output **feature importance** ( Important features for **prediction** )
 
 ### A. Bagging (Bootstrap Aggregation)
 
