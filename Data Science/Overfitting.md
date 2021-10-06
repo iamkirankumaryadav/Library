@@ -44,8 +44,8 @@
 ### 5. Ensembling 
 - **Combine** predictions from multiple separate models.
 - Train multiple **weak** learners to make them a single **strong** model.
-- **Bagging** trains multiple `Individual` learners in **parallel**.
-- **Boosting** trains multiple `Weak` learners in **sequence** ( Improving in each steps learning from the mistakes of previous models ) 
+- **Bagging** trains multiple `individual` weak learners in **parallel**.
+- **Boosting** trains multiple `weak` learners in **sequence** ( Improving in each steps learning from the mistakes of previous models ) 
 
 ### 6. Reduce Layers ( Deep Learning )
 - **Removing layers** or **Elements** in the **hidden layers**.
