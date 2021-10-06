@@ -42,12 +42,14 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ![Ensemble Bagging](Image/EnsembleBagging.svg)
 
-- Dataset is divided into **Subsets** | **Samples** and passed to multiple **Base** learners in `Parallel`.
-- Sample is passed as `Row Sampling` with `Replacement` ( This process is called as `Bootstrap` )
-- Each **Learning Model** is trained **Independently** on its particular **Sample** of data.
-- **Voting Classifier** is used to find the final result ( This process is called as `Aggregation` )
-- Combine **Weak Base Learners** into **Strong Learners** in terms of **Classifier** or **Prediction**.
-- **Test Sample** is passed to each **Model** for the **Output**, **Final Prediction** is based on **Voting**.
+- Dataset is divided into **subsets** | **samples** and passed to multiple **base** learners in `parallel`
+- Sample is passed as `row sampling` with `replacement` ( This process is called as `bootstrap` )
+- Each **learning model** is trained **independently** on its particular **sample** of data.
+- **Voting classifier** is used to find the final result ( This process is called as `aggregation` )
+- Combine **weak base learners** into **strong learners**.
+- **Test sample** is passed to each **model** for the **output**, **Final prediction** is based on **voting**.
+- `Regression` :  `Mean` is calculated.
+- `Classification` : `Majority` voted class label.
 
 ### 1. Random Forest 
 
@@ -68,7 +70,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
-- An Ensemble Method that **Aggregates** a number of **Weak Learners** in **Sequence** to Create one **Strong Model**.
+- An ensemble method that **aggregates** a number of **weak learners** in **sequence** to create one **Strong Model**.
 - **Boosting** effectively Learns from its Mistake with each Iteration.
 - `Decision Trees` are Created with only **One Depth** or only **One Split** ( **Stumps** )
 - Base Learners | Weak Learners are Created **Sequentially** and the **Samples** are passed for Training.
