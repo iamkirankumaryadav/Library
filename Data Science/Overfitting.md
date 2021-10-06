@@ -25,15 +25,15 @@
 - Get more data for **training**.
 
 ### 2. Apply [Regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) 
-- Lasso ( `L1` ) : Sum of `Absolute` of **Slope** | Coefficient | Weight ( **Coefficient** to Exactly 0 )
-- **Simplify** the Model + **Feature Selection** ( Select only **important** features )
-- Ridge ( `L2` ) : Sum of `Square` of **Slope** | Coefficient | Weight ( **Penalize** certain value of **slopes** towards zero )
+- Lasso ( `L1` ) : Sum of `absolute` of **slope** | coefficient | weight ( **Coefficient** to exactly 0 )
+- **Simplify** the model + **feature selection** ( Select only **important** features )
+- Ridge ( `L2` ) : Sum of `square` of **slope** | coefficient | weight ( **Penalize** certain value of **slopes** towards zero )
 - Able to learn **complex data patterns** | Decreases the **complexity** of model.
 
 ### 3. K Fold Cross Validation and Grid Search Cross Validation
 - Measure how well each **iteration** of the model performs.
-- Until certain iterations, **New iterations** improves the model.
-- After some point the **model's ability** to **Generalize** gets weak and starts **overfitting**.
+- Until certain iterations, **new iterations** improves the model.
+- After some point the **model's ability** to **generalize** gets weak and starts **overfitting**.
 
 ### 4. Feature Selection
 - Select only **important** features ( Large number of features can **confuse** the model )
