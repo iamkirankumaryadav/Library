@@ -13,7 +13,7 @@ Create multiple models and then combine them to produce **better** results ( Hig
 - Features `noise` and `bias`: The model relied heavily on one of the dominating feature with high scale or magnitude.
 - If we build an combine multiple models, the overall accuracy can be improved.
 - The combination can be implemented by aggregating the outputs of the individual models.
-- The main objective while training the models are reducing the model errors and maintaining the generalization ( Performance on new unseen data )
+- The main objective while training the models are reducing the model errors and maintaining the generalization.
  
 Bagging ( Bootstrap Aggregation ) | Boosting
 :--- | :---
