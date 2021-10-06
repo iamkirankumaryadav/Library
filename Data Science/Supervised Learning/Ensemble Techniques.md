@@ -53,54 +53,54 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ### 1. Random Forest 
 
-- **Ensemble** learning method constructs a **Collection** of `Decision Trees` in `Parallel` 
-- `Aggregate` the `Predictions` of each tree to **Determine** `Final Prediction`
-- Dataset is divided as **Subsets** | **Samples** and passed to Multiple `Base` learners ( `Decision Tree` )
-- Training sample consist of **Row Sampling** with **Replacement**.
-- Creating `Decision Tree` to its complete `Depth` may cause `Overfitting`
-- But when we combine **Multiple** `Decision Trees`, **High Variance** gets converted to **Low Variance**, i.e. Reduces `Overfitting`
-- Can be used for **Classification** and **Regression**.
-- Regressor : **Mean** or **Median** of Output of Every **Decision Trees**
-- Classifier : **Majority Vote** from all **Decision Trees**.
-- Easily Handles **Outliers**, **Missing Data** and **Skewness**.
-- Accept **Continuous** as well as **Categorical** Inputs.
-- Help to Understand **Important Features**. ( Parameter : `feature_importance` )
+- **Ensemble** learning method constructs a **collection** of `decision trees` in `parallel` 
+- `Aggregate` the `predictions` of each tree to **determine** the `final prediction`
+- Dataset is divided as **subsets** | **samples** and passed to multiple `base` learners ( `Decision Tree` )
+- Training sample consist of **row sampling** with **replacement**.
+- Creating `decision tree` to its complete `Depth` may cause `overfitting`
+- But when we combine **multiple** `decision trees`, **High variance** gets converted to **low variance**, i.e. Reduces `overfitting`
+- Can be used for **classification** and **regression**.
+- Regressor : **Mean** or **Median** of all the decision trees.
+- Classifier : **Majority vote** from all **decision trees**.
+- Easily handles **outliers**, **missing data** and **skewness**.
+- Accept **continuous** as well as **categorical** inputs.
+- Help to understand **important features**. ( Parameter : `feature_importance` )
 
 ### B. Boosting
 
 ![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
-- An ensemble method that **aggregates** a number of **weak learners** in **sequence** to create one **Strong Model**.
-- **Boosting** effectively Learns from its Mistake with each Iteration.
-- `Decision Trees` are Created with only **One Depth** or only **One Split** ( **Stumps** )
-- Base Learners | Weak Learners are Created **Sequentially** and the **Samples** are passed for Training.
-- **Samples** are Created using **Row Sampling** and **Column Sampling**.
-- **Boosting** combines **Weak Learners Sequentially** by correcting **Previous Errors** ( Forcing them to Improve )
-- **Weight** is attached with each and every **Instance** | **Row** | **Record**.
-- If the **Sample** of Dataset is **Incorrectly Classified** then that **Sample** is Transfered to next **Base Learner** for **Training** again.
-- **Weights** are **Adjusted** before each **Training** and **Miss Classified Instances** are focused with **High Priority**.
-- **Test Sample** is passed to each Model for the **Final Output**.
+- An ensemble method that **aggregates** a number of **weak learners** in **sequence** to create one **strong model**.
+- **Boosting** effectively learns from its previous mistakes with each iteration.
+- `Decision trees` are created with only **one depth** or only **one split** ( **Stumps** )
+- Base learners | Weak learners are created **sequentially** and the **samples** are passed for training.
+- **Samples** are created using **row sampling** and **column sampling**.
+- **Boosting** combines **weak learners sequentially** by correcting **previous errors** ( Forcing them to improve )
+- **Weight** is attached with each and every **instance** | **row** | **record**.
+- If the **sample** of dataset is **incorrectly classified** then that **sample** is transfered to next **base learner** for **training** again.
+- **Weights** are **adjusted** before each **training** intervals. 
+- **Miss classified instances** are focused with **high weights** and **high priority**.
 
 ### 1. ADABOOST
 
-- In `ADABOOST` **Weights** is assigned with **Incorrect Values** in Samples.
-- **Sequential Tree** growing  with **Weighted Samples**.
-- **Base Learners** are **Decision Trees**.
-- `Decision Trees` are Created with only **One Depth** or only **One Split** (**Stumps**)
-- The `Stump` will **Low Entrophy** or **High Information Gain** is Selected First.
-- `ADABOOST` allow us to Capture **Non Linear Relationships**.
+- In `ADABOOST` **weights** are only assigned with **incorrect values** in samples.
+- **Sequential tree** growing  with **weighted samples**.
+- **Base learners** are **decision trees**.
+- `Decision trees` are created with only **one depth** or only **one split** (**Stumps**)
+- The `stump` with **low entrophy** or **high information gain** is selected first.
+- `ADABOOST` allow us to capture the **non linear relationships**.
 
 ### 2. Gradient Boosting
 
-- Uses **Gradient Descent Approach**, Minimize a **Loss** Function ( Overall Prediction Error )
-- Uses the **Loss Function** of Base Model ( **Decision Tree** ) for Minimizing the **Error** of overall Model.
-- An **Iterative** Approach, **Combine** Weak Learners to Create a **Strong** Learner by Focusing on Mistakes of **Prior Iterations**.
+- Uses **gradient descent approach**, Minimize a **loss** function ( Overall prediction error )
+- Uses the **loss function** of base model ( **Decision Tree** ) for minimizing the overall **error** of Model.
+- An **iterative** approach, **Combine** weak learners to create a **strong** learner by focusing on mistakes of **prior iterations**.
 
 ![Gradient Boosting](Image/GB.png)
 
 ### 3. XGBoost | Extreme Gradient Boosting
 
-- **Regularized** form of **Gradient Boosting**, Uses Advanced **Regularization** ( `L1` and `L2` )
+- **Regularized** form of **gradient boosting**, Uses Advanced **Regularization** ( `L1` and `L2` )
 - Uses **2**<sup>nd</sup> Order **Partial Derivative** for Approximation.
 - **High Performance**, Faster than Gradient Boosting.
 - Choose a Better **Learning Rate** that suits our Model.
@@ -108,8 +108,8 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ### Hard Voting vs Soft Voting
 
-- Hard Voting : **Majority Voting** is more important.
-- Soft Voting : **Predictive Probability** of Class is important, **Mean** of `Probability` is Calculated for each Class.
+- Hard Voting : **Majority voting** is more important.
+- Soft Voting : **Predictive probability** of class is important, **Mean** of `probability` is calculated for each class.
 
 ### Activation Function
-- A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** ( + Adds **Bias** ) and Generates Output for **Next Layer**
+- A function that takes in the **weighted sum** of all the inputs from **previous layer** ( + Adds **bias** ) and generates output for **next layer**.
