@@ -6,14 +6,14 @@
 
 ### Regression
 
-- A **Statistical** Process for **Estimating** the **Relationships** between **Independent** and **Dependent Variables** to make **Predictions**.
+- A **statistical** process for **estimating** the **relationships** between **independent variables** and **dependent variable** to make **predictions**.
 
 ### Linear Regression 
 
-- **Target** Variable is **Continuous Numeric**
-- The **Best Fit Line** which gives **Least** Number of **Errors** ( Difference between **Actual** and **Predicted** Value ) for given **Data Points**.
-- Find the **Slope** ( Steepness of the Line | Angular Motion ) and **Intercept** ( Position of Line | Upward & Downward ) with Least **Residual**. 
-- **Sensitive** to Overfitting ( But can be Prevented using some **Dimensionality Reduction**, **Regularization** and **Cross Validation** )
+- **Target** variable is **continuous numeric** values.
+- The **best fit line** which gives **least** number of **errors** ( Difference between **actual** and **predicted** value ) for given **data points**.
+- Find the **slope** ( Steepness of the line | Angular motion ) and **intercept** ( Position of line | Upward & downward ) with least **residual**. 
+- **Sensitive** to `overfitting` ( But can be prevented using **Dimensionality Reduction**, **Regularization** and **Cross Validation** )
 
 ![Regression Line](Image/RegressionLine.png)
 
