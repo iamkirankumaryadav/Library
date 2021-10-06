@@ -28,6 +28,21 @@ Less time to train | More time to train ( Exhaustive approach )
 Samples are drawn randomly with **replacement** | Samples are elements that are **missclassified** by **previous models**
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XGBoost
 
+### Entrophy ( Randomness | Uncertainity )
+
+- Low entrophy : Better ( Simple | No Confusion | Easy to draw conclusion from data )
+- High entrophy : Hard to draw conclusion ( Creates confusion )
+
+### Information Gain ( Which feature can explain the split better )
+
+- High IG : Better ( Explains the further split in more better way )
+- IG decides which feature will become next node and will split the data in better way.
+
+### Gini Index ( Check for impurity in dataset )
+
+- Low gini index is better.
+- Pure : All data belongs to same class in a subset ( Gini Index : 0 )
+- Impure : Data is mixture of different classes in a subset.
 ![Ensembles](Image/Ensembles.png)
 
 ### Benefits of Ensemble Methods
