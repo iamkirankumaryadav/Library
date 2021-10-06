@@ -2,7 +2,7 @@
 
 ### Imbalanced Data Set
 
-- **Class** labels should be `Balanced` otherwise it predicts a **Biased Output**.
+- **Class** labels should be `balanced` otherwise it predicts a **biased output**.
 
 ### A. Stratified Sampling
 - Create a sample containing `equal` proportion of each `class labels` to train the model ( 50 Red, 50 Blue and 50 Green )
