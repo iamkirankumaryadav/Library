@@ -43,6 +43,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - Low gini index is better.
 - Pure : All data belongs to same class in a subset ( Gini Index : 0 )
 - Impure : Data is mixture of different classes in a subset.
+
 ![Ensembles](Image/Ensembles.png)
 
 ### Benefits of Ensemble Methods
