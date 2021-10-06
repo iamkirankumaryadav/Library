@@ -17,13 +17,13 @@
 
 ![Regression Line](Image/RegressionLine.png)
 
-- **Learning** a Linear Regression Model means Estimating the Values of the **Coefficient** ( `Slope` : `m` and `Intercept` : `c` )
-- **Predict** Dependent Variable based on One or More Independent Variables.
-- **Measure** the Influence of One or More Independent Variable on Dependent Variable.
-- **Predict** the Value of a **Feature** based on the Value of Another Feature.
-- The Parameters `m` and `c` are **learnt** by the **Algorithm** based on the **Data Point** pairs of ( x, y )
-- There are few **Statistical** <a href="#ass">Assumptions</a> as well for **Linear Regression**. 
-- Also there are ways to **Evaluate** how **Good** our **Model** learnt from the **Data**, using **RMSE** and **R**<sup>2</sup>.
+- **Learning** a linear regression model means estimating the values of the **coefficient** ( `Slope` : `m` and `Intercept` : `c` )
+- **Predict** dependent variable based on one or more independent variables.
+- **Measure** the influence of one or more independent variable on dependent variable.
+- **Predict** the value of a **feature** based on the value of another feature.
+- The parameters `m` and `c` are **learnt** by the **algorithm** based on the **data point** pairs of ( x, y )
+- There are few **statistical** <a href="#ass">assumptions</a> as well for **linear regression**. 
+- Also there are ways to **evaluate** how **good** our **model** learnt from the **data**, using **RMSE** and **R**<sup>2</sup>.
 
 
 ### Y = B1 * X  + B0 or y = m * x + c
