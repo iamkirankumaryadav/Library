@@ -22,9 +22,9 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 - **Univariate** | **Multivariate**
 
-> **Data Visualization** is a most important part that plays the role of communicating with data and visualize `Outlier`.
+> **Data visualization** is a most important part that plays the role of communicating with data and visualize the distribution and `outlier`
 
-> **Boxplot**, **Scatter Plot** and **Histograms** are better plots to find **Outliers** in the data set.
+> **Boxplot**, **Scatter Plot** and **Histograms** are better plots to find **outliers** in the data set.
 
 ### Methods for Outlier Detection
 
@@ -32,26 +32,26 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 ![Standard Deviation](Image/Std.png)
 
-- How many `Standard Deviations` a data point is away from it's **Sample's Mean**.
+- How many `standard deviations` a data point is away from it's **sample's mean**.
 - **z** = ( x - **mean** ) / **standard deviation**
-- Data points after **3 Standard Deviations** ( `mean` +- `3` * `std` ) are considered as `Outliers`
+- Data points after **3 standard deviations** ( `mean` +- `3` * `std` ) are considered as `outliers`
 
-> **Solution** : Apply Transformation of Data : Scaling ( Bring scales at same level )
+> **Solution** : Apply transformation of data : Scaling ( Bring scales at same level )
 
 <h3 name="dbscan"> ( DBSCAN ) | Density Based Spatial Clustering of Applications with Noise</h3>
 
-- `Clustering` methods are useful tools that helps us to `Visualize` Data and `Outliers`
-- Relationships between **Features** can be represented via `Clustering`
-- **Density Based Clustering Algorithm**, it is focused on finding **Neighbors** by **Density**.
+- `Clustering` methods are useful tools that helps us to `visualize` distribution of data and `outliers`
+- Relationships between **features** can be represented via `clustering`
+- **Density based clustering algorithm**, it is focused on finding **neighbors** by **density**.
 - `Outlier` lies in no cluster region, it is seperate from every other data point.
 
 ### How to Deal with Outliers ?
 
-1. Setup a `Filter` and `Trim` Data Set.
-2. Remove the `Outlier` if it is very Small, Change the Value of `Outlier` or Replace it with something meaningful.
-3. **Inter Quartile** Range ( `IQR` ) and Extreme Value Analysis ( `Z Score` )
+1. Setup a `filter` and `trim` data set.
+2. Remove the `outlier` if it is very Small, Change the value of `outlier` or replace it with something meaningful.
+3. **Inter Quartile** Range ( `IQR` ) and Extreme value analysis ( `Z Score` )
 5. `Rescale` | `Standardize` | `Normalize` ( Bring to same scale )
-6. Apply `Ensemble` Learning Techniques ( `Bagging` and `Boosting` )
+6. Apply `ensemble` learning techniques ( `Bagging` and `Boosting` )
 
 <h3 name="summary"> Five Number Summary</h3>
 
@@ -64,13 +64,13 @@ How many **Features** to take into account to **Detect Outliers** ?
 5. Maximum : **Largest** Value in a dataset.
 
 > **Five Number Summary** can be visually represented using **Boxplot**.
-- `Horizontal Line` on both ends of Boxplots are `Whiskers`.
+- `Horizontal Line` on both ends of boxplots are `whiskers`.
 - `Box` is called **Interquartile Range** ( `IQR` )
 - `IQR` = `Q3` - `Q1`
 - Data value **<** `Q1` - `1.5` * `IQR`
 - Data value **>** `Q3` + `1.5` * `IQR`
 
-> **Outlier** is represented by dot ( **o** ) in **Boxplot**  
+> **Outlier** is represented by dot ( **o** ) in **boxplot**  
 
 <table>
   <tr>
