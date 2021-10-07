@@ -25,8 +25,9 @@
 - There are few **statistical** <a href="#ass">assumptions</a> as well for **linear regression**. 
 - Also there are ways to **evaluate** how **good** our **model** learnt from the **data**, using **RMSE** and **R**<sup>2</sup>.
 
+`Y` = `B1` * `X`  + `B0` 
 
-### Y = B1 * X  + B0 or y = m * x + c
+`y` = `m` * `x` + `c`
 
 ![Equation Line](Image/EquationLine.png)
 
