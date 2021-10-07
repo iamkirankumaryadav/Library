@@ -27,7 +27,7 @@
 
 `Y` = `B1` * `X`  + `B0` 
 
-`y` = `m` * `x` + `c`
+`y` = `m` * `x` + `c` ( m and c are also called as coefficients )
 
 ![Equation Line](Image/EquationLine.png)
 
