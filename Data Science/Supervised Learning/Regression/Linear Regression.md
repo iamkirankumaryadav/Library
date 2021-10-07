@@ -146,8 +146,8 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
 ### Covariance
 
 - **Relationship** between two variables.
-- **Positive** Covaraince : Two variables tends to move in **same direction**.
-- **Negative** Covaraince : Two variables tends to move in **opposite direction**.
+- **Positive** Covariance : Two variables tends to move in **same direction**.
+- **Negative** Covariance : Two variables tends to move in **opposite direction**.
 - **Direction** of the **linear relationship** between variables.
 
 ### Correlation
