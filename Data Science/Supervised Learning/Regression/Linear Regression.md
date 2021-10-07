@@ -126,9 +126,9 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
   
 - **Linearity** : There should be **Linear Relationship** between **Dependent Variable** and **Independent Variables**
 - **Independence** : **Residuals** | **Errors** should be **Independent** of each other.
-- **Normality** : **Errors** | **Residuals** of the **Data** should be **Normally Distributed**. 
+- **Normality** : **Errors** | **Residuals** of the **Data** should be **Normally Distributed** ( P Value > 0.05  )
 - There should be Minimal **Multicollinearity** between **Independent Variables**.
-- Error should be **Normally** Distributed ( P Value > 0.05  ) | Quantile Quantile Point : **Data Points** should be **Close** to **Line**.
+- Quantile Quantile Point : **Data Points** should be **Close** to **Line**.
 - **Homoscedasticity** : **Variance** around the **Regression Line** should be **Same** for all values of the **Independent Variable**.
 
 ![Error Normal Distribution](Image/ErrorDistribution.png)
