@@ -124,36 +124,36 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
 
 <h3 name='ass'>Assumptions</h3>
   
-- **Linearity** : There should be **Linear Relationship** between **Dependent Variable** and **Independent Variables**
-- **Independence** : **Residuals** | **Errors** should be **Independent** of each other.
-- **Normality** : **Errors** | **Residuals** of the **Data** should be **Normally Distributed** ( P Value > 0.05  )
-- There should be Minimal **Multicollinearity** between **Independent Variables**.
-- Quantile Quantile Point : **Data Points** should be **Close** to **Line**.
-- **Homoscedasticity** : **Variance** around the **Regression Line** should be **Same** for all values of the **Independent Variable**.
+- **Linearity** : There should be **linear relationship** between **dependent variable** and **independent variables**.
+- **Independence** : **Residuals** | **Errors** should be **independent** of each other.
+- **Normality** : **Errors** | **Residuals** of the **data** should be **normally distributed** ( P value > 0.05  )
+- There should be minimal **multicollinearity** between **independent variables**.
+- Quantile Quantile Point : **Data points** should be **close** to **line**.
+- **Homoscedasticity** : **Variance** around the **regression line** should be **same** for all values of the **independent variable**.
 
 ![Error Normal Distribution](Image/ErrorDistribution.png)
 
-- **Homoscedasticity** : **Variance** along the Line of **Best Fit** should remain **Constant** as we move along the line.
-- Error Term in the Regression Model is **Constant**.
-- **Variance** is Same for all **Data Points**.
+- **Homoscedasticity** : **Variance** along the line of **best fit** should remain **constant** as we move along the line.
+- Error term in the regression model is **constant**.
+- **Variance** is same for all **data points**.
 
 ![Homoscedasticity](Image/Homo.png)
 
-- **Multicollinearity** : Two or more **Independent** Variables **Correlate** strongly with each other. 
+- **Multicollinearity** : Two or more **independent** variables **correlate** strongly with each other. 
 - e.g. Experience vs Salary, Height vs Weight, Age of Car vs Car Price.
-- Observations and Features should be **Independent**  
+- Observations ( Rows ) and features ( Columns ) should be **independent**.  
 
 ### Covariance
 
-- **Relationship** between Two Variables.
-- **Positive** Covaraince : Two Variables tends to Move in **Same Direction**.
-- **Negative** Covaraince : Two Variables tends to Move in **Opposite Direction**.
-- **Direction** of the **Linear Relationship** between Variables.
+- **Relationship** between two variables.
+- **Positive** Covaraince : Two variables tends to move in **same direction**.
+- **Negative** Covaraince : Two variables tends to move in **opposite direction**.
+- **Direction** of the **linear relationship** between variables.
 
 ### Correlation
 
-- Measures **Strength** and **Direction** of **Relationship** between two **Quantitative** Variable.
-- One Variable can Predict the other Variable, Varies between `-1` ( Perfect Negative ) to `1` ( Perfect Positivehat )
+- Measures **strength** and **direction** of **relationship** between two **quantitative** variables.
+- One variable can predict the other variable, Varies between `-1` ( Perfect Negative ) to `1` ( Perfect Positive )
 
 Amount of R | **Strength** of **Correlation**
 :--- | :---
@@ -170,31 +170,31 @@ Amount of R | **Strength** of **Correlation**
 ![Strength of Slope](Image/Strength.png)
 
 ### Test Correlation Coefficient for Significance ( T Test ) 
-- **Null** Hypothesis ( H0 ) : There is **No Linear Relationship**
-- **Alternate** Hypothesis ( H1 ) : There is a **Linear Relationship**
-- P Value is Calculated ( if P Value > 0.05 : Then **Accept** Null Hypothesis else **Reject** Null Hypothesis )
+- **Null** Hypothesis ( H0 ) : There is **no linear relationship**
+- **Alternate** Hypothesis ( H1 ) : There is a **linear relationship**
+- P value is calculated ( if P Value > 0.05 : Then **accept** Null Hypothesis else **reject** Null Hypothesis )
 
 ### Multicollinearity
-- Two or More Independent Features **Correlate** Strongly with each other.
-- Regression Equation becomes **Unstable** and Create **Confusion**. 
-- **Remove** One Feature to Prevent from **Multicollinearity** and make Regression **Stable**.
-- **Tolerance** ( `T` ) = 1 - R<sup>2</sup> ( T < 0.1 | There is **Multicollinearity** ) 
-- **Variance Inflation Factor** ( `VIF` ) = 1 / ( 1 - R<sup>2</sup> ) ( VIF > 10 | There is **Multicollinearity** )
+- Two or more independent features **correlate** strongly with each other.
+- Regression equation becomes **unstable** and create **confusion**. 
+- **Remove** one feature to prevent from **multicollinearity** and make regression **stable**.
+- **Tolerance** ( `T` ) = 1 - R<sup>2</sup> ( T < 0.1 | There is **multicollinearity** ) 
+- **Variance Inflation Factor** ( `VIF` ) = 1 / ( 1 - R<sup>2</sup> ) ( VIF > 10 | There is **multicollinearity** )
 
 ### Causality
-- Relationship between **Cause** and its **Effect**.
-- One Variable **Affects** other Variable ( Temperature affect Icecream Sale | Sale of Icecream is more in Summer )
+- Relationship between **cause** and its **effect**.
+- One variable **affects** other variable ( Temperature affect icecream sale | Sale of icecream is more in summer )
 
 ### 2. Remove Noise 
 - Remove **Outliers** 
 
 ### 3. Remove Collinearity
-- If Independent Features are **Highly** Correlated, Linear Regression will **Overfit** your Data.
-- Pairwise Correlations for Independent Features and Remove the Correlated.
+- If Independent features are **highly** correlated, Linear regression will **overfit** your data.
+- Pairwise correlations for independent features and remove the correlated.
 
 ### 4. Gaussian Distributions
-- More Reliable Predictions.
-- Using **Transform** makes Data more Gaussian.
+- More reliable predictions.
+- Using **transform** makes data more Gaussian.
 
 ### 5. Rescale Independent Features
 - **Rescale** Independent Features for more **Reliable** Predictions use **Standardization** or **Normalization**.
