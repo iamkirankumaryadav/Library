@@ -60,33 +60,35 @@
 
 <h3 name='simple'>Simple Linear Regression</h3>
 
-- Only One **Independent Features** and One **Dependent Variable** ( **Continuous Numeric** )
-- Use **Statistics** to Estimate **Coefficients** ( `Slope` and `Intercept` )
+- Only one **independent features** and one **dependent variable** ( **Continuous Numeric** )
+- Use **statistics** to estimate **coefficients** ( `Slope` and `Intercept` )
 
 <h3 name='multiple'>Multiple Linear Regression</h3>
 
-- More than One **Independent Features** and only One **Dependent Variable** ( **Continuous Numeric** )
-- Consider **Features** that have **Good Correlation** with **Dependent Variable**.
-- Checking **Multicollinearity** is Important.
+- More than one **independent features** and only One **dependent variable** ( **Continuous Numeric** )
+- Consider **features** that have **good correlation** with **dependent variable**.
+- Checking **multicollinearity** is important.
 
 ### Polynomial Regression
 
-- Finding **Best Fit Curve**.
+- Finding **best fit curve**.
 
 ### Logistic Regression
 
-- Dependent Variable is **Categorical**, Used for **Classification**. 
-- **Probability** of **Occurence** of **Target Label** is Predicted on the basis of **Threshold** ( `0.5` )
-- **Range** Value of **Prediction** lies between `0` to `1` ( **Binary** Classification )
+- Dependent variable is **categorical**, used for **classification**. 
+- **Probability** of **occurence** of **target label** is predicted on the basis of **threshold** ( `0.5` )
+- **Range** value of **prediction** lies between `0` to `1` ( **Binary** classification )
 
 ### LASSO
-- Use **Shrinkage**, Good for **Multicollinearity**
+- Use **shrinkage** ( Exactly 0 ), Good for **multicollinearity**.
+- Completely eliminates the features.
 
 ### Ridge Regression
-- Good for Data with **Noise** and **Multicollinearity**.
+- Good for data with **noise** and **multicollinearity**.
+- Try to learn the complicated model.
 
 ### Stepwise Regression
-- More Advance Technique, Uses Tests to Remove **Predictors**, Can Handle **Large Number** of **Independent Variables**.
+- More advance technique, Uses tests to remove **predictors**, can handle **large number** of **independent variables**.
 
 <h3 name='ols'>Ordinary Least Squares (OLS)</h3>
 
