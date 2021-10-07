@@ -34,7 +34,7 @@
 ### B1 | m : Slope 
 
 - **Gradient** | **Steepness** in Line | **Direction** of Line | **Weight**
-- Indicates how much the **Dependent Variable** changes, if an **Independent Variable**  changes by **One Unit**
+- Indicates how much the **dependent variable** changes, if an **independent variable**  changes by **one unit**.
 
 ![Positive Slope](Image/Positive.png)
 
@@ -42,17 +42,17 @@
 
 ### B0 | c : Intercept 
 
-- Bias | Constant | The Place where **Regression Line** Intersects the Y Axis ( Value of Y when Value of X and Value of **Coefficients** = 0 )
+- Bias | Constant | The place where **regression line** intersects the Y axis ( Value of Y when value of X and value of **coefficients** = 0 )
 
 ### R<sup>2</sup> : Coefficient of Determination | Goodness of Fit
 
-- **Explains** The **Variance** of the Data captured by the Model ( **0.7** to **0.9** is Good value for R<sup>2</sup> ) 
-- If R<sup>2</sup> is 0.8 or 80% i.e. Regression Line Explaines 80% of **Variance** in Data | 80% of Prediction is Based on the **Available** Data.
-- Larger R<sup>2</sup> indicates a **Better Fit** ( The Model can Explain the **Variation** of **Predictions** with Actual in much Better Way )
-- R<sup>2</sup> = 1 corresponds to SSR = 0 ( **Perfect Fit** ) 
-- Low R<sup>2</sup> causes **Underfitting**
-- High R<sup>2</sup> results into **Overfitting**
-- It Shows that Regression Line | **Best Fit Line** Predicts better than **Base Fit Line** ( **Mean** ) 
+- **Explains** the **variance** of the data captured by the model ( **0.7** to **0.9** is good value for R<sup>2</sup> ) 
+- If R<sup>2</sup> is 0.8 or 80% i.e. regression line explaines 80% of **variance** in data | 80% of prediction is based on the **available** data.
+- Larger R<sup>2</sup> indicates a **better fit** ( The model can explain the **variation** of **predictions** with actual in much better way )
+- R<sup>2</sup> = 1 corresponds to SSR = 0 ( **Perfect fit** ) 
+- Low R<sup>2</sup> causes **underfitting**
+- High R<sup>2</sup> results into **overfitting**
+- It shows that regression line | **Best fit line** predicts better than **base fit line** ( **Mean** ) 
 
 ### [Residuals](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) | Error ( e )
 
