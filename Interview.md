@@ -34,7 +34,7 @@
 ### Model = Algorithm ( Parameters ) + Data
 
 ### Data Pipeline ( Where and how the data are collected, transformed and loaded ) 
-- A set of **actions** that **extract data** from various **sources**, Transform it into proper format and load for processing.
+- A set of **actions** that **extract data** from various **sources**, transform it into proper format and load for processing.
 - An automated process :
 1. Select columns from database
 2. Merge columns 
