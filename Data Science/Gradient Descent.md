@@ -13,11 +13,10 @@
 ### Importance of Learning Rate
 
 - The size of steps taken into the direction of the local minimum are determined by the learning rate.
-- It represents how `fast` or `slow` we will move towards the optimal weights.
-- For gradient descent to reach the local minimum we must set the learning rate to an appropriate value.
-- Neither too low nor too high. 
-- If the steps it takes are too big, it will overshoot or bounce back and forth between convex.
-- If the steps are very small, gradient descent will eventually reach the local minimum but that may take time.
+- It represents how `fast` or `slow` we will move towards the global minimum.
+- Learning rate should be set to an appropriate value, neither too low nor too high. 
+- If the steps are too big, it will overshoot or bounce back and forth between convex function.
+- If the steps are very small, gradient descent will take time to reach the local minimum.
 - We can check the flow of gradient descent by plotting the number of iterations on the x axis and the value of the cost function on the y axis.
 - This helps you see the value of your cost function after each iteration of gradient descent.
 - It provides a way to easily spot how appropriate your learning rate is performing.
