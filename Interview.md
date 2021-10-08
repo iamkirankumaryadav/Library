@@ -39,7 +39,7 @@
 1. Select columns from database
 2. Merge columns 
 3. Subset rows ( Sample ) 
-4. Substitute NA with mean or medians ( Impute )
+4. Handle missing data
 5. Load them in other database.
 - First time the process is complicated but if you do it right you will have to do it just once.
 - To have Automation you need to Think, Plan and Write Down in Simple Language, keep it Reproducible. ( Not only for you also for others. )
