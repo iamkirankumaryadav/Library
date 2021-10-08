@@ -1,14 +1,13 @@
 # Gradient Descent
 
-- Gradient descent is an `optimization` algorithm that's used when training a model.
+- An `optimization` algorithm used while training a model.
 - Tweaks its `parameters` iteratively to minimize a given function to its local minimum.
 - Start by defining the initial parameter's values. 
-- Gradient descent uses calculus to iteratively adjust the values so they `minimize` the given cost-function ( `loss` )
-- Cost function is loss ( Actual - Prediction )
-- A gradient measures how much the output of a function changes if you change the inputs a little bit.
-- A gradient simply measures the change in all weights ( slope ) with regard to the change in error.
+- Gradient descent uses calculus to iteratively adjust the values so they `minimize` the given cost function ( `loss` )
+- A `gradient` measures how much the output of a function changes after little change in inputs.
+- A `gradient` simply measures the change in all weights ( `slope` ) with regard to the change in error.
 - The higher the gradient, the steeper the slope and the faster a model can learn.
-- But if the slope is `0`, the model stops learning. 
+- Once the slope is `0`, the model stops learning. 
 
 ### Importance of Learning Rate
 
@@ -17,7 +16,7 @@
 - Learning rate should be set to an appropriate value, neither too low nor too high. 
 - If the steps are too big, it will overshoot or bounce back and forth between convex function.
 - If the steps are very small, gradient descent will take time to reach the local minimum.
-- We can check the flow of gradient descent by plotting the number of iterations on the x axis and the value of the cost function on the y axis.
+- Flow of gradient descent can be tracked by plotting the number of iterations on the x axis and the value of the cost function on the y axis.
 - This helps you see the value of your cost function after each iteration of gradient descent.
 - It provides a way to easily spot how appropriate your learning rate is performing.
 - If gradient descent is working properly, the cost function should decrease after every iteration.
