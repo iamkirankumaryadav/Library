@@ -27,69 +27,69 @@
 **Time** Complexity of Occurence of Characters in a String : `O(n)`
 
 ### Log Function
-- `Log` is Inverse of `Exponent`
-- e.g. Base Investment : `5₹` and 5 Times Return : `125₹` ( Log<sub>5</sub> 125 : `3` Years )
+- `Log` is inverse of `exponent`
+- e.g. Base investment : `5₹` and 5 times return : `125₹` ( Log<sub>5</sub> 125 : `3` Years )
 - Log<sub>5</sub> 5<sup>3</sup> = 3 ( i.e. 3 * Log<sub>5</sub>5 = 3 * `1` | Log<sub>5</sub>5 = 1 )
 
 ### Model = Algorithm ( Parameters ) + Data
 
-### Data Pipeline ( Where and How the Data are Collected, Transformed and Loaded ) 
-- A Set of **Actions** that **Extract Data** from various **Sources**, Transform it into Proper Format and Load for Processing.
-- An Automated Process 
-- 1. Select Columns from Database
-- 2. Merge Columns 
-- 3. Subset Rows ( Sample ) 
-- 4 Substitute NA with Mean or Medians ( Impute )
-- 5. Load them in Other Database.
-- First Time the Process is Complicated but if you do it Right you will have to do it just once.
+### Data Pipeline ( Where and how the data are collected, transformed and loaded ) 
+- A set of **actions** that **extract data** from various **sources**, Transform it into proper format and load for processing.
+- An automated process 
+- 1. Select columns from database
+- 2. Merge columns 
+- 3. Subset rows ( Sample ) 
+- 4. Substitute NA with mean or medians ( Impute )
+- 5. Load them in other database.
+- First time the process is complicated but if you do it right you will have to do it just once.
 - To have Automation you need to Think, Plan and Write Down in Simple Language, keep it Reproducible. ( Not only for you also for others. )
 
 ### Data Lake
-- A Storage Repository where Data is Stored in its Natural | Raw format.
-- Data Warehouse uses Files or Folders Structure, Data Lakes uses Flat Architecture.
+- A storage repository where data is stored in its natural | raw format without applying any transformation.
+- Data warehouse uses files or folders structure, Data lakes uses flat architecture.
 
 ### Important Disclaimer
-- We try to make out **Model** more **Accurate** by **Tuning** and **Tweaking** the **Parameters**.
-- But we cannot make a **100%** Accurate Model.
-- **Prediction** ( Continuous ) and **Classification** Models, can never be **Error Free**.
+- We try to make out **model** more **accurate** by **tuning** and **tweaking** the **parameters**.
+- But we cannot make a **100%** accurate model.
+- **Prediction** ( Continuous ) and **Classification** models, can never be **error free**.
 
 > **Y** = f ( **x** ) + **e**
 
 **Y** : Response Variable | Dependent Variable
 
-**x** : Independent Variable
+**x** : Independent variable
 
-**e** : Irreducible Error ( Even we make a **100%** Accurate Estimate of **f ( x )**, Our Model can't be **Error Free**, known as **Irreducible Error** )
+**e** : Irreducible error ( Even we make a **100%** accurate estimate of **f ( x )**, Our model can't be **error free**, known as **irreducible error** )
 
 ### Activation Function
-- A Function that takes in the **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Next Layer**.
+- A function that takes in the **weighted sum** of all the inputs from **previous layer** adds **bias** and generates output for **next layer**.
 
 ### Hyperparameter Optimization
-- Finding **Ideal** Set of **Parameters** for a Prediction Algorithm with Optimum Performance
+- Finding **ideal** set of **parameters** for a prediction algorithm with optimum performance.
 
 Parameter | Hyperparameter
 :--- | :---
-`Internal` Configuration Variables of the Model | `External` Configuration Variables of the Model
-Estimated or Learned from Data | Cannot be Estimated from Data ( Guides How to Train Algorithm )
+`Internal` configuration variables of the model | `External` configuration variables of the model.
+Estimated or learned from data | Cannot be estimated from data ( Guides how to train algorithm )
 
 Data Ware House | Data Lake
 :--- | :---
 Structured + Pre-processed | Unstructured + Semi Structured + Structured + Raw
-Organized before Storing | Organized before using
-Business Professionals, Analyst, BI and Visualizations | **Data Scientists**, **Analytics** and **AI**
+Organized before storing | Organized before using
+Business professionals, Analyst, BI and Visualizations | **Data Scientists**, **Analytics** and **AI**
 
 | DBMS | RDBMS |
 | :--- | :---  |
-| Store Data in the form of **File** | Store Data in the form of **Tables** |
-| **Hierarchical** arrangement of Data | **Rows** and **Columns** ( **Tables** ) |
-| Manage **Data** in Computer | Maintain **Relationships** of **Table** in a **Database** |
+| Store data in the form of **file** | Store data in the form of **tables** |
+| **Hierarchical** arrangement of data | **Rows** and **columns** ( **Tables** ) |
+| Manage **data** in computer | Maintain **relationships** of **table** in a **database** |
 
 | Classification | Clustering |
 | :--- | :---  |
-| Need **Prior** Knowledge of Data | **No Prior** Knowledge of Data |
-| Classify New Sample into known **Classes** | Suggest Groups based on **Patterns** in Data |
-| **Decision Tree** | **K Means** |
-| **Labelled** Samples | **Unlabelled** Samples |
+| Need **prior** knowledge of data | **No prior** knowledge of data |
+| Classify new sample into known **classes** | Suggest groups based on **patterns** in data |
+| **Decision tree** | **K Means** |
+| **Labelled** samples | **Unlabelled** samples |
 
 LDA | PCA
 :--- | :---
@@ -99,36 +99,36 @@ Supervised | Unsupervised
 K Means | K Nearest Neighbor
 :--- | :---
 Unsupervised | Supervised
-K : Number of **Clusters** | K : Number of **Nearest** Neighbors
-Determine the Distances of Each Data Points to the **Centroid** and Assign each Point to Closest Cluster **Centroid** | **Calculate** Distance between **New** Data Point with **Nearest** K Neighbours.
+K : Number of **clusters** | K : Number of **nearest** neighbors.
+Determine the distances of each data points to the **centroid** and assign each point to closest cluster **centroid** | **Calculate** distance between **new** data point with **nearest** K neighbours.
 
 Variance | Covariance
 :--- | :---
 **Magnitude** | **Magnitude** and **Direction**
-**Data Points** from its `Mean` | Data Points **Varies** with respect to each other
+**Data points** from its `mean` | Data points **varies** with respect to each other.
 
 ### Which Algorithm Generates the Best Model ?
 
 Accuracy | Latency
 :--- | :---
-How they Handle Data of Different Size ? | How Long will it take to **Train** ?
-How will they Handle Complexity of Feature Relationships ? | How Long will it take to **Predict** ?
-How will they Handle Messy Data ( Missing Data + Outliers )
+How they handle data of different size ? | How long will it take to **train** the model ?
+How will they handle complexity of feature relationships ? | How long will it take to **predict** the dependent variables ?
+How will they handle messy data ( Missing Data + Outliers )
 
 ### Autocorrelation
-- The **Correlation** of the `Data Point` with a delayed copy of itself. 
-- Temperature of the Day **Today** vs Temperature of the Day **Yesterday** or **Tommorrow**.
+- The **correlation** of the `data point` with a delayed copy of itself. 
+- Temperature of the day **today** vs temperature of the day **yesterday** or **tommorrow**.
 
 ### Multicollinearity 
-- A Phenomenon in which at least two **Independent Variables** are **Linearly Correlated** ( One can be `Predicted` from the other )
+- A phenomenon in which at least two **independent variables** are **linearly correlated** ( One can be `predicted` from the other )
 
 ### Cross Join | Cartesian Product
-- Generate **Paired** Combination of Each **Row** of **First** Table with each **Row** of the **Second** Table
+- Generate **paired** combination of each **row** of **first** table with each **row** of the **second** table.
 
 ### Data Scientist Steps 
-1. Explore ( Exploratory Data Analysis ) and Clean ( Data Cleaning ) the Data
-2. Split Data into Train + Validate + Test Sets
-3. Train with an Initial Model and Evaluate 
-4. Tune Hyperparameters + Cross Validations 
-5. Evaluate on Validation Set  
-6. Evaluate on Test Set
+1. Explore ( EDA ) and clean ( Data Cleaning ) the data.
+2. Split data into train + validate + test sets.
+3. Train with an initial model and evaluate.
+4. Tune hyperparameters + cross validations ( Assurance of accuracy ) 
+5. Evaluate on validation set ( Performance )  
+6. Evaluate on test set ( Prediction )
