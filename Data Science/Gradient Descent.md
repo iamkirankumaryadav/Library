@@ -5,7 +5,7 @@
 - Start by defining the initial parameter's values. 
 - Gradient descent uses calculus to iteratively adjust the values so they `minimize` the given cost function ( `loss` )
 - A `gradient` measures how much the output of a function changes after little change in inputs.
-- A `gradient` simply measures the change in all weights ( `slope` ) with regard to the change in error.
+- A `gradient` simply measures the change in weights ( `slope` ) with regard to the change in error.
 - Higher the gradient, steeper the slope and faster a model can learn, once the slope is `0`, model stops learning. 
 
 ### Importance of Learning Rate
