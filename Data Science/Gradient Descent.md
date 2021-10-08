@@ -6,18 +6,17 @@
 - Gradient descent uses calculus to iteratively adjust the values so they `minimize` the given cost function ( `loss` )
 - A `gradient` measures how much the output of a function changes after little change in inputs.
 - A `gradient` simply measures the change in all weights ( `slope` ) with regard to the change in error.
-- The higher the gradient, the steeper the slope and the faster a model can learn.
-- Once the slope is `0`, the model stops learning. 
+- Higher the gradient, steeper the slope and faster a model can learn, once the slope is `0`, model stops learning. 
 
 ### Importance of Learning Rate
 
-- The size of steps taken into the direction of the local minimum are determined by the learning rate.
-- It represents how `fast` or `slow` we will move towards the global minimum.
+- `Size` of steps taken into the direction of the local minimum are determined by the `learning rate`
+- It represents how `fast` or `slow` we will move towards the `global minimum`
 - Learning rate should be set to an appropriate value, neither too low nor too high. 
-- If the steps are too big, it will overshoot or bounce back and forth between convex function.
+- If the steps are too big, it will `overshoot` or `bounce` back and forth between convex function.
 - If the steps are very small, gradient descent will take time to reach the local minimum.
-- Flow of gradient descent can be tracked by plotting the number of iterations on the x axis and the value of the cost function on the y axis.
+- Flow can be tracked by plotting the `# iterations` on the x axis and the value of the cost function on the y axis.
 - This helps you see the value of your cost function after each iteration of gradient descent.
 - It provides a way to easily spot how appropriate your learning rate is performing.
 - If gradient descent is working properly, the cost function should decrease after every iteration.
-- When gradient descent can’t decrease the cost-function anymore and remains more or less on the same level, it has converged.
+- Once the cost-function stops decreasing anymore and remains on the same level, it has converged.
