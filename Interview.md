@@ -35,12 +35,12 @@
 
 ### Data Pipeline ( Where and how the data are collected, transformed and loaded ) 
 - A set of **actions** that **extract data** from various **sources**, Transform it into proper format and load for processing.
-- An automated process 
-- 1. Select columns from database
-- 2. Merge columns 
-- 3. Subset rows ( Sample ) 
-- 4. Substitute NA with mean or medians ( Impute )
-- 5. Load them in other database.
+- An automated process :
+1. Select columns from database
+2. Merge columns 
+3. Subset rows ( Sample ) 
+4. Substitute NA with mean or medians ( Impute )
+5. Load them in other database.
 - First time the process is complicated but if you do it right you will have to do it just once.
 - To have Automation you need to Think, Plan and Write Down in Simple Language, keep it Reproducible. ( Not only for you also for others. )
 
