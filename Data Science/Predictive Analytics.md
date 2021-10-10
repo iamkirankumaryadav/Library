@@ -1,10 +1,23 @@
 # Predictive Analytics
 
+`CISP - DM` : Cross Industry Standard Process for Data Mining.
+- Widely used method for planning the data science projects.
+
+## Stages 
+
 ### 1. **Business Understanding** 
-- Understand the **Problem** you are trying to **Solve**.
+- Understand the **problem** you are trying to **solve**.
+- Define your goal.
+
+`e.g.` 
+
+- What will be the number of sales of a product in the next quarter ?
+- What is the average number of days a used car stays on the market in bangalore.
 
 ### 2. **Data Understanding** 
-- **Learn** and **Communicate** from Available Data and **Data Types**, Get Familiar with Data.
+- **Learn** and **communicate** from available data and **data Types**, get familiar with data.
+- Understand the types of data, in order to process it for predictions.
+- Collect the right `quality` and `quantity` of data.
 
 ### 3. **Data Preparation** : 
 - **Prepare** the Data for the Model so that it can Train the Model well. 
