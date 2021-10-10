@@ -20,17 +20,19 @@
 - Collect the right `quality` and `quantity` of data.
 
 ### 3. **Data Preparation** : 
-- **Prepare** the Data for the Model so that it can Train the Model well. 
-- Handle **Missing** Values
-- Handle **Outliers**
-- Encode **Categorical Data**
-- Apply **Normalization** or **Standardization** 
+- **Prepare** the data for the model so that it can `train` the model with better accuracy. 
+- Handle **missing** values.
+- Handle **outliers**.
+- Encode **categorical data**.
+- Apply **normalization** or **standardization**. 
 
 ### 5. **Data Modeling** 
-- **Split** the Data into **Train**, **Validate** and **Test** Set, Train the Model and Make **Predictions**. ( Iterative )
+- **Split** the data into **train**, **validate** and **test** set, 
+- Train the model and make **predictions**. ( Iterative )
 
 ### 6. **Data Evaluation** 
-- **Test** the Model Performance, **Improve** Model Performance by Tuning **Hyperparamters**. ( Iterative )
+- **Validate** the model performance, **improve** model performance by tuning **hyperparamters**. ( Iterative )
+- Data modeling and evaluation are the important stages for assurance that model is accurate.
 
 ### 7. **Deployment** 
-- After Finding **Successful Model**.
+- After finding the **successful model**.
