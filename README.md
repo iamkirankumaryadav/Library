@@ -128,6 +128,7 @@
 - [Lillian Pierson](https://www.linkedin.com/learning/instructors/lillian-pierson-p-e) ( `Python` for Data Science )
 - [Sahil Malik](https://www.linkedin.com/learning/instructors/sahil-malik) ( `Azure` Machine Learning )
 - [Ben Sullins](https://www.linkedin.com/learning/instructors/ben-sullins) ( `Python` )
+- [Keith McCormick](https://www.linkedin.com/learning/instructors/keith-mccormick) ( `Predictive Analytics` )
 
 ### Medium
 
