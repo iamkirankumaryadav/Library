@@ -2,10 +2,11 @@
 
 # Logistic Regression
 
-- **Classification** Algorithm | Especially `Binary` Classification | Assign Observations to a `Discrete` Set of Classes.
-- Predict the `Probability Distribution` of Class which lies within Range `0` and `1`.
-- Transforms Output using `Sigmoid` Function to Return a `Probability Distribution` Value ( Mapped to 2 or more `Discrete` Classes )
-- Explain Relationship between One Dependent **Binary** Variable and One or more **Nominal**, **Ordinal**, **Interval** or **Ratio** Independent Variable.
+- `Model` used for `classification`
+- Especially `binary` classification | Assign observations to a `discrete` set of classes.
+- Predict the `probability distribution` of class which lies within Range `0` and `1`.
+- Transforms output using `Sigmoid` function to return a `probability distribution` value ( Mapped to 2 `discrete` classes )
+- Explain relationship between one dependent **binary** variable and one or more **nominal** or **ordinal** independent variable.
 
 ### Logistic Function  | Sigmoid ( S Shaped Curve ) Function
 - Accepts any `Real` Value and Map it into a Value between `0` and `1`
