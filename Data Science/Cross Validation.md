@@ -2,7 +2,7 @@
 
 # Cross Validation
 
-- `Resampling technique` used to evaluate ml algorithm on a limited dataset.
+- `Resampling technique` used to evaluate machine learning algorithm on a limited dataset.
 - Once model is trained, we just can't assume that it is going to perform well on the **new unseen data**.
 - We cant be sure that the model will give the desired `accuracy` and `variance`
 - We need some kind of `assurance` for the `accuracy` of the `predictions` that our model will give. 
