@@ -3,7 +3,7 @@
 # Gradient Descent
 
 - An `optimization` algorithm used while training a model.
-- Tweaks its `parameters` iteratively to minimize a given function to its local minimum.
+- Tweaks its `parameters` iteratively to minimize a given cost function ( `loss` ) to its local minimum.
 - Start by defining the initial parameter's values. 
 - Gradient descent uses calculus to iteratively adjust the values so they `minimize` the given cost function ( `loss` )
 - A `gradient` measures how much the output of a function changes after little change in inputs.
