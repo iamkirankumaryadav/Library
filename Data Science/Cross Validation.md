@@ -57,10 +57,10 @@
 - The process of choosing the optimal set of parameters is known as `hyperparameter tuning`
 - Different combination of hyperparameters is used to improve the `performance metric`
 
-- `Grid Search` cross-validation is a technique to select the best of the machine learning model. 
-- Parameterized by a grid of hyperparameters.
-- Grid Search CV tries all combinations of parameters grid for a model. 
-- Returns with the best set of parameters having the best performance score.
+- `Grid Search` cross validation is a technique to select the best of the machine learning model. 
+- Parameterized by a grid of `hyperparameters`
+- `Grid Search` cross validation tries all combinations of parameters `grid` for a model. 
+- Returns with the best set of parameters having the `best performance` score.
 
 `Random Grid Search` cross validation : The algorithm will randomly choose the combination of parameters. 
 
