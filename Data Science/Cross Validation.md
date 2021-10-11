@@ -52,7 +52,7 @@
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
 
-# Grid Search
+### Grid Search
 - To train a robust machine learning model, one must select the correct machine learning algorithm with the correct combination of `hyperparameters`
 - The process of choosing the optimal set of parameters is known as `hyperparameter tuning`
 - Different combination of hyperparameters is used to improve the `performance metric`
