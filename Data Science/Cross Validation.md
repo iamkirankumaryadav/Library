@@ -2,6 +2,7 @@
 
 # Cross Validation
 
+- `Resampling technique` used to evaluate ml algorithm on a limited dataset.
 - Once model is trained, we just can't assume that it is going to perform well on the **new unseen data**.
 - We cant be sure that the model will give the desired `accuracy` and `variance`
 - We need some kind of `assurance` for the `accuracy` of the `predictions` that our model will give. 
@@ -50,5 +51,17 @@
 - Approach is **exhaustive**, need to **train** and **validate** the model for all **possible data points**.
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
+
+# Grid Search
+- To train a robust machine learning model, one must select the correct machine learning algorithm with the correct combination of `hyperparameters`
+- The process of choosing the optimal set of parameters is known as `hyperparameter tuning`
+- Different combination of hyperparameters is used to improve the `performance metric`
+
+- `Grid Search` cross-validation is a technique to select the best of the machine learning model. 
+- Parameterized by a grid of hyperparameters.
+- Grid Search CV tries all combinations of parameters grid for a model. 
+- Returns with the best set of parameters having the best performance score.
+
+`Random Grid Search` cross validation : The algorithm will randomly choose the combination of parameters. 
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
