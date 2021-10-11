@@ -2,7 +2,7 @@
 
 # Cross Validation
 
-- `Resampling technique` used to evaluate machine learning algorithm on a limited dataset.
+- `Resampling technique` used to evaluate model performance on a limited dataset.
 - Once model is trained, we just can't assume that it is going to perform well on the **new unseen data**.
 - We cant be sure that the model will give the desired `accuracy` and `variance`
 - We need some kind of `assurance` for the `accuracy` of the `predictions` that our model will give. 
@@ -53,11 +53,11 @@
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
 
 ### Grid Search
-- One must select the correct machine learning algorithm with the correct combination of `hyperparameters` to train model.
+- One must select the correct algorithm with the correct combination of `hyperparameters` to train model.
 - The process of choosing the optimal set of parameters is known as `hyperparameter tuning`
 - Different combination of hyperparameters is used to improve the `performance metric`
 
-- `Grid Search` cross validation is a technique to select the best of the machine learning model. 
+- `Grid Search` cross validation is a technique to select the best model. 
 - Parameterized by a grid of `hyperparameters`
 - `Grid Search` cross validation tries all combinations of parameters `grid` for a model. 
 - Returns with the best set of parameters having the `best performance` score.
