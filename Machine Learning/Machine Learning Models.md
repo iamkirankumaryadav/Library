@@ -280,22 +280,22 @@ Handle **Non Linear Data** |
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
-- `SVM` can be used for both **Regression** and **Classification** ( but better used for Classification )
-- Finds an optimal **Line** or **Hyperplane** that separates the 2 **Distinct** classes with Maximum **Margin** in **N Dimensional Space**.
-- **Hyperplanes** are **Decision Boundaries** that help to `Classify` the data points.
-- Data points are **Support Vectors**.
-- `SVM` can be used for **Linear** and **Non Linear** Data.
-- SVM uses **Kernel Trick** for **Non Linear** Data which creates a **Hyperplane** in **N Dimensional Space** for linear seperation.
-- Works better even if data set has lot of **Outliers** ( Because SVM focus only on **Support Vectors** closest to the Line  )
-- Should be used if data set has lot of Independent **Features**. 
-- Take long time to **Train** and **Predict** if the number of **Observations** are very large.
-- Kernel Functions : Linear | Radial Basis Function ( RBF ) | Polynomial | Exponential.
+- `SVM` can be used for both **regression** and **classification** ( but better used for classification )
+- Finds an optimal **line** or **hyperplane** that separates the 2 **distinct** classes with maximum **margin** in **N dimensional space**.
+- **Hyperplanes** are **decision boundaries** that help to `classify` the data points.
+- Data points are **support vectors**.
+- `SVM` can be used for **linear** and **non linear** data.
+- SVM uses **kernel trick** for **non linear** data which creates a **hyperplane** in **n dimensional space** for linear seperation.
+- Works better even if data set has lot of **outliers** ( Because SVM focus only on **support vectors** closest to the line  )
+- Should be used if data set has lot of independent **features**. 
+- Take long time to **train** and **predict** if the number of **observations** are very large.
+- Kernel functions : Linear | Radial basis function ( RBF ) | Polynomial | Exponential.
 
 ### Benefits 
 
-- SVM also works well with **Unstructured** and **Semi Structured** Data ( Text, Image, Tree )
+- SVM also works well with **unstructured** and **semi structured** data ( Text, Image, Tree )
 - **Generalize** well ( Works well on new unseen data )
-- Risk of **Overfitting** is less.
+- Risk of **overfitting** is less.
 
 ### Disadvantage
 
