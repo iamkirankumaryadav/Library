@@ -111,7 +111,7 @@
 - `Model` is the system that makes **predictions** or **classification** on new unseen data.
 - `Goal` of machine learning is to build a model that performs well on new data.
 - **Parameters** are factors which are considered by the model to make **predictions** or **classification**.
-- **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) and **Assurance** that the model is giving desired expected results. 
+- **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
 
 ### Steps of Machine Learning
 1. Gathering Data
