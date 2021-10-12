@@ -5,7 +5,7 @@
 - **Class** labels should be `balanced` otherwise it predicts a **biased output**.
 
 ### A. Stratified Sampling
-- Create a sample containing `equal` proportion of each `class labels` to train the model ( 50 Red, 50 Blue and 50 Green )
+- Sample containing `equal` proportion of each `class labels` to train the model ( 50 Red, 50 Blue and 50 Green )
 
 ### 1. Up | Over Sampling Minority Class | Sampling with Replacement 
 
