@@ -65,8 +65,7 @@ How many **features** to take into account to **Detect Outliers** ?
 - `IQR` = `Q3` - `Q1`
 - Data value **<** `Q1` - `1.5` * `IQR`
 - Data value **>** `Q3` + `1.5` * `IQR`
-
-> **Outlier** is represented by dot ( **o** ) in **boxplot**  
+`Outlier` is represented by dot `o` in **boxplot**  
 
 <table>
   <tr>
