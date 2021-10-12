@@ -183,7 +183,7 @@
 
 <h3 name='linreg'>1. Linear Regression</h3>  
 
-[Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/02.Linear%20Regression.ipynb
+- [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/02.Linear%20Regression.ipynb)
 
 ![Equation of Line](Image/EquationLine.png)
 
