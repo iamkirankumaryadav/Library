@@ -30,7 +30,7 @@
 
 ### D. Use algorithms that supports imbalanced data set ( Ensembled methods )
 
-Random forest classifier : Parameter `class_weights` ( We can specify a higher weight for the **minority** class )
+`Random forest` : Parameter `class_weights` ( We can specify a higher weight for the **minority** class )
 
 ### E. Collect more data for minority class.
 
