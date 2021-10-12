@@ -183,13 +183,15 @@
 
 <h3 name='linreg'>1. Linear Regression</h3>  
 
-- [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/02.Linear%20Regression.ipynb)
+[Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/02.Linear%20Regression.ipynb)
 
 ![Equation of Line](Image/EquationLine.png)
 
 <h1 name='class' align=center>Classification</h1>
 
 <h3 name='logreg'>2. Logistic Regression ( <a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md'>More</a> )</h3>
+
+[Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/04.Logistic%20Regression.ipynb)
 
 - Model used for **classification**.
 - Used for tasks like classifying flower species and image recognition.
@@ -205,6 +207,8 @@
 
 ### Logistic Regression for Multiclass Classification
 
+[Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/05.Logistic%20Regression%20for%20Multiclass%20Classification.ipynb)
+
 - Split the task into multiple binary classification dataset.
 - **Fit** a binary classification ( Logistic Regression ) model on each.
 - One vs Rest (`OvR`) or One vs All (`OvA`) is a technique that extends binary classification to **multiclass**.
@@ -215,6 +219,8 @@
 - Model that predicts the **higest** class probability is the predicted class.
   
 <h3 name='tree'>3. Decision Tree</h3>
+
+[Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/06.Decision%20Tree.ipynb)
 
 - A very interpretable machine learning algorithm.
 - **Root** Node : Decisions | Conditions | Outcomes.  
@@ -261,6 +267,8 @@ Handle **Non Linear Data** |
 - Early stop ( Limit the **Max Depth** of the tree )
 
 <h3 name='forest'>4. Random Forests ( Ensemble Learning Technique | Bagging )</h3>
+
+[Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/09.Random%20Forest.ipynb)
 
 - **Merge** a collection of `Parallel` arranged **Independent Decision Trees** to get more **Accurate** and **Stable** Prediction.
 - Multiple **Decision Trees** ( Weak Learners ) trained `Parallel` and **Individually** | **Independently**. 
@@ -353,6 +361,8 @@ All follow same process in **Regression** and **Classification** the only differ
 
 <h3 name='kmean'>1. K Mean Clustering</h3>
 
+[Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/10.K%20Mean%20Clustering.ipynb)
+
 - Cluster data points with similar characteristics in one cluster.
 - We choose **K** number of clusters.
 - Select **K** random data points as `centroid`
@@ -406,6 +416,8 @@ B. Divisive
 ### Techniques of Dimensionality Reduction
 
 <h3 name='pca'>PCA ( Principal Component Analysis ) ( Unsupervised )</h3> 
+
+[Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/11.PCA.ipynb)
 
 - A **dimensionality reduction** method ( Reduce the **dimensions** of large dataset )
 - **Transforming** a large dataset ( More Features ) into smaller dataset ( Without lossing **information** )
