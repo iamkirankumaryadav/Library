@@ -405,13 +405,16 @@ B. Divisive
 
 <h3 name='pca'>PCA ( Principal Component Analysis ) ( Unsupervised )</h3> 
 
-- A **Dimensionality Reduction** Method ( Reduce the **Dimensions** of Large Data Sets )
-- **Transforming** a Large Data Set ( More Features ) into Smaller Data Set ( Without Lossing **Accuracy** )
-- Small Data Sets are **Easy** to **Explore** and **Visualize** and make Analyzing much **Easier** and **Faster** for **ML Algorithms** 
-- **Principal Components** are New Variables that are constructed as **Linear Combinations**
-- Combinations are done such a way that New Variables are **Uncorrelated** 
-- Most of Information within the Initial Variables is **Compressed** into **First Components**  
-- PCA tries to Put **Maximum Possible Information** in **First Component** and then Maximum remaining Information in the Corresponding **Components** 
+- A **dimensionality reduction** method ( Reduce the **dimensions** of large dataset )
+- **Transforming** a large dataset ( More Features ) into smaller dataset ( Without lossing **information** )
+- Small data sets are **easy** to **explore** and **visualize**.
+- **Analyzing** and **training** is also much **easier** and **faster**.
+- **Principal components** are new variables that are constructed as **linear combinations**.
+- One use of PCA is especially **data visualization**. 
+- Most of the informations within the initial variables are **compressed** into **first components**.  
+- PCA tries to put **maximum possible information** in **first component**. 
+- And then maximum remaining information in the corresponding **components**.
+- `PCA` is effected by scale, so scaling of features before applying `PCA` is important.
 
 <h3 name='lda'>LDA ( Linear Discriminant Analysis ) ( Supervised )</h3>
 
