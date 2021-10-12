@@ -206,10 +206,10 @@
 - Split the task into multiple binary classification dataset.
 - **Fit** a binary classification ( Logistic Regression ) model on each.
 - One vs Rest (`OvR`) or One vs All (`OvA`) is a technique that extends binary classification to **multiclass**.
-- Digit `0` vs Digit `1`, `2` and `3`.
-- Digit `1` vs Digit `0`, `2` and `3`.
-- Digit `2` vs Digit `0`, `1` and `3`.
-- Digit `3` vs Digit `0`, `1` and `1`.
+- Digit `0` vs Digit `1`, `2` and `3`
+- Digit `1` vs Digit `0`, `2` and `3`
+- Digit `2` vs Digit `0`, `1` and `3`
+- Digit `3` vs Digit `0`, `1` and `1`
   
 <h3 name='tree'>3. Decision Tree</h3>
 
