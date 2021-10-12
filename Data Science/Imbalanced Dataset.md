@@ -23,7 +23,7 @@
 ### B. Change Evaluation Metrics for Better Performance
 - Choosing right evaluation `metrics` is important.
 - `F1 Score` : Number between `0` and `1` ( Harmonic mean of `recall` and `precision` )
-- `F1 Score` is a **harmonic mean** of `Recall` and `Precision` ( Keep balance between `Recall` and `Precision` for **Classifier** )
+- `F1 Score` is a **harmonic mean** of `Recall` and `Precision` ( Keep balance between `Recall` and `Precision` )
 
 ### C. Use Cross Validation 
 - Use `Stratified K Fold Cross Validation` with equal class labels to train the model.
