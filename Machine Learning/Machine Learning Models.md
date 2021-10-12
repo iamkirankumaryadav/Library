@@ -123,6 +123,15 @@
 9. Hyperparameter Tuning
 10. Prediction
 
+### Scikit Learn
+
+1. Scikit learn is a great library for creating machine learning model from data.
+2. Before you `fit` a model using scikit learn, you data has to be in a recognizable format.
+3. Scikit learn works well with `numeric` data that is stored in numpy arrays.
+4. It can also convert data from objects like pandas `dataframes` and numpy `arrays`
+5. `Feature matrix` is a `2D` grid of data where `rows` represents `samples` and `columns` represents `features`     
+6. `Target ector` is usually `1D` vector `column`
+
 <h1 name='sup' align=center>Supervised Learning ( Labeled Data )</h1>
 
 <table align=center>
