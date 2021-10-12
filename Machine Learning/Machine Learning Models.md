@@ -102,15 +102,14 @@
   </tr>    
 </table>
 
-> Features | Independent Variables | Dimensions | Attributes | Inputs | Predictors | Estimators
-
-> Target | Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value
-
-> Model is the system that makes **Predictions** or **Classification**
-
-> **Parameters** are factors which are considered by the model to make **Predictions** or **Classification**
-
-> **Parameters** are tuned to gain **Accuracy** with least [**Error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) and **Assurance** that the model is giving desired expected results. 
+- Features | Independent Variables | Dimensions | Attributes | Inputs | Predictors | Estimators
+- Target | Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value
+- `Feature` :  A **measurable** property.
+- `Target` : What we want to make **prediction** for.
+- `Model` learns a relationship between a `feature matrix` and a `target vector`
+- `Model` is the system that makes **predictions** or **classification**.
+- **Parameters** are factors which are considered by the model to make **predictions** or **classification**.
+- **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) and **Assurance** that the model is giving desired expected results. 
 
 ### Steps of Machine Learning
 1. Gathering Data
