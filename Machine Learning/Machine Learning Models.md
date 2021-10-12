@@ -214,7 +214,10 @@
   
 <h3 name='tree'>3. Decision Tree</h3>
 
-- **Root** Node | Nodes ( Decisions | Conditions | Outcomes ) | Edges | Branches ( Splits of Trees ) | Leaf Node ( Terminal | Label | Class )
+- A very interpretable machine learning algorithm.
+- **Root** Node : Decisions | Conditions | Outcomes.  
+- Edges : Branches | Splits of Trees.
+- Leaf Node : Terminal | Label | Class.
 - We select the feature as **Node** that **Splits** the data very well.
 - Attribute with **High Information Gain** or **Low Entropy** is selected as **Best Attribute** to split.
 - Used especially for **Binary** classification and **Multiclass** classification and even used for **Regression**.
