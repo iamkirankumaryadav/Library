@@ -189,9 +189,17 @@
 
 <h3 name='logreg'>2. Logistic Regression ( <a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md'>More</a> )</h3>
 
-- One or More Independent Features is used to **Classify** Categorical Labels 
-- Dependent ( Output ) should be **Categorical** ( 0 or 1 )
-- Probability of Finite Number of Outcomes | Occurence.
+- Model used for **classification**.
+- Used for tasks like classifying flower species and image recognition.
+- One or more independent features is used to **classify** categorical target labels. 
+- Dependent ( Output ) should be **categorical** ( 0 or 1 )
+- Probability of finite number of outcomes or occurence.
+
+### Advantages of Logistic Regression
+
+- Model **training** and **predictions** are relatively fast.
+- No tuning is usually required.
+- Performs well with small number of of observations or samples.
  
 <h3 name='tree'>3. Decision Tree</h3>
 
