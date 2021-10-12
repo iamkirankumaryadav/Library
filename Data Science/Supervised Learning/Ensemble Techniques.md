@@ -67,6 +67,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - **Test sample** is passed to each **model** for the **output**, **Final prediction** is based on **voting**.
 - `Regression` :  `Mean` is calculated.
 - `Classification` : `Majority` voted class label.
+- Using many trees protects individual decision trees from `overfitting`
 
 ### 1. Random Forest 
 
