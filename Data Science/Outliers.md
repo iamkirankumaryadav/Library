@@ -6,25 +6,21 @@
 
 ### Outliers
 - **Data point** that differs significantly from other **observations** in the dataset.
-- `Outliers` in a dataset can `skew` the data and lead to make false decisions based on **faulty** data.
+- `Outlier` affects the distribution of data. 
+- `Outliers` brings `skewness` in the data and lead to false decision making.
 
 ### Cause of Outliers 
 
-> Human Error ( Data Entry ) 
+- Human Error ( Data Entry ) 
+- Measurement ( Instrumental ) 
+- Experimental ( Data Extraction ) 
+- Natural ( Special unique case )
 
-> Measurement ( Instrumental ) 
+How many **features** to take into account to **Detect Outliers** ?
 
-> Experimental ( Data Extraction ) 
-
-> Natural Case ( Special Unique Case )
-
-How many **Features** to take into account to **Detect Outliers** ?
-
-- **Univariate** | **Multivariate**
-
-> **Data visualization** is a most important part that plays the role of communicating with data and visualize the distribution and `outlier`
-
-> **Boxplot**, **Scatter Plot** and **Histograms** are better plots to find **outliers** in the data set.
+- **Univariate** ( Only one feature ) | **Multivariate** ( More than one feature )
+- **Data visualization** helps to visualize the distribution of data and also the presence of `outlier` in data.
+- **Boxplot**, **scatter plot** and **histograms** are better plots to find **outliers** in the data set.
 
 ### Methods for Outlier Detection
 
@@ -33,22 +29,22 @@ How many **Features** to take into account to **Detect Outliers** ?
 ![Standard Deviation](Image/Std.png)
 
 - How many `standard deviations` a data point is away from it's **sample's mean**.
-- **z** = ( x - **mean** ) / **standard deviation**
+- **z** = ( x - **mean** ) / **standard deviation** ( Z score normalization )
 - Data points after **3 standard deviations** ( `mean` +- `3` * `std` ) are considered as `outliers`
 
-> **Solution** : Apply transformation of data : Scaling ( Bring scales at same level )
+`Solution` : Apply transformation of data : Scaling ( Bring scales at same level )
 
-<h3 name="dbscan"> ( DBSCAN ) | Density Based Spatial Clustering of Applications with Noise</h3>
+<h3 name="dbscan"> ( DBSCAN ) | Density based spatial clustering of applications with noise</h3>
 
 - `Clustering` methods are useful tools that helps us to `visualize` distribution of data and `outliers`
 - Relationships between **features** can be represented via `clustering`
-- **Density based clustering algorithm**, it is focused on finding **neighbors** by **density**.
-- `Outlier` lies in no cluster region, it is seperate from every other data point.
+- It focus on finding **neighbors** by **density**.
+- `Outlier` lies in no cluster region, it is seperate from every other data point cluster regions.
 
-### How to Deal with Outliers ?
+### How to deal with outliers ?
 
-1. Setup a `filter` and `trim` data set.
-2. Remove the `outlier` if it is very Small, Change the value of `outlier` or replace it with something meaningful.
+1. Setup a `filter` and `trim` extreme low or data data points in the dataset.
+2. Remove the `outlier` if it is very small, change the value of `outlier` or replace it with something meaningful.
 3. **Inter Quartile** Range ( `IQR` ) and Extreme value analysis ( `Z Score` )
 5. `Rescale` | `Standardize` | `Normalize` ( Bring to same scale )
 6. Apply `ensemble` learning techniques ( `Bagging` and `Boosting` )
@@ -57,13 +53,13 @@ How many **Features** to take into account to **Detect Outliers** ?
 
 >  Divide the Data into `4` Equal Quarters ( `Quartiles` ) 
 
-1. Minimum : **Smallest** value in a dataset.
+1. Minimum : **Lowest** daat point value in a dataset.
 2. 1<sup>st</sup> **Quartile** ( **Q1** ) | 25<sup>th</sup> **Percentile** : `25%` of data values are smaller and 75% are larger.
 3. 2<sup>nd</sup> **Quartile** ( **Q2** ) | 50<sup>th</sup> **Percentile** : **Median** | `50%` of data values are smaller and 50% are larger the median.
 4. 3<sup>rd</sup> **Quartile** ( **Q3** ) | 75<sup>th</sup> **Percentile** : `75%` of data values are smaller and 25% are larger.
-5. Maximum : **Largest** Value in a dataset.
+5. Maximum : **Highest** data point value in a dataset.
 
-> **Five Number Summary** can be visually represented using **Boxplot**.
+`Five Number Summary` can be visually represented using **boxplot**.
 - Horizontal lines on both ends of boxplots are `whiskers`.
 - `Box` is called **Interquartile Range** ( `IQR` )
 - `IQR` = `Q3` - `Q1`
