@@ -4,10 +4,10 @@
 
 - **Class** labels should be `balanced` otherwise it predicts a **biased output**.
 
-### 1. Stratified sampling
-- Sample containing `equal` proportion of each `class labels` to train the model ( 50 Red, 50 Blue and 50 Green )
+`Stratified sampling` : Sample containing `equal` proportion of each `class labels` to train the model.  
+- e.g. 50 Red, 50 Blue and 50 Green
 
-### 2. Up | Over sampling minority class | Sampling with replacement 
+### 1. Up | Over sampling minority class | Sampling with replacement 
 
 ### ( SMOTE : Synthetic minority oversampling technique )
 
@@ -15,22 +15,22 @@
 - Resample minority class with `replacement`, setting number of samples to match with `majority` class.
 - Combine the `up sampled` data with orignal `majority` class data ( dataframe )
 
-### 3. Down | Under sampling majority class | Sampling without replacement 
+### 2. Down | Under sampling majority class | Sampling without replacement 
 - Randomly **drop** majority class observations ( Resampling **without** replacement )
 - Resample majority class `without` replacement, setting number of samples to match with `minority` class.
 - Combine the `down sampled` data with orignal `minority` class data ( daatframe )
 
-### 4. Choose right evaluation metric
+### 3. Choose right evaluation metric
 - `F1 Score` : Number between `0` and `1` ( Harmonic mean of `recall` and `precision` )
 - `F1 Score` is a **harmonic mean** of `recall` and `precision` ( Keep balance between `recall` and `precision` )
 
-### 5. Use cross validation 
+### 4. Use cross validation 
 - Use `stratified k fold cross validation` with equally distributed class labels to train the model.
 
-### 6. Use algorithms that supports imbalanced data set ( Ensembled methods )
+### 5. Use algorithms that supports imbalanced data set ( Ensembled methods )
 
 `Random forest` : Parameter `class_weights` ( We can specify a higher weight for the **minority** class )
 
-### 7. Collect more data for minority class.
+### 6. Collect more data for minority class.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
