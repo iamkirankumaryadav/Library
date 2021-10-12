@@ -337,29 +337,29 @@ All follow same process in **Regression** and **Classification** the only differ
   </tr>
 </table>
 
-> Find **Patterns** and **Relationships** between **Independent** Features and **Dependent** Feature ( **Labels** )
-
-> Extract Important Features and Explore the Data Set in Detail.
-
+- Find `patterns` and `relationships` between **feature matrix**.
+- Extract important features and explore the dataset in detail.
+- Unsupervised algorithms don't make **predictions** from the data.
+ 
  <h1 name='cluster' align=center>Clustering</h1>
 
-> Group the Data Set into **Groups** | **Segments** | **Clusters** According to **Similarity**.
-
-> Customer Segmentation | Fraud Detection | Document Classification
+- Find some underlying `pattern` and `structure` in data.
+- Groups the data set into **segments** or **clusters** based on **similarity**.
+- Customer Segmentation | Fraud Detection | Document Classification
 
 ### Clustering Techniques
 
 <h3 name='kmean'>1. K Mean Clustering</h3>
 
-- Cluster Data Points with Similar Characteristics in one Cluster
-- We Choose **K** number of Clusters
-- Select **K** Random Data Points as Centroid
-- Data Points nearest to its Corresponding Centroid belongs to that Cluster
-- Again the Centroid is Calculated
-- The Data Points are Updated based on New Centroid
-- **Iterative** Process | Stops when there is no further Classification.
-- Different Starting Points ( Random Centroid Selected ) Create Different Clusters 
-- **Elbow** Method : Sum of Squared Distance get smaller as the Number of Clusters Increases | Used to Find **Optimal** Number of Clusters
+- Cluster data points with similar characteristics in one cluster.
+- We choose **K** number of clusters.
+- Select **K** random data points as `centroid`
+- Data points nearest to its corresponding `centroid` belongs to that **cluster**.
+- Again the `centroid` is calculated, the data points are updated based on new `centroid`
+- **Iterative** Process | Stops when there is no further classification.
+- Different starting points ( Random centroid selected ) Create different clusters. 
+- **Elbow** Method : Sum of squared distance get smaller as the number of clusters increases.  
+- `Elbow` method helps to find **optimal** number of clusters.
 
 <h3 name='hc'>2. Hierarchical Clustering</h3>
 
