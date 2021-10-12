@@ -107,7 +107,8 @@
 - `Feature` :  A **measurable** property.
 - `Target` : What we want to make **prediction** for.
 - `Model` learns a relationship between a `feature matrix` and a `target vector`
-- `Model` is the system that makes **predictions** or **classification**.
+- `Model` is the system that makes **predictions** or **classification** on new unseen data.
+- 
 - **Parameters** are factors which are considered by the model to make **predictions** or **classification**.
 - **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) and **Assurance** that the model is giving desired expected results. 
 
@@ -131,8 +132,8 @@
     <th><h3>Classification</h3></th>
   </tr>
   <tr>
-    <th>Predicts a Numerical Variable</th>
-    <th>Predicts a Categorical Variable</th>
+    <th>Predicts a numerical variable</th>
+    <th>Predicts a categorical variable</th>
   </tr>
 </table>
 
