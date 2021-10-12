@@ -14,7 +14,7 @@
 
 ### Logistic Regression
 - Classify the `target` variables into 2 classes.
-- If the `target` variable has more than 2 classes then create **dummy** variables. ( 1 or 0 )
+- If the `target` variable has more than 2 classes then use multiclass one vs rest `OvR` or one vs all `OvA`
 - Combine **sparse** categories ( Category labels with very less observations )
 
 ### 1. Label Encoding
