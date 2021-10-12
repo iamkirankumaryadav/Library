@@ -133,7 +133,7 @@
 3. Scikit learn works well with `numeric` data that is stored in numpy arrays.
 4. It can also convert data from objects like pandas `dataframes` and numpy `arrays`
 5. `Feature matrix` is a `2D` grid of data where `rows` represents `samples` and `columns` represents `features`     
-6. `Target ector` is usually `1D` vector `column`
+6. `Target vector` is usually `1D` vector `column`
 
 <h1 name='sup' align=center>Supervised Learning ( Labeled Data )</h1>
 
