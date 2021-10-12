@@ -58,6 +58,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ![Ensemble Bagging](Image/EnsembleBagging.svg)
 
+- Multiple **decision trees** come together to make a combined prediction.
 - Dataset is divided into **subsets** | **samples** and passed to multiple **base** learners in `parallel`
 - Sample is passed as `row sampling` with `replacement` ( This process is called as `bootstrap` )
 - Each **learning model** is trained **independently** on its particular **sample** of data.
