@@ -282,8 +282,7 @@ Handle **Non Linear Data** |
 
 - `SVM` can be used for both **regression** and **classification** ( but better used for classification )
 - Finds an optimal **line** or **hyperplane** that separates the 2 **distinct** classes with maximum **margin** in **N dimensional space**.
-- **Hyperplanes** are **decision boundaries** that help to `classify` the data points.
-- Data points are **support vectors**.
+- **Hyperplanes** are **decision boundaries** that help to `classify` the data points. Data points are **support vectors**.
 - `SVM` can be used for **linear** and **non linear** data.
 - SVM uses **kernel trick** for **non linear** data which creates a **hyperplane** in **n dimensional space** for linear seperation.
 - Works better even if data set has lot of **outliers** ( Because SVM focus only on **support vectors** closest to the line  )
