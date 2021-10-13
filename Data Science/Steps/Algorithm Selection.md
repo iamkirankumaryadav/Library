@@ -36,7 +36,7 @@ Bagging | Boosting
 Reduce chance of `Overfitting` | Improve the `prediction` and `classification` of model
 Trains large number of `individiual` learners in `parallel` | Trains a large number of `weak` learners in `sequence`
 Uses `complex base models` and tries to `simplify` their predictions | Uses `simple base models` and tries to `improve`
-each `tree` is `random` subset of features ( **feature selection** ) and observations ( **resmapling** ) | Each tree in the `sequence` tries to `correct` the prediction errors of the previous tree 
+Each `tree` is `random` subset of features ( **feature selection** ) and observations ( **resmapling** ) | Each tree in the `sequence` tries to `correct` the prediction errors of the previous tree 
 Don't have many complicated parameters to tune | More complicated to tune
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
