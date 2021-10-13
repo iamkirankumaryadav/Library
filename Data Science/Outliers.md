@@ -51,7 +51,7 @@ How many **features** to take into account to **Detect Outliers** ?
 
 <h3 name="summary"> Five Number Summary</h3>
 
->  Divide the Data into `4` Equal Quarters ( `Quartiles` ) 
+Divide the Data into `4` Equal Quarters ( `Quartiles` ) 
 
 1. Minimum : **Lowest** daat point value in a dataset.
 2. 1<sup>st</sup> **Quartile** ( **Q1** ) | 25<sup>th</sup> **Percentile** : `25%` of data values are smaller and 75% are larger.
