@@ -46,7 +46,8 @@
 
 ### B0 | c : Intercept 
 
-- Bias | Constant | The place where **regression line** intersects the Y axis ( Value of Y when value of X and value of **coefficients** = 0 )
+- Bias | Constant | The place where **regression line** intersects the Y axis. 
+- Value of Y when value of X and value of **coefficients** = 0
 
 ### R<sup>2</sup> : Coefficient of Determination | Goodness of Fit
 
