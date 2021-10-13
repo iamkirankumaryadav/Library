@@ -43,7 +43,7 @@ How many **features** to take into account to **Detect Outliers** ?
 
 ### How to deal with outliers ?
 
-1. Setup a `filter` and `trim` extreme low or data data points in the dataset.
+1. Setup a `filter` and `trim` extreme low or extreme high data data points in the dataset.
 2. Remove the `outlier` if it is very small, change the value of `outlier` or replace it with something meaningful.
 3. **Inter Quartile** Range ( `IQR` ) and Extreme value analysis ( `Z Score` )
 5. `Rescale` | `Standardize` | `Normalize` ( Bring to same scale )
