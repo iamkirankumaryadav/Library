@@ -32,6 +32,7 @@ Feature **selection** and feature **elimination** | Feature **shrinkage**
 In ensemble techniques **base models** are **decision trees**
 
 Bagging | Boosting
+--- | ---
 Reduce chance of `Overfitting` | Improve the `prediction` and `classification` of model
 Trains large number of `individiual` learners in `parallel` | Trains a large number of `weak` learners in `sequence`
 Uses `complex base models` and tries to `simplify` their predictions | Uses `simple base models` and tries to `improve`
