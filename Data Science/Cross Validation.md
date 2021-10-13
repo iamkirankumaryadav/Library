@@ -28,8 +28,8 @@
 - One of **K** subset is used as **validation set**.
 - **K - 1** subsets are used as **training set**.
 - **Mean** error of **K** trials is calculated.
-- Reduces **Bias** and **Variance** ( Generally generates low bias model )
-- Sampling `without` Replacement ( Every observation from the data set is used for training and testing )
+- Reduces **bias** and **variance** ( Generally generates low bias model )
+- Sampling `without` replacement ( Every observation from the data set is used for training and testing )
 - Best approach if we have limited input data.
 - Very high value of **K** will lead to **Overfitting**.
 - Very low value of **K** will work similar to Train Test Split.
@@ -56,7 +56,6 @@
 - One must select the correct algorithm with the correct combination of `hyperparameters` to train model.
 - The process of choosing the optimal set of parameters is known as `hyperparameter tuning`
 - Different combination of hyperparameters is used to improve the `performance metric`
-
 - `Grid Search` cross validation is a technique to select the best model. 
 - Parameterized by a grid of `hyperparameters`
 - `Grid Search` cross validation tries all combinations of parameters `grid` for a model. 
