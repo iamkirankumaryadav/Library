@@ -83,6 +83,7 @@ cm = metrics.confusion(y_test, model.predict(X_test))
 
 - Split the task into multiple binary classification datasets.
 - Fit the binary classification model on each.
+- Set parameter `multi_class`='ovr'
 
 ### One vs rest | One vs all
 
