@@ -8,16 +8,16 @@ Toolkit for Analyzing, Filtering, Manipulating, Aggregating, Merging, Pivoting a
 
 - `Feature` or `Column` or `Attribute` or `Series` or `Field`
 - `Row` or `Index` or `Record` or `Tuple` or `Observation` or `Sample`
-- One Entire `Column` is known as `Field` ( Homogeneous Data )
-- One Entire `Row` is called as `Record` ( Heterogeneous Data )
-- **Panel** Data ( Tabular Data in **Financial** Terms )
-- Data Analysis Tool ( **Explore**, **Analyze** and **Manipulate** Data )
+- One entire `column` is known as `field` ( Homogeneous data )
+- One entire `row` is called as `record` ( Heterogeneous data )
+- **Panel** data ( Tabular data in **financial** terms )
+- Data analysis tool ( **Explore**, **analyze** and **manipulate** data )
 - Data **Import** ( Read ) and **Export** ( Write ) ( `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json` etc )
 - Data **Preview** ( `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()` etc )
 - Data **Cleaning** ( `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()` etc )
 - Data **Transforming** ( `apply()`, `explode()` etc )
 - Data **Aggregation** ( `concat()`, `merge()`, `groupby()`, `pivot_table()` etc )
-- Pandas is used in Economics, Finance, Statistics and Analytics.
+- Pandas is used in economics, finance, statistics and analytics.
 - **Data Types** : **Series** ( **1** Dimensional ) and **DataFrames** ( **2** Dimensional )
 - Panel : **3** Dimensional ( major_axis and minor_axis )
 - Load - Manipulate - Prepare - Model - Analyze.
