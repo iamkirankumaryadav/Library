@@ -17,7 +17,7 @@
 - `Slope` : Steepness of the line | Angular motion.
 - `Intercept` : Position of line | Upward & downward with least **residual**. 
 - **Sensitive** to `overfitting`.  
-- But can be prevented using **Dimensionality Reduction**, **Regularization**, **Standardization** and **Cross Validation**. 
+- But can be prevented using **dimensionality reduction**, **regularization**, **standardization** and **cross validation**. 
 
 ![Regression Line](Image/RegressionLine.png)
 
