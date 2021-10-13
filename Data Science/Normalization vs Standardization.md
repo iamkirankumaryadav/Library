@@ -37,16 +37,17 @@ Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability
 ### Transformation
 
 - **Split** the data set into `Train` set and `Test` set.
-- Application of the same **Calculation** to each and every data point in `Train` set and `Test` set ( No need to scale **Dependent Variable** )
-- `fit()` : **Learn Parameters** and **Scales** of data which will be needed to **Transform** the data | Applied on `Train` set.
-- `transform()` : **Transforms** data on the basis of what it **Learns** from **fit( )** | Applied on `Test` set.
-- `fit_transform()` : First Learn ( **Fit** ) and then apply in place ( **Transform** )
-- Applies same **Transformation** to both sets of data ( `Train` Set and `Test` Set ) keeps **Consistency** and prevents **Data Leakage**.
-- **Data Leakage** :  **Sharing information** of **Test Set** with **Train Set**.
+- Apply same **calculation** to each and every data point in `train` set and `test` set.  
+- No need to scale **dependent variable** 
+- `fit()` : Learn **parameters** and **scales** of data which will be needed to **transform** the data | Applied on `train` set.
+- `transform()` : **Transforms** data on the basis of what it **learns** from **fit( )** | Applied on `test` set.
+- `fit_transform()` : First learn ( **Fit** ) and then apply in place ( **Transform** ) | Applied only on `train` set
+- Applies same **transformation** to both sets of data ( `Train` set and `test` set ) keeps **Consistency**
+- Prevents **Data Leakage** : **Sharing information** of **train set** with **test set**.
 
 ### How to Prevent Data Leakage 
-- Never Apply `fit_transform()` on Test Set.
-- Remove `Duplicate` Data ( `drop_duplicates()` )
-- Time Series Data : Train set should contain past data and Test set should contain new data based on date ( `Sort` Dataset by Date ) 
+- Never apply `fit_transform()` on test set.
+- Remove `duplicate` data ( `drop_duplicates()` )
+- Time series data : Train set should contain past data and test set should contain new data based on date ( `Sort` dataset by date ) 
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
