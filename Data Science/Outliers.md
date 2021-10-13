@@ -67,7 +67,7 @@ Divide the Data into `4` Equal Quarters ( `Quartiles` )
 - Data value **>** `Q3` + `1.5` * `IQR`
 - `Outlier` is represented by dot `o` in **boxplot**  
 
-<h3 name="algorithm">4. Algorithms</h3>
+<h3 name="algo">4. Algorithms</h3>
 
 <table>
   <tr>
