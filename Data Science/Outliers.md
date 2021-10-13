@@ -24,7 +24,7 @@ How many **features** to take into account to **Detect Outliers** ?
 
 ### Methods for Outlier Detection
 
-<h3 name="zscore"> Z Score or Extreme Value Analysis</h3>
+<h3 name="zscore">1. Z Score or Extreme Value Analysis</h3>
 
 ![Standard Deviation](Image/Std.png)
 
@@ -34,7 +34,7 @@ How many **features** to take into account to **Detect Outliers** ?
 
 `Solution` : Apply transformation of data : Scaling ( Bring scales at same level )
 
-<h3 name="dbscan"> ( DBSCAN ) | Density based spatial clustering of applications with noise</h3>
+<h3 name="dbscan">2. DBSCAN | Density based spatial clustering of applications with noise</h3>
 
 - `Clustering` methods are useful tools that helps us to `visualize` distribution of data and `outliers`
 - Relationships between **features** can be represented via `clustering`
@@ -49,7 +49,7 @@ How many **features** to take into account to **Detect Outliers** ?
 5. `Rescale` | `Standardize` | `Normalize` ( Bring to same scale )
 6. Apply `ensemble` learning techniques ( `Bagging` and `Boosting` )
 
-<h3 name="summary"> Five Number Summary</h3>
+<h3 name="summary">3. Five Number Summary</h3>
 
 Divide the Data into `4` Equal Quarters ( `Quartiles` ) 
 
@@ -66,6 +66,8 @@ Divide the Data into `4` Equal Quarters ( `Quartiles` )
 - Data value **<** `Q1` - `1.5` * `IQR`
 - Data value **>** `Q3` + `1.5` * `IQR`
 - `Outlier` is represented by dot `o` in **boxplot**  
+
+<h3 name="algorithm">4. Algorithms</h3>
 
 <table>
   <tr>
