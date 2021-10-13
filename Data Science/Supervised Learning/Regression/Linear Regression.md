@@ -89,7 +89,7 @@
 - Completely eliminates the features.
 
 ### Ridge Regression
-- Good for data with **noise** and **multicollinearity**.
+- Good for data with **noise**.
 - Try to learn the complicated model.
 
 ### Stepwise Regression
