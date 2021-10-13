@@ -25,21 +25,21 @@ Toolkit for Analyzing, Filtering, Manipulating, Aggregating, Merging, Pivoting a
 
 ### Series ( 1 Dimensional Array )
 
-- Hold Data Value of **Homogeneous** Type ( All Data Values should be of **same** Data type )
-- Data Axis labels are called the **Index**.
+- Hold data value of **homogeneous** data type ( All data values should be of **same** data type )
+- Data axis labels are called the **index**.
 
 ### Data Frames ( 2 Dimensional Array ) 
 
-- Data is Aligned in Tabular form with **Rows** and **Columns**.
+- Data is aligned in tabular form with **rows** and **columns**.
 
-### Important Features of Pandas Library
-- Row Column Selection and Slicing
-- Filter Data 
-- Data Alignment
-- Merge, Join and Concat
-- Group By and Aggregate
-- Reshaping and Sorting
-- Time Series
+### Important features of Pandas library
+- Row column selection and slicing
+- Filter data 
+- Data alignment
+- Merge, join and concat
+- Group by and aggregate
+- Reshaping and sorting
+- Time series analysis
 
 ### Time Period
 - Time Stamp ( Days, Years, Quarter or Month)
