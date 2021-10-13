@@ -88,10 +88,10 @@ cm = metrics.confusion(y_test, model.predict(X_test))
 
 Extends binary class classification to multi class classification.
 
-digit `0` vs digit `1`, `2` and `3`
-digit `1` vs digit `0`, `2` and `3`
-digit `2` vs digit `0`, `1` and `3`
-digit `3` vs digit `0`, `1` and `2`
+- digit `0` vs digit `1`, `2` and `3`
+- digit `1` vs digit `0`, `2` and `3`
+- digit `2` vs digit `0`, `1` and `3`
+- digit `3` vs digit `0`, `1` and `2`
 
 The model that predicts the highest class probability is the predicted class.
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
