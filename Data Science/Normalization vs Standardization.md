@@ -27,10 +27,12 @@ Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability
 **Dimensionality Reduction** Transformers ( **PCA**, **LDA** and **t-SNE** ) | **Ensemble Learning Techniques** : Bagged Trees and Boosted Trees
 
 ### Benefits 
-1. Helps **Gradient Descent** to `Converge` ( Achieve Global Minima ) more quickly.
-2. Helps the model to learn appropriate `Weights` for each **Feature** ( Model pay more attention to the features having `High` **Range** )
-3. Otherwise, Feature with `High` **Range** is given more **Importance** as compared to feature with `Low` **Range** even if it is better Feature.
-4. `Reduce` the effect of the features with **Larger Scale** which plays a **Dominating Role** in the model and the effect of **Outlier**.
+1. Helps **gradient descent** to `converge` ( Achieve global minima ) more quickly.
+2. Helps the model to learn appropriate `weights` for each **feature**.
+3. Model pay more attention to the features having `high` **range** even if the feature is irrelevant.
+4. Feature with `low` **range** are ignored even if it is better feature for model training.
+5. **Larger scale** features plays a **dominating role** in the model. 
+6. Reduces the **effect** of `outlier`
 
 ### Transformation
 
