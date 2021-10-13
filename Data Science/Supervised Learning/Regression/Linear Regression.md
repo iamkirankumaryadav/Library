@@ -12,10 +12,12 @@
 ### Linear Regression 
 
 - **Target** variable is **continuous numeric** values.
-- The **best fit line** which gives **least** number of **errors**  
+- The **best fit line** which gives **least** number of **errors**.  
 - Error | Residual : Difference between **actual** and **predicted** value for given **data points**.
-- Find the **slope** ( Steepness of the line | Angular motion ) and **intercept** ( Position of line | Upward & downward ) with least **residual**. 
-- **Sensitive** to `overfitting` ( But can be prevented using **Dimensionality Reduction**, **Regularization** and **Cross Validation** )
+- `Slope` : Steepness of the line | Angular motion.
+- `Intercept` : Position of line | Upward & downward with least **residual**. 
+- **Sensitive** to `overfitting`.  
+- But can be prevented using **Dimensionality Reduction**, **Regularization**, **Standardization** and **Cross Validation**. 
 
 ![Regression Line](Image/RegressionLine.png)
 
