@@ -129,6 +129,7 @@
 - [Sahil Malik](https://www.linkedin.com/learning/instructors/sahil-malik) ( `Azure` Machine Learning )
 - [Ben Sullins](https://www.linkedin.com/learning/instructors/ben-sullins) ( `Python` )
 - [Keith McCormick](https://www.linkedin.com/learning/instructors/keith-mccormick) ( `Predictive Analytics` )
+- [Dennis Taylor](https://www.linkedin.com/learning/instructors/dennis-taylor) ( `Spreadsheet` )
 
 ### Medium
 
