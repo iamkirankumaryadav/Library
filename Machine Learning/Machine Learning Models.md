@@ -102,9 +102,9 @@
   </tr>    
 </table>
 
-- Features | Independent Variables | Dimensions | Attributes | Inputs | Predictors | Estimators.
-- Target | Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value.
-- Rows | Observations | Records | Samples.
+- Features | Variables | Dimensions | Attributes | Inputs | Predictors | Estimators | Independent Variable | Characteristics.
+- Target | Label | Class | Output | Predicted Value | Estimated Value | Dependent Variable.
+- Rows | Observations | Records | Samples | Instance.
 - `Feature` :  A **measurable** property.
 - `Target` : What we want to make **prediction** for.
 - `Model` learns a relationship between a `feature matrix` and a `target vector`
