@@ -34,7 +34,7 @@ Analytical Skills | Qualities and Characteristics associated with **Solving** Pr
 ---
 
 <table>
- <tr colspan=2><th>Data Science</th></tr>
+ <tr><th colspan=2>Data Science</th></tr>
  <tr><th>Term</th><th>Definition</th></tr>
  <tr><td>Machine Learning</td><td>Primarily focus on predictions based on known properties of data.</td></tr>
  <tr><td>Data Mining</td><td>Focus on discovery of past unknown properties of data.</td></tr>
@@ -42,7 +42,7 @@ Analytical Skills | Qualities and Characteristics associated with **Solving** Pr
 </table>
 
 <table>
- <tr colspan=2><th>Business Analytics</th></tr>
+ <tr><th colspan=2>Business Analytics</th></tr>
  <tr><th>Term</th><th>Definition</th></tr>
  <tr><td>Predictive Analytics</td><td>Analyze past trends in order to predict the liklihood of future outcomes.</td></tr>
  <tr><td>Descriptive Analytics</td><td>Track and analyze existing data in order to identify new patterns.</td></tr>
