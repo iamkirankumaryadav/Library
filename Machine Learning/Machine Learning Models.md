@@ -159,7 +159,7 @@
 - `Impute` [missing data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) 
 - `Resolve` [outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) 
 - `Encode` [categorical data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) 
-- `Handle` [imbalanced data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md))
+- `Handle` [imbalanced data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md)
 - `Sampling` :  Selecting a subset of data for training.
 - Random sampling without replacement ( no repetition )
 - Random sampling with replacement ( repetition : selecting same again ) : Bootstraping
