@@ -33,6 +33,22 @@ Analytical Skills | Qualities and Characteristics associated with **Solving** Pr
 
 ---
 
+<table>
+ <tr colspan=2><th>Data Science</th></tr>
+ <tr><th>Term</th><th>Definition</th></tr>
+ <tr><td>Machine Learning</td><td>Primarily focus on predictions based on known properties of data.</td></tr>
+ <tr><td>Data Mining</td><td>Focus on discovery of past unknown properties of data.</td></tr>
+ <tr><td>Optimization</td><td>Focus on improving the predictions.</td></tr>
+</table>
+
+<table>
+ <tr colspan=2><th>Business Analytics</th></tr>
+ <tr><th>Term</th><th>Definition</th></tr>
+ <tr><td>Predictive Analytics</td><td>Analyze past trends in order to predict the liklihood of future outcomes.</td></tr>
+ <tr><td>Descriptive Analytics</td><td>Track and analyze existing data in order to identify new patterns.</td></tr>
+ <tr><td>Prescriptive Analytics</td><td>Recommend actions based on prior performance.</td></tr>
+</table>
+
 [AI](https://www.reaktor.com/work/artificial-intelligence/) | [Elements of AI](https://www.elementsofai.com/) | [Building AI](https://buildingai.elementsofai.com/) | [Real World Applications](https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/IBM%20Machine%20Learning.md) | [Data Science Elite](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Primer%20Steps.md)
 
 AI > ML > DL
