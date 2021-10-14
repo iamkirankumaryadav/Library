@@ -114,20 +114,57 @@
 - **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
 
 ### Steps of Machine Learning
-#### 1. Data Collection : Identify and acquire data.
-- Supervised learning : Labelled historical data to train and evaluate the model. 
-- Unsupervised learning : Unlabelled data to discover the patterns.
+#### 1. Data Collection 
+
+- **Identify** and **acquire** data.
+- Supervised learning : **Labelled** historical data to train and evaluate the model. 
+- Unsupervised learning : **Unlabelled** data to discover the patterns.
 - Reinforcement learning : The data which helps agent to learn which actions yield the most rewards.
-#### 2. Data Exploration : EDA ( Exploratory Data Analysis | **EDA** | Describing | Visualizing | Understanding data ) 
-#### 3. Preparing Data ( Data Preprocessing | [Missing Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [Categorical Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [Imbalance Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md))
-#### 4. Clean Data ( Data Cleaning )
-#### 5. Scaling | Normalization | Standardization.
-#### 6. Feature Engineering ( Important Features to Train Model | [Transformation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) )
-#### 7. Choosing a Correct Model
-#### 8. Training Data
-#### 9. Testing Data and Evaluation ( [**Metrics**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md) | [Overfitting](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Overfitting.md) )
-#### 10. Hyperparameter Tuning
-#### 11. Prediction
+- The data used for training should be **accurate** and **relevant** in order to get the accurate **predictions**.
+- **Quantity** of data should be appropriate, less data will be insufficient to train data with all informations.
+- Large **observations** of data with **balanced class** distribution will be perfect for training
+- Large number of **features** will create confusion at the time of training.
+- **Variability** in the data also plays an important role for training.
+- The data set should contain a good mixture of observations which explains the variability very well.
+- The data should have good balance for bias and variance otherwise predictions will be similar to what we feed.
+
+#### 2. Data Exploration : 
+
+- Explore and understand data.
+- Exploratory Data Analysis. 
+- `Describing` and `Visualizing` data.
+- Number of rows and columns, distribution of dataset, statistical informations and data types.
+- **Identify** duplicates, missing, inconsistency and outliers in data.
+
+#### 3. Data Preparation 
+
+- Cleaning and preparing data for training. 
+- Resolving data quality issues such as **missing** data, **noisy** data, **outlier** data and class **imbalance**.
+- Transforming the structure of data by **scaling**, **standardization** and **normalization**.
+- Reducing the number of rows and columns ( Feature engineering )
+- Handle [missing data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) 
+- Resolve [outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) 
+- Encode [categorical data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) 
+- Handle  [imbalanced data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md))
+
+#### 4. Data modeling 
+
+- Choosing and applying correct machine learning algorithm to work well with data.
+
+#### 5. Evaluation
+
+- Identify how well the created model is performing on the new unknown dataset.
+- Goal is to predict a label or value with least number of error.
+- `100%` perfect accuracy is not possible.
+- We apply different ways like regularization, resampling, cross validation, tuning to improve accuracy. 
+- We try to solve the overfitting and underfitting by adjusting bias and variance.
+- Calculate different [**metrics**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md) to solve [overfitting](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Overfitting.md) problems.
+- Iterative process to improve the accuracy and performance of model.
+
+#### 6. Actionable Insight
+
+- Identify what to do based on results.
+- Make decision whether to deploy or not to production.
 
 ### Scikit Learn
 
