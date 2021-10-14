@@ -102,10 +102,11 @@
   </tr>    
 </table>
 
-- Features | Variables | Dimensions | Attributes | Inputs | Predictors | Estimators | Independent Variable | Characteristics.
-- Target | Label | Class | Output | Predicted Value | Estimated Value | Dependent Variable.
+- Columns - Feature Matrix ( Variables ) and Target Vector ( Labels )
+- Features - Independent Variable | Variables | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
+- Target - Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
 - Rows | Observations | Records | Samples | Instance.
-- `Feature` :  A **measurable** property.
+- `Feature` :  A **measurable** property, can be categorical ( discrete ) or numeric ( real or int number )
 - `Target` : What we want to make **prediction** for.
 - `Model` learns a relationship between a `feature matrix` and a `target vector`
 - `Model` is the system that makes **predictions** or **classification** on new unseen data.
@@ -133,8 +134,16 @@
 - Explore and understand data.
 - Exploratory Data Analysis. 
 - `Describing` and `Visualizing` data.
-- Number of rows and columns, distribution of dataset, statistical informations and data types.
+- Calculating central tendency and dispersion ( spread and skewness ) of dataset or simply visualizing to get the idea.
+- A picture is worth a thousand words.
+- Number of rows and columns, distribution of dataset, statistical informations, data types and feature importance.
 - **Identify** duplicates, missing, inconsistency and outliers in data.
+- High dimensionality means higher computational complexity.
+- Reducing dimensions without loosing information also helps to reduce complexity.
+- Sparsity and Density ( Data with 20% missing data is known to be 20% sparse and 80% dense ) 
+- Visualization help to do comparisons using boxplots, multiple bar charts, and multiple line charts.
+- Visualization helps to find **patterns**, **relationships** and **correlations** using line chart.
+- Visualization helps to get the `distribution` of data using histogram.
 
 #### 3. Data Preparation 
 
