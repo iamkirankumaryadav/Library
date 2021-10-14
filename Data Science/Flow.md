@@ -10,7 +10,7 @@
 ![Traditional programming](Image/AI.png)
 
 <table>
-  <tr><td colspan=2><img href="Image/Traditional.png"></td></tr>
+  <tr><td><img href="Image/Traditional.png"></td></tr>
   <tr><td colspan=2><img href="Image/MachineLearning.png"></td></tr>
   <tr><td colspan=2><img href="Image/TrainTest.png"></td></tr>
   <tr><td colspan=2><img href="Image/Learning.png"></td></tr>
