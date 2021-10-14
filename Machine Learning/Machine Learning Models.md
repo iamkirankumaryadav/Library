@@ -121,10 +121,10 @@
 - Unsupervised learning : **Unlabelled** data to discover the patterns.
 - Reinforcement learning : The data which helps agent to learn which actions yield the most rewards.
 - The data used for training should be **accurate** and **relevant** in order to get the accurate **predictions**.
-- **Quantity** of data should be appropriate, less data will be insufficient to train data with all informations.
+- `Quantity` of data should be appropriate, less data will be insufficient to train data with all informations.
 - Large **observations** of data with **balanced class** distribution will be perfect for training
 - Large number of **features** will create confusion at the time of training.
-- **Variability** in the data also plays an important role for training.
+- `Variability` in the data also plays an important role for training.
 - The data set should contain a good mixture of observations which explains the variability very well.
 - The data should have good balance for bias and variance otherwise predictions will be similar to what we feed.
 
