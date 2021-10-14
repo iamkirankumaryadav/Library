@@ -118,16 +118,16 @@
 - Supervised learning : Labelled historical data to train and evaluate the model. 
 - Unsupervised learning : Unlabelled data to discover the patterns.
 - Reinforcement learning : The data which helps agent to learn which actions yield the most rewards.
-2. Explore Data ( Exploratory Data Analysis | **EDA** ) 
-3. Preparing Data ( Data Preprocessing | [Missing Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [Categorical Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [Imbalance Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md))
-4. Clean Data ( Data Cleaning )
-5. Scaling | Normalization | Standardization.
-6. Feature Engineering ( Important Features to Train Model | [Transformation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) )
-7. Choosing a Correct Model
-8. Training Data
-9. Testing Data and Evaluation ( [**Metrics**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md) | [Overfitting](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Overfitting.md) )
-10. Hyperparameter Tuning
-11. Prediction
+#### 2. Explore Data ( Exploratory Data Analysis | **EDA** ) 
+#### 3. Preparing Data ( Data Preprocessing | [Missing Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [Categorical Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [Imbalance Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md))
+#### 4. Clean Data ( Data Cleaning )
+#### 5. Scaling | Normalization | Standardization.
+#### 6. Feature Engineering ( Important Features to Train Model | [Transformation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) )
+#### 7. Choosing a Correct Model
+#### 8. Training Data
+#### 9. Testing Data and Evaluation ( [**Metrics**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md) | [Overfitting](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Overfitting.md) )
+#### 10. Hyperparameter Tuning
+#### 11. Prediction
 
 ### Scikit Learn
 
