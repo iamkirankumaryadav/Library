@@ -118,7 +118,7 @@
 - Supervised learning : Labelled historical data to train and evaluate the model. 
 - Unsupervised learning : Unlabelled data to discover the patterns.
 - Reinforcement learning : The data which helps agent to learn which actions yield the most rewards.
-#### 2. Explore Data ( Exploratory Data Analysis | **EDA** ) 
+#### 2. Data Exploration : EDA ( Exploratory Data Analysis | **EDA** | Describing | Visualizing | Understanding data ) 
 #### 3. Preparing Data ( Data Preprocessing | [Missing Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Outliers.md) | [Categorical Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Categorical.md) | [Imbalance Data](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md))
 #### 4. Clean Data ( Data Cleaning )
 #### 5. Scaling | Normalization | Standardization.
