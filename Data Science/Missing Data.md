@@ -23,6 +23,7 @@
 - `Impute` the `numerical` missing data with `mean` or `median` ( **Univariate** imputation ) 
 - `Impute` the `categorical` missing data with `mode` or `most frequent` (  **Univariate** imputation ) 
 - `SimpleImputer()` is used to `fill` the missing value ( **Univariate imputation** ) 
+- Parameter : `strategy` = `'mean'` or `'median'` or `'most_frequent'` or `'constant'` ( `fill_value` ) 
 - `fit()` : Learn the values ( `Mean`, `Median`, `Mode` ) to be imputed and `transform()` : `Fill` the missing values.
 - `KNNImputer()` : **Fill** missing data with the help of **K Nearest Neighbors**.
 - Prevent from data loss but can cause **data leakage**.
