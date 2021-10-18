@@ -1,10 +1,10 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
+# Error in Linear Regression
+
 - Each machine learning algorithm has its own way of being **evaluated**.
 - `Regression` : Error is calculated by finding **sum of squared difference** between `actual` and `predicted` values.
 - `Classification` Error is determined by getting the **proportion** of values `missclassified` by the model.
-
-# Error in Linear Regression
 
 ### Manage Noise
 - Created **Model** will have a lot of `Error` because of `Noise`
