@@ -20,10 +20,9 @@
 
 <h3 name="impute"> 2. Impute ( fillna( ) )</h3>
 
-- `Impute` the `numerical` missing data with `mean` or `median` ( **Univariate** imputation ) 
-- `Impute` the `categorical` missing data with `mode` or `most frequent` (  **Univariate** imputation ) 
+- `Impute` the `numerical` missing data with `mean` or `median` ( `strategy` = `'mean'` or `'median'` ) 
+- `Impute` the `categorical` missing data with `most frequent` (  `strategy` = `'most_frequent'`) 
 - `SimpleImputer()` is used to `fill` the missing value ( **Univariate imputation** ) 
-- Parameter : `strategy` = `'mean'` or `'median'` or `'most_frequent'` or `'constant'` ( `fill_value` ) 
 - `fit()` : Learn the values ( `Mean`, `Median`, `Mode` ) to be imputed and `transform()` : `Fill` the missing values.
 - `KNNImputer()` : **Fill** missing data with the help of **K Nearest Neighbors**.
 - Prevent from data loss but can cause **data leakage**.
