@@ -90,11 +90,11 @@
 ### Range 
 
 - `Range` = `Max` - `Min`
-- Distance between the largest and smallest data point in a data set.
+- Distance between the `highest` and `lowest` data point in a data set.
 
 ### Interquartile Range
 
-- Data set is divided in `4` equal `Quartiles` | `Quarters` ( Tells where most of the values lies )
+- Data set is divided in `4` equal `quartiles` | `quarters` ( Tells where most of the values lies )
 - `IQR` = `Q3` - `Q1` 
 - `Q0` = Min
 - `Q1` = First Quartile | 25th Percentile
