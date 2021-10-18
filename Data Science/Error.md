@@ -4,7 +4,7 @@
 
 - Each machine learning algorithm has its own way of being **evaluated**.
 - `Regression` : Error is calculated by finding **sum of squared difference** between `actual` and `predicted` values.
-- `Classification` Error is determined by getting the **proportion** of values `missclassified` by the model.
+- `Classification` : Error is determined by getting the **proportion** of values `missclassified` by the model.
 
 ### Manage Noise
 - Created **model** will have a lot of `error` because of `noise`
