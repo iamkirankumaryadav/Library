@@ -1,5 +1,9 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
+- Each machine learning algorithm has its own way of being **evaluated**.
+- For `regression` the error is calculated by finding **sum of squared difference** between `actual` and `predicted` values.
+- For `classification` the error is determined by getting the **proportion** of values `missclassified` by the model.
+
 # Error in Linear Regression
 
 ### Manage Noise
