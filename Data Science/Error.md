@@ -106,15 +106,15 @@
 ### Variance
 
 - How spread out the data points are ?
-- `Small` Variance : Data set is tightly clustered ( Data points are `Close` to each other )
-- `Large` Variance : Data set is spread apart ( Data points are `Scattered` away from each other )
+- `Small` Variance : Data set is tightly clustered ( Data points are `close` to **each other** )
+- `Large` Variance : Data set is spread apart ( Data points are `scattered` away from each other )
 
 ### Standard Deviation
 
 ![STD](Image/STD.png)
 
-- Data is **Close** or **Away** from Mean.
-- `Tall` Bell curve : Data is `Tightly` around Mean.
-- `Small` Bell curve : Data is `Uniformely` Spread.
+- Data is `close` or `away` from `mean`
+- `Tall` bell curve : Data is `tightly` around `mean`
+- `Small` bell curve : Data is `uniformely` spread.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
