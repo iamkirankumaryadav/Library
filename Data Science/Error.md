@@ -7,12 +7,12 @@
 - `Classification` Error is determined by getting the **proportion** of values `missclassified` by the model.
 
 ### Manage Noise
-- Created **Model** will have a lot of `Error` because of `Noise`
-- `Noise` is unwanted, It **Weakens** the learning process of **Model**.
+- Created **model** will have a lot of `error` because of `noise`
+- `Noise` is unwanted, it **weakens** the learning process of **model**.
 
 ### Reasons for **Noise**
-- `Large` Training Data Set. ( More Features as compared to Observations )  
-- Unobserved Attributes. 
+- `Large` training data set ( More features as compared to observations )  
+- Unobserved attributes ( Features which are not cleaned and transformed before training ) 
 - Hidden complicated patterns.
 
 ### Data Visualization helps to find Hidden Patterns.
