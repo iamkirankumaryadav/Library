@@ -33,8 +33,8 @@
 - `e` : Error
 - `SSE` = Sum ( Actual - Prediction ) <sup>2</sup>
 - `Residuals` : Sum of Squares of Errors.
-- Unexplained Variability.
-- `Variability` : Distance of Actual Value from its Mean or Predicted Value.
+- Unexplained variability.
+- `Variability` : Distance of **actual value** from its **mean** or **predicted value**.
 
 ### ESS | SSR
 
