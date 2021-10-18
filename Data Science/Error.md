@@ -42,9 +42,9 @@
 
 ![ESS|SSR](Image/SSR_ESS.jpg)
 
-- Measures How well our Line Fits the Data.
+- Measures how well our line fits the data.
 - Sum ( Prediction - Mean ) <sup>2</sup>
-- Explained Variability.
+- Explained variability.
 
 ### TSS | SST
 
@@ -52,7 +52,7 @@
 
 ![TSS|SST](Image/SST_TSS.jpg)
 
-- Measures Total Variability
+- Measures total variability
 - Explained Variability + Unexplained Variability
 - Sum ( Actual - Mean ) <sup>2</sup>
 - SST = SSR + SSE
@@ -62,14 +62,14 @@
 
 ### R Squared
 
-- Measures Goodness of Fit ( How well the model fits the data ? )
-- Explains Variability of Model ( How close the data points are to the regression line ? )
+- Measures goodness of fit ( How well the model fits the data ? )
+- Explains variability of model ( How close the data points are to the regression line ? )
 - R<sup>2</sup> = SSR / SST
 - R<sup>2</sup> = ESS / TSS
 - Explained Variability / Total Variability.
-- R<sup>2</sup> ranges between 0 and 1
-- R<sup>2</sup> = 0 means our Regression Line Explains None of the Variability of the Data
-- R<sup>2</sup> = 1 means our Model Explains the Entire Variability of the Data.
+- R<sup>2</sup> ranges between `0` and `1`
+- R<sup>2</sup> = `0` means our regression line explains none of the variability of the data.
+- R<sup>2</sup> = `1` means our model explains the entire variability of the data.
 
 ### Note
 
