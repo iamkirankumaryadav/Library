@@ -19,7 +19,7 @@
 - Check whether the trained model **generalizes** well on **new unseen** test set. 
 - **Accuracy** of **train set** : `model.score( X_train, y_train )`
 - **Accuracy** of **test set** : `model.score( X_test, y_test )`
-- If **accuracy** of **train aet** is better and **accuracy** on **test set** is worst ( There is an `Overfitting` in the model )
+- If **accuracy** of **train set** is better and **accuracy** on **test set** is worst ( There is an `Overfitting` in the model )
 
 ### How to prevent from overfitting ?
 
