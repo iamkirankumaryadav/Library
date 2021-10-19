@@ -4,7 +4,7 @@
 
 The combination of `weak` learners into one very **accurate predicting algorithm** in order to decrease **bias** and **variance**.
 
-Create multiple models and then combine them to produce **better** results ( High accuracy ) that any individual model.
+Create multiple models and then combine them to produce **better** results ( High accuracy ) than any individual model.
 
 ### Why Ensemble ?
 
