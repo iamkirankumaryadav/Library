@@ -24,7 +24,7 @@ Models are built **independently** | Models are improved version of previous bui
 Less time to train | More time to train ( Exhaustive approach )
 **Easy** to tune | **Hard** to tune
 **Least** Chance of **overfitting** | **Easy** to overfit ( Memorize the data + noise )
-Samples are drawn randomly with **replacement** | Samples are elements that are **missclassified** by **previous models**
+Samples are drawn randomly with **replacement** | Samples + Observations that are **missclassified** by **previous models**
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XGBoost
 
 ### Entrophy ( Randomness | Uncertainity )
