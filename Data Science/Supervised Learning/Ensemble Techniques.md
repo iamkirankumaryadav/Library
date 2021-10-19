@@ -10,7 +10,7 @@ Create multiple models and then combine them to produce **better** results ( Hig
 
 - `High variance` : The model is very sensitive to the new unseen data.
 - `Low accuracy` : One single model is not enough for training data with desired accuracy.
-- Features `noise` and `bias`: The model relied heavily on one of the dominating feature with high scale or magnitude.
+- Features `noise` and `bias`: The model rely heavily on one of the dominating feature with high scale or magnitude.
 - If we build an combine multiple models, the overall accuracy can be improved.
 - The combination can be implemented by aggregating the outputs of the individual models.
 - The main objective while training the models are reducing the model errors and maintaining the generalization.
