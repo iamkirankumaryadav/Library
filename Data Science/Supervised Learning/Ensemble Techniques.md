@@ -32,8 +32,9 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - Low entrophy : Better ( Simple | No Confusion | Easy to draw conclusion from data )
 - High entrophy : Hard to draw conclusion ( Creates confusion )
 
-### Information Gain ( Which feature can explain the split better )
+### Information Gain ( Which feature can explain the split better ? )
 
+- Measures `quality` of split.
 - High IG : Better ( Explains the further split in more better way )
 - IG decides which feature will become next node and will split the data in better way.
 
