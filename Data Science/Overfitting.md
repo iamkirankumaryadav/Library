@@ -14,7 +14,7 @@
 
 ### How to identify overfitting ? 
 
-### Hold Out Data | Split Data Set | Observe Accuracy ( Score )
+### Hold Out Data | Split Data Set | Train Test Split | Observe Accuracy ( Score )
 - **Split** the **data set** into `train set` and `test set`.
 - Check whether the trained model **generalizes** well on **new unseen** test set. 
 - **Accuracy** of **train set** : `model.score( X_train, y_train )`
