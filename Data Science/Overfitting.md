@@ -26,9 +26,11 @@
 ### 1. Collect more data for training.
 
 ### 2. Apply [Regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) 
-- Lasso ( `L1` ) : Sum of `absolute` of **slope** | coefficient | weight ( **Coefficient** to exactly 0 )
+
+- Slope | Coefficient | Weight | Gradient
+- Lasso ( `L1` ) : Sum of `absolute` of `slope` ( **Coefficient** to exactly 0 )
 - **Simplify** the model + **feature selection** ( Select only **important** features )
-- Ridge ( `L2` ) : Sum of `square` of **slope** | coefficient | weight ( **Penalize** certain value of **slopes** towards zero )
+- Ridge ( `L2` ) : Sum of `square` of `slope` ( **Penalize** certain value of **slopes** towards zero )
 - Able to learn **complex data patterns** | Decreases the **complexity** of model.
 
 ### 3. K Fold Cross Validation and Grid Search Cross Validation
