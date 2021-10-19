@@ -48,10 +48,10 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 
 ### Benefits of Ensemble Methods
 
-1. Used for **classification** and **regression**.
-2. Easily handles **outliers** and **missing values**.
-3. Accepts various types of inputs ( **continuous** and **ordinal** )
-4. Less likely to **overfit** and easy to **tune**.
+1. Used for `classification` and `regression`
+2. Easily handles `outliers` and `missing` values.
+3. Accepts various types of inputs ( **continuous**, **discrete** and **ordinal** )
+4. Less likely to `overfit` and easy to **tune**.
 5. Output **feature importance** ( Important features for **prediction** )
 
 ### A. Bagging (Bootstrap Aggregation)
