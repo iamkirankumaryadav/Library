@@ -39,9 +39,10 @@
 - After some point the **model's ability** to **generalize** gets weak and model starts **overfitting**.
 
 ### 4. Feature Selection
-- Select only **important** features ( Large number of features can **confuse** the model )
+
 - More observations are good for model training but more number of features confuses the model.
-- Each feature and observation should be independent of each other.
+- Select only **important** features ( Large number of features can **confuse** the model )
+- Each `feature` and `observation` should be `independent` of each other.
 - Remove **multicollinear** data ( e.g DOB and age can express each other so we can remove one of them )
 
 ### 5. Ensembling 
