@@ -39,9 +39,9 @@ Algorithms that rely on **gradient descent** ( **Regressions** ) | **Probability
 
 ### Transformation
 
-- **Split** the data set into `Train` set and `Test` set.
-- Apply same **calculation** to each and every data point in `train` set and `test` set.  
-- No need to scale **dependent variable** 
+- **Split** the data set into `train` set and `test` set.
+- Apply same **calculations** in `train` set and `test` set.  
+- No need to scale **dependent variable** | `Feature vector` 
 - `fit()` : Learn **parameters** and **scales** of data which will be needed to **transform** the data | Applied on `train` set.
 - `transform()` : **Transforms** data on the basis of what it **learns** from **fit( )** | Applied on `test` set.
 - `fit_transform()` : First learn ( **Fit** ) and then apply in place ( **Transform** ) | Applied only on `train` set
