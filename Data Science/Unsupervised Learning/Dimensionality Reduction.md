@@ -27,13 +27,13 @@ e.g ( If a public health dataset contains 96% of observations for `35 years old 
 - Remove highly correlated features ( Multicollinearity )
 - **Highly correlated** data provides **redundant** information.
 
-### Linear Discriminant Analysis ( LDA ) : Supervised
+### Linear Discriminant Analysis ( LDA ) : Supervised | Categorical
 
 - `LDA` is used especially for `categorical` data.
 - Seperate `classes` or `labels`.
 - Works better with large data set.
 
-### Principle Component Analysis ( PCA ) : Unsupervised
+### Principle Component Analysis ( PCA ) : Unsupervised | Numerical
 
 - Dimensionality reduction method ( Reduce `dimensions`, explains `variance` and minimize `correlation` )
 - **Transforming** large set of variables into small without **loss** of any information in large dataset.
