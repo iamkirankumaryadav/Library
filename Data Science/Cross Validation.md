@@ -46,7 +46,7 @@
 <h3 name='loocv'> 4. Leave One Out Cross Validation | LOOCV</h3>
 
 - K = N ( N : Number of data points in the data set )
-- Leave **one data** from the dataset for **validation** and use the remaining data samples for **training**.
+- Leave **one observation** from the dataset for **validation** and use the remaining samples for **training**.
 - Approach is **exhaustive**, need to **train** and **validate** the model for all **possible data points**.
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
