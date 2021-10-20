@@ -10,21 +10,21 @@
 
 <h3 name='data'> Data Set </h3> 
 
-- A **Collection** of **Observations** from a **Sample** or Entire **Population**
+- A **collection** of `sample` or entire `population`
 
 ### Type of Data 
-- Quantitative ( Real Numbers | Discrete and Continuous )
-- Categorical ( Group | Binary, Nominal and Ordinal )
+- `Quantitative` ( Real numeric : Discrete or continuous )
+- `Categorical` ( Binary, nominal or ordinal )
  
 ### Statistical Analysis
-- Investigating **Trends**, **Patterns**, and **Relationships** using **Quantitative** Data.
+- Investigating `trends`, `patterns`, and `relationships` using `quantitative` data.
 
 ### Descriptive Statistics
-- **Frequency** of Each Value ( Absolute, Relative and Cumulative )
-- Central tendency ( Mean, Median, Mode and Sum ) ( Histogram )
-- Variability | Dispersion ( Min, Max, Range, IQR, Standard Deviation, Variance ) ( Histogram, Boxplot )
-- Standard Deviation : The Average amount of Variability. ( Scatter Plot )
-- Variance : Squared Deviations from Mean
+- **Frequency** of each value ( Absolute, Relative and Cumulative )
+- Central tendency ( Mean, Median and Mode ) ( Histogram )
+- Variability | Dispersion ( Min, Max, Range, IQR, Standard Deviation and Variance ) ( Histogram, Boxplot )
+- Standard Deviation : The average amount of variability. ( Scatter Plot )
+- Variance : Squared deviations from mean. ( Actual - Predicted ) <sup>2</sup>
 
 ### Inferential Statistics
 - **Understand** the Population from the `Sample`.
