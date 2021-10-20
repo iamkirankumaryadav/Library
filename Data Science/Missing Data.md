@@ -28,7 +28,7 @@
 - Prevent from data loss but can cause **data leakage**.
 
 ### Data Leakage 
-- Accidently sharing data between the `train` set and `test` set.
+- Accidently sharing data from `train` set to `test` set.
 
 ### Disadvantage
 
