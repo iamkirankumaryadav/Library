@@ -6,7 +6,7 @@
 
 `Row` | `Observation` | `Tuple` | `Sample` | `Record`
 
-`Column` | `Feature` ( Data Science ) | `Field` ( Excel ) | Atrribute | Dimension
+`Column` | `Feature` ( Data Science ) | `Field` ( Excel ) | Attribute | Dimension
 
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
