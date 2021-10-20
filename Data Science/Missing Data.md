@@ -51,11 +51,11 @@
 
 <h3 name="algo"> 5. Use algorithms which works fine with missing values</h3>
 
-- **KNN** fills missing value by taking the majority of the **K Nearest** values.
-- **Random forest** works well on **non linear** and **categorical data**.
+- `KNN` fills missing value by taking the majority of the `K nearest` values.
+- `Random forest` works well on **non linear** and **categorical data**.
 - Weak learners are trained by **non missing** data and tested on data with **missing** values.
 
-### Domain Knowledge can also help us to Deal with the Missing Data.
+### Domain Knowledge can also help us to deal with the missing data.
 
 ```python
 from sklearn.linear_model import LinearRegression
