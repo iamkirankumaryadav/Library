@@ -41,6 +41,8 @@ Analytical Skills | Qualities and Characteristics associated with **Solving** Pr
  <tr><td>Optimization</td><td>Focus on improving the predictions.</td></tr>
 </table>
 
+Data Mining : Finding patterns in historical data and then use those patterns on current data to make future predictions.
+
 <table>
  <tr><th colspan=2>Business Analytics</th></tr>
  <tr><th>Term</th><th>Definition</th></tr>
