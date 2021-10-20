@@ -35,7 +35,7 @@ e.g ( If a public health dataset contains 96% of observations for `35 years old 
 
 ### Principle Component Analysis ( PCA ) : Unsupervised
 
-- Dimensionality reduction method ( Reduce `dimensions` of large data sets, explains `variance` and minimize `correlation` )
+- Dimensionality reduction method ( Reduce `dimensions`, explains `variance` and minimize `correlation` )
 - **Transforming** large set of variables into small without **loss** of any information in large dataset.
 - Reducing the number of **variables** of a dataset.
 - `PCA` is used for `Numerical` Data only.
