@@ -40,13 +40,12 @@ Algorithms that rely on **gradient descent** ( **Regressions** ) | **Probability
 ### Transformation
 
 - **Split** the data set into `train` set and `test` set.
-- Apply same **calculations** in `train` set and `test` set.  
+- Apply same **transformation** on `train` set and `test` set ( Keep consistency )
 - No need to scale **dependent variable** | `Feature vector` 
-- `fit()` : Learn **parameters** and **scales** of data which will be needed to **transform** the data | Applied on `train` set.
-- `transform()` : **Transforms** data on the basis of what it **learns** from **fit( )** | Applied on `test` set.
-- `fit_transform()` : First learn ( **Fit** ) and then apply in place ( **Transform** ) | Applied only on `train` set
-- Applies same **transformation** to both sets of data ( `Train` set and `test` set ) keeps **Consistency**
-- Prevents **Data Leakage** : **Sharing information** of **train set** with **test set**.
+- `fit()` : Learn **parameters** and **scales** of data which will be needed to **transform** the data | Apply on `train` set.
+- `transform()` : **Transforms** data on the basis of what it **learns** from **fit( )** | Apply on `test` set.
+- `fit_transform()` : First learn ( **Fit** ) and then apply in place ( **Transform** ) | Apply only on `train` set.
+- Prevents **data leakage** : **Sharing information** of **train set** with **test set**.
 
 ### How to Prevent Data Leakage 
 - Never apply `fit_transform()` on test set.
