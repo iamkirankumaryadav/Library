@@ -45,7 +45,7 @@
 <h3 name="predict"> 4. Predict Missing Value</h3>
 
 - `Fill` missing data with the help of other **features** by **predicting** ( **Multivariate** imputation ) 
-- Use the non missing data as **train** set and missing data as **test** set.
+- Use the non missing data ( rows ) as **train** set and missing data ( rows ) as **test** set.
 - `Continuous` and `Categorical` data can be used for `Prediction` and `Classification`.
 - `Interpolation` : `Predict` missing data with the range of `Date` and `Time` ( Time Series `Forecasting` ) 
 
