@@ -69,8 +69,9 @@
 
 Parameter | Hyperparameter
 :--- | :---
+Automatically learns while training | Manually set by the developer to guide the training.
+Weights and bias are the model parameters | Learning rate, depth of tree, class weights.
 `Internal` configuration variables of the model | `External` configuration variables of the model.
-Estimated or learned from data | Cannot be estimated from data ( Guides how to train algorithm )
 
 Data Ware House | Data Lake
 :--- | :---
