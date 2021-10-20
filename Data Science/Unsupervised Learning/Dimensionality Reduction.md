@@ -34,14 +34,14 @@ e.g ( If a public health dataset contains 96% of observations for `35 years old 
 
 ### Principle Component Analysis ( PCA ) : Unsupervised | Numerical
 - **Transforming** large set of variables into small without **loss** of any information in dataset.
-- Reducing the number of **variables** of a dataset.
-- `PCA` is used for `Numerical` Data only.
+- Reduce the number of **variables** of dataset.
+- Used especially for `numerical` data.
 
 ### Linear Discriminant Analysis ( LDA ) : Supervised | Categorical
-- `LDA` is used especially for `categorical` data.
 - Seperate `classes` or `labels`.
 - Works better with large data set.
-
+- Used especially for `categorical` data.
+ 
 ### Auto Encoder
 - `Unsupervised` learning method, type of Artificial Neural Network.
 - Learn and discover the **representation** and **structure** of dataset.
