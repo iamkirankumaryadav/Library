@@ -102,6 +102,8 @@
   </tr>    
 </table>
 
+Data Mining : Finding patterns in `past` data and then use those patterns on `current` data to make `future` predictions.
+
 - Columns - Feature Matrix ( Variables ) and Target Vector ( Labels )
 - Features - Independent Variable | Variables | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
 - Target - Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
