@@ -37,7 +37,7 @@
 
 - Data is divided into `K` subsets.
 - Each subset has **equal proportion** of samples of each **target class labels**.
-- Models get **equally** distributed data for **training** and **testing**.
+- Models get **equally** distributed target class labels for **training**.
 - One of **K** subset is used as **validation set**.
 - **K - 1** subsets are used as **training set**.
 - **Mean** error of **K** trials is calculated.
