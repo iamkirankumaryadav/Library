@@ -19,14 +19,15 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
 - Scaling is beneficial only if the feature set consists of **multiple** features with different range.
 
 ### Data Standardization ( Z Score Normalization )
-- Standardize features around center ( `Mean` ) | Equalize the range or data **variability**.
+- Standardize features around center ( `Mean` ) 
+- Equalize the range or data **variability**.
 - Important when we **compare** measurements that have different **units**.
 
 Where to **Use** ? | Where **not** to **Use** ?
 :--- | :---
-Algorithms that rely on **Gradient Descent** ( **Regressions** ) | **Probability** based Algorithms : **Naive Bayes**
-**Distance** based Algorithms ( **KNN**, **K Mean**, **Clusterings** and **SVM** ) | **Tree** based Algorithms : CART, Decision Trees.  
-**Dimensionality Reduction** Transformers ( **PCA**, **LDA** and **t-SNE** ) | **Ensemble Learning Techniques** : Bagged Trees and Boosted Trees
+Algorithms that rely on **gradient descent** ( **Regressions** ) | **Probability** based algorithms : **Naive Bayes**
+**Distance** based algorithms ( **KNN**, **K Mean**, **Clusterings** and **SVM** ) | **Tree** based algorithms : CART, Decision trees.  
+**Dimensionality reduction** transformers ( **PCA**, **LDA** and **t-SNE** ) | **Ensemble learning techniques** : Bagged and boosted trees
 
 ### Benefits 
 1. Helps **gradient descent** to `converge` ( Achieve global minima ) more quickly.
