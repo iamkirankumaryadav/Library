@@ -8,7 +8,7 @@
 - We need some kind of `assurance` for the `accuracy` of the `predictions` that our model will give. 
 - `Validation` : **Assurance** that your model is trained well ( **Low Bias** and **Low Variance** ) 
 - To evaluate the performance of any model, we need to test it on some new unseen data.
-- So based on the performance we can say whether our model is **Underfitting** or **Overfitting**.
+- So based on the performance we can say whether there is `underfitting` or `overfitting`
 - `Cross Validation` is one of the technique used to test the performance.
 
 <h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
