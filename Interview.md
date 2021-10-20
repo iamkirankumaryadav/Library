@@ -69,7 +69,7 @@
 
 Parameter | Hyperparameter
 :--- | :---
-Automatically learns while training | Manually set by the developer to guide the training.
+Automatically learns while training | Manually tuned by the developer to guide the training.
 Weights and bias are the model parameters | Learning rate, depth of tree, class weights.
 `Internal` configuration variables of the model | `External` configuration variables of the model.
 
