@@ -33,7 +33,7 @@ e.g ( If a public health dataset contains 96% of observations for `35 years old 
 - Minimize `correlation`
 
 ### Principle Component Analysis ( PCA ) : Unsupervised | Numerical
-- **Transforming** large set of variables into small without **loss** of any information in dataset.
+- **Transforms** large set of variables into small without **loss** of any information in dataset.
 - Reduce the number of **variables** of dataset.
 - Used especially for `numerical` data.
 
