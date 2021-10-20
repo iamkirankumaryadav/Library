@@ -2,23 +2,25 @@
 
 # Transform | Normalize | Standardize | Rescale | Scaling
 
-**Data set** contains **features** with different range of values, so we **Normalize** or **Standardize** data to bring down to same **Range** | **Scale**.
+**Data set** contains **features** with different range of values. 
+
+We `normalize` or `standardize` data to bring down to same **range** | **scale**.
 
 Data Normalization | Data Standardization ( Z Score Normalization )
 :--- | :---
 `x` ( **Normal** ) =  x - **min** ( x ) / **max** ( x ) - **min** ( x ) | `z` = x - **mean** ( x ) / **std** ( x )
-**Rescale** Feature Value between **Range** `0` to `1` | **Mean** = `0` and **Standard Deviation** = `1`
+**Rescale** feature value between **range** `0` to `1` | **Mean** = `0` and **standard deviation** = `1`
 sklearn.preprocessing.`MinMaxScaler()` | sklearn.preprocessing.`StandardScaler()`
-Use for **Neural Networks** ( ANN, CNN, RNN ) | Algorithms that rely on **Gradient Descent**, **Distance** and **Dimensions**
+Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradient descent**, **distance** and **dimensions**
 
 ### Scaling 
-- Convert **Numeric** Feature values from their `Natural` **range** ( e.g. 100 to 900 ) into a `Standard` or `Normal` **range**.
+- Convert **numeric** feature values from their `natural` **range** ( e.g. 100 to 900 ) into a `standard` or `normal` **range**.
 - A feature set with only one feature do not need Scaling.
-- Scaling is beneficial only if the feature set consists of **Multiple** features with different range.
+- Scaling is beneficial only if the feature set consists of **multiple** features with different range.
 
 ### Data Standardization ( Z Score Normalization )
-- Standardize features around center ( `Mean` ) | Equalize the range or data **Variability**.
-- Important when we **compare** measurements that have different **Units**.
+- Standardize features around center ( `Mean` ) | Equalize the range or data **variability**.
+- Important when we **compare** measurements that have different **units**.
 
 Where to **Use** ? | Where **not** to **Use** ?
 :--- | :---
