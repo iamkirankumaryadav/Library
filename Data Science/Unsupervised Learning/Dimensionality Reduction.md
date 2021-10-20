@@ -46,7 +46,7 @@ e.g ( If a public health dataset contains 96% of observations for `35 years old 
 ### Applications of Auto Encoders include:
 
 1. Anomaly detection.
-2. Removine noise from data ( Images, Audio )
+2. Removing noise from data ( Images, Audio )
 3. Image inpainting | Conservation | Restoration ( **Reconstructing** missing part of an image )
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
