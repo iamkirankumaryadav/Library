@@ -46,8 +46,8 @@
 
 - `Fill` missing data with the help of other **features** by **predicting** ( **Multivariate** imputation ) 
 - Use the non missing data ( rows ) as **train** set and missing data ( rows ) as **test** set.
-- `Continuous` and `Categorical` data can be used for `Prediction` and `Classification`.
-- `Interpolation` : `Predict` missing data with the range of `Date` and `Time` ( Time Series `Forecasting` ) 
+- `Continuous` and `categorical` data can be used for `prediction` and `classification`.
+- `Interpolation` : `Predict` missing data with the range of `date` and `time` ( Time series `forecasting` ) 
 
 <h3 name="algo"> 5. Use algorithms which works fine with missing values</h3>
 
