@@ -51,6 +51,6 @@ Algorithms that rely on **gradient descent** ( **Regressions** ) | **Probability
 ### How to Prevent Data Leakage 
 - Never apply `fit_transform()` on test set.
 - Remove `duplicate` data ( `drop_duplicates()` )
-- Time series data : Train set should contain past data and test set should contain new data based on date ( `Sort` by date ) 
+- Time series data : Train set should contain past data and test set should contain new data based on date, `Sort` by date.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
