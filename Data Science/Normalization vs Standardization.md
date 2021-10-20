@@ -26,7 +26,7 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
 Where to **Use** ? | Where **not** to **Use** ?
 :--- | :---
 Algorithms that rely on **gradient descent** ( **Regressions** ) | **Probability** based algorithms : **Naive Bayes**
-**Distance** based algorithms ( **KNN**, **K Mean**, **Clusterings** and **SVM** ) | **Tree** based algorithms : CART, Decision trees.  
+**Distance** based algorithms ( **KNN**, **K Mean** and **SVM** ) | **Tree** based algorithms : CART, Decision trees.  
 **Dimensionality reduction** transformers ( **PCA**, **LDA** and **t-SNE** ) | **Ensemble learning techniques** : Bagged and boosted trees
 
 ### Benefits 
