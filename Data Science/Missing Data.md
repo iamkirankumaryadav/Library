@@ -34,7 +34,7 @@
 
 - Changes the `distribution` of dataset ( `Mean`, `Median`, `Variance` and `Standard Deviation` )
 - Brings new `outliers`.
-- Changes the `correlation` among data ( `Features` ).
+- Changes the `correlation` among features.
 
 <h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag ( Numeric Value )</h3>
 
