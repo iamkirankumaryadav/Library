@@ -15,7 +15,7 @@
 
 <h3 name='hold'> 1. Holdout Method ( Traditional Approach | Train Test Split )</h3>
 
-- Split the data set in ( 70% - 30% ) or ( 80% - 20% ) for `Training`, `Validation` and `Testing`
+- Split the data set in ( 70% - 30% ) or ( 80% - 20% ) for `training`, `validation` and `testing`
 - Keep a part of **data set** for **validation** and use rest of the data set for training.
 - Used to **evaluate** models ability to **generalize** the new **unseen** data.
 - There is a possibility of **high bias** if we have limited data.
@@ -31,7 +31,7 @@
 - Sampling `without` replacement ( Every observation from the data set is used for training and testing )
 - Best approach if we have limited input data.
 - Very high value of **K** will lead to **Overfitting**.
-- Very low value of **K** will work similar to Train Test Split.
+- Very low value of **K** will work similar to train test split.
 
 <h3 name='skfold'> 3. Stratified K Fold Cross Validation</h3>
 
@@ -41,7 +41,7 @@
 - One of **K** subset is used as **validation set**.
 - **K - 1** subsets are used as **training set**.
 - **Mean** error of **K** trials is calculated.
-- Reduce **Bias** and **Variance** ( Try to creates a better model with best accuracy )
+- Reduce **bias** and **variance** ( Try to creates a better model with best accuracy )
 
 <h3 name='loocv'> 4. Leave One Out Cross Validation | LOOCV</h3>
 
