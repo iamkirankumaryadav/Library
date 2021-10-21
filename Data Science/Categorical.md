@@ -19,13 +19,13 @@
 
 ### 1. Label Encoding
 - Substitute bins by **mean** ( e.g. Age bins by `mean` of age group )
-- Label encoding is better for `binary` and `ordinal` categories.
+- Label encoding is better for `ordinal` categories.
 - e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Post Graduate > Bachelor )
 
 Some times use business logic to remove `redundancy` e.g. Pincode is enough instead of state and city.
 
 ### 2. Dummy Coding | One Hot Encoding
-- Transform **non numerical labels** to **numerical labels** ( **Binary** : `1` or `0` ) 
+- Transform **non numerical labels** to `binary` **numerical labels** ( `1` and `0` ) 
 - Convert a **categorical** input variable into **numeric** variable.
 - One hot encoding is better for `nominal` categories ( `Rank` do not matters )
 
