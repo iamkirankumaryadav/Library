@@ -19,7 +19,7 @@
 
 ### 1. Label Encoding
 - Substitute bins by **mean** ( e.g. Age bins by `mean` of age group )
-- Label encoding is better for `ordinal` categories.
+- Label encoding is better for `binary` and `ordinal` categories.
 - e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Post Graduate > Bachelor )
 
 Some times use business logic to remove `redundancy` e.g. Pincode is enough instead of state and city.
