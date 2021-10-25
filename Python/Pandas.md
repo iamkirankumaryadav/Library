@@ -28,9 +28,9 @@ Toolkit to `Analyze`, `Filter`, `Manipulate`, `Aggregate`, `Merge`, `Pivot` and 
 - Hold data value of **homogeneous** data type ( All data values should be of **same** data type )
 - Data axis labels are called the **index**.
 
-### Data Frames ( 2 Dimensional Array ) 
+### DataFrame ( 2 Dimensional Array ) 
 
-- Data is aligned in tabular form with **rows** and **columns**.
+- Data is aligned in tabular form with `rows` and `columns`
 
 ### Important features of Pandas library
 - Row column selection and slicing
