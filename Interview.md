@@ -34,24 +34,24 @@
 ### Model = Algorithm ( Parameters ) + Data
 
 ### Data Pipeline ( Where and how the data are collected, transformed and loaded ) 
-- A set of **actions** that **extract data** from various **sources**, transform it into proper format and load for processing.
+- A set of actions that `extract` data from various **sources**, `transform` it into proper format and `load` for processing.
 - An automated process :
-1. Select columns from database
-2. Merge columns 
-3. Subset rows ( Sample ) 
-4. Handle missing data
-5. Load them in other database.
+1. Select `columns` from database.
+2. `Merge` columns from two or more tables. 
+3. `Subset` rows ( Sample ) 
+4. Handle `missing` data.
+5. `Load` them in other database.
 - First time the process is complicated but if you do it right you will have to do it just once.
-- To have Automation you need to Think, Plan and Write Down in Simple Language, keep it Reproducible. ( Not only for you also for others. )
+- To have automation you need to think, plan and write in Simple Language, keep it reproducible. 
 
 ### Data Lake
 - A storage repository where data is stored in its natural | raw format without applying any transformation.
-- Data warehouse uses files or folders structure, Data lakes uses flat architecture.
+- Data warehouse uses files or folders structure, data lakes uses flat architecture.
 
 ### Important Disclaimer
 - We try to make out **model** more **accurate** by **tuning** and **tweaking** the **parameters**.
-- But we cannot make a **100%** accurate model.
-- **Prediction** ( Continuous ) and **Classification** models, can never be **error free**.
+- But we cannot make a `100%` accurate model.
+- `Prediction` and `classification` models, can never be **error free**.
 
 > **Y** = f ( **x** ) + **e**
 
