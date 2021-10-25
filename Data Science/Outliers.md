@@ -19,7 +19,7 @@
 How to **detect Outliers** ?
 
 - `Visualization` helps to visualize the `distribution` of data and helps to identify `outlier` in data.
-- `Boxplot`, `Scatter` and `Histogram` are better plots to identify `Outliers` in the dataset.
+- `Boxplot`, `scatter` and `histogram` are better plots to identify `outlier` in the dataset.
 
 ### Methods for Outlier Detection
 
