@@ -6,7 +6,7 @@ Toolkit to `Analyze`, `Filter`, `Manipulate`, `Aggregate`, `Merge`, `Pivot` and 
 
 ### Excel for Python. 
 
-- `Feature` or `Column` or `Attribute` or `Series` or `Field`
+- `Feature` or `Column` or `Attribute` or `Series` or `Field` or `Dimension`        
 - `Row` or `Index` or `Record` or `Tuple` or `Observation` or `Sample`
 - One entire `column` is known as `field` ( Homogeneous data )
 - One entire `row` is called as `record` ( Heterogeneous data )
