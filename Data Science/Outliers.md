@@ -28,8 +28,8 @@ How to **detect Outliers** ?
 ![Standard Deviation](Image/Std.png)
 
 - How many `standard deviations` a data point is away from it's **sample's mean**.
-- **z** = ( x - **mean** ) / **standard deviation** ( Z score normalization )
-- Data points after **3 standard deviations** ( `mean` +- `3` * `std` ) are considered as `outliers`
+- `z` = `(x - mean) / standard deviation` ( Z score normalization )
+- Data points after `3 standard deviations` ( `mean` +- `3` * `std` ) are considered as `outlier`
 
 `Solution` : Apply transformation of data : Scaling ( Bring scales at same level )
 
