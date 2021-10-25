@@ -41,7 +41,7 @@
 Operator |	Description
 :--- | :---
 `np.array([1, 2, 3])` |	1d Array
-`np.array([ ( 1, 2, 3), (4, 5, 6) ])` |	2d Array
+`np.array([(1, 2, 3), (4, 5, 6)])` |	2d Array
 `np.arange(start, stop, step)` |	Range Array
 
 ### Placeholders 
