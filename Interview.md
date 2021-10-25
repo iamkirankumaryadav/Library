@@ -2,7 +2,7 @@
 
 ---
 
-### [Python](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/1.Python.md) | [Data Types](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/2.Data%20Types.md) | [Pandas](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/Pandas.md) | [NumPy](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/NumPy.md) | [OOP](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/3.Object%20Oriented%20Programming.md) | [Git](https://github.com/KIRANKUMAR7296/Library/blob/main/Git.md) | [SQL](https://github.com/KIRANKUMAR7296/Library/blob/main/SQL/SQL%20Queries.md) | [Image](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Flow.md)
+### [Python](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/1.Python.md) | [Data Types](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/2.Data%20Types.md) | [Pandas](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/Pandas.md) | [NumPy](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/NumPy.md) | [OOP](https://github.com/KIRANKUMAR7296/Library/blob/main/Python/3.Object%20Oriented%20Programming.md) | [Git](https://github.com/KIRANKUMAR7296/Library/blob/main/Git.md) | [SQL](https://github.com/KIRANKUMAR7296/Library/blob/main/SQL/SQL%20Queries.md) | [Image](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Flow.md) | [Power BI](https://github.com/KIRANKUMAR7296/PowerBI) | [Tableau](https://github.com/KIRANKUMAR7296/Tableau)
 
 ---
 
