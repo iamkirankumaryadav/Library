@@ -2,6 +2,8 @@
 
 <h1 align="center">Machine Learning Models 🤖🚀💻</h1>
 
+`Machine learning` is a technique to implement `AI` that can learn from data by themselves without being explicitly programmed.
+
 <h3 align="center">Machine Learning Map</align></h3>
   
 <table align='center'>
@@ -101,6 +103,10 @@
     <td></td>
   </tr>    
 </table>
+
+Supervised | Unsupervised | Reinforcement
+:--- | :--- | :---
+
 
 Data Mining : Finding patterns in `past` data and then use those patterns on `current` data to make `future` predictions.
 
