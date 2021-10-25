@@ -2,7 +2,7 @@
 
 # Pandas 🐼
 
-Toolkit for Analyzing, Filtering, Manipulating, Aggregating, Merging, Pivoting and Cleaning Data.
+Toolkit to `Analyze`, `Filter`, `Manipulate`, `Aggregate`, `Merge`, `Pivot` and `Clean` the Data.
 
 ### Excel for Python. 
 
