@@ -16,11 +16,10 @@
 - Experimental ( Data Extraction ) 
 - Natural ( Special unique case )
 
-How many **features** to take into account to **Detect Outliers** ?
+How to **detect Outliers** ?
 
-- **Univariate** ( Only one feature ) | **Multivariate** ( More than one feature )
-- **Data visualization** helps to visualize the distribution of data and also the presence of `outlier` in data.
-- **Boxplot**, **scatter plot** and **histograms** are better plots to find **outliers** in the data set.
+- `Visualization` helps to visualize the `distribution` of data and helps to identify `outlier` in data.
+- `Boxplot`, `Scatter` and `Histogram` are better plots to identify `Outliers` in the dataset.
 
 ### Methods for Outlier Detection
 
