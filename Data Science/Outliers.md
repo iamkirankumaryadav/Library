@@ -52,7 +52,7 @@ How to **detect Outliers** ?
 
 Divide the Data into `4` Equal Quarters ( `Quartiles` ) 
 
-1. Minimum : **Lowest** daat point value in a dataset.
+1. Minimum : **Lowest** data point value in a dataset.
 2. 1<sup>st</sup> **Quartile** ( **Q1** ) | 25<sup>th</sup> **Percentile** : `25%` of data values are smaller and 75% are larger.
 3. 2<sup>nd</sup> **Quartile** ( **Q2** ) | 50<sup>th</sup> **Percentile** : **Median** | `50%` of data values are smaller and 50% are larger the median.
 4. 3<sup>rd</sup> **Quartile** ( **Q3** ) | 75<sup>th</sup> **Percentile** : `75%` of data values are smaller and 25% are larger.
