@@ -40,7 +40,7 @@
 
 - Assign a **unique** category for data with **missing values** or assign with `"Missing"` flag.
 - **Flag** the **numeric** missing data with `-1` or `0` 
-- Create difference between missing data and remaining non missing data.
+- Create `difference` between missing data and remaining non missing data.
 
 <h3 name="predict"> 4. Predict Missing Value</h3>
 
@@ -53,7 +53,7 @@
 
 - `KNN` fills missing value by taking the majority of the `K nearest` values.
 - `Random forest` works well on **categorical data**.
-- Weak learners are trained by **non missing** data and tested on data with **missing** values.
+- Weak learners are `trained` by **non missing** data and `tested` on data with **missing** values.
 
 ### Domain Knowledge can also help us to deal with the missing data.
 
