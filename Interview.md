@@ -103,7 +103,7 @@ Unsupervised | Supervised
 K : Number of **clusters** | K : Number of **nearest** neighbors.
 Determine the distances of each data points to the **centroid** and assign each point to closest cluster **centroid** | **Calculate** distance between **new** data point with **nearest** K neighbours.
 
-Variance | Standard Deviation
+Variance `s` <sup>2</sup> | Standard Deviation `s`
 :--- | :---
 Distance `between` the `data points` in the dataset |  Distance of a data point from the `mean` of the dataset
 
