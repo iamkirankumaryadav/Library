@@ -107,7 +107,7 @@
 Supervised | Unsupervised | Reinforcement
 :--- | :--- | :---
 Algorithm learns from `labelled` data | Algorithm learns from `unlabelled` data | `Agents` takes `actions` in an environment
-Algorithm tries to find `relationships` | Algorithm tries to find `patterns` | Agent learn from `rewards` and `penalty`
+Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find `patterns` | Agent learn from `rewards` and `penalty`
 
 Data Mining : Finding patterns in `past` data and then use those patterns on `current` data to make `future` predictions.
 
