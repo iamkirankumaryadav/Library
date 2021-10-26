@@ -227,8 +227,8 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
     <td>e.g. Male or Female, True or False, Dog or Cat, etc.</td>
   </tr>
   <tr>
-    <td>Better performing algorithms : Decision Tree, Random Forest, KNN</td>
-    <td>Better performing algorithms : Logistic, Polynomial, SVM</td>
+    <td>Better algorithms : Decision Tree, Random Forest, KNN</td>
+    <td>Better algorithms : Logistic, Polynomial, SVM</td>
   </tr>
 </table>
 
