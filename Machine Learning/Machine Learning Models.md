@@ -220,7 +220,7 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
   </tr>  
   <tr>
     <td>Predicting a quantity or continuous values.</td>
-    <td>Predicting class or discrete values.</td>
+    <td>Predicting a class or discrete values.</td>
   </tr>
   <tr>
     <td>e.g. Salary, Age, Price, etc.</td>
