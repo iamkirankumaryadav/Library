@@ -422,16 +422,16 @@ All follow same process in **Regression** and **Classification** the only differ
     <th><h3>Association</h3></th>
   </tr>
   <tr>
-    <td>Group | Cluster | Segment similar data points</td>
-    <td>Identify set of items that occur together in the dataset</td>
+    <td>Group | Cluster | Segment similar data points.</td>
+    <td>Identify set of items that occur together in the dataset.</td>
   </tr>
   <tr>
-    <td>Grouping the similar data points</td>
+    <td>Grouping the similar data points.</td>
     <td>Find important relationship between data points.</td>
   </tr>
   <tr>
-    <td>Group of customers with similar purchasing behavior</td>
-    <td>Customer buy phone also tend to buy case</td>
+    <td>Group of customers with similar purchasing behavior.</td>
+    <td>Customer buy phone also tend to buy case.</td>
   </tr>
 </table>
 
