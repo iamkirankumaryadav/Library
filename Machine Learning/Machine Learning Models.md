@@ -226,6 +226,10 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 
 <h1 name='reg' align=center>Regression</h1>
 
+`Regression` is about predicting a `quantity` or `continuous` values.
+
+e.g. Salary, Age, Price, etc.
+
 <table align=center>
   <tr>
     <th colspan=3><h3><a href="https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Linear%20Regression.md">Linear Regression</a></h3></th>
@@ -267,7 +271,7 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 <h1 name='class' align=center>Classification</h1>
 
 `Classification` is about predicting `class` or `discrete` values.
-- e.g. Male or Female, True or False.
+- e.g. Male or Female, True or False, etc.
 
 <h3 name='logreg'>2. Logistic Regression ( <a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md'>More</a> )</h3>
 
