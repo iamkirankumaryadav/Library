@@ -223,8 +223,8 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
     <td>Predicting a class or discrete values.</td>
   </tr>
   <tr>
-    <td>e.g. Salary, Age, Price, etc.</td>
-    <td>e.g. Male or Female, True or False, etc.</td>
+    <td>e.g. Salary, Age, Price, Temperature, Rainfall, etc.</td>
+    <td>e.g. Male or Female, True or False, Dog or Cat, etc.</td>
   </tr>
 </table>
 
