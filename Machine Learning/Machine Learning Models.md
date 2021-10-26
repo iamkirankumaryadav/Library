@@ -266,6 +266,9 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 
 <h1 name='class' align=center>Classification</h1>
 
+`Classification` is about predicting `class` or `discrete` values.
+- e.g. Male or Female, True or False.
+
 <h3 name='logreg'>2. Logistic Regression ( <a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md'>More</a> )</h3>
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/04.Logistic%20Regression.ipynb)
