@@ -433,6 +433,10 @@ All follow same process in **Regression** and **Classification** the only differ
     <td>Group of customers with similar purchasing behavior.</td>
     <td>Customer buy phone also tend to buy case.</td>
   </tr>
+  <tr>
+    <td>Better algorithms : K Means, Hierarchical, PCA</td>
+    <td>Better algorithms : Apriori</td>
+  </tr>
 </table>
 
 - Find `patterns` and `relationships` between **feature matrix**.
