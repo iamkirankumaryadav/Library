@@ -219,12 +219,12 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
     <th><h3>Classification</h3></th>
   </tr>  
   <tr>
-    <th>Predicting a quantity or continuous values.</th>
-    <th>Predicting class or discrete values.</th>
+    <td>Predicting a quantity or continuous values.</td>
+    <td>Predicting class or discrete values.</td>
   </tr>
   <tr>
-    <th>e.g. Salary, Age, Price, etc.</th>
-    <th>e.g. Male or Female, True or False, etc.</th>
+    <td>e.g. Salary, Age, Price, etc.</td>
+    <td>e.g. Male or Female, True or False, etc.</td>
   </tr>
 </table>
 
