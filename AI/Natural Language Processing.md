@@ -185,7 +185,7 @@ Token for Token in text if not in `Stopwords.words()`
 
 - **Term Frequency** - **Inverse Document Frequency**.
 - `TF` : Number of `times` term `appears` in document / Number of `terms` in document.
-- `IDF` : `log(N/n) 
+- `IDF` : `log(N/n)` 
 - `N` : Number of `documents`
 - `n` : Number of `documents` a `term` appeared in.
 - Shows how `important` a given `word` is to the `document`
