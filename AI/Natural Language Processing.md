@@ -182,12 +182,16 @@ How to `Remove` Stopwords Using NLTK
 
 - **Term Frequency** - **Inverse Document Frequency**.
 - Create a document term `matrix`
-- One **row** per **document** ( Number of time the `term` appears in `document` )
+- `TF` : Number of `times` term `appears` in document / Number of `terms` in document.
+- `IDF` : `log(N/n) 
+- `N` : Number of `documents`
+- `n` : Number of `documents` a `term` appeared in.
+- One **row** per **document** ( Number of times the `term` appears in `document` )
 - One **column** per **word** in the **corpus** ( Number of `documents` containing the `word` )
 - Shows how **important** a given **word** is to the **document**. 
 
 ### Feature Vector
-- An `N Dimensional Vector` of **Numerical Features** that Represents some `Object`.
+- An `n dimensional vector` of **numerical features** that represents some `object`.
 
 ### Different Types
 1. **Count** Vectorization ( Create a **Document Term Matrix**   that represents **Count** of `Occurence` )
