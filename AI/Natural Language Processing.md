@@ -44,124 +44,127 @@
 
 <h3 name="mine"> Text Mining | Text Analysis </h3>
 
-- **Analyze** and **understand** text data + Derive **meaningful information** from natural language (`Text` and `Speech`)
+- **Analyze** and **understand** text data.  
+- Derive **meaningful information** from natural language `Text` and `Speech`
 
 ### Types of text data 
-- Web, Blogs, Articles, Comments, Reviews and Notes.
-- Social Media : Messages, Hashtags, Reference.
-- Operations : Logs and Trails.
+- Web, blogs, articles, feeds, comments, reviews, emails and notes.
+- Social media : Messages, hashtags, reference, comments, etc.
+- Operations : Logs and trails.
 - Emails ( Spam or Ham )
-- Voice **Transcriptions** 
-- Videos Subtitles 
+- Voice transcriptions and subtitles.
 
 ### Process :
 
-1. Human Talk to Machine.
-2. Machine Capture Audio.
-3. Convert Audio to Text.
-4. Process Text Data ( Interpret > Convert )
-5. Convert Text to Audio.
-6. Machine Talk | Reply to Human.
+1. Human talk to machine.
+2. Machine capture human audio.
+3. Convert audio to text.
+4. Process text data. 
+5. Convert processed text to audio.
+6. Machine reply to human.
 
-<h3 name="app"> Applications : NLP in Real Life </h3>
+<h3 name="app"> Applications : NLP in real life </h3>
 
-1. Google Translate. ( Speech to Text )
-2. Email `Spam` Filter ( Search for Texts related to Spam Email )
-3. Google Search and Gmail Auto Complete ( Prediction of **Next Words** ) 
-4. Word Processor | Grammer Check | Auto Correct in Microsoft Word, Google Sheet, etc. 
-5. Grammerly | Grammer Correction and Spelling Correction in Gmail.
-6. IVR | Interactive Voice Response in Call Centers.
-7. Voice Assistant : `Google` Google Home, `Apple` Siri, `Microsoft` Cortana and `Amazon` Alexa.
-8. Chatbots
-9. Customer Feedback Sentiment Analysis ( 😊🙂😔😡 )
-10. Document Summarization : Read Article and Newspaper ( Blind People )
-11. Text Classification
-12. Part of Speech **Tagging** ( **Part of Speech** of Corresponding Word )
+1. Google translate. ( Speech to text )
+2. Email `spam` filter ( Search for texts related to spam email )
+3. Google search and Gmail auto complete ( Prediction of **next words** and **suggestions** ) 
+4. Word processor | Grammer check | Auto correct in Microsoft and Google productivity Apps.
+5. Grammerly | Grammer correction and spelling correction in Gmail and Outlook.
+6. IVR | Interactive voice response in call centers.
+7. Voice assistant : `Google` Google home, `Apple` siri, `Microsoft` cortana and `Amazon` alexa.
+8. Chatbots.
+9. Customer feedback sentiment analysis ( 😊🙂😔😡 )
+10. Document summarization : Read article and newspaper ( Blind people )
+11. Text classification.
+12. Part of speech `tagging` ( **Part of speech** of corresponding word )
 
 <h3 name="pipe"> NLP Pipeline </h3>
 
-1. Read **Raw** Text
-2. Remove `Punctuation`
+1. Read **raw** text.
+2. Remove `Punctuations`
 3. Create `Tokens` 
 4. Remove `Stopwords`
-5. Stemming | Lemmatizing
-6. `Vectorize` Data to Prepare for Model Built ( Feature Vector )
-7. **Feature Engineering** ( **Creating** New Feature or **Transforming** Existing Features to get most out of Data )
+5. Apply Stemming | Lemmatization.
+6. `Vectorize` data to prepare for model built (Feature vector)
+7. **Feature Engineering** (**Creating** new feature or **transforming** existing features to get most out of data)
 
 <h3 name="token"> Tokenization </h3>
 
-- `Break` | `Split` a **Sentence** | **Phrase** | **Paragraph** into `List` of **Individual Words**.
+- `Break` | `Split` a **sentence** | **Phrase** | **Paragraph** into `list` of **individual words**.
 
 <h3 name="stem"> Stemming </h3>
 
-- Reducing **Derived** Words to there `Stem` | `Root` | `Base` Form.
-- Remove `Suffix` and `Prefix` from the Word.
-- Stem may not be an **Actual** Word, Easy for `Read` and `Compare`.
+- Reducing **derived** words to there `stem` | `root` | `base` form.
+- Remove `suffix` and `prefix` from the word.
+- Stem may not be an **actual** word, easy to `read` and `compare`.
 - e.g. Studies > Studi | Studying > Study
 
 > **Stemming** is applied on **Tokens** (`stem(token)`) 
 
 ### Why Stemming ?
-- Reduce `Corpus` of Words and Correlate Words with `Similar` Meanings.
+- Reduce `corpus` of words and `correlate` words with `similar` meanings.
 
 ### Types of Stemmers
-1. **Porter** Stemmer ( **Oldest** but very **low Accuracy** : fairly > `fairli` )
+1. **Porter** Stemmer ( **Oldest** with very **low accuracy** : fairly > `fairli` )
 2. **Snowball** Stemmer ( **Better** than **Porter** and **Lancaster** : fairly > `fair` )
-3. **Lancaster** Stemmer ( **Fastest** with **Least Accuracy** )
+3. **Lancaster** Stemmer ( **Fastest** with **least accuracy** )
 
 <h3 name="lemma"> Lemmatization </h3>
   
-- Grouping together the **Derived forms** of Word so that they can be Analyzed as a `Single` ( Base ) form.
-- Actually `Transforms` words to the **Actual Root**.
-- **Reduce** Words to its `Base` Form.
-- Used in **Search Engines** to Search by `Keywords`.
-- `Lemma` is Actual Word ( Better > Good )
+- Grouping together the **derived forms** of words so that they can be analyzed as a `single` base form.
+- Actually `transforms` words to the **actual root**.
+- **Reduce** words to its `base` form.
+- Used in **search engines** to search by `keywords`.
+- `Lemma` is actual word ( Better > Good )
 
 ### WordNet Lemmatizer
 
-- **Database** for `English` ( Most Popular **Lemmatizer** )
-- `Nouns`, `Verbs`, `Adjectives` and `Adverbs` are **Grouped** into Sets of **Cognitive Synonyms**.  
+- **Database** for `english` ( Most popular **Lemmatizer** )
+- `Nouns`, `Verbs`, `Adjectives` and `Adverbs` are **grouped** into sets of **Cognitive Synonyms**.  
 - e.g. { 'consult', 'consultation', 'consulting', 'consultant' } - consult
 
 Stemming | Lemmatization
 :--- | :---
 **Speed** | **Accuracy**
-Simply `Chops` End of the Word to `Stem` | **Converts** the Word to its **Meaningful** `Base` Form
+Simply `strips` end of the word to `stem` | **Converts** the word to its **meaningful** `Base` Form
 
 ### Text Preprocessing
 
-- Map the Words wiith different Case to the same `Lowercase` form.
+- `Map` the words with any other case to the `lowercase`
 
 ### Noise Removal
 
-- Removing **Special Characters**, Digits and Pieces of Text that can `Interfere` with Text Analysis.
-- Remove `Punctuation`, `Special Character`, `Number`, `HTML` formatting, `Source Code`, `Header`.
+- Removing `special characters`, `digits` and pieces of text that can `interfere` with text analysis.
+- Remove `punctuation`, `special character`, `number`, `HTML` formatting, `source code`, `header`
 
 <h3 name="norm"> Text Normalization </h3>
 
-- Transforming Text into a **Standard** form.
+- Transforming text into its `standard` form.
 - e.g. 'gooood' and 'gud' transformed to 'good'
-- Mapping of near **Identical** words such as 'stopwords', 'stop-words' and 'stop words' to just 'stopwords'
-- Important when **Noisy**, **Misspelled**, **Slang** and **Out of Vocabulory** ( `OOV` ) Words are used. 
-- **Out of Vocabulory** ( `OOV` ) : **Social Media** Comments, **Blog** Comments and **Text Messages**.
+- Mapping of near **identical** words such as 'stopwords', 'stop-words' and 'stop words' to just 'stopwords'
+- Important when **noisy**, **misspelled**, **slang** and **out of vocabulory** ( `OOV` ) words are used. 
+- **Out of vocabulory** ( `OOV` ) : **Social media** comments, **blog** comments and **text messages**.
 
 <h3 name="stop"> Stop Word </h3>
 
-- Filter out **Useless** low information Words in a Sentence.
-- Stop words are the **Filler** words.
-- we can `Focus` on the **Important Words** instead.
-- Search Engine only Search on the Basis of `Keywords`.
-- Search Engines are programmed to `ignore` **Stop Words**.
+- Filter out **useless** low information words in a sentence.
+- Stop words are just **filler** words.
+- We can `focus` on the **important words** instead.
+- Search engine only search on the basis of `keywords`.
+- Search engines are programmed to `ignore` **stop words**.
 
-How to `Remove` Stopwords Using NLTK
+How to `remove` stopwords using NLTK
 
-1. **Tokenize** and Compare with List of Stopwords and Drop that Words 
-2. **Code** : Token for Token in Text if not in `Stopwords.words()` 
+1. `Tokenize` and compare with list of predefined `stopwords` and `drop` that words. 
+
+```python
+Token for Token in text if not in `Stopwords.words()` 
+```
 
 <h3 name="pos"> POS : Parts of Speech </h3>
 
-- Classify the **Part of Speech** `tag` of each `Token`.
-- Identify `Noun`, `Verb`, `Adjective` in Sentence.
+- Classify the **part of speech** `tag` of each `token`.
+- Identify `noun`, `verb`, `adjective` in sentence.
 
 <h3 name="bag"> Bag of Words </h3>
 
@@ -173,8 +176,8 @@ How to `Remove` Stopwords Using NLTK
 
 <h3 name="vector"> Vectorization </h3>
 
-- **Converting** Text to form `Numbers` that an **Algorithm** and a **Machine Learning Model** can `Understand` and `Learn`.
-- **Process** of `Encoding` Text as `Integers` to Create `Feature Vectors`.
+- **Converting** text to form `Numbers` that an **algorithm** and a **ML model** can `understand` and `learn`.
+- **Process** of `encoding` text as `integers` to create `feature matrix`
 
 <h3 name="tfidf"> TF - IDF </h3>
 
