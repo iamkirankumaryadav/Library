@@ -184,14 +184,12 @@ Token for Token in text if not in `Stopwords.words()`
 ![TFIDF](Image/TFIDF.png)
 
 - **Term Frequency** - **Inverse Document Frequency**.
-- Create a document term `matrix`
 - `TF` : Number of `times` term `appears` in document / Number of `terms` in document.
 - `IDF` : `log(N/n) 
 - `N` : Number of `documents`
 - `n` : Number of `documents` a `term` appeared in.
-- One **row** per **document** ( Number of times the `term` appears in `document` )
-- One **column** per **word** in the **corpus** ( Number of `documents` containing the `word` )
-- Shows how **important** a given **word** is to the **document**. 
+- Shows how `important` a given `word` is to the `document`
+- `IDF` value of a `rare` word is `high` and `low` for `frequent` word.
 
 ### Feature Vector
 - An `n dimensional vector` of **numerical features** that represents some `object`.
@@ -241,7 +239,8 @@ Token for Token in text if not in `Stopwords.words()`
 - **Visual** View of the Most Popular Terms.
 
 ### Corpus | Corpora
-- Large `collection` of documents ( Accurate grammer phrases ) | Knowledge base that can be used to infer and validate language rules.
+- Large `collection` of documents ( Accurate grammer phrases ) 
+- `Knowledge base` that can be used to infer and validate language rules.
 
 ### Sparse Matrix
 - A `matrix` in which most entries are `0` helps in **efficient storage**.
@@ -264,24 +263,24 @@ Token for Token in text if not in `Stopwords.words()`
     </th>
   </tr> 
   <tr>
-    <th colspan='2'>Accept large Corpus of Text as Input</th>
+    <th colspan='2'>Accept large corpus of text as input</th>
   </tr>
   <tr>
-    <th colspan='2'>Vector : Numeric Representation of Word and Document ( One Hot Vector )</th>
+    <th colspan='2'>Vector : Numeric representation of word and document ( One Hot Vector )</th>
   </tr>
   <tr>
-    <td>Returns a Set of Vectors for Each <b>Word</b></t>
-    <td>Returns a Set of Vectors for Entire <b>Sentence</b></t>
+    <td>Returns a set of vectors for each <b>word</b></t>
+    <td>Returns a set of vectors for entire <b>sentence</b></t>
   </tr>
   <tr>
     <td>Vectors are converted to <b>Array</b></t>
     <td>Vectors are converted to <b>List</b></t>
   </tr>
   <tr>
-    <th colspan='2'>Use Neural Network to Learn Word Association from a Large Corpus of Text</th>
+    <th colspan='2'>Use neural network to learn word association from a large corpus of text</th>
   </tr>
   <tr>
-    <th colspan='2'>Detect Synonymous Words or Suggest Next Words for a Partial Sentence ( Autocomplete | Search Bar Suggestion )</th>
+    <th colspan='2'>Detect synonymous words or suggest next words for a partial sentence ( Autocomplete | Search bar suggestion )</th>
   </tr>
  </table>
 
