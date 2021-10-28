@@ -181,10 +181,10 @@ How to `Remove` Stopwords Using NLTK
 ![TFIDF](Image/TFIDF.png)
 
 - **Term Frequency** - **Inverse Document Frequency**.
-- Create a Document Term **Matrix**.
-- One **Row** per **Document** ( Number of Time the Term appears in Document )
-- One **Column** per **Word** in the **Corpus** ( Number of Documents containing the Word )
-- Shows how **Important** a given **Word** is to the **Document**. 
+- Create a document term `matrix`
+- One **row** per **document** ( Number of time the `term` appears in `document` )
+- One **column** per **word** in the **corpus** ( Number of `documents` containing the `word` )
+- Shows how **important** a given **word** is to the **document**. 
 
 ### Feature Vector
 - An `N Dimensional Vector` of **Numerical Features** that Represents some `Object`.
