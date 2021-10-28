@@ -35,18 +35,18 @@
   
 </table>
 
-- Ability of a Computer to `Understand`, `Learn`, `Analyze`, `Manipulate`, `Generate`, `Interact` and `Communicate` **Human Language**.
-- Interaction between `Computers` and `Humans` using the Natural Language.
+- Ability of computer to `understand`, `learn`, `analyze`, `manipulate` and `communicate` using **human language**.
+- Interaction between `computers` and `humans` using the natural language.
 
 <h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
 
-- Open Source Tool Library created to make `NLP` Process in `Python`.
+- Open source toolkit or library created to make `NLP` process in `Python`
 
 <h3 name="mine"> Text Mining | Text Analysis </h3>
 
-- **Analyze** and **Understand** Text Data + Derive **Meaningful Information** from Natural Language ( `Text` and `Speech` )
+- **Analyze** and **understand** text data + Derive **meaningful information** from natural language (`Text` and `Speech`)
 
-### Types of Text Data 
+### Types of text data 
 - Web, Blogs, Articles, Comments, Reviews and Notes.
 - Social Media : Messages, Hashtags, Reference.
 - Operations : Logs and Trails.
