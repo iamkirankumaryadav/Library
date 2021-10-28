@@ -241,14 +241,14 @@ Token for Token in text if not in `Stopwords.words()`
 - **Visual** View of the Most Popular Terms.
 
 ### Corpus | Corpora
-- Large `Collection` of Documents ( Accurate Grammer Phrases ) | Knowledge Base that can be used to infer and Validate Language Rules.
+- Large `collection` of documents ( Accurate grammer phrases ) | Knowledge base that can be used to infer and validate language rules.
 
 ### Sparse Matrix
-- A `Matrix` in which most entries are `0` helps in **Efficient Storage**.
-- Stores only `Location` of **non zero elements**.
+- A `matrix` in which most entries are `0` helps in **efficient storage**.
+- Stores only `location` of **non zero elements**.
 
 ### Chunking
-- Grouping `Individual` Pieces of Information into Bigger Piece.
+- `Grouping` individual pieces of information into big chunks.
 
 ### Transformation
 - **Power** Transformation ( `Square`, `Square Root` )
@@ -287,11 +287,11 @@ Token for Token in text if not in `Stopwords.words()`
 
 Word2Vec Matrix | TF-IDF Matrix
 :--- | :--- 
-Multi Dimensional Vector | Sparse Matrix
-Capture Words Relationship with other Words | Captures the Importance of Word in a given Documment
-Applied on each Word Individully | Applied to each Training Document
-More Memory Intensive | Less Memory Intensive
-Ideal for Single Word Problems | Ideal for Problems with Multiple Words or Document Files.
+Multi dimensional vector | Sparse matrix
+Capture words relationship with other words | Captures the importance of word in a given documment.
+Applied on each word individully | Applied to each training document.
+More memory intensive | Less memory intensive.
+Ideal for single word problems | Ideal for problems with multiple words or document files.
 
 ### One Hot Vector
 
