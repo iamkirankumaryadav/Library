@@ -179,7 +179,7 @@ Token for Token in text if not in `Stopwords.words()`
 - **Converting** text to form `Numbers` that an **algorithm** and a **ML model** can `understand` and `learn`.
 - **Process** of `encoding` text as `integers` to create `feature matrix`
 
-<h3 name="tfidf"> TF - IDF </h3>
+<h3 name="tfidf">TF - IDF</h3>
 
 ![TFIDF](Image/TFIDF.png)
 
