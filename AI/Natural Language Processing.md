@@ -221,22 +221,22 @@ Token for Token in text if not in `Stopwords.words()`
 ![NER](Image/NER.png)
 
 ### Syntax | Syntactic Analysis
-- Syntactic Structure of Sentence or Strings.
-- Analyze String by `Symbol`. 
+- Syntactic structure of `sentence` or `strings`
+- Analyze string by `symbol`
 
 ### Sentiment Analysis
-- `Feeling`, `Emotion`, `Reaction`, `Satisfaction` of User | Customer | Consumer expressing there `Feedback`.
+- `Feeling`, `emotion`, `reaction`, `satisfaction` of user, customer or consumer expressing there `feedback`
 
 ### Information Retrieval
-- Process of **Accessing** and **Retrieval** of appropriate Information  from Text.
-- **Extracting** `Title`, `Text` and `Media` from a `Book`, `Artice` or Simply `HTML Tags` from `Web Page`.
+- Process of `accessing` and `retrieval` of appropriate information  from text.
+- **Extracting** `title`, `text` and `media` from a `book`, `artice` or simply `HTML tags` from `web page`
 - e.g. `Google Search`
 
 <h3 name="cloud"> Word Cloud </h3>
 
-- A **Graphical** Display of Words in a `Corpus`.
-- **Size** of Word based on number of **Occurences**.
-- **Visual** View of the Most Popular Terms.
+- A graphical display of words in a `corpus`.
+- `Size` of word is based on number of `occurences`
+- **Visual** view of the most popular terms.
 
 ### Corpus | Corpora
 - Large `collection` of documents ( Accurate grammer phrases ) 
