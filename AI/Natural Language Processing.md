@@ -165,10 +165,11 @@ How to `Remove` Stopwords Using NLTK
 
 <h3 name="bag"> Bag of Words </h3>
 
-- Number of `Occurence` of Words in a Paragraph or Sentence.
-- e.g. Well well well, Said John
-- Bag of Words is represented in form of **Dictionary** 
-- **Polarity** : Positive ( +1 ), Negative ( -1 ) or Neutral ( 0 )
+- Number of `occurence` of words in a paragraph or sentence.
+- e.g. well well well, said john. {'well':3, 'said':1, 'john':1}
+- Bag of words is represented in form of **dictionary**. 
+- Expressed sentiments of words are defined by `polarity`
+- `Polarity` : Positive `+1`, Negative `-1` or Neutral `0` 
 
 <h3 name="vector"> Vectorization </h3>
 
