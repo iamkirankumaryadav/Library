@@ -206,28 +206,29 @@ Token for Token in text if not in `Stopwords.words()`
 - An `n dimensional vector` of **numerical features** that represents some `object`.
 
 ### Different Types
-1. **Count** Vectorization ( Create a **Document Term Matrix**   that represents **Count** of `Occurence` )
-2. **N Grams** ( Combination of `Adjacent` Words )
+1. **Count** vectorization ( Create a **document term matrix**   that represents `count` of `occurence` )
+2. **N Grams** ( Combination of `adjacent` words )
 3. **Term Frequence** - **Inverse Document Frequency** ( `TD - IDF` ) 
 
 <h3 name="ngram"> N Grams </h3>
 
-- **Combinations** of `Adjacent` Words of length **N** in the Text
+- **Combinations** of `adjacent` words of length `N` in the text.
 
 ### Bigrams
 
-- Form **Pair** of `Adjacent` Words from Sentence.
+- Form **pair** of `adjacent` words from sentence.
 
 ### Trigrams
 
-- Form Set of **Three** `Adjacent` Words
+- Form set of **three** `adjacent` words.
 
-> Google Search **Suggests** `Bigrams`, `Trigrams` in there `Keyword` **Suggestions**.  
+`Google Search` **suggests** `bigrams`, `trigrams` in there `keyword` **suggestions**.  
 
 <h3 name="ner"> Name Entity Recognition </h3>
 
-1. **Recognize** Elements in Text by **Category** ( `Movie`, `Person`, `Location`, `Organization`, `Quantity Unit`, `Monetory Value` | `Financial` Term )
-2. `Identification` | `Extraction` technique that automatically identifies named `Entities` in a Text and Classifies in **Predefined Categories**.
+1. **Recognize** elements in text by `category`  
+2. `Movie`, `Person`, `Location`, `Organization`, `Quantity Unit`, `Monetory Value` | `Financial` terms.
+3. Automatically identify `entity` name in a text and classify it in **predefined categories**.
 
 ![NER](Image/NER.png)
 
@@ -308,7 +309,7 @@ Ideal for single word problems | Ideal for problems with multiple words or docum
 ![One Hot Vector](Image/OHV.png)
 
 ### BERT 
-- Google's Pre trained **Bidirectional Encoder Representation for Transformers** used for **Transfer Learning**.
+- Google's pre trained **bidirectional encoder representation for transformers** used for **transfer learning**.
 
 [Text Classification](https://towardsdatascience.com/text-classification-with-nlp-tf-idf-vs-word2vec-vs-bert-41ff868d1794)
 
