@@ -60,7 +60,8 @@
 ### Important terms
 
 ### 1. Pixel Manipulation
-- Converting image from one form to another ( e.g. `BGR` to `HSV` or `Grayscale` )
+- Converting image from one form to another.  
+- e.g. `BGR` to `HSV` or `Grayscale`
 
 ### 2. Pixel Filtering
 
