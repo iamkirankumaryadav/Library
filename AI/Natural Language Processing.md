@@ -93,6 +93,11 @@
 <h3 name="token"> Tokenization </h3>
 
 - `Break` | `Split` a **sentence** | **Phrase** | **Paragraph** into `list` of **individual words**.
+- It is better to change all the text to `lower case` at the time of creating tokens.
+
+```python
+[hi, my, name, is, kirankumar,...]
+```
 
 <h3 name="stem"> Stemming </h3>
 
