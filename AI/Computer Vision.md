@@ -135,7 +135,7 @@
 4. `Object Tracking`
 - Motion image object detection ( Capture consecutive video frames )
 - Motion sensor cameras to capture ( Name plates ) speeding vehicles on expressways.
-- Robot goal keepers and constant football, basketball and cricket monitoring.
+- `Robot` goal keepers and constant football, basketball and cricket monitoring.
 
 ### Business Use Cases
 
@@ -146,16 +146,16 @@
 
 2. Face recognition at `Facebook`
 - Detect face and recognize the person in an image + auto tagging.
-- Resognize facial expression.
+- Recognize facial expression.
 
 3. `Amazon Go` stores
-- Shopping without queue, easy scan and pay ( QR Code )
+- Shopping without `queue`, easy `scan` and `pay` ( QR Code )
 - Motion and weight sensors, cameras and real time product price calculation.
 
 4. `Tesla` Auto Pilot
-- Autonomous driving ( Eight panaromic cameras give `360` degree visibility upto `250` meters range )
-- Ultrasonic sensors are installed to detect objects, traffics and environment.
-- Radar sensors to process information about surroundings.
+- `Autonomous` driving ( Eight panaromic cameras give `360` degree visibility upto `250` meters range )
+- `Ultrasonic sensors` are installed to detect objects, traffics and environment.
+- `Radar` sensors to process information about surroundings.
 - Adjust speeds depending on traffic conditions, brakes when approaching obstacles, change of lane and parking.
 
 5. `Microsoft` Inner Eye
