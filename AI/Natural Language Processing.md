@@ -103,7 +103,7 @@
 
 - Reducing **derived** words to there `stem` | `root` | `base` form.
 - Remove `suffix` and `prefix` from the word.
-- Stem may not be an **actual** word, easy to `read` and `compare`.
+- Stem may not be an **actual** word, easy to `read` and `compare`
 - e.g. Studies > Studi | Studying > Study
 
 `Stemming` is applied on `tokens` 
@@ -174,7 +174,7 @@ Token for Token in text if not in `Stopwords.words()`
 
 <h3 name="pos"> POS : Parts of Speech </h3>
 
-- Classify the **part of speech** `tag` of each `token`.
+- Classify the **part of speech** `tag` of each `token`
 - Identify `noun`, `verb`, `adjective` in sentence.
 
 <h3 name="bag"> Bag of Words </h3>
