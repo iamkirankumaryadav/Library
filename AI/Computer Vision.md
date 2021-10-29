@@ -2,19 +2,19 @@
 
 # Computer Vision
 
-- How Computers See and Gain **High Level Understanding** from `Digital Images` or `Videos`
-- Works on **Pattern Recognition**
-- Understand and Automate the Task of Human Visual System
-- Detecting and `Image` | `Object`, Labeling them has Surpassed Humans
-- Faster than Human Reaction and 99% Accuracy
-- High Amount of Visual Data ( `Images` and `Videos` ) with Processing Capabilities
+- How computers see and gain **high level understanding** from `digital images` or `videos`
+- Works on **pattern recognition** and **pattern recognition**
+- Understand and `automate` the task of human visual system.
+- Detecting an `Image` | `Object`, Labeling them has surpassed humans.
+- `Faster` than human reaction and `99%` accuracy.
+- High amount of Visual Data ( `Images` and `Videos` ) with high processing capabilities.
 
-### How Computer Sees an Image
-- 0's and 1's
-- Pixels are **Basic** | **Fundamental Unit** of Image 
-- Multiple Pixels arranged in Matrix ( **Rows** and **Columns** ) forms an **Image**
-- Each Pixels have `3 Channels` ( R [255,0,0] | G [0,255,0] | B [0,0,255] ) 8 Bits each.
-- Number between 0 to 255 represents `Intensity` of Color.
+### How computer sees an image ?
+- `0's` and `1's`
+- Pixels are **basic fundamental unit** of image.
+- Multiple pixels arranged in `matrix` ( `Rows` and `Columns` ) forms an **image**.
+- Each pixels have `3 Channels` ( R [255,0,0] | G [0,255,0] | B [0,0,255] ) 8 Bits each.
+- Number between `0` to `255` repre`sents `Intensity` of Color.
 - Binary : 0 or 1 ( 1 **Bit** )
 - Black and White ( `Single` Channel | 8 Bits )
 - Grayscale ( `Single` Channel | 8 Bits )
