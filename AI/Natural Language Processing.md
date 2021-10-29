@@ -35,7 +35,9 @@
   
 </table>
 
-- Ability of computer to `understand`, `learn`, `analyze`, `manipulate` and `communicate` using **human language**.
+### `NLP`
+
+- Ability of computer to `understand`, `learn`, `analyze` and `communicate` using **human language**.
 - Interaction between `computers` and `humans` using the natural language.
 
 <h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
