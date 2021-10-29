@@ -159,9 +159,9 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 <h3 name="stop"> Stop Word </h3>
 
 - `Useless` low informative words in a sentence.
-- Stop words are just `filler` words ( `and`, `the`, `or`,.... )
+- Stop words are just `filler` words ( `and`, `the`, `or`, etc )
 - Stopwords are ignored and `removed`, so that we can `focus` on **important words** instead.
-- Search engine only search on the basis of `keywords`.
+- Search engine only search on the basis of `keywords`
 - Search engines are programmed to `ignore` **stop words**.
 
 How to `remove` stopwords using NLTK
