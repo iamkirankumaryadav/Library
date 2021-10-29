@@ -46,7 +46,7 @@
 
 <h3 name="mine"> Text Mining | Text Analysis </h3>
 
-- **Analyze** and **understand** text data.  
+- `Analyze` and `understand` text data.  
 - Derive **meaningful information** from natural language `text` and `speech`
 
 ### Types of text data 
