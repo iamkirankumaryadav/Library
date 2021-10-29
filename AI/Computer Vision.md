@@ -47,20 +47,20 @@
 
 ### Applications 
 1. `Autonomous` 🚗 🚙 self driving cars ( Detect objects and humans infront of car, reverse parking )
-2. `Facial recognition` 👦🏻🧒🏻 ( Attendance, FB Friend Recognition )
+2. `Facial recognition` 👦🏻🧒🏻 ( Attendance, FB friend recognition )
 3. `AR` : Augmented Reality and `VR` : Virtual Reality 
-4. Health Care ( X Ray and MRI Scan ) 👨🏻‍⚕️💉🩺
-5. Video Motion Analysis ( Detect Face, Object in Video )
-6. Image Segmentation ( Camera Detects the Multiple Faces in a Group Selfie )
-7. Scene Reconstruction ( 3D Model Creation in Architecture )
-8. Image Restoration ( Filtering Blur Images and Removing Noise )
-9. Search By Image [`Image.Google`](https://images.google.com/) 🖼
-10. Robotics 🤖
+4. Health care ( `XRay` and `MRI Scan` ) 👨🏻‍⚕️💉🩺
+5. Video motion analysis ( Detect faces and objects in videos )
+6. Image segmentation ( Camera detects the multiple faces in a group selfie )
+7. Scene reconstruction ( 3D model creation in architecture )
+8. Image restoration ( Filtering blur images and removing noise )
+9. Search by image [`Image.Google`](https://images.google.com/) 🖼
+10. `Robotics` 🤖
 
-### Important Terms
+### Important terms
 
 ### 1. Pixel Manipulation
-- Converting Image from one form to another ( e.g. BGR to HSV or Grayscale )
+- Converting image from one form to another ( e.g. `BGR` to `HSV` or `Grayscale` )
 
 ### 2. Pixel Filtering
 
@@ -74,8 +74,8 @@
     <th>cv2.erode( )</th>
   </tr>
   <tr>
-    <td>Turn Black Pixels into White Pixels</td>
-    <td>Turn White Pixels into Black Pixels</td>
+    <td>Turn black pixels into white pixels</td>
+    <td>Turn white pixels into black pixels</td>
   </tr>
 </table>
 
@@ -84,101 +84,102 @@
 
 ### Industry Applications
 
-1. Retail
-- Store Cameras to Understand Customer `Behaviour`, `Gender` and `Age`.
-- Help Shops to Store Products ( Item Placement ) on the basis of **Customer Shopping Experience**.
-- **Anti Theft** : Face Recognition and Spying and Detecting Hiding Product in Bag.
-- **Inventory Management** : Accurate Estimate of the Items Available in the Store, Analyze Increase in Demand.
+1. `Retail`
+- Store cameras to understand customer `behaviour`, `gender` and `age`
+- Help shops to store products ( Item placement ) on the basis of **customer shopping experience**.
+- `Anti theft` : Face recognition, spying and detecting ( Hiding product in bag )
+- `Inventory management` : Accurate estimate of the items available in the store, analyze increase in demand.
 
-2. Manufacturing 
-- Maintenance with the Help of Robots, Sensors and Cameras.
-- Packing, Unpacking and Assembly of Car.
+2. `Manufacturing`
+- Maintenance with the help of robots, sensors and cameras.
+- Packing, unpacking and assembly of car.
 
-3. Healtcare
-- Medical Image Analysis ( MRI, CT Scans, X Rays ) Detect and Diagnost Anomalies, Cancer and Tumors. 
+3. `Healtcare`
+- Medical image analysis ( `MRI`, `CT Scan`, `XRay` ) detect and diagnost anomalies, cancer and tumors. 
 
-4. Autonomous ( Self Driving Car )
-- Object Detection in Image and Video.
-- Distinguish Traffic Light, Vehicles, Person etc.
+4. `Autonomous` ( Self driving car )
+- Object detection in image and video.
+- Distinguish traffic lights, vehicles, persons etc.
 
-5. Insurance 
-- Avoiding Accidents and Collisions, Integrated in Industrial Machinery, Cars and Drones.
-- Image Analysis and Estimate Repair `Cost`.
+5. `Insurance` 
+- Avoiding accidents and collisions, integrated in industrial machinery, cars and drones.
+- Image analysis and estimate repair cost.
 
-6. Agriculture
-- Grain Production, Pesting, Early Diagnosis helps Farmer to make appropriate Measures.
-- Robots monitor Entire Farm, Need of Water, Spray Herbicides and Helps Production Cost.
-- Sorting Fruits, Vegetables and even Flowers.
-- Identify Shape, Size, Color, Weight and Texture.
+6. `Agriculture`
+- Grain production, pesting, early diagnosis helps farmer to make appropriate measures.
+- Robots monitor entire farm, need of water, spray herbicides and helps production cost.
+- Sorting fruits, vegetables and even flowers.
+- Identify shape, size, color, weight and texture.
 
-7. Defense and Security
-- High Security Requirements in Retail, Companies, Banks, Malls, Shopping Centre etc Analyze Image from Security Cameras.
-- Cargo Inspection on Ports, Surveillance of Sensitive Places such as Embassy, Power Plants, Hospitals, Railroads and Stadiums.
-- Spy on Enemy Terrain, Automatic Identification of Anomalous Behavior, Search and Rescue Operations.
+7. `Defense` and `Security`
+- High security requirements in retail, companies, banks, malls, shopping centre, etc.
+- Cargo inspection on ports, surveillance of sensitive places such as embassy, power plants, hospitals, railroads and stadiums.
+- Spy on enemy terrain, automatic identification of anomalous behavior, search and rescue operations.
 
-### Typical Task in Computer 
+### Typical task in computer 
 
-1. Image Classification
-- Tourist Attractions based on Location Image
-- Type of Vehicle ( Mini, Hatchback, Sedan, SUV, MPV )
+1. `Image Classification`
+- Tourist attractions based on location image.
+- Type of vehicle ( Mini, Hatchback, Sedan, SUV, MPV )
 
-2. Localization
-- Find the Location of a Single Object in an Image.
-- Bounding Box around Image, Automatic Cropping
+2. `Localization`
+- Find the location of a single object in an image.
+- Bounding box around image, automatic cropping.
 
-3. Object Detection
-- Detect Multiple Objects in a Single Image or Videos.
-- Fast Detection as Compared to Human Eye.
-- Detect and Count Total Males and Females in Images.
-- Finding Object in the Image and Difference between the Image.
+3. `Object Detection`
+- Detect multiple objects in a single image or video.
+- Fast detection as compared to human eye.
+- Detect and count total males and females in images.
+- Finding object in the image and difference between two images.
 
-4. Object Tracking
-- Motion Image Object Detection ( Capture Consecutive Video Frames )
-- Motion Sensor Cameras to Capture ( Name Plates ) Speeding Vehicles on Expressway
-- Robot Goal Keepers and Constant Football, Basketball and Cricket Monitoring.
+4. `Object Tracking`
+- Motion image object detection ( Capture consecutive video frames )
+- Motion sensor cameras to capture ( Name plates ) speeding vehicles on expressways.
+- Robot goal keepers and constant football, basketball and cricket monitoring.
 
 ### Business Use Cases
 
-1. Visual Search Engines
-- Google Image, Bing and Yahoo Image Search
-- Google Lens ( Detailed Information from the Image
-- Pinterest Lens ( Visual Search for Online Shopping )
+1. `Visual Search Engines`
+- `Google Image`, `Bing` and `Yahoo Image Search`
+- `Google Lens` ( Detailed Information from the Image
+- `Pinterest Lens` ( Visual Search for Online Shopping )
 
-2. Face Recognition at Facebook
-- Detect Face and Recognize the Person in an Image or Video.
-- Resognize Facial Expression.
+2. Face recognition at `Facebook`
+- Detect face and recognize the person in an image + auto tagging.
+- Resognize facial expression.
 
-3. Amazon Go Stores
-- Shopping without Queue, Scan and Pay ( QR Code )
-- Motion and Weight Sensors, Cameras and Real Time Product Price Calculation.
+3. `Amazon Go` stores
+- Shopping without queue, easy scan and pay ( QR Code )
+- Motion and weight sensors, cameras and real time product price calculation.
 
-4. Tesla Auto Pilot
-- Autonomous Driving ( Eight Panaromic Cameras give 360 Degree Visibility upto 250 meters Range )
-- Ultrasonic Sensors are Installed to Detect Objects.
-- Radar Sensors to Process Information about Surroundings.
-- Adjust Speeds depending on Traffic Conditions, Brakes when approaching Obstacles, Change of Lane and Parking.
+4. `Tesla` Auto Pilot
+- Autonomous driving ( Eight panaromic cameras give `360` degree visibility upto `250` meters range )
+- Ultrasonic sensors are installed to detect objects, traffics and environment.
+- Radar sensors to process information about surroundings.
+- Adjust speeds depending on traffic conditions, brakes when approaching obstacles, change of lane and parking.
 
-5. Microsoft Inner Eye
-- Assist Radiology and Sergons who have to Works Closely for Inner Body Parts.
-- The Technology Presents 3D Models of Tumors ( Measure and Track Size and Spread ) 
+5. `Microsoft` Inner Eye
+- Assist `radiology` and `sergons` who have to works closely for inner body parts.
+- The technology presents `3D models` of tumors ( Measure and track size and spread ) 
+
 ### Deep Learning ( Convolutional Neural Network CNN )
 
-1. Create a Data Set comprised of Annotated Image or Use Existing One ( Annotation can be Category, Bounding Box and Classes )
-2. Extract Feature from the Image ( Face, Car, Animal, Object )
-3. Train a Model based on Features.
-4. Evaluate the Model with New Unseen Image.
+1. Create a dataset comprised of annotated image or use existing one ( Annotation can be classes or bounding box )
+2. Extract feature from the image ( Face, car, animal, object, person, etc. )
+3. Train a model based on features.
+4. Evaluate the model with new unseen images.
 
-But It is very Costly if we follow a Supervised Approach
+But it is very `costly` if we follow a `supervised approach`
 
 ### Existing Data Sets
 
-1. `ImageNet` : `14` Million Images Annotated with WordNet ( `1` Million Images contain Bounding Box )
-2. Microsoft `COCO` ( Common Object Context ) : `32,8000` ( `2.5` Million Labelled Instances )
-3. CelebFaces Attributes Dataset ( `CelebA` ) : `200K` Celebrity Images.
-4. `Indoor` Scene Recognition : `15,620` Images of Indoor Objects 
-5. `Plant` Image Analysis : `1` Million Images of Plants from 11 Different Species.
+1. `ImageNet` : `14 million` images annotated with `WordNet` ( `1M` images contains bounding box )
+2. Microsoft `COCO` ( Common Object Context ) : `32,8000` ( `2.5M` labelled Instances )
+3. `CelebFaces` attributes dataset ( `CelebA` ) : `200K` celebrity images.
+4. `Indoor` scene recognition : `15,620` images of indoor objects. 
+5. `Plant` image analysis : `1M` images of plants from `11 different species`
 
-### HAAR ( First Real Time Face Detector )
-- Digital Image `Feature` used in Object Recognition.
-- Features represents Edges and Lines.
-- In Case of Face these Features allow for Capturing Important Elements ( Nouse, Mouth, Eyes and Distance between Eye Brows )
+### `HAAR` ( First real time face detector )
+- Digital image `feature` used in `object` recognition.
+- Features represents `edges` and `lines`
+- In case of face features allow for capturing important elements ( Nose, mouth, eyes and distance between eye brows )
