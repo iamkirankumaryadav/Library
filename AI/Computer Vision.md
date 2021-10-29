@@ -15,30 +15,35 @@
 - Multiple pixels arranged in `matrix`, i.e. `rows` and `columns` forms an **image**.
 - Each pixels have `3 Channels` | `R[255,0,0]`, `G[0,255,0]`, `B[0,0,255]` | `8 bits` each.
 - Number between `0` to `255` represents `intensity` of color.
+
+### `Types` of Images 
+
 - `Binary` : `0` or `1` | `1 bit`
-- `Black` and `white` | `Single` channel | `8 bits`
-- `Grayscale` | `Single` channel | `8 bits`
-- `RGB` color image | `3` channels | `24 bits` | `8 bits` each channel.
+- `Black` n `white` : `Single` channel | `8 bits`
+- `Grayscale` : `Single` channel | `8 bits`
+- `RGB` color image : `3` channels | `24 bits` | `8 bits` each channel.
+- `Black` n `White` and `greyscale` images are `different`
+- `Black` n `white` is only composed with completely either black : `000` or white : `fff`
+- `Grayscale` is combination of different `shades` of `black` and `white`
+- **Binary** need `1 bit per pixel` for storage and **black** n **white** needs `8 bits per pixel` for **storage**.
+- `Black` n `white` will be **dense** and shall render **better quality**.
 
 ### Image Processing
 
-- Processing `Raw` Images and Applying **Transformation**.
-- **Extract Infromation** from Image | Detailed Image Analysis.
-- **Enhance** | **Improve** the Image | Change `Color`, `Clearity`, `Size` of Image, `Noise` Reduction, `Contrast`, `Rotation`.
-- Prepare Image as an `Input` for a Specific Task.
-- Images are converted `to` and `from` **NumPy** Array
-
-> `Black` / `White` and `Greyscale` Images are **Different**
-- `Black` and `White` is only Composed with either `Black` ( 000 ) or `White` ( fff )
-- `Grayscale` is combination of different `Shades` of `Black` and `White`.
-- **Binary** need `1 Bit Per Pixel` for Storage and **Black** and **White** needs `8 Bits Per Pixel` for **Storage**.
-- `Black` and `White` will be **Dense** and shall render **Better Quality**.
+- `Processing` raw images and applying `transformation`
+- `Extract` infromation from image | Detailed image analysis.
+- `Enhance` : **Improve** the image quality and appearance. 
+- Change `color`, `clarity`, `size` of image, `noise` reduction, `contrast`, `rotation`
+- Prepare image as an `input` for a specific task.
+- Images are converted to and from `NumPy Array`
 
 ### Machine Vision
 
-- Image based **Automatic Inspection**, **Object + Pattern Recognition** and **Electromic Component Analysis** ( Industrial Applications ) 
-- Capability of Computer to `Perceive` Environment by using Multiple Digital Cameras + Sensors from  Different Locations.
-- Cameras with Advance Capability to Electromagnetic Wavelengths + Infrared + Ultraviolet or X Ray.
+- Image based **automatic inspection**. 
+- **Object + pattern recognition**. 
+- **Electromic Component Analysis** ( Industrial Applications ) 
+- Capability of computer to `perceive` environment by using multiple digital cameras + sensors from multiple locations.
+- Cameras with advance capturing capabilities : Electromagnetic Wavelengths + Infrared + Ultraviolet or X Ray.
 
 ### Applications 
 1. `Autonomous` 🚗 🚙 Self Driving Cars ( Detect Objects and Humans infront of Car, Reverse Parking )
