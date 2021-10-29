@@ -125,7 +125,7 @@ stem(token)
 - Grouping together the **derived forms** of words so that they can be analyzed as a `single` base form.
 - Actually `transforms` words to the **actual root**.
 - **Reduce** words to its `base` form.
-- Used in **search engines** to search by `keywords`.
+- Used in **search engines** to search by `keywords`
 - `Lemma` is actual word ( Better > Good )
 
 ### WordNet Lemmatizer
