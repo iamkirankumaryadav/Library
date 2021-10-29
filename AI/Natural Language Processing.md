@@ -42,7 +42,7 @@
 
 <h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
 
-- Open source toolkit or library created to make `NLP` process in `Python`
+- Open source `toolkit` or `library` created to make `NLP` process in `Python`
 
 <h3 name="mine"> Text Mining | Text Analysis </h3>
 
