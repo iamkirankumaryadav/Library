@@ -7,7 +7,7 @@
 - Understand and `automate` the task of human visual system.
 - Detecting an `Image` | `Object`, Labeling them has surpassed humans.
 - `Faster` than human reaction and `99%` accuracy.
-- High amount of Visual Data ( `Images` and `Videos` ) with high processing capabilities.
+- High amount of visual data ( `Images` and `Videos` ) with high processing capabilities.
 
 ### How computer sees an image ?
 - `0's` and `1's`
