@@ -13,7 +13,7 @@
 - `0's` and `1's`
 - `Pixel` is a **basic fundamental unit** of an image.
 - Multiple pixels arranged in `matrix`, i.e. `rows` and `columns` forms an **image**.
-- Each pixels have `3 Channels` ( R : [255,0,0], G : [0,255,0], B : [0,0,255] ) `8 bits` each.
+- Each pixels have `3 Channels` | `R[255,0,0]`, `G[0,255,0]`, `B[0,0,255]` | `8 bits` each.
 - Number between `0` to `255` represents `intensity` of color.
 - `Binary` : `0` or `1` | `1 bit`
 - `Black` and `white` | `Single` channel | `8 bits`
