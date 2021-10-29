@@ -159,7 +159,7 @@
 - Adjust speeds depending on traffic conditions, brakes when approaching obstacles, change of lane and parking.
 
 5. `Microsoft` Inner Eye
-- Assist `radiology` and `sergons` who have to works closely for inner body parts.
+- Assist `radiology` and `surgeons` who have to works closely for inner body parts.
 - The technology presents `3D models` of tumors ( Measure and track size and spread ) 
 
 ### Deep Learning ( Convolutional Neural Network CNN )
