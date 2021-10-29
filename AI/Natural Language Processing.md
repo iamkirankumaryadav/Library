@@ -137,7 +137,7 @@ stem(token)
 Stemming | Lemmatization
 :--- | :---
 **Speed** | **Accuracy**
-Simply `strips` end of the word to `stem` | **Converts** the word to its **meaningful** `Base` Form
+Simply `strips` end of the word to `stem` | **Converts** the word to its **meaningful** `base` form.
 
 ### Text Preprocessing
 
