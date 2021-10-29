@@ -101,7 +101,11 @@
 - Stem may not be an **actual** word, easy to `read` and `compare`.
 - e.g. Studies > Studi | Studying > Study
 
-> **Stemming** is applied on **Tokens** (`stem(token)`) 
+`Stemming` is applied on `tokens` 
+
+```python
+stem(token) 
+```
 
 ### Why Stemming ?
 - Reduce `corpus` of words and `correlate` words with `similar` meanings.
