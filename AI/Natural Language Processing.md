@@ -84,10 +84,10 @@
 
 1. Read **raw** text.
 2. Remove `Punctuations`
-3. Create `Tokens` (Split each and every `word` in a list)
+3. Create `Tokens` (Create a list by splitting each and every `word`)
 4. Remove `Stopwords`
-5. Apply Stemming | Lemmatization.
-6. `Vectorize` data to prepare for model built (Feature vector)
+5. Apply Stemming | Lemmatization (Reduce derived words to `stem` words)
+6. `Vectorize` data to prepare for model built (Convert text to `number`)
 7. **Feature Engineering** (**Creating** new feature or **transforming** existing features to get most out of data)
 
 <h3 name="token"> Tokenization </h3>
