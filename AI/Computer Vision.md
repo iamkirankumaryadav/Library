@@ -35,20 +35,20 @@
 - `Enhance` : **Improve** the image quality and appearance. 
 - Change `color`, `clarity`, `size` of image, `noise` reduction, `contrast`, `rotation`
 - Prepare image as an `input` for a specific task.
-- Images are converted to and from `NumPy Array`
+- Images are converted to and from `NumPy array`
 
 ### Machine Vision
 
-- Image based **automatic inspection**. 
+- Image based **automatic inspection** (Airports and malls entry gate)
 - **Object + pattern recognition**. 
 - **Electromic Component Analysis** ( Industrial Applications ) 
 - Capability of computer to `perceive` environment by using multiple digital cameras + sensors from multiple locations.
 - Cameras with advance capturing capabilities : Electromagnetic Wavelengths + Infrared + Ultraviolet or X Ray.
 
 ### Applications 
-1. `Autonomous` 🚗 🚙 Self Driving Cars ( Detect Objects and Humans infront of Car, Reverse Parking )
-2. Facial Recognition 👦🏻🧒🏻 ( Attendance, FB Friend Recognition )
-3. Augmented Reality and Virtual Reality 
+1. `Autonomous` 🚗 🚙 self driving cars ( Detect objects and humans infront of car, reverse parking )
+2. `Facial recognition` 👦🏻🧒🏻 ( Attendance, FB Friend Recognition )
+3. `AR` : Augmented Reality and `VR` : Virtual Reality 
 4. Health Care ( X Ray and MRI Scan ) 👨🏻‍⚕️💉🩺
 5. Video Motion Analysis ( Detect Face, Object in Video )
 6. Image Segmentation ( Camera Detects the Multiple Faces in a Group Selfie )
