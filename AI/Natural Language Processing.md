@@ -84,7 +84,7 @@
 
 1. Read **raw** text.
 2. Remove `Punctuations`
-3. Create `Tokens` 
+3. Create `Tokens` (Split each and every `word` in a list)
 4. Remove `Stopwords`
 5. Apply Stemming | Lemmatization.
 6. `Vectorize` data to prepare for model built (Feature vector)
