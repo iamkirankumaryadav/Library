@@ -175,7 +175,7 @@ But it is very `costly` if we follow a `supervised approach`
 ### Existing Data Sets
 
 1. `ImageNet` : `14 million` images annotated with `WordNet` ( `1M` images contains bounding box )
-2. Microsoft `COCO` ( Common Object Context ) : `32,8000` ( `2.5M` labelled Instances )
+2. `Microsoft COCO` ( Common Object Context ) : `32,8000` ( `2.5M` labelled Instances )
 3. `CelebFaces` attributes dataset ( `CelebA` ) : `200K` celebrity images.
 4. `Indoor` scene recognition : `15,620` images of indoor objects. 
 5. `Plant` image analysis : `1M` images of plants from `11 different species`
