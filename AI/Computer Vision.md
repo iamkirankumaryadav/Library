@@ -181,6 +181,6 @@ But it is very `costly` if we follow a `supervised approach`
 5. `Plant` image analysis : `1M` images of plants from `11 different species`
 
 ### `HAAR` ( First real time face detector )
-- Digital image `feature` used in `object` recognition.
+- Digital image `feature` used in `face` recognition.
 - Features represents `edges` and `lines`
-- In case of face features allow for capturing important elements ( Nose, mouth, eyes and distance between eye brows )
+- `Face` feature allows for capturing important elements ( Nose, mouth, eyes and distance between eye brows )
