@@ -2,12 +2,12 @@
 
 # `Overfitting` : `Low Bias + High Variance`
 
-### `Low Bias` : Low error on train set 
+### `Low Bias` : Low error on `train` set 
 
 - Simple model.
 - Model **memorize** the data including **noise** and **error** with very good **accuracy** for **training set**.
 
-### `High Variance` : High error on test set.
+### `High Variance` : High error on `test` set
 - Model has just memorized the data, it was not able to learn the `hidden patterns` and `relationships`
 - Model performs **better** on **training** dataset but it does not **generalize** well on the **new unseen** test set.
 
