@@ -2,7 +2,7 @@
 
 # Overfitting
 
-### Low Bias + High Variance = Overfitting
+### `Low Bias + High Variance` = `Overfitting`
 
 ### Low Bias : Low error on train set 
 - Simple model.
