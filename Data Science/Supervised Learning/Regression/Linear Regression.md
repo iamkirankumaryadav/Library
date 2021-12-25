@@ -175,7 +175,7 @@ Amount of R | **Strength** of **Correlation**
 - **Alternate** Hypothesis ( H1 ) : There is a **linear relationship**
 - P value is calculated ( if P Value > 0.05 : Then **accept** Null Hypothesis else **reject** Null Hypothesis )
 
-### Multicollinearity
+### `Multicollinearity`
 - Generally occurs when there are `high correlation` between two or more `independent` variables.
 - One `independent` variable can be used to predict the other. This creates `redundant` information.
 - Regression equation becomes **unstable** and create **confusion**.
@@ -185,45 +185,40 @@ Amount of R | **Strength** of **Correlation**
 - `Tolerance | T`  = 1 - R<sup>2</sup> ( T < 0.1 | There is **multicollinearity** ) 
 - `Variance Inflation Factor | VIF` = 1 / ( 1 - R<sup>2</sup> ) ( VIF > 10 | There is **multicollinearity** )
 
-### Causality
+### `Causality`
 - Relationship between **cause** and its **effect**.
 - One variable **affects** other variable ( Temperature affect icecream sale | Sale of icecream is more in summer )
 
-### 2. Remove Noise 
+### `Remove Noise`
 - Remove **Outliers** 
 
-### 3. Remove Collinearity
+### `Remove Collinearity`
 - If Independent features are **highly** correlated, Linear regression will **overfit** your data.
 - Pairwise correlations for independent features and remove the correlated.
 
-### 4. Gaussian Distributions
-- More reliable predictions.
-- Using **transform** makes data more Gaussian.
+### `Rescale` Independent Features
+- `Rescale` Independent Features for more reliable predictions use `Standardization` or `Normalization`
 
-### 5. Rescale Independent Features
-- **Rescale** Independent Features for more **Reliable** Predictions use **Standardization** or **Normalization**.
-
-### 6. Residuals 
+### `Residuals`
 
 ![R](Image/R.png)
 
-- The Difference between **Predicted Value** from the **Actual Value**.
-- Check the **Residual** | **Error** of the Regression Line.
+- The difference between `predicted value` and `actual value`
 
 ![Residual](Image/Residual.png)
 
-- Should be as low as Possible ( Complete Removal of Error is Impossible )
+- Should be low as Ppossible ( Complete removal of error is impossible )
 
 ![Difference](Image/Difference.png)
 
-- **Positive** Residual : Actual Value is **above** the Regression Line.
-- **Negative** Residual : Actual Value is **below** the Regression Line.
+- `Positive` Residual : Actual value is `above` the regression line.
+- `Negative` Residual : Actual value is `below` the regression line.
 
 ![Positive Negative](Image/PN.png)
 
 ### Extraploation
 
-- Making **Predictions** outside **Range** of Data.
+- Making `predictions` outside `range` of data.
 
 ![Extrapolation](Image/Extrapolation.png)
 
