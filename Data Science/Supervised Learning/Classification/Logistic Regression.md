@@ -94,5 +94,7 @@ Extends binary class classification to multi class classification.
 - digit `2` vs digit `0`, `1` and `3`
 - digit `3` vs digit `0`, `1` and `2`
 
+[Implementation](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/05.Logistic%20Regression%20for%20Multiclass%20Classification.ipynb)
+
 The model that predicts the highest class probability is the predicted class.
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
