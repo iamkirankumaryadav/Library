@@ -29,7 +29,7 @@ e.g ( If a public health dataset contains 96% of observations for `35 years old 
 
 ### Dimensionality reduction advantage
 - Reduce `dimensions` 
-- Explain `variance` 
+- Explain `variance` (Spread between numbers in the dataset)
 - Minimize `correlation`
 
 ### Principle Component Analysis ( PCA ) : Unsupervised | Numerical
