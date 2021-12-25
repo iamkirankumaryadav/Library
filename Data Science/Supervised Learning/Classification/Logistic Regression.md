@@ -9,29 +9,28 @@
 - Explain relationship between one dependent **binary** variable and one or more **nominal** or **ordinal** independent variable.
 - Logistic regression is affected by the scale, so always `standardize` the features before applying logistic regression. 
 
-### Logistic Function  | Sigmoid ( S Shaped Curve ) Function
+### Logistic Function  | `Sigmoid` ( S Shaped Curve ) Function
 - Accepts any `real` value and map it into a value between `0` and `1`
 - The probability prediction must be transformed to `binary` | dichotomous ( `0` and `1` )
 - Threshold | Decision boundary : 0.5 ( `Probability` < `0.5` is considered as `0` else `1` )
 
-### When to Use Logistic Regression
-- **Binary** target variable | Performs will with a small number of observations.
-- **Fair** data ( Not to many `outliers` or `missing` data in the data set ) 
-- Logistic regression is good for **fast training** ( It is not the best performing model )
+### When to use Logistic Regression ?
+- When `target` variable has `binary` class labels | Performs well with a small number of observations.
+- Data with very low `outliers` or `missing` data points in the data set.
+- Logistic regression is good for `fast training` ( It is not the best performing model )
 - No tuning is usually required.
 
 ### Remove Correlated Independent Feature
 - The model can `overfit` if you have multiple highly correlated independent features.
-- Calculate the pairwise correlations between all independent features and removing highly correlated independent feature.
+- Calculate the pairwise correlations between all independent features and remove highly correlated independent feature.
 
 ### Example
-- **Linear regression** helps us to predict the student's test score on a scale of 0 - 100 | `Continuous`
-- **Logistic regression** helps us to classify whether the student is passed or failed | `Discrete`
+- `Linear regression` helps us to `predict` the student's test score on a scale of 0 - 100 | `Continuous`
+- `Logistic regression` helps us to `classify` whether the student is passed or failed | `Discrete`
 
-### Types of Logistic Regression
-1. Binary (Pass(1) | Fail(0))
-2. Multiclass or Multinomial (Cats | Dogs | Sheep)
-3. Ordinal (Low | Medium | High)
+### `Types` of Logistic Regression
+- `Binary` ( Pass(1) | Fail(0 )  
+- `Multiclass` ( Cats | Dogs | Sheep )
 
 ```python
 # Binary Classification
@@ -79,11 +78,11 @@ cm = metrics.confusion(y_test, model.predict(X_test))
 
 ```
 
-### How to handle multiclass classification problems.
+### How to handle `Multiclass` classification problems.
 
-- Split the task into multiple binary classification datasets.
-- Fit the binary classification model on each.
-- Set parameter `multi_class`='ovr'
+- `Split` the task into multiple binary classification datasets.
+- `Fit` the binary classification model on each set.
+- Set parameter `multi_class='ovr'`
 
 ### One vs rest | One vs all
 
