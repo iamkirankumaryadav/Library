@@ -88,14 +88,14 @@
 
 <h3 name="logistic">Logistic Regression | Classification</h3>
 
-- **Predict** the `Class` | `Label` of a data point on the basis of one or more `Independent` features.
-- Depending on the number of `Class` | `Label` that `Target` variable includes, it can be `Binary` or `Multi Class` classification.
-- Data set should contain well `Balanced` class distribution.
+- `Predict` the `class` | `label` of a data point on the basis of one or more `independent` features.
+- Depending on the number of `classes` | `labels` that `target` variable includes, it can be `Binary` or `Multiclass` classification.
+- Data set should contain well `balanced` class distribution. ( e.g. Total Students = 100 : 50 Boys + 50 Girls )
 - **Good Classifier** : `1 or 100%` | **Bad Classifier** < `0.5 or 50%`
 
 <h3 name='cm'>1. Confusion Matrix</h3>
 
-- Show `Correct` and `Incorrect` Predictions | Classifications on each **Class** | **Label**
+- Help us to evaluate `correct` and `incorrect` classifications on each `class` | `label`
 
 ![Classification](Image/Classification.png)
 
