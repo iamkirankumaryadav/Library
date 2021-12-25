@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# Dimensionality Reduction
+# `Dimensionality Reduction`
 
 - `Unsupervised` Machine Learning. 
 - Number of **features** ( `columns` ) should be low as compared to the number of **observations** ( `rows` ) in your dataset. 
