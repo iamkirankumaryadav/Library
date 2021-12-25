@@ -78,9 +78,9 @@
 
 - Improvement of R<sup>2</sup> ( Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup> )
 - Compare models with different number of `Independent` features.
-- Adjusted R<sup>2</sup> **Increases** only if the new `Independent` feature improves the model **More** than expected.
-- Adjusted R<sup>2</sup> **Decreases** if the new `Independent` feature improves the model **Less** than expected.
-- Provides more accurate `Correlation` between features.
+- Adjusted R<sup>2</sup> `increases` only if the new `independent` feature improves the model `more` than expected.
+- Adjusted R<sup>2</sup> `decreases` if the new `independent` feature improves the model `less` than expected.
+- Provides more accurate `correlation` between features.
 
 | MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
 | :--- | :--- | :---
