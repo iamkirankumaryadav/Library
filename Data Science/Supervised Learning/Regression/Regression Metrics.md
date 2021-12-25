@@ -84,7 +84,7 @@
 
 | MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
 | :--- | :--- | :---
-| Good Model : Value closer to 0 | Good Model : Value closer to 1 | Increases only if new term improves model
+| Good Model : Value closer to `0` | Good Model : Value closer to `1` | Increases only if new term improves model
 
 <h3 name="logistic">Logistic Regression | Classification</h3>
 
