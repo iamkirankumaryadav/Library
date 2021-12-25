@@ -157,17 +157,15 @@ False Negative ( FN ) : Predicts 0 when Actual is 1 | Type II Error | Incorrect 
 
 <h3 name='roc'>7. ROC | Receiver Operating Characteristic Curve</h3>
 
-- Helps to Understand **Characteristics** of Curve by plotting `TPR` on **Y Axis** and `FPR` on **X Axis** at different Classification **Thresholds**.
-- **Y Axis** : True Positive Rate ( `TPR` )  
-- **X Axis** : False Positive Rate ( `FPR` )
-- **Plots** `TPR` vs `FPR` at Different Classification `Thresholds`
-- If Threshold is near to `1.0` or `100%`: **Classifications** gets more **Accurate**.
+- Helps to understand `characteristics` of curve by plotting, 
+- `TPR` ( True Positive Rate ) on `Y Axis` and `FPR` ( False Positive Rate ) on `X Axis` at different `classification thresholds`
+- If `threshold` is closer to `1.0` or `100%`: **Classifications** gets more `accurate`
 
 ![ROC](Image/ROC.svg)
 
 <h3 name='auc'>8. AUC | Area Under ROC Curve</h3> 
 
-- Helps to Understand **Performance** of a **Classification Model** across all Classification `Thresholds`.
+- Helps to understand `performance` of a classification model across all `classification thresholds`
 - AUC = 1.0 ( **Perfect** Classifier ) | AUC > 0.75 ( **Good** Classifier ) | AUC : **50%** ( **Bad** Classifier ) | AUC < 0.5 ( **Worst** Classifier )
 
 ![AUC](Image/AUC.png)
