@@ -4,7 +4,7 @@
 
 **Data set** contains **features** with different range of values. 
 
-We `normalize` or `standardize` data to bring down to same **range** | **scale**.
+We `normalize` or `standardize` data to bring down to same `range` or `scale`
 
 Data Normalization | Data Standardization ( Z Score Normalization )
 :--- | :---
