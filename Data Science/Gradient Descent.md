@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# Gradient Descent
+# `Gradient Descent`
 
 - An `optimization` algorithm used while training a model.
 - Tweaks its `parameters` iteratively to minimize a given cost function ( `loss` )
@@ -10,7 +10,7 @@
 - A `gradient` simply measures the change in weights ( `slope` ) with regard to the change in error.
 - Higher the gradient, steeper the slope and faster a model can learn, once the slope is `0`, model stops learning. 
 
-### Importance of Learning Rate
+### `Learning Rate`
 
 - `Size` of steps taken into the direction of the local minimum are determined by the `learning rate`
 - It represents how `fast` or `slow` we will move towards the `global minimum`
