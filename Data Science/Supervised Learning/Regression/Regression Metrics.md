@@ -166,7 +166,13 @@ False Negative ( FN ) : Predicts 0 when Actual is 1 | Type II Error | Incorrect 
 <h3 name='auc'>8. AUC | Area Under ROC Curve</h3> 
 
 - Helps to understand `performance` of a classification model across all `classification thresholds`
-- AUC = 1.0 ( **Perfect** Classifier ) | AUC > 0.75 ( **Good** Classifier ) | AUC : **50%** ( **Bad** Classifier ) | AUC < 0.5 ( **Worst** Classifier )
+
+Score | Classifier
+--- | ---
+AUC = 1.0 | `Perfect` Classifier  
+AUC > 0.75 | `Good` Classifier 
+AUC > 0.5 | `Bad` Classifier 
+AUC < 0.5 | `Worst` Classifier
 
 ![AUC](Image/AUC.png)
 
