@@ -147,19 +147,20 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
 ### `Multicollinearity`
 
 - Generally occurs when there are `high correlation` between two or more `independent` variables.
+- One `independent` variable can be used to predict the other. This creates `redundant` information.
 - e.g. Experience vs Salary, Height vs Weight, Age of Car vs Car Price.
 - Observations ( Rows ) and features ( Columns ) should be **independent**.  
 
-### Covariance
+### `Covariance`
 
 - **Relationship** between two variables.
 - **Positive** Covariance : Two variables tends to move in **same direction**.
 - **Negative** Covariance : Two variables tends to move in **opposite direction**.
 - **Direction** of the **linear relationship** between variables.
 
-### Correlation
+### `Correlation`
 
-- Measures **strength** and **direction** of **relationship** between two **quantitative** variables.
+- Measures `strength` and `direction` of `relationship` between two `quantitative` variables.
 - One variable can predict the other variable, Varies between `-1` ( Perfect Negative ) to `1` ( Perfect Positive )
 
 Amount of R | **Strength** of **Correlation**
