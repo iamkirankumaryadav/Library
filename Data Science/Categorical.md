@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# How to Deal with Categorical Data ?
+# How to Deal with `Categorical Data` ?
 
 - `Nominal` : No ordering | No ranking among the values e.g. **Genre** of music, movie and videos.
 - `Ordinal` : Order | Rank among the values. e.g. Size of tshirts ( XS - S - M - L - XL - XXL ) education level, grades. 
