@@ -144,7 +144,9 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
 
 ![Homoscedasticity](Image/Homo.png)
 
-- **Multicollinearity** : Two or more **independent** variables **correlate** strongly with each other. 
+### `Multicollinearity`
+
+- Generally occurs when there are `high correlation` between two or more `independent` variables.
 - e.g. Experience vs Salary, Height vs Weight, Age of Car vs Car Price.
 - Observations ( Rows ) and features ( Columns ) should be **independent**.  
 
