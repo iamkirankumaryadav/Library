@@ -11,12 +11,12 @@
 
 ### ( SMOTE : Synthetic minority oversampling technique )
 
-- Randomly **duplicate** the minority class observations in order to **reinforce** the learning of data.
+- Randomly **duplicate** the `minority` class observations in order to **reinforce** the learning of data.
 - Resample minority class with `replacement`, setting number of samples to match with `majority` class.
 - Combine the `up sampled` data with orignal `majority` class data ( dataframe )
 
 ### 2. Down | Under sampling majority class | Sampling without replacement 
-- Randomly **drop** majority class observations ( Resampling **without** replacement )
+- Randomly **drop** the `majority` class observations ( Resampling **without** replacement )
 - Resample majority class `without` replacement, setting number of samples to match with `minority` class.
 - Combine the `down sampled` data with orignal `minority` class data ( daatframe )
 
