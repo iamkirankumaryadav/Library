@@ -22,7 +22,7 @@
 
 ### 3. Choose right evaluation metric
 - `F1 Score` : Number between `0` and `1` ( Harmonic mean of `recall` and `precision` )
-- `F1 Score` is a **harmonic mean** of `recall` and `precision` ( Keep balance between `recall` and `precision` )
+- `F1 Score` keeps balance between `recall` and `precision`
 
 ### 4. Use cross validation 
 - Use `stratified k fold cross validation` with equally distributed class labels to train the model.
