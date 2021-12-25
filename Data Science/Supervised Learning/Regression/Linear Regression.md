@@ -4,12 +4,12 @@
 
 <h3><a href='#linreg'>Linear Regression</a> | <a href='#simple'>Simple Linear</a> | <a href='multiple'>Multiple Linear</a> | <a href='#ols'>Ordinary Least Square</a> | <a href='#gd'>Gradient Descent</a> | <a href='#ass'>Assumptions</a></h3>
 
-### Regression
+### `Regression`
 
 - **Estimating** the **relationships** between **independent variables** and **dependent variable** to make **predictions**.
 - Finding relationship between **features matrix** and **target vector**.
 
-### Linear Regression 
+### `Linear Regression`
 
 - **Target** variable is **continuous numeric** values.
 - The **best fit line** which gives **least** number of **errors**.  
@@ -144,13 +144,6 @@ Used when there is Collinearity ( One Independent Feature can completely Describ
 
 ![Homoscedasticity](Image/Homo.png)
 
-### `Multicollinearity`
-
-- Generally occurs when there are `high correlation` between two or more `independent` variables.
-- One `independent` variable can be used to predict the other. This creates `redundant` information.
-- e.g. Experience vs Salary, Height vs Weight, Age of Car vs Car Price.
-- Observations ( Rows ) and features ( Columns ) should be **independent**.  
-
 ### `Covariance`
 
 - **Relationship** between two variables.
@@ -183,9 +176,12 @@ Amount of R | **Strength** of **Correlation**
 - P value is calculated ( if P Value > 0.05 : Then **accept** Null Hypothesis else **reject** Null Hypothesis )
 
 ### Multicollinearity
-- Two or more independent features **correlate** strongly with each other.
-- Regression equation becomes **unstable** and create **confusion**. 
+- Generally occurs when there are `high correlation` between two or more `independent` variables.
+- One `independent` variable can be used to predict the other. This creates `redundant` information.
+- Regression equation becomes **unstable** and create **confusion**.
+- Observations ( Rows ) and features ( Columns ) should be **independent**.
 - **Remove** one feature to prevent from **multicollinearity** and make regression **stable**.
+- e.g. Experience vs Salary, Height vs Weight, Age of Car vs Car Price.   
 - **Tolerance** ( `T` ) = 1 - R<sup>2</sup> ( T < 0.1 | There is **multicollinearity** ) 
 - **Variance Inflation Factor** ( `VIF` ) = 1 / ( 1 - R<sup>2</sup> ) ( VIF > 10 | There is **multicollinearity** )
 
