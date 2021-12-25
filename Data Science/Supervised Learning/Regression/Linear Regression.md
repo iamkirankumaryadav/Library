@@ -182,8 +182,8 @@ Amount of R | **Strength** of **Correlation**
 - Observations ( Rows ) and features ( Columns ) should be **independent**.
 - **Remove** one feature to prevent from **multicollinearity** and make regression **stable**.
 - e.g. Experience vs Salary, Height vs Weight, Age of Car vs Car Price.   
-- **Tolerance** ( `T` ) = 1 - R<sup>2</sup> ( T < 0.1 | There is **multicollinearity** ) 
-- **Variance Inflation Factor** ( `VIF` ) = 1 / ( 1 - R<sup>2</sup> ) ( VIF > 10 | There is **multicollinearity** )
+- `Tolerance | T`  = 1 - R<sup>2</sup> ( T < 0.1 | There is **multicollinearity** ) 
+- `Variance Inflation Factor | VIF` = 1 / ( 1 - R<sup>2</sup> ) ( VIF > 10 | There is **multicollinearity** )
 
 ### Causality
 - Relationship between **cause** and its **effect**.
