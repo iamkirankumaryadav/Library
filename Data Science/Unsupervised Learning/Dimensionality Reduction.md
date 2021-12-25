@@ -19,6 +19,8 @@
 - Feature **extraction** creates a `new` subset.
 
 ### Variance Thresholds
+- Variance is `spread` between numbers in the dataset.
+- How far each number is from it's `mean` and every other number (`data points`)
 - `Variance` is dependent on scale, always **normalize** your **features** first.
 - Remove features whose values don't change much from observation to observation. 
 e.g ( If a public health dataset contains 96% of observations for `35 years old men`, then age and gender features can be eliminated )
@@ -29,7 +31,7 @@ e.g ( If a public health dataset contains 96% of observations for `35 years old 
 
 ### Dimensionality reduction advantage
 - Reduce `dimensions` 
-- Explain `variance` (Spread between numbers in the dataset)
+- Explain `variance`
 - Minimize `correlation`
 
 ### Principle Component Analysis ( PCA ) : Unsupervised | Numerical
