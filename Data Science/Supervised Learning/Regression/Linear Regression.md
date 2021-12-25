@@ -207,7 +207,7 @@ Amount of R | **Strength** of **Correlation**
 
 ![Residual](Image/Residual.png)
 
-- Should be low as Ppossible ( Complete removal of error is impossible )
+- Should be `low` as possible ( Complete removal of error is impossible )
 
 ![Difference](Image/Difference.png)
 
