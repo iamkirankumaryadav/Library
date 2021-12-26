@@ -21,34 +21,26 @@
 - Remove features whose values don't change much from observation to observation. 
 - e.g If a health dataset contains 96% observations for `35 years` mens, then age and gender features can be eliminated.
 
-### Correlation Threshold
-- Remove highly correlated features ( Multicollinearity )
-- **Highly correlated** data provides **redundant** information.
+### Correlation `Threshold`
+- Remove highly correlated features ( Multicollinearity ), this provides `redundant` information.
 
 ### Dimensionality reduction advantage
-- Reduce `dimensions` 
-- Explain `variance`
-- Minimize `correlation`
+- Reduce `dimensions` ( # features ), explains `variance` and minimize `correlation` ( redundancy )
 
-### Principle Component Analysis ( PCA ) : Unsupervised | Numerical
-- **Transforms** large set of variables into small without **loss** of any information in dataset.
-- Reduce the number of **variables** of dataset.
-- Used especially for `numerical` data.
+### Principle Component Analysis `PCA` : Unsupervised | Numerical
+- `Transforms` large set of variables into small without `loss` of any information in dataset.
+- Reduce the number of **variables** of dataset, used especially for `numerical` data.
 
-### Linear Discriminant Analysis ( LDA ) : Supervised | Categorical
-- Seperate `classes` or `labels`.
-- Works better with large data set.
-- Used especially for `categorical` data.
+### Linear Discriminant Analysis `LDA` : Supervised | Categorical
+- Seperate `classes` or `labels`, works better with large data set, used especially for `categorical` data.
  
-### Auto Encoder
-- `Unsupervised` learning method, type of Artificial Neural Network.
-- Learn and discover the **representation** and **structure** of dataset.
-- Ignore noise in data. 
+### Auto Encoder | Unsupervised | `ANN`
+- Learn and discover the `representation` or `structure` of dataset, ignores noise in data. 
 
 ### Applications of Auto Encoders include:
 
-1. Anomaly detection.
+1. Anomaly detection ( Unusual or unexpected behaviour )
 2. Removing noise from data ( Images, audio and video )
-3. Image inpainting | Conservation | Restoration ( **Reconstructing** missing part of an image )
+3. Image inpainting | Conservation | Restoration ( `Reconstructing` missing part of an image )
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
