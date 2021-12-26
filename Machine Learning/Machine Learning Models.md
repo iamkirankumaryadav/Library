@@ -49,8 +49,8 @@
         <li>Simple Linear ( Best Fit Line )</li>
         <li>Multiple Linear ( Best Fit Plane )</li>            
         <li>Polynomial ( Best Fit Curve )</li>
-        <li>Lasso ( L1 )</li>
-        <li>Ridge ( L2 )</li>
+        <li>Lasso ( L1 ) Sum of Absolute</li>
+        <li>Ridge ( L2 ) Sum of Square</li>
       </ol>
     </td>
     <td rowspan=3>
