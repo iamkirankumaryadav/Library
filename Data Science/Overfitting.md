@@ -11,7 +11,7 @@
 - Model has just memorized the data, it was not able to learn the `hidden patterns` and `relationships`
 - Model performs **better** on **training** dataset but it does not **generalize** well on the **new unseen** test set.
 
-### How to identify overfitting ? 
+### How to `identify` overfitting ? 
 
 ### Hold Out Data | Split Data Set | Train Test Split | Observe Accuracy ( Score )
 - **Split** the **data set** into `train set` and `test set`.
