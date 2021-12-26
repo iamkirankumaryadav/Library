@@ -11,7 +11,7 @@
 
 ### `Learning Rate`
 
-- `Size` of steps taken into the direction of the local minimum are determined by the `learning rate`
+- Determines the `step size` taken into the direction of the local minimum.
 - It represents how `fast` or `slow` we will move towards the `global minimum`
 - Learning rate should be set to an appropriate value, neither too low nor too high. 
 - If the steps are too big, it will `overshoot` or `bounce` back and forth between convex function.
