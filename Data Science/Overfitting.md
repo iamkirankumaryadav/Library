@@ -13,12 +13,12 @@
 
 ### How to `identify` overfitting ? 
 
-### Hold Out Data | Split Data Set | Train Test Split | Observe Accuracy ( Score )
-- **Split** the **data set** into `train set` and `test set`.
-- Check whether the trained model **generalizes** well on **new unseen** test set. 
-- **Accuracy** of **train set** : `model.score( X_train, y_train )`
-- **Accuracy** of **test set** : `model.score( X_test, y_test )`
-- If **accuracy** of **train set** is better and **accuracy** on **test set** is worst ( `Overfitting` )
+### Train Test Split | Observe Accuracy ( Score )
+- `Split` the **dataset** into `train` and `test` set.
+- Check whether the trained model `generalizes` well on **new unseen** test set. 
+- `Accuracy` of `train` set : `model.score( X_train, y_train )`
+- `Accuracy` of `test` set : `model.score( X_test, y_test )`
+- If `accuracy` of `train` set is better and `accuracy` on `test` set is worst ( `Overfitting` )
 
 ### How to prevent from overfitting ?
 
