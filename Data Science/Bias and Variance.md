@@ -51,7 +51,7 @@ Simple model do not capture **Hidden** Patterns and Relations properly | Model *
 - Generalized enough to work with any **new unseen data** ( Low Variance ) 
 
 ### How to Obtain Optimal Tradeoff
-1. **Hyperparameter Tuning** : Choosing a set of `optimal` **hyperparameter** for training.
+1. **Hyperparameter Tuning** : Choosing a right set of `optimal` **hyperparameter** for training.
 2. **Regularization** ( `L1` and `L2`) : Technique used to reduce `overfitting` by discouraging  complex models.
 3. **Grid Search Cross Validation**.
 4. **Bagging** : **Random Forest**.
