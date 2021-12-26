@@ -278,11 +278,10 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/04.Logistic%20Regression.ipynb)
 
-- Model used for **classification**.
-- Used for tasks like classifying flower species and image recognition.
-- One or more independent features is used to **classify** categorical target labels. 
-- Dependent ( Output ) should be **categorical** ( 0 or 1 )
-- Probability of finite number of outcomes or occurence.
+- Model used for `classification` tasks like classifying flower species and image recognition.
+- One or more independent features is used to **classify** `categorical` target labels. 
+- Dependent ( Output ) should be `categorical` ( 0 or 1 )
+- `Probability` of finite number of outcomes or occurence.
 
 ### Advantages of Logistic Regression
 
