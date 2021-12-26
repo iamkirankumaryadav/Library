@@ -2,7 +2,7 @@
 
 # `Imbalanced dataset`
 
-`Class labels` of target should be `balanced` otherwise it predicts a **biased output**.
+### `Class labels` of target should be `balanced` otherwise it predicts a `biased` output.
 
 - e.g. Flower Species 150 : 50 Setosa, 50 Verginica and 50 Versicolor
 
