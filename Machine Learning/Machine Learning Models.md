@@ -306,48 +306,48 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/06.Decision%20Tree.ipynb)
 
 - A very interpretable machine learning algorithm.
-- **Root** Node : Decisions | Conditions | Outcomes.  
-- Edges : Branches | Splits of Trees.
-- Leaf Node : Terminal | Label | Class.
-- We select the feature as **Node** that **Splits** the data very well.
-- Attribute with **High Information Gain** or **Low Entropy** is selected as **Best Attribute** to split.
-- Used especially for **Binary** classification and **Multiclass** classification and even used for **Regression**.
-- Models where the `Target` variable takes a **Categorical** set of values are **Classification** tree.
-- Models where the `Target` variable takes a **Continuous** values are **Regression** Tree.
-- **CART** : **C**lassification **A**nd **R**egression **T**ree.
+- `Root Node` : `Decisions` | `Conditions` | `Outcomes`
+- `Edges` : `Branches` | `Splits`
+- `Leaf Node` : `Terminal` | `Label` | `Class`
+- We select the feature as `Node` that **splits** the data very well.
+- Attribute with `High Information Gain` or `Low Entropy` is selected as `best attribute` to split.
+- Used especially for `binary` classification and `multiclass` classification and even used for `Regression`
+- Models where the `target` variable takes a `categorical` set of values are `classification` tree.
+- Models where the `target` variable takes a `continuous` values are `regression` Tree.
+- `CART` : **C**lassification **A**nd **R**egression **T**ree.
 - Growing a tree means deciding which **Feature** to choose ? and what condition to use ? for splitting.
-- Continuous can be converted into `Binary` or `Boolean` by setting **Threshold** value.
-- We should also know when to **Stop** | **Terminate** ( **Max Depth** ) 
-- Decision tree can be **Pruned** if necessary to avoid `Overfitting` 
+- `Continuous` can be converted into `binary` or `boolean` by setting `threshold` value.
+- We should also know when to `stop` | `terminate` ( **Max Depth** ) to prevent from `overfitting`
+- Decision tree can be `pruned` if necessary to avoid `overfitting` 
 
-### Information Gain ( Which Feature will be selected as Root Node ? )
+### `Information Gain` ( Which Feature will be selected as Root Node ? )
 
-- **High IG** is better.
-- **Information Gain** decides which feature will become `Node` and will **Split** the data further for building the **Tree**.
-- Split with the high **Information Gain** will be considered as first split and the process will continue untill **IG** becomes 0.
+- `High Information Gain` is better ( Explains the split very well )
+- `Information Gain` decides which feature will become `Node` and will `split` the data further for building the **tree**.
+- Split with the `High Information Gain` will be considered as first split and the process will continue untill **IG** becomes 0.
 
-### Gini Index ( Checks for Impurity in the dataset )
+### `Gini Index` ( Checks for `Impurity` in the dataset )
 
-- **Low** Gini Index is better.
-- **Pure** : All data belongs to **Same** class in a subset ( Gini Index : 0 )
-- **Impure** : Data is mixture of **Different** classes in a subset.
+- `Low Gini Index` is better.
+- `Pure` : All data belongs to `same` class in a subset ( Gini Index = 0 )
+- `Impure` : Data is mixture of `different` classes in a subset.
 
-### Entrophy ( Measure Disorder | Randomness | Uncertainity in Data )
+### `Entrophy` ( Measure Disorder | Randomness | Uncertainity in Data )
 
-- **Low** Entrophy is Better. ( Easy to Draw Conclusion from Data )
-- **High** Entrophy ( Hard to Draw Conclusion from Data )
+- `Low Entrophy` is better. ( Easy to draw conclusion from data )
+- `High Entrophy` ( Hard to draw conclusion from data )
 
 Advantage of Decision Tree | Disadvantage of Decision Tree
 :--- | :---
-Handle **Categorical** and **Numerical** Data | Prone to **Overfitting**
-No effect of **Outliers** | Need carefull **Parameter Tuning**
-Handle **Non Linear Data** |
+Handle `categorical` and `numerical` data | Prone to `overfitting`
+No effect of `outliers` | Need carefull **parameter tuning**
+Handle **non linear data** |
 
-> Individual trees are prone to **Overfitting** but improves when **Ensembled**.
+### Individual trees are prone to `overfitting` but improves when `ensembled`
 
-### How to Avoid Overfitting
-- Remove | **Prune** branches with less importance ( Irrelevant Feature )
-- Early stop ( Limit the **Max Depth** of the tree )
+### How to Avoid Overfitting ?
+- Remove | `Prune` branches with less importance ( Irrelevant Feature )
+- Early stop ( Limit the `Max Depth` of the tree )
 
 <h3 name='forest'>4. Random Forests ( Ensemble Learning Technique | Bagging )</h3>
 
