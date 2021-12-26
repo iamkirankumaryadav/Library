@@ -5,7 +5,7 @@
 - `Nominal` : No ordering | No ranking among the values e.g. **Genre** of music, movie and videos.
 - `Ordinal` : Order | Rank among the values. e.g. Size of tshirts ( XS - S - M - L - XL - XXL ) education level, grades. 
 - `Binary` : Male or Female | Yes or No | True or False | 1 or 0 ( Dichotomous )
-- You can’t **train** the model directly with **categorical variables** in their raw form. 
+- We can't `train` the model directly with `categorical labels` they need to be encoded.
 - `Encoding` : Transforming `categorical labels` in `numeric values` that can be consumed by model.
 
 ### `Logistic Regression`
