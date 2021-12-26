@@ -26,7 +26,7 @@
 
 ### 2. Apply [Regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) 
 
-- Slope | Coefficient | Weight | Gradient
+- Slope | Coefficient | Weight | Gradient ( All are same )
 - Lasso ( `L1` ) : Sum of `absolute` of `slope` ( **Coefficient** to exactly 0 )
 - **Simplify** the model + **feature selection** ( Select only **important** features )
 - Ridge ( `L2` ) : Sum of `square` of `slope` ( **Penalize** slope values towards 0 )
