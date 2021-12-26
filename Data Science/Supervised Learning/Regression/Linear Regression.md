@@ -89,7 +89,7 @@
 
 <h3 name='gd'>Gradient Descent</h3>
 
-- **Optimizing** the values of the `coefficients` ( `Slope` and `Intercept` ) by **iteratively** minimizing the `error` of model on `training data`
+- **Optimizing** the values of the `coefficients` by **iteratively** minimizing the `error` of model on `training data`
 - Starts with random values for each `coefficients`
 - Sum of Squared **Residuals** `SSR` is calculated for each pair ( `independent` and `dependent` values )
 - **Learning Rate** is used as a `scale` and the `coefficients` are updated in the direction towards `minimizing` the `residual`
