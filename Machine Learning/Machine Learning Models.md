@@ -395,8 +395,8 @@ Handle **non linear data** |
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
-- Based on `conditional probability` | Class **Prediction** Probability ( Used for `binary` and `multiclass` classification )
-- `Probabilistic` machine learning model ( i.ee Likelihood, `Prior` and `Posterior` Probability )
+- Naive Bayes is a `probabilistic classifier`, based on `Class Prediction Probability` ( `Binary` and `Multiclass` classification )
+- `Probabilistic` machine learning model ( i.e Likelihood, `Prior` and `Posterior` Probability )
 - Probability of `Event A` if `Event B` has already occured.
 - `Naive` : Assumes that all of the `features` are `independent` from each other.
 - e.g `Classification` of Dogs Breed ( Naive Bayes tries to create a `probability` that each Dog belongs to seperate `Class` )
