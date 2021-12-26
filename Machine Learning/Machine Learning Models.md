@@ -46,9 +46,9 @@
   <tr>
     <td rowspan=3>
       <ol type=1>        
-        <li>Simple Linear ( Line of Best Fit )</li>
-        <li>Multiple Linear ( Plane of Best Fit )</li>            
-        <li>Polynomial ( Curve of Best Fit )</li>
+        <li>Simple Linear ( Best Fit Line )</li>
+        <li>Multiple Linear ( Best Fit Plane )</li>            
+        <li>Polynomial ( Best Fit Curve )</li>
         <li>Lasso ( L1 )</li>
         <li>Ridge ( L2 )</li>
       </ol>
