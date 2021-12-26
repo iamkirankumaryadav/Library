@@ -31,19 +31,16 @@
 
 ![Equation Line](Image/EquationLine.png)
 
-### B1 | m : Slope 
-
-- **Gradient** | **Steepness** in Line | **Direction** of Line | **Weight**
-- Indicates how much the **dependent variable** changes, if an **independent variable**  changes by **one unit**.
+### `m` | `Slope` | `Gradient` | `Steepness` of Line | `Direction` of Line | `Weight`
+- Indicates how much the `dependent variable` changes, if an `independent variable`  changes by `one unit`
 
 ![Positive Slope](Image/Positive.png)
 
 ![Negative Slope](Image/Negative.png)
 
-### B0 | c : Intercept 
-
-- Bias | Constant | The place where **regression line** intersects the Y axis. 
-- Value of Y when value of X and value of **coefficients** = 0
+### `c` | `Intercept` | `Bias` | `Constant` 
+- The point where regression line `intersects` the `Y` axis. 
+- Value of `Y` when value of `X` and value of `coefficients` = `0`
 
 ### R<sup>2</sup> : Coefficient of Determination | Goodness of Fit
 
