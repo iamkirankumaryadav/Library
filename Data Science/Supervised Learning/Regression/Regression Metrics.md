@@ -65,10 +65,10 @@
 
 ![R2](Image/R2.png)
 
-- Helps to understand how well the model `Fits` the data | How well the model `Predicts` new observations.
-- Measure how `Close` each **data point** `Fits` the **Regression Line** | How well the **Regression Line** `Predicts` **Actual Values**.
-- Ideal Value for R<sup>2</sup> is between `70%` to `90%` ( Model `Fits` the data very well )
-- Help us to `Compare` **Created** model with the **Base** model.
+- Helps to understand how well the model `fits` the data i.e. how well the model make `predictions` on new observations.
+- Measure how `close` each **data point** `fits` the **regression line** i.e. how well the **regression line** `predicts` **actual values**.
+- Ideal value for R<sup>2</sup> is between `70%` to `90%` ( i.e. Model `fits` the data very well )
+- Help us to `compare` **created** model with the **base** model ( Mean )
 
 ![R2 Score Scikit Learn](Image/R2Score.png)
 
