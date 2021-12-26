@@ -24,11 +24,12 @@
 - `F1 Score` keeps balance between `recall` and `precision`
 
 ### 4. `Stratified K Fold Cross Validation`
+
 - Sample containing `equal` proportion of each `class labels` to train the model.  
 
 ### 5. `Random Forest` supports imbalanced data set
 
-`Random forest` : Parameter `class_weights` ( We can specify a higher weight for the **minority** class )
+- Parameter `class_weights` ( We can specify a higher weight for the `minority` class )
 
 ### 6. `Collect` more data for `Minority Class`
 
