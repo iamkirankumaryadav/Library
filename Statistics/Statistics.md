@@ -3,9 +3,9 @@
 # Statistics
 <h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a></h3>
 
-When we Start anything we Start from Beginning but with a Data Set we Start from `Centre`.
+When we start anything we start from beginning but with a dataset we start from `centre`
 
-`Sample` is **Representative** of `Population`.
+`Sample` is **representative** of `Population`.
 
 Larger Sample = Greater Accuracy = More Confidence
 
