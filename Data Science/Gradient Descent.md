@@ -5,9 +5,9 @@
 - An `optimization` algorithm used while training a model.
 - Gradient descent starts from defining some initial parameter's values. 
 - Iteratively it `adjust` the parameters values to `minimize` the given cost function ( loss | error )
-- A `gradient` ( `m` ) measures how much the output of a function changes after unit change in input.
-- A `gradient` simply measures the change in weights ( `slope` ) with regard to the change in error.
-- Higher the gradient, steeper the slope and faster a model can learn, once the slope is `0`, model stops learning. 
+- Gradient `m` measures how much the output of a function changes after unit change in input.
+- Gradient simply measures the change in weights i.e. `slope` with regards to the change in error.
+- `Higher` the gradient, `steeper` the slope and `faster` a model can learn and reach global minima, once the slope is `0`, model stops learning. 
 
 ### `Learning Rate`
 
