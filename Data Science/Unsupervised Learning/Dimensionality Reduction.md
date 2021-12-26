@@ -19,7 +19,7 @@
 - Variance represents how `spreadout` the data points are with respect to each others in the dataset.
 - `Variance` is dependent on `scale`, always `normalize` or `standardize` your features first.
 - Remove features whose values don't change much from observation to observation. 
-e.g ( If a public health dataset contains 96% of observations for `35 years old men`, then age and gender features can be eliminated )
+- e.g If a health dataset contains 96% observations for `35 years` mens, then age and gender features can be eliminated.
 
 ### Correlation Threshold
 - Remove highly correlated features ( Multicollinearity )
