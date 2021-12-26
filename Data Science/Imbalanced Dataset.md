@@ -23,11 +23,11 @@
 - `F1 Score` : Number between `0` and `1` ( Harmonic mean of `recall` and `precision` )
 - `F1 Score` keeps balance between `recall` and `precision`
 
-### 4. `Stratified K Fold Cross Validation`
+### 4. `Stratified` K Fold Cross Validation
 
 - Sample containing `equal` proportion of each `class labels` to train the model.  
 
-### 5. `Random Forest` supports imbalanced data set
+### 5. `Random Forest` supports imbalanced dataset
 
 - Parameter `class_weights` ( We can specify a higher weight for the `minority` class )
 
