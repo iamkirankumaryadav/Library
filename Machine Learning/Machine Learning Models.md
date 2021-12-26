@@ -204,10 +204,10 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 
 ### Scikit Learn
 
-1. Scikit learn is a great library for creating machine learning model from data.
+1. Scikit learn is a great library for creating `machine learning model` from data.
 2. Before you `fit` a model using scikit learn, you data has to be in a recognizable format.
-3. Scikit learn works well with `numeric` data that is stored in numpy arrays.
-4. It can also convert data from objects like pandas `dataframes` and numpy `arrays`
+3. Scikit learn works well with `numeric` data that is stored in `NumPy arrays`
+4. It can also convert data from objects like `Pandas : dataframes` and `NumPy : arrays`
 5. `Feature matrix` is a `2D` grid of data where `rows` represents `samples` and `columns` represents `features`     
 6. `Target vector` is usually `1D` vector `column`
 
