@@ -67,31 +67,25 @@
 
 ### Polynomial Regression
 
-- Finding **best fit curve**.
+- Finding `best fit curve`
 
-### Logistic Regression
-
-- Dependent variable is **categorical**, used for **classification**. 
-- **Probability** of **occurence** of **target label** is predicted on the basis of **threshold** ( `0.5` )
-- **Range** value of **prediction** lies between `0` to `1` ( **Binary** classification )
-
-### LASSO
-- Use **shrinkage** ( Exactly 0 ), Good for **multicollinearity**.
+### LASSO `L1`
+- Use `shrinkage` ( Exactly `0` ), Good for **multicollinearity**.
 - Completely eliminates the features.
 
-### Ridge Regression
+### Ridge Regression `L2`
 - Good for data with **noise**.
 - Try to learn the complicated model.
 
 ### Stepwise Regression
-- More advance technique, Uses tests to remove **predictors**, can handle **large number** of **independent variables**.
+- More advance technique, Uses tests to remove `predictors`, can handle `large number` of `independent variables`
 
 <h3 name='ols'>Ordinary Least Squares (OLS)</h3>
 
-- More than One **Independent Features**, **Minimize** the Sum of Squared **Residuals** | **Errors** 
-- Sum ( Actual Data Point - Predicted Point ( Regression Line ) <sup>2</sup> )
-- Treat Data as **Matrix** ( **Feature Matrix** and **Target Vector** )
-- Use **Linear Algebra** | **Equation** of **Line** ( y = m * x + c ) to Estimate | Predict the **Optimal** Value for the **Coefficients**.
+- More than one `independent features`, it minimizes the `SSR` | `Errors`
+- Sum ( Actual Data Point - Predicted Point <sup>2</sup> )
+- Treat data as matrix ( `Feature Matrix` and `Target Vector` )
+- Use `Linear Algebra` | `Equation` of Line : `y=m*x + c` to estimate or predict the `optimal` value for the `coefficients` ( i.e m and c )
 
 <h3 name='gd'>Gradient Descent</h3>
 
