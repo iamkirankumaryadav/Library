@@ -396,8 +396,8 @@ Handle **non linear data** |
 <h3 name='naive'>7. Naive Bayes</h3>
 
 - Naive Bayes is a `probabilistic classifier`, based on `Class Prediction Probability` ( `Binary` and `Multiclass` classification )
-- Probability of `Event A` if `Event B` has already occured.
-- `Naive` : Assumes that all of the `features` are `independent` from each other.
+- Creates the `conditional probability distribution` for all the classes independently.
+- `Naive` : Assumes that all of the `features` are `independent` from each other ( No correlation between any feature )
 - e.g `Classification` of Dogs Breed ( Naive Bayes tries to create a `probability` that each Dog belongs to seperate `Class` )
 - `Weights` can be added to improve `accuracy`
 
