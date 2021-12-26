@@ -17,28 +17,26 @@ Larger Sample = Greater Accuracy = More Confidence
 
 `Outlier` :  The data point value which are different or far away from all the other data point values.
 
-- `Mean` calculates **average**, therefore it is affected by an **outlier**.
-- `Median` concentrates only on **middle** value, therefore there is a very low to no affect by an **outlier**.
-- `Mode` concentrates only on the **most occuring** values, therefore it is not affected by an **outlier**.
+- `Mean` calculates `average`, therefore it is affected by an `outlier`
+- `Median` concentrates only on `middle` value, therefore there is a very `low` to `no` affect by an `outlier`
+- `Mode` concentrates only on the `most frequent` values, there is `no` affect by an `outlier`
 
-### Central Limit Theorem
-- As the **sample size** increases, the **distribution** approaches towards `Normal Distribution`.
+### `Central Limit Theorem`
+- As the `sample size` increases, the `distribution` approaches towards `Normal Distribution`
 
 <h3 name='spread'>Measures of Spread ( Relationship of individual data point with it's Mean )</h3> 
 
-How the **observations** are `spread` out or scattered on each side of the `center` ( Mean | Median | Mode )
+How the `observations` are `spreadout` or `scattered` on each side of the `center` ( Mean | Median | Mode )
 
-### 1. Range 
+### 1. `Range`
 
-- `Range` : `Max` - `Min`  
-- The difference between the lowest data point value and highest data point value in the data set.
-- Very high data point value can mislead the `Range` ( e.g. {8, 11, 5, 9, 7, 6, 3616 )
+- `Range` : `Max` - `Min`, difference between the lowest and highest data point values in the data set.
+- `Very high` data point value can mislead the `Range` ( e.g. {8, 11, 5, 9, 7, 6, 3616 ) `Outlier`
 - Here the lowest data point value is `5` and the highest data point value is `3616`
-- Range is affected by the `Outlier`
 
 ### 2. Variance ( s <sup>2</sup> )
 
-- Sum of square of distance from its mean.  
+- Sum of square of distance from its `mean`  
 - `Variability` of the data point values from its mean.
 
 ### 3. Standard Deviation ( s : Square Root of Variance )
