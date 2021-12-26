@@ -13,10 +13,9 @@ Simple model do not capture **Hidden** Patterns and Relations properly | Model *
 `Low` Bias Algorithms ( Decision Tree, KNN, SVM ) | `Low` Variance Algorithms ( Regression, LDA )
 `High` Bias Algorithm ( Regression ) | `High` Variance Algorithm ( Decision Tree, KNN, SVM ) 
 
-> Bias | Error = Predicted - Actual ( Difference between the `Expected` Value and `True Actual` Value  )
-
-- A `Linear` Algorithms **Learns Fast** which often lead to High Bias
-- Simple the Algorithm, more Bias it will Introduce 
+- `Error` = `Predicted` - `Actual` ( Difference between the `expected` value and `actual` value )
+- `Linear` algorithms **learns fast** which often lead to `high bias`
+- Simple the algorithm, more `bias` it will introduce ( Underfitting )
 
 ### How to Reduce Bias?
 - K Fold **Cross Validations** and **Resampling** | Split Data Set into **K** Numbers and Each Set is used as Testing Set
