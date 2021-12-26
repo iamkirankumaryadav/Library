@@ -29,9 +29,9 @@
   </tr>
 </table>
 
-1. **Start** with some **Initial Configuration** of **Model** and `Predict` the **Output** based on some **Input**.
-2. **Compare Predicted Value** with `Target` and **Measure** the `Performance` of our Model.
-3. **Parameters** of the **Model** are `Adjusted` **Iteratively** in Order to reach the **Optimal Value** of the **Performance Metric**.
+1. We `start` with some `initial configuration` of **model** and `predict` the **output** based on some **input**.
+2. Then we compare `predicted value` with `target` and **measure** the `performance` of our model.
+3. `Parameters` of the **model** are `adjusted` **iteratively** in order to reach the `optimal value` of the `performance metric`
 
 <h3 name="linear">Linear Regression</h3>
 
