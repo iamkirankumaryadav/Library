@@ -7,8 +7,6 @@
 - `Binary` : Male or Female | Yes or No | True or False | 1 or 0 ( Dichotomous )
 - You can’t **train** the model directly with **categorical variables** in their raw form. 
 - `Transformation` of **categorical labels** in **numeric values** by applying some **encoding** is important.
-- Convert into **numerical values**, combine `sparse` classes ( Classes with very less **labels** )
-- Set **filter** to classes ( Class labels should have atleast **50** observations )
 
 ### `Logistic Regression`
 - Classify the `target` variables into 2 `discrete` classes ( Binary Classification )
