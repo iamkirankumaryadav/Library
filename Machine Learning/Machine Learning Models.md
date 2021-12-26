@@ -386,14 +386,13 @@ Handle **non linear data** |
 
 <h3 name='knn'>6. K Nearest Neighbours</h3>
 
-- **Multiclass** Classification Algorithm.
-- Measures the **Geometrical Distance** ( **Euclidean Distance** ) 
-- **K** : Initialize **K** ( Number of Nearest **Neigbors** ) 
-- Calculate distance between new **Test** data point and **K Nearest Neigbours** of training data points.
-- Sort the **Ordered** calculated distance in **Ascending Order**.
-- Get nearest | shortest ( **Least** Distance ) to it or most **Frequent Classes** in neighbor.
-- **Regression** : **Mean** of K Nearest Distances ( Mean of Labels )
-- **Classification** : **Mode** of K Nearest Distances ( Most Frequent Labels )
+- `Multiclass` classification algorithm, measures the `Geometrical Distance` ( **Euclidean Distance** ) 
+- `K` : Initialize **K** ( `# Nearest Neigbors` ) 
+- Calculate distance between new data point and `K Nearest Neigbours` of training data points.
+- Sort the **ordered** calculated distance in `ascending` order
+- Get `shortest` distance to it or `most frequent` classes in neighbor.
+- `Regression` : `Mean` of K Nearest Distances ( Mean of distances )
+- `Classification` : `Mode` of K Nearest Distances ( Most Frequent Labels )
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
