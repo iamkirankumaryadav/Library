@@ -5,7 +5,7 @@
 
 When we start anything we start from beginning but with a dataset we start from `centre`
 
-`Sample` is **representative** of `Population`.
+`Sample` is **representative** of `Population`
 
 Larger Sample = Greater Accuracy = More Confidence
 
