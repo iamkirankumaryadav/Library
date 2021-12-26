@@ -87,11 +87,11 @@
 
 ### 3. Variance `VAR`
 
-- How `spreadout` the data points are with respect to each other.
-- `Small` variance : Data set is tightly clustered ( Data points are `close` to **each other** )
-- `Large` variance : Data set is spread apart ( Data points are `scattered` away from each other )
+- How `spreadout` the data points are with respect to it's `sample mean`
+- `Small` variance : Data set is tightly clustered ( Data points are `close` to `mean` )
+- `Large` variance : Data set is spread apart ( Data points are `scattered` away from 'mean' )
 
-### 4. Standard Deviation `STD`
+### 4. Standard Deviation `STD` Squareroot ( Variance )
 
 ![STD](Image/STD.png)
 
