@@ -10,18 +10,18 @@
 
 ### Logistic Function  | `Sigmoid` Function ( S Shaped Curve )
 - Accepts any `real` value and map it into a value between `0` and `1`
-- The probability prediction must be transformed to `binary` | dichotomous ( `0` and `1` )
-- Threshold | Decision boundary : 0.5 ( `Probability` < `0.5` is considered as `0` else `1` )
+- The probability prediction is transformed to `binary` | dichotomous ( `0` and `1` )
+- `Threshold` : 0.5 ( `Probability` < `0.5` is considered as `0` else `1` )
 
 ### When to use Logistic Regression ?
-- When `target` variable has `binary` class labels | Performs well with a small number of observations.
+- When `target` variable has `binary` class labels, it performs well with a small number of observations.
 - Data with very low `outliers` or `missing` data points in the data set.
 - Logistic regression is good for `fast training` ( It is not the best performing model )
-- No tuning is usually required.
+- No `tuning` is usually required.
 
 ### Remove Correlated Independent Feature
 - The model can `overfit` if you have multiple highly correlated independent features.
-- Calculate the pairwise correlations between all independent features and remove highly correlated independent feature.
+- Calculate the `pairwise correlations` between all independent features and remove highly correlated independent feature.
 
 ### Example
 - `Linear regression` helps us to `predict` the student's test score on a scale of 0 - 100 | `Continuous`
