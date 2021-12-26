@@ -23,27 +23,25 @@ Simple model do not capture **Hidden** Patterns and Relations properly | Model *
 
 ### Bias Variance `Trade Off`
 
-- `Underfitting` : `High` Bias + `High` Variance
-- `Overfitting` : `Low` Bias + `High` Variance
 - `Bias` and `Variance` are `inversely` proportional to each other.
 - Increasing `Bias` decreases `Variance` and Increasing `Variance` decreases `Bias`
 - Find the **correct balance** : `Low Bias` and `Low Variance`
 
-### Underfitting | High Bias + Low Variance ( Simple Model )
-- **High** Bias : **High** Error on `Train` Data.
-- **Low** Variance : **Low** Error on `Test` Data ( **Genralized** )
-- The Model Fails to `Fit` the Data well enough.
+### `Underfitting` : High Bias + Low Variance ( `Simple` Model )
+- `High Bias` : `High` error on `train` dataset
+- `Low Variance` : `Low` error on `test` dataset ( **Genralized** )
+- The model fails to `fit` the data well enough.
 
-### Overfitting | Low Bias + High Variance ( Complex Model )
-- **Low** Bias : **Low** Error on `Train` Data ( Model is **Trained** very Well + **Noise** )
-- **High** Variance : **High** Error on `Test` Data ( Performs Bad on **New Unseeen Data** )
-- When a Massive Amount of Data Trains a Machine Learning Model, it tends to Learn from **Noise** and **Inaccurate** Data.
-- Random Error and Noise | Complex Model | Too Many Parameters ( Columns ) relative to the number of Observations ( Rows ) 
-- Poor **Predictive** Performance | Do not **Genralize** well on the **New Unseen Data**
-- Difference between the Prediction on the **New Unseen Data Point** and the **Actual Data Point** is `High` ( High Variance )
-- Model Tries to `Fit` the Training Data so closely that it does not **Generalize** well to **New Unseen Data**.
+### `Overfitting` : Low Bias + High Variance ( `Complex` Model )
+- `Low Bias` : `Low` error on `train` Data ( Model is **trained** very well including `noise` )
+- `High Variance` : `High` error on `test` Data ( Performs bad on `new unseeen` data )
+- When a massive amount of data trains a Machine Learning Model, it tends to learn from `noise` and inaccurate data.
+- Random error and noise gets added | Complex model | Too many Parameters ( Columns ) relative to the number of observations ( Rows ) 
+- Poor **predictive** performance | Do not **genralize** well on the **new unseen data**
+- Difference between the prediction on the **new unseen data point** and the **actual data point** is `high` ( High Variance )
+- Model tries to `fit` the training data so closely that it does not **generalize** well to **new unseen data**.
 
-`Bias` and `Variance` helps us Improve the Data Fitting | Training Process resulting in more **Accurate Models**.
+`Bias` and `Variance` helps us improve the data fitting | Training process resulting in more **accurate models**.
 
 ### Total Error = Bias + Variance + Irreducible Error ( Noise )
 
