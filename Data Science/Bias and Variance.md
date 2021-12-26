@@ -17,15 +17,17 @@ Simple model do not capture **Hidden** Patterns and Relations properly | Model *
 - `Linear` algorithms **learns fast** which often lead to `high bias`
 - Simple the algorithm, more `bias` it will introduce ( Underfitting )
 
-### How to Reduce Bias?
-- K Fold **Cross Validations** and **Resampling** | Split Data Set into **K** Numbers and Each Set is used as Testing Set
-- **Bootstrapping** and **Boosting** | Iteratively **Resampling** a Data Set with **Replacement**
+### How to Reduce `Bias` ?
+- `K Fold Cross Validations` and `Resampling` | Split dataset into `K` samples and each set is used as testing set
+- `Bootstrapping` and `Boosting` | Iteratively `Resampling` a dataset with `replacement`
 
-### Bias Variance Trade Off
+### Bias Variance `Trade Off`
 
-- Bias and Variance are **Inversely Proportional** to each other.
-- Increasing **Bias** decreases **Variance** and Increasing **Variance** decreases **Bias**.
-- Find the **Correct Balance** : **Low Bias** and **Low Variance**.
+- `Underfitting` : `High` Bias + `High` Variance
+- `Overfitting` : `Low` Bias + `High` Variance
+- `Bias` and `Variance` are `inversely` proportional to each other.
+- Increasing `Bias` decreases `Variance` and Increasing `Variance` decreases `Bias`
+- Find the **correct balance** : `Low Bias` and `Low Variance`
 
 ### Underfitting | High Bias + Low Variance ( Simple Model )
 - **High** Bias : **High** Error on `Train` Data.
