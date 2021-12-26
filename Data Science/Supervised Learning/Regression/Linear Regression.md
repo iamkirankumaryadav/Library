@@ -11,20 +11,18 @@
 
 ### `Linear Regression`
 
-- **Target** variable is **continuous numeric** values.
-- The **best fit line** which gives **least** number of **errors**.  
-- Error | Residual : Difference between **actual** and **predicted** value for given **data points**.
-- `Slope` : Steepness of the line | Angular motion.
-- `Intercept` : Position of line | Upward & downward with least **residual**. 
+- `Predict` a `continuous numeric` dependent variable based on one or more independent variables.
+- The `best fit line` which gives `least` number of `errors`
+- `Residual` : Difference between `actual` and `predicted` value for given `data points` ( Error )
+- `Learning` a linear regression model means estimating the values of the `coefficients` ( i.e. `Slope` and `Intercept` )
+- `Slope` ( m ) : Steepness of the line | Angular motion.
+- `Intercept` ( c ) : Position of line | Upward & downward with least **residual**. 
 - **Sensitive** to `overfitting`.  
 - But can be prevented using [dimensionality reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md), [regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md), [standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) and [cross validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 
 ![Regression Line](Image/RegressionLine.png)
 
-- **Learning** a linear regression model means estimating the values of the **coefficient** ( `Slope` : `m` and `Intercept` : `c` )
-- **Predict** dependent variable based on one or more independent variables.
-- **Measure** the influence of one or more independent variable on dependent variable.
-- **Predict** the value of a **target vector** based on the value of feature matrix.
+- `Predict` the value of a `target vector` based on the value of `feature matrix`
 - The parameters `m` and `c` are **learnt** by the **algorithm** based on the **data point** pairs of ( x, y )
 - There are few **statistical** <a href="#ass">assumptions</a> as well for **linear regression**. 
 - Also there are ways to **evaluate** how **good** our **model** learnt from the **data**, using **RMSE** and **R**<sup>2</sup>.
