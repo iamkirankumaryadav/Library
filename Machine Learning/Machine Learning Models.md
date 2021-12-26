@@ -274,7 +274,7 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 
 <h1 name='class' align=center>Classification</h1>
 
-<h3 name='logreg'>2. Logistic Regression ( <a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md'>More</a> )</h3>
+<h3 name='logreg'>2. Logistic Regression (<a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md'>More</a> )</h3>
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/04.Logistic%20Regression.ipynb)
 
@@ -285,9 +285,8 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 
 ### Advantages of Logistic Regression
 
-- Model **training** and **predictions** are relatively fast.
-- No tuning is usually required.
-- Performs well with small number of of observations or samples.
+- Model `training` and `predictions` are relatively fast, no tuning is usually required.
+- Performs well with small number of observations or samples.
 
 ### Logistic Regression for Multiclass Classification
 
