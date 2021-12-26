@@ -353,36 +353,36 @@ Handle **non linear data** |
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/09.Random%20Forest.ipynb)
 
-- **Merge** a collection of `Parallel` arranged **Independent Decision Trees** to get more **Accurate** and **Stable** Prediction.
-- Multiple **Decision Trees** ( Weak Learners ) trained `Parallel` and **Individually** | **Independently**. 
-- **Bootstrapped Data Sets** of orignal data and **Randomly** selecting subsets at each step. ( **Row Sampling** with **Replacement** )
-- Bagging technique ( **Multiple** Decision Trees are trained in `Parallel` to form one **Strong Learner** ) 
-- **Prediction** of model is based on the **Voting** of Decision trees output ( **Majority Voting** )
-- Reduces risk of **Error** and **Overfitting**.
+- `Merge` a collection of `Parallel` arranged `Independent Decision Trees` to get more `accurate` and `stable` prediction.
+- Multiple `Decision Trees` ( Weak Learners ) are trained `Parallel` and `Individually` | `Independently`
+- `Row sampling` with **replacement** : `Bootstrapped` datasets of orignal data and randomly selecting subsets at each step. 
+- `Bagging` technique : **Multiple** Decision Trees are trained in `Parallel` to form one **strong accurate predicting** model ) 
+- `Majority Voting` : `Prediction` of model is based on the **voting** of decision trees outputs.
+- Reduces risk of `Error` and `Overfitting`
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
-- `SVM` can be used for both **regression** and **classification** ( but better used for classification )
-- Finds an optimal **line** or **hyperplane** that separates the 2 **distinct** classes with maximum **margin** in **N dimensional space**.
-- **Hyperplanes** are **decision boundaries** that help to `classify` the data points. Data points are **support vectors**.
-- `SVM` can be used for **linear** and **non linear** data.
-- SVM uses **kernel trick** for **non linear** data which creates a **hyperplane** in **n dimensional space** for linear seperation.
-- Works better even if data set has lot of **outliers** ( Because SVM focus only on **support vectors** closest to the line  )
-- Should be used if data set has lot of independent **features**. 
-- Take long time to **train** and **predict** if the number of **observations** are very large.
+- `SVM` can be used for both `regression` and `classification` ( but better used for `classification` )
+- Finds an optimal `line` or `hyperplane` that separates the 2 distinct classes with `maximum margin` in `N dimensional space`
+- `Hyperplanes` are **decision boundaries** that help to `classify` the data points. Data points are `Support Vectors`
+- `SVM` can be used for `linear` and `non linear` data.
+- `SVM` uses `kernel trick` for `non linear` data which creates a `hyperplane` in `N dimensional space` for linear seperation.
+- Works better even if data set has lot of `outliers` ( Because SVM focus only on `support vectors` closest to the line  )
+- Should be used if data set has lot of `independent features`
+- Take long time to `train` and `predict` if the number of `observations` are very large.
 - Kernel functions : Linear | Radial basis function ( RBF ) | Polynomial | Exponential.
 
 ### Benefits 
 
-- SVM also works well with **unstructured** and **semi structured** data ( Text, Image, Tree )
-- **Generalize** well ( Works well on new unseen data )
-- Risk of **overfitting** is less.
+- SVM also works well with `unstructured` and `semi structured` data ( Text, Image, Tree )
+- `Generalize` well ( Works well on new unseen data )
+- Risk of `overfitting` is less.
 
 ### Disadvantage
 
-- Choosing a **Good Kernel** function, **Fine Tuning** and even **Visualization** is not easy.
-- Long **Training Time** for **Large** datasets.
-- Difficult to understand **Final Model**, variable weights and individual impact.
+- Choosing a `Good Kernel` function, `Fine Tuning` and even `Visualization` is challenging.
+- Long `Training Time` for **large** datasets.
+- Difficult to understand `final model`, variable `weights` have individual impact.
 
 <h3 name='knn'>6. K Nearest Neighbours</h3>
 
