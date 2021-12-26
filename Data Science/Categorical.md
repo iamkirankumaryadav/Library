@@ -14,7 +14,7 @@
 - Combine `sparse` categories ( Category labels with very less observations )
 
 ### `Label Encoding` ( Better for `Ordinal` )
-- Substitute bins by **mean** ( e.g. Age bins by `mean` of age group )
+- Substitute bins by **mean** ( e.g. Age bins by `mean` of age group ) Better if `class labels` are less.
 - e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Post Graduate > Bachelor )
 
 Some times use business logic to remove `redundancy` e.g. Pincode is enough instead of state and city.
