@@ -3,9 +3,9 @@
 # Logistic Regression
 
 - `Model` used for `classification` tasks like classifying flower species or image classification.
+- Transforms output using `Sigmoid` function to return a `probability distribution` value ( Mapped to 2 `discrete` classes )
 - Especially `binary` classification, it predicts the `probability distribution` of class which lies within range `0` and `1`.
 - `Probability` of `occurence` of `target label` is predicted on the basis of `threshold` ( `0.5` ) 
-- Transforms output using `Sigmoid` function to return a `probability distribution` value ( Mapped to 2 `discrete` classes )
 - Explain relationship between one dependent `binary` variable and one or more `nominal` or `ordinal` independent variable.
 - Logistic regression is affected by the scale, so always `standardize` the features before applying logistic regression. 
 
