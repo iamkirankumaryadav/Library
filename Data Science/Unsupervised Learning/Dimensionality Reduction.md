@@ -5,11 +5,11 @@
 - `Unsupervised` Machine Learning. 
 - Number of **features** ( `columns` ) should be low as compared to the number of **observations** ( `rows` ) in your dataset. 
 - Certain algorithms struggles to **train** effective models ( Especially algorithms which consist `distance` calculations )
+- Algorithms which consists distance calculations : Regressions, KNN, K Mean, SVM
 
 ### Feature Selection
 
-- `Select` only **relevant** features that make impact on target variable.
-- `Filter` irrelevant or redundant features from your dataset.
+- `Select` only features that make impact on target variable, `filter` irrelevant or redundant features from your dataset.
 
 ### Feature Extraction
 - Create a new dataset with relevant features that captures most of the **information** and **insights**. 
