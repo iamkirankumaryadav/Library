@@ -69,8 +69,8 @@ How the `observations` are `spreadout` or `scattered` on each side of the `cente
 - Measures of **centre** are affected by every **mathematical operations** ( `+` `-` `*` `/` )
 - Measures of **spread** are affected only by **multiplication & divison** ( `*` and `/` )
 
-### Empirical Rule 
-- Most of the data points ( `99.7 %` ) in a given **normally distributed data set** fall within `3` **standard deviations**.
+### `Empirical Rule`
+- `99.7 %` of the data points in a given **normally distributed data set** fall within `3` **standard deviations**.
 
 ### Five Number Summary
 
