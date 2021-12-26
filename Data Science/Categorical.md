@@ -6,7 +6,7 @@
 - `Ordinal` : Order | Rank among the values. e.g. Size of tshirts ( XS - S - M - L - XL - XXL ) education level, grades. 
 - `Binary` : Male or Female | Yes or No | True or False | 1 or 0 ( Dichotomous )
 - You can’t **train** the model directly with **categorical variables** in their raw form. 
-- `Transformation` of **categorical labels** in **numeric values** by applying some **encoding** is important.
+- `Encoding` : Transforming `categorical labels` in `numeric values` that can be consumed by model.
 
 ### `Logistic Regression`
 - Classify the `target` variables into 2 `discrete` classes ( Binary Classification )
