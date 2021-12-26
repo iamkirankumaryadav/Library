@@ -33,8 +33,8 @@ Simple model do not capture **Hidden** Patterns and Relations properly | Model *
 - The model fails to `fit` the data well enough.
 
 ### `Overfitting` : Low Bias + High Variance ( `Complex` Model )
-- `Low Bias` : `Low` error on `train` Data ( Model is **trained** very well including `noise` )
-- `High Variance` : `High` error on `test` Data ( Performs bad on `new unseeen` data )
+- `Low Bias` : `Low` error on `train` data ( Model is **trained** very well including `noise` )
+- `High Variance` : `High` error on `test` data ( Performs bad on `new unseeen` data )
 - When a massive amount of data trains a Machine Learning Model, it tends to learn from `noise` and inaccurate data.
 - Random error and noise gets added | Complex model | Too many Parameters ( Columns ) relative to the number of observations ( Rows ) 
 - Poor **predictive** performance | Do not **genralize** well on the **new unseen data**
@@ -45,23 +45,23 @@ Simple model do not capture **Hidden** Patterns and Relations properly | Model *
 
 ### Total Error = Bias + Variance + Irreducible Error ( Noise )
 
-### Error due to Bias 
-- Difference between the **Expected Prediction** of our Model and the **Correct Actual Value** which we are trying to `Predict`.
-- Model Fails to **Capture** the **Relation** between **Features** and **Target** properly.
-- Due to **Randomness** in Data Set, `Bias` Measures How Far off these Model's **Predictions** are from the **Correct Actual Value**.
+### Error due to `Bias `
+- Difference between the **expected prediction** of our model and the **correct actual value** which we are trying to `predict`.
+- Model fails to **capture** the **relation** between **features** and **target** properly.
+- Due to **randomness** in dataset, `Bias` measures how far off these Model's **predictions** are from the **correct actual value**.
 
-### Error dur to Variance
-- **Variability** of a Model **Prediction** from an **Actual Data Point**.
-- How much the Predictions for a given point vary between different Models.
+### Error dur to `Variance`
+- **Variability** of a model **prediction** from an **actual data point**.
+- How much the predictions for a given point vary between different Models.
 
 ### Good Fit Model ( Low Bias and Low Variance )
-- `Prediction` is Actually **Close** to the `Actual` True Data and **Model** is Trained Well.
-- Generalized enough to Work with any **New Unseen Data** ( Low Variance ) 
-- **Captures** Less `Noise` and `Error` at the Time of **Training** ( Low Bias )
+- `Prediction` is actually **close** to the `actual`.
+- Generalized enough to work with any **new unseen data** ( Low Variance ) 
+- **Captures** Less `noise` and `error` at the time of **training** ( Low Bias )
 
 ### How to Obtain Optimal Tradeoff
-1. **Hyperparameter Tuning** : Choosing a Set of `Optimal` **Hyperparameter** for Training an Algorithm.
-2. **Regularization** ( `L1` and `L2`) : Technique used to Reduce **Overfitting** by Discouraging overly Complex Models.
+1. **Hyperparameter Tuning** : Choosing a set of `optimal` **hyperparameter** for training.
+2. **Regularization** ( `L1` and `L2`) : Technique used to reduce `overfitting` by discouraging  complex models.
 3. **Grid Search Cross Validation**.
 4. **Bagging** : **Random Forest**.
 
