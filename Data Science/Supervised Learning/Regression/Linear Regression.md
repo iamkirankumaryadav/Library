@@ -89,26 +89,26 @@
 
 <h3 name='gd'>Gradient Descent</h3>
 
-- **Optimizing** the Values of the **Coefficients** ( `Slope` and `Intercept` ) by **Iteratively** Minimizing the **Error** of Model on **Training Data**.
-- Starts with Random Values for each **Coefficient**.
-- Sum of Squared **Errors** | **Residuals** are Calculated for each Pair of **Independent** and **Dependent** Values.
-- **Learning Rate** is used as a `Scale` and the **Coefficients** are updated in the direction towards **Minimizing** the **Error** | **Residuals**.
-- The Process is Repeated until a **Minimum SSE | SSR** is Achieved or no further Improvement is Possible.
-- **Learning Rate** ( **alpha** ) Parameters that determines the size of Improvement Step on each Iteration.
+- **Optimizing** the values of the `coefficients` ( `Slope` and `Intercept` ) by **iteratively** minimizing the `error` of model on `training data`
+- Starts with random values for each `coefficients`
+- Sum of Squared **Residuals** `SSR` is calculated for each pair ( `independent` and `dependent` values )
+- **Learning Rate** is used as a `scale` and the `coefficients` are updated in the direction towards `minimizing` the `residual`
+- The process is repeated till `minimum SSR` is achieved or no further improvement is possible.
+- **Learning Rate** `alpha` is a parameters that determines the size of improvement steps on each iterations.
 
-### Learning Rate
-- Determine the **Step Size** at each **Iteration** while moving towards a **Minimum Loss Function** ( Minimum `Error` )
-- **Step Size** is Decided on the Basis of How Far or Close is the **Global Minima**.
-- Handles the Rate of **Convergence** and **Overshooting** ( High Learning Rate )
+### `Learning Rate`
+- Determine the `step size` at each **iteration** while moving towards a **minimum loss function** ( i.e minimum `Error` )
+- `Step Size` is decided on the basis of how far or close is the `global minima`
+- Handles the rate of `convergence` and `overshooting` ( i.e. `High` Learning Rate )
 
 ### Regularization
-- Seek to **Minimize SSE | SSR** of the Model on **Training Data**, Reduce **Complexity** of Model ( **Overfitting** )
-- Add some **Bias** on Training Data for Decreasing **Variance** on Test Data.
+- Seek to `minimize` SSR of the model on `training` data, reduce `complexity` of model ( `Overfitting` )
+- Add some `bias` on `training` data for decreasing `variance` on `test` data
 
-1. **LASSO** ( L1 ) : OLS is modified to minimize the **Absolute** Sum of Coefficients : Cost Function + ( Lambda ) * | Slope |
-2. **Ridge** ( L2 ) : OLS is modified to minimize the **Squared** Sum of Coefficients : Cost Function + ( Lambda ) * Square( Slope )
+1. LASSO `L1` : OLS is modified to minimize the `Absolute` sum of coefficients : Cost Function + ( Lambda ) * | Slope |
+2. Ridgev`L2` : OLS is modified to minimize the `Squared` sum of coefficients : Cost Function + ( Lambda ) * Square( Slope )
 
-Used when there is Collinearity ( One Independent Feature can completely Describe Other Independent Feature ) in Data. 
+Used when there is `multicollinearity` ( One `independent` feature can completely describe the other `independent` feature )
 
 # Preparing Data for Linear Regression
 
