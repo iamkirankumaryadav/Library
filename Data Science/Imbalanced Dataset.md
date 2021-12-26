@@ -4,7 +4,6 @@
 
 `Class labels` of target should be `balanced` otherwise it predicts a **biased output**.
 
-`Stratified sampling` : Sample containing `equal` proportion of each `class labels` to train the model.  
 - e.g. Flower Species 150 : 50 Setosa, 50 Verginica and 50 Versicolor
 
 ### 1. Up | Over sampling minority class | Sampling with replacement 
@@ -25,7 +24,7 @@
 - `F1 Score` keeps balance between `recall` and `precision`
 
 ### 4. `Stratified K Fold Cross Validation`
-- Use `stratified k fold cross validation` with equally distributed class labels to train the model.
+- Sample containing `equal` proportion of each `class labels` to train the model.  
 
 ### 5. `Random Forest` supports imbalanced data set
 
