@@ -82,10 +82,11 @@ cm = metrics.confusion(y_test, model.predict(X_test))
 - `Split` the task into multiple binary classification datasets.
 - `Fit` the binary classification model on each set.
 - Set parameter `multi_class='ovr'`
+- The model that predicts the `highest class probability` is the predicted class.
 
-### One vs rest | One vs all
+### `OvR` One vs rest | `OvA` One vs all
 
-Extends binary class classification to multi class classification.
+Extends `binary` class classification to `multiclass` classification.
 
 - digit `0` vs digit `1`, `2` and `3`
 - digit `1` vs digit `0`, `2` and `3`
@@ -94,5 +95,4 @@ Extends binary class classification to multi class classification.
 
 [Implementation](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/05.Logistic%20Regression%20for%20Multiclass%20Classification.ipynb)
 
-The model that predicts the highest class probability is the predicted class.
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
