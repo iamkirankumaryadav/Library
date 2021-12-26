@@ -9,8 +9,6 @@ When we start anything we start from beginning but with a dataset we start from 
 
 Larger Sample = Greater Accuracy = More Confidence
 
-> Describing **Distributions** using **Numbers**
-
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
 1. `Mean` : `Average` of data points 
