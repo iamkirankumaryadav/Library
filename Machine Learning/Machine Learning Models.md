@@ -389,8 +389,7 @@ Handle **non linear data** |
 - `Multiclass` classification algorithm, measures the `Geometrical Distance` ( **Euclidean Distance** ) 
 - `K` : Initialize **K** ( `# Nearest Neigbors` ) 
 - Calculate distance between new data point and `K Nearest Neigbours` of training data points.
-- Sort the **ordered** calculated distance in `ascending` order
-- Get `shortest` distance to it or `most frequent` classes in neighbor.
+- Sort the calculated distance in `ascending` order and get `shortest` distance or `most frequent` classes in neighbor.
 - `Regression` : `Mean` of K Nearest Distances ( Mean of distances )
 - `Classification` : `Mode` of K Nearest Distances ( Most Frequent Labels )
 
