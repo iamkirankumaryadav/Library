@@ -45,11 +45,9 @@
 ### R<sup>2</sup> : Coefficient of Determination | Goodness of Fit
 
 - **Explains** the `variance` of the data captured by the model ( `0.7` to `0.9` is good value for R<sup>2</sup> ) 
-- If R<sup>2</sup> is `0.8` or `80%` i.e. regression line explaines `80%` of `variance` in data | `80%` of `prediction` is based on the `available` data.
-- Larger R<sup>2</sup> indicates a `better fit` ( The model can explain the `variation` of `predictions` with actual in much better way )
-- R<sup>2</sup> = 1 corresponds to SSR = 0 ( **Perfect fit** ) 
-- Low R<sup>2</sup> causes `underfitting`
-- High R<sup>2</sup> results into `overfitting`
+- If R<sup>2</sup> is `0.8` or `80%` i.e. regression line explaines `80%` of `variance` in data.
+- R<sup>2</sup> = 1 corresponds to SSR = 0 ( `Perfect fit` : Impossible in real life applications ) 
+- `Low` R<sup>2</sup> causes `underfitting` and `high` R<sup>2</sup> results into `overfitting`
 - `Best fit line` predicts better than `base fit line` ( `Mean` ) 
 
 ### [Residuals](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) | Error ( e )
