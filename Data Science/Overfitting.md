@@ -32,7 +32,7 @@
 - Ridge ( `L2` ) : Sum of `square` of `slope` ( **Penalize** slope values towards 0 )
 - Able to learn **complex data patterns** | Decreases the **complexity** of model.
 
-### 3. K Fold Cross Validation and Grid Search Cross Validation
+### 3. Apply [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 - Measure how well each **iteration** of the model performs.
 - Until certain iterations, **new iterations** improves the accuracy of model.
 - After some point the **model's ability** to **generalize** gets weak and model starts **overfitting**.
