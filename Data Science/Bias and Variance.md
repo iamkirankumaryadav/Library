@@ -28,9 +28,9 @@ Simple model do not capture **Hidden** Patterns and Relations properly | Model *
 - Find the **correct balance** : `Low Bias` and `Low Variance`
 
 ### `Underfitting` : High Bias + Low Variance ( `Simple` Model )
-- `High Bias` : `High` error on `train` dataset
-- `Low Variance` : `Low` error on `test` dataset ( **Genralized** )
-- The model fails to `fit` the data well enough.
+- `High Bias` : `High` error on `train` dataset ( Model is not trained properly )
+- `Low Variance` : `Low` error on `test` dataset ( **Genralized** ) ( Model is able to predict little close to actual )
+- The model `fit` the data enough but also captures `noise` and `error` at the time of training ( Low Accuracy )
 
 ### `Overfitting` : Low Bias + High Variance ( `Complex` Model )
 - `Low Bias` : `Low` error on `train` data ( Model is **trained** very well including `noise` )
@@ -45,19 +45,10 @@ Simple model do not capture **Hidden** Patterns and Relations properly | Model *
 
 ### Total Error = Bias + Variance + Irreducible Error ( Noise )
 
-### Error due to `Bias `
-- Difference between the **expected prediction** of our model and the **correct actual value** which we are trying to `predict`.
-- Model fails to **capture** the **relation** between **features** and **target** properly.
-- Due to **randomness** in dataset, `Bias` measures how far off these Model's **predictions** are from the **correct actual value**.
-
-### Error dur to `Variance`
-- **Variability** of a model **prediction** from an **actual data point**.
-- How much the predictions for a given point vary between different Models.
-
-### Good Fit Model ( Low Bias and Low Variance )
+### Good Fit Model ( Low Bias + Low Variance )
 - `Prediction` is actually **close** to the `actual`.
-- Generalized enough to work with any **new unseen data** ( Low Variance ) 
 - **Captures** Less `noise` and `error` at the time of **training** ( Low Bias )
+- Generalized enough to work with any **new unseen data** ( Low Variance ) 
 
 ### How to Obtain Optimal Tradeoff
 1. **Hyperparameter Tuning** : Choosing a set of `optimal` **hyperparameter** for training.
