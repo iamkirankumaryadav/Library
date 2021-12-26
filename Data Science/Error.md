@@ -91,7 +91,7 @@
 - `Small` variance : Data set is tightly clustered ( Data points are `close` to `mean` )
 - `Large` variance : Data set is spread apart ( Data points are `scattered` away from 'mean' )
 
-### 4. Standard Deviation `STD` Squareroot ( Variance )
+### 4. Standard Deviation `STD` | Squareroot ( Variance )
 
 ![STD](Image/STD.png)
 
