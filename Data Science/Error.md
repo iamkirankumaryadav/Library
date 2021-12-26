@@ -21,35 +21,26 @@
 3. Total Sum of Square ( `TSS` ) or Sum of Squared Total ( `SST` )
 4. R Squared or R<sup>2</sup> or Coefficient of Determination or Squared Correlation Coefficient 
 
-### RSS | SSE
-
-> Residual Sum of Squares | Sum of Squares Error
+### Residual Sum of Squares `RSS` | Sum of Squares Error `SSE` | `Unexplained Variability`
 
 ![RSS|SSE](Image/SSE_RSS.jpg)
 
 - `e` : Error
 - `SSE` = Sum ( Actual - Prediction ) <sup>2</sup>
 - `Residuals` : Sum of Squares of Errors.
-- Unexplained variability.
 - `Variability` : Distance of **actual value** from its **mean** or **predicted value**.
 
-### ESS | SSR
-
-> Explained Sum of Squares | Sum of Squares Regression.
+### Explained Sum of Squares `ESS` | Sum of Squares Regression `SSR` | `Explained Variability`
 
 ![ESS|SSR](Image/SSR_ESS.jpg)
 
 - Measures how well our line fits the data.
 - Sum ( Prediction - Mean ) <sup>2</sup>
-- Explained variability.
 
-### TSS | SST
-
-> Total Sum of Squares | Sum of Squares Total
+### Total Sum of Squares `TSS` | Sum of Squares Total `SST` | `Total Variability`
 
 ![TSS|SST](Image/SST_TSS.jpg)
 
-- Measures total variability
 - Explained Variability + Unexplained Variability
 - Sum ( Actual - Mean ) <sup>2</sup>
 - SST = SSR + SSE
