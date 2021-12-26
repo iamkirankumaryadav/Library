@@ -20,11 +20,11 @@
 - Resample majority class `without` replacement, setting number of samples to match with `minority` class.
 - Combine the `down sampled` data with orignal `minority` class data ( daatframe )
 
-### 3. Choose right evaluation metric
+### 3. Evaluation Metric :  F1 Score
 - `F1 Score` : Number between `0` and `1` ( Harmonic mean of `recall` and `precision` )
 - `F1 Score` keeps balance between `recall` and `precision`
 
-### 4. Use cross validation 
+### 4. Stratified K Fold Cross Validation
 - Use `stratified k fold cross validation` with equally distributed class labels to train the model.
 
 ### 5. Use algorithms that supports imbalanced data set ( Ensembled methods )
