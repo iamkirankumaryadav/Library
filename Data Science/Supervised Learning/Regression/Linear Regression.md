@@ -25,7 +25,7 @@
 - `Predict` the value of a `target vector` based on the value of `feature matrix`
 - The parameters `m` and `c` are **learnt** by the **algorithm** based on the **data point** pairs of ( x, y )
 - There are few **statistical** <a href="#ass">assumptions</a> as well for **linear regression**. 
-- Also there are ways to **evaluate** how **good** our **model** learnt from the **data**, using **RMSE** and **R**<sup>2</sup>.
+- Also there are ways to **evaluate** how **good** our **model** learnt from the **data**, using [metrics]()
 
 `Y` = `B1` * `X`  + `B0` 
 
