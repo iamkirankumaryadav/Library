@@ -3,7 +3,7 @@
 # `Gradient Descent`
 
 - An `optimization` algorithm used while training a model.
-- Start by defining the initial parameter's values. 
+- Gradient descent starts from defining some initial parameter's values. 
 - Gradient descent iteratively `adjust` the parameters values to `minimize` the given cost function ( loss | error )
 - A `gradient` ( `m` ) measures how much the output of a function changes after little change in inputs.
 - A `gradient` simply measures the change in weights ( `slope` ) with regard to the change in error.
