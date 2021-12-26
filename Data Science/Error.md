@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# Error in Linear Regression
+# `Error` in `Regression`
 
 - Each machine learning algorithm has its own way of being **evaluated**.
 - `Regression` : Error is calculated by finding **sum of squared difference** between `actual` and `predicted` values.
@@ -8,14 +8,13 @@
 - Created **model** will have a lot of `error` because of `noise`
 - `Noise` is unwanted, it **weakens** the learning process of **model**.
 
-### Reasons for **Noise**
-- `Large` training data set ( More features as compared to observations )  
-- Unobserved attributes ( Features which are not cleaned and transformed before training ) 
-- Hidden complicated patterns.
+### Reasons for `Noise`
+- `Large` training data set with more number of `features` as compared to number of `observations` 
+- Unobserved attributes ( Features which are not `cleaned` and `transformed` before training ) 
 
-### Data Visualization helps to find Hidden Patterns.
+### `Data Visualization` helps to find Hidden Patterns in the dataset
 
-### Important Confusing Terms
+### Important `Terms`
 
 1. Sum of Squared Residual ( `RSS` ) or Sum of Squared Error ( `SSE` )
 2. Explained Sum of Square ( `ESS` ) or Sum of Squared Regression ( `SSR` )
@@ -58,10 +57,10 @@
 
 ![TSS](Image/All.jpg)
 
-### R Squared
+### `R Squared`
 
 - Measures goodness of fit ( How well the model fits the data ? )
-- Explains variability of model ( How close the data points are to the regression line ? )
+- Explains `variability` of model ( How `close` the data points are to the regression line ? )
 - R<sup>2</sup> = SSR / SST
 - R<sup>2</sup> = ESS / TSS
 - Explained Variability / Total Variability.
@@ -74,25 +73,19 @@
 - R<sup>2</sup> = `0` or R<sup>2</sup> = `1` is very rare.
 - R<sup>2</sup> actually ranges between `0.2` to `0.9`
 
-### What is Variability ?
+### What is `Variability` ?
 
-- How **spread** out the data is ( Data points are `close` to each other or `scattered` away )
+- How `spreadout` the data is ( Data points are `close` to each other or `scattered` away )
 
-### How to Describe ?
+### How to Describe `Variability` ?
 
-1. Range
-2. Interquartile range | `IQR` 
-3. Variance | `VAR`
-4. Standard Deviation | `STD`
+### 1. `Range`
 
-### Range 
+- `Range` = `Max` - `Min` ( Distance between the `highest` and `lowest` data points in a data set )
 
-- `Range` = `Max` - `Min`
-- Distance between the `highest` and `lowest` data point in a data set.
+### 2. Interquartile Range `IQR`
 
-### Interquartile Range
-
-- Data set is divided in `4` equal `quartiles` | `quarters` ( Tells where most of the values lies )
+- Data set is divided in `4` equal `quartiles` | `quarters` ( Tells where most of the data points lies )
 - `IQR` = `Q3` - `Q1` 
 - `Q0` = Min
 - `Q1` = First Quartile | 25th Percentile
@@ -101,17 +94,17 @@
 - `Q4` = Max
 - `Outliers` : Data Point < `Q1` - `1.5` * `IQR` or Data Point > `Q3` + `1.5` * `IQR`
 
-### Variance
+### 3. Variance `VAR`
 
-- How spread out the data points are ?
-- `Small` Variance : Data set is tightly clustered ( Data points are `close` to **each other** )
-- `Large` Variance : Data set is spread apart ( Data points are `scattered` away from each other )
+- How `spreadout` the data points are with respect to each other.
+- `Small` variance : Data set is tightly clustered ( Data points are `close` to **each other** )
+- `Large` variance : Data set is spread apart ( Data points are `scattered` away from each other )
 
-### Standard Deviation
+### 4. Standard Deviation `STD`
 
 ![STD](Image/STD.png)
 
-- Data is `close` or `away` from `mean`
+- How `spreadout` the data points are with respect to the mean ( Data is `close` or `away` from `mean` )
 - `Tall` bell curve : Data is `tightly` around `mean`
 - `Small` bell curve : Data is `uniformely` spread.
 
