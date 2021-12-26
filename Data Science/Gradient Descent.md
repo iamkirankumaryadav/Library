@@ -7,7 +7,7 @@
 - Iteratively it `adjust` the parameters values to `minimize` the given cost function ( loss | error )
 - Gradient `m` measures how much the output of a function changes after unit change in input.
 - Gradient simply measures the change in weights i.e. `slope` with regards to the change in error.
-- `Higher` the gradient, `steeper` the slope and `faster` a model can learn and reach global minima, once the slope is `0`, model stops learning. 
+- `Higher` the gradient, `steeper` the slope and `faster` a model can learn, once the slope is `0`, model stops learning. 
 
 ### `Learning Rate`
 
