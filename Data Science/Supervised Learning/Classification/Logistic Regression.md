@@ -8,6 +8,10 @@
 - Explain relationship between one dependent `binary` variable and one or more `nominal` or `ordinal` independent variable.
 - Logistic regression is affected by the scale, so always `standardize` the features before applying logistic regression. 
 
+- `Dependent` or `target` variable is `categorical`, it is used for `classification`
+- `Probability` of `occurence` of `target label` is predicted on the basis of `threshold` ( `0.5` )
+- `Range` value of `probability` lies between `0` to `1` ( `Binary` classification )
+
 ### Logistic Function  | `Sigmoid` Function ( S Shaped Curve )
 - Accepts any `real` value and map it into a value between `0` and `1`
 - The probability prediction is transformed to `binary` | dichotomous ( `0` and `1` )
