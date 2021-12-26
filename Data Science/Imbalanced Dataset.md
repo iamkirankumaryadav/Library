@@ -6,17 +6,17 @@
 
 - e.g. Flower Species 150 : 50 Setosa, 50 Verginica and 50 Versicolor
 
-### 1. Up | Over sampling minority class | Sampling with replacement 
+### 1. Up | Over sampling minority class 
 
 ### ( SMOTE : Synthetic minority oversampling technique )
 
 - Randomly **duplicate** the `minority` class observations in order to **reinforce** the learning of data.
-- Resample minority class with `replacement`, setting number of samples to match with `majority` class.
+- Resample minority class by setting number of samples to match with `majority` class.
 - Combine the `up sampled` data with orignal `majority` class data ( dataframe )
 
-### 2. Down | Under sampling majority class | Sampling without replacement 
+### 2. Down | Under sampling majority class
 - Randomly **drop** the `majority` class observations ( Resampling **without** replacement )
-- Resample majority class `without` replacement, setting number of samples to match with `minority` class.
+- Resample majority class by setting number of samples to match with `minority` class.
 - Combine the `down sampled` data with orignal `minority` class data ( daatframe )
 
 ### 3. Evaluation Metric :  `F1 Score`
