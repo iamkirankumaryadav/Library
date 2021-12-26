@@ -4,8 +4,7 @@
 
 `Bias` | `Variance`
 :--- | :---
-Bias : Error on **Train** Set | Variance : Error on **Test** Set
-**High** Bias ( High Error on **Train** Set ) | **High** Variance ( High Error on **Test** Set )
+Bias : Error on `train` set | Variance : Error on `test` set
 **Low** Bias ( Low Error on **Train** Set \| Model is Trained **Well** ) | **Low** Variance ( Low Error on **Test** Set \| **Prediction** is `Close` to **Actual** )
 High Bias : Model is not **Trained** Properly | Model does not **Generalize** well on **New Unknown Data**
 High Bias : **Simple** Model is Created | **Complicated** Model is Created
