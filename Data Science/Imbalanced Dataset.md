@@ -5,7 +5,7 @@
 `Class labels` of target should be `balanced` otherwise it predicts a **biased output**.
 
 `Stratified sampling` : Sample containing `equal` proportion of each `class labels` to train the model.  
-- e.g. 50 Red, 50 Blue and 50 Green
+- e.g. Flower Species 150 : 50 Setosa, 50 Verginica and 50 Versicolor
 
 ### 1. Up | Over sampling minority class | Sampling with replacement 
 
