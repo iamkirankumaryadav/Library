@@ -35,7 +35,7 @@
 
 <h3 name="linear">Linear Regression</h3>
 
-- `Predict` **Dependent Variable** on the basis of One or more **Independent** Variable ( s )
+- `Predict` **continuous numeric dependent variable** on the basis of one or more **independent** variables.
 
 <h3 name='mae'>1. Mean Absolute Error ( MAE ) </h3>
 
