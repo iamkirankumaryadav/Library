@@ -11,7 +11,7 @@
 - Model has just memorized the data, it was not able to learn the `hidden patterns` and `relationships`
 - Model performs **better** on **training** dataset but it does not **generalize** well on the **new unseen** test set.
 
-### How to `identify` overfitting ? 
+### `Identify` Overfitting 
 
 ### Train Test Split | Observe Accuracy ( Score )
 - `Split` the **dataset** into `train` and `test` set.
@@ -20,7 +20,7 @@
 - `Accuracy` of `test` set : `model.score(X_test, y_test)`
 - If `accuracy` of `train` set is better and `accuracy` on `test` set is worst ( `Overfitting` )
 
-### How to prevent from overfitting ?
+### `Prevent` from Overfitting
 
 ### 1. Collect more data for training.
 
