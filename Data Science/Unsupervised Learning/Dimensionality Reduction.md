@@ -7,21 +7,17 @@
 - Certain algorithms struggles to **train** effective models ( Especially algorithms which consist `distance` calculations )
 - Algorithms which consists distance calculations : Regressions, KNN, K Mean, SVM
 
-### Feature Selection
+### Feature `Selection`
 
 - `Select` only features that make impact on target variable, `filter` irrelevant or redundant features from your dataset.
+- `Feature Selection` keeps a subset of the `original` features. 
 
-### Feature Extraction
-- Create a new dataset with relevant features that captures most of the **information** and **insights**. 
+### Feature `Extraction`
+- Creates a new dataset with only `relevant` features that captures most of the **information** and **insights**. 
 
-### Key difference between Feature Selection and Feature Extraction
-- Feature **selection** keeps a subset of the `original` features. 
-- Feature **extraction** creates a `new` subset.
-
-### Variance Thresholds
-- Variance is `spread` between numbers in the dataset.
-- How far each number is from it's `mean` and every other number (`data points`)
-- `Variance` is dependent on scale, always **normalize** your **features** first.
+### Variance `Thresholds`
+- Variance represents how `spreadout` the data points are with respect to each others in the dataset.
+- `Variance` is dependent on `scale`, always `normalize` or `standardize` your features first.
 - Remove features whose values don't change much from observation to observation. 
 e.g ( If a public health dataset contains 96% of observations for `35 years old men`, then age and gender features can be eliminated )
 
