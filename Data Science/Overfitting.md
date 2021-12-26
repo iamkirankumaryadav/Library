@@ -27,9 +27,9 @@
 
 - Slope | Coefficient | Weight | Gradient ( All are same )
 - Lasso ( `L1` ) : Sum of `absolute` of `slope` ( **Coefficient** to exactly 0 )
-- **Simplify** the model + **feature selection** ( Select only **important** features )
+- `Simplify` the model + **feature selection** ( Select only **important** features )
 - Ridge ( `L2` ) : Sum of `square` of `slope` ( **Penalize** slope values towards 0 )
-- Able to learn **complex data patterns** | Decreases the **complexity** of model.
+- Learn `complex` **data patterns** | Decreases the `complexity` of model.
 
 ### 3. Apply [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 - Measure how well each **iteration** of the model performs.
