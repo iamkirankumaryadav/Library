@@ -155,10 +155,10 @@ Amount of R | **Strength** of **Correlation**
 
 ![Strength of Slope](Image/Strength.png)
 
-### Test Correlation Coefficient for Significance ( T Test ) 
-- **Null** Hypothesis ( H0 ) : There is **no linear relationship**
-- **Alternate** Hypothesis ( H1 ) : There is a **linear relationship**
-- P value is calculated ( if P Value > 0.05 : Then **accept** Null Hypothesis else **reject** Null Hypothesis )
+### `T Test` : Correlation Coefficient for `Significance`
+- **Null** Hypothesis `H0` : There is **no linear relationship**
+- **Alternate** Hypothesis `H1` : There is a **linear relationship**
+- `P value` is calculated ( if `P Value > 0.05` : Then `accept` Null Hypothesis else `reject` Null Hypothesis )
 
 ### `Multicollinearity`
 - Generally occurs when there are `high correlation` between two or more `independent` variables.
