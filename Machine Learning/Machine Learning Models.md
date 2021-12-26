@@ -395,12 +395,12 @@ Handle **non linear data** |
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
-- Based on **Conditional Probability** | Class **Prediction** Probability ( Used for **Binary** and **Multiclass** Classification )
-- Probabilistic Machine Learning Model ( Likelihood, Prior Probability and Posterior Probability )
-- Probability of **Event A** if **Event B** has already occured.
-- **Naive** : Assumes that all of the **Features** are **Independent** from each other.
-- e.g **Classification** of Dogs Breed ( Naive Bayes tries to create a **Probability** that each Dog belongs to seperate Class | Label )
-- Weights can be added to improve **Accuracy**. 
+- Based on `conditional probability` | Class **Prediction** Probability ( Used for `binary` and `multiclass` classification )
+- `Probabilistic` machine learning model ( i.ee Likelihood, `Prior` and `Posterior` Probability )
+- Probability of `Event A` if `Event B` has already occured.
+- `Naive` : Assumes that all of the `features` are `independent` from each other.
+- e.g `Classification` of Dogs Breed ( Naive Bayes tries to create a `probability` that each Dog belongs to seperate `Class` )
+- `Weights` can be added to improve `accuracy`
 
 > P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
 
