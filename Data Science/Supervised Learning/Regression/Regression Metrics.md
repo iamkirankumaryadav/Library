@@ -41,8 +41,8 @@
 
 ![MAE](Image/MAE.png)
 
-- `Sum` of `Absolute` difference between **Actual** and **Predicted** values.
-- `MAE` is better for **Outliers**, `Fails` in case of **Large Errors**
+- `Sum` of `absolute` difference between `actual` and `predicted` values.
+- `MAE` is better for datasets with `outliers`, `fails` in case of **larger errors**.
 
 ![MAE Scikit Learn](Image/MAESK.png)
 
@@ -50,8 +50,8 @@
 
 ![MSE](Image/MSE.jpg)
 
-- `Sum` of `Squared` difference between **Actual** and **Predicted** values.
-- **Square** Differences, **Penalizes** even `Small` Error.
+- `Sum` of `squared` difference between `actual` and `predicted` values.
+- **Squared** differences penalizes `small` errors.
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
@@ -59,7 +59,7 @@
 
 ![RMSE](Image/RMSE.png)
 
-- **Square Root** of `MSE`, `RMSE` is useful when `Large` Errors are **Undesired**.
+- **Square Root** of `MSE`, `RMSE` is useful at the time of undesired `large` errors.
 
 <h3 name='r2'>4. Coefficient of Determination ( R<sup>2</sup> ) | Squared Correlation Coefficient</h3>
 
