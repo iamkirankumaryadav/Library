@@ -2,7 +2,7 @@
 
 # Bias | Variance | Underfitting | Overfitting
 
-Bias | Variance
+`Bias` | `Variance`
 :--- | :---
 Bias : Error on **Train** Set | Variance : Error on **Test** Set
 **High** Bias ( High Error on **Train** Set ) | **High** Variance ( High Error on **Test** Set )
