@@ -4,8 +4,7 @@
 
 ### `Low Bias` : Low error on `train` set 
 
-- Simple model.
-- Model **memorize** the data including **noise** and **error** with very good **accuracy** for **training set**.
+- Simple model ( Model **memorize** the data including **noise** and **error** with very good **accuracy** for **training set** )
 
 ### `High Variance` : High error on `test` set
 - Model has just memorized the data, it was not able to learn the `hidden patterns` and `relationships`
