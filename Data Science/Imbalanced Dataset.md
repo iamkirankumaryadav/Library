@@ -6,18 +6,20 @@
 
 - e.g. Flower Species 150 : 50 Setosa, 50 Verginica and 50 Versicolor
 
+### `Observation` = `Sample` = `Rows`
+
 ### 1. Up | Over sampling minority class 
 
 ### ( SMOTE : Synthetic minority oversampling technique )
 
-- Randomly **duplicate** the `minority` class observations in order to **reinforce** the learning of data.
+- Randomly **duplicate** the `minority` class samples in order to **reinforce** the learning of data.
 - Resample minority class by setting number of samples to match with `majority` class.
-- Combine the `up sampled` observations with orignal `majority` observations ( dataframe )
+- Combine the `up sampled` samples with orignal `majority` samples ( dataframe )
 
 ### 2. Down | Under sampling majority class
-- Randomly **drop** the `majority` class observations ( Resampling **without** replacement )
+- Randomly **drop** the `majority` class samples ( Resampling **without** replacement )
 - Resample majority class by setting number of samples to match with `minority` class.
-- Combine the `down sampled` observations with orignal `minority` observations ( daatframe )
+- Combine the `down sampled` samples with orignal `minority` samples ( daatframe )
 
 ### 3. Evaluation Metric :  `F1 Score`
 - `F1 Score` : Number between `0` and `1` ( Harmonic mean of `recall` and `precision` )
@@ -25,7 +27,7 @@
 
 ### 4. `Stratified` K Fold Cross Validation
 
-- Sample containing `equal` proportion of each `class labels` to train the model.  
+- Samples containing `equal` proportion of each `class labels` to train the model.  
 
 ### 5. `Random Forest` supports imbalanced dataset
 
