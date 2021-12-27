@@ -17,8 +17,6 @@
 - Substitute bins by **mean** ( e.g. Age bins by `mean` of age group ) Better if `class labels` are less.
 - e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Post Graduate > Bachelor )
 
-Some times use business logic to remove `redundancy` e.g. Pincode is enough instead of state and city.
-
 ### `Dummy Encoding` | `One Hot Encoding` ( Better for `Nominal` )
 - Transform **non numerical labels** to `binary` **numerical labels** ( `1` and `0` ) 
 - Convert a **categorical** input variable into **numeric** variable.
