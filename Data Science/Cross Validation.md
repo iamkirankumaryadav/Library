@@ -28,10 +28,9 @@
 - **K - 1** subsets are used as **training set**.
 - **Mean** error of **K** trials is calculated.
 - Reduces **bias** and **variance** ( Generally generates low bias model )
-- Sampling `without` replacement ( Every observation from the data set is used for training and testing )
 - Best approach if we have limited input data.
-- Very high value of **K** will lead to **Overfitting**.
-- Very low value of **K** will work similar to train test split.
+- `Very high` value of `K` will lead to `overfitting`
+- `Very low` value of `K` will work similar to train test split.
 
 <h3 name='skfold'> 3. Stratified K Fold Cross Validation</h3>
 
