@@ -6,7 +6,7 @@
 
 - e.g. Flower Species 150 : 50 Setosa, 50 Verginica and 50 Versicolor
 
-### `Observation` = `Sample` = `Rows`
+### `Observations` = `Samples` = `Rows`
 
 ### 1. Up | Over sampling minority class 
 
