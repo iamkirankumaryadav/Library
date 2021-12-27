@@ -7,7 +7,6 @@
 Bias : Error on `train` set | Variance : Error on `test` set
 `High` Bias ( Model is not trained well ) | `High` Variance ( Prediction is not good for new unseen data )
 `High` Bias ( Simple Model is Created ) | `High` Variance ( Complicated Model is Created )
-`Low` Bias ( Model is trained well ) | `Low` Variance ( `Prediction` is `close` to `actual` )
 Simple model make **simplified assumptions** while learning | Complicated model learn data with `noise`
 Simple model do not capture **Hidden** Patterns and Relations properly | Model **Memorize** Patterns and Relations + Noise + Error
 `Low` Bias Algorithms ( Decision Tree, KNN, SVM ) | `Low` Variance Algorithms ( Regression, LDA )
