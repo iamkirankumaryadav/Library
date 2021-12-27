@@ -14,12 +14,12 @@
 
 - Randomly **duplicate** the `minority` class samples in order to **reinforce** the learning of data.
 - Resample minority class by setting number of samples to match with `majority` class.
-- Combine the `up sampled` samples with orignal `majority` samples ( dataframe )
+- Combine the `up sampled` minority samples with orignal `majority` samples ( dataframe )
 
 ### 2. Down | Under sampling majority class
 - Randomly **drop** the `majority` class samples ( Resampling **without** replacement )
 - Resample majority class by setting number of samples to match with `minority` class.
-- Combine the `down sampled` samples with orignal `minority` samples ( daatframe )
+- Combine the `down sampled` majority samples with orignal `minority` samples ( daatframe )
 
 ### 3. Evaluation Metric :  `F1 Score`
 - `F1 Score` : Number between `0` and `1` ( Harmonic mean of `recall` and `precision` )
