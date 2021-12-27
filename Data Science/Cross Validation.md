@@ -13,7 +13,7 @@
 
 <h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
 
-<h3 name='hold'> 1. Holdout Method ( Traditional Approach | Train Test Split )</h3>
+<h3 name='hold'> 1. Holdout Method | Train Test Split</h3>
 
 - Split the data set in ( 70% - 30% ) or ( 80% - 20% ) for `training`, `validation` and `testing`
 - Keep a part of **data set** for **validation** and use rest of the data set for training.
