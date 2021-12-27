@@ -24,6 +24,8 @@
 
 ### [Pandas vs SQL](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html#join)
 
+> Outliers : Extreme Value Analysis | DBSCAN | 5 Number Summary | Algorithm ( KNN & Random Forest )
+
 **Time** Complexity of Occurence of Characters in a String : `O(n)`
 
 ### Log Function
