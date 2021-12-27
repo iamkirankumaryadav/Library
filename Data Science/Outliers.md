@@ -71,7 +71,6 @@ Divide the Data into `4` Equal Quarters ( `Quartiles` )
     <td>
       <ol type="1">
         <li>Linear Regression</li>
-        <li>Logistic Regression</li>
         <li>K Nearest Neighbours ( KNN )</li>
         <li>K Means Clustering</li>
         <li>Support Vector Machine</li>
