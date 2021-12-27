@@ -28,7 +28,7 @@
 
 > Imbalanced : Up & Down Sampling | F1 Score | Stratified K Fold Cross Validation | Random Forest ( class_weight )
 
-> Overfitting : Apply Regularization | Apply Ensembles |  
+> Overfitting : Apply Regularization | Apply Ensembles | Apply Cross Validation | Feature Selection
 **Time** Complexity of Occurence of Characters in a String : `O(n)`
 
 ### Log Function
