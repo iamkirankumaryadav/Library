@@ -16,7 +16,7 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
 ### Scaling 
 - Convert **numeric** feature values from their `natural` **range** ( e.g. 100 to 900 ) into a `standard` or `normal` **range**.
 - A dataset with only one feature do not need scaling.
-- Scaling is beneficial only if the feature set consists of **multiple** features with different range.
+- Scaling is beneficial only if the dataset consists of **multiple** features with different range.
 
 ### Data Standardization ( Z Score Normalization )
 - Standardize features around center ( `Mean` ) 
