@@ -26,7 +26,9 @@
 
 > Outliers : Extreme Value Analysis | DBSCAN | 5 Number Summary | Algorithm ( KNN & Random Forest )
 
-> Imbalanced : Up & Down Sampling | F1 Score | Random Forest ( class_weight )
+> Imbalanced : Up & Down Sampling | F1 Score | Stratified K Fold Cross Validation | Random Forest ( class_weight )
+
+> Overfitting : Apply Regularization | Apply Ensembles |  
 **Time** Complexity of Occurence of Characters in a String : `O(n)`
 
 ### Log Function
