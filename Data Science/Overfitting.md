@@ -27,7 +27,7 @@
 
 - Slope | Coefficient | Weight | Gradient ( All are same )
 - Lasso ( `L1` ) : Sum of `absolute` of `slope` ( **Coefficient** to exactly 0 )
-- `Simplify` the model + **feature selection** ( Select only **important** features )
+- `Simplify` the model by eliminating the features which does not create any impact on target.
 - Ridge ( `L2` ) : Sum of `square` of `slope` ( **Penalize** slope values towards 0 )
 - Learn `complex` **data patterns** | Decreases the `complexity` of model.
 
