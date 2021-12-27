@@ -15,7 +15,7 @@
 - Experimental ( Data Extraction ) 
 - Natural ( Special unique case )
 
-How to **detect Outliers** ?
+### `Detect` Outliers
 
 - `Visualization` helps to visualize the `distribution` of data and helps to identify `outlier` in data.
 - `Boxplot`, `scatter` and `histogram` are better plots to identify `outlier` in the dataset.
