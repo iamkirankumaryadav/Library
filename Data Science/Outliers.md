@@ -17,12 +17,12 @@
 
 ### `Detect` Outliers
 
+### 1. `Visualization`
+
 - `Visualization` helps to visualize the `distribution` of data and helps to identify `outlier` in data.
 - `Boxplot`, `scatter` and `histogram` are better plots to identify `outlier` in the dataset.
 
-### Methods for Outlier Detection
-
-<h3 name="zscore">1. Z Score or Extreme Value Analysis</h3>
+<h3 name="zscore">2. Z Score or Extreme Value Analysis</h3>
 
 ![Standard Deviation](Image/Std.png)
 
@@ -32,22 +32,14 @@
 
 `Solution` : Apply transformation of data : Scaling ( Bring scales at same level )
 
-<h3 name="dbscan">2. DBSCAN | Density based spatial clustering of applications with noise</h3>
+<h3 name="dbscan">3. DBSCAN | Density based spatial clustering of applications with noise</h3>
 
 - `Clustering` methods are useful tools that helps us to `visualize` distribution of data and `outliers`
 - Relationships between **features** can be represented via `clustering`
 - It focus on finding **neighbors** by **density**.
 - `Outlier` lies in no cluster region, it is seperate from every other data point cluster regions.
 
-### How to deal with outliers ?
-
-1. Setup a `filter` and `trim` extreme low or extreme high data points in the dataset.
-2. Remove the `outlier` if it is very small, change the value of `outlier` or replace it with something meaningful.
-3. **Inter Quartile** Range ( `IQR` ) and Extreme value analysis ( `Z Score` )
-5. `Rescale` | `Standardize` | `Normalize` ( Bring to same scale )
-6. Apply `ensemble` learning techniques ( `Bagging` and `Boosting` )
-
-<h3 name="summary">3. Five Number Summary</h3>
+<h3 name="summary">4. Five Number Summary</h3>
 
 Divide the Data into `4` Equal Quarters ( `Quartiles` ) 
 
@@ -65,7 +57,7 @@ Divide the Data into `4` Equal Quarters ( `Quartiles` )
 - Data value **>** `Q3` + `1.5` * `IQR`
 - `Outlier` is represented by dot `o` in **boxplot**  
 
-<h3 name="algo">4. Algorithms</h3>
+<h3 name="algo">5. Algorithms</h3>
 
 <table>
   <tr>
@@ -95,5 +87,14 @@ Divide the Data into `4` Equal Quarters ( `Quartiles` )
     </td>
   </tr>
 </table>
+
+### `Handle` Outliers
+
+1. Setup a `filter` and `trim` extreme low or extreme high data points in the dataset.
+2. Remove the `outlier` if it is very small, change the value of `outlier` or replace it with something meaningful.
+3. **Inter Quartile** Range ( `IQR` ) and Extreme value analysis ( `Z Score` )
+5. `Rescale` | `Standardize` | `Normalize` ( Bring to same scale )
+6. Apply `ensemble` learning techniques ( `Bagging` and `Boosting` )
+
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
