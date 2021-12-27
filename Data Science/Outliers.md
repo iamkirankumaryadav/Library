@@ -64,7 +64,7 @@ Divide the Data into `4` Equal Quarters ( `Quartiles` )
     <th colspan="2">Machine Learning Algorithms</th>
   </tr>
   <tr>
-    <th>Sensitive to Outliers</th>
+    <th>Sensitive to Outliers ( Distance based )</th>
     <th>Not Sensitive to Outliers</th>
   </tr>
    <tr>
