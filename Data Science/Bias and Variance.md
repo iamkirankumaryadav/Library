@@ -17,6 +17,7 @@ Simple model do not capture **Hidden** Patterns and Relations properly | Model *
 - Simple the algorithm, more `bias` it will introduce ( Underfitting )
 
 ### How to Reduce `Bias` ?
+- Cross Validation, Resampling and Ensemble techniques can prevet from Bias as well as Variance.
 - `K Fold Cross Validations` and `Resampling` | Split dataset into `K` samples and each set is used as testing set
 - `Bootstrapping` and `Boosting` | Iteratively `Resampling` a dataset with `replacement`
 
