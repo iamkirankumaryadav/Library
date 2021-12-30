@@ -5,8 +5,11 @@
 - `Linear Algebra`, `Arithmetic`, `Statistical` and `Mathematical` operations.
 - Searching, Sorting, Counting, and Stacking.
 - `Element wise` arithmetic operations | `Scientific` and `Financial` calculations.
-- `Array` processing | `N` **dimensional** array | `Matrix` data structure operations.
+- `Array` processing | `N` **dimensional** array | Fast `Vector` and `Matrix` operations.
 - **Statistical** and **algebraic** computations | `Broadcasting` ( Arithmetic operations between array of different shape and size ) 
+- Most advanced `built in` functions. 
+- Essential for `OpenCV` Computer Vision applications.
+- Statsmodel, Matplotlib, Scikit Learn, Scipy and Pandas also use most of the NumPy's functions.
 
 <table align="center">
   <tr>
@@ -22,7 +25,8 @@
     <td>3 Dimensions</td>
   </tr>  
   <tr>
-    <td>Point</td>
+    <td>Poi
+      nt</td>
     <td>Line</td>
     <td>Square</td>
     <td>Cube</td>
@@ -56,5 +60,11 @@ Operator | Description
 `np.ones((1,2))` |	Creates an array filled with `ones`
 `np.random.random((5,5))` |	Creates an array with `random` numbers.
 `np.empty((2,2))` |	Creates an `empty` array.
+
+Python List | NumPy 
+:--- | :---
+No support for vectorized operations | Supports vectorized operations ( Addition, Multiplication )
+No fixed data type ( List is `Heterogeneous` ) | Fixed data type
+For loop not efficient ( Check data type ) | For loop is efficient 
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
