@@ -67,4 +67,15 @@ No support for vectorized operations | Supports vectorized operations ( Addition
 No fixed data type ( List is `Heterogeneous` ) | Fixed data type
 For loop not efficient ( Check data type ) | For loop is efficient 
 
+Python List 
+```python
+List = [1, 2, 3]
+```
+
+NumPy Array
+```python
+import numpy as np
+
+array = np.array([1, 2, 3])
+```
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
