@@ -1,9 +1,12 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # NumPy
-- **Numerical** Python | Mathematical Operations | **Element wise** arithmetic operations | **Scientific** and **financial** calculations.
-- `Array` processing | `N` **dimensional** array | `Matrix` data structure.
-- **Statistical** and **algebraic** computations | **Broadcasting** ( Arithmetic operations between array of different shape and size ) 
+- **Numerical** Python 
+- `Linear Algebra`, `Arithmetic`, `Statistical` and `Mathematical` operations.
+- Searching, Sorting, Counting, and Stacking.
+- `Element wise` arithmetic operations | `Scientific` and `Financial` calculations.
+- `Array` processing | `N` **dimensional** array | `Matrix` data structure operations.
+- **Statistical** and **algebraic** computations | `Broadcasting` ( Arithmetic operations between array of different shape and size ) 
 
 <table align="center">
   <tr>
