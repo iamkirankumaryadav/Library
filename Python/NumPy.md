@@ -64,10 +64,12 @@ Operator | Description
 Python List | NumPy 
 :--- | :---
 No support for vectorized operations | Supports vectorized operations ( Addition, Multiplication )
-No fixed data type ( List is `Heterogeneous` ) | Fixed data type
+No fixed data type ( List is `Heterogeneous` ) | Fixed data type ( Homogeneous )
 For loop not efficient ( Check data type ) | For loop is efficient 
+Consumes more memory | Consume `less` memory ( `6x` less memory than list )
+List stores object type, reference count, object value, object size | NumPy only stores element values
 
-Python List 
+Python List ( Ordered, Subscriptable, Mutable, Heterogeneous, Duplicate, Indexing, Slicing, Iterable )
 ```python
 List = [1, 2, 3]
 ```
@@ -76,6 +78,6 @@ NumPy Array
 ```python
 import numpy as np
 
-array = np.array([1, 2, 3])
+Array = np.array([1, 2, 3])
 ```
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
