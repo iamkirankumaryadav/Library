@@ -185,3 +185,12 @@ plt.style.use('ggplot')
 ### `Subplots`
 
 ![Subplots](Image/Subplots.jpeg)
+
+```python
+fig = plt.figure(figsize=(10,8))
+axes1 = plt.subplot(2, 2, 1, title='Plot1')
+axes2 = plt.subplot(2, 2, 2, title='Plot2')
+axes3 = plt.subplot(2, 2, 3, title='Plot3')
+axes4 = plt.subplot(2, 2, 4, title='Plot4')
+plt.show()
+```
