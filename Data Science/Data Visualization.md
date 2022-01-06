@@ -28,6 +28,11 @@ pip install bokeh
 - `Axes` : Area were the data is plotted.
 - `Axis` : Horizontal and vertical number lines, which defines the graph limits.
 
+```python
+import matplotlib.pyplot as plt
+fig = plt.figure()
+```
+
 ### Purpose of Visualization
 - Make `Comparison` ( Magnitudes )
 - Ask lots of questions to data, chart selection, design and labels.
