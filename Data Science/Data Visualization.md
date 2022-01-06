@@ -184,6 +184,9 @@ plt.style.use('ggplot')
 ```
 ### `Subplots`
 
+- Create multiple `plots` in single `figure`
+- `Subplot` creates the `Axes` object at index position and returns it.
+
 ![Subplots](Image/Subplots.jpeg)
 
 ```python
