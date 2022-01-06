@@ -123,3 +123,10 @@ plt.show()
 ```python
 plot(x, y) # x, y data values representing two variables.
 ```
+# Common `Parameters` of `plot` function
+- `color` : Sets the color of the line.
+- `linestyle` : Sets the line style, e.g., solid, dashed, etc.
+- `linewidth` : Sets the thickness of a line.
+`marker` : Chooses a marker for data points, e.g., circle, triangle, etc.
+`markersize` : Sets the size of the chosen marker.
+`label`: Names the line, which will come in legend.
