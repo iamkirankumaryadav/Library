@@ -184,4 +184,4 @@ plt.style.use('ggplot')
 ```
 ### `Subplots`
 
-![Subplots](Image/Subplot.jpeg)
+![Subplots](Image/Subplots.jpeg)
