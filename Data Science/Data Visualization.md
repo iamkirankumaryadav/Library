@@ -28,17 +28,58 @@ pip install bokeh
 - `Axes` : Area were the data is plotted.
 
 ```python 
-# Axes is added by using add_subplot method
+# Axes is added by using add_subplot method.
 add_subplot(nrows, ncols, index)
+# add_subplot(1, 1, 1) and add_subplot(111) are same.
 ```
 
 - `Axis` : Horizontal and vertical number lines, which defines the graph limits.
 
 ```python
 import matplotlib.pyplot as plt
-fig = plt.figure()
+
+# Figure
+-------------------------------
+fig = plt.figure(figsize=(8,6)) # Adjusting figure size # Default (width=6, height=4)
+-------------------------------
+
+# Axes
+-------------------------
 ax = fig.add_subplot(111)
+-------------------------
+
+# Set Parameters
+-----------------------------------------------------------------------------------------
+ax.set(title='My Plot Title', xlabel='X Axis', ylabel='Y Axis', xlim=(0, 5), ylim=(0,10))
+                                         or 
+ax.set_title("My Plot Title")
+ax.set_xlabel("X Axis"); ax.set_ylabel('Y Axis')
+ax.set_xlim([0,5]); ax.set_ylim([0,10])                                         
+-----------------------------------------------------------------------------------------
+
+# Plot
+----------------------------------
+x = [1, 2, 3, 4]; y = [2, 4, 6, 8]
+plt.plot(x, y)
+----------------------------------
+
+# Plot Attributes
+------------------------------------------
+plt.title('My First Plot')
+plt.xlabel('X-Axis'); plt.ylabel('Y-Axis')
+plt.xlim(0,5); plt.ylim(0,10)
+plt.plot(x, y, label='linear-growth')
+------------------------------------------
+
+# Legends
+------------
+plt.legend()
+------------
+
+# Show Plot
+----------
 plt.show()
+----------
 ```
 
 ### Purpose of Visualization
@@ -78,4 +119,7 @@ plt.show()
 
 ### 7. Line | Sparkline ( Overview | Without Units and Labels )
 - Change over `Time` | Trends | Profits | Loss | Increase | Decrease | Flow
-- Univariate and Multivariate.
+- Univariate and Multivariate (Compare two variables)
+```python
+plot(x, y) # x, y data values representing two variables.
+```
