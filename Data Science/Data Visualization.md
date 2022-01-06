@@ -133,8 +133,14 @@ Common `parameters` of `scatter` plot
 - Useful to Represent **Time Series Relation**
 
 ### 5. Pie  | Doughnut ( Proportion )
-- A Circular Graph divided into **Segments** or **Slices**.
-- Represent **Percentage** or **Proportion** Data where each **Slice** of Pie represents **Category**.
+- A circular graph divided into `segments` or `slices`
+- Represent `percentage` or `proportion` of `categorical` data where each `slice` of pie represents `category`
+
+Common parameters of `pie`
+- `colors` : Sets the colors of portions.
+`labels` : Sets the labels of portions.
+`startangle` : Sets the start angle at which portion drawing starts.
+`autopct` : Sets the percentage display format of an area, covering portions.
 
 ### 6. Boxplot
 - Represent `Outliers` and `Distribution` of Data.
