@@ -197,3 +197,16 @@ axes3 = plt.subplot(2, 2, 3, title='Plot3')
 axes4 = plt.subplot(2, 2, 4, title='Plot4')
 plt.show()
 ```
+
+![Subplots](Image/Subplot.jpeg)
+
+```python
+fig = plt.figure(figsize=(10,8))
+axes1 = plt.subplot(2, 2, (1,2), title='Plot1')
+axes1.set_xticks([]); axes1.set_yticks([])
+axes2 = plt.subplot(2, 2, 3, title='Plot2')
+axes2.set_xticks([]); axes2.set_yticks([])
+axes3 = plt.subplot(2, 2, 4, title='Plot3')
+axes3.set_xticks([]); axes3.set_yticks([])   # Removes all ticks of x and y axes.
+plt.show()
+```
