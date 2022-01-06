@@ -109,7 +109,7 @@ plt.show()
 ```python
 scatter(x, y)
 ```
-- Common `parameters` of `scatter`
+- Common `parameters` of `scatter` plot
 - `c` : Sets color of markers.
 - `s` : Sets size of markers.
 - `marker` : Selects a marker. e.g: circle, triangle, etc
@@ -132,7 +132,7 @@ scatter(x, y)
 ```python
 plot(x, y) # x, y data values representing two variables.
 ```
-# Common `Parameters` of `plot` function
+Common `Parameters` of `plot` function
 - `color` : Sets the color of the line.
 - `linestyle` : Sets the line style, e.g., solid, dashed, etc.
 - `linewidth` : Sets the thickness of a line.
