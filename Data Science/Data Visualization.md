@@ -182,3 +182,6 @@ print(plt.style.available)
 # Use a style
 plt.style.use('ggplot')
 ```
+### `Subplots`
+
+![Subplots](Image/Subplots.png)
