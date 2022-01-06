@@ -26,11 +26,19 @@ pip install bokeh
 ### `Parts` of `Matplotlib Figure`
 - `Figure` : Whole area choosen for plotting.
 - `Axes` : Area were the data is plotted.
+
+```python 
+# Axes is added by using add_subplot method
+add_subplot(nrows, ncols, index)
+```
+
 - `Axis` : Horizontal and vertical number lines, which defines the graph limits.
 
 ```python
 import matplotlib.pyplot as plt
 fig = plt.figure()
+ax = fig.add_subplot(111)
+plt.show()
 ```
 
 ### Purpose of Visualization
