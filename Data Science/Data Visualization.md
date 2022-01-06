@@ -105,9 +105,15 @@ plt.show()
 - Determine the `relationship` between `dependent` and `independent` variables.
 - Values of one variable determines the position on the **horizontal axis** `X Axis`
 - Values of second variable determines the position on the **vertical axis** `Y Axis` 
+- If the spread of data points is `linear`, then two variables are `highly` correlated.
 ```python
 scatter(x, y)
 ```
+- Common `parameters` of `scatter`
+- `c` : Sets color of markers.
+- `s` : Sets size of markers.
+- `marker` : Selects a marker. e.g: circle, triangle, etc
+- `edgecolor` : Sets the color of lines on edges of markers.
 
 ### 4. Area | Stack | Streamgraph
 - Tracking the **Changes** over time
