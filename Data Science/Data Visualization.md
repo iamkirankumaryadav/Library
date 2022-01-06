@@ -20,6 +20,9 @@ pip install seaborn
 pip install bokeh
 ```
 
+### Figure `Anatomy`
+![Anatomy](Image/Anatomy.png)
+
 ### `Parts` of `Matplotlib Figure`
 - `Figure` : Whole area choosen for plotting.
 - `Axes` : Area were the data is plotted.
