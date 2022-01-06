@@ -1,14 +1,10 @@
 # Data Visualization
 
-### New Data is Generated every Second
-
-### Data is Collected and Stored.
-
-### Charts, Graphs and Tables add Meaning to Data
-
-### Data begins to Tell Some Story
-
-### Data is Illustrated using Visualization
+- New data is generated every second, data is `collected` and `stored`, `charts`, `graphs` and `tables` add meaning to data.
+- Data begins to tell some story, data is illustrated using visualization.
+- `Matplotlib` : Most widely used Python data visualization library.
+- `Seaborn` : Generate `informative statistical graphics`, it is dependent on `matplotlib`
+- `Bokeh` : Generate interactive plots, accessed as `JSON`, `HTML` objects or interactive web applications.
 
 ### Purpose of Visualization
 - Make `Comparison` ( Magnitudes )
