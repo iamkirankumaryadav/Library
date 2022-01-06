@@ -178,4 +178,7 @@ Common `Parameters` of `plot` function
 ```python
 import matplotlib.pyplot as plt
 print(plt.style.available)
+
+# Use a style
+plt.style.use('ggplot')
 ```
