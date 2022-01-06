@@ -105,6 +105,9 @@ plt.show()
 - Determine the `relationship` between `dependent` and `independent` variables.
 - Values of one variable determines the position on the **horizontal axis** `X Axis`
 - Values of second variable determines the position on the **vertical axis** `Y Axis` 
+```python
+scatter(x, y)
+```
 
 ### 4. Area | Stack | Streamgraph
 - Tracking the **Changes** over time
