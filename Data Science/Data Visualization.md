@@ -110,9 +110,13 @@ Common `parameters` of `bar`
 - `label` : Sets label to a bar, appearing in legend.
 
 ### 2. Histogram
-- **Distribution** of Data | **Frequency | Occurence** of **Continuous** Data
-- Comparing Two **Entities**
-- **Bins** : **Range of Values** divided into **Series of Intervals**
+- `Distribution` or `spread` of data | **Frequency | Occurence** of **continuous** data
+- Also used for comparing two **entities**
+
+Common `parameters` of `hist`
+- `color` : Sets the color of bars.
+- `bins` : Sets the number of `bins` to be used.
+- `normed` : Sets to `True` where bins display `fraction` and not the count.
 
 ### 3. Scatter 
 - Determine the `relationship` between `dependent` and `independent` variables.
@@ -136,14 +140,22 @@ Common `parameters` of `scatter` plot
 - A circular graph divided into `segments` or `slices`
 - Represent `percentage` or `proportion` of `categorical` data where each `slice` of pie represents `category`
 
-Common parameters of `pie`
+Common `parameters` of `pie`
 - `colors` : Sets the colors of portions.
 `labels` : Sets the labels of portions.
 `startangle` : Sets the start angle at which portion drawing starts.
 `autopct` : Sets the percentage display format of an area, covering portions.
 
 ### 6. Boxplot
-- Represent `Outliers` and `Distribution` of Data.
+- Represent `spread` or `distribution` of data.
+- Also used to compare distributions.
+- Helps to detect an `outlier` in the data
+
+Common `parameters` of `boxplot`
+- `labels` : Sets the labels for box plots.
+`notch` : Sets to `True` if notches need to be created around the median.
+`bootstrap` : Number set to indicate that notches around the median are bootstrapped.
+`vert` : Sets to `False` for plotting Box plots horizontally.
 
 ### 7. Line | Sparkline ( Overview | Without Units and Labels )
 - Change over `Time` | Trends | Profits | Loss | Increase | Decrease | Flow
@@ -158,3 +170,12 @@ Common `Parameters` of `plot` function
 - `marker` : Chooses a marker for data points, e.g., circle, triangle, etc.
 - `markersize` : Sets the size of the chosen marker.
 - `label`: Names the line, which will come in legend.
+
+### Matplotlib `Styles`
+- `matplotlib.pyplot` comes with a lot of styles. 
+- Based on the chosen style, the display of figure changes.
+- You can view various styles available in pyplot by running the following commands.
+```python
+import matplotlib.pyplot as plt
+print(plt.style.available)
+```
