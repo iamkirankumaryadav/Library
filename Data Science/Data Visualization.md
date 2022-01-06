@@ -20,6 +20,11 @@ pip install seaborn
 pip install bokeh
 ```
 
+### `Parts` of `Matplotlib Figure`
+- `Figure` : Whole area choosen for plotting.
+- `Axes` : Area were the data is plotted.
+- `Axis` : Horizontal and vertical number lines, which defines the graph limits.
+
 ### Purpose of Visualization
 - Make `Comparison` ( Magnitudes )
 - Ask lots of questions to data, chart selection, design and labels.
