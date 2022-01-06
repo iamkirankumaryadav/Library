@@ -8,14 +8,10 @@
 
 ### Purpose of Visualization
 - Make `Comparison` ( Magnitudes )
-
-### Ask Lots of Questions to Data | Chart Selection | Design | Label
-
-### We should keep Cause on X Axis and it's Effect on Y Axis
-
-### Always keep Magnitude Related to Height or Frequency in Vertical Position.
-
-### Always put `Time` on X Axis
+- Ask lots of questions to data, chart selection, design and labels.
+- We should keep `cause` on `X Axis` and it's `effect` on `Y Axis`
+- Always keep `magnitude` related to `height` or `frequency` in vertical position.
+- Always put `time` on `X Axis`
 
 ### 1. Bar Chart | Column Chart ( Comparison )
 - Data **Comparison** ( Categorical Features : Nominal | Ordinal )
