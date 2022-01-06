@@ -90,11 +90,18 @@ plt.show()
 - Always put `time` on `X Axis`
 
 ### 1. Bar Chart | Column Chart ( Comparison )
-- Data **Comparison** ( Categorical Features : Nominal | Ordinal )
-- Can be used for **Categorical** as well as **Numeric Data**
-- Change over a Period of Time | Compare Magnitude | Ranking | Length ( Height, Width, Distance )
-- Represented **Vertically** or **Horizontally** or **Grouped** ( If we want to Measure more than One Variable )
+- Data **comparison** | Comparing **categories** ( Categorical Features : Nominal | Ordinal )
+- Can be used for `categorical` as well as `numerical` data.
+- Change over a period of `time` | Compare magnitude, ranking, length ( Height, Width, Distance )
+- Represented **vertically** or **horizontally** or **grouped** ( If we want to measure more than one variable )
 - `Similar` Charts : **Lolipop** Chart ( Bubble at Top | Can be used if Number of `Bars` are more in **Bar** Chart )
+```python
+# Vertical Bar
+bar(x,height)
+
+# Horizontal Bar
+barh(y, width)
+```
 
 ### 2. Histogram
 - **Distribution** of Data | **Frequency | Occurence** of **Continuous** Data
