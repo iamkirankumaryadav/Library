@@ -102,9 +102,9 @@ plt.show()
 - **Bins** : **Range of Values** divided into **Series of Intervals**
 
 ### 3. Scatter 
-- Determine the **Relationship** between **Dependent** and **Independent** Variables
-- Value of One Variable | Feature determines the position on the **Horizontal Axis** ( **X Axis** )
-- Value of One Variable | Feature determines the position on the **Vertical Axis** ( **Y Axis** )
+- Determine the `relationship` between `dependent` and `independent` variables.
+- Values of one variable determines the position on the **horizontal axis** `X Axis`
+- Values of second variable determines the position on the **vertical axis** `Y Axis` 
 
 ### 4. Area | Stack | Streamgraph
 - Tracking the **Changes** over time
