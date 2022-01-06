@@ -182,7 +182,7 @@ print(plt.style.available)
 # Use a style
 plt.style.use('ggplot')
 ```
-### `Subplots`
+# `Subplots`
 
 - Create multiple `plots` in single `figure`
 - `Subplot` creates the `Axes` object at index position and returns it.
