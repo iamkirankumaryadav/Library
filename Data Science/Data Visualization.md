@@ -102,6 +102,12 @@ bar(x,height)
 # Horizontal Bar
 barh(y, width)
 ```
+Common `parameters` of `bar`
+- `color` : Sets the color of bars.
+`edgecolor` : Sets the color of the border line of bars.
+`width` : Sets the width of bars
+`align` : Aligns the bars with respect to `x` coordinates
+`label` : Sets label to a bar, appearing in legend.
 
 ### 2. Histogram
 - **Distribution** of Data | **Frequency | Occurence** of **Continuous** Data
