@@ -7,3 +7,10 @@
 1. **Missing Values** : NaT, NaN, NA, None ( Data type of NaN is `float` )
 2. **Bad Values** : Outlier, Value generated due to error, spelling mistakes, case mistakes ( cpu and CPU )
 3. **Duplicates** : Same data 
+```python
+# How to look for duplicates :
+df.duplicated()
+
+# Duplicates in particular columns only
+df.duplicated(['column1', 'column3']) 
+```
