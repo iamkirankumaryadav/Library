@@ -17,7 +17,7 @@ df['column'].value_counts()
 pd.pivot(df, index='time', columns='name').plot(subplots=True)
 
 # Remove the outliers by setting a lower and upper bounds :
-df.query('type'='cpu' & (value > 0 | value < 20 )
+df.query('type'='cpu' & (value > 0 | value < 20)
 
 # Find Outliers by using Mean and Standard Deviation (Z Score):
 ```
