@@ -33,3 +33,5 @@ df.duplicated()
 # Duplicates only in particular columns.
 df.duplicated(['column1', 'column3']) 
 ```
+
+### Causes of `Errors`
