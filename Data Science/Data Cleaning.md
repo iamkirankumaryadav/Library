@@ -21,7 +21,9 @@ df.query('type'='cpu' & (value > 0 | value < 20 )
 
 # Find Outliers by using Mean and Standard Deviation ( Z Score ):
 ```
-4. **Duplicates** : Same data 
+
+3. **Duplicates** : Same data 
+
 ```python
 # How to look for duplicates :
 df.duplicated()
