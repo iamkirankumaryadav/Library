@@ -20,7 +20,7 @@ pd.pivot(df, index='time', columns='name').plot(subplots=True)
 df.query('type'='cpu' & (value > 0 | value < 20)
 
 # Find outliers by using Mean and Standard Deviation (Z Score):
-z score = x - x.mean / x.std
+zscore = x - x.mean() / x.std()
 Data / Values / Points outside 3 std is considered as outliers.
 ```
 
