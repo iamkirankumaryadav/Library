@@ -28,6 +28,6 @@ df.query('type'='cpu' & (value > 0 | value < 20 )
 # How to look for duplicates :
 df.duplicated()
 
-# Duplicates in particular columns only
+# Duplicates only in particular columns.
 df.duplicated(['column1', 'column3']) 
 ```
