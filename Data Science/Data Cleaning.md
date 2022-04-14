@@ -10,16 +10,16 @@
 # How to find bad data : Look after distribution and outliers
 df.groupby('column').describe()
 
-# Check the count of labels ( Categorical ) or distribution of data labels :
+# Check the count of labels (Categorical) or distribution of data labels :
 df['column'].value_counts()
 
-# Data visualization is the best way to check the distribution ( Numerical ) and frequency or count ( Categorical ) of data
+# Data visualization is the best way to check the distribution (Numerical) and frequency or count (Categorical) of data
 pd.pivot(df, index='time', columns='name').plot(subplots=True)
 
 # Remove the outliers by setting a lower and upper bounds :
 df.query('type'='cpu' & (value > 0 | value < 20 )
 
-# Find Outliers by using Mean and Standard Deviation ( Z Score ):
+# Find Outliers by using Mean and Standard Deviation (Z Score):
 ```
 
 3. **Duplicates** : Same data 
