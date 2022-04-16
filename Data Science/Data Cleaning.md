@@ -36,6 +36,6 @@ df.duplicated(['column1', 'column3'])
 
 ### Causes of `Errors`
 
-1. **Human** Error : Entering wrong data ( Uppercase/Lowercase, No Proper Validation, **'O'** instead of **0**, Typo, Spelling, Copy/Paste )
-2. **Machine** Error
-3. **Design** Error
+1. **Human** Error : Entering wrong data ( Uppercase/Lowercase, No proper validation, **'O'** instead of **0**, Typo, Spelling, Copy/Paste )
+2. **Machine** Error : Faulty sensor, Measuring devices, Dirt on camera, Time inaccuracy, Network error. 
+3. **Design** Error : System and UI for collecting data ( Input forms, Payment forms without proper input and data validations )
