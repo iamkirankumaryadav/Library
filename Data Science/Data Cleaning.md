@@ -39,3 +39,12 @@ df.duplicated(['column1', 'column3'])
 1. **Human** Error : Entering wrong data ( Uppercase/Lowercase, No proper validation, **'O'** instead of **0**, Typo, Spelling, Copy/Paste )
 2. **Machine** Error : Faulty sensor, Measuring devices, Dirt on camera, Time inaccuracy, Network error. 
 3. **Design** Error : System and UI for collecting data ( Input forms, Payment forms without proper input and data validations )
+
+### Detecting `Errors`
+
+1. **Schema** and **Validation** : Proper data type and relationship of data, format, Constraints ( Whether NULL is allowed in the column or not )  
+2. **Missing** : Filling missing value or Dropping rows with missing values ( NULL, NaN, Empty )
+3. **Domain Knowledge** : Help to understand the valid value and range of the data ( -90 <= Latitude <=90 and -180 <= Longitude <= 180 )
+4. **Visualization** : Histogram, Boxplot and Bar Charts helps to visualize the distribution or frequency of data and outliers.
+
+### Preventing `Errors`
