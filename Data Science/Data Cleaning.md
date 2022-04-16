@@ -35,3 +35,7 @@ df.duplicated(['column1', 'column3'])
 ```
 
 ### Causes of `Errors`
+
+1. **Human** Error : Entering wrong data (Uppercase/Lowercase, Validation, **'O'** instead of **0**)
+2. **Machine** Error
+3. **Design** Error
