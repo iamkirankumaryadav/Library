@@ -35,3 +35,15 @@ GROUP BY S.Department DESC
 5. HAVING   : What characteristics ? (Usually used in Aggregate Function)
 6. GROUP BY : Always follows the HAVING Clause.
 ```
+
+### 5. What is the order of execution for a SELECT statment ?
+```
+# Query Order of Execution :
+
+FROM     : Where data is coming from ?
+WHERE    : How to filter out the data ?
+GROUP BY : How data is grouped ?
+HAVING   : Which Characteristics ?
+SELECT   : What data is returned ?
+ORDER BY : How data is started ?
+```
