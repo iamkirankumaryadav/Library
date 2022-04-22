@@ -26,7 +26,8 @@ WHERE S.Last_Name LIKE '%ol%'
 ORDER BY S.Last_Name
 HAVING Count(S.Class) > 5
 GROUP BY S.Department DESC
-
+```
+```
 1. SELECT   : Select the columns.
 2. FROM     : Where the data is coming from ? (Which Table)
 3. WHERE    : Filter out the data.
