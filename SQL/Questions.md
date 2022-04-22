@@ -16,6 +16,5 @@ FROM Students S
 ```
 
 ### 3. Difference between **UNION** and **UNION ALL**
-```
-The **Number** of the columns, **Data type** and **Order** of the columns should be same, the only difference is **UNION** keeps only **DISTINCT** where as **UNION ALL** preserves duplicates.
-```
+- The **Number** of the columns, **Data type** and **Order** of the columns should be same, the only difference is **UNION** keeps only **DISTINCT** where as **UNION ALL** preserves duplicates.
+
