@@ -60,3 +60,13 @@ Controls what type of data is allowed into a table : **Primary Keys**, **Foreign
 4. MAX()   : Returns the highest or newest(date)
 5. COUNT() : Returns the numbers of values (Frequency)
 ```
+
+### 8. SQL Categorization :
+```
+1. DDL : Data Definition Language
+2. DML : Data Manipulation Language
+3. DCL : Data Control Language
+4. TCL : Transaction Control Language
+5. DQL : Data Query Language
+
+```
