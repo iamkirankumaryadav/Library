@@ -36,7 +36,7 @@ GROUP BY S.Department DESC
 6. GROUP BY : Always follows the HAVING Clause.
 ```
 
-### 5. What is the order of execution for a SELECT statment ?
+### 5. What is the order of execution for a **SELECT** statment ?
 ```
 # Query Order of Execution :
 
@@ -46,4 +46,17 @@ GROUP BY : How data is grouped ?
 HAVING   : Which Characteristics ?
 SELECT   : What data is returned ?
 ORDER BY : How data is started ?
+```
+
+### 6. Constraints :
+
+Controls what type of data is allowed into a table : **Primary Keys**, **Foreign Keys**, **UNIQUE**, **NOT NULL**
+
+### 7. Aggregate Functions :
+```
+1. SUM()   : Returns a total
+2. AVG()   : Returns the averages of numbers.
+3. MIN()   : Returns the lowest or oldest(date)
+4. MAX()   : Returns the highest or newest(date)
+5. COUNT() : Returns the numbers of values (Frequency)
 ```
