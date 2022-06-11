@@ -22,7 +22,7 @@
 
 ---
 
-### [Pandas vs SQL](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html#join)
+### [Pandas vs SQL](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html#join) | [Lists vs Array](https://github.com/KIRANKUMAR7296/NumPy)
 
 > Outliers : Extreme Value Analysis | DBSCAN | 5 Number Summary | Algorithm ( KNN & Random Forest )
 
