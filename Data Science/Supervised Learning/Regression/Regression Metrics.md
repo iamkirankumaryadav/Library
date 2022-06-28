@@ -150,10 +150,9 @@ False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect Fa
 - **F1 Score** is used when `FN` and `FP` are more **Crucial**.
 - **F1-score** is a better metric to evaluate in **Real Life Application**.
 - `Best` value for **F1 Score** is `1` | `Worst` value for **F1 Score** is `0`
+- **Precision**, **Recall** and **F1 Score** are better `Metrics` for **Imbalanced Dataset**
 
 ![F1](Image/F1.png)
-
-> **Precision**, **Recall** and **F1 Score** are better `Metrics` for **Imbalanced Dataset**
 
 <h3 name='roc'>7. ROC | Receiver Operating Characteristic Curve</h3>
 
