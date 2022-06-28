@@ -140,7 +140,7 @@ False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect Fa
 
 ![FPR](Image/FPR.png)
 
-<h3 name='f1'>6. F1 Score</h3>
+<h3 name='f1'>6. F1 Score | F Measure</h3>
 
 - Weighted Average ( Harmonic Mean ) of `Precision` and `Recall`
 - `F1 Score` keeps a `balance` between `Recall` and `Precision` for the `classifier model`
