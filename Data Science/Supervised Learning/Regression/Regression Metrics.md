@@ -114,6 +114,7 @@ False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect Fa
 - Number of `Correct` predictions to the `Total` predictions.
 - Accuracy score is good if dataset contains `Balanced` class distribution.
 - Used when all the classes ( `TP`, `TN`, `FP` and `FN` ) are equally important.
+- Accuracy: (TP + TN) / TP + TN + FP + FN
 
 ![Accuracy](Image/Accuracy.png)
 
