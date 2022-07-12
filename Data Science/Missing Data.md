@@ -63,9 +63,9 @@ import pandas as pd
 data = pd.read_csv("train.csv")
 data = data[["Survived", "Sex", "Age"]]
 
-test_set = data[data["Age"].isnull()] # Missing Data will be Test Set
+test_set = data[data["Age"].isnull()] # Missing data will be test set.
 
-data.dropna(inplace=True) # Remaining Data ( Non Null ) will be used for Training the Model
+data.dropna(inplace=True) # Remaining data ( Non Null ) will be used for training the model.
 
 y_train = data["Age"]
 X_train = data.drop("Age", axis=1)
