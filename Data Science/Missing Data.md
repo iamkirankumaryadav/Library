@@ -15,7 +15,7 @@
 - `Drop` **rows** if it has a `NULL` value for particular **columns** ( `Missing rows` < `5%` | `axis = 0` )
 - `Drop` **columns** if **missing values** > `70%` | `axis = 1`
 - Deleting irrelevant **rows** or **columns** helps to get a **robust model**.
-- But it's **better** to keep data than `dropping`, removing data may lead to `loss` of information.
+- But it's **better** to keep data rather than `dropping`, removing data may lead to `loss` of information.
 - If one value in observation is `missing` other values in the observations may be **important**.
 
 <h3 name="impute"> 2. Impute ( fillna( ) )</h3>
