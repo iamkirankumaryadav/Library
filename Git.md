@@ -2,11 +2,11 @@
 
 # Git
 
-### What is Git ?
-- Version Control | Keep Track of Changes in Projects
+### What is Git?
+- Version control | Keep track of changes in projects.
 
-### What is GitHub ?
-- A Website that **Hosts Git Repositories** | Make it Easier for **Developers** to Share there Codes 
+### What is GitHub?
+- A Website that **hosts Git repositories** | Make it easier for **developers** to share there codes. 
 
 ### Commands
 
