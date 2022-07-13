@@ -6,7 +6,8 @@
 
 ### `Outliers`
 - **Data points** that `differs` significantly from other **observations** in the dataset are `outliers`
-- `Outlier` affect the `distribution` of data by introducing `skewness` in the data.
+- `Outlier` affects the `distribution` of data by introducing `skewness` in the data.
+- `outlier` affects the `correlation` among features.
 
 ### Cause of Outliers 
 
