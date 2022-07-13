@@ -35,7 +35,7 @@
 
 <h3 name="dbscan">3. DBSCAN | Density based spatial clustering of applications with noise</h3>
 
-- `Clustering` methods helps us to `visualize` distribution of data and `outliers`
+- `Clustering` methods helps us to `visualize` the distribution of data and `outliers`
 - Relationships between **features** can be represented via `clustering`
 - It focus on finding **neighbors** by **density**.
 - `Outlier` lies in no cluster region, it is seperate from every other data point cluster regions.
