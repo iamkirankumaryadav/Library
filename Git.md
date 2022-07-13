@@ -12,13 +12,13 @@
 
 Command | Meaning
 :--- | :---
-git `init` | **Initialize** Local Repository
-git `clone` | Create a **Copy** of Repository on Local from GitHub
-git `status` | Check **Status**
-git `add` | Add a File to **Staging** Area
-git `commit` | **Commit** Changes
-git `push` | **Push** Changes to Repository
-git `pull` | **Pull** Changes from Repository
-git `log` | View Changes
+git `init` | **Initialize** local repository
+git `clone` | Create a **copy** of repository on local from GitHub
+git `status` | Check **status**
+git `add` | Add a file to **staging** area
+git `commit` | **Commit** changes
+git `push` | **Push** changes to repository
+git `pull` | **Pull** changes from repository
+git `log` | View changes
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
