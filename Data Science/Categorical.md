@@ -10,8 +10,11 @@
 
 ### `Logistic Regression`
 - Classify the `target` variables into 2 `discrete` classes ( Binary Classification )
-- If the `target` variable has more than 2 classes then use multiclass one vs rest `OvR` or one vs all `OvA`
+- If the `target` variable has more than 2 classes then use multiclass classification.
 ```python
+ovr: one vs rest 
+ova: one vs all
+
 # Define model
 model = LogisticRegression(multi_class='ovr')
 ```
