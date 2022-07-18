@@ -6,7 +6,8 @@
 - Version control | Keep track of changes in projects.
 
 ### What is GitHub?
-- A Website that **hosts Git repositories** | Make it easier for **developers** to share there codes. 
+- Website that hosts `git` repositories.  
+- Make it easier for **developers** to share there codes and collaborate with other developers. 
 
 ### Commands
 
