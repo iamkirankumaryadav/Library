@@ -40,8 +40,8 @@ pd.DataFrame()
 
 ### Important features of Pandas library:
 1. Data handling
-2. Data alignment and indexing
-3. Data cleaning
+2. Data indexing and slicing: `.loc[]`, `.iloc`, `.at[]`, `iat[]`       
+3. Data cleaning 
 4. Handling missing data
 5. Various input and output tools for reading and writing data
 6. Supports multiple file formats
