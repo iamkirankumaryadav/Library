@@ -51,6 +51,8 @@ pd.DataFrame()
 DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 ```
 
+<img src="../Python/Image/PandasDataTypes.png" alt='DataFrame'>
+
 ### Important features of Pandas library:
 1. Data reading from various input and writing to various output.
 2. Data handling and filtering: `.query()`
