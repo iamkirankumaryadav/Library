@@ -38,7 +38,7 @@ DataFrame['SeriesName'] or DataFrame["SeriesName"] or DataFrame.SeriesName
 
 <img src="Python/Image/DataFrames.png" alt='DataFrame'>
 
-![DataFrmae]("Python/Image/DataFrames.png")
+![DataFrmae]('Python/Image/DataFrames.png')
 
 ### `DataFrame`: 2 Dimensional Array
 
