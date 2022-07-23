@@ -46,7 +46,7 @@ DataFrame['SeriesName'] or DataFrame["SeriesName"] or DataFrame.SeriesName
 pd.DataFrame()
 
 # Accessing DataFrame:
-DataFrame['SeriesName1', 'SeriesName2', 'SeriesName3']
+DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 ```
 
 ### Important features of Pandas library:
