@@ -35,6 +35,7 @@ pd.Series([1, 2, 3, 4])
 ### `DataFrame`: 2 Dimensional Array
 
 - Data is aligned in tabular form with `rows` and `columns`
+- `DataFrame` is a sequence of `Series` that shares the same index.
 
 ```python
 # Empty DataFrame:
