@@ -2,6 +2,9 @@
 
 # Pandas 🐼
 
+```python
+import pandas as pd
+```
 Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `merge`, `pivot` and `clean` the data.
 
 ### Excel for Python. 
