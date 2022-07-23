@@ -29,7 +29,11 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - Data axis labels are called as `index`
 
 ```python
-pd.Series([1, 2, 3, 4])
+# Create a series:
+pd.Series([1, 2, 3,4])
+
+# Accessing a series:
+DataFrame['SeriesName'] or DataFrame["SeriesName"] or DataFrame.SeriesName
 ```
 
 ### `DataFrame`: 2 Dimensional Array
