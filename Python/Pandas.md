@@ -38,8 +38,6 @@ DataFrame['SeriesName'] or DataFrame["SeriesName"] or DataFrame.SeriesName
 
 <img src="Python/Image/DataFrames.png" alt='DataFrame'>
 
-![DataFrmae]('Python/Image/DataFrames.png')
-
 ### `DataFrame`: 2 Dimensional Array
 
 - Data is aligned in tabular form with `rows` and `columns`
