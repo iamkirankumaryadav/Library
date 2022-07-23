@@ -20,14 +20,23 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - Panel: **3** Dimensional ( major_axis and minor_axis )
 - Read, Write, Transform, Explore, Pivot, Join, Manipulate, Merge, GroupBy, Aggregate, Clean, Stack and Visualize.  
 
-### `Series`: 1 Dimensional 
+### `Series`: 1 Dimensional Array
 
 - Hold data value of `homogeneous` data type, i.e. All data values are of **same** data type.
-- Data row or column axis labels are called as `index`
+- Data axis labels are called as `index`
 
-### `DataFrame`: 2 Dimensional
+```python
+pd.Series([1, 2, 3, 4])
+```
+
+### `DataFrame`: 2 Dimensional Array
 
 - Data is aligned in tabular form with `rows` and `columns`
+
+```python
+# Empty DataFrame:
+pd.DataFrame()
+```
 
 ### Important features of Pandas library:
 - Row column selection, indexing and slicing
