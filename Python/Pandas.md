@@ -30,9 +30,9 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - Data is aligned in tabular form with `rows` and `columns`
 
 ### Important features of Pandas library:
-- Row column selection and slicing
+- Row column selection, indexing and slicing
 - Filter data 
-- Data alignment
+- Data alignment 
 - Merge, join and concat
 - Group by and aggregate
 - Reshaping and sorting
@@ -54,12 +54,3 @@ for i in df.iterrows():
             </td>
       </tr>
 </table>
-
-### Basic Manipulation
-
-1. Indexing
-2. Slicing
-3. Ordering
-4. Filtering
-5. Replacing
-6. Cleaning
