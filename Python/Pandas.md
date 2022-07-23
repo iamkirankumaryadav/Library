@@ -2,37 +2,34 @@
 
 # Pandas 🐼
 
-Toolkit to `Analyze`, `Filter`, `Manipulate`, `Aggregate`, `Merge`, `Pivot` and `Clean` the Data.
+Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `merge`, `pivot` and `clean` the data.
 
 ### Excel for Python. 
 
-- `Feature` or `Column` or `Attribute` or `Series` or `Field` or `Dimension`        
-- `Row` or `Index` or `Record` or `Tuple` or `Observation` or `Sample`
-- One entire `column` is known as `field` ( Homogeneous data )
-- One entire `row` is called as `record` ( Heterogeneous data )
-- **Panel** data ( Tabular data in **financial** terms )
-- Data analysis tool ( **Explore**, **analyze** and **manipulate** data )
-- Data **Import** ( Read ) and **Export** ( Write ) ( `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json` etc )
-- Data **Preview** ( `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()` etc )
-- Data **Cleaning** ( `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()` etc )
-- Data **Transforming** ( `apply()`, `explode()` etc )
-- Data **Aggregation** ( `concat()`, `merge()`, `groupby()`, `pivot_table()` etc )
+- `Column` | `Feature` | `Attribute` | `Series` | `Field` | `Dimension`        
+- `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
+- Financial term for a tabular data is `Panel`
+- Pandas is an exploratory data analysis toolkit.
+- Read | `import` and write | `export` data: `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json`, etc.
+- Preview data: `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()`, etc.
+- Clean data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`, etc. 
+- Transform data: `apply()`, `explode()`, etc.
+- Aggregate data: `concat()`, `merge()`, `groupby()`, `pivot_table()`, etc.
 - Pandas is used in economics, finance, statistics and analytics.
-- **Data Types** : **Series** ( **1** Dimensional ) and **DataFrames** ( **2** Dimensional )
-- Panel : **3** Dimensional ( major_axis and minor_axis )
-- Load - Manipulate - Prepare - Model - Analyze.
-- Transform, Explore, Join, Manipulate, Merge, Clean, Stack and Visualize.  
+- Data Types: `Series` ( **1** Dimensional ) and `DataFrames` ( **2** Dimensional )
+- Panel: **3** Dimensional ( major_axis and minor_axis )
+- Read, Write, Transform, Explore, Pivot, Join, Manipulate, Merge, GroupBy, Aggregate, Clean, Stack and Visualize.  
 
-### Series ( 1 Dimensional Array )
+### `Series`: 1 Dimensional 
 
-- Hold data value of **homogeneous** data type ( All data values should be of **same** data type )
-- Data axis labels are called the **index**.
+- Hold data value of `homogeneous` data type, i.e. All data values are of **same** data type.
+- Data row or column axis labels are called as `index`
 
-### DataFrame ( 2 Dimensional Array ) 
+### `DataFrame`: 2 Dimensional
 
 - Data is aligned in tabular form with `rows` and `columns`
 
-### Important features of Pandas library
+### Important features of Pandas library:
 - Row column selection and slicing
 - Filter data 
 - Data alignment
@@ -41,7 +38,7 @@ Toolkit to `Analyze`, `Filter`, `Manipulate`, `Aggregate`, `Merge`, `Pivot` and 
 - Reshaping and sorting
 - Time series analysis
 
-### Time Period
+### Time Period:
 - Time Stamp ( Days, Years, Quarter or Month)
 
 ### How to Iterate over a Pandas DataFrame?
