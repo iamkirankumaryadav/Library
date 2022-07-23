@@ -39,13 +39,20 @@ pd.DataFrame()
 ```
 
 ### Important features of Pandas library:
-- Row column selection, indexing and slicing
-- Filter data 
-- Data alignment 
-- Merge, join and concat
-- Group by and aggregate
-- Reshaping and sorting
-- Time series analysis
+1. Data handling
+2. Data alignment and indexing
+3. Data cleaning
+4. Handling missing data
+5. Various input and output tools for reading and writing data
+6. Supports multiple file formats
+7. Merge and join different datasets
+8. Performance optimization
+9. Data visualization
+10. Grouping the data as per requirement
+11. Performing different mathematical operations on the available data
+12. Masking out irrelevant data to only use the required data
+13. Taking out unique data from various repetitions in the dataset
+14. Time series analysis
 
 ### Time Period:
 - Time Stamp ( Days, Years, Quarter or Month)
