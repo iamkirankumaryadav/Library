@@ -36,7 +36,7 @@ pd.Series([1, 2, 3,4])
 DataFrame['SeriesName'] or DataFrame["SeriesName"] or DataFrame.SeriesName
 ```
 
-<a><img src='Python/Image/DataFrames.png'></a>
+<a><img src="Python/Image/DataFrames.png" alt='DataFrame'></a>
 
 ### `DataFrame`: 2 Dimensional Array
 
