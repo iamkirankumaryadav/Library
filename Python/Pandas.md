@@ -92,7 +92,7 @@ for i in df.iterrows():
 
 ```python
 # Dimensions of the dataframe:
-print(df.shape)
+1. print(df.shape)
 
 # Extract only the total number of rows in a dataframe:
 print(df.shape[0])
@@ -102,11 +102,15 @@ print(df.shape[1])
 ```            
 
 1. `DataFrame.head(n)`: Return the top n rows from the dataframe
-2. `DataFrame.tail(n)`: Return the bottom n rows from the dataframe
 
 ```python
 # Default value for n is 5
 df.head(n=10)
+```          
 
+2. `DataFrame.tail(n)`: Return the bottom n rows from the dataframe
+
+```python
+# Default value for n is 5
 df.tail(n=10)
-```                  
+```          
