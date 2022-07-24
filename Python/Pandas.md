@@ -130,7 +130,7 @@ Returns the summary of the DataFrame:
 2. Number of columns
 3. Data type
 4. Number of Non Null rows
-5. Size of data frame
+5. Memory usage by the data frame
 
 ```python
 df.info()
