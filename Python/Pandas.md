@@ -143,3 +143,17 @@ Returns an object containing counts of unique values.
 ```python
 df['City'].value_counts(normalize=False, sort=True, ascending=False, bins=None, dropna=True)
 ```            
+
+### `Series.sort_values()`
+
+Sort values along either axis
+
+```python   
+df['Age'].sort_values(axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last')
+```            
+
+### `DataFrame.sort_values()`
+
+```python
+df.sort_values(by=['Age', 'Salary'], axis=0, ascending=[True, True], inplace=False, kind='quicksort', na_position='last')
+```
