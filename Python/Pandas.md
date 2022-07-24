@@ -203,3 +203,12 @@ Returns a DataFrame with the default `integer based` index.
 ```python
 df.reset_index(level=None, drop=False, inplace=False, ...)
 ```
+
+### `DataFrame.sort_index()`
+
+- Sort objects by a label along the axis.
+- `axis=0` represents rows and `axis=1` represents columm.
+
+```python
+df.sort_index(axis=0, level=None, ascending=True, inplace=False, by=None)
+```
