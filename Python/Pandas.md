@@ -88,11 +88,11 @@ for i in df.iterrows():
 
 ## DataFrame `Attributes` and `Methods`
 
-`DataFrame.shape`: Dimensions of DataFrame (Number of rows, Number of columns)
+1. `DataFrame.shape`: Dimensions of DataFrame (Number of rows, Number of columns)
 
 ```python
 # Dimensions of the dataframe:
-1. print(df.shape)
+print(df.shape)
 
 # Extract only the total number of rows in a dataframe:
 print(df.shape[0])
