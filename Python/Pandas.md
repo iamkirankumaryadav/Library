@@ -195,3 +195,11 @@ df.set_index(keys='City', drop=True, append=False, inplace=False, verify_integri
 # Set multi index:
 df.set_index(keys=['City', 'State'], drop=True, inplace=False)
 ```
+
+### `DataFrame.reset_index()`
+
+Returns a DataFrame with the default `integer based` index.
+
+```python
+df.reset_index(level=None, drop=False, inplace=False, ...)
+```
