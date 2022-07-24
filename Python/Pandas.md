@@ -157,3 +157,18 @@ df['Age'].sort_values(axis=0, ascending=True, inplace=False, kind='quicksort', n
 ```python
 df.sort_values(by=['Age', 'Salary'], axis=0, ascending=[True, True], inplace=False, kind='quicksort', na_position='last')
 ```
+
+### `Series.str`
+
+String handling is done by using attribute `str`: Access values of series as `strings` and apply several methods on that.
+
+```python
+# Series.str.contains()
+df['City'].str.contains('Mumbai')
+
+# Series.str.startswith()
+df['LastName'].str.startswith('Yadav')
+
+# Series.str.isnumeric()
+df['Pincode'].str.isnumeric()
+```            
