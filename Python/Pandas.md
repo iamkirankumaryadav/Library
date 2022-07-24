@@ -238,3 +238,16 @@ df.reset_index(level=None, drop=False, inplace=False, ...)
 ```python
 df.sort_index(axis=0, level=None, ascending=True, inplace=False, by=None)
 ```
+
+### `Groupby`
+
+1. `Split` a DataFrame into groups based on filter.
+2. Apply `aggregate` function on each group independently.
+3. `Combine` each group into a DataFrame.
+
+### `DataFrame.groupby()`
+
+```python
+# DataFrame.groupby(by='Column', axis=0, level=None, as_index=True, sort=True, group_keys=True, squeeze=False)
+df.groupby(by=['City'])
+```                  
