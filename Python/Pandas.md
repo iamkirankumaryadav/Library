@@ -86,7 +86,7 @@ for i in df.iterrows():
       </tr>
 </table>
 
-## DataFrame `Attributes` and `Methods`
+## DataFrame `Attributes`
 
 ### `DataFrame.shape`
 
@@ -102,6 +102,8 @@ print(df.shape[0])
 # Extract only the total number of columns in a dataframe:
 print(df.shape[1])
 ```            
+
+## DataFrame `Methods`
 
 ### `DataFrame.head(n)`
 
