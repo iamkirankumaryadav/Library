@@ -97,6 +97,32 @@ for i in df.iterrows():
       </tr>
 </table>
 
+## Access Index
+
+### `DataFrame.loc[]`
+
+A label based indexer for selection by label.
+
+```python
+# DataFrame.loc[]
+df.loc[0, 'City']
+
+# DataFrame.Series.loc[]
+df['City'].loc[1]
+```      
+
+### `DataFrame.iloc[]`
+
+An index location based indexer for selection by index.
+
+```python
+# DataFrame.loc[]
+df.iloc[0, 1]
+
+# DataFrame.Series.loc[]
+df['City'].iloc[1]
+```      
+
 ## DataFrame `Attributes`
 
 ### `DataFrame.shape`
