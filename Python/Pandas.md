@@ -32,6 +32,11 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 
 - Hold data value of `homogeneous` data type, i.e. All data values are of **same** data type.
 - Data axis labels are called as `index`
+- In Python both the indexes (row index and column index) starts from `0`
+```python
+# First row and first column:
+df.iloc[0, 0]
+```
 
 ```python
 # Create a series:
