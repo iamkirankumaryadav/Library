@@ -135,3 +135,11 @@ Returns the summary of the DataFrame:
 ```python
 df.info()
 ```                  
+
+### `Series.value_counts()`
+
+Returns an object containing counts of unique values.
+
+```python
+df['City'].value_counts(normalize=False, sort=True, ascending=False, bins=None, dropna=True)
+```            
