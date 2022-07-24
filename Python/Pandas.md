@@ -23,6 +23,11 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - Panel: **3** Dimensional ( major_axis and minor_axis )
 - Read, Write, Transform, Explore, Pivot, Join, Manipulate, Merge, GroupBy, Aggregate, Clean, Stack and Visualize.  
 
+### `Index`
+
+- Index object is an `immutable` array.
+- Indexing allows to access a `row` or `column` using a label.
+
 ### `Series`: 1 Dimensional Array
 
 - Hold data value of `homogeneous` data type, i.e. All data values are of **same** data type.
