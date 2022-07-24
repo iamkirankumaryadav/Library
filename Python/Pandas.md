@@ -245,6 +245,8 @@ df.sort_index(axis=0, level=None, ascending=True, inplace=False, by=None)
 2. Apply `aggregate` function on each group independently.
 3. `Combine` each group into a DataFrame.
 
+Returns a groupby object: `pandas.core.groupby.DataFrameGroupBy`
+
 ### `DataFrame.groupby()`
 
 ```python
