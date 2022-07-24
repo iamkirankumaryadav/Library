@@ -88,7 +88,9 @@ for i in df.iterrows():
 
 ## DataFrame `Attributes` and `Methods`
 
-1. `DataFrame.shape`: Dimensions of DataFrame (Number of rows, Number of columns)
+### `DataFrame.shape`
+
+Dimensions of DataFrame (Number of rows, Number of columns)
 
 ```python
 # Dimensions of the dataframe:
@@ -101,14 +103,18 @@ print(df.shape[0])
 print(df.shape[1])
 ```            
 
-1. `DataFrame.head(n)`: Return the top n rows from the dataframe
+### `DataFrame.head(n)`
+
+Return the top n rows from the dataframe
 
 ```python
 # Default value for n is 5
 df.head(n=10)
 ```          
 
-2. `DataFrame.tail(n)`: Return the bottom n rows from the dataframe
+### `DataFrame.tail(n)` 
+
+Return the bottom n rows from the dataframe
 
 ```python
 # Default value for n is 5
