@@ -183,3 +183,15 @@ df['LastName'].str.startswith('Yadav')
 # Series.str.isnumeric()
 df['Pincode'].str.isnumeric()
 ```            
+
+### `DataFrame.set_index()`
+
+Set other column as an index
+
+```python
+# Set column "City" as an index:
+df.set_index(keys='City', drop=True, append=False, inplace=False, verify_integrity=False)
+
+# Set multi index:
+df.set_index(keys=['City', 'State'], drop=True, inplace=False)
+```
