@@ -107,7 +107,7 @@ print(df.shape[1])
 
 ### `DataFrame.head(n)`
 
-Return the top n rows from the dataframe
+Returns the top n rows from the dataframe
 
 ```python
 # Default value for n is 5
@@ -116,9 +116,22 @@ df.head(n=10)
 
 ### `DataFrame.tail(n)` 
 
-Return the bottom n rows from the dataframe
+Returns the bottom n rows from the dataframe
 
 ```python
 # Default value for n is 5
 df.tail(n=10)
 ```          
+
+### `DataFrame.info()`
+
+Returns the summary of the DataFrame:
+1. Number of rows
+2. Number of columns
+3. Data type
+4. Number of Non Null rows
+5. Size of data frame
+
+```python
+df.info()
+```                  
