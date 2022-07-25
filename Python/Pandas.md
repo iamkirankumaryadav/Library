@@ -97,7 +97,7 @@ for i in df.iterrows():
       </tr>
 </table>
 
-## Access Index
+# `Access` Index
 
 ### `DataFrame.loc[]`
 
@@ -123,7 +123,7 @@ df.iloc[0, 1]
 df['City'].iloc[1]
 ```      
 
-## DataFrame `Attributes`
+# DataFrame `Attributes`
 
 ### `DataFrame.shape`
 
@@ -140,7 +140,7 @@ print(df.shape[0])
 print(df.shape[1])
 ```            
 
-## DataFrame `Methods`
+# DataFrame `Methods`
 
 ### `DataFrame.head(n)`
 
@@ -239,7 +239,7 @@ df.reset_index(level=None, drop=False, inplace=False, ...)
 df.sort_index(axis=0, level=None, ascending=True, inplace=False, by=None)
 ```
 
-# `Groupby`
+# DataFrame `Groupby`
 
 1. `Split` a DataFrame into groups based on filter.
 2. Apply `aggregate` function on each group independently.
@@ -258,3 +258,16 @@ for key, value in df.groupby(by=['City']):
       print(key)
       print(value)
 ```                  
+
+# Dataframe `Reshaping`
+
+### Stacking: `stack()`
+
+- Stacking increases the height of data frame `Tall`
+- Stack method helps us to move inner columns to the rows for the data frame.
+- 
+
+### Unstacking: `unstack()`
+
+- Unstacking decreases the height of data frame `Wide`
+- Unstack method helps us to move the rows of data frame as a columns of data frame. 
