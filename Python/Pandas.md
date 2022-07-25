@@ -239,7 +239,7 @@ df.reset_index(level=None, drop=False, inplace=False, ...)
 df.sort_index(axis=0, level=None, ascending=True, inplace=False, by=None)
 ```
 
-# **Groupby**
+# `Groupby`
 
 1. `Split` a DataFrame into groups based on filter.
 2. Apply `aggregate` function on each group independently.
