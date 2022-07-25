@@ -74,7 +74,7 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 7. Merge, concate and join different datasets.
 8. Performance optimization
 9. Data visualization.
-10. Grouping the data as per requirement.
+10. Grouping and reshaping: `.groupby()`, `.pivot_table()`, `.stack()`, `.unstack()`, etc.             
 11. Performing different mathematical operations on the available data.
 12. Masking out irrelevant data to only use the required data.
 13. Taking out unique data from various repetitions in the dataset.
