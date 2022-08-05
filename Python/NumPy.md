@@ -11,7 +11,7 @@
 - Essential for `OpenCV` Computer Vision applications.
 - Statsmodel, Matplotlib, Scikit Learn, Scipy and Pandas also use most of the NumPy's functions.
 
-[NumPy](https://github.com/KIRANKUMAR7296/NumPy)
+### [Python List vs NumPy Array](https://github.com/KIRANKUMAR7296/NumPy)
 
 <table align="center">
   <tr>
