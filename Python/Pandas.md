@@ -265,7 +265,6 @@ for key, value in df.groupby(by=['City']):
 
 - Stacking increases the height of data frame `Tall`
 - Stack method helps us to move inner columns to the rows for the data frame.
-- 
 
 ### Unstacking: `unstack()`
 
