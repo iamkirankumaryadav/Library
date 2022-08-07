@@ -34,7 +34,7 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 df.iloc[0, 0]
 ```
 
-### `Series`: 1 Dimensional Array
+### `Series` : 1 Dimensional Array
 
 - Hold data value of `homogeneous` data type, i.e. All data values are of **same** data type.
 - Data axis labels are called as `index`
@@ -49,7 +49,7 @@ DataFrame['SeriesName'] or DataFrame["SeriesName"] or DataFrame.SeriesName
 
 <img src="../Python/Image/DataFrames.png" alt='DataFrame'>
 
-### `DataFrame`: 2 Dimensional Array
+### `DataFrame` : 2 Dimensional Array
 
 - Data is aligned in tabular form with `rows` and `columns`
 - `DataFrame` is a sequence of `Series` that shares the same index.
@@ -139,8 +139,6 @@ df.query("EmployeeName == @Name and YearofJoining == @JoiningYear" )
 ITState = ['Hyderabad', 'Bangalore', 'Chennai']
 df.query("Country == 'India' and State in @ITState")
 ```
-
-
 
 # DataFrame `Attributes`
 
