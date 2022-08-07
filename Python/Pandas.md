@@ -280,7 +280,7 @@ for key, value in df.groupby(by=['City']):
 
 # Dataframe `Reshaping`
 
-![Stack and Unstack](../Image/Reshaping.png)
+![Stack and Unstack](../Python/Image/Reshaping.png)
 
 ### Stacking: `stack()`
 
