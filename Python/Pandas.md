@@ -280,6 +280,8 @@ for key, value in df.groupby(by=['City']):
 
 # Dataframe `Reshaping`
 
+![Stack and Unstack](../Image/Reshaping.png)
+
 ### Stacking: `stack()`
 
 - Stacking increases the height of data frame `Tall`
