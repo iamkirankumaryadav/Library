@@ -132,8 +132,8 @@ df.query("Country == 'India' and State in ('Maharashtra', 'Hyderabad') and Year 
 
 # Query using variable name:
 Name = input('Enter Employee Name:')
-JoiningYear = int(input('Enter Joinig Year:'))
-df.query("EmployeeName == @Name and YearofJoining ==@JoiningYear" )
+JoiningYear = int(input('Enter Joining Year:'))
+df.query("EmployeeName == @Name and YearofJoining == @JoiningYear" )
 ```
 
 
