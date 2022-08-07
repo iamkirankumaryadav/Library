@@ -128,7 +128,7 @@ df['City'].iloc[1]
 Filter the dataframe based on query conditions.
 
 ```python
-df.query('Country="India" and (State="Maharashtra" or State="Hyderabad")')
+df.query('Country == "India" and (State == "Maharashtra" or State == "Hyderabad") and Year > 2021')
 ```
 
 # DataFrame `Attributes`
