@@ -282,12 +282,12 @@ for key, value in df.groupby(by=['City']):
 
 ![Stack and Unstack](../Python/Image/Reshaping.png)
 
-### Stacking: `stack()`
+### `DataFrame.stack()`
 
 - `Stacking` increases the height of data frame, returns a DataFrame ( or Series ) that is `taller`
-- Stack method helps us to move the columns into row values.
+- `stack()` method helps us to move the columns into row values.
 
-### Unstacking: `unstack()`
+### `DataFrame.unstack()`
 
 - `Unstacking` decreases the height of data frame, returns a DataFrame ( or Series ) that is `wider`
-- Unstack method helps us to move the row values to seperate columns. 
+- `unstack()` method helps us to move the row values to seperate columns. 
