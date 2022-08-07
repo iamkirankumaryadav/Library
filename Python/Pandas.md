@@ -123,6 +123,14 @@ df.iloc[0, 1]
 df['City'].iloc[1]
 ```      
 
+### `DataFrame.query()`
+
+Filter the dataframe based on query conditions.
+
+```python
+df.query('Country="India" and (State="Maharashtra" or State="Hyderabad")')
+```
+
 # DataFrame `Attributes`
 
 ### `DataFrame.shape`
