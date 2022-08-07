@@ -276,6 +276,9 @@ df.groupby(by=['City'])
 for key, value in df.groupby(by=['City']):
       print(key)
       print(value)
+      
+# Group By Chaining: Date = 01/01/2022
+df.groupby([df['Date'].str[:4], 'Product']).sum().reset_index().rename(columns={'Date': 'Year'})
 ```                  
 
 # Dataframe `Reshaping`
