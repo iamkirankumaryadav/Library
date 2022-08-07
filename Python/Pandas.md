@@ -134,6 +134,10 @@ df.query("Country == 'India' and State in ('Maharashtra', 'Hyderabad') and Year 
 Name = input('Enter Employee Name:')
 JoiningYear = int(input('Enter Joining Year:'))
 df.query("EmployeeName == @Name and YearofJoining == @JoiningYear" )
+
+# Query rows using list of values:
+ITState = ['Hyderabad', 'Bangalore', 'Chennai']
+df.query("Country == 'India' and State in @ITState")
 ```
 
 
