@@ -284,10 +284,10 @@ for key, value in df.groupby(by=['City']):
 
 ### Stacking: `stack()`
 
-- Stacking increases the height of data frame `Tall`
-- Stack method helps us to move inner columns to the rows for the data frame.
+- `Stacking` increases the height of data frame, returns a DataFrame ( or Series ) that is `taller`
+- Stack method helps us to move the columns into row values.
 
 ### Unstacking: `unstack()`
 
-- Unstacking decreases the height of data frame `Wide`
-- Unstack method helps us to move the rows of data frame as a columns of data frame. 
+- `Unstacking` decreases the height of data frame, returns a DataFrame ( or Series ) that is `wider`
+- Unstack method helps us to move the row values to seperate columns. 
