@@ -84,9 +84,11 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
       <tr><td><img src="Image/PandasMethod.jfif" alt="Pandas Methods"></td></tr>
 </table>
 
-# `Access` 
+# `Access` Data
 
-- Access `scalar` value ( Data present at x row y index )
+```
+Access `scalar` value ( Data present at x row y index )
+```
 
 ### `DataFrame.at[]` : Label based
 
