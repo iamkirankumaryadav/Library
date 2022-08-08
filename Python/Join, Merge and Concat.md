@@ -4,7 +4,7 @@
 - `concat` can operate on columns or rows, depending on parameter `axis` and no renamin is performed.
 - `concat` allow defining hierarchy structure by passing in parameters `keys` and `names`
 
-### `DataFrame.join()` : how = 'left' | 'right' | 'inner' | 'outer'
+### `DataFrame.join()` : `how = 'left' | 'right' | 'inner' | 'outer'`
 
 ![Join](../Python/Image/Join.png)
 
@@ -18,7 +18,7 @@ DataFrame.join(self,
 ```
 
 
-### `DataFrame.merge()` : how = 'left' | 'right' | 'inner' | 'outer' | 'cross'
+### `DataFrame.merge()` : `how = 'left' | 'right' | 'inner' | 'outer' | 'cross'`
 
 - `Merge` combines all the columns from two tables.
 - Common columns can be renamed by parameter `suffixes`
@@ -58,7 +58,7 @@ pandas.merge(left,
              validate=None)                
 ```
 
-### `pandas.concat()` : join = 'inner' | 'outer'
+### `pandas.concat()` : `join = 'inner' | 'outer'`
 
 ### `axis = 0` : `Horizontally` | `Row Wise`
 ![Join](../Python/Image/ConcatAxis0.png)
