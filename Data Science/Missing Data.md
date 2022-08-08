@@ -105,4 +105,13 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 ```
 
+```python
+# Create Test Set = 20% of Dataset.
+
+from sklearn.model_selection import train_test_split
+
+# X: Independent Variables | y: Dependent Variable
+x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+```
+
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
