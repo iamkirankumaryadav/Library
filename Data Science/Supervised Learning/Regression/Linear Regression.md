@@ -70,17 +70,6 @@
 
 - Finding `best fit curve`
 
-### LASSO `L1`
-- Use `shrinkage` ( Exactly `0` ), Good for **multicollinearity**.
-- Completely eliminates the features.
-
-### Ridge Regression `L2`
-- Good for data with **noise**.
-- Try to learn the complicated model.
-
-### Stepwise Regression
-- More advance technique, Uses tests to remove `predictors`, can handle `large number` of `independent variables`
-
 <h3 name='ols'>Ordinary Least Squares (OLS)</h3>
 
 - More than one `independent features`, it minimizes the `SSR` | `Errors`
