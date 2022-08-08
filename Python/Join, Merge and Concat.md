@@ -2,6 +2,8 @@
 
 ### `DataFrame.join()`
 
+![Join](../Python/Image/Join.png)
+
 ```python
 DataFrame.join(self, 
                other, 
@@ -29,6 +31,9 @@ DataFrame.merge(self,
 ```
 
 ### `pandas.concat()`
+
+![Join](../Python/Image/ConcatAxis0.png)
+![Join](../Python/Image/ConcatAxis1.png)
 
 ```python
 pandas.concat(objs, 
