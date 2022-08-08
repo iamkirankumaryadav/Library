@@ -60,7 +60,9 @@ Qualification
 ### `Nominal` : `ordered = False`
 
 ```python
+# Use only if there are binary values in the category: i.e Male or Female, Yes or No, Present or Absent
 df['Gender'] = pd.Categorical(df['Gender'], ['Male', 'Female'], ordered=False)
 
 df['Gender'].cat.codes
 ```
+
