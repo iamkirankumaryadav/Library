@@ -32,7 +32,10 @@ DataFrame.merge(self,
 
 ### `pandas.concat()`
 
+### `axis = 0`
 ![Join](../Python/Image/ConcatAxis0.png)
+
+### `axis = 1`
 ![Join](../Python/Image/ConcatAxis1.png)
 
 ```python
