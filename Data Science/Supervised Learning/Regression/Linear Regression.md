@@ -50,7 +50,7 @@
 - `Low` R<sup>2</sup> causes `underfitting` and `high` R<sup>2</sup> results into `overfitting`
 - `Best fit line` predicts better than `base fit line` ( `Mean` ) 
 
-### [Residuals](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) | Error ( e )
+### [Residuals](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) | Error ( e ) | Noise
 
 - **Actual** - **Prediction**
 
@@ -139,9 +139,6 @@ Amount of R | **Strength** of **Correlation**
 ### `Causality`
 - Relationship between **cause** and its **effect**.
 - One variable **affects** other variable ( Temperature affect icecream sale | Sale of icecream is more in summer )
-
-### `Remove Noise`
-- Remove **Outliers** 
 
 ### `Remove Collinearity`
 - If Independent features are **highly** correlated, Linear regression will **overfit** your data.
