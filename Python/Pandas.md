@@ -115,19 +115,37 @@ print(df.loc[0, 'City'])
 # Subset of DataFrame:
 print(df.loc[[1, 2, 3], ['City', 'State', 'Country']])
 
+# Slicing DataFrame:
+print(df.loc[1:5, 'Name':'Country'])
+
 # DataFrame.Series.loc[]
 print(df['City'].loc[1])
 
 # Subset of DataFrame:
 print(df[['City', 'State', 'Country']].loc[[1, 2, 3]])
+
+# Slicing DataFrame:
+print(df['Name':'Country'].loc[1:5])
 ```      
 ### `DataFrame.iloc[]` : Integer based location
 ```python
 # DataFrame.iloc[]
 print(df.iloc[0, 1])
 
+# Subset of DataFrame:
+print(df.iloc[[1, 2, 3], [2, 4, 6]])
+
+# Slicing DataFrame:
+print(df.iloc[1:5, 1:6:2])
+
 # DataFrame.Series.iloc[]
 print(df['City'].iloc[1])
+
+# Subset of DataFrame:
+print(df[['City', 'State', 'Country']].iloc[[1, 2, 3]])
+
+# Slicing DataFrame:
+print(df['Name':'Country'].iloc[1:5])
 ```      
 
 # DataFrame `Attributes`
