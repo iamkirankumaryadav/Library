@@ -81,16 +81,16 @@
 
 <h3 name='ass'>Assumptions</h3>
   
-- **Linearity** : There should be **linear relationship** between **dependent variable** and **independent variables**.
-- **Independence** : **Residuals** | **Errors** should be **independent** of each other.
-- **Normality** : **Errors** | **Residuals** of the **data** should be **normally distributed** ( P value > 0.05  )
-- There should be minimal **multicollinearity** between **independent variables**.
+- `Linearity` : There should be **linear relationship** between **dependent variable** and **independent variables**.
+- `Independence` : `Residuals` | `Errors` should be **independent** of each other.
+- `Normality` : `Errors` | `Residuals` of the **data** should be **normally distributed** ( P value > 0.05  )
+- `Multicollinearity` between `independent variables`should be minimal.
+- `Homoscedasticity` : **Variance** around the **regression line** should be **same** for all values of the **independent variable**.
 - Quantile Quantile Point : **Data points** should be **close** to **line**.
-- **Homoscedasticity** : **Variance** around the **regression line** should be **same** for all values of the **independent variable**.
 
 ![Error Normal Distribution](Image/ErrorDistribution.png)
 
-- **Homoscedasticity** : **Variance** along the line of **best fit** should remain **constant** as we move along the line.
+- `Homoscedasticity` : **Variance** along the line of **best fit** should remain **constant** as we move along the line.
 - Error term in the regression model is **constant**.
 - **Variance** is same for all **data points**.
 
