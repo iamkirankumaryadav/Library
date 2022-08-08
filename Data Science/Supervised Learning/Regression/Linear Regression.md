@@ -85,22 +85,21 @@
 - `Independence` : `Residuals` | `Errors` should be **independent** of each other.
 - `Normality` : `Errors` | `Residuals` of the **data** should be **normally distributed** ( P value > 0.05  )
 - `Multicollinearity` between `independent variables`should be minimal.
-- `Homoscedasticity` : **Variance** around the **regression line** should be **same** for all values of the **independent variable**.
+- `Homoscedasticity` : **Variance** around the **regression line** should be **same** for all data points of the **independent variable**.
 - Quantile Quantile Point : **Data points** should be **close** to **line**.
 
 ![Error Normal Distribution](Image/ErrorDistribution.png)
 
 - `Homoscedasticity` : **Variance** along the line of **best fit** should remain **constant** as we move along the line.
-- Error term in the regression model is **constant**.
 - **Variance** is same for all **data points**.
 
 ![Homoscedasticity](Image/Homo.png)
 
 ### `Covariance`
 
-- **Relationship** between two variables.
-- **Positive** Covariance : Two variables tends to move in **same direction**.
-- **Negative** Covariance : Two variables tends to move in **opposite direction**.
+- `Relationship` between two variables.
+- `Positive` Covariance : Two variables tends to move in **same direction**.
+- `Negative` Covariance : Two variables tends to move in **opposite direction**.
 - **Direction** of the **linear relationship** between variables.
 
 ### `Correlation`
