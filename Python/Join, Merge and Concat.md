@@ -6,7 +6,7 @@
 
 ### `DataFrame.join()` : `how = 'left' | 'right' | 'inner' | 'outer'`
 
-- Combine all the columns from the two tables.
+- Combine `all` the columns from the two tables.
 - Common columns are renamed with the paramaters `lsuffix` and `rsuffix`
 
 ![Join](../Python/Image/Join.png)
@@ -23,7 +23,7 @@ DataFrame.join(self,
 
 ### `DataFrame.merge()` : `how = 'left' | 'right' | 'inner' | 'outer' | 'cross'`
 
-- `Merge` combines all the columns from two tables.
+- `Merge` combines `all` the columns from two tables.
 - Common columns can be renamed by parameter `suffixes`
 
 `Merge` provide 3 ways to control alignment 
