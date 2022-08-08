@@ -50,9 +50,7 @@
 - `Low` R<sup>2</sup> causes `underfitting` and `high` R<sup>2</sup> results into `overfitting`
 - `Best fit line` predicts better than `base fit line` ( `Mean` ) 
 
-### [Residuals](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) | Error ( e ) | Noise
-
-- **Actual** - **Prediction**
+### [Residuals](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) | `Error` | `e` | `Noise` | `Actual - Prediction`
 
 <h3 name='simple'>Simple Linear Regression</h3>
 
