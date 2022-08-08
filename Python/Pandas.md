@@ -131,9 +131,9 @@ print(df['City'].iloc[1])
 ```python
 print(df.index)
 
--- By default it automatically creates a RangeIndex(start=0, stop=len(df), step=1)
--- We can manually add index by passing list to index parameter i.e. index = [1, 2, 3]
--- We can also set some existing column as an index i.e index = 'City'
+# By default it automatically creates a RangeIndex(start=0, stop=len(df), step=1)
+# We can manually add index by passing list to index parameter i.e. index = [1, 2, 3]
+# We can also set some existing column as an index i.e index = 'City'
 ```
 
 ### `DataFrame.columns` : Display the label values for columns present in the DataFrame.
@@ -300,20 +300,20 @@ df.sort_index(axis=0, level=None, ascending=True, inplace=False, by=None)
 ### `DataFrame.fillna()` : Fill or replace missing values in DataFrame.
 
 ```python
--- DataFrame.fillna()
+# DataFrame.fillna()
 df.fillna('🌞')
 
--- DataFrame.Series.fillna()
+# DataFrame.Series.fillna()
 df['Sales'].fillna(0)
 ```
 
 ### `DataFrame.dropna()` : Remove rows that contain a NaN value.
 
 ```python
--- DataFrame.dropna()
+# DataFrame.dropna()
 df.dropna()
 
--- DataFrame.Series.dropna()
+# DataFrame.Series.dropna()
 df['Sales'].dropna()
 ```
 
