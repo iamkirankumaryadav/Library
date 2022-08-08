@@ -70,7 +70,7 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 2. Data filtering: `.query()`
 3. Data indexing and slicing: `.loc[]`, `.iloc`, `.at[]`, `iat[]`       
 4. Data cleaning: 
-5. Handling missing data: `.fillna`, `.dropna`
+5. Handling missing data: `.fillna()`, `.dropna()`
 6. Supports multiple file formats.
 7. Merge, concate and join different datasets.
 8. Performance optimization: `.apply()`, `.map()`, `.reduce()`         
