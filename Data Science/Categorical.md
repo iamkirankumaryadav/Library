@@ -66,3 +66,16 @@ df['Gender'] = pd.Categorical(df['Gender'], ['Male', 'Female'], ordered=False)
 df['Gender'].cat.codes
 ```
 
+### `Nominal` : `get_dummies()`
+
+```python
+# Splits the column containing nominal categorical values into individual columns:
+pd.get_dummies(df)
+```
+
+Gender | Gender_Male | Gender_Female
+:--- | :--- | :---
+Female | 0 | 1
+Male | 1 | 0
+Male | 1 | 0
+Female | 0 | 1
