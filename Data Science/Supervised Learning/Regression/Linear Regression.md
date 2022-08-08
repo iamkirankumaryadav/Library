@@ -84,6 +84,8 @@
 
 ### `Covariance`
 
+![Covariance](Image/Covariance.png)
+
 - `Relationship` between two variables.
 - `Positive` Covariance : Two variables tends to move in **same direction**.
 - `Negative` Covariance : Two variables tends to move in **opposite direction**.
