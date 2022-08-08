@@ -39,4 +39,18 @@ Master
 PHD
 
 ```python
+df['Qualification'] = pd.Categorical(df['Qualification'], ['Bachelor', 'Master', 'PHD'], ordered=True)
+
+# Order represents as: [Bachelor < Master < PHD]
+
+# Replacing categories with numeric orders.
+df['Qualification'].cat.codes
+
+print(df['Qualification'])
 ```
+
+Qualification
+:---
+0
+1
+2
