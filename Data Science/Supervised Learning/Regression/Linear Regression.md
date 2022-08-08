@@ -13,7 +13,7 @@
 
 - `Predict` a `continuous numeric` dependent variable based on one or more independent variables.
 - The `best fit line` which gives `least` number of `errors`
-- `Residual` : Difference between `actual` and `predicted` value for given `data points` ( Error )
+- `Residual` | `Error` : Difference between `actual` and `predicted` value for given `data points`
 - `Learning` a linear regression model means estimating the values of the `coefficients` ( i.e. `Slope` and `Intercept` )
 - `Slope` ( m ) : Steepness of the line | Angular motion.
 - `Intercept` ( c ) : Position of line | Upward & downward with least **residual**. 
