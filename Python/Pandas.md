@@ -112,8 +112,14 @@ print(df.iat[1, 3])
 # DataFrame.loc[]
 print(df.loc[0, 'City'])
 
+# Subset of DataFrame:
+print(df.loc[[1, 2, 3], ['City', 'State', 'Country']])
+
 # DataFrame.Series.loc[]
 print(df['City'].loc[1])
+
+# Subset of DataFrame:
+print(df['City', 'State', 'Country'].loc[[1, 2, 3]])
 ```      
 ### `DataFrame.iloc[]` : Integer based location
 ```python
