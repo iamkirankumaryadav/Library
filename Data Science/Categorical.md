@@ -29,3 +29,14 @@ model = LogisticRegression(multi_class='ovr')
 - Convert a **categorical** input variable into **numeric** variable.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
+### Handle Categorical Data ( Ordinal )
+
+Qualification
+:---
+Bachelor
+Master
+PHD
+
+```python
+```
