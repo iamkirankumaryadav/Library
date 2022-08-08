@@ -64,6 +64,7 @@
 - More than one **independent features** and only One **dependent variable** ( **Continuous Numeric** )
 - Consider **features** that have **good correlation** with **dependent variable**.
 - Checking **multicollinearity** is important.
+- `Multicollinearity` : One `independent` feature can completely describe the other `independent` feature.
 
 ### Polynomial Regression
 
@@ -86,29 +87,6 @@
 - Sum ( Actual Data Point - Predicted Point <sup>2</sup> )
 - Treat data as matrix ( `Feature Matrix` and `Target Vector` )
 - Use `Linear Algebra` | `Equation` of Line : `y=m*x + c` to estimate or predict the `optimal` value for the `coefficients` ( i.e m and c )
-
-<h3 name='gd'>Gradient Descent</h3>
-
-- **Optimizing** the values of the `coefficients` by **iteratively** minimizing the `error` of model on `training data`
-- Starts with random values for each `coefficients`
-- Sum of Squared **Residuals** `SSR` is calculated for each pair ( `independent` and `dependent` values )
-- **Learning Rate** is used as a `scale` and the `coefficients` are updated in the direction towards `minimizing` the `residual`
-- The process is repeated till `minimum SSR` is achieved or no further improvement is possible.
-- **Learning Rate** `alpha` is a parameters that determines the size of improvement steps on each iterations.
-
-### `Learning Rate`
-- Determine the `step size` at each **iteration** while moving towards a **minimum loss function** ( i.e minimum `Error` )
-- `Step Size` is decided on the basis of how far or close is the `global minima`
-- Handles the rate of `convergence` and `overshooting` ( i.e. `High` Learning Rate )
-
-### Regularization
-- Seek to `minimize` SSR of the model on `training` data, reduce `complexity` of model ( `Overfitting` )
-- Add some `bias` on `training` data for decreasing `variance` on `test` data
-
-1. LASSO `L1` : OLS is modified to minimize the `Absolute` sum of coefficients : Cost Function + ( Lambda ) * | Slope |
-2. Ridgev`L2` : OLS is modified to minimize the `Squared` sum of coefficients : Cost Function + ( Lambda ) * Square( Slope )
-
-Used when there is `multicollinearity` ( One `independent` feature can completely describe the other `independent` feature )
 
 # Preparing Data for Linear Regression
 
