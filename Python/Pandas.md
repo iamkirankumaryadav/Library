@@ -1,4 +1,9 @@
-<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+<table>
+  <tr>
+    <td><a align="left" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Python/Join,Merge and Concat.md">Back to Pandas</a></td>
+    <td><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></td>
+  </tr>
+</table>
 
 # Pandas 🐼 
 
