@@ -26,8 +26,9 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 ### `Index`
 
 - Index object is an `immutable` array.
+- There are two types of index in a DataFrame `row index` and `column index`
+- Both indexes ( row index and column index ) starts from `0`
 - Indexing allows to access a `row` or `column` using a label.
-- In Python both the indexes (row index and column index) starts from `0`
 
 ```python
 # First row and first column:
@@ -90,11 +91,11 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 
 ### `DataFrame.at[]` : Label based location
 ```python
-df.at[1, 'Country']
+print(df.at[1, 'Country'])
 ```
 ### `DataFrame.iat[]` : Integer based location
 ```python
-df.iat[1, 3]
+print(df.iat[1, 3])
 ```
 
 - Access scalar value or entire record | row or field | column
@@ -102,40 +103,57 @@ df.iat[1, 3]
 ### `DataFrame.loc[]` : Label based location
 ```python
 # DataFrame.loc[]
-df.loc[0, 'City']
+print(df.loc[0, 'City'])
 
 # DataFrame.Series.loc[]
-df['City'].loc[1]
+print(df['City'].loc[1])
 ```      
 ### `DataFrame.iloc[]` : Integer based location
 ```python
 # DataFrame.loc[]
-df.iloc[0, 1]
+print(df.iloc[0, 1])
 
 # DataFrame.Series.loc[]
-df['City'].iloc[1]
+print(df['City'].iloc[1])
 ```      
-
-### `DataFrame.query()` : Filter DataFrame by query conditions.
-
-```python
-df.query("Country == 'India' and State in ('Maharashtra', 'Hyderabad') and Year > 2021")
-
-# Query using variable name:
-Name = input('Enter Employee Name:')
-JoiningYear = int(input('Enter Joining Year:'))
-df.query("EmployeeName == @Name and YearofJoining == @JoiningYear" )
-
-# Query rows using list of values:
-ITState = ['Hyderabad', 'Bangalore', 'Chennai']
-df.query("Country == 'India' and State in @ITState")
-```
 
 # DataFrame `Attributes`
 
-### `DataFrame.shape`
+### `DataFrame.index` : Display the row labels of a DataFrame object.
 
-Dimensions of DataFrame (Number of rows, Number of columns)
+```python
+print(df.index)
+
+-- By default it automatically creates a RangeIndex(start=0, stop=len(df), step=1)
+-- We can manually add index by passing list to index parameter i.e. index = [1, 2, 3]
+-- We can also set some existing column as an index i.e index = 'City'
+```
+
+### `DataFrame.columns` : Display the label values for columns present in the DataFrame.
+
+```python
+print(df.columns)
+```
+
+### `DataFrame.axes` : Display the label values of all rows and columns in the DataFrame.
+
+```python
+print(df.axes)
+```
+
+### `DataFrame.dtypes` : Display the data types for each column of DataFrame.
+
+```python
+print(df.dtypes)
+```
+
+### `DataFrame.size` : Display the total number of elements in a DataFrame.
+
+```python
+print(df.size)
+```
+
+### `DataFrame.shape` : Dimensions of DataFrame ( Number of rows, Number of columns )
 
 ```python
 # Dimensions of the dataframe:
@@ -147,6 +165,18 @@ print(df.shape[0])
 # Extract only the total number of columns in a dataframe:
 print(df.shape[1])
 ```            
+
+### `DataFrame.ndim` : Number of dimensions of DataFrame.
+
+```python
+print(df.ndim)
+```
+
+### `DataFrame.empty` : Check whether DataFrame is empty or not.
+
+```python
+print(df.empty)
+```
 
 # DataFrame `Methods`
 
@@ -179,7 +209,22 @@ Returns the summary of the DataFrame:
 
 ```python
 df.info()
-```                  
+```                 
+
+### `DataFrame.query()` : Filter DataFrame by query conditions.
+
+```python
+df.query("Country == 'India' and State in ('Maharashtra', 'Hyderabad') and Year > 2021")
+
+# Query using variable name:
+Name = input('Enter Employee Name:')
+JoiningYear = int(input('Enter Joining Year:'))
+df.query("EmployeeName == @Name and YearofJoining == @JoiningYear" )
+
+# Query rows using list of values:
+ITState = ['Hyderabad', 'Bangalore', 'Chennai']
+df.query("Country == 'India' and State in @ITState")
+```
 
 ### `Series.value_counts()`
 
