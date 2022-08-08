@@ -84,11 +84,27 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
       <tr><td><img src="Image/PandasMethod.jfif" alt="Pandas Methods"></td></tr>
 </table>
 
-# `Access` Index
+# `Access` 
 
-### `DataFrame.loc[]`
+- Access `scalar` value ( Data present at x row y index )
 
-A label based indexer for selection by label.
+### `DataFrame.at[]` : Label based
+
+```python
+df.at[1, 'Country']
+```
+
+### `DataFrame.iat[]` : Integer location based
+
+```python
+df.iat[1, 3]
+```
+
+```
+Access scalar value or entire record | row or field | column
+```
+
+### `DataFrame.loc[]` : Label based
 
 ```python
 # DataFrame.loc[]
@@ -98,9 +114,7 @@ df.loc[0, 'City']
 df['City'].loc[1]
 ```      
 
-### `DataFrame.iloc[]`
-
-An index location based indexer for selection by index.
+### `DataFrame.iloc[]` : Integer location based
 
 ```python
 # DataFrame.loc[]
