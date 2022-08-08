@@ -87,12 +87,12 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 
 # `Access` Data
 
-`Method` | `Access`
-:--- | :---
-`.at[]` | Access scalar value | Label based location
-`.iat[]` | Access scalar value | Integer based location
-`.loc[]` | Access record or field | Label based location
-`.iloc[]` | Access record or field | Integer based location
+`Method` | `Access` | Example
+:--- | :--- | :---
+`.at[]` | Access scalar value | Label based location | `df.at[1, 'Country']`
+`.iat[]` | Access scalar value | Integer based location | `df.iat[1, 3]`
+`.loc[]` | Access record or field | Label based location | `df.loc[0, 'City']`
+`.iloc[]` | Access record or field | Integer based location | `df.iloc[0, 1]`
 
 - Access only `scalar` value ( Data present at x row y column )
 
@@ -117,10 +117,10 @@ print(df['City'].loc[1])
 ```      
 ### `DataFrame.iloc[]` : Integer based location
 ```python
-# DataFrame.loc[]
+# DataFrame.iloc[]
 print(df.iloc[0, 1])
 
-# DataFrame.Series.loc[]
+# DataFrame.Series.iloc[]
 print(df['City'].iloc[1])
 ```      
 
