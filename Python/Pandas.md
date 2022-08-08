@@ -343,6 +343,12 @@ df['Sales'].dropna()
 # Drop rows
 df.dropna(axis=0)
 
+# Drop if any attribute value is NaN
+df.dropna(axis=0, how='any')
+
+# Drop if all the attribute values are NaN
+df.dropna(axis=0, how='all')
+
 # Drop columns
 df.dropna(axis=1)
 ```
