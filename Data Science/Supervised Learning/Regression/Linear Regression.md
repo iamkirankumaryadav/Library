@@ -88,8 +88,8 @@
 
 - `Relationship` between two variables.
 - `Direction` of the `linear relationship` between `quantitative` variables.
-- `Positive` Covariance : Two variables tends to move in **same direction**.
-- `Negative` Covariance : Two variables tends to move in **opposite direction**.
+- `Positive Covariance` : Two variables tends to move in `positive` | same direction.
+- `Negative Covariance` : Two variables tends to move in `negative` | opposite direction.
 
 ### `Correlation` : `Strength` and `Direction`
 
