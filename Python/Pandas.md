@@ -192,27 +192,22 @@ print(df.values)
 
 # DataFrame `Methods`
 
-### `DataFrame.head(n)`
-
-Returns the top n rows from the dataframe
+### `DataFrame.head(n)` : Displays top n rows from the DataFrame.
 
 ```python
 # Default value for n is 5
 df.head(n=10)
 ```          
 
-### `DataFrame.tail(n)` 
-
-Returns the bottom n rows from the dataframe
+### `DataFrame.tail(n)` : Displays bottom n rows from the DataFrame.
 
 ```python
 # Default value for n is 5
 df.tail(n=10)
 ```          
 
-### `DataFrame.info()`
+### `DataFrame.info()` : Represents the summary of the DataFrame:
 
-Returns the summary of the DataFrame:
 1. Number of rows
 2. Number of columns
 3. Data type
@@ -238,29 +233,25 @@ ITState = ['Hyderabad', 'Bangalore', 'Chennai']
 df.query("Country == 'India' and State in @ITState")
 ```
 
-### `Series.value_counts()`
-
-Returns an object containing counts of unique values.
+### `Series.value_counts()` : Represents an object containing counts of unique values.
 
 ```python
 df['City'].value_counts(normalize=False, sort=True, ascending=False, bins=None, dropna=True)
 ```            
 
-### `Series.sort_values()`
-
-Sort values along either axis
+### `Series.sort_values()` : Sort values along either axis.
 
 ```python   
 df['Age'].sort_values(axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last')
 ```            
 
-### `DataFrame.sort_values()`
+### `DataFrame.sort_values()` : Sort value by Column values.
 
 ```python
 df.sort_values(by=['Age', 'Salary'], axis=0, ascending=[True, True], inplace=False, kind='quicksort', na_position='last')
 ```
 
-### `Series.str`
+### `Series.str` : Perform string operations.
 
 String handling is done by using attribute `str`: Access values of series as `strings` and apply several methods on that.
 
@@ -275,9 +266,7 @@ df['LastName'].str.startswith('Yadav')
 df['Pincode'].str.isnumeric()
 ```            
 
-### `DataFrame.set_index()`
-
-Set other column as an index
+### `DataFrame.set_index()` : Set other column as an index.
 
 ```python
 # Set column "City" as an index:
@@ -287,17 +276,14 @@ df.set_index(keys='City', drop=True, append=False, inplace=False, verify_integri
 df.set_index(keys=['City', 'State'], drop=True, inplace=False)
 ```
 
-### `DataFrame.reset_index()`
-
-Returns a DataFrame with the default `integer based` index.
+### `DataFrame.reset_index()` : Returns a DataFrame with the default `integer based` index.
 
 ```python
 df.reset_index(level=None, drop=False, inplace=False, ...)
 ```
 
-### `DataFrame.sort_index()`
+### `DataFrame.sort_index()` : Sort objects by a label along the axis.
 
-- Sort objects by a label along the axis.
 - `axis=0` represents rows and `axis=1` represents columm.
 
 ```python
@@ -327,24 +313,25 @@ for key, value in df.groupby(by=['City']):
 df.groupby([df['Date'].str[:4], 'Product']).sum().reset_index().rename(columns={'Date': 'Year'}).head()
 ```                  
 
-# Dataframe `Reshaping`
+# Dataframe `Reshaping` : Changing the structure of DataFrame to represent data in desired form.
 
 ![Stack and Unstack](../Python/Image/Reshaping.png)
 
-### `DataFrame.stack()`
+### `DataFrame.stack()` : Represents a taller DataFrame. 
 
-- `Stacking` increases the height of data frame, returns a DataFrame ( or Series ) that is `taller`
+- `Stacking` increases the height of data frame.
 - `stack()` method helps us to move the columns into row values.
 
-### `DataFrame.unstack()`
+### `DataFrame.unstack()` : Represents a wider DataFrame.
 
-- `Unstacking` decreases the height of data frame, returns a DataFrame ( or Series ) that is `wider`
+- `Unstacking` decreases the height of data frame.
 - `unstack()` method helps us to move the row values to seperate columns. 
 
-### Time Period:
+### Time Period
+
 - Time Stamp ( Days, Years, Quarter or Month)
 
-### How to Iterate over a Pandas DataFrame?
+### How to iterate over a Pandas DataFrame?
 
 ```python
 for i in df.iterrows():
