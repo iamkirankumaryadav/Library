@@ -40,7 +40,7 @@ DataFrame.merge(self,
 
 ```python
 pandas.concat(objs, 
-              axis=0, 
+              axis=0, # 0 for row and 1 for column
               join='outer', join_axes=None, 
               ignore_index=False, 
               keys=None, 
