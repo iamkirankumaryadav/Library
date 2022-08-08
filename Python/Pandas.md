@@ -42,7 +42,7 @@ df.iloc[0, 0]
 
 ```python
 # Create a series:
-pd.Series([1, 2, 3,4])
+pd.Series([1, 2, 3, 4])
 
 # Accessing a series:
 DataFrame['SeriesName'] or DataFrame.SeriesName
