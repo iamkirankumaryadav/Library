@@ -307,7 +307,7 @@ df.fillna('🌞')
 df['Sales'].fillna(0)
 ```
 
-### `DataFrame.dropna()` : Remove rows that contain a NaN value.
+### `DataFrame.dropna()` : Drop rows or columns that contains NaN values.
 
 ```python
 # DataFrame.dropna()
@@ -315,6 +315,12 @@ df.dropna()
 
 # DataFrame.Series.dropna()
 df['Sales'].dropna()
+
+# Drop rows
+df.dropna(axis=0)
+
+# Drop columns
+df.dropna(axis=1)
 ```
 
 # DataFrame `Groupby`
