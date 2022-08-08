@@ -87,16 +87,16 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 # `Access` Data
 
 ```
-Access `scalar` value ( Data present at x row y index )
+Access only scalar value ( Data present at x row y column )
 ```
 
-### `DataFrame.at[]` : Label based
+### `DataFrame.at[]` : Label based location
 
 ```python
 df.at[1, 'Country']
 ```
 
-### `DataFrame.iat[]` : Integer location based
+### `DataFrame.iat[]` : Integer based location
 
 ```python
 df.iat[1, 3]
@@ -106,7 +106,7 @@ df.iat[1, 3]
 Access scalar value or entire record | row or field | column
 ```
 
-### `DataFrame.loc[]` : Label based
+### `DataFrame.loc[]` : Label based location
 
 ```python
 # DataFrame.loc[]
@@ -116,7 +116,7 @@ df.loc[0, 'City']
 df['City'].loc[1]
 ```      
 
-### `DataFrame.iloc[]` : Integer location based
+### `DataFrame.iloc[]` : Integer based location
 
 ```python
 # DataFrame.loc[]
@@ -126,9 +126,7 @@ df.iloc[0, 1]
 df['City'].iloc[1]
 ```      
 
-### `DataFrame.query()`
-
-Filter the dataframe based on query conditions.
+### `DataFrame.query()` : Filter DataFrame by query conditions.
 
 ```python
 df.query("Country == 'India' and State in ('Maharashtra', 'Hyderabad') and Year > 2021")
