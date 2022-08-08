@@ -6,6 +6,9 @@
 
 ### `DataFrame.join()` : `how = 'left' | 'right' | 'inner' | 'outer'`
 
+- Combine all the columns from the two tables.
+- Common columns are renamed with the paramaters `lsuffix` and `rsuffix`
+
 ![Join](../Python/Image/Join.png)
 
 ```python
