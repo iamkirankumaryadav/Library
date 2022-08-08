@@ -34,7 +34,7 @@
 - Seperate `classes` or `labels`, works better with large data set, especially `categorical` data.
  
 ### Auto Encoder | Unsupervised | `ANN`
-- Learn and discover the `representation` or `structure` of dataset, ignores noise in data. 
+- Learn and discover the `structure` of dataset, ignores noise in data. 
 
 ### Applications of Auto Encoders include:
 
