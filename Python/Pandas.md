@@ -80,16 +80,6 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 13. Taking out unique data from various repetitions in the dataset.
 14. Time series analysis.
 
-### Time Period:
-- Time Stamp ( Days, Years, Quarter or Month)
-
-### How to Iterate over a Pandas DataFrame?
-
-```python
-for i in df.iterrows():
-      pass
-```
-
 <table align="center">
       <tr>
             <td><img src="Image/PandasMethod.jfif" alt="Pandas Methods">
@@ -292,3 +282,13 @@ df.groupby([df['Date'].str[:4], 'Product']).sum().reset_index().rename(columns={
 
 - `Unstacking` decreases the height of data frame, returns a DataFrame ( or Series ) that is `wider`
 - `unstack()` method helps us to move the row values to seperate columns. 
+
+### Time Period:
+- Time Stamp ( Days, Years, Quarter or Month)
+
+### How to Iterate over a Pandas DataFrame?
+
+```python
+for i in df.iterrows():
+      pass
+```
