@@ -5,10 +5,9 @@
 - `Unsupervised` Machine Learning. 
 - Number of **features** ( `columns` ) should be low as compared to the number of **observations** ( `rows` ) in your dataset. 
 - Certain algorithms struggles to **train** effective models ( Especially algorithms which consist `distance` calculations )
-- Algorithms which consists distance calculations : Regressions, KNN, K Mean, SVM
+- Algorithms which consists distance calculations : `Regressions`, `KNN`, `K Mean` and `SVM`
 
 ### Feature `Selection`
-
 - `Select` only features that make impact on target variable, `filter` irrelevant or redundant features from your dataset.
 - `Feature Selection` keeps a subset of the `original` features. 
 
@@ -22,17 +21,17 @@
 - e.g If a health dataset contains 96% observations for `35 years` mens, then age and gender features can be eliminated.
 
 ### Correlation `Threshold`
-- Remove highly correlated features ( Multicollinearity ), this provides `redundant` information.
+- Remove highly correlated features ( Multicollinearity ), remove `redundant` information.
 
 ### Dimensionality reduction advantage
 - Reduce `dimensions` ( # features ), explains `variance` and minimize `correlation` ( redundancy )
 
 ### Principle Component Analysis `PCA` : Unsupervised | Numerical
-- `Transforms` large set of variables into small without `loss` of any information in dataset.
-- Reduce the number of **variables** of dataset, used especially for `numerical` data.
+- `Transforms` large set of data into small without `loss` of any information in dataset.
+- Reduce the number of data, especially `numerical` data.
 
 ### Linear Discriminant Analysis `LDA` : Supervised | Categorical
-- Seperate `classes` or `labels`, works better with large data set, used especially for `categorical` data.
+- Seperate `classes` or `labels`, works better with large data set, especially `categorical` data.
  
 ### Auto Encoder | Unsupervised | `ANN`
 - Learn and discover the `representation` or `structure` of dataset, ignores noise in data. 
