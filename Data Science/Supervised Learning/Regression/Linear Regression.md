@@ -64,17 +64,6 @@
 - Checking **multicollinearity** is important.
 - `Multicollinearity` : One `independent` feature can completely describe the other `independent` feature.
 
-### Polynomial Regression
-
-- Finding `best fit curve`
-
-<h3 name='ols'>Ordinary Least Squares (OLS)</h3>
-
-- More than one `independent features`, it minimizes the `SSR` | `Errors`
-- Sum ( Actual Data Point - Predicted Point <sup>2</sup> )
-- Treat data as matrix ( `Feature Matrix` and `Target Vector` )
-- Use `Linear Algebra` | `Equation` of Line : `y=m*x + c` to estimate or predict the `optimal` value for the `coefficients` ( i.e m and c )
-
 # Preparing Data for Linear Regression
 
 <h3 name='ass'>Assumptions</h3>
