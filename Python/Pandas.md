@@ -36,7 +36,7 @@ df.iloc[0, 0]
 
 ### `Series` : 1 Dimensional Array
 
-- Hold data value of `homogeneous` data type, i.e. All data values are of **same** data type.
+- `Series` holds `homogeneous` data values, i.e. All data values are of `same` data type.
 - Data axis labels are called as `index`
 
 ```python
@@ -44,7 +44,7 @@ df.iloc[0, 0]
 pd.Series([1, 2, 3,4])
 
 # Accessing a series:
-DataFrame['SeriesName'] or DataFrame["SeriesName"] or DataFrame.SeriesName
+DataFrame['SeriesName'] or DataFrame.SeriesName
 ```
 
 <img src="../Python/Image/DataFrames.png" alt='DataFrame'>
@@ -66,14 +66,14 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 
 ### Important features of Pandas library:
 1. Data reading from various input and writing to various output: `.read_csv()`, `.read_excel()`, `.read_sql_table()`, `.to_csv()`, etc.
-2. Data handling and filtering: `.query()`
+2. Data filtering: `.query()`
 3. Data indexing and slicing: `.loc[]`, `.iloc`, `.at[]`, `iat[]`       
 4. Data cleaning: 
-5. Handling missing data:
+5. Handling missing data: `.fillna`, `.dropna`
 6. Supports multiple file formats.
 7. Merge, concate and join different datasets.
-8. Performance optimization
-9. Data visualization.
+8. Performance optimization: `.apply()`, `.map()`, `.reduce()`         
+9. Data visualization: `.plot()`
 10. Grouping and reshaping: `.groupby()`, `.pivot_table()`, `.stack()`, `.unstack()`, etc.             
 11. Performing different mathematical operations on the available data.
 12. Masking out irrelevant data to only use the required data.
@@ -81,10 +81,7 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 14. Time series analysis.
 
 <table align="center">
-      <tr>
-            <td><img src="Image/PandasMethod.jfif" alt="Pandas Methods">
-            </td>
-      </tr>
+      <tr><td><img src="Image/PandasMethod.jfif" alt="Pandas Methods"></td></tr>
 </table>
 
 # `Access` Index
