@@ -47,6 +47,14 @@ df.dropna(axis=1)
 - `KNNImputer()` : **Fill** missing data with the help of **K Nearest Neighbors**.
 - Prevent from data loss but can cause **data leakage**.
 
+```python
+# DataFrame.fillna()
+df.fillna('🌞')
+
+# DataFrame.Series.fillna()
+df['Sales'].fillna(0)
+```
+
 ### Data Leakage 
 - Accidently sharing data from `train` set to `test` set.
 
