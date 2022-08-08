@@ -10,7 +10,7 @@
 
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
-<h3 name="del"> 1. Drop ( dropna( ) )</h3>
+<h3 name="del"> 1. dropna( ) : Drop Missing Values</h3>
 
 - `Drop` **rows** if it has a `NULL` value for particular **columns** ( `Missing rows` < `5%` | `axis = 0` )
 - `Drop` **columns** if **missing values** > `70%` | `axis = 1`
@@ -38,7 +38,7 @@ df.dropna(axis=0, how='all')
 df.dropna(axis=1)
 ```
 
-<h3 name="impute"> 2. Impute ( fillna( ) )</h3>
+<h3 name="impute"> 2. fillna( ) : Fill Missing Values</h3>
 
 - `Impute` the `numerical` missing data with `mean` or `median` ( SimpleImputer : `strategy` = `'mean'` or `'median'` ) 
 - `Impute` the `categorical` missing data with `most frequent` ( SimpleImputer : `strategy` = `'most_frequent'` ) 
