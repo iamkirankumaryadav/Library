@@ -297,6 +297,26 @@ df.reset_index(level=None, drop=False, inplace=False, ...)
 df.sort_index(axis=0, level=None, ascending=True, inplace=False, by=None)
 ```
 
+### `DataFrame.fillna()` : Fill or replace missing values in DataFrame.
+
+```python
+-- DataFrame.fillna()
+df.fillna('🌞')
+
+-- DataFrame.Series.fillna()
+df['Sales'].fillna(0)
+```
+
+### `DataFrame.dropna()` : Remove rows that contain a NaN value.
+
+```python
+-- DataFrame.dropna()
+df.dropna()
+
+-- DataFrame.Series.dropna()
+df['Sales'].dropna()
+```
+
 # DataFrame `Groupby`
 
 1. `Split` a DataFrame into groups based on filter.
