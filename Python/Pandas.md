@@ -119,7 +119,7 @@ print(df.loc[[1, 2, 3], ['City', 'State', 'Country']])
 print(df['City'].loc[1])
 
 # Subset of DataFrame:
-print(df['City', 'State', 'Country'].loc[[1, 2, 3]])
+print(df[['City', 'State', 'Country']].loc[[1, 2, 3]])
 ```      
 ### `DataFrame.iloc[]` : Integer based location
 ```python
