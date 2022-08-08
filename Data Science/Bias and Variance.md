@@ -54,7 +54,7 @@ Simple model do not capture **Hidden** Patterns and Relations properly | Model *
 1. `Hyperparameter Tuning` : Choosing a right set of `optimal` **hyperparameter** for training.
 2. `Regularization` ( `L1` and `L2`) : Technique used to reduce `overfitting` by discouraging  complex models.
 3. `Cross Validation`
-4. `Reampling`
-5. `Ensemble Techniques`
+4. `Resampling`
+5. `Ensemble Techniques` : `Bagging` and `Boosting`
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
