@@ -18,6 +18,26 @@
 - But it's **better** to keep data rather than `dropping`, removing data may lead to `loss` of information.
 - If one value in observation is `missing` other values in the observations may be **important**.
 
+```python
+# DataFrame.dropna()
+df.dropna()
+
+# DataFrame.Series.dropna()
+df['Sales'].dropna()
+
+# Drop rows
+df.dropna(axis=0)
+
+# Drop if any attribute value is NaN
+df.dropna(axis=0, how='any')
+
+# Drop if all the attribute values are NaN
+df.dropna(axis=0, how='all')
+
+# Drop columns
+df.dropna(axis=1)
+```
+
 <h3 name="impute"> 2. Impute ( fillna( ) )</h3>
 
 - `Impute` the `numerical` missing data with `mean` or `median` ( SimpleImputer : `strategy` = `'mean'` or `'median'` ) 
