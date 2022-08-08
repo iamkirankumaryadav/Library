@@ -1,6 +1,10 @@
 # `Join`, `Merge` and `Concat`
 
-### `DataFrame.join()`
+- For `pandas.DataFrame` both `join` and `merge` operates on columns and rename common columns using parameter `suffix`
+- `concat` can operate on columns or rows, depending on parameter `axis` and no renamin is performed.
+- `concat` allow defining hierarchy structure by passing in parameters `keys` and `names`
+
+### `DataFrame.join()` : how = 'left' | 'right' | 'inner' | 'outer'
 
 ![Join](../Python/Image/Join.png)
 
@@ -14,9 +18,20 @@ DataFrame.join(self,
 ```
 
 
-### `DataFrame.merge()`
+### `DataFrame.merge()` : how = 'left' | 'right' | 'inner' | 'outer' | 'cross'
+
+- `Merge` combines all the columns from two tables.
+- Common columns can be renamed by parameter `suffixes`
+
+`Merge` provide 3 ways to control alignment 
+
+1. `on = 'ColumnName'` ( Here the given column must be the common column in both tables )
+2. `left_on = 'ColumnName'` and `right_on = 'ColumnName'` ( Tables are aligned using different columns )
+3. `left_index = True` and `right_index = True` ( Tables are aligned based on their index )
 
 ```python
+
+# Starting with DataFrame:
 DataFrame.merge(self, 
                 right, 
                 how='inner', 
@@ -28,9 +43,22 @@ DataFrame.merge(self,
                 copy=True, 
                 indicator=False, 
                 validate=None)
+                
+# Starting with Pandas:                
+pandas.merge(left, 
+             right, 
+             how='inner', 
+             on=None, 
+             left_on=None, right_on=None, 
+             left_index=False, right_index=False, 
+             sort=False, 
+             suffixes=('_x', '_y'), 
+             copy=True, 
+             indicator=False, 
+             validate=None)                
 ```
 
-### `pandas.concat()`
+### `pandas.concat()` : join = 'inner' | 'outer'
 
 ### `axis = 0` : `Horizontally` | `Row Wise`
 ![Join](../Python/Image/ConcatAxis0.png)
