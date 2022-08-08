@@ -74,7 +74,7 @@ pd.get_dummies(df)
 ```
 
 Gender | Gender_Male | Gender_Female
-:--- | :--- | :---
+:--- | :---: | :---:
 Female | 0 | 1
 Male | 1 | 0
 Male | 1 | 0
