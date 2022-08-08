@@ -89,15 +89,11 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 ```
 Access only scalar value ( Data present at x row y column )
 ```
-
 ### `DataFrame.at[]` : Label based location
-
 ```python
 df.at[1, 'Country']
 ```
-
 ### `DataFrame.iat[]` : Integer based location
-
 ```python
 df.iat[1, 3]
 ```
@@ -105,9 +101,7 @@ df.iat[1, 3]
 ```
 Access scalar value or entire record | row or field | column
 ```
-
 ### `DataFrame.loc[]` : Label based location
-
 ```python
 # DataFrame.loc[]
 df.loc[0, 'City']
@@ -115,9 +109,7 @@ df.loc[0, 'City']
 # DataFrame.Series.loc[]
 df['City'].loc[1]
 ```      
-
 ### `DataFrame.iloc[]` : Integer based location
-
 ```python
 # DataFrame.loc[]
 df.iloc[0, 1]
