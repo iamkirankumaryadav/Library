@@ -178,6 +178,18 @@ print(df.ndim)
 print(df.empty)
 ```
 
+### `DataFrame.T` : Change the rows into columns and columns into rows.
+
+```python
+print(df.T)
+```
+
+### `DataFrame.values` : Represents the values of DataFrame in NumPy array.
+
+```python
+print(df.values)
+```
+
 # DataFrame `Methods`
 
 ### `DataFrame.head(n)`
