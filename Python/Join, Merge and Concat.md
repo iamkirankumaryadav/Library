@@ -1,5 +1,5 @@
 <table>
-  <tr><td><a align="left" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Python/Pandas.md">Back to Pandas</a></td></tr> 
+  <tr colspan=2><td><a align="left" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Python/Pandas.md">Back to Pandas</a></td></tr> 
   <tr><td><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></td></tr>
 </table>
 
