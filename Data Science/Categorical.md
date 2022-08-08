@@ -30,7 +30,9 @@ model = LogisticRegression(multi_class='ovr')
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-### Handle Categorical Data ( Ordinal )
+## Handle `Categorical` Data 
+
+### `Ordinal` : `ordered = True`
 
 Qualification
 :---
@@ -54,3 +56,11 @@ Qualification
 0
 1
 2
+
+### `Nominal` : `ordered = False`
+
+```python
+df['Gender'] = pd.Categorical(df['Gender'], ['Male', 'Female'], ordered=False)
+
+df['Gender'].cat.codes
+```
