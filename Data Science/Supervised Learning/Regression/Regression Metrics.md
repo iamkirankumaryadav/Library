@@ -69,6 +69,8 @@
 - Measure how `close` each **data point** `fits` the **regression line** i.e. how well the **regression line** `predicts` **actual values**.
 - Ideal value for R<sup>2</sup> is between `70%` to `90%` ( i.e. Model `fits` the data very well )
 - Help us to `compare` **created** model with the `baseline` model ( Mean )
+- `Low` R<sup>2</sup> causes `underfitting` and `high` R<sup>2</sup> results into `overfitting`
+- `Best fit line` predicts better than `base fit line` ( `Mean` ) 
 
 ![R2 Score Scikit Learn](Image/R2Score.png)
 
