@@ -87,6 +87,13 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 
 # `Access` Data
 
+`Method` | `Access`
+:---: | :---
+`.at[]` | Access scalar value | Label based location
+`.iat[]` | Access scalar value | Integer based location
+`.loc[]` | Access record or field | Label based location
+`.iloc[]` | Access record or field | Integer based location
+
 - Access only `scalar` value ( Data present at x row y column )
 
 ### `DataFrame.at[]` : Label based location
