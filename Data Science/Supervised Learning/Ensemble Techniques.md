@@ -14,7 +14,7 @@ Create multiple models and then combine them to produce **better** results ( Hig
 - If we build an combine multiple models, the overall accuracy can be improved.
 - The combination can be implemented by aggregating the outputs of all the individual models.
  
-Bagging ( Bootstrap Aggregation ) | Boosting
+`Bagging` ( Bootstrap Aggregation ) | `Boosting`
 :--- | :---
 **Parallel** | **Series** ( Iterative ) 
 Decrease **variance** ( Solve **overfitting** ) | Decrease **bias** ( Improve **training** )
@@ -27,18 +27,18 @@ Less time to train | More time to train ( Exhaustive approach )
 Samples are drawn randomly with **replacement** | Samples + Observations that are **missclassified** by **previous models**
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XGBoost
 
-### Entrophy ( Randomness | Uncertainity )
+### `Entrophy` ( Randomness | Uncertainity )
 
 - Low entrophy : Better ( Simple | No Confusion | Easy to draw conclusion from data )
 - High entrophy : Hard to draw conclusion ( Creates confusion )
 
-### Information Gain ( Which feature can explain the split better ? )
+### `Information Gain` ( Which feature can explain the split better ? )
 
 - Measures `quality` of split.
 - High IG : Better ( Explains the further split in more better way )
 - IG decides which feature will become next node and will split the data in better way.
 
-### Gini Index ( Check for impurity in dataset )
+### `Gini Index` ( Check for impurity in dataset )
 
 - Low gini index is better.
 - Pure : All data belongs to same class in a subset ( Gini Index : 0 )
