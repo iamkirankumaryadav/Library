@@ -130,6 +130,7 @@
 - [Ben Sullins](https://www.linkedin.com/learning/instructors/ben-sullins) ( `Python` )
 - [Keith McCormick](https://www.linkedin.com/learning/instructors/keith-mccormick) ( `Predictive Analytics` )
 - [Dennis Taylor](https://www.linkedin.com/learning/instructors/dennis-taylor) ( `Spreadsheet` )
+- [Robin Andrews](https://www.linkedin.com/learning/instructors/robin-andrews) ( `Python Data Structure & Algorithms` )
 
 ### Medium
 
