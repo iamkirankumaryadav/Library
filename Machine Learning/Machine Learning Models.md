@@ -298,7 +298,7 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 - Digit `0` vs Digit `1`, `2` and `3`
 - Digit `1` vs Digit `0`, `2` and `3`
 - Digit `2` vs Digit `0`, `1` and `3`
-- Digit `3` vs Digit `0`, `1` and `1`
+- Digit `3` vs Digit `0`, `1` and `2`
 - Model that predicts the **higest** class probability is the predicted class.
   
 <h3 name='tree'>3. Decision Tree</h3>
