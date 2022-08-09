@@ -16,7 +16,7 @@ Simple model do not capture **hidden** patterns and relations properly | Model *
 - `Linear` algorithms **learns fast** which often lead to `high bias`
 - Simple the algorithm, more `bias` it will introduce ( Underfitting )
 
-### How to Reduce `Bias` ?
+### How to reduce `Bias` ?
 - Cross validation, resampling and ensemble techniques can prevet from Bias as well as Variance.
 - `K Fold Cross Validations` and `Resampling` | Split dataset into `K` samples and each set is used as testing set.
 - `Bootstrapping` and `Boosting` | Iteratively `Resampling` a dataset with `replacement`
