@@ -35,7 +35,7 @@
 <h3 name='skfold'> 3. Stratified K Fold Cross Validation</h3>
 
 - Data is divided into `K` subsets.
-- Each subset has **equal proportion** of samples of each **target class labels**.
+- Each subset has **equal proportion** samples of each **target class labels**.
 - Models get **equally** distributed target class labels for **training**.
 - One of **K** subset is used as **validation set**.
 - **K - 1** subsets are used as **training set**.
