@@ -21,7 +21,7 @@ df.query("type='cpu' & (value > 0 | value < 20)") or df.query("type='cpu' and (v
 
 # Find outliers by using Mean and Standard Deviation (Z Score):
 zscore = x - x.mean() / x.std()
-Data / Values / Points outside 3 std is considered as outliers.
+# Data / Values / Points outside 3 std is considered as outliers.
 ```
 
 3. **Duplicates** : Same data 
