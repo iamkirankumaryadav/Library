@@ -22,7 +22,7 @@ model = LogisticRegression(multi_class='ovr')
 
 ### `Label Encoding` ( Better for `Ordinal` )
 - Substitute bins by **mean** ( e.g. Age bins by `mean` of age group ) Better if `class labels` are less.
-- e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Post Graduate > Bachelor )
+- e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Bachelor )
 
 ### `Dummy Encoding` | `One Hot Encoding` ( Better for `Nominal` )
 - Transform **non numerical labels** to `binary` **numerical labels** ( `1` and `0` ) 
