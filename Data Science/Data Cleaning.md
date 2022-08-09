@@ -42,7 +42,7 @@ df.duplicated(['column1', 'column3'])
 
 ### Detecting `Errors`
 
-1. `Schema` and `Validation` : Proper data type and relationship of data, format, Constraints ( Whether NULL is allowed in the column or not )  
+1. `Schema` and `Validation` : Data types and relationships of data, format, Constraints ( Whether NULL is allowed in the column or not )  
 2. `Missing` : Filling missing value or Dropping rows with missing values ( NULL, NaN, Empty )
 3. `Domain Knowledge` : Help to understand the valid value and range of the data ( -90 <= Latitude <=90 and -180 <= Longitude <= 180 )
 4. `Visualization` : `Histogram`, `Boxplot` and `Bar Charts` helps to visualize the distribution or frequency of data and outliers.
