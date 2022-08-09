@@ -47,6 +47,18 @@ Algorithms that rely on **gradient descent** ( **Regressions** ) | **Probability
 - `fit_transform()` : First learn ( **Fit** ) and then apply in place ( **Transform** ) | Apply only on `train` set.
 - Prevents **data leakage** : **Sharing information** of **train set** with **test set**.
 
+```python
+# Create instance:
+scaler = StandardScaler()
+
+# Fit on train set:
+scaler.fit(X_train)
+
+# Transform on train and test set:
+X_train = scaler.transform(X_train)
+X_test = scaler.transform(X_test)
+```
+
 ### How to Prevent Data Leakage 
 - Never apply `fit_transform()` on test set.
 - Remove `duplicate` data ( `drop_duplicates()` )
