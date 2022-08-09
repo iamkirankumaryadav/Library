@@ -14,7 +14,7 @@ sklearn.preprocessing.`MinMaxScaler()` | sklearn.preprocessing.`StandardScaler()
 Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradient descent**, **distance** and **dimensions**
 
 ### Scaling 
-- Convert **numeric** feature values from their `natural` **range** ( e.g. 100 to 900 ) into a `standard` or `normal` **range**.
+- Convert **numeric** feature values from their `natural` **range** into a `standard` or `normal` **range**.
 - A dataset with only one feature do not need scaling.
 - Scaling is beneficial only if the dataset consists of **multiple** features with different range.
 
