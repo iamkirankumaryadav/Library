@@ -5,12 +5,12 @@
 `Bias` | `Variance`
 :--- | :---
 Bias : Error on `train` set | Variance : Error on `test` set
-`High` Bias ( Model is not trained well ) | `High` Variance ( Prediction is not good for new unseen data )
-`High` Bias ( Simple Model is Created ) | `High` Variance ( Complicated Model is Created )
+`High Bias` ( Model is not trained well ) | `High Variance` ( Prediction is not good for new unseen data )
+`High Bias` ( Simple Model is Created ) | `High Variance` ( Complicated Model is Created )
 Simple model make **simplified assumptions** while learning | Complicated model learn data with `noise`
 Simple model do not capture **Hidden** Patterns and Relations properly | Model **Memorize** Patterns and Relations + Noise + Error
-`Low` Bias Algorithms ( Decision Tree, KNN, SVM ) | `Low` Variance Algorithms ( Regression, LDA )
-`High` Bias Algorithm ( Regression ) | `High` Variance Algorithm ( Decision Tree, KNN, SVM ) 
+`Low Bias` Algorithms ( Decision Tree, KNN, SVM ) | `Low Variance` Algorithms ( Regression, LDA )
+`High Bias` Algorithm ( Regression ) | `High Variance` Algorithm ( Decision Tree, KNN, SVM ) 
 
 - `Error` = `Predicted` - `Actual` ( Difference between the `expected` value and `actual` value )
 - `Linear` algorithms **learns fast** which often lead to `high bias`
