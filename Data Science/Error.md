@@ -3,7 +3,7 @@
 # `Error` in `Regression`
 
 - Each machine learning algorithm has its own way of being **evaluated**.
-- `Regression` : Error is calculated by finding **sum of squared difference** between `actual` and `predicted` values.
+- `Regression` : Error is calculated by finding `sum of squared difference` between `actual` and `predicted` values.
 - `Classification` : Error is determined by getting the **proportion** of values `missclassified` by the model.
 - Created **model** will have a lot of `error` because of `noise`
 - `Noise` is unwanted, it **weakens** the learning process of **model**.
