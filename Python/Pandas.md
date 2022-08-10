@@ -17,14 +17,19 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - `Column` | `Feature` | `Attribute` | `Series` | `Field` | `Dimension`        
 - `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
 - Financial term for a tabular data is `Panel`
-- Pandas is an exploratory data analysis toolkit, abundance of `attributes` and `methods`
-- Read | `import` and write | `export` data: `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json`, etc.
+- Pandas is an `EDA` | exploratory data analysis toolkit with abundance of `attributes` and `methods`
+- `Read` | `import` data: `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json`, etc.
+- `Write` | `export` data: `.to_csv()`, `.to_excel`
 - Preview data: `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()`, etc.
+- Filter, indexing and slicing data: `.query()`, `.loc[]`, `.iloc`, `.at[]`, `iat[]`       
 - Preview metadata: `describe()`, `info()`
 - Clean data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`, etc. 
 - Transform data: `apply()`, `explode()`, etc.
 - Aggregate data: `join()`, `merge`, `concat()`, `groupby()`, `pivot_table()`, etc.
 - Reshape data: `stack()` and `unstack`
+- Performance optimization ( Changing data types, storage type )
+- Visualize data: `.plot()`
+- Time Series Analysis.
 - Pandas is used in economics, finance, statistics and analytics.
 - Data Types: `Series` ( **1** Dimensional ) and `DataFrames` ( **2** Dimensional )
 - Panel: **3** Dimensional ( major_axis and minor_axis )
@@ -71,22 +76,6 @@ DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
 ```
 
 <img src="../Python/Image/PandasDataTypes.png" alt='DataFrame'>
-
-### Important features of Pandas library:
-1. Data reading from various input and writing to various output: `.read_csv()`, `.read_excel()`, `.read_sql_table()`, `.to_csv()`, etc.
-2. Data filtering: `.query()`
-3. Data indexing and slicing: `.loc[]`, `.iloc`, `.at[]`, `iat[]`       
-4. Data cleaning: 
-5. Handling missing data: `.fillna()`, `.dropna()`
-6. Supports multiple file formats.
-7. Merge, concate and join different datasets.
-8. Performance optimization: `.apply()`, `.map()`, `.reduce()`         
-9. Data visualization: `.plot()`
-10. Grouping and reshaping: `.groupby()`, `.pivot_table()`, `.stack()`, `.unstack()`, etc.             
-11. Performing different mathematical operations on the available data.
-12. Masking out irrelevant data to only use the required data.
-13. Taking out unique data from various repetitions in the dataset.
-14. Time series analysis.
 
 <table align="center">
       <tr><td><img src="Image/PandasMethod.jfif" alt="Pandas Methods"></td></tr>
