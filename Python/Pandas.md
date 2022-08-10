@@ -67,7 +67,7 @@ DataFrame['SeriesName'] or DataFrame.SeriesName
 ### `DataFrame` : 2D Array
 
 - Data is aligned in tabular form with `rows` and `columns`
-- `DataFrame` is a sequence of `Series` that shares the same index.
+- `DataFrame` is a sequence of `Series` that shares the same `index`
 
 ```python
 # Empty DataFrame:
