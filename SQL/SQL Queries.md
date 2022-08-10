@@ -371,7 +371,7 @@ CREATE TABLE Employee
       Name   VARCHAR(255),
       Age    INT CHECK(Age > 18),
       DeptID INT NOT NULL FOREIGN KEY REFERENCES Department(DeptID),
-      City   VARCHAR(255) DEFAULT 'Banglore'
+      City   VARCHAR(255) DEFAULT 'Mumbai'
 )
 ```
 
