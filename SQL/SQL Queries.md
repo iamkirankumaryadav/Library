@@ -176,25 +176,25 @@ LIMIT = 10;
 
 ### Select Aggregate 
 
-1. COUNT() : Total number of `Rows`.
-2. AVG() : Average | Mean
-3. SUM()
-4. MIN()
-5. MAX() 
+1. `COUNT()` : Total number of `Rows`.
+2. `AVG()` : Average | Mean
+3. `SUM()` : Addition of all the values.
+4. `MIN()` : Smallest value.
+5. `MAX()` : Largest value.
 
 ```SQL
 SELECT SUM(Column) AS SumColumn 
 FROM Table WHERE Column = A;
 ```
 
-# Joins
+# `Joins`
 
-1. Inner Join : Matching `Rows` in both Table.
-2. Left Join : `All` the Rows from Left Table and Matching Rows from Right Table.
-3. Right Join : `All` the Rows from Right Table and Matching Rows from Left Table.
-4. Full Join | Full Outer Join : `All` the Rows from both the Table.
+1. `Inner` Join : Matching `Rows` in both Table.
+2. `Left` Join : `All` the Rows from Left Table and Matching Rows from Right Table.
+3. `Right` Join : `All` the Rows from Right Table and Matching Rows from Left Table.
+4. `Full` Join | Full Outer Join : `All` the Rows from both the Table.
 
-### Inner Join  
+### `Inner` Join  
 
 ```SQL
 SELECT Table1.Column1, Table1.Column2, Table1.Column3 
@@ -202,7 +202,7 @@ FROM Table1
 INNER JOIN Table2 ON Table1.ID = Table2.ID
 ```
 
-### Join 3 Tables : 
+### `Join` multiple tables: 
 
 ```SQL
 SELECT Table1.Column1, Table2.Column2, Table3.Column3 
@@ -211,7 +211,7 @@ INNER JOIN Table2 ON Table1.ID = Table2.ID
 INNER JOIN Table3 ON Table1.ID = Table3.ID
 ```
 
-### Union (Distinct)
+### `Union` (Distinct)
 - `Combine` Tables and Subsets (Combines only `Distinct` Rows)
 
 ```SQL
@@ -235,7 +235,7 @@ WHERE Column1 = B
 ORDER BY Column1
 ```
 
-### Union All  
+### `UNION All`  
 - `Combine` Tables and Subsets (Combines `All` Rows)
 
 ```SQL
@@ -246,7 +246,7 @@ SELECT Column1, Column2, Column3
 FROM Table2
 ```
 
-### Group By 
+### `GROUP BY`
 - Group `Rows` with same value.
 
 ```SQL
@@ -357,12 +357,12 @@ FROM Products.
 
 ### Sql Constraints
 
-1. NOT NULL : Enforces a column to Not Accept Null Value.
-2. AUTO_INCREMENT : Automatically generate sequential numbers.
-3. PRIMARY KEY : Uniquely identify the `Row` in the table.
-4. FOREIGN KEY : Primary key in another table.
-5. CHECK : `Limit` the value range that can be placed in a column.
-6. DEFAULT : Set a `Default` value for the column.
+1. `NOT NULL` : Enforces a column to not accept any null value.
+2. `AUTO_INCREMENT` : Automatically generate sequential numbers.
+3. `PRIMARY KEY` : Uniquely identify the `row` in the table.
+4. `FOREIGN KEY` : Primary key in another table.
+5. `CHECK` : `Limit` the value range that can be placed in a column.
+6. `DEFAULT` : Set a `Default` value for the column.
 
 ```SQL
 CREATE TABLE Employee
