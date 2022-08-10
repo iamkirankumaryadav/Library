@@ -67,8 +67,8 @@ Python List | NumPy
 No support for vectorized operations | Supports vectorized operations ( Addition, Multiplication )
 No fixed data type ( List is `Heterogeneous` ) | Fixed data type ( `Homogeneous` )
 For loop not efficient ( Check data type ) | For loop is efficient 
-Consumes more memory | Consume `less` memory ( `6x` less memory than list )
-Slower as compared to NumPy array | `100x` faster than list
+Consumes more memory | Consume `less` memory ( `6x` less memory than `List` )
+Slower as compared to `NumPy` array | `100x` faster than `List`
 List stores object type, reference count, object value, object size | NumPy only stores element values
 
 Python List ( Ordered, Subscriptable, Mutable, Heterogeneous, Duplicate, Indexing, Slicing, Iterable )
