@@ -17,7 +17,7 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - `Column` | `Feature` | `Attribute` | `Series` | `Field` | `Dimension`        
 - `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
 - Financial term for a tabular data is `Panel`
-- Pandas is an exploratory data analysis toolkit.
+- Pandas is an exploratory data analysis toolkit, abundance of attributes and methods.
 - Read | `import` and write | `export` data: `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json`, etc.
 - Preview data: `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()`, etc.
 - Preview metadata: `describe()`, `info()`
