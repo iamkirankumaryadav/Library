@@ -23,7 +23,8 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - Preview metadata: `describe()`, `info()`
 - Clean data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`, etc. 
 - Transform data: `apply()`, `explode()`, etc.
-- Aggregate data: `concat()`, `merge()`, `groupby()`, `pivot_table()`, etc.
+- Aggregate data: `join()`, `merge`, `concat()`, `groupby()`, `pivot_table()`, etc.
+- Reshape data: `stack()` and `unstack`
 - Pandas is used in economics, finance, statistics and analytics.
 - Data Types: `Series` ( **1** Dimensional ) and `DataFrames` ( **2** Dimensional )
 - Panel: **3** Dimensional ( major_axis and minor_axis )
