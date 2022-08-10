@@ -32,7 +32,7 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - Performance optimization ( Changing data types, storage type )
 - `Visualize` data: `.plot()`
 - `Mathematical` operations: `sum()`, `mean()`, `median()`, `max()`, `min()`, `value_counts()`, `describe()`
-- Time Series Analysis.
+- `Time Series` Analysis: `date_range()`, `to_datetime()`
 - Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
 - Pandas is used in economics, finance, statistics and analytics.
 - Data Types: `Series` ( `1D` array ) and `DataFrames` ( `2D` array )
