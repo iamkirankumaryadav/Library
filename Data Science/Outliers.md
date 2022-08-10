@@ -94,7 +94,7 @@ Divide the Data into `4` Equal Quarters ( `Quartiles` )
 2. Remove the `outlier` if it is very small, change the value of `outlier` or replace it with something meaningful.
 3. **Inter Quartile** Range ( `IQR` ) and Extreme value analysis ( `Z Score` )
 5. `Rescale` | `Standardize` | `Normalize` ( Bring to same scale )
-6. Apply `ensemble` learning techniques ( `Bagging` and `Boosting` )
+6. Apply [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) ( `Bagging` and `Boosting` )
 
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
