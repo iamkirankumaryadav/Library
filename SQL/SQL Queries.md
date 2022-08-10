@@ -142,14 +142,14 @@ ORDER BY State DESC, City ASC;
 - Add Row 
 
 ```SQL
-INSERT INTO Table(Column1, Column2, Column3) 
+INSERT INTO TableName(Column1, Column2, Column3) 
 VALUES(Value1, Value2, Value3); 
 ```
 
 ### Update 
 
 ```SQL
-UPDATE Table 
+UPDATE TableName 
 SET Column1 = Value1, Column2 = Value2 
 WHERE Condition;
 ```
@@ -157,7 +157,7 @@ WHERE Condition;
 ### Delete 
 
 ```SQL
-DELETE FROM Table 
+DELETE FROM TableName 
 WHERE Column = Value;
 ```
 
@@ -165,12 +165,12 @@ WHERE Column = Value;
 
 ```SQL
 SELECT TOP 10 * 
-FROM Table; 
+FROM TableName; 
 ```
 
 ```SQL
 SELECT * 
-FROM Table 
+FROM TableName 
 LIMIT = 10;
 ```
 
