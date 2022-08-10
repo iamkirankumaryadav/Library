@@ -25,8 +25,8 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - `Preview` data: `head()`, `tail()`, `sample()`,`sort_values()`
 - `Filter`, `Indexing` and `Slicing` data: `query()`, `loc[]`, `iloc`, `at[]`, `iat[]`       
 - `Metadata`: `info()`
-- `Clean` data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`, etc. 
-- `Transform` data: `apply()`, `explode()`, etc.
+- `Clean` data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`
+- `Transform` data: `apply()`, `map()`, `reduce()`, `explode()`
 - `Aggregate` data: `join()`, `merge`, `concat()`, `groupby()`
 - `Reshape` data: `pivot_table()`, `stack()` and `unstack`
 - Performance optimization ( Changing data types, storage type )
