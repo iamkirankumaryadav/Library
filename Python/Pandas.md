@@ -17,23 +17,23 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - `Column` | `Feature` | `Attribute` | `Series` | `Field` | `Dimension`        
 - `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
 - Financial term for a tabular data is `Panel`
-- Pandas is an `EDA` | exploratory data analysis toolkit with abundance of `attributes` and `methods`
-- `Read` | `import` data: `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json`, etc.
-- `Write` | `export` data: `.to_csv()`, `.to_excel`
-- Preview data: `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()`, etc.
-- Filter, indexing and slicing data: `.query()`, `.loc[]`, `.iloc`, `.at[]`, `iat[]`       
-- Preview metadata: `describe()`, `info()`
-- Clean data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`, etc. 
-- Transform data: `apply()`, `explode()`, etc.
-- Aggregate data: `join()`, `merge`, `concat()`, `groupby()`, `pivot_table()`, etc.
-- Reshape data: `stack()` and `unstack`
+- Pandas is an exploratory data analysis toolkit with abundance of `attributes` and `methods`
+- `Attributes` : `index`, `columns`, `size`, `shape`, `ndim`, `values`, `axes`   
+- `Import` data: `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json`, etc.
+- `Export` data: `.to_csv()`, `.to_excel`
+- `Preview` data: `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()`, etc.
+- `Filter`, `Indexing` and `Slicing` data: `.query()`, `.loc[]`, `.iloc`, `.at[]`, `iat[]`       
+- `Metadata`: `describe()`, `info()`
+- `Clean` data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`, etc. 
+- `Transform` data: `apply()`, `explode()`, etc.
+- `Aggregate` data: `join()`, `merge`, `concat()`, `groupby()`
+- `Reshape` data: `pivot_table()`, `stack()` and `unstack`
 - Performance optimization ( Changing data types, storage type )
-- Visualize data: `.plot()`
+- `Visualize` data: `.plot()`
 - Time Series Analysis.
 - Pandas is used in economics, finance, statistics and analytics.
-- Data Types: `Series` ( **1** Dimensional ) and `DataFrames` ( **2** Dimensional )
-- Panel: **3** Dimensional ( major_axis and minor_axis )
-- Read, Write, Transform, Explore, Pivot, Join, Manipulate, Merge, GroupBy, Aggregate, Clean, Stack and Visualize.  
+- Data Types: `Series` ( `1D` array ) and `DataFrames` ( `2D` array )
+- Panel: `3D` ( `major_axis` and `minor_axis` ) very rare. 
 
 ### `Index`
 
