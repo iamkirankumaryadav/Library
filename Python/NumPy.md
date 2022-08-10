@@ -27,8 +27,7 @@
     <td>3 Dimensions</td>
   </tr>  
   <tr>
-    <td>Poi
-      nt</td>
+    <td>Point</td>
     <td>Line</td>
     <td>Square</td>
     <td>Cube</td>
