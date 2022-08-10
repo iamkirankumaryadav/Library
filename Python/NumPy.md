@@ -48,9 +48,9 @@
 
 Operator |	Description
 :--- | :---
-`np.array([1, 2, 3])` |	1d Array
-`np.array([(1, 2, 3), (4, 5, 6)])` |	2d Array
-`np.arange(start, stop, step)` |	Range Array
+`np.array([1, 2, 3])` |	`1D` Array
+`np.array([(1, 2, 3), (4, 5, 6)])` | `2D` Array
+`np.arange(start, stop, step)` | `Range` Array
 
 ### Placeholders 
 
