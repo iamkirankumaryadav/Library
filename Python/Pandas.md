@@ -20,6 +20,7 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - Pandas is an exploratory data analysis toolkit.
 - Read | `import` and write | `export` data: `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json`, etc.
 - Preview data: `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()`, etc.
+- Preview metadata: `describe()`, `info()`
 - Clean data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`, etc. 
 - Transform data: `apply()`, `explode()`, etc.
 - Aggregate data: `concat()`, `merge()`, `groupby()`, `pivot_table()`, etc.
