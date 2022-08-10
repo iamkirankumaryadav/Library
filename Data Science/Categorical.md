@@ -8,30 +8,6 @@
 - We can't `train` the model directly with `categorical labels` they need to be encoded.
 - `Encoding` : Transforming `categorical labels` in `numeric values` that can be consumed by model.
 
-### `Logistic Regression`
-- Classify the `target` variables into 2 `discrete` classes ( Binary Classification )
-- If the `target` variable has more than 2 classes then use multiclass classification.
-```python
-ovr: one vs rest 
-ova: one vs all
-
-# Define model
-model = LogisticRegression(multi_class='ovr')
-```
-- Combine `sparse` categories ( Category labels with very less observations )
-
-### `Label Encoding` ( Better for `Ordinal` )
-- Substitute bins by **mean** ( e.g. Age bins by `mean` of age group ) Better if `class labels` are less.
-- e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Bachelor )
-
-### `Dummy Encoding` | `One Hot Encoding` ( Better for `Nominal` )
-- Transform **non numerical labels** to `binary` **numerical labels** ( `1` and `0` ) 
-- Convert a **categorical** input variable into **numeric** variable.
-
-<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
-
-## Handle `Categorical` Data 
-
 ### `Ordinal` : `ordered = True`
 
 Qualification
@@ -57,6 +33,26 @@ Qualification
 1
 2
 
+### `Logistic Regression`
+- Classify the `target` variables into 2 `discrete` classes ( Binary Classification )
+- If the `target` variable has more than 2 classes then use multiclass classification.
+```python
+ovr: one vs rest 
+ova: one vs all
+
+# Define model
+model = LogisticRegression(multi_class='ovr')
+```
+- Combine `sparse` categories ( Category labels with very less observations )
+
+### `Label Encoding` ( Better for `Ordinal` )
+- Substitute bins by **mean** ( e.g. Age bins by `mean` of age group ) Better if `class labels` are less.
+- e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Bachelor )
+
+### `Dummy Encoding` | `One Hot Encoding` ( Better for `Nominal` )
+- Transform **non numerical labels** to `binary` **numerical labels** ( `1` and `0` ) 
+- Convert a **categorical** input variable into **numeric** variable.
+
 ### `Nominal` : `ordered = False`
 
 ```python
@@ -79,3 +75,9 @@ Female | 0 | 1
 Male | 1 | 0
 Male | 1 | 0
 Female | 0 | 1
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
+
+
+
