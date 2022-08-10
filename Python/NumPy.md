@@ -65,7 +65,7 @@ Operator | Description
 Python List | NumPy 
 :--- | :---
 No support for vectorized operations | Supports vectorized operations ( Addition, Multiplication )
-No fixed data type ( List is `Heterogeneous` ) | Fixed data type ( Homogeneous )
+No fixed data type ( List is `Heterogeneous` ) | Fixed data type ( `Homogeneous` )
 For loop not efficient ( Check data type ) | For loop is efficient 
 Consumes more memory | Consume `less` memory ( `6x` less memory than list )
 Slower as compared to NumPy array | `100x` faster than list
