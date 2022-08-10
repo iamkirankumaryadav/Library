@@ -266,7 +266,8 @@ ORDER BY Count(Customer) DESC;
 
 ```SQL
 SELECT Table1.Column1, Count(Table1.ID) 
-FROM Table1 LEFT JOIN Table2 ON Table1.ID = Table2.ID 
+FROM Table1 
+LEFT JOIN Table2 ON Table1.ID = Table2.ID 
 GROUP BY Column1;
 ```
 
@@ -274,11 +275,12 @@ GROUP BY Column1;
 
 ```SQL
 SELECT Table1.Column1, Count(Table1.ID) 
-FROM Table1 INNER JOIN Table2 ON Table1.ID = Table2.ID
+FROM Table1 
+INNER JOIN Table2 ON Table1.ID = Table2.ID
 WHERE Column1 = 'A' And Column2 = B
-GROUP BY Column1
-HAVING Count(Table1.Column1) > 20
-ORDER BY Count(ID) DESC;
+GROUP BY Table1.Column1
+HAVING Count(Table1.ID) > 20
+ORDER BY Count(Table1.ID) DESC;
 ```
                             
 ### Where Exists   
