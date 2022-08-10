@@ -23,14 +23,16 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - `Export` data: `.to_csv()`, `.to_excel`
 - `Preview` data: `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()`, etc.
 - `Filter`, `Indexing` and `Slicing` data: `.query()`, `.loc[]`, `.iloc`, `.at[]`, `iat[]`       
-- `Metadata`: `describe()`, `info()`
+- `Metadata`: `info()`
 - `Clean` data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`, etc. 
 - `Transform` data: `apply()`, `explode()`, etc.
 - `Aggregate` data: `join()`, `merge`, `concat()`, `groupby()`
 - `Reshape` data: `pivot_table()`, `stack()` and `unstack`
 - Performance optimization ( Changing data types, storage type )
 - `Visualize` data: `.plot()`
+- `Mathematical` operations: `sum()`, `mean()`, `median()`, `max()`, `min()`, `value_counts()`, `describe()`
 - Time Series Analysis.
+- Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
 - Pandas is used in economics, finance, statistics and analytics.
 - Data Types: `Series` ( `1D` array ) and `DataFrames` ( `2D` array )
 - Panel: `3D` ( `major_axis` and `minor_axis` ) very rare. 
@@ -39,15 +41,14 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 
 - Index object is an `immutable` array.
 - There are two types of index in a DataFrame `row index` and `column index`
-- Both indexes ( row index and column index ) starts from `0`
-- Indexing allows to access a `row` or `column` using a label.
+- Both indexes starts from `0`, allows to access a `row` or `column` using an index position or label name.
 
 ```python
 # First row and first column:
 df.iloc[0, 0]
 ```
 
-### `Series` : 1 Dimensional Array
+### `Series` : 1D Array
 
 - `Series` holds `homogeneous` data values, i.e. All data values are of `same` data type.
 - Data axis labels are called as `index`
@@ -62,7 +63,7 @@ DataFrame['SeriesName'] or DataFrame.SeriesName
 
 <img src="../Python/Image/DataFrames.png" alt='DataFrame'>
 
-### `DataFrame` : 2 Dimensional Array
+### `DataFrame` : 2D Array
 
 - Data is aligned in tabular form with `rows` and `columns`
 - `DataFrame` is a sequence of `Series` that shares the same index.
