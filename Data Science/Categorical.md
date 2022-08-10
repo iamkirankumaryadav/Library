@@ -8,6 +8,22 @@
 - We can't `train` the model directly with `categorical labels` they need to be encoded.
 - `Encoding` : Transforming `categorical labels` in `numeric values` that can be consumed by model.
 
+### `Logistic Regression`
+- Classify the `target` variables into 2 `discrete` classes ( Binary Classification )
+- If the `target` variable has more than 2 classes then use multiclass classification.
+```python
+ovr: one vs rest 
+ova: one vs all
+
+# Define model
+model = LogisticRegression(multi_class='ovr')
+```
+- Combine `sparse` categories ( Category labels with very less observations )
+
+### `Label Encoding` ( Better for `Ordinal` )
+- Substitute bins by **mean** ( e.g. Age bins by `mean` of age group ) Better if `class labels` are less.
+- e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Bachelor )
+
 ### `Ordinal` : `ordered = True`
 
 Qualification
@@ -33,21 +49,6 @@ Qualification
 1
 2
 
-### `Logistic Regression`
-- Classify the `target` variables into 2 `discrete` classes ( Binary Classification )
-- If the `target` variable has more than 2 classes then use multiclass classification.
-```python
-ovr: one vs rest 
-ova: one vs all
-
-# Define model
-model = LogisticRegression(multi_class='ovr')
-```
-- Combine `sparse` categories ( Category labels with very less observations )
-
-### `Label Encoding` ( Better for `Ordinal` )
-- Substitute bins by **mean** ( e.g. Age bins by `mean` of age group ) Better if `class labels` are less.
-- e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Bachelor )
 
 ### `Dummy Encoding` | `One Hot Encoding` ( Better for `Nominal` )
 - Transform **non numerical labels** to `binary` **numerical labels** ( `1` and `0` ) 
