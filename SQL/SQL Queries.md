@@ -327,7 +327,7 @@ WHERE Country = 'India';
 ### Insert Into : 
 
 ```SQL
-INSERT Into Table2(Colum1, Column2, Column3) 
+INSERT INTO Table2(Colum1, Column2, Column3) 
 SELECT Column1, Column2, Column3 
 FROM Table1
 WHERE Column1 = Value;
