@@ -27,7 +27,7 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - `Metadata`: `info()`
 - `Clean` data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`
 - `Transform` data: `apply()`, `map()`, `reduce()`, `explode()`
-- `Group` and `Aggregate` data: `groupby()`, `join()`, `merge()`, `concat()`, 
+- `Group` and `Combine` data: `groupby()`, `join()`, `merge()`, `concat()`, 
 - `Reshape` data: `pivot_table()`, `stack()` and `unstack`
 - Performance optimization ( Changing data types, storage type )
 - `Visualize` data: `.plot()`
