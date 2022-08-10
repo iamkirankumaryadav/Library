@@ -313,8 +313,8 @@ WHERE ProductID = ALL(SELECT ProductID FROM Orders WHERE Quantity = 'Value')
 ### Select Into 
 
 ```SQL
-SELECT * INTO New Table 
-FROM Old Table 
+SELECT * INTO NewTableName 
+FROM OldTableName 
 WHERE Column = B;
 ```
 
