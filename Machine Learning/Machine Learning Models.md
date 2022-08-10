@@ -362,7 +362,7 @@ Handle **non linear data** |
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
-- `SVM` can be used for both `regression` and `classification` ( but better used for `classification` )
+- `SVM` can be used for `classification`
 - Finds an optimal `line` or `hyperplane` that separates the 2 distinct classes with `maximum margin` in `N dimensional space`
 - `Hyperplanes` are **decision boundaries** that help to `classify` the data points. Data points are `Support Vectors`
 - `SVM` can be used for `linear` and `non linear` data.
