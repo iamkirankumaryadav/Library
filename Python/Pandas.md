@@ -19,10 +19,11 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - Financial term for a tabular data is `Panel`
 - Pandas is an exploratory data analysis toolkit with abundance of `attributes` and `methods`
 - `Attributes` : `index`, `columns`, `size`, `shape`, `ndim`, `values`, `axes`   
-- `Import` data: `.csv`, `.tsv`, `.txt`, `.xls`, `.xlsx`, `.json`, etc.
-- `Export` data: `.to_csv()`, `.to_excel`
+- Supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
+- `Import` data: `read_csv()`, `read_excel()`, `read_json()`
+- `Export` data: `to_csv()`, `.to_excel`
 - `Preview` data: `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()`, etc.
-- `Filter`, `Indexing` and `Slicing` data: `.query()`, `.loc[]`, `.iloc`, `.at[]`, `iat[]`       
+- `Filter`, `Indexing` and `Slicing` data: `query()`, `loc[]`, `iloc`, `at[]`, `iat[]`       
 - `Metadata`: `info()`
 - `Clean` data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`, etc. 
 - `Transform` data: `apply()`, `explode()`, etc.
