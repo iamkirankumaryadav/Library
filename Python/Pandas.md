@@ -22,7 +22,7 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 - `Attributes` : `index`, `columns`, `size`, `shape`, `ndim`, `values`, `axes`   
 - `Import` data: `read_csv()`, `read_excel()`, `read_json()`
 - `Export` data: `to_csv()`, `.to_excel()`
-- `Preview` data: `head()`, `tail()`, `sort_values()`, `columns`, `dtypes`, `shape`, `describe()`, `value_counts()`, etc.
+- `Preview` data: `head()`, `tail()`, `sample()`,`sort_values()`
 - `Filter`, `Indexing` and `Slicing` data: `query()`, `loc[]`, `iloc`, `at[]`, `iat[]`       
 - `Metadata`: `info()`
 - `Clean` data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`, etc. 
