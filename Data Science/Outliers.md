@@ -31,7 +31,7 @@
 - `z` = `(x - mean(x)) / std(x)` ( Z score normalization )
 - Data points after `3 standard deviations` ( `mean +- 3 * std` ) are considered as `outlier`
 
-`Solution` : Apply transformation of data : Scaling ( Bring scales at same level )
+`Solution` : Apply transformation of data : [Scaling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) ( Bring scales at same level )
 
 <h3 name="dbscan">3. DBSCAN | Density based spatial clustering of applications with noise</h3>
 
