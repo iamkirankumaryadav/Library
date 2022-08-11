@@ -374,7 +374,9 @@ for key, value in df.groupby(by=['City']):
 df.groupby([df['Date'].str[:4], 'Product']).sum().reset_index().rename(columns={'Date': 'Year'}).head()
 ```                  
 
-# Dataframe `Reshaping` : Changing the structure of DataFrame to represent data in desired form.
+# Dataframe `Reshaping` : 
+
+- Changing the structure of DataFrame to represent data in desired form.
 
 ![Stack and Unstack](../Python/Image/Reshaping.png)
 
