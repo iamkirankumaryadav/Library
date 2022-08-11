@@ -115,7 +115,7 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 - Features - Independent Variable | Variables | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
 - Target - Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
 - Rows | Observations | Records | Samples | Instance.
-- `Feature` :  A **measurable** property, can be categorical ( discrete ) or numeric ( real or int number )
+- `Feature` :  A **measurable** property, can be categorical ( discrete ) or numerical ( real or int number )
 - `Target` : What we want to make **prediction** for.
 - `Model` learns a relationship between a `feature matrix` and a `target vector`
 - `Model` is the system that makes **predictions** or **classification** on new unseen data.
