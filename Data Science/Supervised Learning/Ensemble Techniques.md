@@ -62,9 +62,9 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - Dataset is divided into **subsets** | **samples** and passed to multiple **base** learners in `parallel`
 - Sample is passed as `row sampling` with `replacement` ( This process is called as `bootstrap` )
 - Each **learning model** is trained **independently** on its particular **sample** of data.
+- **Test sample** is passed to each **model** for the **output**, **Final prediction** is based on **voting**.
 - **Voting classifier** is used to find the final result ( This process is called as `aggregation` )
 - Combine **weak base learners** into **strong learners**.
-- **Test sample** is passed to each **model** for the **output**, **Final prediction** is based on **voting**.
 - `Regression` :  `Mean` is calculated.
 - `Classification` : `Majority` voted class label.
 - Using many trees protects individual decision trees from `overfitting`
