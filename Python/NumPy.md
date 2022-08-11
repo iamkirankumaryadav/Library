@@ -10,6 +10,7 @@
 - Most advanced `built in` functions. 
 - Essential for `OpenCV` Computer Vision applications.
 - Statsmodel, Matplotlib, Scikit Learn, Scipy and Pandas also use most of the NumPy's functions.
+- Rich set of Attributes: `shape`, `size`, `ndim`
 
 ### [Python List vs NumPy Array](https://github.com/KIRANKUMAR7296/NumPy)
 
