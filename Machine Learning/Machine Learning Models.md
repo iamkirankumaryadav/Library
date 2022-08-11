@@ -310,7 +310,7 @@ Data Mining : Finding patterns in `past` data and then use those patterns on `cu
 - `Edges` : `Branches` | `Splits`
 - `Leaf Node` : `Terminal` | `Label` | `Class`
 - We select the feature as `Node` that **splits** the data very well.
-- Attribute with `High Information Gain` or `Low Entropy` is selected as `best attribute` to split.
+- Attribute with `High Information Gain` or `Low Entropy` or `Low Gini Index` is selected as `best attribute` to split.
 - Used especially for `binary` classification and `multiclass` classification and even used for `Regression`
 - Models where the `target` variable takes a `categorical` set of values are `classification` tree.
 - Models where the `target` variable takes a `continuous` values are `regression` Tree.
