@@ -11,7 +11,7 @@
 - Essential for `OpenCV` Computer Vision applications.
 - Statsmodel, Matplotlib, Scikit Learn, Scipy and Pandas also use most of the NumPy's functions.
 - Rich set of Attributes: `shape`, `size`, `ndim`
-- Rich set of functions: `array()`, `arange()`, `unique()`, `repeat()`, `random.randint()`, `argmax()`, `reshape()`, `count_nonzero()`, `zeros()`, `ones()`
+- Rich set of functions: `array()`, `arange()`, `unique()`, `repeat()`, `random.randint()`, `argmax()`, `reshape()`, `count_nonzero()`, `zeros()`, `ones()`, `ravel()`, `hsplit()`, `vsplit()`, `hstack()`, `vstack()` [...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
 
 ### [Python List vs NumPy Array](https://github.com/KIRANKUMAR7296/NumPy)
 
