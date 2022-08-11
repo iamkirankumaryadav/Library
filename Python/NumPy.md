@@ -8,7 +8,7 @@
 - `Array` processing | `N` **dimensional** array | Fast `Vector` and `Matrix` operations.
 - **Statistical** and **algebraic** computations | `Broadcasting` ( Arithmetic operations between array of different shape and size ) 
 - Most advanced `built in` functions. 
-- Essential for `OpenCV` Computer Vision applications.
+- Essential for `OpenCV` Computer Vision applications (Images pixels are converted into array) 
 - Statsmodel, Matplotlib, Scikit Learn, Scipy and Pandas also use most of the NumPy's functions.
 - Rich set of Attributes: `shape`, `size`, `ndim`
 - Rich set of functions: `array()`, `arange()`, `unique()`, `repeat()`, `random.randint()`, `argmax()`, `reshape()`, `count_nonzero()`, `zeros()`, `ones()`, `ravel()`, `hsplit()`, `vsplit()`, `hstack()`, `vstack()` [...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
