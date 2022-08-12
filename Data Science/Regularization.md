@@ -13,8 +13,8 @@
 - Improves **generalization** ( Performance on new unseen data )
 - If lambda is `high` | High `bias` | Underfitting | `Simple` model | More error in train set.
 - if Lambda is `low` | High `variance` | Overfitting | `Complicated` model | Not **generalize** well for **new unseen data**.
-- `L1` regularization add a `L1` penalty equal to the `absolute` value of magnitude of `slope` | coefficients | weight.
-- `L2` regularization add a `L2` penalty equal to the `squared` value of magnitude of `slope` | coefficients | weight.
+- `LASSO` regularization add `L1` penalty equal to the `absolute` value of magnitude of `slope` | coefficients | weight.
+- `Ridge` regularization add `L2` penalty equal to the `squared` value of magnitude of `slope` | coefficients | weight.
 - `LASSO` reduces **coefficients** exactly to `0` ( **Eliminate feature** )
 - `Ridge` reduces **coefficients** to **small value** near 0 ( Not exactly zero | No elimination )
 
