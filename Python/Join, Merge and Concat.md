@@ -8,7 +8,7 @@
 # `Join`, `Merge` and `Concat`
 
 - For `pandas.DataFrame` both `join` and `merge` operates on columns and rename common columns using parameter `suffix`
-- `concat` can operate on columns or rows, depending on parameter `axis` and no renamin is performed.
+- `concat` can operate on columns or rows, depending on parameter `axis` and no renaming is performed.
 - `concat` allow defining hierarchy structure by passing in parameters `keys` and `names`
 
 ### `DataFrame.join()` : `how = 'left' | 'right' | 'inner' | 'outer'`
