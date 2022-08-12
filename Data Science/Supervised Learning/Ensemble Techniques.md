@@ -14,14 +14,14 @@ The combination of `weak` learners into one very **accurate predicting algorithm
  
 `Bagging` ( Bootstrap Aggregation ) | `Boosting`
 :--- | :---
-**Parallel** | **Series** ( Iterative ) 
-Decrease **variance** ( Solve **overfitting** ) | Decrease **bias** ( Improve **training** )
+`Parallel` | `Series` ( Iterative ) 
+Decrease `variance` ( Solve `overfitting` ) | Decrease `bias` ( Improve **training** )
 Each model receives equal weight | Weights are assigned based on their **performance**
 Samples randomly ( Sample with replacement ) | Samples by increasing weight for **wrong** predictions
 Models are built **independently** | Models are improved version of previous built models
 Less time to train | More time to train ( Exhaustive approach )
 **Easy** to tune | **Hard** to tune
-**Least** Chance of **overfitting** | **Easy** to overfit ( Memorize the data + noise )
+**Least** chance of `overfitting` | **Easy** to overfit ( Memorize the data + noise )
 Samples are drawn randomly with **replacement** | Samples + Observations that are **missclassified** by **previous models**
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XGBoost
 
