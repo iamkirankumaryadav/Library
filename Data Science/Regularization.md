@@ -14,8 +14,8 @@
 - If lambda is `high` | High `bias` | Underfitting | `Simple` model | More error in train set.
 - if Lambda is `low` | High `variance` | Overfitting | `Complicated` model | Not **generalize** well for **new unseen data**.
 - `LASSO` regularization add `L1` penalty equal to the `absolute` value of magnitude of `slope` | coefficients | weight.
-- `Ridge` regularization add `L2` penalty equal to the `squared` value of magnitude of `slope` | coefficients | weight.
 - `LASSO` reduces **coefficients** exactly to `0` ( **Eliminate feature** )
+- `Ridge` regularization add `L2` penalty equal to the `squared` value of magnitude of `slope` | coefficients | weight.
 - `Ridge` reduces **coefficients** to **small value** near 0 ( Not exactly zero | No elimination )
 
 LASSO | Ridge | Elastic
