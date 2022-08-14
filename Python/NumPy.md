@@ -1,7 +1,7 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# NumPy
-- **Numerical** Python 
+# `NumPy` : Numerical Python 
+
 - `Linear Algebra`, `Arithmetic`, `Statistical` and `Mathematical` operations.
 - Searching, Sorting, Counting, and Stacking.
 - `Element wise` arithmetic operations | `Scientific` and `Financial` calculations.
