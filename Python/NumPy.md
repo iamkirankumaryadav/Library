@@ -65,7 +65,7 @@ Operator | Description
 `np.random.random((5,5))` |	Creates an array with `random` numbers.
 `np.empty((2,2))` |	Creates an `empty` array.
 
-`Python List` | `NumPy Array`
+Python List | NumPy Array
 :--- | :---
 No support for vectorized operations | Supports vectorized operations ( Addition, Multiplication )
 Fixed data type ( List is `Heterogeneous` ) | Fixed data type ( `Homogeneous` )
