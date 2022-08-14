@@ -60,7 +60,7 @@ Operator |	Description
 Operator | Description
 :--- | :---
 `np.linspace(0,2,9)` |	Add evenly spaced values between interval to array of length.
-`np.zeros((1,2))`	| Create an array filled with `zeros`
+`np.zeros((1,2))`	| Creates an array filled with `zeros`
 `np.ones((1,2))` |	Creates an array filled with `ones`
 `np.random.random((5,5))` |	Creates an array with `random` numbers.
 `np.empty((2,2))` |	Creates an `empty` array.
