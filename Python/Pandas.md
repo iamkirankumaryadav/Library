@@ -49,36 +49,6 @@ Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `mer
 df.iloc[0, 0]
 ```
 
-### `Series` : 1D Array
-
-- `Series` holds `homogeneous` data values, i.e. All data values are of `same` data type.
-- Data axis labels are called as `index`
-
-```python
-# Create a series:
-pd.Series([1, 2, 3, 4])
-
-# Accessing a series:
-DataFrame['SeriesName'] or DataFrame.SeriesName
-```
-
-<img src="../Python/Image/DataFrames.png" alt='DataFrame'>
-
-### `DataFrame` : 2D Array
-
-- Data is aligned in tabular form with `rows` and `columns`
-- `DataFrame` is a sequence of `Series` that shares the same `index`
-
-```python
-# Empty DataFrame:
-pd.DataFrame()
-
-# Accessing DataFrame:
-DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
-```
-
-<img src="../Python/Image/PandasDataTypes.png" alt='DataFrame'>
-
 <table align="center">
       <tr><td><img src="Image/PandasMethod.jfif" alt="Pandas Methods"></td></tr>
 </table>
