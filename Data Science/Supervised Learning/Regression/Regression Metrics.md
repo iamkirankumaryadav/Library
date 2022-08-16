@@ -65,14 +65,13 @@
 
 ![R2](Image/R2.png)
 
-- Helps to understand how well the model `fits` the data i.e. how well the model make `predictions` on new observations.
-- Measure how `close` each **data point** `fits` the **regression line** i.e. how well the **regression line** `predicts` **actual values**.
+- Helps to understand how well the model `fits` the data ( How well the model make `predictions` on new observations )
+- Measure how `close` each **data point** `fits` the `regression line` ( How well the **regression line** `predicts` **actual values** )
 - Explains the variance of the data captured by the model ( 0.7 to 0.9 is good value for R2 )
-- If R<sup>2</sup> is 0.8 or 80% i.e. regression line explaines 80% of variance in data.
-- Low R<sup>2</sup> causes underfitting and high R<sup>2</sup> results into overfitting
+- If R<sup>2</sup> is 0.8 or 80% ( Regression line explaines 80% of variance in data )
+- Low R<sup>2</sup> causes `underfitting` and high R<sup>2</sup> results into `overfitting`
 - Ideal value for R<sup>2</sup> is between `70%` to `90%` ( i.e. Model `fits` the data very well )
 - Help us to `compare` **created** model with the `baseline` model ( Mean )
-- `Low` R<sup>2</sup> causes `underfitting` and `high` R<sup>2</sup> results into `overfitting`
 - `Best fit line` predicts better than `base fit line` ( `Mean` ) 
 
 ![R2 Score Scikit Learn](Image/R2Score.png)
