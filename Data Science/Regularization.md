@@ -23,7 +23,7 @@ LASSO | Ridge | Elastic
 Least absolute shrinkage selection operator \| `L1` | Mountain Ridges \| `L2` | Between `L1` and `L2` 
 Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> | Loss + lambda1 * \| slope \| + lambda2 * slope<sup>2</sup>
 **Mean absolute deviation** \| `x` - `mean` \| / `N` | **Std deviation** ( `x` - `mean` ) <sup>2</sup> / `n` |
-Sum of `absolute` of coefficient ( Weights ) | Sum of `square` of coefficients | Mix of `absolute` and `square`
+Sum of `absolute` of coefficient ( Weights ) | Sum of `squared` of coefficients | Mix of `absolute` and `square`
 Can lead coefficient to **exactly** `0` | **Minimize** coefficient but not `0`
 Feature **selection** and feature **elimination** | Feature **shrinkage**
 **Manhattan** distance ( Sum of all path ) | **Euclidean** distance ( Shortest path )
