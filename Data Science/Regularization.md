@@ -8,11 +8,11 @@
 - **Simplify** complicated models ( Simple models avoids `overfitting`, but may lead to `underfitting`, so some `tradeoff` is important )
 - Reducing the **steepness** of the slope | Shrink the coefficient ( `slope` ) towards `0`.
 - Add **penalty** to the **loss term** | Sum ( Actual - Prediction ) <sup>2</sup> | **Sum of Squared Residuals**.
-- Encourages **coefficient** | **Weight** towards `0` ( But not exactly `zero` )
-- **Penalize** weights that are too large ( Learning Rate | `Lambda` )
-- Improves **generalization** ( Performance on new unseen data )
-- If lambda is `high` | High `bias` | Underfitting | `Simple` model | More error in train set.
-- if Lambda is `low` | High `variance` | Overfitting | `Complicated` model | Not **generalize** well for **new unseen data**.
+- Encourages **coefficient** | **Weight** towards `0`
+- `Penalize` weights that are too large ( Learning Rate | `Lambda` )
+- Improves `generalization` ( Performance on new unseen data )
+- High `lambda` | High `bias` | `Underfitting` | `Simple` model | More error in train set.
+- Low `Lambda` | High `variance` | `Overfitting` | `Complicated` model | Not **generalize** well for **new unseen data**.
 - `LASSO` regularization add `L1` penalty equal to the `absolute` value of magnitude of `slope` | coefficients | weight.
 - `LASSO` reduces **coefficients** exactly to `0` ( **Eliminate feature** )
 - `Ridge` regularization add `L2` penalty equal to the `squared` value of magnitude of `slope` | coefficients | weight.
