@@ -2,6 +2,8 @@
 
 ### Core : `Programming Skills` + `Maths and Statistics` + `Subject Matter Expert`
 
+### Programming Skills : `Python` + `SQL` + `JavaScript (D3.js for Data Presentation)`
+
 ### [DS + AI](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/AI.md) | [ML](https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md) | [Real World Applications](https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/IBM%20Machine%20Learning.md) | [Elite](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Primer%20Steps.md) | [NLP](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Natural%20Language%20Processing.md) | [CV](https://github.com/KIRANKUMAR7296/Library/blob/main/AI/Computer%20Vision.md) | [P1](https://github.com/KIRANKUMAR7296/Distracted-Driver-Classification) | [P2](https://github.com/KIRANKUMAR7296/SMS-Classification) | [Predictive Analytics](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Predictive%20Analytics.md)
 
 ---
