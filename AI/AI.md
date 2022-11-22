@@ -12,7 +12,8 @@ Term | Definition
 **Data Visualization** | Graphical Representation of **Information**.
 **Data Modeling** | Creating a Model for **Reporting** and **Forecasting** Business Decisions.
 **Data Analysis** | **Collect**, **Transform** and **Organize** Data in order to Draw **Conclusion** from the past Data.
-**Data Science** | **Science** of Extracting **Knowledge** and **Meaningful Insights** from **Structured** and **Unstructured Data**.
+**Data Science** | **Science** of extracting **knowledge** and **meaningful insights** from **structured** and **unstructured data**.
+**Business Intelligence** | Using data to make decisions.
 **Forecasting** | Making **Predictions** based on **Past** and **Present** Data.
 **Training Data Set** | Data used to **Train** the Model ( Allow **Algorithm** to **Learn** from Data )
 **Validation Data Set** | Data used to **Select the Best Model** ( **Optimize** Algorithm and **Hyperparameter** Settings )
