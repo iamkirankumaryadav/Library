@@ -113,13 +113,13 @@ Describe Percentage `%` of data point value that falls `At` or `Below` another d
 
 `Percentage` and `Percentile` are **different**.
 
-### Correlation
+### `Correlation`
 
-- Measures the `Direction` ( Positive or Negative ) and `Strength` ( `-1` to `1` ) of **relationship** between two **Quantitative** variables.
-- One variable can **predict** the other variable.
+- Measures the `direction` ( Positive or Negative ) and `strength` ( `-1` to `1` ) of **relationship** between two **quantitative** variables.
+- One variable can `predict` the other variable.
 - Varies between `-1` ( Perfect `Negative` Correlation ) to `1` ( Perfect `Positive` Correlation )
 
-Amount of `R` | Strength of Correlation
+Amount of `R` | Strength of `Correlation`
 :--- | :---
 0.0  | No Correlation
 0.1 - 0.3 | Little Correlation
