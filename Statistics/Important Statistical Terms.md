@@ -25,6 +25,7 @@
 - Understand what your sample data looks like, summarize the characteristics of a `variable`
 - `Frequency`: Count the observations of each value in a variable ( Histogram or Frequency Table )
 - `Relative Frequency`: Count of each value as a percentage of total.
+- `Cumulative Relative Frequency`: Running total of the relative frequencies.
 - `Central tendency`: Represent middle of the values ( `Mean`, `Median` and `Mode` ) ( Skew )
 - `Variability`: Dispersion of values ( `Min`, `Max`, `Range`, `IQR`, `Standard Deviation` and `Variance` ) ( Box & Whisker Plot )
 - `Standard Deviation`: The average amount of `variability` ( Scatter Plot )
