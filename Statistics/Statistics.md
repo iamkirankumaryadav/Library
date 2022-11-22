@@ -18,8 +18,8 @@ Larger Sample = Greater Accuracy = More Confidence
 `Outlier` :  The data point value which are different or far away from all the other data point values.
 
 - `Mean` calculates `average`, therefore it is affected by an `outlier`
-- `Median` concentrates only on `middle` value, therefore there is a very `low` to `no` affect by an `outlier`
-- `Mode` concentrates only on the `most frequent` values, there is `no` affect by an `outlier`
+- `Median` concentrates only on `middle` value, therefore there is a very `low` to `no` effect by an `outlier`
+- `Mode` concentrates only on the `most frequent` values, there is `no` effect by an `outlier`
 
 ### `Central Limit Theorem`
 - As the `sample size` increases, the `distribution` approaches towards `Normal Distribution`
