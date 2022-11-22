@@ -43,7 +43,7 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 - Distance of the **data points** from its **mean** in the **data set**.
 - **Small** std means `low` **variability** | Most of the **data points** are `close` to **mean** | `Narrow` distribution
 - **Large** std means `high` **variability** | Most of the **data points** are `far away` from the **mean** | `Wider` distribution
-- Standard Deviation calculates `mean`, so it is affected by an `Outlier`
+- Standard deviation calculates `mean`, so it is affected by an `outlier`
 
 ![Sample vs Population](Image/Sample.jpg)
 
