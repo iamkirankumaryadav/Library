@@ -47,6 +47,11 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 
 ![Sample vs Population](Image/Sample.jpg)
 
+### Coefficient of variation
+
+- Measures `standard deviation` relative to the mean.
+- Used to compare the standard deviation of variables with significantly different means.
+
 ### 4. Z Score
 - `z` = ((`x` - `mean`) / `std`)
 - `x` : Data Points.
