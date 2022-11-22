@@ -48,7 +48,8 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 ![Sample vs Population](Image/Sample.jpg)
 
 ### 4. Z Score
-- `z` = ( `x` - `mean` ) / `std` ) |  `x` : Data Points.
+- `z` = ((`x` - `mean`) / `std`)
+- `x` : Data Points.
 
 ### Confidence
 - While **Sampling**, different `Samples` can be **randomly** selected from the same **population**.
