@@ -20,7 +20,10 @@
 - Investigating `trends`, `patterns`, and `relationships` using `quantitative` data.
 
 ### Descriptive Statistics
+
+- Reduce large array of numbers (rows) into a handful of figures (KPI's) tha describe it accurately.
 - Understand what your sample data looks like.
+- Summarize the characteristics of a `variable`
 - **Frequency** of each value ( Absolute, Relative and Cumulative )
 - Central tendency ( Mean, Median and Mode ) ( Histogram )
 - Variability | Dispersion ( Min, Max, Range, IQR, Standard Deviation and Variance ) ( Histogram, Boxplot )
