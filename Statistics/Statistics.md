@@ -70,6 +70,8 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 - Measures of `spread` are affected only by **multiplication & divison** ( `*` and `/` )
 
 ### `Empirical Rule`
+- `68 %` of the data points in a given **normally distributed data set** fall within `1` **standard deviations**.
+- `95 %` of the data points in a given **normally distributed data set** fall within `2` **standard deviations**.
 - `99.7 %` of the data points in a given **normally distributed data set** fall within `3` **standard deviations**.
 
 ### Five Number Summary
