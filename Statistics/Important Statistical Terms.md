@@ -22,13 +22,13 @@
 ### Descriptive Statistics
 
 - Reduce large array of numbers (rows) into a handful of figures (KPI's) tha describe it accurately.
-- Understand what your sample data looks like.
-- Summarize the characteristics of a `variable`
-- **Frequency** of each value ( Absolute, Relative and Cumulative )
-- Central tendency ( Mean, Median and Mode ) ( Histogram )
-- Variability | Dispersion ( Min, Max, Range, IQR, Standard Deviation and Variance ) ( Histogram, Boxplot )
-- Standard Deviation : The average amount of variability. ( Scatter Plot )
-- Variance : Squared deviations from mean. ( Actual - Predicted ) <sup>2</sup>
+- Understand what your sample data looks like, summarize the characteristics of a `variable`
+- `Frequency`: Count the observations of each value in a variable ( Histogram or Frequency Table )
+- `Relative Frequency`: Count of each value as a percentage of total.
+- `Central tendency`: Represent middle of the values ( `Mean`, `Median` and `Mode` ) ( Skew )
+- `Variability`: Dispersion of values ( `Min`, `Max`, `Range`, `IQR`, `Standard Deviation` and `Variance` ) ( Box & Whisker Plot )
+- `Standard Deviation`: The average amount of `variability` ( Scatter Plot )
+- `Variance`: Squared deviations from mean. ( Actual - Predicted ) <sup>2</sup>
 
 ### Variables
 
