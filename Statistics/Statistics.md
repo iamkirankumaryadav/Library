@@ -168,16 +168,13 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 - Measures how much two variables vary with each other.
 
 ### Sampling Fact 
-- A `Sample` is never a **Perfect Representation** of the `Population`.
-- `Different` **Samples** of `Same` **Population** will give **Different** `Mean` ( Sampling **Error** | **Variation** due to Sampling )
+- A `sample` is never a **perfect representation** of the `population`.
+- `Different` **samples** of `same` **population** will give **different** `mean` ( Sampling **Error** | **Variation** due to sampling )
 
 ### Confidence Interval ( alpha )
-- Express a `Range` of Values within which we are Sure that **Population Parameters** lies ( `Prediction` will be True )
-- Population `Parameters` : `Mean`, `Median`, **Difference** between `Means`, `Range`, `Variance` and `Standard Deviation`. 
-- `Mean` of Population lies between this Interval `Range` ( **Confidence Interval** )
-- `Base` **Estimate** is the **Sample** `Mean` ( Variation and Sample Size affects the Width of **Confidence Interval** )
-- If **Prediction** Falls within the `Range` of **Confidence Interval** then it is `True` and Represents the **Population**.
-- `Confidence Interval` : `95%` : You are **Confident** that `95` out of `100` Times the Estimation will Falls within **Confidence Interval** Range.
-
-### How Variance Affect Confidence Interval ?
-- IF `Population`
+- Express a `range` of values within which we are sure that **population parameters** lies ( `Prediction` will be true )
+- Population `parameters` : `mean`, `median`, **difference** between `means`, `range`, `variance` and `standard deviation`. 
+- `Mean` of population lies between this interval `range` ( **Confidence Interval** )
+- `Base` **estimate** is the **sample** `mean` ( Variation and sample size affects the width of **confidence interval** )
+- If **prediction** falls within the `range` of **confidence interval** then it is `true` and represents the **population**.
+- `Confidence Interval`: `95%` : You are **confident** that `95` out of `100` times the estimation will falls within **confidence interval** range.
