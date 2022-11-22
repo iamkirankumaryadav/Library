@@ -218,7 +218,7 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 - P ( A | B ) = ( P ( B | A ) * P ( A ) ) / P( B )
 
 ### 10. Probability Distributions
-
+- If the sample data fits a probability distribution, use it as a model for the entire population.
 - **Probabilities** of different possible outcomes in an experiment.
 - **Frequency** of **Occurence**.
 - The **Likelihood** of an outcome.
