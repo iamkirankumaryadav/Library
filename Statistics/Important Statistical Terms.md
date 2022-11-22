@@ -20,6 +20,7 @@
 - Investigating `trends`, `patterns`, and `relationships` using `quantitative` data.
 
 ### Descriptive Statistics
+- Understand what your sample data looks like.
 - **Frequency** of each value ( Absolute, Relative and Cumulative )
 - Central tendency ( Mean, Median and Mode ) ( Histogram )
 - Variability | Dispersion ( Min, Max, Range, IQR, Standard Deviation and Variance ) ( Histogram, Boxplot )
