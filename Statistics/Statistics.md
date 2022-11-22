@@ -26,7 +26,7 @@ Larger Sample = Greater Accuracy = More Confidence
 
 <h3 name='spread'>Measures of Spread ( Relationship of individual data point with it's Mean )</h3> 
 
-How the `observations` are `spreadout` or `scattered` on each side of the `center` ( Mean | Median | Mode )
+How the `observations` are `spreadout` or `scattered` on each side of the `centre` ( Mean | Median | Mode )
 
 ### 1. `Range`
 
