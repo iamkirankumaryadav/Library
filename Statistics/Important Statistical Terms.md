@@ -76,8 +76,9 @@ Numeric Data ( Central Tendency and Measures of Spreads ) | Text, Image, Video o
 
 ![Level of Measurement](Image/Levels.png)
 
-<h3 name='hyp'> Hypothesis </h3> 
+<h3 name='hyp'> Hypothesis Test</h3> 
 
+- Leverage the `central limit theorem` to draw conclusions about what `population` looks like based on `sample`.
 - Test Specific **Prediction** or **Claim**
 - An **Assumption** | An **Idea** that is Proposed so that it can be **Tested** to See if it might be **True**
 - We Test the Liklihood of Statement being **True** in order to decide whether to **Accept** or **Not Accept** the **NULL Hypothesis**
