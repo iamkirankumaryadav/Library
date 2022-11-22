@@ -61,8 +61,9 @@ How the `observations` are `spreadout` or `scattered` on each side of the `cente
 - The `Percentage` of all Possible Samples that can be Expected to Include the True Population Parameter. 
 - `95%` **Confidence Level** implies that `95%` of the Confidence Intervals would Include the True **Population Parameter**.
 
-### Confidence Interval
-- A `Range` of Value we are sure that our Population `Value` will lies there.
+### Confidence Intervals
+- A `range` of values we are sure that our population `values` will lie within that range.
+- If the `sample` doesn't fit a distribution, use the `central limit theorem` to make estimates about `population` parameters.
 
 ### The **Effect** of **Transforming** Data on **Spread** and **Centre**
 
