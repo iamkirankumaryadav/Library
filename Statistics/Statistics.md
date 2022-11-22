@@ -57,8 +57,8 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 - Some **Confidence Intervals** include the true **Population Parameter** ( `Centre` and `Spread` ) and others do not.
 
 ### Confidence Level
-- The `Percentage` of all Possible Samples that can be Expected to Include the True Population Parameter. 
-- `95%` **Confidence Level** implies that `95%` of the Confidence Intervals would Include the True **Population Parameter**.
+- `Percentage` of all possible samples that can be expected to be present in the true population parameter. 
+- `95%` **confidence level** implies that `95%` of the confidence intervals would include the true **population parameter**.
 
 ### Confidence Intervals
 - A `range` of values we are sure that our population `values` will lie within that range.
@@ -66,8 +66,8 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 
 ### The **Effect** of **Transforming** Data on **Spread** and **Centre**
 
-- Measures of **centre** are affected by every **mathematical operations** ( `+` `-` `*` `/` )
-- Measures of **spread** are affected only by **multiplication & divison** ( `*` and `/` )
+- Measures of `centre` are affected by every **mathematical operations** ( `+` `-` `*` `/` )
+- Measures of `spread` are affected only by **multiplication & divison** ( `*` and `/` )
 
 ### `Empirical Rule`
 - `99.7 %` of the data points in a given **normally distributed data set** fall within `3` **standard deviations**.
