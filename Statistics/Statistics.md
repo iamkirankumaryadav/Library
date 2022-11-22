@@ -41,8 +41,8 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 
 ### 3. Standard Deviation ( s : Square Root of Variance )
 - Distance of the **data points** from its **mean** in the **data set**.
-- **Small** standard deviation means low **variability** | Most of the **data points** are `close` to **mean**.
-- **Large** standard deviation means high **variability** | Most of the **data points** are `far away` from the **mean**.
+- **Small** standard deviation means `low` **variability** | Most of the **data points** are `close` to **mean**.
+- **Large** standard deviation means `high` **variability** | Most of the **data points** are `far away` from the **mean**.
 - Standard Deviation calculates **mean**, so it is affected by an `Outlier`
 
 ![Sample vs Population](Image/Sample.jpg)
