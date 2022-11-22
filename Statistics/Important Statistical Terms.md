@@ -30,6 +30,12 @@
 - Standard Deviation : The average amount of variability. ( Scatter Plot )
 - Variance : Squared deviations from mean. ( Actual - Predicted ) <sup>2</sup>
 
+### Variables
+
+- There are two main type of variables in a dataset.
+- `Numerical`: Represents numbers that meant to be `aggregated`.
+- `Categorical`: Represents groups that can be used to `filter` numerical values.
+
 ### Inferential Statistics
 - **Understand** the Population from the `Sample`.
 - Test `Hypothesis` and **Draw Conclusion** about **Population Parameters** based on a `Sample` taken from Population. 
