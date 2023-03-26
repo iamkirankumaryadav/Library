@@ -12,7 +12,7 @@
 
 1. `Continuous` (Height, Weight, 2.5, float) vs `Discrete` (Car Model, Number of Legs or Hands, 100, No. on Dice, Integer, String)
 2. Structured vs Unstructured
-3. Nominal vs Ordinal
+3. `Nominal` (Cannot be arranged in order) vs `Ordinal` (Can be sorted, Arranged in order, Ranking)
 4. Population vs Sample
 
 <h3 name='data'> Data Set </h3> 
