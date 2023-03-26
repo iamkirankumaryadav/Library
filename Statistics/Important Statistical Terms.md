@@ -10,10 +10,27 @@
 
 ### Vocabulary of Data:
 
-1. `Continuous` (Height, Weight, 2.5, float) vs `Discrete` (Car Model, Number of Legs or Hands, 100, No. on Dice, Integer, String)
-2. Structured vs Unstructured
-3. `Nominal` (Cannot be arranged in order) vs `Ordinal` (Can be sorted, Arranged in order, Ranking)
-4. Population vs Sample
+`Continuous` | `Discrete`
+:--- | :---
+Any Value | Specific value
+Measured | Counted
+Height 5'11'', 179.5 cm, Weight 75.5 kg |  # of kids in classroom, # of votes in election
+
+`Structured` | `Unstructured`
+:--- | :---
+Predefined format (Rows and Columbs / Key and Value) | No predefined format
+Excel, JSON, XML, SQL | Image, Text, Video, Audio
+
+`Nominal` | `Ordinal`
+:--- | :---
+Cannot be arranged in order | Can be sorted, Arranged in order, Ranked 
+
+`Population` | `Sample`
+:--- | :---
+
+### `Continuous`
+- Height, Weight, 2.5, float
+
 
 <h3 name='data'> Data Set </h3> 
 
