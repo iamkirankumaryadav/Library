@@ -18,7 +18,7 @@ Height 5'11'', 179.5 cm, Weight 75.5 kg |  # of kids in classroom, # of votes in
 
 `Structured` | `Unstructured`
 :--- | :---
-Predefined format (Rows and Columbs / Key and Value) | No predefined format
+Predefined format (Rows and Columns / Key and Value) | No predefined format
 Excel, JSON, XML, SQL | Image, Text, Video, Audio
 
 `Nominal` | `Ordinal`
