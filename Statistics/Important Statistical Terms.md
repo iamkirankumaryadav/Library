@@ -20,7 +20,7 @@ Height 5'11'', 179.5 cm, Weight 75.5 kg |  # of kids in classroom, # of votes in
 :--- | :---
 Predefined structure (Rows and Columns / Key and Value) | No predefined structure
 Quantitative | Qualitative
-Excel, JSON, XML, SQL | Image, Text, Video, Audio
+Excel, JSON, XML, SQL | Image, Text, Video, Audio, PDF, Doc
 
 `Nominal` | `Ordinal`
 :--- | :---
