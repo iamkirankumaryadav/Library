@@ -28,6 +28,7 @@ Cannot be arranged in order | Can be sorted, Arranged in order, Ranked
 
 `Population` | `Sample`
 :--- | :---
+Entire available data set | Subset or Representative of Population
 
 ### `Continuous`
 - Height, Weight, 2.5, float
