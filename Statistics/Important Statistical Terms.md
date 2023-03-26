@@ -8,6 +8,13 @@
 
 ### Dependent | Labels | Regressand | Response | Output
 
+### Vocabulary of Data:
+
+1. Continuous vs Discrete (Categorical)
+2. Structured vs Unstructured
+3. Nominal vs Ordinal
+4. Population vs Sample
+
 <h3 name='data'> Data Set </h3> 
 
 - A **collection** of `sample` or entire `population`
