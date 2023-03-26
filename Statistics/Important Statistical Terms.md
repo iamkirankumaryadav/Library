@@ -10,7 +10,7 @@
 
 ### Vocabulary of Data:
 
-1. Continuous vs Discrete (Categorical)
+1. Continuous (Height, Weight, 2.5) vs Discrete (Car Model, Number of Legs or Hands, 100, No. on Dice)
 2. Structured vs Unstructured
 3. Nominal vs Ordinal
 4. Population vs Sample
