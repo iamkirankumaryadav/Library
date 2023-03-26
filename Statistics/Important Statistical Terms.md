@@ -10,7 +10,7 @@
 
 ### Vocabulary of Data:
 
-1. `Continuous` (Height, Weight, 2.5, float) vs Discrete (Car Model, Number of Legs or Hands, 100, No. on Dice, Integer, String)
+1. `Continuous` (Height, Weight, 2.5, float) vs `Discrete` (Car Model, Number of Legs or Hands, 100, No. on Dice, Integer, String)
 2. Structured vs Unstructured
 3. Nominal vs Ordinal
 4. Population vs Sample
