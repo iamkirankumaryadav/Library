@@ -38,7 +38,7 @@
 
 ### 4. Feature Selection
 
-- More observations (rows) are good for model training but more number of features (columns) confuses the model.
+- More observations ( rows ) are good for model training but more number of features ( columns ) confuses the model.
 - Select only **important** features ( Large number of features can **confuse** the model )
 - Each `feature` and `observation` should be `independent` of each other.
 - Remove **multicollinear** data ( e.g DOB and age can express each other so we can remove one of them )
