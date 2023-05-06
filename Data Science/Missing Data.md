@@ -11,7 +11,7 @@
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
 <h3 name="del"> 1. dropna( ) : Drop Missing Values</h3>
-
+- If the missing data is negligible and doesn't affect the overall analysis, drop the corresponding `row` or `column`
 - `Drop` **rows** if `Missing values` < `5%` | `axis = 0` 
 - `Drop` **columns** if **missing values** > `70%` | `axis = 1`
 - Deleting irrelevant **rows** or **columns** helps to get a **robust model**.
