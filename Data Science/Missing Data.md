@@ -82,13 +82,6 @@ df['Sales'].fillna(0)
 - `Continuous` and `categorical` data can be used for `prediction` and `classification`.
 - `Interpolation` : `Predict` missing data with the range of `date` and `time` ( Time series `forecasting` ) 
 
-<h3 name="algo"> 5. Use algorithms which works fine with missing values</h3>
-
-- `KNN: K Nearest Neighbour` fills missing value by taking the majority of the `K nearest` values.
-- `Random forest` : Weak learners are `trained` by `non missing` data and `missing` values can be used for `testing`
-
-### Domain Knowledge can also help us to deal with the missing data.
-
 ```python
 from sklearn.linear_model import LinearRegression
 import pandas as pd
@@ -118,5 +111,14 @@ from sklearn.model_selection import train_test_split
 # y: Dependent Variable
 x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 ```
+
+<h3 name="algo"> 5. Use algorithms which works fine with missing values</h3>
+
+- `KNN: K Nearest Neighbour` fills missing value by taking the majority of the `K nearest` values.
+- `Random forest` : Weak learners are `trained` by `non missing` data and `missing` values can be used for `testing`
+
+### `Domain Knowledge` 
+- It will help us to understand the reason behind the missing data.
+- Understanding the cause can help us to decide on how to handle the missing data.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
