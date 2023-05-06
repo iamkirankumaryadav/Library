@@ -2,6 +2,8 @@
 
 # How to deal with missing data ?
 
+There is no particular approach for dealing with `missing` data, and the appropriate technique may vary depending on the specific context and characteristics of your dataset.
+
 **Missing data** : `NULL` | `NAN` | `nan` | `NaN` ( Ignored while **arithmetic operations** )
 
 `Row` | `Observation` | `Tuple` | `Sample` | `Record`
