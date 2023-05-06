@@ -48,8 +48,9 @@ df.dropna(axis=1)
 - `Impute` the `categorical` missing data with `most frequent` ( SimpleImputer : `strategy` = `'most_frequent'` ) 
 - `SimpleImputer()` is used to `fill` the missing value ( **Univariate imputation** ) 
 - `fit()` : Learn the values ( `Mean`, `Median`, `Mode` ) to be imputed and `transform()` : `Fill` the missing values.
-- `KNNImputer()` : **Fill** missing data with the help of **K Nearest Neighbors**.
-- Prevent from data loss but can cause **data leakage**.
+- `KNNImputer()` : **Fill** missing data with the help of **K Nearest Neighbours**.
+- `fit_transform()`: Learn and impute the values in place. Only apply on `train set`.
+- Never apply `fit_transform()` on `test set`, it causes **data leakage**.
 
 ```python
 # DataFrame.fillna()
