@@ -31,7 +31,9 @@ Larger Sample = Greater Accuracy = More Confidence
 ### `Central Limit Theorem`
 - As the `sample size` increases, the `distribution` approaches towards `Normal Distribution`
 
-<h3 name='spread'>Measures of Spread ( Relationship of individual data point with it's Mean )</h3> 
+<h3 name='spread'>Measures of Spread | Variability</h3>
+  
+- Relationship of individual data point with it's Mean 
 
 How the `observations` are `spreadout` or `scattered` on each side of the `centre` ( Mean | Median | Mode )
 
@@ -51,6 +53,11 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 - **Small** std means `low` **variability** | Most of the **data points** are `close` to **mean** | `Narrow` distribution
 - **Large** std means `high` **variability** | Most of the **data points** are `far away` from the **mean** | `Wider` distribution
 - Standard deviation calculates `mean`, so it is affected by an `outlier`
+
+<h3 name='spread'>Measures of Spread | Variability</h3>
+
+- Describe how the data is spread out or distributed across different values.
+- `Histograms` and `Frequency distributions` are graphical representations that help us visualize the distribution of data.
 
 ![Sample vs Population](Image/Sample.jpg)
 
