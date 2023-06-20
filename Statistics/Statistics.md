@@ -1,6 +1,12 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # Statistics
+
+### Descriptive Statistics:
+
+- A branch of statistics that helps us **summarize** and **describe** a set of data.
+- It provides us with tools and techniques to understand the main **features** and **characteristics** of the data.
+
 <h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a></h3>
 
 When we start anything we start from beginning but with a dataset we start from `centre`
