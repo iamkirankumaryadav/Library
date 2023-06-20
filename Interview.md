@@ -45,6 +45,10 @@
 - e.g. Base investment : `5₹` and 5 times return : `125₹` ( Log<sub>5</sub> 125 : `3` Years )
 - Log<sub>5</sub> 5<sup>3</sup> = 3 ( i.e. 3 * Log<sub>5</sub>5 = 3 * `1` | Log<sub>5</sub>5 = 1 )
 
+### PyTest
+- A testing framework for Python that simplifies the process of writing and executing tests.
+- It provides an easy-to-use and expressive syntax for creating test cases, running tests, and reporting the results.
+
 ### Model = Algorithm ( Parameters ) + Data
 
 ### Data Pipeline ( Where and how the data are collected, transformed and loaded ) 
