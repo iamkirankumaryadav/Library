@@ -13,11 +13,27 @@
 ### Steps:
 
 #### 1. Importing Libraries and Loading Dataset:
-- Import required libraries, modules and submodules.
-- Load your dataset into a data s
+- Import required **libraries**, **modules** and **submodules**.
+- Load your dataset into a **DataFrame**.
+
+```python
+# Import Libraries:
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the data into a DataFrame:
+df = pd.read_csv('dataset.csv')
+```
 
 #### 2. Data Exploration:
+- Explore the basic characteristics of the dataset.
+- Use functions `dtypes`, `info` and `describe` to get an initial understanding of the data.
+
 #### 3. Dealing with Missing Values:
+- Identify and handle missing values in the dataset.
+- Use functions `isnull`, `sum`, `fillna` to detect missing values.
+- Choose an appropriate strategy to deal with them.
+
 #### 4. Data Visualization:
 #### 5. Feature Engineering:
 #### 6. Correlation Analysis:
