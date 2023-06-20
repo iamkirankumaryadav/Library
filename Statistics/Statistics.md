@@ -4,8 +4,9 @@
 
 ### Descriptive Statistics:
 
-- A branch of statistics that helps us **summarize** and **describe** a set of data.
-- It provides us with tools and techniques to understand the main **features** and **characteristics** of the data.
+- A branch of `statistics` that helps us **summarize** and **describe** a set of data.
+- It provides us techniques to understand the main **features** and **characteristics** of the data.
+- Provides a quip overview for a data. Measures `central tendency`, `variability`, and `distribution`
 
 <h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a></h3>
 
