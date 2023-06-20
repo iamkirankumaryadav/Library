@@ -8,7 +8,7 @@
 - It provides us techniques to understand the main **features** and **characteristics** of the data.
 - Provides a quip overview for a data. Measures `central tendency`, `variability`, and `distribution`
 
-<h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a></h3>
+<h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a>&nbsp;|&nbsp;<a href='#distribute'>Measure of Distribution</a></h3>
 
 When we start anything we start from beginning but with a dataset we start from `centre`
 
@@ -83,7 +83,7 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 - Measures of `centre` are affected by every **mathematical operations** ( `+` `-` `*` `/` )
 - Measures of `spread` are affected only by **multiplication & divison** ( `*` and `/` )
 
-<h3 name='spread'>Measures of Distribution</h3>
+<h3 name='distribute'>Measures of Distribution</h3>
 
 - Describe how the data is spread out or distributed across different values.
 - `Histograms` and `Frequency distributions` are graphical representations that help us visualize the distribution of data.
