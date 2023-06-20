@@ -183,8 +183,10 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 
 ![Difference](Image/RRS.png)
 
-### Covariance  
-- Measures how much two variables vary with each other.
+### `Covariance`  
+- Helps us understand the relationship between two sets of data points.
+- `Positive Covariance`: Two variables tend to move in the `same` direction. 
+- `Negative Covariance`: Two variables tend to move in `opposite` directions.
 
 ### Sampling Fact 
 - A `sample` is never a **perfect representation** of the `population`.
