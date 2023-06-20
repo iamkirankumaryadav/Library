@@ -54,17 +54,17 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 - **Large** std means `high` **variability** | Most of the **data points** are `far away` from the **mean** | `Wider` distribution
 - Standard deviation calculates `mean`, so it is affected by an `outlier`
 
+### Coefficient of variation
+
+- Measures `standard deviation` relative to the mean.
+- Used to compare the standard deviation of variables with significantly different means.
+
 <h3 name='spread'>Measures of Distribution</h3>
 
 - Describe how the data is spread out or distributed across different values.
 - `Histograms` and `Frequency distributions` are graphical representations that help us visualize the distribution of data.
 
 ![Sample vs Population](Image/Sample.jpg)
-
-### Coefficient of variation
-
-- Measures `standard deviation` relative to the mean.
-- Used to compare the standard deviation of variables with significantly different means.
 
 ### 4. Z Score
 - `z` = ((`x` - `mean`) / `std`)
