@@ -1,4 +1,4 @@
-### **Exploratory Data Analysis**
+# **Exploratory Data Analysis**
 
 `EDA` is a process of analyzing data sets to **summarize** their **characteristics**, using `statistics` and `data visualization` methods.
 
