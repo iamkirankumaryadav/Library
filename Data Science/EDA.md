@@ -81,7 +81,7 @@ df['new_column'] = pd.cut(df['existing_column'], bins = [0, 10, 20, 30, 40])
 - Calculate correlation coefficients and visualize them using heatmaps or correlation matrices.
 
 ```python
-# Calculate Correlation Coefficients:
+# Calculate correlation coefficients:
 correlation_matrix = df.corr()
 
 # Visualize correlation matrix as a heatmap:
@@ -105,17 +105,17 @@ plt.ylabels('Y axis label')
 plt.title('Box Plot')
 plt.show()
 
-# Import Libraries:
+# Import libraries:
 from scipy import stats
 
-# Find Z Score and Threshold Values:
+# Find Z score and threshold values:
 z_scores = stats.zscore(df['data'])
 threshold = 3
 
-# Detect Outliers:
+# Detect outliers:
 outliers = np.where(np.abs(z_scores) > threshold)
 
-# Handle Outliers:
+# Handle outliers:
 median_value = df['data'].median()
 df['data'][outliers] = median_value
 ```
@@ -136,9 +136,9 @@ df_scaled = scaler.fit_transform(df['data'])
 - Remove unnecessary columns or create dummy variables for categorical features.
 
 ```python
-# Remove Unnecessary Columns:
+# Remove unnecessary columns:
 df.drop(['Address Line 2', 'Address Line 3'], axis = 1, inplace = True)
 
-# Create Dummy Variables for Categorical Features:
+# Create dummy variables for categorical features:
 df = pd.get_dummies(df, columns = categorical_columns, drop_first = True)
 ```  
