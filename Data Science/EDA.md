@@ -1,6 +1,6 @@
 ### **Exploratory Data Analysis**
 
-`Exploratory Data Analysis` (EDA) is a process of analyzing data sets to **summarize** their main **characteristics**, using `statistics` and `data visualization` methods.
+`EDA` is a process of analyzing data sets to **summarize** their **characteristics**, using `statistics` and `data visualization` methods.
 
 1. **EDA** is a most essential step in a data science project.
 2. **Data scientists** spend almost 70% of their work doing EDA of their dataset.
