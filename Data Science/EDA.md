@@ -8,5 +8,5 @@
 4. An iterative cycle that involves generating questions about the data, searching for answers by visualizing, transforming, and modeling the data, and using what is learned to refine or generate new questions.
 5. **Graphical Analysis**: Visualizations and charts are used to visualize trends and patterns in the data.
 6. **Statistical Analysis**: Measuring central tendency, spread, variability and distribution are used to analyze the data.
-7. EDA helps to prepare the dataset for analysis, allows a machine learning model to predict the dataset better, gives more accurate results, and helps to choose a better machine learning model.
+7. EDA helps to prepare the dataset for analysis, allows a ML model to predict, gives more accurate results, and helps to choose a better ML model.
 
