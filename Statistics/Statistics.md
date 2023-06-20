@@ -66,7 +66,7 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 
 ![Sample vs Population](Image/Sample.jpg)
 
-### 4. Z Score
+### Z Score
 - `z` = ((`x` - `mean`) / `std`)
 - `x` : Data Points.
 
