@@ -198,4 +198,5 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 - `Mean` of population lies between this interval `range` ( **Confidence Interval** )
 - `Base` **estimate** is the **sample** `mean` ( Variation and sample size affects the width of **confidence interval** )
 - If **prediction** falls within the `range` of **confidence interval** then it is `true` and represents the **population**.
-- `Confidence Interval`: `95%` : You are **confident** that `95` out of `100` times the estimation will falls within **confidence interval** range.
+- The confidence interval is expressed as two numbers, an upper and a lower bound.
+- `Confidence Interval`: `95%` : You are **confident** that, if you repeated this sampling process many times, `95` out of `100` times the estimation will falls within **confidence interval** range.
