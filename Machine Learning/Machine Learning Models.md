@@ -508,16 +508,19 @@ B. Divisive
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/11.PCA.ipynb)
 
-- A **dimensionality reduction** method ( Reduce the **dimensions** of large dataset )
-- **Transforming** a large dataset ( More Features ) into smaller dataset ( Without lossing **information** )
+- Transforms a dataset into a new set of variables without loosing information called principal components.
+- PCA aims to capture the most important patterns or relationships in the data while reducing its dimensionality.
+- Reduce the **dimensions** of large dataset.
 - Small data sets are **easy** to **explore** and **visualize**.
 - **Analyzing** and **training** is also much **easier** and **faster**.
-- **Principal components** are new variables that are constructed as **linear combinations**.
-- One use of PCA is especially **data visualization**. 
+- First principal component is the linear combination that explains the largest amount of variation in the data.
+- Subsequent principal components explain decreasing amounts of variation.
 - Most of the informations within the initial variables are **compressed** into **first components**.  
 - PCA tries to put **maximum possible information** in **first component**. 
-- And then maximum remaining information in the corresponding **components**.
+- And then remaining information in the corresponding **components**.
 - `PCA` is effected by scale, so scaling of features before applying `PCA` is important.
+- PCA allows you to reconstruct the original data from the reduced dimensional representation by using a subset of the principal components.
+- This reconstruction is an approximation of the original data but captures the essential characteristics.
 
 <h3 name='lda'>LDA ( Linear Discriminant Analysis ) ( Supervised )</h3>
 
