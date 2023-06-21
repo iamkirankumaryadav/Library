@@ -481,24 +481,26 @@ B. Divisive
  
 <h3 name="dbscan"> 3. Density Based Clustering </h3>
 
-- **DBSCAN** ( Density Based Spatial Clustering of Applications with **Noise** )
-- Groups together Points based on Density ( High Density Region : Points are Close to each other | Finds Neighbors by Density )
-- Data Points which are in **Low Density** regions are **Outliers** | Seperate from every other **Data point**
-- Clustering methods explains better with Visualization
-- Relationships between Features can be represented via Clustering
+- `DBSCAN` ( Density Based Spatial Clustering of Applications with **Noise** )
+- Group similar data points together based on density.
+- High Density Region : Points are `close` to each other | High neighbours within the radius.
+- Data points which are in `low density` regions are `outliers`.
+- Clustering methods explains better with visualization. e.g. Scatter Plot.
+- Relationships between features can be represented via clustering.
 
 ### B. Dimensionality Reduction
 
-- Aim is to find  the **Important Features** that can be used by our Model for Better Predition.
-- Reducing the Number of **Irrelevant Features** that has no relation with the Target Feature.
-- There are some Features that brings **Multicollinearity** 
-- Feature **Elimination** | **Feature Selection** or Feature **Extraction**
-- Save Storage and Time by Improving Performance of Model.
-- Due to less number of Features it can be Visualized in `2D` and `3D`.
-- Project Data into Lower Dimension while Preserving as much as Useful Variability ( 19/20 ) as Possible.
-- e.g If we Observe a Scatter Plot in Multidimension it will be Complicated for Understanding. 
-- Consider only 1 Dimension then It is just a Line and few Points in which some are close to Line and some are bit far away from line.
-- Combine Features or Remove Features to Reduce Dimensions.
+- A technique used to reduce the number of `features` or `variables` in a dataset while retaining the most important information.
+- Aim is to find the **important features | variables** that can be used by model for better predition.
+- Reducing **irrelevant features** that has no relation with the target feature.
+- There are some features that brings `Multicollinearity`
+- **Feature Elimination** | **Feature Selection** or **Feature Extraction**
+- Save storage and time by improving performance of model.
+- Due to less number of features it can be visualized in `2D` and `3D`.
+- Project data into lower dimension while preserving as much as useful variability ( 19/20 ) as possible.
+- e.g If we observe a `Scatter Plot` in multidimension it will be complicated for understanding. 
+- Consider only 1D then it is just a line and few Points in which some are close to line and some are bit far away from line.
+- Combine features or remove features to reduce dimensions.
 
 ### Techniques of Dimensionality Reduction
 
