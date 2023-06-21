@@ -519,7 +519,7 @@ B. Divisive
 - PCA tries to put **maximum possible information** in **first component**. 
 - And then remaining information in the corresponding **components**.
 - `PCA` is effected by scale, so scaling of features before applying `PCA` is important.
-- PCA allows you to reconstruct the original data from the reduced dimensional representation by using a subset of the principal components.
+- Reconstruct the original data from the reduced dimensional representation by using a subset of the principal components.
 - This reconstruction is an approximation of the original data but captures the essential characteristics.
 
 <h3 name='lda'>LDA ( Linear Discriminant Analysis ) ( Supervised )</h3>
