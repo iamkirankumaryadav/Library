@@ -10,7 +10,7 @@ There is no particular approach for dealing with `missing` data, and the appropr
 
 `Column` | `Feature` ( Data Science ) | `Field` ( Excel ) | Attribute | Dimension
 
-### Identify missing data:
+## Identify Missing Values:
 - Check for `None` or `NaN` values
 
 ```python
@@ -32,7 +32,7 @@ import numpy as np
 missing_values = np.isnan(array)
 ```
 
-### Handle missing data:
+## Handle Missing Values:
 
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
