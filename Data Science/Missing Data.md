@@ -10,6 +10,30 @@ There is no particular approach for dealing with `missing` data, and the appropr
 
 `Column` | `Feature` ( Data Science ) | `Field` ( Excel ) | Attribute | Dimension
 
+### Identify missing data:
+- Check for `None` or `NaN` values
+
+```python
+# Check for None:
+missing_values = [x is None for x in data]
+
+# Check for NaN:
+# Using math library: 
+import math 
+missing_values = [math.isnan(x) for x in data]
+
+# Using Pandas library:
+import pandas as pd 
+missing_values = df.isnull().any()
+missing_counts = df.isnull().sum()
+
+# Using NumPy library:
+import numpy as np
+missing_values = np.isnan(array)
+```
+
+### Handle missing data:
+
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
 <h3 name="del"> 1. dropna( ) : Drop Missing Values</h3>
