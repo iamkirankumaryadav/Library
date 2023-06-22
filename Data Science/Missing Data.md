@@ -11,7 +11,8 @@ There is no particular approach for dealing with `missing` data, and the appropr
 `Column` | `Feature` ( Data Science ) | `Field` ( Excel ) | Attribute | Dimension
 
 ## Identify Missing Values:
-- Check for `None` or `NaN` values
+
+Check for `None` or `NaN` values
 
 ```python
 # Check for None:
