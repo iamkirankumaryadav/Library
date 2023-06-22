@@ -109,8 +109,6 @@ Supervised | Unsupervised | Reinforcement
 Algorithm learns from `labelled` data | Algorithm learns from `unlabelled` data | `Agents` takes `actions` in an environment
 Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find `patterns` | Agent learn from `rewards` and `penalty`
 
-Data Mining : Finding patterns in `past` data and then use those patterns on `current` data to make `future` predictions.
-
 - Columns - Feature Matrix ( Variables ) and Target Vector ( Labels )
 - Features - Independent Variable | Variables | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
 - Target - Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
