@@ -18,6 +18,7 @@ There is no particular approach for dealing with `missing` data, and the appropr
 missing_values = [x is None for x in data]
 
 # Check for NaN:
+
 # Using math library: 
 import math 
 missing_values = [math.isnan(x) for x in data]
