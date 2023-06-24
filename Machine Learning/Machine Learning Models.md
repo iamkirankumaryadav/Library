@@ -183,7 +183,7 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
     <td>Helps to Improve Linear and Polynomial Regressions</td>
   </tr>
   <tr>
-    <td colspan=3>One or More <b>Independent Features</b> is used to Predict <b>Continuous Dependent Numeric Variable</b></td>
+    <td colspan=3>One or more <b>Independent Features</b> is used to predict <b>continuous dependent numeric variable</b></td>
   </tr>
   <tr>
     <td colspan=3>Dependent Variable | Target | Output should be <b>Continuous</b></td>
