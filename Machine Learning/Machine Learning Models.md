@@ -110,7 +110,7 @@ Algorithm learns from `labelled` data | Algorithm learns from `unlabelled` data 
 Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find `patterns` | Agent learn from `rewards` and `penalty`
 
 - Columns - Feature Matrix ( Variables ) and Target Vector ( Labels )
-- Features - Independent Variable | Variables | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
+- Features - Independent Variable | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
 - Target - Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
 - Rows | Observations | Records | Samples | Instance.
 - `Feature` :  A **measurable** property, can be categorical ( discrete ) or numerical ( real or int number )
