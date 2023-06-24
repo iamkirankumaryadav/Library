@@ -132,6 +132,11 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
 
 <h1 name='sup' align=center>Supervised Learning ( Labeled Data )</h1>
 
+- A type of ML that involves training a model using labeled data.
+- Algorithm learns to recognize patterns in the input data and map them to the correct output based on the labeled data.
+- Goal of supervised learning is to create a model that can accurately predict the output for new, unseen input data.
+- Supervised learning is useful for `classification` and `regression` problems.
+
 <table align=center>
   <tr>
     <th><h3>Prediction</h3></th>
