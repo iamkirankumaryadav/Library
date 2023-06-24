@@ -139,7 +139,7 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
 
 <table align=center>
   <tr>
-    <th><h3>Prediction</h3></th>
+    <th><h3>Regression</h3></th>
     <th><h3>Classification</h3></th>
   </tr>  
   <tr>
