@@ -289,7 +289,7 @@ Handle **non linear data** |
 - `Bagging` : Adding multiple decision trees reduce the overfitting by reducing the variance. 
 - Multiple `decision trees` ( weak learners ) are trained `parallely` and `individually` | `independently`
 - `Bootstrapping` (Row sampling with replacement) : Datasets of orignal data and randomly selecting subsets at each step. 
-- `Bagging` technique : **Multiple** Decision Trees are trained in `parallel` to form one **strong accurate predicting** model.
+- `Bagging` technique : Multiple decision trees are trained in `parallel` to form one **strong accurate predicting** model.
 - `Majority Voting` : `Prediction` of model is based on the **voting** of decision trees outputs.
 - Reduces risk of `error` and `overfitting`
 
