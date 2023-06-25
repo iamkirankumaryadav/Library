@@ -282,13 +282,13 @@ Handle **non linear data** |
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/09.Random%20Forest.ipynb)
 
 - An ensemble learning method used for both `regression` and `classification`
-- A collection of decision trees, where each decision tree is built using a random subset of the training data (feature matrix)
+- A collection of decision trees, where each decision tree is built using a random subset of the training data ( feature matrix )
 - `Regression`: The mean or average prediction of the individual decision trees is considered.
 - `Classification` : The class selected by most of the decision trees are considered.
 - Random forest creates a model that is more accurate and less prone to overfitting than a single decision tree.
 - `Bagging` : Adding multiple decision trees reduce the overfitting by reducing the variance. 
 - Multiple `decision trees` ( weak learners ) are trained `parallely` and `individually` | `independently`
-- `Bootstrapping` (Row sampling with replacement) : Datasets of orignal data and randomly selecting subsets at each step. 
+- `Bootstrapping` ( Row sampling with replacement ) : Datasets of orignal data and randomly selecting subsets at each step. 
 - `Bagging` technique : Multiple decision trees are trained in `parallel` to form one **strong accurate predicting** model.
 - `Majority Voting` : `Prediction` of model is based on the **voting** of decision trees outputs.
 - Reduces risk of `error` and `overfitting`
