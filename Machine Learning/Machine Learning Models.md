@@ -8,7 +8,7 @@
   
 <table align='center'>
   <tr>
-    <th colspan=3>
+    <th colspan=1>
       <h3><a href=#sup>Supervised Learning</a></h3>
     </th>
     <th colspan=2>
