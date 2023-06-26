@@ -4,12 +4,12 @@
 
 <h4 align="center"><code>ML</code> is a technique to implement <code>AI</code> that can learn from data by themselves without being explicitly programmed</h4>
 
-<h3>Machine Learning Map</align></h3>
+<h3 align="center">Machine Learning Map</align></h3>
   
-<table>
+<table align="center">
   <tr>
     <th colspan=1>
-      <h3><a href=#sup>Supervised Learning</a></h3>
+      <h3><a href=#sup align="left">Supervised Learning</a></h3>
     </th>
     <th colspan=2>
       <h3><a href=#unsup>Unsupervised Learning</a></h3>
