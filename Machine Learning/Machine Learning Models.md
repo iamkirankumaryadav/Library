@@ -283,14 +283,14 @@ Handle **non linear data** |
 
 - An ensemble learning method used for both `regression` and `classification`
 - A collection of decision trees, where each decision tree is built using a random subset of the training data ( feature matrix )
+- Multiple `decision trees` ( weak learners ) are trained `parallely` and `individually` | `independently`
+- `Bootstrapping` ( Row sampling with replacement ) : Subsets are randomly selected from the original dataset.
 - `Majority Voting` : `Prediction` of model is based on the **voting** of decision trees outputs.
 - `Regression`: The mean prediction of the individual decision trees is considered.
 - `Classification` : The class selected by most of the decision trees are considered.
 - Random forest creates a model that is more accurate and less prone to overfitting than a single decision tree.
 - `Bagging` : Multiple decision trees are trained in `parallel` to form one strong accurate predicting model.
 - Adding multiple decision trees reduces the risk of `error` and `overfitting` by reducing the variance. 
-- Multiple `decision trees` ( weak learners ) are trained `parallely` and `individually` | `independently`
-- `Bootstrapping` ( Row sampling with replacement ) : Subsets are randomly selected from the original dataset.
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
