@@ -7,7 +7,10 @@
 ### `Regression`
 
 - **Estimating** the **relationships** between **independent variables** and **dependent variable** to make **predictions**.
-- Finding relationship between **features matrix** and **target vector**.
+
+#### Important Terms:
+- `Independent Variable` | `Features Matrix`
+- `Dependent Variable` | `Target Vector`
 
 ### `Linear Regression`
 
