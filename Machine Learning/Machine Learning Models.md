@@ -288,10 +288,9 @@ Handle **non linear data** |
 - `Classification` : The class selected by most of the decision trees are considered.
 - Random forest creates a model that is more accurate and less prone to overfitting than a single decision tree.
 - `Bagging` : Multiple decision trees are trained in `parallel` to form one strong accurate predicting model.
-- Adding multiple decision trees reduce the overfitting by reducing the variance. 
+- Adding multiple decision trees reduces the risk of `error` and `overfitting` by reducing the variance. 
 - Multiple `decision trees` ( weak learners ) are trained `parallely` and `individually` | `independently`
 - `Bootstrapping` ( Row sampling with replacement ) : Subsets are randomly selected from the original dataset.
-- Reduces risk of `error` and `overfitting`
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
