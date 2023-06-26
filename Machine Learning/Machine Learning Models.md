@@ -182,7 +182,8 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
 
 ![Equation of Line](Image/EquationLine.png)
 
-- Linear regression is a statistical method used to model the relationship between two continuous variables.
+- Linear regression used a straight line to predict the value of a dependent variable from an independent variable.
+- The straight line is called the regression line. Formula: `y = mx + c`
 - Linear regression is used when there is a linear relationship between the two variables.
 - The relationship can be described by a straight line, it uses existing data to train the model.
 
