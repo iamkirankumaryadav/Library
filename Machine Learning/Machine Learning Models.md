@@ -20,7 +20,7 @@
       <a href='#reg'>Regression</a>
     </th>
     <th>
-      <a href='#class'>Classification</a>
+      <a href='#class'> Regression and Classification</a>
     </th>
     <th>
       <a href='#cluster'>Clustering</a>
