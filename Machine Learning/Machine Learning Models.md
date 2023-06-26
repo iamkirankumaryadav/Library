@@ -283,7 +283,7 @@ Handle **non linear data** |
 
 - An ensemble learning method used for both `regression` and `classification`
 - A collection of decision trees, where each decision tree is built using a random subset of the training data ( feature matrix )
-- `Regression`: The mean or average prediction of the individual decision trees is considered.
+- `Regression`: The mean prediction of the individual decision trees is considered.
 - `Classification` : The class selected by most of the decision trees are considered.
 - Random forest creates a model that is more accurate and less prone to overfitting than a single decision tree.
 - `Bagging` : Adding multiple decision trees reduce the overfitting by reducing the variance. 
