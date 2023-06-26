@@ -9,7 +9,7 @@
 <table align="center">
   <tr>
     <th colspan=1>
-      <h3><a href=#sup align="left">Supervised Learning</a></h3>
+      <h3 align="left"><a href=#sup>Supervised Learning</a></h3>
     </th>
     <th colspan=2>
       <h3><a href=#unsup>Unsupervised Learning</a></h3>
