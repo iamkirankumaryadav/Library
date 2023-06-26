@@ -61,8 +61,8 @@
           </ul>
         </li>        
         <li><a href=#svm>Support Vector Machine</a></li>
-        <li><a href=#naive>Naive Bayes</a></li>
         <li><a href=#knn>K Nearest Neighbors</a></li>
+        <li><a href=#naive>Naive Bayes</a></li>
       </ol>
     </td>    
     <td>
