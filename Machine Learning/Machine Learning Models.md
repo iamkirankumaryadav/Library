@@ -6,7 +6,7 @@
 
 <h3 align="center">Machine Learning Map</align></h3>
   
-<table align='center'>
+<table align='left'>
   <tr>
     <th colspan=1>
       <h3><a href=#sup>Supervised Learning</a></h3>
