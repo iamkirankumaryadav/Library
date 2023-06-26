@@ -8,7 +8,7 @@
   
 <table align='center'>
   <tr>
-    <th colspan=2>
+    <th>
       <h3><a href=#sup>Supervised Learning</a></h3>
     </th>
     <th colspan=2>
@@ -18,10 +18,7 @@
   <tr>   
     <th>
       <a href='#reg'>Regression</a>
-    </th>
-    <th>
-      <a href='#class'> Regression and Classification</a>
-    </th>
+    </th>    
     <th>
       <a href='#cluster'>Clustering</a>
     </th>
@@ -31,10 +28,7 @@
   </tr>
   <tr>
     <th>
-      Predict Continuous Numerical Data
-    </th>
-    <th>
-      Classify Categorical Data
+      Predict Continuous Numerical Data and Classify Categorical Data
     </th>
     <th>
       Group Similar Data 
@@ -45,16 +39,12 @@
   </tr>
   <tr>
     <td rowspan=3>
-      <ol type=1>        
-        <li>Simple Linear ( Best Fit Line )</li>
-        <li>Multiple Linear ( Best Fit Plane )</li>            
-        <li>Polynomial ( Best Fit Curve )</li>
-        <li>Lasso ( L1 ) Sum of Absolute</li>
-        <li>Ridge ( L2 ) Sum of Square</li>
+      <ol type=1>                
       </ol>
     </td>
     <td rowspan=3>
       <ol type=1>
+        <li><a href=#reg>Linear Regression</a></li>
         <li><a href=#logreg>Logistic Regression</a></li>
         <li><a href=#tree>Decision Tree</a></li>
         <li>
@@ -199,6 +189,13 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
 - Linear regression is a statistical method used to model the relationship between two continuous variables.
 - Linear regression is used when there is a linear relationship between the two variables.
 - The relationship can be described by a straight line, it uses existing data to train the model.
+
+Types of linear regression:
+a. Simple linear regression ( best fit line )
+b. Multiple linear regression ( best fit plane )
+c. Polynomial regression ( best fit curve )
+d. Lasso regfression ( L1 ) sum of absolute
+e. Ridge regression ( L2 ) sum of square
 
 <h1 name='class' align=center>Classification</h1>
 
