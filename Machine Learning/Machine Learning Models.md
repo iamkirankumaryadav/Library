@@ -28,13 +28,13 @@
   </tr>
   <tr>
     <th>
-      Predict Continuous Numerical Data and Classify Categorical Data
+      Predict continuous numerical data | Classify discrete categorical data
     </th>
     <th>
-      Group Similar Data 
+      Group similar data 
     </th>
     <th>
-      Identify Similar Data
+      Identify similar data
     </th>
   </tr>
   <tr>    
