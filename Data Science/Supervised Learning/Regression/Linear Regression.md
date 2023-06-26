@@ -105,9 +105,23 @@ Amount of R | **Strength** of **Correlation**
 ![Strength of Slope](Image/Strength.png)
 
 ### `T Test` : Correlation Coefficient for `Significance`
+
+Correlation Coeffieicient | Relationship
+:--- | :---
+0 | No Correlation between two variables
+1 | Perfect Positive Correlation ( Directly Proportional )
+-1 | Perfect Negative Correlaton ( Indirectly Proportional )
+
+- Measure of the `strength` and `direction` of the relationship between two variables.
 - **Null** Hypothesis `H0` : There is **no linear relationship**
 - **Alternate** Hypothesis `H1` : There is a **linear relationship**
 - `P value` is calculated ( if `P Value > 0.05` : Then `accept` Null Hypothesis else `reject` Null Hypothesis )
+
+Significance Level | P value
+:--- | :---
+95% | 0.05
+99% | 0.01
+99.9% | 0.01
 
 ### `Multicollinearity`
 - Generally occurs when there are `high correlation` between two or more `independent` variables.
