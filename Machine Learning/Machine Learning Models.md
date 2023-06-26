@@ -186,13 +186,6 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
 - Linear regression is used when there is a linear relationship between the two variables.
 - The relationship can be described by a straight line, it uses existing data to train the model.
 
-Types of linear regression:
-a. Simple linear regression ( best fit line )
-b. Multiple linear regression ( best fit plane )
-c. Polynomial regression ( best fit curve )
-d. Lasso regfression ( L1 ) sum of absolute
-e. Ridge regression ( L2 ) sum of square
-
 <h1 name='class' align=center>Classification</h1>
 
 <h3 name='logreg'>2. Logistic Regression (<a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md'>More</a> )</h3>
