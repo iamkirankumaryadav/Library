@@ -294,27 +294,25 @@ Handle **non linear data** |
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
-- `SVM` can be used for `classification`
+- Support Vector Machine is used for both `regression` and `classification`
 - Finds an optimal `line` or `hyperplane` that separates the 2 distinct classes with `maximum margin` in `N dimensional space`
-- `Hyperplanes` are **decision boundaries** that help to `classify` the data points. Data points are `Support Vectors`
-- `SVM` can be used for `linear` and `non linear` data.
+- `Hyperplanes` are decision boundaries that help to `classify` the data points. Data points are called `Support Vectors`
+- `SVM` can be used for `linear` and `non linear` regression and classification.
+- `SVM` can manage high dimensional data and nonlinear relationships between the data points.
 - `SVM` uses `kernel trick` for `non linear` data which creates a `hyperplane` in `N dimensional space` for linear seperation.
 - Works better even if data set has lot of `outliers` ( Because SVM focus only on `support vectors` closest to the line  )
-- Should be used if data set has lot of `independent features`
 - Take long time to `train` and `predict` if the number of `observations` are very large.
 - Kernel functions : Linear | Radial basis function ( RBF ) | Polynomial | Exponential.
 
 ### Benefits 
 
-- SVM also works well with `unstructured` and `semi structured` data ( Text, Image, Tree )
-- `Generalize` well ( Works well on new unseen data )
-- Risk of `overfitting` is less.
+- SVM works well with `unstructured` and `semi structured` data ( text, image, face, anomaly detections, etc. )
+- `Generalize` well on the new unseen data and risk of `overfitting` is also less.
 
 ### Disadvantage
 
-- Choosing a `Good Kernel` function, `Fine Tuning` and even `Visualization` is challenging.
-- Long `Training Time` for **large** datasets.
-- Difficult to understand `final model`, variable `weights` have individual impact.
+- Choosing a `good Kernel` function, `fine tuning` and even `visualization` is challenging.
+- Difficult to understand the `final model`, variable `weights` have individual impact.
 
 <h3 name='knn'>6. K Nearest Neighbours</h3>
 
