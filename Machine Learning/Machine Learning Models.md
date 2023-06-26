@@ -37,11 +37,7 @@
       Identify Similar Data
     </th>
   </tr>
-  <tr>
-    <td rowspan=3>
-      <ol type=1>                
-      </ol>
-    </td>
+  <tr>    
     <td rowspan=3>
       <ol type=1>
         <li><a href=#reg>Linear Regression</a></li>
