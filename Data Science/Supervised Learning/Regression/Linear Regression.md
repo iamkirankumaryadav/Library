@@ -6,7 +6,7 @@
 
 ### `Regression`
 
-- **Estimating** the **relationships** between **independent variables** and **dependent variable** to make **predictions**.
+- Estimating the relationships between `independent variables` and `dependent variable` to make predictions.
 
 #### Important Terms:
 - `Independent Variable` | `Features Matrix`
