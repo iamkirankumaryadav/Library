@@ -2,7 +2,7 @@
 
 <h1 align="center">Machine Learning Models 🤖🚀💻</h1>
 
-`ML` is a technique to implement `AI` that can learn from data by themselves without being explicitly programmed.
+<h5 align="center"><code>ML</code> is a technique to implement <code>AI</code> that can learn from data by themselves without being explicitly programmed</h5>
 
 <h3 align="center">Machine Learning Map</align></h3>
   
