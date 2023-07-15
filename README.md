@@ -133,6 +133,15 @@
 - [Dennis Taylor](https://www.linkedin.com/learning/instructors/dennis-taylor) ( `Spreadsheet` )
 - [Robin Andrews](https://www.linkedin.com/learning/instructors/robin-andrews) ( `Python Data Structure & Algorithms` )
 
+### Google
+- [Deep Mind](https://www.deepmind.com/)
+- [Google AI](https://ai.google/)
+- [Generative AI](https://ai.google/discover/generativeai/)
+- [PaLM 2](https://ai.google/discover/palm2/)
+- [Research](https://ai.google/discover/research/)
+- [Responsible AI](https://ai.google/responsibility/responsible-ai-practices/)
+- [Search Lab](https://labs.google.com/search/error?source=smp.23q2USLabs.31)
+
 ### Medium
 
 - [Arpita Ghosh](https://arpita-ghosh.medium.com/) ( `Power BI` )
