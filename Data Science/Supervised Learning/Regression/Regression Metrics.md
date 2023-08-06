@@ -129,6 +129,8 @@ False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect Fa
 
 - Measures the `Correctly` identified `Positive` cases from all the `Predicted` positive cases.
 - Used when the **Cost** of False Positive ( `FP` ) is **High**. ( e.g. There is virus but still antivirus is predicting that the system is safe it's costly )
+- `TP`: The number of instances that were correctly classified as positive.
+- `FP`: The number of instances that were incorrectly classified as positive.
 
 ![Precision](Image/Precision.png)
 
