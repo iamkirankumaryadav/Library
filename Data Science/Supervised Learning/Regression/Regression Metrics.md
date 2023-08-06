@@ -45,6 +45,7 @@
 
 - `Sum` of `absolute` difference between `actual` and `predicted` values.
 - `MAE` is better for datasets with `outliers`, `fails` in case of **larger errors**.
+- A lower `MAE` indicates that the model is more accurate.
 
 ![MAE Scikit Learn](Image/MAESK.png)
 
