@@ -32,6 +32,8 @@
 1. We `start` with some `initial configuration` of **model** and `predict` the **output** based on some **input**.
 2. Then we compare `predicted value` with `target` and **measure** the `performance` of our model.
 3. `Parameters` of the **model** are `adjusted` **iteratively** in order to reach the `optimal value` of the `performance metric`
+4. Performance metric is a measurable value that is used to evaluate the performance of our model.
+5. Performance metrics can be used to track progress towards accuracy, identify areas for improvement, and make informed decisions.
 
 <h3 name="linear">Linear Regression</h3>
 
