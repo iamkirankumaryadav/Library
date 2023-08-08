@@ -167,8 +167,9 @@ False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect Fa
 
 <h3 name='roc'>7. ROC | Receiver Operating Characteristic Curve</h3>
 
-- Helps to understand `characteristics` of curve by plotting, 
+- Helps to understand `characteristics` of curve by plotting,
 - `TPR` ( True Positive Rate ) on `Y Axis` and `FPR` ( False Positive Rate ) on `X Axis` at different `classification thresholds`
+- The `ROC` curve helps to select the optimal threshold for a classifier.
 - If `threshold` is closer to `1.0` or `100%`: **Classifications** gets more `accurate`
 
 ![ROC](Image/ROC.svg)
