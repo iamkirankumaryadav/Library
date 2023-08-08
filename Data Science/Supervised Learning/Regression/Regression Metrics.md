@@ -88,6 +88,7 @@
 - Compare models with different number of `independent` features.
 - Adjusted R<sup>2</sup> `increases` only if the new `independent` feature improves the model `more` than expected.
 - Provides more accurate `correlation` between features.
+- It is more accurate measure of the model's fit, if there are large number of independent variables.
 
 | MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
 | :--- | :--- | :---
