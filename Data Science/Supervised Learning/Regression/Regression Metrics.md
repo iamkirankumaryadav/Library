@@ -29,6 +29,7 @@
   </tr>
 </table>
 
+### How to evaluate the performance of a machine learning model?
 1. We `start` with some `initial configuration` of **model** and `predict` the **output** based on some **input**.
 2. Then we compare `predicted value` with `target` and **measure** the `performance` of our model.
 3. `Parameters` of the **model** are `adjusted` **iteratively** in order to reach the `optimal value` of the `performance metric`
