@@ -2,7 +2,7 @@
 
 # How to deal with missing data ?
 
-There is no particular approach for dealing with `missing` data, and the appropriate technique may vary depending on the specific context and characteristics of your dataset.
+There is no particular approach for dealing with `missing` data, and the appropriate technique may vary depending on the specific context or characteristics of your dataset and desired outcome.
 
 **Missing data** : `NULL` | `NAN` | `nan` | `NaN` ( Ignored while **arithmetic operations** )
 
