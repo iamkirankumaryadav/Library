@@ -11,6 +11,8 @@
 #### Important Terms:
 - `Independent Variable` | `Features Matrix`
 - `Dependent Variable` | `Target Vector`
+- A `vector` is a list of numbers (can be in a row or column)
+- A `matrix` is an array of numbers (one or more rows, one or more columns).
 
 ### `Linear Regression`
 
