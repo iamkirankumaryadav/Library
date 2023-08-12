@@ -41,6 +41,7 @@
 - **K - 1** subsets are used as **training set**.
 - **Mean** error of **K** trials is calculated.
 - Reduce **bias** and **variance** ( Try to creates a better model with best accuracy )
+- Useful in the case of evaluating `imbalanced` dataset.
 
 <h3 name='loocv'> 4. Leave One Out Cross Validation | LOOCV</h3>
 
