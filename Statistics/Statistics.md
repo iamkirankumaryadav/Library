@@ -54,6 +54,12 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 - **Large** std means `high` **variability** | Most of the **data points** are `far away` from the **mean** | `Wider` distribution
 - Standard deviation calculates `mean`, so it is affected by an `outlier`
 
+Variance | Standard Deviation
+:--- | :---
+Average squared deviation from mean | Square root of variance
+Squared units | Same units as the original data
+More sensitive to outliers | Less sensitive to outliers
+
 ### Coefficient of variation
 
 - Measures `standard deviation` relative to the mean.
