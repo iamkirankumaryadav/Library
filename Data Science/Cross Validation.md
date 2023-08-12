@@ -34,6 +34,7 @@
 
 <h3 name='skfold'> 3. Stratified K Fold Cross Validation</h3>
 
+- A variation of K fold cross validation that ensures folds have the same proportion of samples for each class.
 - Data is divided into `K` subsets.
 - Each subset has **equal proportion** samples of each **target class labels**.
 - Models get **equally** distributed target class labels for **training**.
@@ -41,7 +42,7 @@
 - **K - 1** subsets are used as **training set**.
 - **Mean** error of **K** trials is calculated.
 - Reduce **bias** and **variance** ( Try to creates a better model with best accuracy )
-- Useful in the case of evaluating `imbalanced` dataset.
+- Accurate way to evaluate the performance of a model on `imbalanced` data sets.
 
 <h3 name='loocv'> 4. Leave One Out Cross Validation | LOOCV</h3>
 
