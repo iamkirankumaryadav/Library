@@ -52,15 +52,19 @@
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
 
-### Grid Search
-- One must select the correct algorithm with the correct combination of `hyperparameters` to train model.
+### Grid Search:
+
+- Technique used to select the hyperparameters to train the model.
 - The process of choosing the optimal set of parameters is known as `hyperparameter tuning`
 - Different combination of hyperparameters is used to improve the `performance metric`
-- `Grid Search` cross validation is a technique to select the best parameters to train. 
-- Parameterized by a grid of `hyperparameters`
-- `Grid Search` cross validation tries all combinations of parameters `grid` for a model. 
-- Returns with the best set of parameters having the `best performance` score.
+- `Grid Search` cross validation tries all combinations of parameters `grid` value for a model. 
+- Returns with the best set of parameters having the `best performance` score on the test set.
+- It is good if the data set is small, it's more time consuming and requires more resource to run.
 
-`Random Grid Search` cross validation : The algorithm will randomly choose the combination of parameters. 
+### Random Grid Search:
+
+- `Random Grid Search` cross validation randomly choose the combination of parameters.
+- It is good if the data set is very large, it's less time consuming and utilizes less resource.
+- Less likely to overfit the training data.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
