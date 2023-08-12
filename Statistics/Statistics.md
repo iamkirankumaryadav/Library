@@ -56,7 +56,7 @@ How the `observations` are `spreadout` or `scattered` on each side of the `centr
 
 Variance | Standard Deviation
 :--- | :---
-Average squared deviation from mean | Square root of variance
+Squared deviation from mean | Square root of variance
 Squared units | Same units as the original data
 More sensitive to outliers | Less sensitive to outliers
 
