@@ -57,4 +57,54 @@ Simple model do not capture **hidden** patterns and relations properly | Model *
 4. `Resampling`
 5. `Ensemble Techniques` : `Bagging` and `Boosting`
 
+# Bias
+
+### Different types of bias in ML models.
+
+`Bias` can lead to the model making biased predictions.
+
+### 1. Data Bias: 
+- Occurs when the data that is used to train the model is not representative of the real world.
+
+### 2. Sampling Bias:
+- Occurs when the data that is used to train the model is not randomly sampled from the population.
+
+### 3. Label Bias:
+- Occurs when the labels on the data are not accurate.
+
+### 4. Algorithmic Bias:
+- Occurs when the algorithm that is used to train the model is biased.
+- The algorithm is designed to favor a particular group of people or if the algorithm is not properly trained.
+
+### 5. Interpretation Bias:
+- Occurs when the results of the model are interpreted in a biased way.
+- This can happen if the people interpreting the results are not aware of the biases in the model.
+
+### 6. Design Bias:
+- Occurs when the algorithm is designed to favor a particular group of people.
+
+### 7. Training Bias:
+- Occurs when the algorithm is trained on data that is biased.
+- This can happen if the data is collected from a specific group of people or if the data is not properly cleaned.
+
+### 8. Evaluation Bias:
+- Occurs when the algorithm is evaluated on data that is biased.
+
+## How to prevent from Bias?
+
+### 1. Use diverse dataset:
+- The dataset should represent all of the different groups of people that the model will be used to predict.
+
+### 2. Randomly sample the data:
+- Selecting random sample of data helps to reduce the impact of any bias that is present in the data.
+
+### 3. Clean the data:
+- Before you train the model, you should clean the data. This means removing any outliers or errors from the data.
+
+### 4. Use correct algorithm:
+- Fair algorithms should be used to train the model. Correct model will reduce the impact of bias in the model.
+
+### 5. Interpret the results carefully:
+- Don't make biased assumptions. Always be aware of the limitations of the respective model.
+
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
