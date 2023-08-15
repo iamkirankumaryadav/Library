@@ -61,8 +61,7 @@ Loss Function | Cost Function ( Quantifies error between predicted values and ex
 - The goal of the model is to minimize the loss function, the model tries to make its predictions closer to the actual output.
 - Regression: Mean Squared Error Loss Function.
 - Classification: Cross Entrophy Loss Function.
-- The loss function helps us to understand the model's predictions and using this information we can improve the model.
-- We can use regularization to prevent the model from overfitting the training data.
-- By minimizing the loss function, we can improve the accuracy of the model.
+- The loss function helps us to understand the model's predictions and improve the model's accuracy.
+- We can use regularization to prevent the model from overfitting the training data by minimizing the loss function.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
