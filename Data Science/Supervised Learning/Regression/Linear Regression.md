@@ -82,15 +82,20 @@
 
 ![Covariance](Image/Covariance.png) 
 
-- `Relationship` between two variables.
+- `Relationship` between two variables, it measure how much two variabless change together.
 - `Direction` of the `linear relationship` between `quantitative` variables.
 - `Positive Covariance` : Two variables tends to move in `positive` | same direction.
 - `Negative Covariance` : Two variables tends to move in `negative` | opposite direction.
 
 ### `Correlation` : `Strength` and `Direction`
 
+- Standardized version of `covariance`
 - `Strength` and `direction` of `linear relationship` between `quantitative` variables.
-- One variable can predict the other variable, Varies between `-1` ( Perfect Negative ) to `1` ( Perfect Positive )
+- Measure how closely two variables are related to each other.
+- One variable can predict the other variable.
+- Varies between `-1` ( Perfect Negative ) to `1` ( Perfect Positive )
+- `-1`: Perfect negative linear relationship.
+- `+1`: Perfect positive linear relationship.
 
 Amount of R | **Strength** of **Correlation**
 :--- | :---
@@ -105,6 +110,14 @@ Amount of R | **Strength** of **Correlation**
 ![Direction of Slope](Image/Direction.png)
 
 ![Strength of Slope](Image/Strength.png)
+
+### Variance Inflation Factor (VIF)
+
+- A measure of how much the variance of regression coefficient is inflated due to collinearity between the independent variables.
+- `VIF = 1` indicates that there is no collinearity between the independent variables.
+- `VIF > 10` indicates that there is high collinearity between the independent variables.
+
+<p>VIF = 1 / 1 - R<sup>2</sup></p>
 
 ### `T Test` : Correlation Coefficient for `Significance`
 
