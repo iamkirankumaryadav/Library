@@ -116,8 +116,13 @@ Amount of R | **Strength** of **Correlation**
 - A measure of how much the variance of regression coefficient is inflated due to collinearity between the independent variables.
 - `VIF = 1` indicates that there is no collinearity between the independent variables.
 - `VIF > 10` indicates that there is high collinearity between the independent variables.
+- We should consider removing the independent variable to reduce the VIF.
+- VIF does not tell us which independent variable should be removed.
+- VIF can be higher due to more number of independent features in the model.
+- VIF can be higher if independent variables have high scale values or variables are measures at different scales.
 
-<p>VIF = 1 / 1 - R<sup>2</sup></p>
+<p><code>VIF = 1 / 1 - R<sup>2</sup></code></p>
+
 
 ### `T Test` : Correlation Coefficient for `Significance`
 
