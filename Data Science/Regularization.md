@@ -47,7 +47,7 @@ Loss Function | Cost Function ( Quantifies error between predicted values and ex
 - Consider we fit regression model on `100` features | If we train model with `100` features.
 - Each coefficient will `memorize` each **observations** ( Learn `pattern` including **noise** )
 - The model would have perfect `accuracy` on the `train` set but it will not `generalize` well on `test` data ( New unseen data )
-- **Regularization** can prevent **overfitting** by artificially penalizing model **coefficient** ( `slope` | `weight` )
+- **Regularization** can prevent **overfitting** by artificially penalizing model **coefficients**
 - It can **discourage** `large` coefficients which plays the dominating role.
 - It can **remove** features completely ( Setting coefficients to `0` | LASSO ) and reduce the complexity.
 - In **ridge** first the independent variables are **standardized** ( Same scale ) then **ridge regression** is performed.
