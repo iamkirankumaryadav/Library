@@ -52,6 +52,17 @@ Loss Function | Cost Function ( Quantifies error between predicted values and ex
 - It can **remove** features completely ( Setting coefficients to `0` | LASSO ) and reduce the complexity.
 - In **ridge** first the independent variables are **standardized** ( Same scale ) then **ridge regression** is performed.
 
-> Loss = Sum of square **residual** ( actual - prediction ) <sup>2</sup> 
+> Loss = Sum of square **residual** ( actual - prediction ) <sup>2</sup>
+
+### `loss function` 
+
+- A function that measures the difference between the predicted output of a model and the actual output.
+- The loss function is used to guide the learning process of the model.
+- The goal of the model is to minimize the loss function, the model tries to make its predictions closer to the actual output.
+- Regression: Mean Squared Error Loss Function.
+- Classification: Cross Entrophy Loss Function.
+- The loss function helps us to understand the model's predictions and using this information we can improve the model.
+- We can use regularization to prevent the model from overfitting the training data.
+- By minimizing the loss function, we can improve the accuracy of the model.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
