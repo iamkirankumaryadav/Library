@@ -3,7 +3,7 @@
 # Regularization
 
 Similar Terms:
-Coefficient or Weights means Slope ans Intercept.
+Coefficient or weights means slope and intercept.
 
 - Regularization is a technique used to prevent `overfitting`.
 - Overfitting occurs when a model learns the training data too well and is unable to generalize the new unseen data.
