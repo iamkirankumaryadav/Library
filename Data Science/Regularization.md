@@ -2,22 +2,24 @@
 
 # Regularization
 
+Similar Terms:
+Coefficient or Weights means Slope ans Intercept.
+
 - Regularization is a technique used to prevent `overfitting`.
 - Overfitting occurs when a model learns the training data too well and is unable to generalize the new unseen data.
 - Regularization adds a penalty to the loss function that simplifies the model.
 - It encourage the model to have smaller coefficients and will prevent from overfitting the training data.
 - Adds `bias` to training data to reduce or balance the `variance`, this prevents from [overfitting](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Overfitting.md).
 - **Simplify** complicated models ( Simple models avoids `overfitting`, but may lead to `underfitting`, so some `tradeoff` is important )
-- Reducing the **steepness** of the slope | Shrink the coefficient ( `slope` ) towards `0`.
+- Reducing the **steepness** of the slope | Shrink or encourage the `slope` towards `0`.
 - Add **penalty** to the **loss term** | Sum ( Actual - Prediction ) <sup>2</sup> | **Sum of Squared Residuals**.
-- Encourages **coefficient** | **Weight** towards `0`
 - `Penalize` weights that are too large ( Learning Rate | `Lambda` )
 - Improves `generalization` ( Performance on new unseen data )
 - High `lambda` | High `bias` | `Underfitting` | `Simple` model | More error in train set.
 - Low `Lambda` | High `variance` | `Overfitting` | `Complicated` model | Not **generalize** well for **new unseen data**.
-- `LASSO` | `L1` regularization adds a penalty equal to the sum of `absolute` value of magnitude of `slope` | coefficients | weight.
+- `LASSO` | `L1` regularization adds a penalty equal to the sum of `absolute` value of `slope`
 - `LASSO` reduces **coefficients** exactly to `0` ( **Eliminate feature** )
-- `Ridge` | `L2` regularization adds a penalty equal to the sum of `squared` value of magnitude of `slope` | coefficients | weight.
+- `Ridge` | `L2` regularization adds a penalty equal to the sum of `squared` value of `slope`
 - `Ridge` reduces **coefficients** to **small value** near 0 ( Not exactly zero | No elimination )
 
 LASSO | Ridge | Elastic
