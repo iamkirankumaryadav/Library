@@ -6,11 +6,12 @@ The combination of `weak` learners into one very **accurate predicting algorithm
 
 ### Why `Ensemble` ?
 
-- `High variance` : The model is very sensitive to the new unseen data.
-- `Low accuracy` : One single model is not enough for training data with desired accuracy.
-- Features `noise` and `bias`: The model rely heavily on the dominating feature with high scale or magnitude.
-- If we combine multiple models, the overall accuracy can be improved.
-- The combination can be implemented by aggregating the outputs of all the individual models.
+- Ensemble learning combines multiple models to create a more accurate and robust model.
+- The individual models in an ensemble are called `base` or `weak` learners.
+- The base learners can be a decision trees, support vector machines, or neural networks.
+- Ensemble learning can be used to improve the performance of machine learning models.
+- It helps to reduce `variance`, `bias`, `underfitting` and `overfitting`.
+- Ensemble learning can also be used to improve the accuracy of models that are trained on small datasets.
  
 `Bagging` ( Bootstrap Aggregation ) | `Boosting`
 :--- | :---
