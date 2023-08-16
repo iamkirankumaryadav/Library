@@ -94,9 +94,10 @@
 <h3 name='ar2'>5. Adjusted R<sup>2</sup></h3>
 
 - Improvement of R<sup>2</sup> ( Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup> )
+- Adjusted R-squared is a more reliable measure than R-squared.
 - Compare models with different number of `independent` features.
 - Adjusted R<sup>2</sup> `increases` only if the new `independent` feature improves the model `more` than expected.
-- Provides more accurate `correlation` between features.
+- Provides more accurate `correlation` between independent features.
 - It is more accurate measure of the model's fit, if there are large number of independent variables.
 
 | MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
