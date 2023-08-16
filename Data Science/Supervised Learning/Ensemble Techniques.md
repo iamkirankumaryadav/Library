@@ -9,7 +9,7 @@ The combination of `weak` learners into one very **accurate predicting algorithm
 - `High variance` : The model is very sensitive to the new unseen data.
 - `Low accuracy` : One single model is not enough for training data with desired accuracy.
 - Features `noise` and `bias`: The model rely heavily on the dominating feature with high scale or magnitude.
-- If we build an combine multiple models, the overall accuracy can be improved.
+- If we combine multiple models, the overall accuracy can be improved.
 - The combination can be implemented by aggregating the outputs of all the individual models.
  
 `Bagging` ( Bootstrap Aggregation ) | `Boosting`
