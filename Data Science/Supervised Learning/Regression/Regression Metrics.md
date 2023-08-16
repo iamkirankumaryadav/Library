@@ -55,7 +55,8 @@
 ![MSE](Image/MSE.jpg)
 
 - `Sum` of `squared` difference between `actual` and `predicted` values.
-- **Squared** differences penalizes `small` errors.
+- More sensitive towards outliers, hence affected by outliers.
+- A lower `MSE` indicates that the model is more accurate.
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
@@ -63,21 +64,29 @@
 
 ![RMSE](Image/RMSE.png)
 
-- **Square Root** of `MSE`, `RMSE` is useful at the time of undesired `large` errors.
+- `Square Root` of `MSE`, `RMSE` is useful at the time of undesired `large` errors.
+- `RMSE` is a more intuitive measure of error than MSE.
+- It is measured in the same units as the dependent variable.
+- A lower RMSE indicates that the model is making more accurate predictions.
 
 <h3 name='r2'>4. Coefficient of Determination ( R<sup>2</sup> ) | Squared Correlation Coefficient</h3>
 
 ![R2](Image/R2.png)
 
-- Helps to understand how well the model `fits` the data ( How well the model make `predictions` on new observations )
-- Measure how `close` each **data point** `fits` the `regression line` ( How well the **regression line** `predicts` **actual values** )
+- Helps to understand how well the model `fits` the data or how well the model make `predictions` on new observations.
+- Measure how `close` each **data point** `fits` the `regression line` or how well the **regression line** `predicts` **actual values**.
 - Explains the variance of the data captured by the model ( 0.7 to 0.9 is good value for R2 )
 - If R<sup>2</sup> is 0.8 or 80% ( Regression line explaines 80% of variance in data )
 - Low R<sup>2</sup> causes `underfitting` and high R<sup>2</sup> results into `overfitting`
 - Ideal value for R<sup>2</sup> is between `70%` to `90%` ( i.e. Model `fits` the data very well )
 - Help us to `compare` **created** model with the `baseline` model ( Mean )
-- `Best fit line` predicts better than `base fit line` ( `Mean` ) 
+- `Best fit line` predicts better than `base fit line` ( `Mean` )
+-  A higher R-squared indicates that the model is making more accurate predictions.
 
+- Measure of the proportion of variance in the dependent variable that is explained by the independent variable.
+- <p>R<sup>2</sup></p> = `0` indicates that the independent variable does not explain any of the variance in the dependent variable.
+- <p>R<sup>2</sup></p> = `1` indicates that the independent variable perfectly explains the variance in the dependent variable.
+  
 ![R2 Score Scikit Learn](Image/R2Score.png)
 
 ![R2 Goog or Bad](Image/R2Good.png)
