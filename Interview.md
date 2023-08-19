@@ -22,7 +22,7 @@
 
 --- 
 
-### [Cross Validation](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Cross%20Validation.md) | [Multiclass vs Multilabel](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Multi%20Class%20and%20Multi%20Label%20Classification.md) | [Dimensionality Reduction](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md) | [Algorithm Selection](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Steps/Algorithm%20Selection.md)
+### [Cross Validation](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Cross%20Validation.md) | [Multiclass vs Multilabel](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Multi%20Class%20and%20Multi%20Label%20Classification.md) | [Dimensionality Reduction](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md) 
 
 ---
 
