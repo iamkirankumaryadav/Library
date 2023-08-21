@@ -141,6 +141,7 @@
 - [Research](https://ai.google/discover/research/)
 - [Responsible AI](https://ai.google/responsibility/responsible-ai-practices/)
 - [Search Lab](https://labs.google.com/search/error?source=smp.23q2USLabs.31)
+- [Data Science on Google Cloud](https://cloud.google.com/data-science)
 
 ### Medium
 
