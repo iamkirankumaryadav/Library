@@ -143,6 +143,7 @@
 - [Search Lab](https://labs.google.com/search/error?source=smp.23q2USLabs.31)
 - [Data Science on Google Cloud](https://cloud.google.com/data-science)
 - [Google Workspace](https://workspace.google.com/intl/en_uk/training)
+- [Grow with Google](https://grow.google/intl/en_in)
 
 ### Medium
 
