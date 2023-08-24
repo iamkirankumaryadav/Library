@@ -2,9 +2,9 @@
 
 # Transform | Normalize | Standardize | Rescale | Scaling
 
-**Data set** contains **features** with different range of values. 
-
-We `normalize` or `standardize` data to bring down to same `range` or `scale`
+- **Data set** contains **features** with different range of values. 
+- We `normalize` or `standardize` data to bring down to the same `range` or `scale`
+- It helps in improving the `accuracy` and `performance` of the models.
 
 Data Normalization | Data Standardization ( Z Score Normalization )
 :--- | :---
