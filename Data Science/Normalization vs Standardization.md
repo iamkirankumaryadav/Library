@@ -1,10 +1,9 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# Transform | Normalize | Standardize | Rescaling | Scaling
+# Transformation | Normalization | Standardization | Rescaling
 
-- **Data set** contains **features** with different range of values. 
+- **Data set** contains **features** with different range or scale of values. 
 - We `normalize` or `standardize` data to bring down to the same `range` or `scale`
-- It helps improve the models `accuracy` and `performance`.
 
 Data Normalization | Data Standardization ( Z Score Normalization )
 :--- | :---
