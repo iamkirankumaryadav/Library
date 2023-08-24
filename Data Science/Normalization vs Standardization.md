@@ -15,15 +15,15 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
 
 ### Scaling 
 - Convert **numeric** feature values from their `natural` **range** into a `standard` or `normal` **range**.
-- A dataset with only one feature do not need scaling.
-- Scaling is beneficial only if the dataset consists of **multiple** features with different range.
+- A dataset with only one feature does not need scaling.
+- Scaling is beneficial only if the dataset consists of **multiple** features with different ranges.
 
 ### Data Standardization ( Z Score Normalization )
-- Standardize features around center ( `Mean` ) 
+- Standardize features around the center ( `Mean` ) 
 - Equalize the range or data **variability**.
 - Important when we **compare** measurements that have different **units**.
 
-Where to **Use** ? | Where **not** to **Use** ?
+Where to **Use**? | Where **not** to **Use** ?
 :--- | :---
 Algorithms that rely on **gradient descent** ( **Regressions** ) | **Probability** based algorithms : **Naive Bayes**
 **Distance** based algorithms ( **KNN**, **K Mean** and **SVM** ) | **Tree** based algorithms : CART, Decision trees.  
@@ -32,18 +32,19 @@ Algorithms that rely on **gradient descent** ( **Regressions** ) | **Probability
 ### Benefits 
 1. Helps **gradient descent** to `converge` ( Achieve global minima ) more quickly.
 2. Helps the model to learn appropriate `weights` for each **feature**.
-3. Model pay more attention to the features having `high` **range** even if the feature is irrelevant.
-4. Feature with `low` **range** are ignored even if it is better feature for model training.
+3. The model pays more attention to the features having a `high` **range** even if the feature is irrelevant.
+4. A feature with a `low` **range** is ignored even if it is a better feature for model training.
 5. **Larger scale** features plays a **dominating role** in the model. 
 6. Reduces the **effect** of `outlier`
+7. Improves the `accuracy` and `performance` of the model.
 
 ### Transformation
 
-- **Split** the data set into `train` set and `test` set.
-- Apply same **transformation** on `train` set and `test` set ( Keep consistency )
+- **Split** the data set into a `train` set and a `test` set.
+- Apply the same **transformation** on the `train` set and `test` set ( Keep consistency )
 - No need to scale **dependent variable** | `Feature vector` 
 - `fit()` : Learn **parameters** and **scales** of data which will be needed to **transform** the data | Apply only on `train` set.
-- `transform()` : **Transforms** data on the basis of what it **learns** from `fit()` | Apply on `train` and `test` set.
+- `transform()`: **Transforms** data on the basis of what it **learns** from `fit()` | Apply on `train` and `test` set.
 - `fit_transform()` : First learn ( **Fit** ) and then apply in place ( **Transform** ) | Apply only on `train` set.
 - Prevents **data leakage** : **Sharing information** of **train set** with **test set**.
 
@@ -62,6 +63,6 @@ X_test = scaler.transform(X_test)
 ### How to Prevent Data Leakage 
 - Never apply `fit_transform()` on test set.
 - Remove `duplicate` data ( `drop_duplicates()` )
-- Time series data : Train set should contain past data and test set should contain new data based on date, `Sort` by date.
+- Time series data: The train set should contain past data and the test set should contain new data based on date, `Sort` by date.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
