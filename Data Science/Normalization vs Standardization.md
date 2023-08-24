@@ -1,10 +1,10 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# Transform | Normalize | Standardize | Rescale | Scaling
+# Transform | Normalize | Standardize | Rescaling | Scaling
 
 - **Data set** contains **features** with different range of values. 
 - We `normalize` or `standardize` data to bring down to the same `range` or `scale`
-- It helps in improving the `accuracy` and `performance` of the models.
+- It helps improve the models `accuracy` and `performance`.
 
 Data Normalization | Data Standardization ( Z Score Normalization )
 :--- | :---
@@ -19,7 +19,7 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
 - Scaling is beneficial only if the dataset consists of **multiple** features with different ranges.
 
 ### Data Standardization ( Z Score Normalization )
-- Standardize features around the center ( `Mean` ) 
+- Standardize features around the centre ( `Mean` ) 
 - Equalize the range or data **variability**.
 - Important when we **compare** measurements that have different **units**.
 
@@ -32,11 +32,11 @@ Algorithms that rely on **gradient descent** ( **Regressions** ) | **Probability
 ### Benefits 
 1. Helps **gradient descent** to `converge` ( Achieve global minima ) more quickly.
 2. Helps the model to learn appropriate `weights` for each **feature**.
-3. The model pays more attention to the features having a `high` **range** even if the feature is irrelevant.
+3. The model pays more attention to features with a `high` **range** even if the feature is irrelevant.
 4. A feature with a `low` **range** is ignored even if it is a better feature for model training.
 5. **Larger scale** features plays a **dominating role** in the model. 
 6. Reduces the **effect** of `outlier`
-7. Improves the `accuracy` and `performance` of the model.
+7. Improves the model's `accuracy` and `performance`.
 
 ### Transformation
 
