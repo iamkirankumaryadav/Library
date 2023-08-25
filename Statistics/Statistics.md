@@ -84,13 +84,14 @@ More sensitive to outliers | Less sensitive to outliers
 - `x`: Data Points.
 
 ### Confidence
-- While **Sampling**, different `Samples` can be **randomly** selected from the same **population**.
-- Each **sample** can often produce a different **Confidence Interval**. 
-- Some **Confidence Intervals** include the true **Population Parameter** ( `Centre` and `Spread` ) and others do not.
+- While `sampling`, different `samples` can be **randomly** selected from the same **population**.
+- Each **sample** can often produce a different `Confidence Interval`
+- Some `confidence intervals` include the true `population parameter**` ( `Centre` and `Spread` ) and others do not.
 
 ### Confidence Level
 - `Percentage` of all possible samples that can be expected to be present in the true population parameter. 
-- `95%` **confidence level** implies that `95%` of the confidence intervals would include the true **population parameter**.
+- `95%` **confidence level** implies that `95%` of the confidence intervals would include the true `population parameter`
+- Here population parameter means the mean, median, mode, range, variance, and standard deviation of the actual population.
 
 ### Confidence Intervals
 - A `range` of values we are sure that our population `values` will lie within that range.
@@ -115,26 +116,25 @@ More sensitive to outliers | Less sensitive to outliers
 
 > Divide the Data into 4 Equal `Quarters`
 
-1. `Min` : **lowest** data point value in a dataset.
-2. 1<sup>st</sup> **Quartile** ( `Q1` ) | 25<sup>th</sup> **Percentile** : 25% of data point values are smaller and 75% are larger.
-3. 2<sup>nd</sup> **Quartile** ( `Q2` ) | 50<sup>th</sup> **Percentile** : **Median** | 50% of data point values are smaller and 50% are larger.
-4. 3<sup>rd</sup> **Quartile** ( `Q3` ) | 75<sup>th</sup> **Percentile** : 75% of data point values are smaller and 25% are larger.
-5. `Max` : **Highest** data point value in a dataset.
+1. `Minimum`: Smallest data point value in a dataset.
+2. 1<sup>st</sup> **Quartile** ( `Q1` ) | 25<sup>th</sup> **Percentile**: 25% of data point values are smaller and 75% are larger.
+3. 2<sup>nd</sup> **Quartile** ( `Q2` ) | 50<sup>th</sup> **Percentile**: **Median** | 50% of data point values are smaller and 50% are larger.
+4. 3<sup>rd</sup> **Quartile** ( `Q3` ) | 75<sup>th</sup> **Percentile**: 75% of data point values are smaller and 25% are larger.
+5. `Maximum`: Largest data point value in a dataset.
 
-> **Five Number Summary** can be visually represented using **Boxplot**.
-- Horizontal lines on both the ends of boxplot are **Whiskers**.
-- Box is called **Interquartile Range** ( `IQR` )
+> **Five Number Summary** can be visually represented using `Boxplot`
+- Horizontal lines on both the ends of boxplot are `Whiskers`
+- Box is called `Interquartile Range` ( `IQR` )
 - `IQR` = `Q3` - `Q1`
 
-> Data point value is considered as **Outlier** if : 
+> Data point value is considered as `Outlier` if : 
 - Data point value **<** `Q1` - `1.5` * `IQR`
 - Data point value **>** `Q3` + `1.5` * `IQR`
-
-> **Outlier** is represented by dot ( **.** ) in **Boxplot** 
+- `Outlier` is represented by a dot ( `.` ) in `Boxplot`
 
 ### Percentile 
 
-Describe Percentage `%` of data point value that falls `At` or `Below` another data point value. 
+Describe the percentage `%` of data point value that falls `at` or `below` another data point value. 
 
 1. 25<sup>th</sup> **Percentile** | 1<sup>st</sup> **Quartile** 
 - 25% of data point values are **as small** or smaller.
@@ -152,11 +152,13 @@ Describe Percentage `%` of data point value that falls `At` or `Below` another d
 
 ### `Correlation`
 
+- Shows the extent to which two variables are related to each other.
 - Measures the `direction` ( Positive or Negative ) and `strength` ( `-1` to `1` ) of **relationship** between two **quantitative** variables.
 - One variable can `predict` the other variable.
-- Varies between `-1` ( Perfect `Negative` Correlation ) to `1` ( Perfect `Positive` Correlation )
+- Correlation Coefficient: `-1` ( Perfect `Negative` Correlation )
+- Correlation Coefficient: `1` ( Perfect `Positive` Correlation )
 
-Amount of `R` | Strength of `Correlation`
+Correlation Coefficient `R` | Strength of `Correlation`
 :--- | :---
 0.0  | No Correlation
 0.1 - 0.3 | Little Correlation
@@ -164,16 +166,18 @@ Amount of `R` | Strength of `Correlation`
 0.5 - 0.7 | High Correlation
 0.7 - 1.0 | Very High Correlation
 
+`Correlation` is not equal to `causation`
+
 ![Perfect Linear Correlation](Image/Perfect.png)
 
 ![Direction of Slope](Image/Direction.png)
 
 ![Strength of Slope](Image/Strength.png)
 
-### Test Correlation Coefficient for Significance ( T Test ) 
+### Test Correlation Coefficient for Significance ( T-Test ) 
 - **Null** Hypothesis ( `H0` ) : There is **No Linear Relationship**
 - **Alternate** Hypothesis ( `H1` ) : There is a **Linear Relationship**
-- P Value is Calculated ( if P Value > `0.05` : Then Accept Null Hypothesis else Reject Null Hypothesis )
+- P-Value is Calculated ( if P Value > `0.05`: Then Accept Null Hypothesis else Reject Null Hypothesis )
 
 ### Multicollinearity
 - Two or more independent features **correlate** strongly with each other.
@@ -182,7 +186,7 @@ Amount of `R` | Strength of `Correlation`
 
 ### Causality
 - Relationship between the **cause** and its **effect**.
-- One variable affects other variable ( Temperature affect icecream sale | Sale of icecream is more in summer )
+- One variable affects other variables ( Temperature affect ice cream sale | Sale of ice cream is more in summer )
 
 ### R Squared | R<sup>2</sup>
 
