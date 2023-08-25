@@ -2,15 +2,18 @@
 
 # Statistics
 
+- Statistics is the study of how to collect, organize, analyze, and interpret data.
+- It can be used to make informed decisions about a wide range of topics.
+
 ### Descriptive Statistics:
 
-- A branch of `statistics` that helps us **summarize** and **describe** a set of data.
-- It provides us techniques to understand the main **features** and **characteristics** of the data.
-- Provides a quip overview for a data. Measures `central tendency`, `variability`, and `distribution`
+- Descriptive statistics are used to `summarize` data in a way that makes it easy to understand. 
+- It provides us with techniques to understand the features and characteristics of the data.
+- Provides a quick overview of data, measures `central tendency`, `variability`, and `distribution` of the data.
 
 <h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a>&nbsp;|&nbsp;<a href='#distribute'>Measure of Distribution</a></h3>
 
-When we start anything we start from beginning but with a dataset we start from `centre`
+When we start anything we start from the beginning but with a dataset we start from the `centre`
 
 `Sample` is **representative** of `Population`
 
@@ -18,40 +21,40 @@ Larger Sample = Greater Accuracy = More Confidence
 
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
-1. `Mean` : `Average` of data points 
-2. `Median` : **Middle** data point value of an **ordered** dataset | Large data set : **Median** position : `( n + 1 ) / 2`
-3. `Mode` : Most frequent | Most common | Most occuring data point value.
+1. `Mean`: `Average` of data points 
+2. `Median`: `Middle` data point value of an ordered dataset | Large data set: `Median` position: `( n + 1 ) / 2`
+3. `Mode`: Most frequent | Most common | Most occurring data point value.
 
-`Outlier` :  The data point value which are different or far away from all the other data point values.
+`Outlier`:  The data point values that are different or far away from all the other data point values.
 
 - `Mean` calculates `average`, therefore it is affected by an `outlier`
 - `Median` concentrates only on `middle` value, therefore there is a very `low` to `no` effect by an `outlier`
 - `Mode` concentrates only on the `most frequent` values, there is `no` effect by an `outlier`
 
 ### `Central Limit Theorem`
-- As the `sample size` increases, the `distribution` approaches towards `Normal Distribution`
+- As the `sample` size increases, the `distribution` approaches towards `Normal Distribution`
 
 <h3 name='spread'>Measures of Spread | Variability</h3>
   
-- Relationship of individual data point with it's Mean 
+- Relationship of individual data points with their `mean`
 
-How the `observations` are `spreadout` or `scattered` on each side of the `centre` ( Mean | Median | Mode )
+How the `observations` are `spread` or `scattered` on each side of the `centre` ( Mean | Median | Mode )
 
 ### 1. `Range`
 
-- `Range` : `Max` - `Min`, difference between the lowest and highest data point values in the data set.
+- `Range`: `Max` - `Min`, the difference between the lowest and highest data point values in the data set.
 - `Very high` data point value can mislead the `Range` ( e.g. {8, 11, 5, 9, 7, 6, 3616 ) `Outlier`
 - Here the lowest data point value is `5` and the highest data point value is `3616`
 
 ### 2. Variance ( s <sup>2</sup> )
 
-- Sum of square of distance from its `mean`  
+- Sum of the square of the distance from its `mean`  
 - `Variability` of the data point values from its mean.
 
-### 3. Standard Deviation ( s : Square Root of Variance )
+### 3. Standard Deviation ( s: Square Root of Variance )
 - Distance of the **data points** from its **mean** in the **data set**.
-- **Small** std means `low` **variability** | Most of the **data points** are `close` to **mean** | `Narrow` distribution
-- **Large** std means `high` **variability** | Most of the **data points** are `far away` from the **mean** | `Wider` distribution
+- `Small` std means `low` **variability** | Most of the **data points** are `close` to **mean** | `Narrow` distribution
+- `Large` std means `high` **variability** | Most of the **data points** are `far away` from the **mean** | `Wider` distribution
 - Standard deviation calculates `mean`, so it is affected by an `outlier`
 
 Variance | Standard Deviation
@@ -68,8 +71,8 @@ More sensitive to outliers | Less sensitive to outliers
 ![Sample vs Population](Image/Sample.jpg)
 
 ### Z Score
-- `z` = ((`x` - `mean`) / `std`)
-- `x` : Data Points.
+- `z = ((x - mean) / std)`
+- `x`: Data Points.
 
 ### Confidence
 - While **Sampling**, different `Samples` can be **randomly** selected from the same **population**.
