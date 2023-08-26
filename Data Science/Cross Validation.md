@@ -54,11 +54,9 @@
 
 ### Hyperparameter
 
-- Parameters that control the learning process of a machine learning model.
+- Parameters that control the learning process of an ML model.
 - They are set before the model is trained.
-- e.g., the number of layers in a neural network is a hyperparameter.
-- The learning rate, which controls how quickly the model updates its parameters.
-- The values of hyperparameters can have a big impact on the performance of a machine learning model.
+- The values of hyperparameters can have a big impact on the performance of an ML model.
 - Grid search tries different values of each hyperparameter and evaluates the model's performance on a validation set.
 
 Here are some examples of hyperparameters:
