@@ -38,7 +38,7 @@ Simple model do not capture **hidden** patterns and relations properly | Model *
 - When a massive amount of data trains a model, it tends to learn from `noise` and inaccurate data.
 - Random error and noise gets added | Complex model | Too many features relative to the number of observations
 - Poor **predictive** performance | Do not **genralize** well on the **new unseen data**
-- Difference between the prediction on the **new unseen data point** and the **actual data point** is `high` ( High Variance )
+- The difference between the prediction on the **new unseen data point** and the **actual data point** is `high` ( High Variance )
 - Model tries to `fit` the training data so closely that it does not **generalize** well to **new unseen data**.
 
 `Bias` and `Variance` helps us improve the data fitting | Training process resulting in more **accurate models**.
