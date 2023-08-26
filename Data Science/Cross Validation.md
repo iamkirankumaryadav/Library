@@ -30,7 +30,7 @@
 - Reduces **bias** and **variance** ( Generally generates low bias model )
 - Best approach if we have limited input data.
 - `Very high` value of `K` will lead to `overfitting`
-- `Very low` value of `K` will work similarly to the train test split.
+- The `Very low` value of `K` will work similarly to the train test split.
 
 <h3 name='skfold'> 3. Stratified K Fold Cross Validation</h3>
 
@@ -51,6 +51,23 @@
 - Approach is **exhaustive**, need to **train** and **validate** the model for all **possible data points**.
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
+
+### Hyperparameter
+
+- Parameters that control the learning process of a machine learning model.
+- They are set before the model is trained.
+- e.g., the number of layers in a neural network is a hyperparameter.
+- The learning rate, which controls how quickly the model updates its parameters.
+- The values of hyperparameters can have a big impact on the performance of a machine learning model.
+- Grid search tries different values of each hyperparameter and evaluates the model's performance on a validation set.
+
+Here are some examples of hyperparameters:
+
+- `Learning rate`: This controls how quickly the model updates its parameters.
+- `Batch size`: This determines how much data is used to update the model's parameters at each step.
+- `# epochs`: This is the number of times the model sees the entire training data set.
+- `# layers`: This is the number of layers in a neural network.
+- `# nodes`: This is the number of nodes in each layer of a neural network.
 
 ### Grid Search:
 
