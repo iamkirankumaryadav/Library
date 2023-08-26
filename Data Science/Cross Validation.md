@@ -16,7 +16,7 @@
 <h3 name='hold'> 1. Holdout Method | Train Test Split</h3>
 
 - Split the data set in ( 70% - 30% ) or ( 80% - 20% ) for `training`, `validation` and `testing`
-- Keep a part of **data set** for **validation** and use the rest of the data set for training.
+- Keep a part of the **data set** for **validation** and use the rest of the data set for training.
 - Used to **evaluate** models ability to **generalize** the new **unseen** data.
 - There is a possibility of **high bias** if we have limited data.
 - We would miss some information about the data which we have not used for training.
@@ -64,7 +64,7 @@
 ### Random Grid Search:
 
 - `Random Grid Search` cross-validation randomly chooses the combination of parameters.
-- It is good if the data set is very large, it's less time-consuming and utilizes less resources.
+- It is good if the data set is very large, it's less time-consuming and utilizes fewer resources.
 - Less likely to overfit the training data.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
