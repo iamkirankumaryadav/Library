@@ -2,13 +2,24 @@
 
 `EDA` is a process of analyzing data sets to **summarize** their **characteristics**, using `statistics` and `data visualization` methods.
 
-1. **EDA** is a most essential step in a data science projects and data analysis process.
+1. **EDA** is the most essential step in a data science project and data analysis process.
 2. **Data scientists** spend almost 70% of their work doing EDA of their dataset.
 3. Discover patterns, spot anomalies, identify outliers, understand main characteristics, gain insights, test hypotheses, and check assumptions with summary **statistics** and **graphical representations**.
-4. An iterative cycle that involves generating questions about the data, searching for answers by visualizing, transforming, and modeling the data, and using what is learned to refine or generate new questions.
+4. An iterative cycle that involves generating questions about the data, searching for answers by visualizing, transforming, and modelling the data, and using what is learned to refine or generate new questions.
 5. **Graphical Analysis**: Visualizations and charts are used to visualize trends and patterns in the data.
 6. **Statistical Analysis**: Measuring central tendency, spread, variability and distribution are used to analyze the data.
-7. EDA helps to prepare the dataset for analysis, allows a ML model to predict, gives more accurate results, and helps to choose a better ML model.
+7. EDA helps to prepare the dataset for analysis, allows an ML model to predict, gives more accurate results, and helps to choose a better ML model.
+8. Allows you to get a better understanding of your data before you start building models or making predictions.
+9. The best approach will vary depending on the specific data set and the goals of your analysis.
+10. EDA is a powerful tool that can help you to better understand your data and make better decisions about how to use it. 
+
+### By exploring your data, you can identify the following:
+
+1. `Missing values`: Are there any missing values in your data?
+2. `Outliers`: Are there any outliers in your data? Outliers are data points that are significantly different from the rest of the data. They can be caused by errors in data collection or data entry, or they can be real data points that are just unusual.
+3. `Distributions`: What are the distributions of your data? Are they normally distributed, skewed, or have some other shape?
+4. `Relationships`: Are there any relationships between your variables? For example, are some variables correlated with each other?
+5. `Patterns`: Are there any patterns in your data? For example, are there any trends over time?
 
 ### Steps:
 
