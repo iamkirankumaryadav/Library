@@ -153,3 +153,5 @@ df.drop(['Address Line 2', 'Address Line 3'], axis = 1, inplace = True)
 # Create dummy variables for categorical features:
 df = pd.get_dummies(df, columns = categorical_columns, drop_first = True)
 ```  
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
