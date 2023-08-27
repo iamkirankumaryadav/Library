@@ -65,7 +65,7 @@ df.dropna(inplace=True)
 ```
 
 ### 4. Data Visualization:
-- Create visual representation of the data to gain insights.
+- Create a visual representation of the data to gain insights.
 - Generate various plots, such as histograms, scatter plots, box plots and correlation matrix
 - Libraries like Matplotlib, Seaborn or Plotly to create visuals.
 
@@ -79,8 +79,8 @@ plt.show()
 ```
           
 ### 5. Feature Engineering:
-- Explore and create new features from the existing feature to enhance the predictive power of the data.
-- FE involves transformation, scailing, binning and creating derived features based on domain knowledge.
+- Explore and create new features from the existing features to enhance the predictive power of the data.
+- FE involves transformation, scaling, binning and creating derived features based on domain knowledge.
 
 ```python
 # Create new feature by binning an existing feature:
@@ -104,8 +104,8 @@ plt.show()
 
 ### 7. Outlier Detection:
 - Identify, detect and handle outliers in the dataset.
-- Outliers can significantly impact analysis and modeling results.
-- Data visualizations helps in finding outliers (Box Plot, Scatter Plots, etc)
+- Outliers can significantly impact analysis and modelling results.
+- Data visualizations help in finding outliers (Box Plot, Scatter Plots, etc.)
 - Statistical techniques such as Z scores or Interquartile Range (IQR)
 
 ```python
@@ -131,9 +131,9 @@ median_value = df['data'].median()
 df['data'][outliers] = median_value
 ```
 
-### 8. Data Transformation and Scailing:
+### 8. Data Transformation and Scaling:
 - Make the data more normally distributed.
-- Scale the features to ensure they are on same scale.
+- Scale the features to ensure they are on the same scale.
 
 ```python
 from sklearn.preprocessing import StandardScaler
