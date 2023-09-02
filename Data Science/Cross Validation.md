@@ -2,14 +2,13 @@
 
 # `Cross Validation`
 
-- `Cross validation` is a `resampling` technique used to `evaluate` model performance on a `limited` dataset.
+- `Cross validation` is a `resampling` technique used to `evaluate` the trained model performance on a `limited` dataset.
 - Once the model is trained, we just can't assume that it is going to perform well on the **new unseen data**.
 - We can't be sure that the model will give the desired `accuracy` and `variance`
 - We need some kind of `assurance` for the `accuracy` of the `predictions` that our model will give. 
 - `Validation` : **Assurance** that your model is trained well ( **Low Bias** and **Low Variance** ) 
 - To evaluate the performance of any model, we need to test it on some new unseen data.
 - So based on the performance we can say whether there is `underfitting` or `overfitting`
-- `Cross Validation` is one of the techniques used to evaluate the performance of the trained model.
 
 <h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
 
