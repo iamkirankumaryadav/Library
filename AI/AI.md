@@ -5,7 +5,7 @@
 Term | Definition
 :--- | :---
 **Data** | **Collection** of `Facts`, `Informations` or `Observations`
-**Data Design** | How you **Organize** Information and Data.
+**Data Design** | How you **organize** informations and data.
 **Data Strategy** | Management of `People`, `Prices` and `Tools` used in **Data Analysis**.
 **Data Ingestion** | Unstructured data extracted from multiple sources and prepared for **Analytics**, **Insights** or **Model building**.
 **Data Analytics** | **Collect**, **Transform** and **Organize** Data in order to make **Future Prediction** or **Forecasting**.
