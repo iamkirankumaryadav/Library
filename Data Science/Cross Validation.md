@@ -17,7 +17,7 @@
 - Split the data set in ( 70% - 30% ) or ( 80% - 20% ) for `training`, `validation` and `testing`
 - Keep a part of the **data set** for **validation** and use the rest of the data set for training.
 - Used to **evaluate** models ability to **generalize** the new **unseen** data.
-- There is a possibility of **high bias** if we have limited data, the model will not train properly.
+- There is a possibility of **high bias** if we have limited data, it will not train the model properly.
 - We would miss some information about the data which we have not used for training.
 
 <h3 name='kfold'> 2. K Fold Cross Validation</h3>
