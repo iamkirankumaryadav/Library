@@ -4,29 +4,29 @@
 
 - `Model` used for `classification` tasks like classifying flower species or image classification.
 - Transforms output using `Sigmoid` function to return a `probability distribution` value ( Mapped to 2 `discrete` classes )
-- Especially `binary` classification, it predicts the `probability distribution` of class which lies within range `0` and `1`.
-- `Probability` of `occurence` of `target label` is predicted on the basis of `threshold` ( `0.5` ) 
-- Explain relationship between one dependent `binary` variable and one or more `nominal` or `ordinal` independent variable.
+- Especially `binary` classification, it predicts the `probability distribution` of class which lies within the range `0` and `1`.
+- `Probability` of `occurrence` of the `target label` is predicted on the basis of `threshold` ( `0.5` ) 
+- Explain the relationship between one dependent `binary` variable and one or more `nominal` or `ordinal` independent variables.
 - Logistic regression is affected by the scale, so always `standardize` the features before applying logistic regression. 
 
-### Logistic Function  | `Sigmoid` Function ( S Shaped Curve )
-- Accepts any `real` value and map it into a value between `0` and `1`
+### Logistic Function  | `Sigmoid` Function ( S-Shaped Curve )
+- Accepts any `real` value and maps it into a value between `0` and `1`
 - The probability prediction is transformed to `binary` | dichotomous ( `0` and `1` )
-- `Threshold` : 0.5 ( `Probability` < `0.5` is considered as `0` else `1` )
+- `Threshold`: 0.5 ( `Probability` < `0.5` is considered as `0` else `1` )
 
-### When to use Logistic Regression ?
-- When `target` variable has `binary` class labels, it performs well with a small number of observations.
+### When to use Logistic Regression?
+- When the `target` variable has `binary` class labels, it performs well with a small number of observations.
 - Data with very low `outliers` or `missing` data points in the data set.
 - Logistic regression is good for `fast training` ( It is not the best performing model )
 - No `tuning` is usually required.
 
 ### Remove Correlated Independent Feature
 - The model can `overfit` if you have multiple highly correlated independent features.
-- Calculate the `pairwise correlations` between all independent features and remove highly correlated independent feature.
+- Calculate the `pairwise correlations` between all independent features and remove highly correlated independent features.
 
 ### Example
 - `Linear regression` helps us to `predict` the student's test score on a scale of 0 - 100 | `Continuous`
-- `Logistic regression` helps us to `classify` whether the student is passed or failed | `Discrete`
+- `Logistic regression` helps us to `classify` whether the student has passed or failed | `Discrete`
 
 ### `Types` of Logistic Regression
 - `Binary` ( Pass(1) | Fail(0 )  
@@ -48,7 +48,7 @@ from sklearn import metrics
 df = pd.read_csv("Data.csv")
 
 # Split the data set :
-X_train, X_test, y_train, y_test = train_test_split(df["indepenedent variable"], df["target variable"], random_state = 0)
+X_train, X_test, y_train, y_test = train_test_split(df["independent variable"], df["target variable"], random_state = 0)
 
 # Standardize the data ( Mean = 0 and Std = 1 )
 scaler = StandardScaler()
@@ -60,7 +60,7 @@ scaler.fit(X_train)
 X_train = scaler.transform(X_train)
 X_test = scaler.transform(X_test)
 
-# logistic Regression ( Create model object )
+# Logistic regression ( Create model object )
 model = LogisticRegression()
 
 # Model learn from data
@@ -89,10 +89,10 @@ cm = metrics.confusion(y_test, model.predict(X_test))
 
 Extends `binary` class classification to `multiclass` classification.
 
-- digit `0` vs digit `1`, `2` and `3`
-- digit `1` vs digit `0`, `2` and `3`
-- digit `2` vs digit `0`, `1` and `3`
-- digit `3` vs digit `0`, `1` and `2`
+- digit `0` vs. digit `1`, `2` and `3`
+- digit `1` vs. digit `0`, `2` and `3`
+- digit `2` vs. digit `0`, `1` and `3`
+- digit `3` vs. digit `0`, `1` and `2`
 
 [Implementation](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/05.Logistic%20Regression%20for%20Multiclass%20Classification.ipynb)
 
