@@ -137,8 +137,8 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
     <td>e.g. Male or Female, True or False, Dog or Cat, etc.</td>
   </tr>
   <tr>
-    <td>Better algorithms : Decision Tree, Random Forest, KNN</td>
-    <td>Better algorithms : Logistic, Polynomial, SVM</td>
+    <td>Better algorithms: Decision Tree, Random Forest, KNN</td>
+    <td>Better algorithms: Logistic, Polynomial, SVM</td>
   </tr>
 </table>
 
@@ -182,7 +182,7 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
 
 ![Equation of Line](Image/EquationLine.png)
 
-- Linear regression used a straight line to predict the value of a dependent variable from an independent variable.
+- Linear regression uses a straight line to predict the value of a dependent variable from an independent variable.
 - The straight line is called the regression line. Formula: `y = mx + c`
 - Linear regression is used when there is a linear relationship between the two variables.
 - The relationship can be described by a straight line, it uses existing data to train the model.
@@ -194,43 +194,42 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/04.Logistic%20Regression.ipynb)
 
 - Model used for `classification` tasks like classifying flower species and image recognition.
-- One or more independent features is used to **classify** `categorical` target labels. 
+- One or more independent features are used to **classify** `categorical` target labels. 
 - Dependent ( Output ) should be `categorical` ( 0 or 1 )
-- `Probability` of finite number of outcomes or occurence.
+- `Probability` of a finite number of outcomes or occurrences.
 
 ### Advantages of Logistic Regression
 
 - Model `training` and `predictions` are relatively fast, no tuning is usually required.
-- Performs well with small number of observations or samples.
+- Performs well with a small number of observations or samples.
 
 ### Logistic Regression for Multiclass Classification
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/05.Logistic%20Regression%20for%20Multiclass%20Classification.ipynb)
 
-- Split the task into multiple binary classification dataset.
+- Split the task into multiple binary classification datasets.
 - **Fit** a binary classification ( Logistic Regression ) model on each.
 - One vs Rest (`OvR`) or One vs All (`OvA`) is a technique that extends binary classification to **multiclass**.
 - Digit `0` vs Digit `1`, `2` and `3`
 - Digit `1` vs Digit `0`, `2` and `3`
 - Digit `2` vs Digit `0`, `1` and `3`
 - Digit `3` vs Digit `0`, `1` and `2`
-- Model that predicts the **higest** class probability is the predicted class.
+The model that predicts the **highest** class probability is the predicted class.
   
 <h3 name='tree'>3. Decision Tree</h3>
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/06.Decision%20Tree.ipynb)
 
-- A very interpretable machine learning algorithm.
 - `Root Node`: `Decisions` | `Conditions` | `Outcomes`
 - `Edges`: `Branches` | `Splits`
 - `Leaf Node`: `Terminal` | `Label` | `Class`
-- We select the feature as `Node` that **splits** the data very well.
+- We select the feature as `node` that **splits** the data very well.
 - Attribute with `High Information Gain` or `Low Entropy` or `Low Gini Index` is selected as `best attribute` to split.
 - Used especially for `binary` classification and `multiclass` classification and even used for `Regression`
 - Models, where the `target` variable takes a `categorical` set of values, are a `classification` tree.
 - Models, where the `target` variable takes a `continuous` value, are `regression` Tree.
 - `CART` : **C**lassification **A**nd **R**egression **T**ree.
-- Growing a tree means deciding which **Feature** to choose. and what condition to use ? for splitting.
+- Growing a tree means deciding which `feature` to choose and what condition to use? for splitting.
 - `Continuous` can be converted into `binary` or `boolean` by setting the `threshold` value.
 - We should also know when to `stop` | `terminate` ( **Max Depth** ) to prevent from `overfitting`
 - Decision tree can be `pruned` if necessary to avoid `overfitting`
@@ -243,7 +242,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 - `High Information Gain` is better ( Explains the split very well )
 - `Information Gain` decides which feature will become `Node` and will `split` the data further for building the **tree**.
-- Split with the `High Information Gain` will be considered as first split and the process will continue untill **IG** becomes 0.
+- Split with the `High Information Gain` will be considered as the first split and the process will continue until **IG** becomes 0.
 
 ### `Gini Index` ( Checks for `Impurity` in the dataset )
 
