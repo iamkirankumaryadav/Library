@@ -268,16 +268,19 @@ Handle **non linear data** |
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/09.Random%20Forest.ipynb)
 
-- An ensemble learning method used for both `regression` and `classification`
+- An ensemble learning method that uses multiple decision trees used for both `regression` and `classification`
+- Ensemble learning algorithms combine the predictions of multiple models to produce a more accurate prediction.
+- Once the decision trees are trained, they are used to predict new data points.
 - A collection of decision trees, where each decision tree is built using a random subset of the training data ( feature matrix )
-- Multiple `decision trees` ( weak learners ) are trained `parallely` and `individually` | `independently`
-- `Bootstrapping` ( Row sampling with replacement ) : Subsets are randomly selected from the original dataset.
-- `Majority Voting` : `Prediction` of model is based on the **voting** of decision trees outputs.
+- Multiple `decision trees` ( weak learners ) are trained `parallel` and `individually` | `independently`
+- `Bootstrapping` ( Row sampling with replacement ): Subsets are randomly selected from the original dataset.
+- `Majority Voting`: `Prediction` of the model is based on the **voting** of decision tree outputs.
 - `Regression`: The mean prediction of the individual decision trees is considered.
-- `Classification` : The class selected by most of the decision trees are considered.
+- `Classification`: The class selected by most of the decision trees are considered.
 - Random forest creates a model that is more accurate and less prone to overfitting than a single decision tree.
-- `Bagging` : Multiple decision trees are trained in `parallel` to form one strong accurate predicting model.
-- Adding multiple decision trees reduces the risk of `error` and `overfitting` by reducing the variance. 
+- `Bagging`: Multiple decision trees are trained in `parallel` to form one strong accurate predicting model.
+- Adding multiple decision trees reduces the risk of `error` and `overfitting` by reducing the variance.
+- Random forests are accurate, robust to overfitting, used for both regression and classification and can be trained on data of any type (numerical, categorical, and ordinal data)
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
