@@ -221,19 +221,23 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/06.Decision%20Tree.ipynb)
 
 - A very interpretable machine learning algorithm.
-- `Root Node` : `Decisions` | `Conditions` | `Outcomes`
-- `Edges` : `Branches` | `Splits`
-- `Leaf Node` : `Terminal` | `Label` | `Class`
+- `Root Node`: `Decisions` | `Conditions` | `Outcomes`
+- `Edges`: `Branches` | `Splits`
+- `Leaf Node`: `Terminal` | `Label` | `Class`
 - We select the feature as `Node` that **splits** the data very well.
 - Attribute with `High Information Gain` or `Low Entropy` or `Low Gini Index` is selected as `best attribute` to split.
 - Used especially for `binary` classification and `multiclass` classification and even used for `Regression`
-- Models where the `target` variable takes a `categorical` set of values are `classification` tree.
-- Models where the `target` variable takes a `continuous` values are `regression` Tree.
+- Models, where the `target` variable takes a `categorical` set of values, are a `classification` tree.
+- Models, where the `target` variable takes a `continuous` value, are `regression` Tree.
 - `CART` : **C**lassification **A**nd **R**egression **T**ree.
-- Growing a tree means deciding which **Feature** to choose ? and what condition to use ? for splitting.
-- `Continuous` can be converted into `binary` or `boolean` by setting `threshold` value.
+- Growing a tree means deciding which **Feature** to choose. and what condition to use ? for splitting.
+- `Continuous` can be converted into `binary` or `boolean` by setting the `threshold` value.
 - We should also know when to `stop` | `terminate` ( **Max Depth** ) to prevent from `overfitting`
-- Decision tree can be `pruned` if necessary to avoid `overfitting` 
+- Decision tree can be `pruned` if necessary to avoid `overfitting`
+
+```python
+from sklearn.tree import DecisionTreeClassifier
+```
 
 ### `Information Gain` ( Which Feature will be selected as Root Node ? )
 
@@ -244,23 +248,23 @@ Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find
 ### `Gini Index` ( Checks for `Impurity` in the dataset )
 
 - `Low Gini Index` is better.
-- `Pure` : All data belongs to `same` class in a subset ( Gini Index = 0 )
-- `Impure` : Data is mixture of `different` classes in a subset.
+- `Pure`: All data belongs to the `same` class in a subset ( Gini Index = 0 )
+- `Impure`: Data is a mixture of `different` classes in a subset.
 
 ### `Entrophy` ( Measure Disorder | Randomness | Uncertainity in Data )
 
-- `Low Entrophy` is better. ( Easy to draw conclusion from data )
-- `High Entrophy` ( Hard to draw conclusion from data )
+- `Low Entropy` is better. ( Easy to draw conclusions from data )
+- `High Entropy` ( Hard to draw conclusions from data )
 
 Advantage of Decision Tree | Disadvantage of Decision Tree
 :--- | :---
 Handle `categorical` and `numerical` data | Prone to `overfitting`
-No effect of `outliers` | Need carefull **parameter tuning**
+No effect of `outliers` | Need careful **parameter tuning**
 Handle **non linear data** |
 
-### Individual trees are prone to `overfitting` but improves when `ensembled`
+### Individual trees are prone to `overfitting` but improve when `ensembled`
 
-### How to Avoid Overfitting ?
+### How to Avoid Overfitting?
 - Remove | `Prune` branches with less importance ( Irrelevant Feature )
 - Early stop ( Limit the `Max Depth` of the tree )
 
@@ -268,19 +272,23 @@ Handle **non linear data** |
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/09.Random%20Forest.ipynb)
 
-- An ensemble learning method that uses multiple decision trees used for both `regression` and `classification`
+- An ensemble learning method that uses multiple `decision trees` for both `regression` and `classification`
 - Ensemble learning algorithms combine the predictions of multiple models to produce a more accurate prediction.
 - Once the decision trees are trained, they are used to predict new data points.
-- A collection of decision trees, where each decision tree is built using a random subset of the training data ( feature matrix )
+- Each decision tree is built using a random subset of the training data ( feature matrix )
 - Multiple `decision trees` ( weak learners ) are trained `parallel` and `individually` | `independently`
 - `Bootstrapping` ( Row sampling with replacement ): Subsets are randomly selected from the original dataset.
 - `Majority Voting`: `Prediction` of the model is based on the **voting** of decision tree outputs.
-- `Regression`: The mean prediction of the individual decision trees is considered.
+- `Regression`: The mean/average of the predictions of all the decision trees are considered.
 - `Classification`: The class selected by most of the decision trees are considered.
-- Random forest creates a model that is more accurate and less prone to overfitting than a single decision tree.
+- Random forest creates a model that is more accurate and less prone to `overfitting` than a single decision tree.
 - `Bagging`: Multiple decision trees are trained in `parallel` to form one strong accurate predicting model.
 - Adding multiple decision trees reduces the risk of `error` and `overfitting` by reducing the variance.
-- Random forests are accurate, robust to overfitting, used for both regression and classification and can be trained on data of any type (numerical, categorical, and ordinal data)
+- Random forests are accurate, robust to `overfitting`, used for both `regression` and `classification`. Can be trained on data of any type (numerical, categorical, and ordinal data)
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+```
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
