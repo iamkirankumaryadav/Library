@@ -223,6 +223,9 @@ The model that predicts the **highest** class probability is the predicted class
 - `Root Node`: `Decisions` | `Conditions` | `Outcomes`
 - `Edges`: `Branches` | `Splits`
 - `Leaf Node`: `Terminal` | `Label` | `Class`
+- The `Decision Tree` recursively splits the data into smaller subsets based on the values (Continuous or Discrete) of input variables.
+- At each split, the algorithm chooses the best variable to split the data on and then splits the data into two subsets based on the values of that variable.
+- Process continues until the data is split into subsets that are pure.
 - We select the feature as `node` that **splits** the data very well.
 - Attribute with `High Information Gain` or `Low Entropy` or `Low Gini Index` is selected as `best attribute` to split.
 - Used especially for `binary` classification and `multiclass` classification and even used for `Regression`
