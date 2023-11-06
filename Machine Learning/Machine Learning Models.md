@@ -464,29 +464,29 @@ B. Divisive
 
 <h3 name='tsne'>t-SNE ( t Distributed Stochastic Neighbor Embedding )</h3>
 
-- Non Linear Dimension Reduction ( Spiral, Mixed ) 
-- Data which is Complicated for Understanding ( Multi Dimensional Data )
+- Non-Linear Dimension Reduction ( Spiral, Mixed ) 
+- Data which is Complicated for Understanding ( Multi-Dimensional Data )
 - A Tool to **Visualize** and **Explore** High Dimension Data.
-- Identify **Clusters** based on Similarity of Data Points.
+- Identity **Clusters** based on Similarity of Data Points.
 - Maps **Multi Dimensional Data** to a **Lower Dimensional Space**. 
 
 ### Anomaly Detection :
 - Automatically Discover **Unusual** Data Points in Data Set.
-- Used to Find Fraudulent Transactions, Identify an `Outlier` caused by Human Error during Data Entry.
+- Used to Find Fraudulent Transactions and identify an `Outlier` caused by Human Error during Data Entry.
 - Reduces Complexity of Data and Helps to Understand Data more Clearly and Better Way.
 
 ### Association Mining :
-- Set of Items that Frequently Occur together in Data Set.
-- Basket Analysis : Items Bought Together | Goods Purchased at the Same Time Help to Develop Marketing Strategies.
+- Set of Items that Frequently Occur together in a Data Set.
+- Basket Analysis: Items Bought Together | Goods Purchased at the Same Time Help to Develop Marketing Strategies.
 
 ### Feature Selection
 - **Select** Important Features | Helps to Improve **Accuracy** | Not Every Feature Adds Value to Solve Problem.
-- **Understanding** Each Feature before using it for Creating Machine Learning Model.
+- **Understanding** Each Feature before using it for Creating a Machine Learning Model.
 - **Correaltion** between **Features** and **Target** helps to Select Better Features.
 - **Ensemble Learning Techniques** have a Parameter of **feature_importance** which helps us to find Important Features.
 
 ### Standardization 
-- Standardize the **Range** of the **Continuous** Initial Variables so that each one of them contributes Equally to the **Analysis**.
+- Standardize the **range** of the **continuous** variables so that each one of them contributes equally to the **analysis**.
 
 ![Machine Learning Map](Image/MLMap.jpg)
 
