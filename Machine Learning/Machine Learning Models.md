@@ -319,23 +319,23 @@ from sklearn.ensemble import RandomForestClassifier
 
 - `KNN` is used for both `regression` and `classification`
 - `KNN` measures the `geometrical distance` ( euclidean distance ) 
-- Initialize `K` ( `# nearest neigbors` ) 
-- Calculate distance between new data points and `K nearest neigbours` of training data points.
-- Sort the calculated distance in `ascending` order and get `shortest` distance or `most frequent` classes in neighbor.
-- `Regression` : `Mean` of K nearest distances are considered.
-- `Classification` : `Mode` of K nearest distances are considered.
+- Initialize `K` ( `# nearest neighbours` ) 
+- Calculate the distance between new data points and `K nearest neigbours` of training data points.
+- Sort the calculated distance in `ascending` order and get `the shortest distance or `most frequent` classes in neighbour.
+- `Regression`: `Mean` of K nearest distances are considered.
+- `Classification`: `Mode` of K nearest distances are considered.
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
 - Naive Bayes is a `probabilistic classifier`, based on `Class Prediction Probability` ( `Binary` and `Multiclass` classification )
 - Creates the `conditional probability distribution` for all the classes independently.
-- `Naive` : Assumes that all of the `features` are `independent` from each other ( No correlation between any feature )
-- e.g `Classification` of Dogs Breed ( Naive Bayes tries to create a `probability` that each Dog belongs to seperate `Class` )
+- `Naive`: Assumes that all of the `features` are `independent` from each other ( No correlation between any feature )
+- e.g `Classification` of Dogs Breed ( Naive Bayes tries to create a `probability` that each Dog belongs to separate `Class` )
 - `Weights` can be added to improve `accuracy`
 
 > P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
 
-All follow same process in **Regression** and **Classification** the only difference is in **Output**. 
+All follow the same process in **Regression** and **Classification** the only difference is in **Output**. 
 
 > **Regression** : **Continuous Numerical**
 
@@ -350,18 +350,18 @@ All follow same process in **Regression** and **Classification** the only differ
   </tr>
   <tr>
     <td>Group | Cluster | Segment similar data points.</td>
-    <td>Identify set of items that occur together in the dataset.</td>
+    <td>Identify a set of items that occur together in the dataset.</td>
   </tr>
   <tr>
     <td>Grouping the similar data points.</td>
-    <td>Find important relationship between data points.</td>
+    <td>Find important relationships between data points.</td>
   </tr>
   <tr>
-    <td>Group of customers with similar purchasing behavior.</td>
-    <td>Customer buy phone also tend to buy case.</td>
+    <td>Group of customers with similar purchasing behaviour.</td>
+    <td> Customers who buy phones also tend to buy cases.</td>
   </tr>
   <tr>
-    <td>Better algorithms : K Means, Hierarchical, PCA</td>
+    <td>Better algorithms: K Means, Hierarchical, PCA</td>
     <td>Better algorithms : Apriori</td>
   </tr>
 </table>
@@ -373,7 +373,7 @@ All follow same process in **Regression** and **Classification** the only differ
  <h1 name='cluster' align=center>Clustering</h1>
 
 - Find some underlying `pattern` and `structure` in data.
-- Groups the data set into **segments** or **clusters** based on **similarity**.
+- Groups the data points into **segments** or **clusters** based on **similarity**.
 - Customer Segmentation | Fraud Detection | Document Classification
 
 ### Clustering Techniques
@@ -385,53 +385,56 @@ All follow same process in **Regression** and **Classification** the only differ
 - Cluster data points with similar characteristics in one cluster.
 - We choose **K** number of clusters.
 - Select **K** random data points as `centroid`
-- Data points nearest to its corresponding `centroid` belongs to that **cluster**.
-- Again the `centroid` is calculated, the data points are updated based on new `centroid`
+- Data points nearest to its corresponding `centroid` belong to that **cluster**.
+- Again the `centroid` is calculated, and the data points are updated based on the new `centroid`
 - **Iterative** Process | Stops when there is no further classification.
 - Different starting points ( Random centroid selected ) Create different clusters. 
-- **Elbow** Method : Sum of squared distance get smaller as the number of clusters increases.  
-- `Elbow` method helps to find **optimal** number of clusters.
+- **Elbow** Method: The sum of squared distance gets smaller as the number of clusters increases.  
+- The `Elbow` method helps to find the **optimal** number of clusters.
 
 <h3 name='hc'>2. Hierarchical Clustering</h3>
 
+ Groups data points into a `hierarchy` of clusters. 
+
 A. Agglomerative
-- Bottom Up Approach
-- **AGNES** ( **Ag**glomerative **Nes**ting )
-- Each Data Point is considered as an Individual Cluster
-- At each Iteration, Similar Clusters merge with other Clusters until One Single Cluster remains.
+- Bottom-Up Approach
+- `AGNES`: **Ag**glomerative **Nes**ting
+- Starts with treating each data point as a part of its own individual cluster.
+- After each iteration, similar and closest clusters are merged with each other, until there is only one cluster remaining.
 
 B. Divisive
 - Top Down Approach
 - **DIANA** ( **Di**vise **Ana**lysis )
-- Dividing the Single Cluster into n Clusters
+- Starts with all the data points in a single cluster.
+- After each iteration, it splits the large clusters into two smaller clusters, until each cluster contains only one data point.
 
-### How we Calculate Similarity between the Clusters
-- **MIN** ( Distance between the Closest Points of Two Clusters )
-- **MAX** ( Distance between the Farthest Points of Two Clusters )
-- Group **AVG** ( Average of Distance between Each Data Points of Two Clusters )
-- Distance between **Centroids** ( Distance between the Centroid of Two Clusters )
+### How do we Calculate the similarity between the clusters?
+- `MIN`: Distance between the closest data points of two clusters.
+- `MAX`: Distance between the farthest data points of two clusters.
+- `AVG`: Average distance between each data point of two clusters.
+- `Centroids`: Distance between the centroid of two clusters.
  
 <h3 name="dbscan"> 3. Density Based Clustering </h3>
 
-- `DBSCAN` ( Density Based Spatial Clustering of Applications with **Noise** )
+- `DBSCAN` ( Density-Based Spatial Clustering of Applications with **Noise** )
 - Group similar data points together based on density.
-- High Density Region : Points are `close` to each other | High neighbours within the radius.
-- Data points which are in `low density` regions are `outliers`.
-- Clustering methods explains better with visualization. e.g. Scatter Plot.
+- High Density Region: Points are `close` to each other | High neighbours within the radius.
+- Data points in `low density` regions are `outliers`.
+- Clustering methods explain better with visualization. e.g. Scatter Plot.
 - Relationships between features can be represented via clustering.
 
 ### B. Dimensionality Reduction
 
 - A technique used to reduce the number of `features` or `variables` in a dataset while retaining the most important information.
-- Aim is to find the **important features | variables** that can be used by model for better predition.
-- Reducing **irrelevant features** that has no relation with the target feature.
-- There are some features that brings `Multicollinearity`
+- The aim is to find the **important features | variables** that the model can use for better prediction.
+- Reducing **irrelevant features** that have no relation with the target feature.
+- There are some features that bring `Multicollinearity`
 - **Feature Elimination** | **Feature Selection** or **Feature Extraction**
-- Save storage and time by improving performance of model.
+- Save storage and time by improving the performance of the model.
 - Due to less number of features it can be visualized in `2D` and `3D`.
-- Project data into lower dimension while preserving as much as useful variability ( 19/20 ) as possible.
-- e.g If we observe a `Scatter Plot` in multidimension it will be complicated for understanding. 
-- Consider only 1D then it is just a line and few Points in which some are close to line and some are bit far away from line.
+- Project data into lower dimensions while preserving as much useful variability ( 19/20 ) as possible.
+- e.g. If we observe a `Scatter Plot` in multi-dimension it will be complicated for understanding. 
+- Consider only 1D then it is just a line and a few points in which some are close to the line and some are a bit far away from the line.
 - Combine features or remove features to reduce dimensions.
 
 ### Techniques of Dimensionality Reduction
