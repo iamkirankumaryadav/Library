@@ -28,11 +28,19 @@
 - Reduce `dimensions` ( # features ), explain `variance` and minimize `correlation` ( redundancy )
 
 ### Principle Component Analysis `PCA`: Unsupervised | Numerical
+- The goal of `PCA` is to reduce the dimensionality of the data while preserving as much of the information as possible.
 - `Transforms` large data sets into small ones without `loss` of any information in the dataset.
+- `PCA` creates a new set of uncorrelated variables that retain most of the information in the original data.
 - Reduce the number of data, especially `numerical` data.
 
+Advantages:
+1. Data Visualization: Reduce the dimensions of data to make it easier to visualize.
+2. Feature Extraction: Extract the most important features from the dataset.
+3. Noise Reduction: Reduce noise in the data.
+4. Data Compression: Compress data without losing much information.
+
 ### Linear Discriminant Analysis `LDA`: Supervised | Categorical
-- Separate `classes` or `labels`, works better with the large data set, especially `categorical` data.
+- Separate `classes` or `labels`, works better with a large data set, especially `categorical` data.
  
 ### Auto Encoder | Unsupervised | `ANN`
 - Learn and discover the `structure` of the dataset, ignoring noise in data. 
