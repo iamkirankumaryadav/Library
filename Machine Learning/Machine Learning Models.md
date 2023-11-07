@@ -461,17 +461,17 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/11.PCA.ipynb)
 
-- Transforms a dataset into a new set of variables without loosing information called principal components.
+- Transforms a dataset into a new set of variables without losing information called principal components.
 - PCA aims to capture the most important patterns or relationships in the data while reducing its dimensionality.
 - Reduce the **dimensions** of large dataset.
 - Small data sets are **easy** to **explore** and **visualize**.
 - **Analyzing** and **training** is also much **easier** and **faster**.
-- First principal component is the linear combination that explains the largest amount of variation in the data.
+- The first principal component is the linear combination that explains the largest amount of variation in the data.
 - Subsequent principal components explain decreasing amounts of variation.
-- Most of the informations within the initial variables are **compressed** into **first components**.  
+- Most of the information within the initial variables is **compressed** into **first components**.  
 - PCA tries to put **maximum possible information** in **first component**. 
-- And then remaining information in the corresponding **components**.
-- `PCA` is effected by scale, so scaling of features before applying `PCA` is important.
+- And then the remaining information in the corresponding **components**.
+- `PCA` is affected by scale, so scaling of features before applying `PCA` is important.
 - Reconstruct the original data from the reduced dimensional representation by using a subset of the principal components.
 - This reconstruction is an approximation of the original data but captures the essential characteristics.
 
@@ -482,29 +482,29 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 
 <h3 name='tsne'>t-SNE ( t Distributed Stochastic Neighbor Embedding )</h3>
 
-- Non-Linear Dimension Reduction ( Spiral, Mixed ) 
-- Data which is Complicated for Understanding ( Multi-Dimensional Data )
-- A Tool to **Visualize** and **Explore** High Dimension Data.
-- Identity **Clusters** based on Similarity of Data Points.
-- Maps **Multi Dimensional Data** to a **Lower Dimensional Space**. 
+- Non-linear dimension reduction ( Spiral, Mixed ) 
+- Data that is complicated to understand ( Multi-Dimensional Data )
+- A tool to visualize and explore high-dimension data.
+- Identity clusters based on the similarity of data points.
+- Maps **multi dimensional data** to a **lower dimensional space**. 
 
 ### Anomaly Detection :
-- Automatically Discover **Unusual** Data Points in Data Set.
-- Used to Find Fraudulent Transactions and identify an `Outlier` caused by Human Error during Data Entry.
-- Reduces Complexity of Data and Helps to Understand Data more Clearly and Better Way.
+- Discover unusual data points in the data set.
+- Used to find fraudulent transactions and identify an `outlier` caused by human error during data entry.
+- Reduces complexity of data and helps to understand data more clearly and better way.
 
 ### Association Mining :
-- Set of Items that Frequently Occur together in a Data Set.
-- Basket Analysis: Items Bought Together | Goods Purchased at the Same Time Help to Develop Marketing Strategies.
+- Set of items that frequently occur together in a data set.
+- Basket Analysis: Items bought together | Goods purchased at the same time help to develop marketing strategies.
 
 ### Feature Selection
-- **Select** Important Features | Helps to Improve **Accuracy** | Not Every Feature Adds Value to Solve Problem.
-- **Understanding** Each Feature before using it for Creating a Machine Learning Model.
-- **Correaltion** between **Features** and **Target** helps to Select Better Features.
-- **Ensemble Learning Techniques** have a Parameter of **feature_importance** which helps us to find Important Features.
+- Select important features | Helps to improve accuracy | Not every feature adds value to solve the problem.
+- Understanding each feature before using it for creating an ML model.
+- Correlation between `features` and `target` helps to select better features.
+- `Ensemble learning techniques` have a parameter of `feature_importance` which helps us to find important features.
 
 ### Standardization 
-- Standardize the **range** of the **continuous** variables so that each one of them contributes equally to the **analysis**.
+- Standardize the `range` of the continuous variables so that each one of them contributes equally to the analysis.
 
 ![Machine Learning Map](Image/MLMap.jpg)
 
