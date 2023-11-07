@@ -307,7 +307,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 ### Benefits 
 
-- SVM works well with `unstructured` and `semi structured` data ( text, image, face, anomaly detections, etc. )
+- SVM works well with `unstructured` and `semi-structured` data ( text, image, face, anomaly detections, etc. )
 - `Generalize` well on the new unseen data and risk of `overfitting` is also less.
 
 ### Disadvantage
