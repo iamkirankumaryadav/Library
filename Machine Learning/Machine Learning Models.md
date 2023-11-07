@@ -426,14 +426,20 @@ B. Divisive
 - `AVG`: Average distance between each data point of two clusters.
 - `Centroids`: Distance between the centroid of two clusters.
  
-<h3 name="dbscan"> 3. Density Based Clustering </h3>
+<h3 name="dbscan"> 3. Density Based Clustering</h3>
 
-- `DBSCAN` ( Density-Based Spatial Clustering of Applications with **Noise** )
-- Group similar data points together based on density.
+- `DBSCAN`: Density-based spatial clustering of applications with noise (outliers).
+- Group similar data points together based on density (data points that are closely packed together).
 - High Density Region: Points are `close` to each other | High neighbours within the radius.
+- Unlike other clustering algorithms, DBSCAN does not require a predefined number of clusters.
 - Data points in `low density` regions are `outliers`.
-- Clustering methods explain better with visualization. e.g. Scatter Plot.
-- Relationships between features can be represented via clustering.
+- Visualization can explain the clustering methods in a better way i.e. scatter plot. 
+- DBSCAN can effectively identify clusters of arbitrary shapes and sizes.
+
+DBSCAN defines 3 types of data points based on their density and proximity.
+1. Core points: Data points that are very close to each other.
+2. Border points: Data points that are neighbours but not too close to each other.
+3. Noise points: Data points that are very far away from the rest of the data points (Outliers)
 
 ### B. Dimensionality Reduction
 
