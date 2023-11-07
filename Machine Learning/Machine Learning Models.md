@@ -382,15 +382,27 @@ All follow the same process in **Regression** and **Classification** the only di
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/10.K%20Mean%20Clustering.ipynb)
 
-- Cluster data points with similar characteristics in one cluster.
-- We choose **K** number of clusters.
-- Select **K** random data points as `centroid`
-- Data points nearest to its corresponding `centroid` belong to that **cluster**.
+- Groups data points into a specified number of clusters.
+- Data points with similar characteristics are grouped in one cluster.
+- We choose the `K` number of clusters and select `K` random data points as `centroid` (centre of cluster) as centroid for each cluster.
+- Data points nearest to its corresponding `centroid` belong to that cluster.
 - Again the `centroid` is calculated, and the data points are updated based on the new `centroid`
-- **Iterative** Process | Stops when there is no further classification.
-- Different starting points ( Random centroid selected ) Create different clusters. 
-- **Elbow** Method: The sum of squared distance gets smaller as the number of clusters increases.  
-- The `Elbow` method helps to find the **optimal** number of clusters.
+- This is an iterative process, we stop when there is no further classification.
+- Different starting points ( Random centroid selected ) create different clusters. 
+- `Elbow Method`: The sum of squared distance gets smaller as the number of clusters increases.  
+- The `Elbow` method helps to find the `optimal` number of clusters.
+
+Steps of K Mean Clustering:
+1. Choose the number of clusters (K): This depends on the nature of the data and the desired granularity of the clusters.
+2. Initialize the centroids: Randomly select K data points as the initial centroids.
+3. Assign data points to the nearest clusters: Forming K clusters.
+4. Recalculate centroids: Calculate the new centroid for each cluster  (mean of the data points of the cluster)
+5. Repeat 3 and 4 until we cannot find any new centroid after recalculation.
+
+Advantages:
+1. Simple to understand and implement.
+2. Efficient and can be applied over large data sets.
+3. Versatile unsupervised ML algorithm that can be used for data exploration and clustering.
 
 <h3 name='hc'>2. Hierarchical Clustering</h3>
 
