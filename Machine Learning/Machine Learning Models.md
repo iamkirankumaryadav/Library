@@ -446,7 +446,7 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 - A technique used to reduce the number of `features` or `variables` in a dataset while retaining the most important information.
 - The aim is to find the **important features | variables** that the model can use for better prediction.
 - Reducing **irrelevant features** that have no relation with the target feature.
-- There are some features that bring `Multicollinearity`
+- Some features bring `Multicollinearity`
 - **Feature Elimination** | **Feature Selection** or **Feature Extraction**
 - Save storage and time by improving the performance of the model.
 - Due to less number of features it can be visualized in `2D` and `3D`.
@@ -477,8 +477,9 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 
 <h3 name='lda'>LDA ( Linear Discriminant Analysis ) ( Supervised )</h3>
 
-- Classification | Sperate Data into Different Categories or Classes
-- LDA Creates **New Axis** ( **Maximize** the **Distance** between **Means** of **Two Classes** and **Minimize Variation** within each Class )
+- Classify data sets into different categories or classes.
+- Maximizes the separation between two or more classes of data.
+- LDA creates a new axis ( Maximize the distance between **means** of two classes and minimize variation within each class )
 
 <h3 name='tsne'>t-SNE ( t Distributed Stochastic Neighbor Embedding )</h3>
 
