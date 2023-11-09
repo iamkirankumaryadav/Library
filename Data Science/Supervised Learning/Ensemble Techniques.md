@@ -2,16 +2,16 @@
 
 # Ensemble Techniques | Method
 
-The combination of `weak` learners into one very **accurate predicting algorithm** in order to decrease `bias` and `variance`
+Combines multiple `weak` or `base` learners to create one very `accurate` predicting algorithm or model in order to decrease `bias` and `variance`
 
-### Why `Ensemble` ?
+### Why `Ensemble`?
 
 - Ensemble learning combines multiple models to create a more accurate and robust model.
 - The individual models in an ensemble are called `base` or `weak` learners.
-- The base learners can be a decision trees, support vector machines, or neural networks.
+- The base learners can be decision trees, support vector machines, or neural networks.
 - Ensemble learning can be used to improve the performance of machine learning models.
 - It helps to reduce `variance`, `bias`, `underfitting` and `overfitting`.
-- Ensemble learning can also be used to improve the accuracy of models that are trained on small datasets.
+- Ensemble learning can also be used to improve the `accuracy` of models that are trained on small datasets.
  
 `Bagging` ( Bootstrap Aggregation ) | `Boosting`
 :--- | :---
@@ -19,11 +19,11 @@ The combination of `weak` learners into one very **accurate predicting algorithm
 Decrease `variance` ( Solve `overfitting` ) | Decrease `bias` ( Improve **training** )
 Each model receives equal weight | Weights are assigned based on their **performance**
 Samples randomly ( Sample with replacement ) | Samples by increasing weight for **wrong** predictions
-Models are built **independently** | Models are improved version of previous built models
+Models are built **independently** | Models are improved versions of previously built models
 Less time to train | More time to train ( Exhaustive approach )
 **Easy** to tune | **Hard** to tune
 **Least** chance of `overfitting` | **Easy** to overfit ( Memorize the data + noise )
-Samples are drawn randomly with **replacement** | Samples + Observations that are **missclassified** by **previous models**
+Samples are drawn randomly with **replacement** | Samples + Observations that are **misclassified** by **previous models**
 Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XGBoost
 
 ### `Information Gain` ( Which feature can explain the split better ? )
