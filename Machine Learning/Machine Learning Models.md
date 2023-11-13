@@ -318,26 +318,29 @@ from sklearn.ensemble import RandomForestClassifier
 <h3 name='knn'>6. K Nearest Neighbours</h3>
 
 - `KNN` is used for both `regression` and `classification`
-- `KNN` measures the `geometrical distance` ( euclidean distance ) 
+- `KNN` measures the `geometrical distance` ( euclidean distance ) between the data points. 
 - Initialize `K` ( `# nearest neighbours` ) 
-- Calculate the distance between new data points and `K nearest neigbours` of training data points.
+- Calculate the distance between new data points and the `K nearest neighbours` of training data points.
+- e.g. if K = 5, it will calculate the distance from the 5 nearest data points.
 - Sort the calculated distance in `ascending` order and get `the shortest distance or `most frequent` classes in neighbour.
 - `Regression`: `Mean` of K nearest distances are considered.
 - `Classification`: `Mode` of K nearest distances are considered.
+- No effect of outliers, only nearest neighbours are considered.
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
 - Naive Bayes is a `probabilistic classifier`, based on `Class Prediction Probability` ( `Binary` and `Multiclass` classification )
 - Creates the `conditional probability distribution` for all the classes independently.
 - `Naive`: Assumes that all of the `features` are `independent` from each other ( No correlation between any feature )
-- e.g `Classification` of Dogs Breed ( Naive Bayes tries to create a `probability` that each Dog belongs to separate `Class` )
+- e.g `Classification` of Dogs Breed ( Naive Bayes tries to create a `probability` that each Dog belongs to a separate `Class` )
 - `Weights` can be added to improve `accuracy`
-
-> P( **A** | **B** ) = P( **B** | **A** ) / P( **B** )
-
-All follow the same process in **Regression** and **Classification** the only difference is in **Output**. 
-
-> **Regression** : **Continuous Numerical**
+- P(Class | Data) = (P(Data | Class) * P(Class)) / P(Data)
+- P(Class | Data): Probability after observing the data (Posterior Probability)
+- P(Data | Class): Likelihood
+- P(Class): Probability before observing the data (Prior Probability)
+- Classification: Spam email, Dogs Breed Image, and Customer likely to churn.
+- Regression: House price, Product Sales, and Customer lifeline.
+- Anomaly detection: Detecting fraudulent transactions, Network intrusion, and Outlier detection.  
 
 > **Classification**  : **Categorical**
 
