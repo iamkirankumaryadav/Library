@@ -296,19 +296,19 @@ from sklearn.ensemble import RandomForestClassifier
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
 - Support Vector Machine is used for both `regression` and `classification`
-- Finds an optimal `line` or `hyperplane` that separates the 2 distinct classes with `maximum margin` in `N dimensional space`
+- Finds an optimal `line` or `hyperplane` that separates the 2 distinct classes with `maximum margin` in `N-dimensional space`
 - `Hyperplanes` are decision boundaries that help to `classify` the data points. Data points are called `Support Vectors`
-- `SVM` can be used for `linear` and `non linear` regression and classification.
+- `SVM` can be used for `linear` and `non-linear` regression and classification.
 - `SVM` can manage high dimensional data and nonlinear relationships between the data points.
-- `SVM` uses `kernel trick` for `non linear` data which creates a `hyperplane` in `N dimensional space` for linear seperation.
-- Works better even if data set has lot of `outliers` ( Because SVM focus only on `support vectors` closest to the line  )
-- Take long time to `train` and `predict` if the number of `observations` are very large.
+- `SVM` uses `kernel trick` for `non-linear` data which creates a `hyperplane` in `N-dimensional space` for linear separation.
+- Works better even if the data set has a lot of `outliers` ( Because SVM focus only on `support vectors` closest to the line  )
+- Take a long time to `train` and `predict` if the number of `observations` are very large.
 - Kernel functions : Linear | Radial basis function ( RBF ) | Polynomial | Exponential.
 
 ### Benefits 
 
 - SVM works well with `unstructured` and `semi-structured` data ( text, image, face, anomaly detections, etc. )
-- `Generalize` well on the new unseen data and risk of `overfitting` is also less.
+- `Generalize` well on the new unseen data and the risk of `overfitting` is also less.
 
 ### Disadvantage
 
@@ -325,7 +325,6 @@ from sklearn.ensemble import RandomForestClassifier
 - Sort the calculated distance in `ascending` order and get `the shortest distance or `most frequent` classes in neighbour.
 - `Regression`: `Mean` of K nearest distances are considered.
 - `Classification`: `Mode` of K nearest distances are considered.
-- No effect of outliers, only nearest neighbours are considered.
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
