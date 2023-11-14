@@ -8,6 +8,8 @@
 - **Data points** that `differ` significantly from other observations (data points) in the dataset are `outliers`
 - `Outlier` affects the `distribution` of data by introducing `skewness` in the data.
 - `Outlier` affects the `correlation` among features.
+- `Outliers` have a significant impact on the performance, and lead to inaccurate predictions and poor generalization.
+- `Distant metric`: Algorithms that use the `Euclidean` distance metric are more sensitive to outliers as compared to the `Manhatten` distance metric
 
 ### Cause of Outliers 
 
@@ -88,12 +90,18 @@ Divide the Data into `4` Equal Quarters ( `Quartiles` )
   </tr>
 </table>
 
+`Linear Regression`: Outliers can affect the relationship, leading to inaccurate predictions.
+
+`K Mean Clustering`: Outliers can pull the centroid towards them, leading to misclassification and distorted clusters.
+
+`SVM`: Outliers can move the hyperplanes to less optimal positions, reducing classification accuracy.
+
 ### `Handle` Outliers
 
 1. Set up a `filter` and `trim` extremely low or extremely high data points in the dataset.
 2. Remove the `outlier` if it is very small, change the value of `outlier` or replace it with something meaningful.
-3. **Inter Quartile** Range ( `IQR` ) and Extreme value analysis ( `Z Score` )
-5. `Rescale` | `Standardize` | `Normalize` ( Bring to the same scale )
+3. `Inter Quartile Range` ( `IQR` ) and Extreme value analysis ( `Z Score` )
+5. `Rescale` | `Standardize` | `Normalize` ( Bring to the same scale ) Prevents outliers from dominating.
 6. Apply [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) ( `Bagging` and `Boosting` )
 
 
