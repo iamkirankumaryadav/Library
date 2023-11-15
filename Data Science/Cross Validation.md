@@ -1,8 +1,8 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# `Cross Validation`
+# `Cross-Validation`
 
-- `Cross validation` is a `resampling` technique used to `evaluate` the trained model performance on a `limited` dataset.
+- `Cross-validation` is a `resampling` technique used to `evaluate` the trained model performance on a `limited` dataset.
 - Once the model is trained, we just can't assume that it is going to perform well on the **new unseen data**.
 - We can't be sure that the model will give the desired `accuracy` and `variance`
 - We need some kind of `assurance` for the `accuracy` of the `predictions` that our model will give. 
@@ -66,18 +66,24 @@ Here are some examples of hyperparameters:
 - `# layers`: This is the number of layers in a neural network.
 - `# nodes`: This is the number of nodes in each layer of a neural network.
 
+### Hyperparameter Optimization
+
+- Find the best set of hyperparameters for the ML model.
+
 ### Grid Search:
 
-- Technique used to select the hyperparameters to train the model.
+- Technique used to evaluate every possible combination of `hyperparameters` within a predefined grid.
+- Creates a grid of hyperparameter values and trains the models with each combination.
 - The process of choosing the optimal set of parameters is known as `hyperparameter tuning`
 - Different combination of hyperparameters is used to improve the `performance metric`
-- `Grid Search` cross-validation tries all combinations of parameters `grid` value for a model. 
+- `Grid Search` cross-validation tries all combinations of parameters `grid` value for training a model. 
 - Returns with the best set of parameters having the `best performance` score on the test set.
 - It is good if the data set is small, it's more time-consuming and requires more resources to run.
+- Prone to overfitting, Not suitable for large and complex data.
 
 ### Random Grid Search:
 
-- `Random Grid Search` cross-validation randomly chooses the combination of parameters.
+- `Random Grid Search` cross-validation randomly chooses the combination of hyperparameter values instead of evaluating all possible combinations.
 - It is good if the data set is very large, it's less time-consuming and utilizes fewer resources.
 - Less likely to overfit the training data.
 
