@@ -53,8 +53,8 @@
 
 ### Hyperparameter
 
-- Parameters that control the learning process of an ML model.
-- They are set before the model is trained.
+- Hyperparameters are configuration variables that control the `learning` process of an ML model.
+- They are set before the model is trained, they influence the model's ability to learn from data and make predictions.
 - The values of hyperparameters can have a big impact on the performance of an ML model.
 - Grid search tries different values of each hyperparameter and evaluates the model's performance on a validation set.
 
