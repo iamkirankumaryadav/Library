@@ -62,9 +62,11 @@ Here are some examples of hyperparameters:
 
 - `Learning rate`: This controls how quickly the model updates its parameters.
 - `Batch size`: This determines how much data is used to update the model's parameters at each step.
+- `Regularization`: `L1` or `L2`
 - `# epochs`: This is the number of times the model sees the entire training data set.
 - `# layers`: This is the number of layers in a neural network.
-- `# nodes`: This is the number of nodes in each layer of a neural network.
+- `# nodes`: This is the number of nodes/neurons in each layer of a neural network.
+- `Activation Function`
 
 ### Hyperparameter Optimization
 
@@ -83,7 +85,7 @@ Here are some examples of hyperparameters:
 
 ### Random Grid Search:
 
-- `Random Grid Search` cross-validation randomly chooses the combination of hyperparameter values instead of evaluating all possible combinations.
+- Random Grid Search cross-validation randomly chooses the combination of hyperparameter values instead of evaluating all possible combinations.
 - It is good if the data set is very large, it's less time-consuming and utilizes fewer resources.
 - Less likely to overfit the training data.
 
