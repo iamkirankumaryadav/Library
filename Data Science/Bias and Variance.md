@@ -24,8 +24,10 @@ Simple models do not capture **hidden** patterns and relations properly | Model 
 ### Bias Variance `Trade Off`
 
 - `Bias` and `Variance` are `inversely` proportional to each other.
-- Increasing `Bias` decreases `Variance` and Increasing `Variance` decreases `Bias`
-- Find the **correct balance**: `Low Bias` and `Low Variance`
+-  A model with `low bias` will tend to have `high variance`
+-  A model with `low variance` will tend to have `high bias`
+- Increasing `bias` decreases `variance` and increasing `variance` decreases `bias`
+- The aim of ML is to find the correct balance i.e. `low bias` and `low variance`
 
 ### `Underfitting`: High Bias + Low Variance ( `Simple` Model )
 - `High Bias`: `High` error on `train` dataset ( Model is not trained properly )
@@ -50,12 +52,32 @@ Simple models do not capture **hidden** patterns and relations properly | Model 
 - **Captures** Less `noise` and `error` at the time of **training** ( Low Bias )
 - Generalized enough to work with any **new unseen data** ( Low Variance ) 
 
-### How to Obtain Optimal Tradeoff
-1. `Hyperparameter Tuning`: Choosing the right set of `optimal` **hyperparameter** for training.
-2. `Regularization` ( `L1` and `L2`): Technique used to reduce `overfitting` by discouraging  complex models.
-3. `Cross Validation`
-4. `Resampling`
-5. `Ensemble Techniques`: `Bagging` and `Boosting`
+### How to obtain an optimal tradeoff?
+
+1. `Hyperparameter Tuning`:
+- Choosing the right set of `optimal hyperparameters` for training the model.
+
+2. `Regularization`
+- `L1` and `L2` techniques are used to reduce `overfitting` by discouraging complex models.
+- Adding constraints to the model training to prevent the model from `overfitting` the training data. 
+
+3. `Resampling` and `Cross-Validation`
+- K fold (Balanced dataset) and Stratified K fold (Unbalanced dataset)
+
+4. `Ensemble Techniques`:
+- Combining multiple weak models into a single model.
+- Reduces both `bias` and `variance` by averaging out the `predictions` of the individual models.
+
+5. `Data Augmentation`
+- Artificially increasing the size of the training dataset by creating new data points from existing ones.
+- This can help the model learn more generalized patterns and reduce overfitting.
+
+6. `Model Selection`
+- Evaluating different models with different complexities and choosing the one that generalizes best to unseen data.
+
+7. `Feature Engineering`
+- Selecting and transforming the features used to train the model. 
+- Help reduce `bias` and `variance` by providing the model with more relevant information.
 
 # Bias
 
