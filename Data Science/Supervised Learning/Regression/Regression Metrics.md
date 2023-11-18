@@ -30,11 +30,12 @@
 </table>
 
 ### How to evaluate the performance of a machine learning model?
-1. We `start` with some `initial configuration` of **model** and `predict` the **output** based on some **input**.
-2. Then we compare `predicted value` with `target` and **measure** the `performance` of our model.
+1. We `start` with some `initial configuration` of the model and `predict` the output based on some input.
+2. Then we compare the `predicted value` with the `target` and **measure** the `performance` of our model.
 3. `Parameters` of the **model** are `adjusted` **iteratively** in order to reach the `optimal value` of the `performance metric`
-4. Performance metric is a measurable value that is used to evaluate the performance of our model.
-5. Performance metrics can be used to track progress towards accuracy, identify areas for improvement, and make informed decisions.
+4. Performance `metric` is a measurable value that is used to evaluate the performance of the model.
+5. Performance `metrics` can be used to track progress towards accuracy, identify areas for improvement, and make informed decisions.
+6. The model that generalizes best to unseen data is finally selected.
 
 <h3 name="linear">Linear Regression</h3>
 
@@ -74,10 +75,10 @@
 
 ![R2](Image/R2.png)
 
-- Helps to understand how well the model `fits` the data or how well the model make `predictions` on new observations.
+- Helps to understand how well the model `fits` the data or how well the model makes `predictions` on new observations.
 - Measure how `close` each **data point** `fits` the `regression line` or how well the **regression line** `predicts` **actual values**.
-- Explains the variance of the data captured by the model ( 0.7 to 0.9 is good value for R2 )
-- If R<sup>2</sup> is 0.8 or 80% ( Regression line explaines 80% of variance in data )
+- Explains the variance of the data captured by the model ( 0.7 to 0.9 is a good value for R2 )
+- If R<sup>2</sup> is 0.8 or 80% ( Regression line explains 80% of the variance in data )
 - Low R<sup>2</sup> causes `underfitting` and high R<sup>2</sup> results into `overfitting`
 - Ideal value for R<sup>2</sup> is between `70%` to `90%` ( i.e. Model `fits` the data very well )
 - Help us to `compare` **created** model with the `baseline` model ( Mean )
@@ -96,20 +97,20 @@
 
 - Improvement of R<sup>2</sup> ( Adjusted R<sup>2</sup> is always `lower` than R<sup>2</sup> )
 - Adjusted R-squared is a more reliable measure than R-squared.
-- Compare models with different number of `independent` features.
+- Compare models with different numbers of `independent` features.
 - Adjusted R<sup>2</sup> `increases` only if the new `independent` feature improves the model `more` than expected.
 - Provides more accurate `correlation` between independent features.
-- It is more accurate measure of the model's fit, if there are large number of independent variables.
+- It is a more accurate measure of the model's fit if there are a large number of independent variables.
 
 | MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
 | :--- | :--- | :---
-| Good Model : Value closer to `0` | Good Model : Value closer to `1` | Increases only if new term improves model
+| Good Model: Value closer to `0` | Good Model: Value closer to `1` | Increases only if new term improves model
 
 <h3 name="logistic">Logistic Regression | Classification</h3>
 
 - `Predict` the `class` | `label` of a data point on the basis of one or more `independent` features.
-- Depending on the number of `classes` | `labels` that `target` variable includes, it can be `Binary` or `Multiclass` classification.
-- Data set should contain well `balanced` class distribution. ( e.g. Total Students = 100 : 50 Boys + 50 Girls )
+- Depending on the number of `classes` | `labels` that the `target` variable includes, it can be a `Binary` or `Multiclass` classification.
+- The data set should contain a well `balanced` class distribution. ( e.g. Total Students = 100 : 50 Boys + 50 Girls )
 - **Good Classifier** : `1 or 100%` | **Bad Classifier** < `0.5 or 50%`
 
 <h3 name='cm'>1. Confusion Matrix</h3>
@@ -119,10 +120,10 @@
 ![Classification](Image/Classification.png)
 
 ```
-True Positive  (TP) : Predicts 1 when Actual is 1 
-True Negative  (TN) : Predicts 0 when Actual is 0 
-False Positive (FP) : Predicts 1 when Actual is 0 | Type I Error  | Incorrect True Prediction 
-False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect False Prediction 
+True Positive  (TP): Predicts 1 when Actual is 1 
+True Negative  (TN): Predicts 0 when Actual is 0 
+False Positive (FP): Predicts 1 when Actual is 0 | Type I Error  | Incorrect True Prediction 
+False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect False Prediction 
 ```
 
 **FP** is `Acceptable` but **FN** is Dangerous | Fatal for Problems related to **Medical Field**
@@ -132,7 +133,7 @@ False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect Fa
 <h3 name='acc'>2. Accuracy</h3>
 
 - Number of `Correct` predictions to the `Total` predictions.
-- Accuracy score is good if dataset contains `Balanced` class distribution.
+- Accuracy score is good if the dataset contains a `Balanced` class distribution.
 - Used when all the classes ( `TP`, `TN`, `FP` and `FN` ) are equally important.
 - Accuracy: (TP + TN) / TP + TN + FP + FN
 
@@ -141,7 +142,7 @@ False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect Fa
 <h3 name='pre'>3. Precision</h3>
 
 - Measures the `Correctly` identified `Positive` cases from all the `Predicted` positive cases.
-- Used when the **Cost** of False Positive ( `FP` ) is **High**. ( e.g. There is virus but still antivirus is predicting that the system is safe it's costly )
+- Used when the **Cost** of False Positive ( `FP` ) is **High**. ( e.g. There is a virus but still antivirus is predicting that the system is safe it's costly )
 - `TP`: The number of instances that were correctly classified as positive.
 - `FP`: The number of instances that were incorrectly classified as positive.
 
@@ -150,7 +151,7 @@ False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect Fa
 <h3 name='tpr'>4. Recall | True Positive Rate ( TPR ) | Sensitivity</h3>
 
 - Measures the `Correctly` identified `Positive` cases from all the `Actual` positive cases. 
-- Used when the **Cost** of False Negatives ( `FN` ) is **High**. ( e.g. Person is really prone to COVID 19 but test result is negative it can be fatal. )
+- Used when the **Cost** of False Negatives ( `FN` ) is **High**. ( e.g. Person is really prone to COVID 19 but the test result is negative it can be fatal. )
 - **True Positive Rate** : Proportion of **Positive Class** that is `Correctly` Predicted as **Positive**.
 - `FN`: The number of instances that were incorrectly classified as negative
 
@@ -179,8 +180,8 @@ False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect Fa
 
 <h3 name='roc'>7. ROC | Receiver Operating Characteristic Curve</h3>
 
-- Helps to understand `characteristics` of curve by plotting,
-- `TPR` ( True Positive Rate ) on `Y Axis` and `FPR` ( False Positive Rate ) on `X Axis` at different `classification thresholds`
+- Helps to understand the `characteristics` of curves by plotting,
+- `TPR` ( True Positive Rate ) on `Y-Axis` and `FPR` ( False Positive Rate ) on `X-Axis` at different `classification thresholds`
 - The `ROC` curve helps to select the optimal threshold for a classifier.
 - If `threshold` is closer to `1.0` or `100%`: **Classifications** gets more `accurate`
 
@@ -188,7 +189,7 @@ False Negative (FN) : Predicts 0 when Actual is 1 | Type II Error | Incorrect Fa
 
 <h3 name='auc'>8. AUC | Area Under ROC Curve</h3> 
 
-- Helps to understand `performance` of a classification model across all `classification thresholds`
+- Helps to understand the `performance` of a classification model across all `classification thresholds`
 
 Score | Classifier
 --- | ---
