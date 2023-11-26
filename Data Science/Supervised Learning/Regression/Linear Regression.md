@@ -63,13 +63,13 @@
 
 <h3 name='ass'>Assumptions</h3>
   
-- `Linearity` : The relationship between `independent variable (x)` and `dependent variable (y)` must be linear.
-- `Independence` : The `residuals` | `errors` must be `independent` of each other.
-- `Normality` : The `residuals` of the data must be `normally distributed` ( P value > 0.05  )
-- `Multicollinearity` : The `independent variables` must not be highly correlated.
-- `Homoscedasticity` : `Variance` of residuals must be constant for all the data points near regression line | Residuals must be spread out evenly around the line of best fit.
+- `Linearity`: The relationship between `independent variable (x)` and `dependent variable (y)` must be linear.
+- `Independence`: The `residuals` | `errors` must be `independent`.
+- `Normality`: The `residuals` of the data must be `normally distributed` ( P value > 0.05  )
+- `Multicollinearity`: The `independent variables` must not be highly correlated.
+- `Homoscedasticity`: `Variance` of residuals must be constant for all the data points near the regression line | Residuals must be spread out evenly around the line of best fit.
 
-`Quantile Quantile Point` : Data points should be `close` to regression line`
+`Quantile Quantile Point`: Data points should be `close` to the regression line.
 
 ![Error Normal Distribution](Image/ErrorDistribution.png)
 
@@ -78,16 +78,16 @@
 
 ![Homoscedasticity](Image/Homo.png)
 
-### `Covariance` : `Direction`
+### `Covariance`: `Direction`
 
 ![Covariance](Image/Covariance.png) 
 
-- `Relationship` between two variables, it measure how much two variabless change together.
+- `Relationship` between two variables measures how much two variables change together.
 - `Direction` of the `linear relationship` between `quantitative` variables.
-- `Positive Covariance` : Two variables tends to move in `positive` | same direction.
-- `Negative Covariance` : Two variables tends to move in `negative` | opposite direction.
+- `Positive Covariance`: Two variables tend to move in `positive` | same direction.
+- `Negative Covariance`: Two variables tend to move in `negative` | opposite direction.
 
-### `Correlation` : `Strength` and `Direction`
+### `Correlation`: `Strength` and `Direction`
 
 - Standardized version of `covariance`
 - `Strength` and `direction` of `linear relationship` between `quantitative` variables.
@@ -111,9 +111,19 @@ Amount of R | **Strength** of **Correlation**
 
 ![Strength of Slope](Image/Strength.png)
 
+### Difference between `Covariance` and `Correlation`
+
+- `Covariance` reveals how two variables change together.
+- `Correlation` determines how closely two variables are related to each other.
+- Both `covariance` and `correlation` measure the `relationship` and the dependency between two variables.
+- `Covariance` indicates the `direction` of the linear relationship between variables.
+- `Correlation` measures both the `strength` and `direction` of the linear relationship between two variables.
+- `Correlation` values are standardized.
+- `Covariance` values are not standardized.
+
 ### Variance Inflation Factor (VIF)
 
-- A measure of how much the variance of regression coefficient is inflated due to collinearity between the independent variables.
+- A measure of how much the variance of the regression coefficient is inflated due to collinearity between the independent variables.
 - `VIF = 1` indicates that there is no collinearity between the independent variables.
 - `VIF > 10` indicates that there is high collinearity between the independent variables.
 - We should consider removing the independent variable to reduce the VIF.
