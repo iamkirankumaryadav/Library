@@ -135,7 +135,7 @@ from sklearn.model_selection import train_test_split
 
 # X: Independent Variables 
 # y: Dependent Variable
-x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 ```
 
 <h3 name="algo"> 5. Use algorithms that work fine with missing values</h3>
