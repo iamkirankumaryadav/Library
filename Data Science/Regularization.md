@@ -2,12 +2,11 @@
 
 # Regularization
 
-Similar Terms:
-The coefficient or weights mean `slope` and `intercept`
+The coefficients/weights mean the slope and intercept of the linear regression equation.
 
-- Regularization is a technique used to prevent `overfitting`.
+- A technique used to prevent `overfitting` and improve the accuracy of a linear regression model.
 - Overfitting occurs when a model learns the training data too well and cannot generalize the new unseen data.
-- Regularization adds a penalty to the loss function that simplifies the model.
+- Regularization adds a penalty to the loss function (Actual - Prediction) that simplifies the model.
 - It encourages the model to have smaller coefficients and will prevent overfitting the training data.
 - Adds `bias` to training data to reduce or balance the `variance`, this prevents [overfitting](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Overfitting.md).
 - **Simplify** complicated models ( Simple models avoid `overfitting`, but may lead to `underfitting`, so some `tradeoff` is important )
