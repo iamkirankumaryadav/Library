@@ -7,11 +7,11 @@
 ### `Outliers`
 - **Data points** that `differ` significantly from other observations (data points) in the dataset are `outliers`
 - `Outlier` affects the `distribution` of data by introducing `skewness` in the data.
-- Positive Skew / Right Skew (Mean is on the right side)
-- Negative Skew / Left Skew (Mean is on the left side)
+- Positive Skew / Right Skew (Mean is on the right side | Mode < Median < Mean)
+- Negative Skew / Left Skew (Mean is on the left side | Mode > Median > Mean) 
 - `Outlier` affects the `correlation` among features.
 - `Outliers` have a significant impact on the performance, and lead to inaccurate predictions and poor generalization.
-- `Distant metric`: Algorithms that use the `Euclidean` distance metric are more sensitive to outliers as compared to the `Manhatten` distance metric
+- `Distant metric`: Algorithms that use the `Euclidean` distance metric are more sensitive to outliers as compared to the `Manhatten distance` metric
 
 ### Cause of Outliers 
 
