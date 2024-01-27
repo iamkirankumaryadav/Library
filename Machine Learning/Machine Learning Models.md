@@ -93,34 +93,34 @@
 Supervised | Unsupervised | Reinforcement
 :--- | :--- | :---
 Algorithm learns from `labelled` data | Algorithm learns from `unlabelled` data | `Agents` takes `actions` in an environment
-Algorithm tries to find `relationships` and `mappings` | Algorithm tries to find `patterns` | Agent learn from `rewards` and `penalty`
+The algorithm tries to find `relationships` and `mappings` | Algorithm tries to find `patterns` | Agent learns from `rewards` and `penalty`
 
 - Columns - Feature Matrix ( Variables ) and Target Vector ( Labels )
 - Features - Independent Variable | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
 - Target - Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
 - Rows | Observations | Records | Samples | Instance.
-- `Feature`:  A **measurable** property, can be categorical ( discrete ) or numerical ( real or int number )
+- `Feature`:  A **measurable** property, that can be categorical ( discrete ) or numerical ( real or int number )
 - `Target`: What we want to make **prediction** for.
 - `Model` learns a relationship between a `feature matrix` and a `target vector`
 - `Model` is the system that makes **predictions** or **classification** on new unseen data.
-- `Goal` of machine learning is to build a model that performs well on new data.
+- The goal of machine learning is to build a model that performs well on new data.
 - **Parameters** are factors which are considered by the model to make **predictions** or **classification**.
 - **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
 
 ### Scikit Learn
 
-1. Scikit learn is a great library for creating `machine learning model` from data.
-2. Before you `fit` a model using scikit learn, you data has to be in a recognizable format.
-3. Scikit learn works well with `numeric` data that is stored in `NumPy arrays`
-4. It can also convert data from objects like `Pandas : dataframes` and `NumPy : arrays`
-5. `Feature matrix` is a `2D` grid of data where `rows` represents `samples` and `columns` represents `features`     
-6. `Target vector` is usually `1D` vector `column`
+1. Scikit Learn is a great library for creating a `machine learning model` from data.
+2. Before you `fit` a model using Scikit Learn, your data must be in a recognizable format.
+3. Scikit Learn works well with `numeric` data that is stored in `NumPy arrays`
+4. It can also convert data from objects like `Pandas: data frames` and `NumPy: arrays`
+5. `Feature matrix` is a `2D` grid of data where `rows` represents `samples` and `columns` represent `features`     
+6. `Target vector` is usually a `1D` vector `column`
 
 <h1 name='sup' align=center>Supervised Learning ( Labeled Data )</h1>
 
-- `Machine Learning` that involves training a model using `labeled` data.
-- Algorithm learns to recognize `patterns` in the input data and map them to the correct output based on the labeled data.
-- Goal of supervised learning is to create a model that can accurately predict the output for new, unseen input data.
+- `Machine Learning` that involves training a model using `labelled` data.
+- The algorithm learns to recognize `patterns` in the input data and map them to the correct output based on the labelled data.
+- The goal of supervised learning is to create a model that can accurately predict the output for new, unseen input data.
 - Supervised learning is useful for `classification` and `regression` problems.
 
 <table align=center>
@@ -275,8 +275,9 @@ Handle **non linear data** |
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/09.Random%20Forest.ipynb)
 
+- Random sampling (Bootstrap Aggregation with replacement)
 - An ensemble learning method that uses multiple `decision trees` for both `regression` and `classification`
-- Ensemble learning algorithms combine the predictions of multiple models to produce a more accurate prediction.
+- Ensemble learning algorithms combine the predictions of multiple decision trees to produce a more accurate prediction.
 - Once the decision trees are trained, they are used to predict new data points.
 - Each decision tree is built using a random subset of the training data ( feature matrix )
 - Multiple `decision trees` ( weak learners ) are trained `parallel` and `individually` | `independently`
@@ -287,7 +288,21 @@ Handle **non linear data** |
 - Random forest creates a model that is more accurate and less prone to `overfitting` than a single decision tree.
 - `Bagging`: Multiple decision trees are trained in `parallel` to form one strong accurate predicting model.
 - Adding multiple decision trees reduces the risk of `error` and `overfitting` by reducing the variance.
-- Random forests are accurate, robust to `overfitting`, used for both `regression` and `classification`. Can be trained on data of any type (numerical, categorical, and ordinal data)
+- Random forests are accurate, robust to `overfitting`, used for both `regression` and `classification`.
+- Random forest can be trained on data of any type (numerical, categorical, and ordinal data)
+
+**Advantages:**
+- RF can handle large datasets with high features and can provide accurate results.
+- RF can handle non-linear relationships between features and target variables.
+- RF can handle missing values in the data.
+- RF performs feature selection by building multiple decision trees.
+- Each tree is built using a random selection of features and observations from the dataset.
+- Feature sampling ensures that different trees in the random forest use different subsets of features during training.
+- This allows the RF to capture a wider range of patterns and relationships within the data.
+- Each tree in the random forest can calculate the importance of a feature.
+- A feature that decreases the impurity is an important feature of the model.
+- Feature importance is calculated.
+
 
 ```python
 from sklearn.ensemble import RandomForestClassifier
@@ -302,7 +317,7 @@ from sklearn.ensemble import RandomForestClassifier
 - `SVM` can manage high dimensional data and nonlinear relationships between the data points.
 - `SVM` uses `kernel trick` for `non-linear` data which creates a `hyperplane` in `N-dimensional space` for linear separation.
 - Works better even if the data set has a lot of `outliers` ( Because SVM focus only on `support vectors` closest to the line  )
-- Take a long time to `train` and `predict` if the number of `observations` are very large.
+- Take a long time to `train` and `predict` if the number of `observations` is very large.
 - Kernel functions : Linear | Radial basis function ( RBF ) | Polynomial | Exponential.
 
 ### Benefits 
