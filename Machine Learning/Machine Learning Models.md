@@ -299,9 +299,8 @@ Handle **non linear data** |
 - Each tree is built using a random selection of features and observations from the dataset.
 - Feature sampling ensures that different trees in the random forest use different subsets of features during training.
 - This allows the RF to capture a wider range of patterns and relationships within the data.
-- Each tree in the random forest can calculate the importance of a feature.
+- Each tree in the random forest can calculate the importance of a feature (feature_importances_)
 - A feature that decreases the impurity is an important feature of the model.
-- Feature importance is calculated.
 
 
 ```python
