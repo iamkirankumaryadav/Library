@@ -49,10 +49,4 @@
 - **Bagging** trains multiple `individual` weak learners ( Decision tree ) in **parallel**.
 - **Boosting** trains multiple `weak` learners in **sequence** ( Improving in each step by learning from the mistakes of previous models ) 
 
-### 6. Reduce Layers ( Deep Learning )
-- **Removing layers** or **elements** in the **hidden layers**.
-
-### 7. Dropout Layers ( Deep Learning )
-- Randomly `drop` certain features by setting them to `0` ( Fully Connected Layer )
-
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
