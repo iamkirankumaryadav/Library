@@ -53,9 +53,9 @@
             </li>
             <li>Boosting
             <ol type=A>
-              <li><a>ADABOOST</a></li>
-              <li><a>Gradient Boosting</a></li>
-              <li><a>XGBOOST</a></li>
+              <li><a href=#adaboost>ADABOOST</a></li>
+              <li><a href =#gbm>Gradient Boosting</a></li>
+              <li><a href=#xgboost>XGBOOST</a></li>
             </ol>
             </li>
           </ul>
@@ -302,10 +302,49 @@ Handle **non linear data** |
 - Each tree in the random forest can calculate the importance of a feature (feature_importances_)
 - A feature that decreases the impurity is an important feature of the model.
 
-
 ```python
 from sklearn.ensemble import RandomForestClassifier
 ```
+
+<h3 name='adaboost'>ADABOOST( Adaptive Boosting)</h3>
+
+- AdaBoost iteratively trains a sequence of weak decision trees.
+- Gives more weight to the data points that are misclassified in each iteration.
+- AdaBoost can significantly enhance the accuracy of models, especially when dealing with complex datasets.
+- AdaBoost is effective in handling class imbalance.
+- Doesn't require extensive hyperparameter tuning.
+- AdaBoost implicitly performs feature selection by assigning more importance/weights to relevant features.
+- Primarily used for classification tasks. Not well suited for regression tasks.
+
+<h3 name='gbm'>GBM ( Gradient Boosting Method)</h3>
+
+- Gradient boosting combines the ideas of boosting (combining weak learners to create a strong learner) with gradient descent.
+- A method used to minimize errors in predictions. It's primarily used in regression and classification problems.
+- Loss function: Measures how far the model's predictions are from the actual values.
+- Gradient boosting algorithms aim to minimize this loss function.
+- Gradient Descent: An iterative optimization algorithm is used to minimize the loss function.
+
+Algorithm Steps:
+- **Initialize with a Base Model:** Starts with a simple model (decision tree) to make initial predictions.
+- **Compute the Residuals:** Calculate the difference between predicted and actual values (residuals)
+- **Build a New Model:** Construct a new model to predict the residuals from the previous model.
+- **Update the Model:** Update the model's predictions by adding the new model's predictions to the previous predictions.
+- **Minimize Loss Function:** Use gradient descent to find the model that minimizes the loss function.
+- Repeat the process for a specified number of iterations, until the loss function stops decreasing.
+
+<h3 name='xgboost'>XGBOOST( Extreme Gradient Boosting)</h3>
+
+- An advanced implementation of the gradient boosting algorithm.
+- It is scalable and highly efficient and is used for its speed and performance.
+- XGBoost improves upon the traditional gradient boosting method.
+- XGBoost optimizes the computational process and adds enhancements like regularization.
+- Efficiently handles a large number of features and large-scale datasets.
+- Works well for both regression and classification problems.
+- Regularization features help in reducing overfitting, often leading to better accuracy.
+- Automatically handles missing values, reducing the need for extensive data preprocessing.
+- Can be more complex and challenging to tune.
+- If not properly regularized or if trained for too many iterations, it can overfit the training data.
+
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
