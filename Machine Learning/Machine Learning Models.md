@@ -246,14 +246,16 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 - `Leaf Node` | `Terminal` | `Label` | `Class`: Nodes that do not split further.
 - The `Decision Tree` recursively splits the data into smaller subsets based on the values (Continuous or Discrete) of input variables.
 - At each split, the algorithm chooses the best variable to split the data into two subsets based on the values of that variable.
-- The process continues until the data is split into subsets that are pure (Which can't be split further)
-- Once the data is split into pure subsets, the decision tree can be used to make predictions for new data points. 
-- We select the feature as `node` that **splits** the data very well.
+- The process continues until the data is split into pure subsets (Which can't be split further)
+- Once the data is split into pure subsets, the decision tree can be used to make predictions for new data points.
+- Decision Trees are used to make predictions on new data by traversing the tree, the terminal node represents the predicted outcome.
+- The tree is built by selecting the best split at each node, based on measures of impurity, such as the `Gini Index` or `IG`
 - Attribute with `High Information Gain` or `Low Entropy` or `Low Gini Index` is selected as `best attribute` to split.
 - Used especially for `binary` classification and `multiclass` classification and even used for `Regression`
-- Models, where the `target` variable takes a `categorical` set of values, are a `classification` tree.
-- Models, where the `target` variable takes a `continuous` value, are `regression` Tree.
+- Models, when the `target` variable is a `categorical` set of values, a `classification` tree is used.
+- Models, when the `target` variable is a `continuous` value, a `regression` tree is used.
 - `CART` : **C**lassification **A**nd **R**egression **T**ree.
+- Decision Tree is prone to `overfitting`, resulting in poor performance on the test data.
 - Pruning: When we remove unnecessary sub-nodes of a decision node.
 - Pruning reduces the complexity, overfitting, and improves its generalization performance.
 - Growing a tree means deciding which `feature` to choose and what condition to use? for splitting.
@@ -279,8 +281,8 @@ from sklearn.tree import DecisionTreeClassifier
 
 ### `Entrophy` (Measure Disorder | Randomness | Uncertainity in Data)
 
-- `Low Entropy` is better. ( Easy to draw conclusions from data )
-- `High Entropy` ( Hard to draw conclusions from data )
+- `Low Entropy` is better. ( Easy to conclude data )
+- `High Entropy`
 
 Advantage of Decision Tree | Disadvantage of Decision Tree
 :--- | :---
