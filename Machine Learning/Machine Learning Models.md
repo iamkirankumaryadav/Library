@@ -182,31 +182,28 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 
 ![Equation of Line](Image/EquationLine.png)
 
-- The goal is to find the relationships between the dependent variable (target vector) and one or more independent variables (feature matrix)
+- Linear Regression finds the relationship between the dependent variable and one or more independent variables.
 - Linear Regression finds the best fit straight line that accurately predicts the output values within a range.
-- The straight line is called the **regression line**.
+- The straight line is called the `regression line`
 - Formula: `y = mX + c`, here `y` is the dependent variable and `X` is the independent variable.
 - `m` is the **slope** and `c` is the **y-intercept**, both are the **regression coefficients**.
-- Linear regression is used when the two variables have a linear relationship.
-- A straight line can describe the relationship, it uses existing data to train the model.
 - Linear Regression is simple to understand and interpret, with fast training and prediction.
-- Assumes a linear relationship between variables, sensitive to outliers.
+- Linear Regression assumes a linear relationship between variables, sensitive to outliers.
 - Can suffer from multicollinearity if the dataset has highly correlated variables.
 
 **Hyperparameters:**
 
 1. **Alpha:**
-- Used in Lasso (L1) and Ridge (L2) regression.
-- It determines the strength of the regularization.
-- A higher value of alpha means more regularization and simpler linear models.
-- For α = 0, Ridge regression is just linear regression.
-- The best value for alpha is found by cross-validation (Grid Search CV or Random Search CV)
+- Used in Lasso `L1` and Ridge `L2` regression, determines the strength of the regularization.
+- A higher value of `alpha` means more regularization and simpler linear models.
+- For `αlpha = 0`, Ridge regression is just linear regression.
+- The best value for `alpha` is found by cross-validation (Grid Search CV or Random Search CV)
 
 2. **Normalization:**
-- If True, the independent variables (X) will be normalized before regression by subtracting the mean.
+- If `True`, the independent variable `X` will be normalized before regression by subtracting the `mean`
 
 3. **Fit Intercept:**
-- Whether to calculate the intercept for this model.
+- Whether to calculate the intercept `c` for this model.
 - If set to False, no intercept will be used in calculations.
  
 <h1 name='class' align=center>Classification</h1>
@@ -216,9 +213,11 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/04.Logistic%20Regression.ipynb)
 
 - Model used for `classification` tasks like classifying flower species and image recognition.
-- One or more independent features are used to **classify** `categorical` target labels. 
-- Dependent ( Output ) should be `categorical` ( 0 or 1 )
-- `Probability` of a finite number of outcomes or occurrences.
+- One or more independent features are used to **classify** `categorical` target labels.
+- The outcome is measured with a `dichotomous` variable (Only two possible outcomes)
+- It predicts the probability of occurrence of an event by fitting data to a `logit` function.
+- Dependent ( Output ) should be `categorical` (0 or 1, Yes or No, True or False)
+- Widely used for binary classification, simple and requires less training, rescaling provides better accuracy.
 
 ### Advantages of Logistic Regression
 
@@ -230,13 +229,13 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/05.Logistic%20Regression%20for%20Multiclass%20Classification.ipynb)
 
 - Split the task into multiple binary classification datasets.
-- **Fit** a binary classification ( Logistic Regression ) model on each.
+- **Fit** a binary classification ( Logistic Regression ) model on each label.
 - One vs Rest (`OvR`) or One vs All (`OvA`) is a technique that extends binary classification to **multiclass**.
 - Digit `0` vs Digit `1`, `2` and `3`
 - Digit `1` vs Digit `0`, `2` and `3`
 - Digit `2` vs Digit `0`, `1` and `3`
 - Digit `3` vs Digit `0`, `1` and `2`
-The model that predicts the **highest** class probability is the predicted class.
+- The model that predicts the **highest** class probability is the predicted class.
   
 <h3 name='tree'>3. Decision Tree</h3>
 
