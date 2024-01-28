@@ -182,11 +182,33 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 
 ![Equation of Line](Image/EquationLine.png)
 
-- Linear regression uses a straight line to predict the value of a dependent variable from an independent variable.
-- The straight line is called the regression line. Formula: `y = mx + c`
-- Linear regression is used when there is a linear relationship between the two variables.
-- The relationship can be described by a straight line, it uses existing data to train the model.
+- The goal is to find the relationships between the dependent variable (target vector) and one or more independent variables (feature matrix)
+- Linear Regression finds the best fit straight line that accurately predicts the output values within a range.
+- The straight line is called the **regression line**.
+- Formula: `y = mX + c`, here `y` is the dependent variable and `X` is the independent variable.
+- `m` is the **slope** and `c` is the **y-intercept**, both are the **regression coefficients**.
+- Linear regression is used when the two variables have a linear relationship.
+- A straight line can describe the relationship, it uses existing data to train the model.
+- Linear Regression is simple to understand and interpret, with fast training and prediction.
+- Assumes a linear relationship between variables, sensitive to outliers.
+- Can suffer from multicollinearity if the dataset has highly correlated variables.
 
+**Hyperparameters:**
+
+1. **Alpha:**
+- Used in Lasso (L1) and Ridge (L2) regression.
+- It determines the strength of the regularization.
+- A higher value of alpha means more regularization and simpler linear models.
+- For α = 0, Ridge regression is just linear regression.
+- The best value for alpha is found by cross-validation (Grid Search CV or Random Search CV)
+
+2. **Normalization:**
+- If True, the independent variables (X) will be normalized before regression by subtracting the mean.
+
+3. **Fit Intercept:**
+- Whether to calculate the intercept for this model.
+- If set to False, no intercept will be used in calculations.
+ 
 <h1 name='class' align=center>Classification</h1>
 
 <h3 name='logreg'>2. Logistic Regression (<a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md'>More</a> )</h3>
