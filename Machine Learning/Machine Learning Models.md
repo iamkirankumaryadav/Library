@@ -246,7 +246,7 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 - `Leaf Node` | `Terminal` | `Label` | `Class`: Nodes that do not split further.
 - The `Decision Tree` recursively splits the data into smaller subsets based on the values (Continuous or Discrete) of input variables.
 - At each split, the algorithm chooses the best variable to split the data into two subsets based on the values of that variable.
-- The process continues until the data is split into subsets that are pure.
+- The process continues until the data is split into subsets that are pure (Which can't be split further)
 - Once the data is split into pure subsets, the decision tree can be used to make predictions for new data points. 
 - We select the feature as `node` that **splits** the data very well.
 - Attribute with `High Information Gain` or `Low Entropy` or `Low Gini Index` is selected as `best attribute` to split.
@@ -265,19 +265,19 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 from sklearn.tree import DecisionTreeClassifier
 ```
 
-### `Information Gain` ( Which Feature will be selected as Root Node ? )
+### `Information Gain` (Which Feature will be selected as Root Node?)
 
-- `High Information Gain` is better ( Explains the split very well )
+- `High Information Gain` is better (Explains the split very well)
 - `Information Gain` decides which feature will become `Node` and will `split` the data further for building the **tree**.
 - Split with the `High Information Gain` will be considered as the first split and the process will continue until **IG** becomes 0.
 
-### `Gini Index` ( Checks for `Impurity` in the dataset )
+### `Gini Index` (Checks for `impurity` in the dataset)
 
 - `Low Gini Index` is better.
 - `Pure`: All data belongs to the `same` class in a subset ( Gini Index = 0 )
 - `Impure`: Data is a mixture of `different` classes in a subset.
 
-### `Entrophy` ( Measure Disorder | Randomness | Uncertainity in Data )
+### `Entrophy` (Measure Disorder | Randomness | Uncertainity in Data)
 
 - `Low Entropy` is better. ( Easy to draw conclusions from data )
 - `High Entropy` ( Hard to draw conclusions from data )
