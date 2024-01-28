@@ -245,7 +245,7 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 - `Edges` | `Branches` | `Splits` | `Decisions` | `Conditions` | `Outcomes` | `Sub Tree`
 - `Leaf Node` | `Terminal` | `Label` | `Class`: Nodes that do not split further.
 - The `Decision Tree` recursively splits the data into smaller subsets based on the values (Continuous or Discrete) of input variables.
-- At each split, the algorithm chooses the best variable to split the data on and then splits the data into two subsets based on the values of that variable.
+- At each split, the algorithm chooses the best variable to split the data into two subsets based on the values of that variable.
 - The process continues until the data is split into subsets that are pure.
 - Once the data is split into pure subsets, the decision tree can be used to make predictions for new data points. 
 - We select the feature as `node` that **splits** the data very well.
