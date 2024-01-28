@@ -241,9 +241,9 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/06.Decision%20Tree.ipynb)
 
-- `Root Node`: `Decisions` | `Conditions` | `Outcomes`
-- `Edges`: `Branches` | `Splits`
-- `Leaf Node`: `Terminal` | `Label` | `Class`
+- `Root Node`: Represents the entire sample and this further gets divided into two or more homogeneous sets.
+- `Edges` | `Branches` | `Splits` | `Decisions` | `Conditions` | `Outcomes` | `Sub Tree`
+- `Leaf Node` | `Terminal` | `Label` | `Class`: Nodes that do not split further.
 - The `Decision Tree` recursively splits the data into smaller subsets based on the values (Continuous or Discrete) of input variables.
 - At each split, the algorithm chooses the best variable to split the data on and then splits the data into two subsets based on the values of that variable.
 - The process continues until the data is split into subsets that are pure.
@@ -254,6 +254,8 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 - Models, where the `target` variable takes a `categorical` set of values, are a `classification` tree.
 - Models, where the `target` variable takes a `continuous` value, are `regression` Tree.
 - `CART` : **C**lassification **A**nd **R**egression **T**ree.
+- Pruning: When we remove unnecessary sub-nodes of a decision node.
+- Pruning reduces the complexity, overfitting, and improves its generalization performance.
 - Growing a tree means deciding which `feature` to choose and what condition to use? for splitting.
 - `Continuous` can be converted into `binary` or `boolean` by setting the `threshold` value.
 - We should also know when to `stop` | `terminate` ( **Max Depth** ) to prevent from `overfitting`
