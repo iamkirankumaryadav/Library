@@ -309,8 +309,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
-- Support Vector Machine is used for both `regression` and `classification`
-- Finds an optimal `line` or `hyperplane` that separates the 2 distinct classes with `maximum margin` in `N-dimensional space`
+- Aims to find an optimal `hyperplane` that classifies the distinct classes with `maximum margin` in `N-dimensional space`
 - `Hyperplanes` are decision boundaries that help to `classify` the data points. Data points are called `Support Vectors`
 - `SVM` can be used for `linear` and `non-linear` regression and classification.
 - `SVM` can manage high dimensional data and nonlinear relationships between the data points.
@@ -327,6 +326,8 @@ from sklearn.ensemble import RandomForestClassifier
 ### Disadvantage
 
 - Choosing a `good Kernel` function, `fine tuning` and even `visualization` is challenging.
+- Feature scaling (normalization/standardization) is important for better accuracy.
+- Not suitable for larger datasets, training can be time and resource-consuming.
 - Difficult to understand the `final model`, variable `weights` have individual impact.
 
 <h3 name='knn'>6. K Nearest Neighbours</h3>
