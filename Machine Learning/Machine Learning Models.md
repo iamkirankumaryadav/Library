@@ -251,9 +251,10 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 - Decision Trees are used to make predictions on new data by traversing the tree, the terminal node represents the predicted outcome.
 - The tree is built by selecting the best split at each node, based on measures of impurity, such as the `Gini Index` or `IG`
 - Attribute with `High Information Gain` or `Low Entropy` or `Low Gini Index` is selected as `best attribute` to split.
-- Used especially for `binary` classification and `multiclass` classification and even used for `Regression`
-- Models, when the `target` variable is a `categorical` set of values, a `classification` tree is used.
-- Models, when the `target` variable is a `continuous` value, a `regression` tree is used.
+- The path from the root to a leaf node represents a set of rules that will be used to classify new instances.
+- Used especially for `binary` Classification and `multiclass` Classification and even used for `Regression`
+- Models, when the `target` variable has a `categorical` set of values, a `classification` tree is used.
+- Models, when the `target` variable has a `continuous` value, a `regression` tree is used.
 - `CART` : **C**lassification **A**nd **R**egression **T**ree.
 - Decision Tree is prone to `overfitting`, resulting in poor performance on the test data.
 - Pruning: When we remove unnecessary sub-nodes of a decision node.
@@ -262,6 +263,12 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 - `Continuous` can be converted into `binary` or `boolean` by setting the `threshold` value.
 - We should also know when to `stop` | `terminate` ( **Max Depth** ) to prevent from `overfitting`
 - Decision tree can be `pruned` if necessary to avoid `overfitting`
+
+**Advantages:**
+- Easy to visualize and understand, they can also handle missing data.
+- Don't require extensive data preprocessing such as `normalization` or `scaling`
+- Capture non-linear relationships between the target vector and the feature matrix.
+- Robust to outliers and can handle them well.
 
 ```python
 from sklearn.tree import DecisionTreeClassifier
@@ -276,12 +283,12 @@ from sklearn.tree import DecisionTreeClassifier
 ### `Gini Index` (Checks for `impurity` in the dataset)
 
 - `Low Gini Index` is better.
-- `Pure`: All data belongs to the `same` class in a subset ( Gini Index = 0 )
+- `Pure`: All data belongs to the `same` class in a subset (Gini Index = 0)
 - `Impure`: Data is a mixture of `different` classes in a subset.
 
 ### `Entrophy` (Measure Disorder | Randomness | Uncertainity in Data)
 
-- `Low Entropy` is better. ( Easy to conclude data )
+- `Low Entropy` is better. (Easy to conclude data)
 - `High Entropy`
 
 Advantage of Decision Tree | Disadvantage of Decision Tree
