@@ -300,8 +300,8 @@ Handle **non linear data** |
 ### Individual trees are prone to `overfitting` but improve when `ensembled`
 
 ### How to Avoid Overfitting?
-- Remove | `Prune` branches with less importance ( Irrelevant Feature )
-- Early stop ( Limit the `Max Depth` of the tree )
+- Remove | `Prune` branches with less importance (Irrelevant Feature)
+- Early stop (Limit the `Max Depth` of the tree)
 
 <h3 name='forest'>4. Random Forests ( Ensemble Learning Technique | Bagging )</h3>
 
@@ -311,9 +311,9 @@ Handle **non linear data** |
 - An ensemble learning method that uses multiple `decision trees` for both `regression` and `classification`
 - Ensemble learning algorithms combine the predictions of multiple decision trees to produce a more accurate prediction.
 - Once the decision trees are trained, they are used to predict new data points.
-- Each decision tree is built using a random subset of the training data ( feature matrix )
-- Multiple `decision trees` ( weak learners ) are trained `parallel` and `individually` | `independently`
-- `Bootstrapping` ( Row sampling with replacement ): Subsets are randomly selected from the original dataset.
+- Each decision tree is built using a random subset of the training data (feature matrix)
+- Multiple `decision trees` (weak learners) are trained `parallel` and `individually` | `independently`
+- `Bootstrapping` (Row sampling with replacement): Subsets are randomly selected from the original dataset.
 - `Majority Voting`: `Prediction` of the model is based on the **voting** of decision tree outputs.
 - `Regression`: The mean/average of the predictions of all the decision trees are considered.
 - `Classification`: The class selected by most of the decision trees are considered.
@@ -321,7 +321,7 @@ Handle **non linear data** |
 - `Bagging`: Multiple decision trees are trained in `parallel` to form one strong accurate predicting model.
 - Adding multiple decision trees reduces the risk of `error` and `overfitting` by reducing the variance.
 - Random forests are accurate, robust to `overfitting`, used for both `regression` and `classification`.
-- Random forest can be trained on data of any type (numerical, categorical, and ordinal data)
+- Random forests can be trained on data of any type (numerical, categorical, and ordinal data)
 
 **Advantages:**
 - RF can handle large datasets with high features and can provide accurate results.
@@ -341,11 +341,10 @@ from sklearn.ensemble import RandomForestClassifier
 <h3 name='adaboost'>ADABOOST( Adaptive Boosting)</h3>
 
 - AdaBoost iteratively trains a sequence of weak decision trees.
-- Gives more weight to the data points that are misclassified in each iteration.
+- Gives more `weight` to the data points that are misclassified in each iteration.
 - AdaBoost can significantly enhance the accuracy of models, especially when dealing with complex datasets.
-- AdaBoost is effective in handling class imbalance.
-- Doesn't require extensive hyperparameter tuning.
-- AdaBoost implicitly performs feature selection by assigning more importance/weights to relevant features.
+- AdaBoost is effective in handling class imbalance and doesn't require extensive hyperparameter tuning.
+- AdaBoost implicitly performs feature selection by assigning more `importance/weights` to relevant features.
 - Primarily used for classification tasks. Not well suited for regression tasks.
 
 <h3 name='gbm'>GBM ( Gradient Boosting Method)</h3>
@@ -377,7 +376,6 @@ Algorithm Steps:
 - Can be more complex and challenging to tune.
 - If not properly regularized or if trained for too many iterations, it can overfit the training data.
 
-
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
 - Aims to find an optimal `hyperplane` that classifies the distinct classes with `maximum margin` in `N-dimensional space`
@@ -385,13 +383,13 @@ Algorithm Steps:
 - `SVM` can be used for `linear` and `non-linear` regression and classification.
 - `SVM` can manage high dimensional data and nonlinear relationships between the data points.
 - `SVM` uses `kernel trick` for `non-linear` data which creates a `hyperplane` in `N-dimensional space` for linear separation.
-- Works better even if the data set has a lot of `outliers` ( Because SVM focus only on `support vectors` closest to the line  )
+- Works better even if the data set has a lot of `outliers` (Because SVM focus only on `support vectors` closest to the hyperplane)
 - Take a long time to `train` and `predict` if the number of `observations` is very large.
 - Kernel functions : Linear | Radial basis function ( RBF ) | Polynomial | Exponential.
 
 ### Benefits 
 
-- SVM works well with `unstructured` and `semi-structured` data ( text, image, face, anomaly detections, etc. )
+- SVM works well with `unstructured` and `semi-structured` data (text, image, face, anomaly detections, etc.)
 - `Generalize` well on the new unseen data and the risk of `overfitting` is also less.
 
 ### Disadvantage
@@ -414,22 +412,24 @@ Algorithm Steps:
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
-- Naive Bayes is a `probabilistic classifier`, based on `Class Prediction Probability` ( `Binary` and `Multiclass` classification )
+- Naive Bayes is a `probabilistic classifier`, based on `Class Prediction Probability` (`Binary` and `Multiclass` classification)
 - Creates the `conditional probability distribution` for all the classes independently.
-- `Naive`: Assumes that all of the `features` are `independent` from each other ( No correlation between any feature )
-- e.g `Classification` of Dogs Breed ( Naive Bayes tries to create a `probability` that each Dog belongs to a separate `Class` )
+- `Naive`: Assumes that all of the `features` are `independent` from each other (No correlation between any feature)
+- e.g `Classification` of Dogs Breed (Naive Bayes tries to create a `probability` that each Dog belongs to a separate `Class`)
 - `Weights` can be added to improve `accuracy`
+- Fast, highly scalable, requires less training, and can be used for real-time predictions.
+- Can handle missing data and is not sensitive to irrelevant features.
 - P(Class | Data) = (P(Data | Class) * P(Class)) / P(Data)
 - P(Class | Data): Probability after observing the data (Posterior Probability)
 - P(Data | Class): Likelihood
 - P(Class): Probability before observing the data (Prior Probability)
 - Classification: Spam email, Dogs Breed Image, and Customer likely to churn.
 - Regression: House price, Product Sales, and Customer lifeline.
-- Anomaly detection: Detecting fraudulent transactions, Network intrusion, and Outlier detection.  
+- Anomaly detection: Detecting fraudulent transactions, Network intrusion, and Outlier detection.
 
 > **Classification**  : **Categorical**
 
-<h1 name='unsup' align=center>Unsupervised Learning ( Unlabeled Data )</h1>
+<h1 name='unsup' align=center>Unsupervised Learning (Unlabeled Data)</h1>
 
 <table align=center>
   <tr>
@@ -461,7 +461,7 @@ Algorithm Steps:
  <h1 name='cluster' align=center>Clustering</h1>
 
 - Find some underlying `pattern` and `structure` in data.
-- Groups the data points into **segments** or **clusters** based on **similarity**.
+- Groups the data points into `segments` or `clusters` based on **similarity**.
 - Customer Segmentation | Fraud Detection | Document Classification
 
 ### Clustering Techniques
@@ -470,13 +470,14 @@ Algorithm Steps:
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/10.K%20Mean%20Clustering.ipynb)
 
-- Groups data points into a specified number of clusters.
+- Groups similar data points together based on their features into a specified number of clusters.
 - Data points with similar characteristics are grouped in one cluster.
-- We choose the `K` number of clusters and select `K` random data points as `centroid` (centre of cluster) as centroid for each cluster.
-- Data points nearest to its corresponding `centroid` belong to that cluster.
-- Again the `centroid` is calculated, and the data points are updated based on the new `centroid`
+- `Mean` in `K-Mean` refers to the averaging of data (Finding the `centroid`)
+- Initially `K` random data points are selected as a `centroid` (centre of cluster) for each cluster.
+- Each data point nearest to its corresponding `centroid` belongs/assigned to that cluster.
+- Again the `centroid` is recalculated for the newly formed cluster, and the data points are updated based on the new `centroid`
 - This is an iterative process, we stop when there is no further classification.
-- Different starting points ( Random centroid selected ) create different clusters. 
+- Different starting points (Random centroid selected) create different clusters. 
 - `Elbow Method`: The sum of squared distance gets smaller as the number of clusters increases.  
 - The `Elbow` method helps to find the `optimal` number of clusters.
 
@@ -488,24 +489,32 @@ Steps of K Mean Clustering:
 5. Repeat 3 and 4 until we cannot find any new centroid after recalculation.
 
 Advantages:
-1. Simple to understand and implement.
-2. Efficient and can be applied over large data sets.
-3. Versatile unsupervised ML algorithm that can be used for data exploration and clustering.
+1. Simple to understand and can be applied over large data sets.
+2. Versatile unsupervised ML algorithm that can be used for data exploration and clustering.
+
+**Usage:**
+1. **Market Segmentation:** Grouping customers based on purchasing behavior, age, income, etc.
+2. **Document Classification:** Grouping documents by topics or contents.
+3. **Image Compression:** Reducing the number of colours in an image.
+4. **Spatial Data Analysis:** Identifying areas of similar land use in an urban setting.
+5. **Anomaly Detection:** Detecting unusual patterns or outliers in datasets.
 
 <h3 name='hc'>2. Hierarchical Clustering</h3>
 
- Groups data points into a `hierarchy` of clusters. 
+- Groups data points into a `hierarchy` of clusters.
+- No need to specify the number of clusters `K` in advance.
+- A dendrogram can be used to visualize and determine the number of clusters in the data.
 
 A. Agglomerative
 - Bottom-Up Approach
 - `AGNES`: **Ag**glomerative **Nes**ting
-- Starts with treating each data point as a part of its own individual cluster.
-- After each iteration, similar and closest clusters are merged with each other, until there is only one cluster remaining.
+- Starts with treating each data point as a single cluster and then merges the closest data points.
+- After each iteration, similar and closest clusters are merged, until there is only one cluster left.
 
 B. Divisive
 - Top Down Approach
 - **DIANA** ( **Di**vise **Ana**lysis )
-- Starts with all the data points in a single cluster.
+- Starts with all the data points in a single cluster and recursively splits the clusters until each cluster contains a single data point.
 - After each iteration, it splits the large clusters into two smaller clusters, until each cluster contains only one data point.
 
 ### How do we Calculate the similarity between the clusters?
@@ -532,16 +541,22 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 ### B. Dimensionality Reduction
 
 - A technique used to reduce the number of `features` or `variables` in a dataset while retaining the most important information.
+- Simplifying the complexity of the dataset by reducing the number of dimensions (variables) without losing information.
 - The aim is to find the **important features | variables** that the model can use for better prediction.
 - Reducing **irrelevant features** that have no relation with the target feature.
 - Some features bring `Multicollinearity`
 - **Feature Elimination** | **Feature Selection** or **Feature Extraction**
 - Save storage and time by improving the performance of the model.
 - Due to less number of features it can be visualized in `2D` and `3D`.
-- Project data into lower dimensions while preserving as much useful variability ( 19/20 ) as possible.
+- Project data into lower dimensions while preserving as much useful variability (19/20) as possible.
 - e.g. If we observe a `Scatter Plot` in multi-dimension it will be complicated for understanding. 
 - Consider only 1D then it is just a line and a few points in which some are close to the line and some are a bit far away from the line.
 - Combine features or remove features to reduce dimensions.
+- Dimensionality Reduction helps to prevent the models from overfitting (Due to too many features)
+- It helps to visualize high-dimensional data in 2 or 3 dimensions.
+- Simplifies the model, improves accuracy, fast training, easy visualization, and helps to identify patterns easily.
+- Scale and normalize data before applying dimensionality reduction techniques.
+- Use visualizations to assess how well the reduced dimensions represent the data.
 
 ### Techniques of Dimensionality Reduction
 
@@ -571,11 +586,12 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 
 <h3 name='tsne'>t-SNE ( t Distributed Stochastic Neighbor Embedding )</h3>
 
-- Non-linear dimension reduction ( Spiral, Mixed ) 
+- Non-linear dimension reduction (Spiral, Mixed) 
 - Data that is complicated to understand ( Multi-Dimensional Data )
 - A tool to visualize and explore high-dimension data.
 - Identity clusters based on the similarity of data points.
-- Maps **multi dimensional data** to a **lower dimensional space**. 
+- Maps **multi dimensional data** to a **lower dimensional space**.
+- Reduces dimensions while keeping similar instances closer and dissimilar instances apart.
 
 ### Anomaly Detection :
 - Discover unusual data points in the data set.
