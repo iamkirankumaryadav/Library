@@ -28,7 +28,7 @@
 
 ### [Missing Data](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Outliers.md) | [Categorical Feature](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Categorical.md) | [Imbalanced Data](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md) | [Overfitting](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Overfitting.md) | [Data Cleaning](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Data%20Cleaning.md)
 
-[MLE vs MLOps](https://www.fosfor.com/blog/the-ml-engineer-vs-the-mlops-persona/)
+### [**MLE vs MLOps**](https://www.fosfor.com/blog/the-ml-engineer-vs-the-mlops-persona/)
 
 Machine Learning Engineering (MLE) |	 Machine Learning Operations (MLOps)
 :--- | :---
