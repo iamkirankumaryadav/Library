@@ -40,6 +40,12 @@
 
 **Time** Complexity of Occurence of Characters in a String : `O(n)`
 
+Machine Learning Engineering (MLE) |	 Machine Learning Operations (MLOps)
+:--- | :---
+Focuses on building products/services that are highly scalable and highly performant. | Focuses on delivering products/services in production and ensuring service  quality is always maintained.
+Focuses on providing permanent fixes in response to any incident/ bug. | Focuses on ensuring product/service is up and running.
+Not an end-user-facing role. | End-user-facing role that requires to have strong communication skills.
+
 ### Log Function
 - `Log` is inverse of `exponent`
 - e.g. Base investment : `5₹` and 5 times return : `125₹` ( Log<sub>5</sub> 125 : `3` Years )
