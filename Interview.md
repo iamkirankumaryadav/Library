@@ -34,8 +34,6 @@ Focuses on building products/services that are highly scalable and highly perfor
 Focuses on providing permanent fixes in response to any incident/ bug. | Focuses on ensuring product/service is up and running.
 Not an end-user-facing role. | End-user-facing role that requires to have strong communication skills.
 
----
-
 ### [Pandas vs SQL](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html#join) | [Lists vs Array](https://github.com/iamkirankumaryadav/NumPy)
 
 > Outliers : Extreme Value Analysis | DBSCAN | 5 Number Summary | Algorithm ( KNN & Random Forest )
