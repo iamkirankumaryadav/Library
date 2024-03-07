@@ -28,6 +28,12 @@
 
 ### [Missing Data](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Outliers.md) | [Categorical Feature](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Categorical.md) | [Imbalanced Data](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md) | [Overfitting](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Overfitting.md) | [Data Cleaning](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Data%20Cleaning.md)
 
+Machine Learning Engineering (MLE) |	 Machine Learning Operations (MLOps)
+:--- | :---
+Focuses on building products/services that are highly scalable and highly performant. | Focuses on delivering products/services in production and ensuring service  quality is always maintained.
+Focuses on providing permanent fixes in response to any incident/ bug. | Focuses on ensuring product/service is up and running.
+Not an end-user-facing role. | End-user-facing role that requires to have strong communication skills.
+
 ---
 
 ### [Pandas vs SQL](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html#join) | [Lists vs Array](https://github.com/iamkirankumaryadav/NumPy)
@@ -39,12 +45,6 @@
 > Overfitting : Apply Regularization | Apply Ensembles | Apply Cross Validation | Feature Selection
 
 **Time** Complexity of Occurence of Characters in a String : `O(n)`
-
-Machine Learning Engineering (MLE) |	 Machine Learning Operations (MLOps)
-:--- | :---
-Focuses on building products/services that are highly scalable and highly performant. | Focuses on delivering products/services in production and ensuring service  quality is always maintained.
-Focuses on providing permanent fixes in response to any incident/ bug. | Focuses on ensuring product/service is up and running.
-Not an end-user-facing role. | End-user-facing role that requires to have strong communication skills.
 
 ### Log Function
 - `Log` is inverse of `exponent`
