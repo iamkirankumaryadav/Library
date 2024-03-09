@@ -4,42 +4,49 @@
 
 <table align="center">
   <tr>
-    <td>1. <a href="#nltk">NLTK</a> </td>
+    <td>1. <a href="#nlp">NLP</a> </td>
+    <td>2. <a href="#nlu">NLU</a></td>
+    <td>3. <a href="#nlq">NLQ</a></td>
+    <td>4. <a href="#nlg">NLG</a></td>
+  </tr>
+  <tr>
+    <td>5. <a href="#nltk">NLTK</a> </td>
     <td>6. <a href="#stem">Stemming</a></td>
-    <td>11. <a href="#bag">Bag of Words</a></td>
-    <td>16. <a href="#ner">Name Entity Recognition</a></td>
+    <td>7. <a href="#bag">Bag of Words</a></td>
+    <td>8. <a href="#ner">Name Entity Recognition</a></td>
   </tr>
   <tr>
-    <td>2. <a href="#mine">Text Analysis | Text Mining</a> </td>
-    <td>7. <a href="#lemma">Lemmatization</a></td>
-    <td>12. <a href="#vector">Vectorization</a></td>
-    <td>17. <a href="#cloud">Word Cloud</a></td>
+    <td>9. <a href="#mine">Text Analysis | Text Mining</a> </td>
+    <td>10. <a href="#lemma">Lemmatization</a></td>
+    <td>11. <a href="#vector">Vectorization</a></td>
+    <td>12. <a href="#cloud">Word Cloud</a></td>
   </tr>
   <tr>
-    <td>3. <a href="#app">Real World Application</a> </td>
-    <td>8. <a href="#norm">Text Normalization</a></td>
-    <td>13. <a href="#tfidf">TF-IDF</a></td>
-    <td>18. <a href="#word2vec"> Word2vec </a></td>
+    <td>13. <a href="#app">Real World Application</a> </td>
+    <td>14. <a href="#norm">Text Normalization</a></td>
+    <td>15. <a href="#tfidf">TF-IDF</a></td>
+    <td>16. <a href="#word2vec"> Word2vec </a></td>
   </tr>
   <tr>
-    <td>4. <a href="#pipe">NLP Pipeline</a> </td>
-    <td>9. <a href="#stop">Stop Word</a></td>
-    <td>14. <a href="#ngram">N Grams</a></td>
-    <td>19. <a href="#doc2vec"> Doc2vec </a></td>
+    <td>17. <a href="#pipe">NLP Pipeline</a> </td>
+    <td>18. <a href="#stop">Stop Word</a></td>
+    <td>19. <a href="#ngram">N Grams</a></td>
+    <td>20. <a href="#doc2vec"> Doc2vec </a></td>
   </tr>
   <tr>
-    <td>5. <a href="#token">Tokenization</a> </td>
-    <td>10. <a href="#pos">Part of Speech</a></td>
-    <td>15. <a href="#vector">Vectorization</a></td>
+    <td>21. <a href="#token">Tokenization</a> </td>
+    <td>22. <a href="#pos">Part of Speech</a></td>
+    <td>23. <a href="#vector">Vectorization</a></td>
+    <td>24. <a href="#corpus">Corpus</a></td>
   </tr>
-  
 </table>
 
-### `NLP`
+<h3 name="nlp"> Natural Language Processing (NLP) </h3>
 
 - A field of `AI` that deals with the interaction between computers and human language.
 - Ability of computer to `read`, `understand`, `learn`, `analyze`, `translate`, `generate` and `communicate` using **human language**.
 - Interaction between `computers` and `humans` using the natural language.
+- **Natural Language Understanding (NLU)** and **Natural Language Generation (NLG)** are both subfields of **NLP**
 
 #### Applications:
 - Chatbots
@@ -47,7 +54,62 @@
 - Sentiment Analysis
 - Translation
 
-### **Corpus:**
+<h3 name="nlu"> Natural Language Understanding (NLU) </h3>
+
+- `NLU` focuses on getting computers to actually understand the meaning behind human language.
+- It goes beyond just the literal words and considers factors like grammar, context, and sentiment.
+- NLU is crucial for tasks like question answering systems or chatbots that need to grasp the intent behind a user's query.
+
+<h3 name="nlq"> Natural Language Query (NLQ) </h3>
+
+- `NLQ` isn't as widely used as `NLP`, `NLU`, and `NLG`, but it's related.
+- `NLQ` refers to formulating a question or request in natural language.
+- For instance, instead of using a specific search bar format, you might ask a search engine a question in plain English like "What is the capital of France?".
+- NLQ highlights the goal – allowing users to interact with computers using natural human language.
+
+<h3 name="nlg"> Natural Language Generation (NLG) </h3>
+
+- NLG flips the script/query and focuses on machines generating human-like text.
+- NLG takes data and translates it into natural language that a human can understand.
+- Examples include machine translation tools or chatbots that can provide summaries of factual topics.
+
+**How Does NLG Work?**
+
+1. **Data Preparation:**
+- The first step involves getting the data in a format that the NLG system can understand.
+- This might involve cleaning the data, organizing it, and potentially converting it into a structured format.
+
+2. **Template Selection:**
+- NLG systems often rely on pre-defined templates that act as a blueprint for generating text.
+- These templates include placeholders for specific information that gets filled in later.
+
+3. **Content Generation:**
+- Once the template is chosen, the NLG system uses its knowledge and understanding of language to fill in the placeholders with relevant information and ensure grammatical correctness and coherence.
+
+4. **Review and Refinement:**
+- The generated text might undergo review and refinement to ensure it sounds natural and matches the desired style or tone.
+
+**Applications of NLG**
+
+1. **Customer Service:**
+- NLG can be used to generate automated responses to frequently asked questions or create personalized reports for customers.
+
+2. **Finance:**
+- NLG can be used to create financial reports, summaries of investment performance, or even generate automated news articles about financial markets.
+
+3. **Marketing:**
+- NLG can be used to personalize marketing content or generate targeted product descriptions.
+
+4. **Media and News:**
+- NLG can be used to automate sports reports, weather forecasts, or even create summaries of news articles.
+
+5. **Healthcare:**
+- NLG can be used to generate patient reports, summarize medical findings, or create personalized treatment plans.
+
+As NLG technology continues to develop, we can expect to see even more innovative applications emerge in the future.
+
+<h3 name="corpus">Corpus</h3>
+
 - Corpus: A large collection of text data.
 - Corpora are essential for training NLP models, as they provide the models with the raw language data they need to learn from.
 - Corpora are used to train ML models for a variety of NLP tasks, such as sentiment analysis, machine translation, and part-of-speech tagging.
