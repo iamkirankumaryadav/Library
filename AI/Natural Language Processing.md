@@ -41,7 +41,7 @@
   </tr>
 </table>
 
-<h3 name="nlp"> Natural Language Processing (NLP) </h3>
+<h2 name="nlp"> Natural Language Processing (NLP) </h2>
 
 - A field of `AI` that deals with the interaction between computers and human language.
 - Ability of computer to `read`, `understand`, `learn`, `analyze`, `translate`, `generate` and `communicate` using **human language**.
@@ -54,20 +54,20 @@
 - Sentiment Analysis
 - Translation
 
-<h3 name="nlu"> Natural Language Understanding (NLU) </h3>
+<h2 name="nlu"> Natural Language Understanding (NLU) </h2>
 
 - `NLU` focuses on getting computers to actually understand the meaning behind human language.
 - It goes beyond just the literal words and considers factors like grammar, context, and sentiment.
 - NLU is crucial for tasks like question answering systems or chatbots that need to grasp the intent behind a user's query.
 
-<h3 name="nlq"> Natural Language Query (NLQ) </h3>
+<h2 name="nlq"> Natural Language Query (NLQ) </h2>
 
 - `NLQ` isn't as widely used as `NLP`, `NLU`, and `NLG`, but it's related.
 - `NLQ` refers to formulating a question or request in natural language.
 - For instance, instead of using a specific search bar format, you might ask a search engine a question in plain English like "What is the capital of France?".
 - NLQ highlights the goal – allowing users to interact with computers using natural human language.
 
-<h3 name="nlg"> Natural Language Generation (NLG) </h3>
+<h2 name="nlg"> Natural Language Generation (NLG) </h2>
 
 - NLG flips the script/query and focuses on machines generating human-like text.
 - NLG takes data and translates it into natural language that a human can understand.
@@ -108,7 +108,7 @@
 
 As NLG technology continues to develop, we can expect to see even more innovative applications emerge in the future.
 
-<h3 name="corpus">Corpus</h3>
+<h2 name="corpus">Corpus</h2>
 
 - Corpus: A large collection of text data.
 - Corpora are essential for training NLP models, as they provide the models with the raw language data they need to learn from.
@@ -120,11 +120,11 @@ Types of corpora:
 3. **Social media corpora:** Collections of text from social media platforms such as Instagram, Twitter and Facebook. 
 4. **Speech corpora:** Collections of spoken language data. 
 
-<h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
+<h2 name="nltk"> NLTK ( Natural Language Toolkit ) </h2>
 
 - Open source `toolkit` or `library` created to make `NLP` process in `Python`
 
-<h3 name="mine"> Text Mining | Text Analysis </h3>
+<h2 name="mine"> Text Mining | Text Analysis </h2>
 
 - `Analyze` and `understand` text data.  
 - Derive **meaningful information** from natural language `text` and `speech`
@@ -145,7 +145,7 @@ Types of corpora:
 5. Convert processed text to audio.
 6. Machine reply to human.
 
-<h3 name="app"> Applications : NLP in real life </h3>
+<h2 name="app"> Applications : NLP in real life </h2>
 
 1. Google translate. ( Speech to text )
 2. Email `spam` filter ( Search for texts related to spam email )
@@ -160,7 +160,7 @@ Types of corpora:
 11. Text classification.
 12. Part of speech `tagging` ( **Part of speech** of corresponding word )
 
-<h3 name="pipe"> NLP Pipeline </h3>
+<h2 name="pipe"> NLP Pipeline </h2>
 
 1. Read **raw** text.
 2. Remove `Punctuations`
@@ -170,7 +170,7 @@ Types of corpora:
 6. `Vectorize` data to prepare for model built (Convert text to `number`)
 7. **Feature Engineering** (**Creating** new feature or **transforming** existing features to get most out of data)
 
-<h3 name="token"> Tokenization </h3>
+<h2 name="token"> Tokenization </h2>
 
 - The process of breaking down text into smaller units, such as words or sentences.
 - This is the first step in many NLP tasks, as it allows the model to process the text in a more manageable way.
@@ -180,7 +180,7 @@ Word = "Hi, my name is Kirankumar"
 ["Hi", ",", "my", "name", "is", "Kirankumar"]
 ```
 
-<h3 name="stem"> Stemming </h3>
+<h2 name="stem"> Stemming </h2>
 
 - Reducing **derived** words to there `stem` | `root` | `base` form.
 - Remove `suffix` and `prefix` from the word.
@@ -201,7 +201,7 @@ stem(token)
 2. **Snowball** Stemmer ( **Better** than **Porter** and **Lancaster** : fairly > `fair` )
 3. **Lancaster** Stemmer ( **Fastest** with **least accuracy** )
 
-<h3 name="lemma"> Lemmatization </h3>
+<h2 name="lemma"> Lemmatization </h2>
 
 - A more sophisticated form of stemming that takes into account the context of a word to determine its base form.
 - Grouping together the **derived forms** of words so that they can be analyzed as a `single` base form.
@@ -228,7 +228,7 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 - Removing `special characters`, `digits` and pieces of text that can `interfere` with text analysis.
 - Remove `punctuation`, `special character`, `number`, `HTML` formatting, `source code`, `header`
 
-<h3 name="norm"> Text Normalization </h3>
+<h2 name="norm"> Text Normalization </h2>
 
 - Transforming text into its `standard` form.
 - e.g. 'gooood' and 'gud' transformed to 'good'
@@ -236,7 +236,7 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 - Important when **noisy**, **misspelled**, **slang** and **out of vocabulory** ( `OOV` ) words are used. 
 - **Out of vocabulory** ( `OOV` ) : **Social media** comments, **blog** comments and **text messages**.
 
-<h3 name="stop"> Stop Word </h3>
+<h2 name="stop"> Stop Word </h2>
 
 - Common words that are filtered out before processing text.
 - Stop words are `filler` words like `a`, `an`, `in`, `on`, `and`, `the`, `or`, etc.
@@ -253,12 +253,12 @@ How to `remove` stopwords using NLTK
 Token for Token in text if not in `Stopwords.words()` 
 ```
 
-<h3 name="pos"> POS : Parts-of-Speech Tagging</h3>
+<h2 name="pos"> POS : Parts-of-Speech Tagging</h2>
 
 - The process of assigning a grammatical tag (such as noun, verb, adjective) to each word in a sentence.
 - POS tagging can be helpful for tasks like sentiment analysis and machine translation.
 
-<h3 name="bag"> Bag of Words </h3>
+<h2 name="bag"> Bag of Words </h2>
 
 - A method for representing text documents as a collection of words.
 - Number of `occurence` of words in a paragraph or sentence.
@@ -269,12 +269,12 @@ Token for Token in text if not in `Stopwords.words()`
 - In a BOW model, the order of the words is not taken into account, only the frequency of each word.
 - BOW models are a simple and effective way to represent text data, but they can lose some important information about the structure of the text.
 
-<h3 name="vector"> Vectorization </h3>
+<h2 name="vector"> Vectorization </h2>
 
 - **Converting** text to form `Numbers` that an **algorithm** and a **ML model** can `understand` and `learn`.
 - **Process** of `encoding` text as `integers` to create `feature matrix`
 
-<h3 name="tfidf">TF - IDF</h3>
+<h2 name="tfidf">TF - IDF</h2>
 
 ![TFIDF](Image/TFIDF.png)
 
@@ -294,7 +294,7 @@ Token for Token in text if not in `Stopwords.words()`
 2. **N Grams** ( Combination of `adjacent` words )
 3. **Term Frequence** - **Inverse Document Frequency** ( `TD - IDF` ) 
 
-<h3 name="ngram"> N Grams </h3>
+<h2 name="ngram"> N Grams </h2>
 
 - **Combinations** of `adjacent` words of length `N` in the text.
 - A sequence of n words. N-grams are commonly used in NLP tasks such as language modeling and machine translation.
@@ -310,7 +310,7 @@ Token for Token in text if not in `Stopwords.words()`
 
 `Google Search` **suggests** `bigrams`, `trigrams` in there `keyword` **suggestions**.  
 
-<h3 name="ner"> Name Entity Recognition </h3>
+<h2 name="ner"> Name Entity Recognition </h2>
 
 1. **Recognize** elements in text by `category`  
 2. `Movie`, `Person`, `Location`, `Organization`, `Quantity Unit`, `Monetory Value` | `Financial` terms.
@@ -330,7 +330,7 @@ Token for Token in text if not in `Stopwords.words()`
 - **Extracting** `title`, `text` and `media` from a `book`, `artice` or simply `HTML tags` from `web page`
 - e.g. `Google Search`
 
-<h3 name="cloud"> Word Cloud </h3>
+<h2 name="cloud"> Word Cloud </h2>
 
 - A graphical display of words in a `corpus`.
 - `Size` of word is based on number of `occurences`
