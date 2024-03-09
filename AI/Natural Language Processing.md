@@ -47,6 +47,17 @@
 - Sentiment Analysis
 - Translation
 
+### **Corpus:**
+- Corpus: A large collection of text data.
+- Corpora are essential for training NLP models, as they provide the models with the raw language data they need to learn from.
+- Corpora are used to train ML models for a variety of NLP tasks, such as sentiment analysis, machine translation, and part-of-speech tagging.
+
+Types of corpora:
+1. **Newsgroups corpora:** Collections of newsgroup posts.
+2. **Web corpora:** Collections of text from the web. 
+3. **Social media corpora:** Collections of text from social media platforms such as Instagram, Twitter and Facebook. 
+4. **Speech corpora:** Collections of spoken language data. 
+
 <h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
 
 - Open source `toolkit` or `library` created to make `NLP` process in `Python`
@@ -99,19 +110,20 @@
 
 <h3 name="token"> Tokenization </h3>
 
-- `Break` | `Split` a **sentence** | **Phrase** | **Paragraph** into `list` of **individual words**.
-- It is better to change all the text to `lower case` at the time of creating tokens.
+- The process of breaking down text into smaller units, such as words or sentences.
+- This is the first step in many NLP tasks, as it allows the model to process the text in a more manageable way.
 
 ```python
-[hi, my, name, is, kirankumar,...]
+Word = "Hi, my name is Kirankumar"
+["Hi", ",", "my", "name", "is", "Kirankumar"]
 ```
 
 <h3 name="stem"> Stemming </h3>
 
 - Reducing **derived** words to there `stem` | `root` | `base` form.
 - Remove `suffix` and `prefix` from the word.
-- Stem may not be an **actual** word, easy to `read` and `compare`
-- e.g. Studies > Studi | Studying > Study
+- The process of reducing a word to its base form. For example, the words "running," "runs," and "ran" would all be stemmed to "run."
+- Stemming can be helpful for tasks like information retrieval, as it allows the model to match words with different suffixes.
 
 `Stemming` is applied on `tokens` 
 
@@ -128,12 +140,11 @@ stem(token)
 3. **Lancaster** Stemmer ( **Fastest** with **least accuracy** )
 
 <h3 name="lemma"> Lemmatization </h3>
-  
+
+- A more sophisticated form of stemming that takes into account the context of a word to determine its base form.
 - Grouping together the **derived forms** of words so that they can be analyzed as a `single` base form.
-- Actually `transforms` words to the **actual root**.
-- **Reduce** words to its `base` form.
-- Used in **search engines** to search by `keywords`
-- `Lemma` is actual word ( Better > Good )
+- Actually `transforms` words to the **actual root**. **Reduce** words to its `base` form.
+- Used in **search engines** to search by `keywords`. `Lemma` is actual word ( Better > Good )
 
 ### WordNet Lemmatizer
 
@@ -165,11 +176,12 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 
 <h3 name="stop"> Stop Word </h3>
 
-- `Useless` low informative words in a sentence.
-- Stop words are just `filler` words ( `and`, `the`, `or`, etc )
+- Common words that are filtered out before processing text.
+- Stop words are `filler` words like `a`, `an`, `in`, `on`, `and`, `the`, `or`, etc.
 - Stopwords are ignored and `removed`, so that we can `focus` on **important words** instead.
 - Search engine only search on the basis of `keywords`
 - Search engines are programmed to `ignore` **stop words**.
+- These words don't provide much meaning on their own, so filtering them out can improve the efficiency of NLP tasks.
 
 How to `remove` stopwords using NLTK
 
@@ -179,18 +191,21 @@ How to `remove` stopwords using NLTK
 Token for Token in text if not in `Stopwords.words()` 
 ```
 
-<h3 name="pos"> POS : Parts of Speech </h3>
+<h3 name="pos"> POS : Parts-of-Speech Tagging</h3>
 
-- Classify the **part of speech** `tag` of each `token`
-- Identify `noun`, `verb`, `adjective` in sentence.
+- The process of assigning a grammatical tag (such as noun, verb, adjective) to each word in a sentence.
+- POS tagging can be helpful for tasks like sentiment analysis and machine translation.
 
 <h3 name="bag"> Bag of Words </h3>
 
+- A method for representing text documents as a collection of words.
 - Number of `occurence` of words in a paragraph or sentence.
 - e.g. well well well, said john. {'well':3, 'said':1, 'john':1}
 - Bag of words is represented in form of **dictionary**. 
 - Expressed sentiments of words are defined by `polarity`
-- `Polarity` : Positive `+1`, Negative `-1` or Neutral `0` 
+- `Polarity` : Positive `+1`, Negative `-1` or Neutral `0`
+- In a BOW model, the order of the words is not taken into account, only the frequency of each word.
+- BOW models are a simple and effective way to represent text data, but they can lose some important information about the structure of the text.
 
 <h3 name="vector"> Vectorization </h3>
 
@@ -220,6 +235,8 @@ Token for Token in text if not in `Stopwords.words()`
 <h3 name="ngram"> N Grams </h3>
 
 - **Combinations** of `adjacent` words of length `N` in the text.
+- A sequence of n words. N-grams are commonly used in NLP tasks such as language modeling and machine translation.
+- Bigrams (2-grams) and trigrams (3-grams) are the most common types of n-grams used in NLP.
 
 ### Bigrams
 
