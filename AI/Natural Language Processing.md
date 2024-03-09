@@ -37,8 +37,15 @@
 
 ### `NLP`
 
-- Ability of computer to `understand`, `learn`, `analyze` and `communicate` using **human language**.
+- A field of `AI` that deals with the interaction between computers and human language.
+- Ability of computer to `read`, `understand`, `learn`, `analyze`, `translate`, `generate` and `communicate` using **human language**.
 - Interaction between `computers` and `humans` using the natural language.
+
+#### Applications:
+- Chatbots
+- Virtual Assistants
+- Sentiment Analysis
+- Translation
 
 <h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
 
