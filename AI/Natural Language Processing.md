@@ -52,7 +52,7 @@
 
 **Why is NLP Important?**
 
-* **Human-like Interaction:** NLP allows users to interact with computers in a more natural and intuitive way, using everyday language instead of complex codes.
+* **Human-like Interaction:** NLP allows users to interact with computers more naturally and intuitively, using everyday language instead of complex codes.
 * **Unlocks Information:** NLP helps computers process and make sense of the massive amount of textual data available in the world, opening doors to new discoveries and insights. 
 * **Automates Tasks:** NLP can automate many tasks that previously required human intervention, such as document classification,  sentiment analysis, and  machine translation.
 
@@ -82,7 +82,7 @@
 
 - `NLU` focuses on getting computers to actually understand the meaning behind human language.
 - It goes beyond just the literal words and considers factors like grammar, context, and sentiment.
-- NLU is crucial for tasks like question answering systems or chatbots that need to grasp the intent behind a user's query.
+- NLU is crucial for tasks like question-answering systems or chatbots that need to grasp the intent behind a user's query.
 * **Goal:** Enable machines to understand the meaning and intent behind human language, similar to how humans comprehend each other.
 * **Challenges:** Human language is full of complexities, ambiguity, sarcasm, slang, and cultural references, that make it difficult for computers to grasp the true meaning.
 
@@ -107,7 +107,7 @@
 
 * **Chatbots and Virtual Assistants:** NLU empowers chatbots and virtual assistants to understand user queries and requests more accurately, enabling them to provide helpful and informative responses.
 * **Machine Translation:** NLU is essential for accurate machine translation, as it allows the system to understand the nuances of the source language and translate it naturally into the target language.
-* **Sentiment Analysis:** NLU is used to analyze the sentiment or emotion behind text, which is valuable for tasks like gauging customer satisfaction or understanding public opinion on social media.
+* **Sentiment Analysis:** NLU is used to analyze the sentiment or emotion behind the text, which is valuable for tasks like gauging customer satisfaction or understanding public opinion on social media.
 * **Question Answering Systems:** NLU allows machines to comprehend complex questions and answer them accurately by finding relevant information from a vast knowledge base.
 * **Text Summarization:** NLU can be used to automatically generate summaries of lengthy pieces of text, helping people quickly grasp the key points.
 
@@ -116,9 +116,9 @@
 - `NLQ` isn't as widely used as `NLP`, `NLU`, and `NLG`, but it's related.
 - `NLQ` refers to formulating a question or request in natural language.
 - For instance, instead of using a specific search bar format, you might ask a search engine a question in plain English like "What is the capital of France?".
-- NLQ highlights the goal – allowing users to interact with computers using natural human language.
+- NLQ highlights the goal – of allowing users to interact with computers using natural human language.
 * **Focus:** Expressing questions or requests in a way that is natural and intuitive for humans.
-* **Examples:** Instead of writing a complex SQL query to filter a database, you could ask an NLQ system a question like "What are the top selling products this month?".
+* **Examples:** Instead of writing a complex SQL query to filter a database, you could ask an NLQ system a question like "What are the top-selling products this month?".
 * Similarly, instead of using specific search operators on a search engine, you could ask "What is the capital of France?"
 
 ### **Benefits of NLQ:**
@@ -136,7 +136,7 @@
 **Where is NLQ Used?**
 
 * **Search Engines:** Many search engines now allow users to submit queries in natural language.
-* **Business Intelligence Tools:**  NLQ is being integrated into business intelligence tools like Power BI, Google Sheet (Duet AI) and Microsoft Excel (Copilot) to allow users to ask questions of their data using natural language.
+* **Business Intelligence Tools:**  NLQ is being integrated into business intelligence tools like Power BI, Google Sheets (Duet AI) and Microsoft Excel (Copilot) to allow users to ask questions about their data using natural language.
 * **Virtual Assistants:** Virtual assistants like Siri and Alexa rely on NLQ to understand user requests.
 * **Customer Service Chatbots:** Chatbots can use NLQ to answer customer questions and resolve issues.
 
@@ -204,14 +204,14 @@ Types of corpora:
 
 ### Types of text data 
 - Web, blogs, articles, feeds, comments, reviews, emails and notes.
-- Social media : Messages, hashtags, reference, comments, etc.
-- Operations : Logs and trails.
+- Social media: Messages, hashtags, references, comments, etc.
+- Operations: Logs and trails.
 - Emails ( Spam or Ham )
 - Voice transcriptions and subtitles.
 
 ### Process :
 
-1. Human talk to machine.
+1. Humans talk to machines.
 2. Machine capture human audio.
 3. Convert audio to text.
 4. Process text data. 
@@ -220,18 +220,18 @@ Types of corpora:
 
 <h2 name="app"> Applications : NLP in real life </h2>
 
-1. Google translate. ( Speech to text )
+1. Google Translate. ( Speech to text )
 2. Email `spam` filter ( Search for texts related to spam email )
-3. Google search and Gmail auto complete ( Prediction of **next words** and **suggestions** ) 
-4. Word processor | Grammer check | Auto correct in Microsoft and Google productivity Apps.
+3. Google search and Gmail auto-complete ( Prediction of **next words** and **suggestions** ) 
+4. Word processor | Grammer check | Autocorrect in Microsoft and Google productivity Apps.
 5. Grammerly | Grammer correction and spelling correction in Gmail and Outlook.
-6. IVR | Interactive voice response in call centers.
-7. Voice assistant : `Google` Google home, `Apple` siri, `Microsoft` cortana and `Amazon` alexa.
+6. IVR | Interactive voice response in call centres.
+7. Voice assistant: `Google Assistant`, `Apple Siri`, `Microsoft Cortana` and `Amazon Alexa`.
 8. Chatbots.
 9. Customer feedback sentiment analysis ( 😊🙂😔😡 )
-10. Document summarization : Read article and newspaper ( Blind people )
+10. Document summarization: Read articles and newspaper ( Blind people )
 11. Text classification.
-12. Part of speech `tagging` ( **Part of speech** of corresponding word )
+12. Part of speech `tagging` ( **Part of speech** of the corresponding word )
 
 <h2 name="pipe"> NLP Pipeline </h2>
 
@@ -266,7 +266,7 @@ Word = "Hi, my name is Kirankumar"
 stem(token) 
 ```
 
-### Why Stemming ?
+### Why Stemming?
 - Reduce `corpus` of words and `correlate` words with `similar` meanings.
 
 ### Types of Stemmers
@@ -278,12 +278,12 @@ stem(token)
 
 - A more sophisticated form of stemming that takes into account the context of a word to determine its base form.
 - Grouping together the **derived forms** of words so that they can be analyzed as a `single` base form.
-- Actually `transforms` words to the **actual root**. **Reduce** words to its `base` form.
-- Used in **search engines** to search by `keywords`. `Lemma` is actual word ( Better > Good )
+- Actually `transforms` words to the **actual root**. **Reduce** words to their `base` form.
+- Used in **search engines** to search by `keywords`. `Lemma` is an actual word ( Better > Good )
 
 ### WordNet Lemmatizer
 
-- **Database** for `english` ( Most popular **Lemmatizer** )
+- **Database** for `English` ( Most popular **Lemmatizer** )
 - `Nouns`, `Verbs`, `Adjectives` and `Adverbs` are **grouped** into sets of **Cognitive Synonyms**.  
 - e.g. { 'consult', 'consultation', 'consulting', 'consultant' } - consult
 
@@ -304,7 +304,7 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 <h2 name="norm"> Text Normalization </h2>
 
 - Transforming text into its `standard` form.
-- e.g. 'gooood' and 'gud' transformed to 'good'
+- e.g. 'gooood' and 'gud' transformed into 'good'
 - Mapping of near **identical** words such as 'stopwords', 'stop-words' and 'stop words' to just 'stopwords'
 - Important when **noisy**, **misspelled**, **slang** and **out of vocabulory** ( `OOV` ) words are used. 
 - **Out of vocabulory** ( `OOV` ) : **Social media** comments, **blog** comments and **text messages**.
@@ -314,16 +314,16 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 - Common words that are filtered out before processing text.
 - Stop words are `filler` words like `a`, `an`, `in`, `on`, `and`, `the`, `or`, etc.
 - Stopwords are ignored and `removed`, so that we can `focus` on **important words** instead.
-- Search engine only search on the basis of `keywords`
+- Search engines only search on the basis of `keywords`
 - Search engines are programmed to `ignore` **stop words**.
 - These words don't provide much meaning on their own, so filtering them out can improve the efficiency of NLP tasks.
 
 How to `remove` stopwords using NLTK
 
-1. `Tokenize` and compare with list of predefined `stopwords` and `drop` that words. 
+1. `Tokenize` and compare with the list of predefined `stopwords` and `drop` those words. 
 
 ```python
-Token for Token in text if not in `Stopwords.words()` 
+Token for Token in the text if not in `Stopwords.words()` 
 ```
 
 <h2 name="pos"> POS : Parts-of-Speech Tagging</h2>
@@ -334,11 +334,11 @@ Token for Token in text if not in `Stopwords.words()`
 <h2 name="bag"> Bag of Words </h2>
 
 - A method for representing text documents as a collection of words.
-- Number of `occurence` of words in a paragraph or sentence.
-- e.g. well well well, said john. {'well':3, 'said':1, 'john':1}
-- Bag of words is represented in form of **dictionary**. 
+- Number of `occurrence` of words in a paragraph or sentence.
+- e.g. well well well, said John. {'well':3, 'said':1, 'john':1}
+- Bag of words is represented in the form of **dictionary**. 
 - Expressed sentiments of words are defined by `polarity`
-- `Polarity` : Positive `+1`, Negative `-1` or Neutral `0`
+- `Polarity`: Positive `+1`, Negative `-1` or Neutral `0`
 - In a BOW model, the order of the words is not taken into account, only the frequency of each word.
 - BOW models are a simple and effective way to represent text data, but they can lose some important information about the structure of the text.
 
@@ -352,42 +352,42 @@ Token for Token in text if not in `Stopwords.words()`
 ![TFIDF](Image/TFIDF.png)
 
 - **Term Frequency** - **Inverse Document Frequency**.
-- `TF` : Number of `times` term `appears` in document / Number of `terms` in document.
-- `IDF` : `log(N/n)` 
-- `N` : Number of `documents`
-- `n` : Number of `documents` a `term` appeared in.
+- `TF`: Number of `times` term `appears` in document / Number of `terms` in document.
+- `IDF`: `log(N/n)` 
+- `N`: Number of `documents`
+- `n`: Number of `documents` a `term` appeared in.
 - Shows how `important` a given `word` is to the `document`
-- `IDF` value of a `rare` word is `high` and `low` for `frequent` word.
+- The `IDF` value of a `rare` word is `high` and `low` for a `frequent` word.
 
 ### Feature Vector
-- An `n dimensional vector` of **numerical features** that represents some `object`.
+- An `n-dimensional vector` of **numerical features** that represents some `object`.
 
 ### Different Types
-1. **Count** vectorization ( Create a **document term matrix**   that represents `count` of `occurence` )
+1. **Count** vectorization ( Create a **document term matrix**   that represents `count` of `occurrence` )
 2. **N Grams** ( Combination of `adjacent` words )
-3. **Term Frequence** - **Inverse Document Frequency** ( `TD - IDF` ) 
+3. **Term Frequency** - **Inverse Document Frequency** ( `TD - IDF` ) 
 
 <h2 name="ngram"> N Grams </h2>
 
 - **Combinations** of `adjacent` words of length `N` in the text.
-- A sequence of n words. N-grams are commonly used in NLP tasks such as language modeling and machine translation.
+- A sequence of n words. N-grams are commonly used in NLP tasks such as language modelling and machine translation.
 - Bigrams (2-grams) and trigrams (3-grams) are the most common types of n-grams used in NLP.
 
 ### Bigrams
 
-- Form **pair** of `adjacent` words from sentence.
+- Form **pair** of `adjacent` words from the sentence.
 
 ### Trigrams
 
 - Form set of **three** `adjacent` words.
 
-`Google Search` **suggests** `bigrams`, `trigrams` in there `keyword` **suggestions**.  
+`Google Search` **suggests** `bigrams`, and `trigrams` in their `keyword` **suggestions**.  
 
 <h2 name="ner"> Name Entity Recognition </h2>
 
-1. **Recognize** elements in text by `category`  
-2. `Movie`, `Person`, `Location`, `Organization`, `Quantity Unit`, `Monetory Value` | `Financial` terms.
-3. Automatically identify `entity` name in a text and classify it in **predefined categories**.
+1. **Recognize** elements in the text by `category`  
+2. `Movie`, `Person`, `Location`, `Organization`, `Quantity Unit`, `Monetary Value` | `Financial` terms.
+3. Automatically identify the `entity` name in a text and classify it in **predefined categories**.
 
 ![NER](Image/NER.png)
 
@@ -396,21 +396,21 @@ Token for Token in text if not in `Stopwords.words()`
 - Analyze string by `symbol`
 
 ### Sentiment Analysis
-- `Feeling`, `emotion`, `reaction`, `satisfaction` of user, customer or consumer expressing there `feedback`
+- `Feeling`, `emotion`, `reaction`, `satisfaction` of the user, customer or consumer expressing their `feedback`
 
 ### Information Retrieval
 - Process of `accessing` and `retrieval` of appropriate information  from text.
-- **Extracting** `title`, `text` and `media` from a `book`, `artice` or simply `HTML tags` from `web page`
+- **Extracting** `title`, `text` and `media` from a `book`, `article` or simply `HTML tags` from `web page`
 - e.g. `Google Search`
 
 <h2 name="cloud"> Word Cloud </h2>
 
 - A graphical display of words in a `corpus`.
-- `Size` of word is based on number of `occurences`
+- The `size` of the word is based on the number of `occurrences`
 - **Visual** view of the most popular terms.
 
 ### Corpus | Corpora
-- Large `collection` of documents ( Accurate grammer phrases ) 
+- Large `collection` of documents ( Accurate grammar phrases ) 
 - `Knowledge base` that can be used to infer and validate language rules.
 
 ### Sparse Matrix
@@ -437,7 +437,7 @@ Token for Token in text if not in `Stopwords.words()`
     <th colspan='2'>Accept large corpus of text as input</th>
   </tr>
   <tr>
-    <th colspan='2'>Vector : Numeric representation of word and document ( One Hot Vector )</th>
+    <th colspan='2'>Vector: Numeric representation of word and document ( One Hot Vector )</th>
   </tr>
   <tr>
     <td>Returns a set of vectors for each <b>word</b></t>
@@ -448,7 +448,7 @@ Token for Token in text if not in `Stopwords.words()`
     <td>Vectors are converted to <b>List</b></t>
   </tr>
   <tr>
-    <th colspan='2'>Use neural network to learn word association from a large corpus of text</th>
+    <th colspan='2'>Use the neural network to learn word association from a large corpus of text</th>
   </tr>
   <tr>
     <th colspan='2'>Detect synonymous words or suggest next words for a partial sentence ( Autocomplete | Search bar suggestion )</th>
@@ -457,11 +457,11 @@ Token for Token in text if not in `Stopwords.words()`
 
 Word2Vec Matrix | TF-IDF Matrix
 :--- | :--- 
-Multi dimensional vector | Sparse matrix
-Capture words relationship with other words | Captures the importance of word in a given documment.
-Applied on each word individully | Applied to each training document.
+Multi-dimensional vector | Sparse matrix
+Capture word's relationship with other words | Captures the importance of the word in a given document.
+Applied on each word individually | Applied to each training document.
 More memory intensive | Less memory intensive.
-Ideal for single word problems | Ideal for problems with multiple words or document files.
+Ideal for single-word problems | Ideal for problems with multiple words or document files.
 
 ### One Hot Vector
 
