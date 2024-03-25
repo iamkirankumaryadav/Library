@@ -35,7 +35,7 @@
 3. `Parameters` of the **model** are `adjusted` **iteratively** to reach the `optimal value` of the `performance metric`
 4. Performance `metric` is a measurable value that is used to evaluate the performance of the model.
 5. Performance `metrics` can be used to track progress towards accuracy, identify areas for improvement, and make informed decisions.
-6. The model that generalizes best to unseen data is finally selected.
+6. The model that generalizes best to the new unseen data is finally selected.
 
 <h3 name="linear">Linear Regression</h3>
 
