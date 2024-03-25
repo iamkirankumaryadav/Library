@@ -31,8 +31,8 @@
 
 ### How to evaluate the performance of a machine learning model?
 1. We `start` with some `initial configuration` of the model and `predict` the output based on some input.
-2. Then we compare the `predicted value` with the `target` and **measure** the `performance` of our model.
-3. `Parameters` of the **model** are `adjusted` **iteratively** in order to reach the `optimal value` of the `performance metric`
+2. Then we compare the `predicted value` with the `target (actual value)` and **measure** the `performance` of our model.
+3. `Parameters` of the **model** are `adjusted` **iteratively** to reach the `optimal value` of the `performance metric`
 4. Performance `metric` is a measurable value that is used to evaluate the performance of the model.
 5. Performance `metrics` can be used to track progress towards accuracy, identify areas for improvement, and make informed decisions.
 6. The model that generalizes best to unseen data is finally selected.
