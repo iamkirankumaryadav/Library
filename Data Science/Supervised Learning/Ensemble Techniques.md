@@ -73,14 +73,14 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - `Aggregate` the `predictions` of each tree to **determine** the `final prediction`
 - Dataset is divided as **subsets** | **samples** and passed to multiple `base` learners ( `Decision Tree` )
 - Training sample consist of **row sampling** with **replacement**.
-- Creating `decision tree` to its complete `Depth` may cause `overfitting`
+- Creating a `decision tree` to its complete `Depth` may cause `overfitting`
 - But when we combine **multiple** `decision trees`, **High variance** gets converted to **low variance**, i.e. Reduces `overfitting`
 - Can be used for **classification** and **regression**.
 - Regressor : **Mean** or **Median** of all the decision trees.
 - Classifier : **Majority vote** from all **decision trees**.
 - Easily handles **outliers**, **missing data** and **skewness**.
 - Accept **continuous** as well as **categorical** inputs.
-- Help to understand **important features**. ( Parameter : `feature_importance` )
+- Help to understand **important features**. ( Parameter: `feature_importance` )
 
 ### B. Boosting
 
@@ -93,7 +93,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - **Samples** are created using **row sampling** and **column sampling**.
 - **Boosting** combines **weak learners sequentially** by correcting **previous errors** ( Forcing them to improve )
 - **Weight** is attached with each and every **instance** | **row** | **record**.
-- If the **sample** of dataset is **incorrectly classified** then that **sample** is transfered to next **base learner** for **training** again.
+- If the **sample** of dataset is **missclassified** then that **sample** is transfered to next **base learner** for **retraining**.
 - **Weights** are **adjusted** before each **training** intervals. 
 - **Miss classified instances** are focused with **high weights** and **high priority**.
 
@@ -104,7 +104,7 @@ Random Forest | AdaBoost ( **Ada**ptive **Boost**ing ), Gradient Boosting and XG
 - **Base learners** are **decision trees**.
 - `Decision trees` are created with only **one depth** or only **one split** (**Stumps**)
 - The `stump` with **low entrophy** or **high information gain** is selected first.
-- `ADABOOST` allow us to capture the **non linear relationships**.
+- `ADABOOST` allow us to capture the **non-linear relationships**.
 
 ### 2. Gradient Boosting
 
