@@ -322,6 +322,8 @@ Handle **non linear data** |
 - Adding multiple decision trees reduces the risk of `error` and `overfitting` by reducing the variance.
 - Random forests are accurate, robust to `overfitting`, used for both `regression` and `classification`.
 - Random forests can be trained on data of any type (numerical, categorical, and ordinal data)
+- Random forest provides an attribute `feature_importances_` that retrieves the relative importance scores for each input feature.
+- Anyhow each Decision Tree uses Gini Index, Entropy, and Information Gain which find the best features that best splits the data.
 
 **Advantages:**
 - RF can handle large datasets with high features and can provide accurate results.
