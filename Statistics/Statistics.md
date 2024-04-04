@@ -224,3 +224,23 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 - If **prediction** falls within the `range` of **confidence interval** then it is `true` and represents the **population**.
 - The confidence interval is expressed as two numbers, an upper and a lower bound.
 - `Confidence Interval`: `95%`: You are **confident** that, if you repeated this sampling process many times, `95` out of `100` times the estimation will fall within the **confidence interval** range.
+
+### **P-Value**
+
+- Imagine you have a coin,
+- The normal scenario: If you flip the coin, fairly it will end up in random heads or tails, 5 Heads and 5 Tails or any combination.
+- But it ends up in 10 Heads, now you suspect it might be biased towards Heads. Here's how `p-value` can help you test that suspicion:
+
+1. **Null Hypothesis (H0):** The coin is fair (heads and tails are equally likely).
+
+2. **Observed Data:** You flip the coin, say, 10 times. Surprisingly, you get Heads every single time!
+
+3. **Test Statistic:** This would be the number of heads observed, which in this case is 10 out of 10 flips.
+
+4. **P-value:**
+- This is the probability of getting a result as extreme as 10 heads in 10 flips, assuming the coin is fair (H0).
+- In a fair case, it'll not be always possible to get 10 Heads every time.
+- The p-value tells you how often you'd expect to see 10 heads in a row! in those hypothetical repetitions.
+- We can say that there is only a 5% chance it may happen.
+- If p-value > 0.05 i.e. Here it's a normal scenario (Fair coin, NULL Hypothesis Accepted)
+- If p-value < 0.05 i.e Very rare scenario of getting H only (The coin is biased)
