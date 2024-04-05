@@ -2,17 +2,18 @@
 
 # Statistics
 
-- Statistics is the study of how to collect, organize, analyze, and interpret data.
+- Statistics is all about making sense of data.
+- Statistics is the study of how to collect, organize, analyze, and interpret data/information.
 - It can be used to make informed decisions about a wide range of topics.
 
 ### Some basic concepts of statistics:
 1. `Population`: The entire group of people or things that you are interested in studying.
-2. `Sample`: A subset of the population that you actually collect data from.
+2. `Sample`: A subset of the population that you can use to conclude.
 3. `Variable`: A characteristic of the population that you are interested in measuring.
 4. `Data`: The information that you collect about the variables of the population.
 5. `Descriptive statistics`: Summarize the data and describe the population.
 6. `Inferential statistics`: Make inferences about the population from the sample.
-7. `Inference`: A conclusion reached on the basis of evidence and reasoning.
+7. `Inference`: A conclusion reached based on evidence and reasoning.
 
 ### Descriptive Statistics:
 
