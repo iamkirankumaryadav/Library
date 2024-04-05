@@ -15,11 +15,14 @@
 6. `Inferential statistics`: Make inferences about the population from the sample.
 7. `Inference`: A conclusion reached based on evidence and reasoning.
 
+**Descriptive statistics give you a summary of your data, and Inferential statistics gives final conclusion for your data**
+
 ### Descriptive Statistics:
 
-- Descriptive statistics are used to `summarize` data in a way that makes it easy to understand. 
-- It provides us with techniques to understand the features and characteristics of the data.
+- Descriptive statistics are used to **summarize/describe** a dataset in a way that makes it easy to understand. 
+- It provides us with techniques to understand the features and characteristics of the data (Quick snapshot)
 - Provides a quick overview of data, measures `central tendency`, `variability`, and `distribution` of the data.
+- You can get a quick idea of what your data is like without getting down into every single data point.
 
 <h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a>&nbsp;|&nbsp;<a href='#distribute'>Measure of Distribution</a></h3>
 
@@ -58,11 +61,11 @@ How the `observations` are `spread` or `scattered` on each side of the `centre` 
 
 ### 2. Variance ( s <sup>2</sup> )
 
-- Sum of the square of the distance from its `mean`  
+- An average of the squared distances from the **mean**.
 - `Variability` of the data point values from its mean.
 
-### 3. Standard Deviation ( s: Square Root of Variance )
-- Distance of the **data points** from its **mean** in the **data set**.
+### 3. Standard Deviation (s: Square Root of Variance)
+- Distance of the **data points** from its **mean** in the **data set**. The square root of the **variance**.
 - `Small` std means `low` **variability** | Most of the **data points** are `close` to **mean** | `Narrow` distribution
 - `Large` std means `high` **variability** | Most of the **data points** are `far away` from the **mean** | `Wider` distribution
 - Standard deviation calculates `mean`, so it is affected by an `outlier`
@@ -72,6 +75,19 @@ Variance | Standard Deviation
 Squared deviation from mean | Square root of variance
 Squared units | Same units as the original data
 More sensitive to outliers | Less sensitive to outliers
+
+### Inferential Statistics
+
+-  Allows you to conclude a larger population from a smaller sample.
+-  Making Inferences from Samples:
+- Imagine you want to understand if a new product will be liked by people or not.
+- It's not practical to test it on every person in the world. So, you select a representative sample of people (maybe 100) and allow half to taste (50 people) while using a regular one on the other half (control group).
+- By comparing the average people's increase in the usage of product to the control group, you can infer whether the product will be truly liked by the entire population.
+
+### Hypothesis Testing:
+- This is like guessing the population based on your sample.
+- Null Hypothesis (H₀): You assume there's no significant difference between your sample and the population.
+- Alternative Hypothesis (H₁): This is the actual guess about the population. There might be a difference!
 
 ### Coefficient of variation
 
@@ -187,7 +203,7 @@ Correlation Coefficient `R` | Strength of `Correlation`
 
 ### Causality
 - Relationship between the **cause** and its **effect**.
-- One variable affects other variables ( Temperature affect ice cream sale | Sale of ice cream is more in summer )
+- One variable affects other variables ( Temperature affects ice cream sale | Sale of ice cream is more in summer )
 
 ### R Squared | R<sup>2</sup>
 
