@@ -28,37 +28,31 @@ Cannot be arranged in order | Can be sorted, Arranged in order, Ranked
 
 `Population` | `Sample`
 :--- | :---
-Entire available data set | Subset or Representative of Population
-
-### `Continuous`
-- Height, Weight, 2.5, float
-
+Entire available data set | Subset or representative of the true population
 
 <h3 name='data'> Data Set </h3> 
 
-- A **collection** of `sample` or entire `population`
+- A collection of the sample or the entire population.
 
 ### Type of Data 
-- `Quantitative` (Real numeric: Discrete or continuous)
-- `Categorical` (Binary, nominal or ordinal)
+- `Quantitative` (Real numeric: discrete or continuous)
+- `Categorical` (Binary, nominal, or ordinal)
  
 ### Statistical Analysis
-- Investigating `trends`, `patterns`, and `relationships` using `quantitative` data.
+- Investigating trends, patterns, and relationships using quantitative data.
 
 ### Descriptive Statistics
-
 - Reduce a large array of numbers (rows) into a handful of figures (KPIs) that describe it accurately.
 - Understand what your sample data looks like, summarize the characteristics of a `variable`
 - `Frequency`: Count the observations of each value in a variable ( Histogram or Frequency Table )
 - `Relative Frequency`: Count of each value as a percentage of total.
 - `Cumulative Relative Frequency`: Running total of the relative frequencies.
-- `Central tendency`: Represent middle of the values ( `Mean`, `Median` and `Mode` ) ( Skew )
-- `Variability`: Dispersion of values ( `Min`, `Max`, `Range`, `IQR`, `Standard Deviation` and `Variance` ) ( Box & Whisker Plot )
-- `Standard Deviation`: The average amount of `variability` ( Scatter Plot )
-- `Variance`: Squared deviations from mean. ( Actual - Predicted ) <sup>2</sup>
+- `Central tendency`: Represent middle of the values (Mean, Median, and Mode) (Skewness)
+- `Variability`: Dispersion of values (Min, Max, Range, IQR, Standard Deviation, and Variance) (Box & Whisker Plot)
+- `Standard Deviation`: The average amount of `variability` (Scatter plot)
+- `Variance`: Squared deviations from mean. (Actual - Predicted)<sup>2</sup>
 
 ### Variables
-
 - There are two main types of variables in a dataset.
 - `Numerical`: Represents numbers that meant to be `aggregated`.
 - `Categorical`: Represents groups that can be used to `filter` numerical values.
@@ -79,45 +73,45 @@ Entire available data set | Subset or Representative of Population
 
 Descriptive Statistics | Inferential Statistics 
 :--- | :---
-**Organizing** and **Summarizing** Data using **Numbers** and **Graphs** | Using **Sample** Data to draw a certain **Conclusion** for Population
-Describe **Characteristics** of **Sample** or **Population** | Draw **Conclusion** of Population Data 
-**Collecting**, **Organizing**, **Summarizing** and **Presenting** Data | Drawing **Conclusions**, performing **Estimations** and making **Predictions** 
-Measure of **Central Tendency** and **Dispersion** | **Hypothesis Test, ANOVA**
-Data set is **Small** | Dataset is **Large** 
+Organizing and summarizing data using numbers and graphs | Using sample data to draw a certain conclusion for the population
+Describe characteristics of sample or population | Draw some conclusion on population data 
+Collecting, organizing, summarizing and presenting data | Drawing conclusions, performing estimations and making predictions
+Measure of central tendency and dispersion | Hypothesis Test, ANOVA
+Dataset is small | Dataset is large (True population is considered)
 
 ### Quantitative Data
-- Process of Collecting and Analyzing **Numerical** Data
-- Find **Trends**, **Patterns**, **Relationship** and **Correlation**
-- Dealing with Measuring **Central Tendency** and **Measures of Spread** 
-- Analysis is done on **Sample** that Generalize Results for **Population**
+- Process of collecting and analyzing numerical data.
+- Find trends, patterns, relationships and correlations.
+- Dealing with measuring central tendency and measures of spread/dispersion. 
+- Analysis is done on the sample that generalizes results for the true population.
 
 ### Qualitative Data
-- Process of Collecting and Analyzing **Non Numerical** Data
-- Text, Image, Video or Audio
-- Gather **Insights** by converting in  form of **Array**
+- Process of collecting and analyzing non-numerical** data.
+- Text, Image, Video or Audio.
+- Gather insights by converting them in the form of **array**.
 
 Quantitative Data | Qualitative Data
 :--- | :---
-Numerical Data | Non Numerical Data
-Confirm or Test ( Hypothesis ) | Understand ( Concepts )
-Find **Trends**, **Relations** and **Patterns** | Find **Insights**
-Numeric Data ( Central Tendency and Measures of Spreads ) | Text, Image, Video or Audio
+Numerical data | Non-numerical data
+Confirm or Test (Hypothesis) | Understand (Concepts)
+Find trends, relationships, and patterns | Find insights
+Numeric data that can be summarized (Central tendency and measures of spreads) | Text, Image, Video or Audio
 
-### Level of Measurements
+### **Level of Measurements**
 
-1. **Nominal** : Data can only be Categorized ( No Order )
-2. **Ordinal** : Data can be Categorized and Ranked ( Order )
-3. **Interval** : Data can be Categorized, Ranked, and Evenly Spaced
-4. **Ratio** : Data can be Categorized, Ranked, Evenly Spaced, and has a Natural Zero.
+1. **Nominal**: Data can only be categorized (No Order/Rank/Sort)
+2. **Ordinal**: Data can be categorized, ranked, and arranged in order.
+3. **Interval**: Data can be categorized, ranked, and evenly spaced.
+4. **Ratio**: Data can be categorized, ranked, evenly spaced, and can be a natural zero.
 
 ![Level of Measurement](Image/Levels.png)
 
 <h3 name='hyp'> Hypothesis Test</h3> 
 
-- Leverage the `central limit theorem` to draw conclusions about what `population` looks like based on `sample`.
-- Test Specific **Prediction** or **Claim**
-- An **Assumption** | An **Idea** that is Proposed so that it can be **Tested** to See if it might be **True**
-- We Test the Liklihood of Statement being **True** in order to decide whether to **Accept** or **Not Accept** the **NULL Hypothesis**
+- Leverage the `central limit theorem` to conclude what `population` looks like based on `sample`.
+- Test specific **prediction** or **claim**
+- An **assumption** | An **idea** that is proposed so that it can be **tested** to see if it might be **true**
+- We test the likelihood of statement being **true** in order to decide whether to **accept** or **not accept** the **NULL Hypothesis**
 
 NULL Hypothesis | Alternative Hypothesis 
 :--- | :---
