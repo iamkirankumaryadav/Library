@@ -199,14 +199,15 @@ Correlation Coefficient `R` | Strength of `Correlation`
 - **Alternate** Hypothesis ( `H1` ) : There is a **Linear Relationship**
 - P-Value is Calculated ( if P Value > `0.05`: Then Accept Null Hypothesis else Reject Null Hypothesis )
 
-### Multicollinearity
+### **Multicollinearity**
 - Two or more independent features **correlate** strongly with each other.
-- Regression equation becomes **unstable** and create **confusion**.
-- **Remove** one feature to prevent from **multicollinearity** and make regression **stable**.
+- It create a **confusing effect**, regression equation becomes **unstable** and results **unreliable estimates**.
+- Choose an independent variable (Drop one feature) or combine variables (Create a new feature)
 
 ### Causality
-- Relationship between the **cause** and its **effect**.
-- One variable affects other variables ( Temperature affects ice cream sale | Sale of ice cream is more in summer )
+- Causality is all about understanding the relationship between the cause and its effect.
+- One variable affects other variables (Temperature affects ice creams/cold-drink sales)
+- What causes what, we can predict what can happen next and make better decisions.
 
 ### R Squared | R<sup>2</sup>
 
@@ -225,33 +226,32 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 
 ![Difference](Image/RRS.png)
 
-### `Covariance`  
-
+### **Covariance (Direction)**
 - Covariance is a measure of how two variables change together.
 - Helps us understand the relationship between two sets of data points.
 - `Positive Covariance`: Two variables tend to move in the `same` direction. 
 - `Negative Covariance`: Two variables tend to move in `opposite` directions.
 
-### Sampling Fact 
-- A `sample` is never a **perfect representation** of the `population`.
-- `Different` **samples** of `same` **population** will give **different** `mean` ( Sampling **Error** | **Variation** due to sampling )
+### Sampling Facts: 
+- **A sample is never a perfect representation of the population.**
+- **Different samples of the same population will give different mean.**
+- Sometimes it can be due to the sampling error, we will get variations due to the error.
 
 ### **P-Value**
 
-- Imagine you have a coin,
+- Imagine you have a coin (Head/Tails)
 - The normal scenario: If you flip the coin, fairly it will end up in random heads or tails, 5 Heads and 5 Tails or any combination.
-- But it ends up in 10 Heads, now you suspect it might be biased towards Heads. Here's how `p-value` can help you test that suspicion:
+- But it ends up in 10 Heads, now you suspect it might be biased towards Heads.
 
-1. **Null Hypothesis (H0):** The coin is fair (heads and tails are equally likely).
-
-2. **Observed Data:** You flip the coin, say, 10 times. Surprisingly, you get Heads every single time!
-
-3. **Test Statistic:** This would be the number of heads observed, which in this case is 10 out of 10 flips.
-
-4. **P-value:**
+Here's how `p-value` can help you test that suspicion:
+1. **Null Hypothesis (H0):** The coin is fair (One side is the head and another side is the tail)
+2. **Alternate Hypothesis (Ha):** The coin is biased (It will fall on either head
+3. **Observed Data:** You flip the coin, say, 10 times. Surprisingly, you get Heads every single time!
+4. **Test Statistic:** This would be the number of heads observed, which in this case is 10 out of 10 flips.
+5. **P-value:**
 - This is the probability of getting a result as extreme as 10 heads in 10 flips, assuming the coin is fair (H0).
 - In a fair case, it'll not be always possible to get 10 Heads every time.
 - The p-value tells you how often you'd expect to see 10 heads in a row! in those hypothetical repetitions.
-- We can say that there is only a 5% chance it may happen.
+- We can say that there is only less than 5% or 1% chance it may happen.
 - If p-value > 0.05 i.e. Here it's a normal scenario (Fair coin, NULL Hypothesis Accepted)
 - If p-value < 0.05 i.e Very rare scenario of getting H only (The coin is biased)
