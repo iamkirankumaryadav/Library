@@ -27,20 +27,20 @@ Simple models do not capture **hidden** patterns and relations properly | Model 
 -  A model with `low bias` will tend to have `high variance`
 -  A model with `low variance` will tend to have `high bias`
 - Increasing `bias` decreases `variance` and increasing `variance` decreases `bias`
-- The aim of ML is to find the correct balance i.e. `low bias` and `low variance`
+- ML aims to find the correct balance i.e. `low bias` and `low variance`
 
-### `Underfitting`: High Bias + Low Variance ( `Simple` Model )
-- `High Bias`: `High` error on `train` dataset ( Model is not trained properly )
-- `Low Variance`: `Low` error on `test` dataset ( **Generalized** ) ( Model is able to predict a little close to actual )
-- The model `fit` the data enough but also captures `noise` and `error` at the time of training ( Low Accuracy )
+### **Underfitting: High Bias + Low Variance (Simple Model)**
+- `High Bias`: `High` error on `train` dataset (Model is not trained properly)
+- `Low Variance`: `Low` error on `test` dataset (Generalized: model can predict a little close to the actual value)
+- The model `fit` the data enough but also captures `noise` and `error` at the time of training (Low accuracy)
 
-### `Overfitting`: Low Bias + High Variance ( `Complex` Model )
-- `Low Bias`: `Low` error on `train` data ( Model is **trained** very well including `noise` )
-- `High Variance`: `High` error on `test` data ( Performs badly on `new unseen data )
+### **Overfitting: Low Bias + High Variance (Complex Model)**
+- `Low Bias`: `Low` error on `train` data (Model is **trained** very well including `noise`)
+- `High Variance`: `High` error on `test` data (Performs badly on `new unseen data)
 - When a massive amount of data trains a model, it tends to learn from `noise` and inaccurate data.
-- Random error and noise gets added | Complex model | Too many features relative to the number of observations
-- Poor **predictive** performance | Do not **generalize** well on the **new unseen data**
-- The difference between the prediction on the **new unseen data point** and the **actual data point** is `high` ( High Variance )
+- Random error and noise get added | Complex model | Too many features relative to the number of observations.
+- Poor **predictive** performance | Do not **generalize** well on the **new unseen data**.
+- The difference between the prediction on the **new unseen data point** and the **actual data point** is `high` (High Variance)
 - Model tries to `fit` the training data so closely that it does not **generalize** well to **new unseen data**.
 
 `Bias` and `Variance` help us improve the data fitting and training process resulting in more **accurate models**.
