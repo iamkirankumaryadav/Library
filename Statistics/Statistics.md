@@ -248,8 +248,7 @@ Here's how `p-value` can help you test that suspicion:
 2. **Alternate Hypothesis (Ha):** The coin is biased (It will fall on either head
 3. **Observed Data:** You flip the coin, say, 10 times. Surprisingly, you get Heads every single time!
 4. **Test Statistic:** This would be the number of heads observed, which in this case is 10 out of 10 flips.
-5. **P-value:**
-- This is the probability of getting a result as extreme as 10 heads in 10 flips, assuming the coin is fair (H0).
+- P-value is the probability of getting a result as extreme as 10 heads in 10 flips, assuming the coin is fair (H0).
 - In a fair case, it'll not be always possible to get 10 Heads every time.
 - The p-value tells you how often you'd expect to see 10 heads in a row! in those hypothetical repetitions.
 - We can say that there is only less than 5% or 1% chance it may happen.
