@@ -44,8 +44,10 @@ Larger Sample = Greater Accuracy = More Confidence
 - `Median` concentrates only on `middle` value, therefore there is a very `low` to `no` effect by an `outlier`
 - `Mode` concentrates only on the `most frequent` values, there is `no` effect by an `outlier`
 
-### `Central Limit Theorem`
-- As the `sample` size increases, the `distribution` approaches towards `Normal Distribution`
+### **Central Limit Theorem**
+- As the sample size increases, the distribution approaches towards normal distribution.
+- The larger the sample size, the better the approximation to a normal distribution.
+- CLT allows us to use information from samples to make references about populations.
 
 <h3 name='spread'>Measures of Spread | Variability</h3>
   
@@ -53,16 +55,16 @@ Larger Sample = Greater Accuracy = More Confidence
 
 How the `observations` are `spread` or `scattered` on each side of the `centre` ( Mean | Median | Mode )
 
-### 1. `Range`
+### 1. **Range**
 
-- `Range`: `Max` - `Min`, the difference between the lowest and highest data point values in the data set.
-- `Very high` data point value can mislead the `Range` ( e.g. {8, 11, 5, 9, 7, 6, 3616 ) `Outlier`
+- `Range`: `Max` - `Min`, the difference between the lowest and highest data point values in the dataset.
+- Very high data point values can mislead the range (e.g. {8, 11, 5, 9, 7, 6, 3616) Outlier
 - Here the lowest data point value is `5` and the highest data point value is `3616`
 
-### 2. Variance ( s <sup>2</sup> )
+### 2. Variance (s <sup>2</sup>)
 
 - An average of the squared distances from the **mean**.
-- `Variability` of the data point values from its mean.
+- Variability of the data point values from its mean.
 
 ### 3. Standard Deviation (s: Square Root of Variance)
 - Distance of the **data points** from its **mean** in the **data set**. The square root of the **variance**.
@@ -89,11 +91,9 @@ More sensitive to outliers | Less sensitive to outliers
 
 ### Inferential Statistics
 
--  Allows you to conclude a larger population from a smaller sample.
--  Making Inferences from Samples:
-- Imagine you want to understand if a new product will be liked by people or not.
-- It's not practical to test it on every person in the world. So, you select a representative sample of people (maybe 100) and allow half to taste (50 people) while using a regular one on the other half (control group).
-- By comparing the average people's increase in the usage of product to the control group, you can infer whether the product will be truly liked by the entire population.
+- Allows you to conclude on a population by analyzing the sample.
+- Making inferences from the samples and concluding a population.
+- Examples: Marketing campaigns, clinical drug trials, opinion polls, etc.
 
 ### Hypothesis Testing:
 - This is like guessing the population based on your sample.
@@ -101,20 +101,19 @@ More sensitive to outliers | Less sensitive to outliers
 - Alternative Hypothesis (H₁): This is the actual guess about the population. There might be a difference!
 
 ### Confidence
-- While `sampling`, different `samples` can be **randomly** selected from the same **population**.
-- Each **sample** can often produce a different `Confidence Interval`
-- Some `confidence intervals` include the true `population parameter**` (`Centre` and `Spread`) and others do not.
+- While sampling, different samples can be **randomly** selected from the same **population**.
+- Each sample can often produce a different confidence interval' 
+- Some confidence intervals may include the true population parameters.
 
 ### Confidence Level (Percentage)
-- `Percentage` of all possible samples that can be expected to be present in the true population parameter, it the same method is repeated multiple times. 
-- `95%` **confidence level** implies that `95%` of times the confidence intervals would include the true `population parameter`
-- Here population parameter means the mean, median, mode, range, variance, and standard deviation of the actual population.
-
+- Measure the possibility that all samples will represent the true population if the same method is repeated multiple times. 
+- `95%` **confidence level** implies that `95%` of times the sample will represent the true `population parameters`
+- Population parameters: Mean, median, mode, range, variance, and standard deviation of the actual population.
 
 ### Confidence Intervals (Range of upper bound and lower bound)
-- A `range` of values were we believe the true population `values` will lie within that range.
-- Population `parameters`: `mean`, `median`, **difference** between `means`, `range`, `variance` and `standard deviation`. 
-- If **prediction** falls within the `range` of **confidence interval** then it is `true` and represents the **population**.
+- A `range` of values where we believe the true population `values` will lie within that range.
+- Population `parameters`: `mean`, `median`, `range`, `variance` and `standard deviation`. 
+- If **prediction** falls within the interval range then it is `true` and represents the **population**.
 - If the `sample` doesn't fit a distribution, use the `central limit theorem` to make estimates about `population` parameters.
 
 ### The **Effect** of **Transforming** Data on **Spread** and **Centre**
@@ -125,7 +124,8 @@ More sensitive to outliers | Less sensitive to outliers
 <h3 name='distribute'>Measures of Distribution</h3>
 
 - Describe how the data is spread out or distributed across different values.
-- `Histograms` and `Frequency distributions` are graphical representations that help us visualize the distribution of data.
+- Histograms help us to visualize the frequency distribution of data.
+- Scatter plots help us to visualize the distribution of data.
 
 ### `Empirical Rule`
 - `68 %` of the data points in a given **normally distributed data set** fall within `1` **standard deviations**.
@@ -173,7 +173,9 @@ Describe the percentage `%` of data point value that falls `at` or `below` anoth
 ### **Correlation (Direction & Strength)**
 
 - Shows the extent (strength) to which two variables are related to each other.
-- Measures the `direction` (Positive/Negative) and `strength` (`-1` to `1`)
+- Measures the **direction** and **strength** of relationship between the features/variable.
+- **Direction:** Positive (+1) or Negative (-1)
+- **Strength:** No, Little, Medium, High, Very High.
 - One variable can `predict` the other variable.
 - Correlation Coefficient: `-1` ( Perfect `Negative` Correlation )
 - Correlation Coefficient: `1` ( Perfect `Positive` Correlation )
