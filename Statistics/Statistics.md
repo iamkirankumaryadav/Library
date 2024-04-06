@@ -62,25 +62,25 @@ How the `observations` are `spread` or `scattered` on each side of the `centre` 
 - Here the lowest data point value is `5` and the highest data point value is `3616`
 
 ### 2. Variance (s <sup>2</sup>)
-
 - An average of the squared distances from the **mean**.
 - Variability of the data point values from its mean.
 
 ### 3. Standard Deviation (s: Square Root of Variance)
 - Distance of the **data points** from its **mean** in the **data set**. The square root of the **variance**.
 - `Small` std means `low` **variability** | Most of the **data points** are `close` to **mean** | `Narrow` distribution
-- `Large` std means `high` **variability** | Most of the **data points** are `far away` from the **mean** | `Wider` distribution
+- `Large` std means `high` **variability** | Most of the **data points** are `far` from the **mean** | `Wider` distribution
 - Standard deviation calculates `mean`, so it is affected by an `outlier`
 
-Variance | Standard Deviation
+**Variance** | **Standard Deviation**
 :--- | :---
 Squared deviation from mean | Square root of variance
 Squared units | Same units as the original data
 More sensitive to outliers | Less sensitive to outliers
 
-### Coefficient of variation
-
-- Measures `standard deviation` relative to the mean.
+### **Coefficient of variation (%)** 
+- Measures standard deviation relative to the mean.
+- **Coefficient of Variation (%) = (Standard Deviation / Mean) * 100**
+- Measures the dispersion of data points around the mean.
 - Used to compare the standard deviation of variables with significantly different means.
 
 ![Sample vs Population](Image/Sample.jpg)
