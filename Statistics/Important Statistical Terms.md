@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# Statistical Concepts you should know for Data Science
+# **Statistical concepts you should know for Data Science**
 
 <h3> <a href='#data'>Data </a> | <a href='#hyp'>Hypothesis </a> | <a href='#sample'>Sampling </a> </h3>
 
@@ -12,8 +12,8 @@
 
 `Continuous` | `Discrete`
 :--- | :---
-Any Value | Specific value
-Measured | Counted
+Any value | Specific value
+Complicated measurement | Easily counted
 Height 5'11'', 179.5 cm, Weight 75.5 kg |  # of kids in classroom, # of votes in election
 
 `Structured` | `Unstructured`
@@ -39,15 +39,15 @@ Entire available data set | Subset or Representative of Population
 - A **collection** of `sample` or entire `population`
 
 ### Type of Data 
-- `Quantitative` ( Real numeric : Discrete or continuous )
-- `Categorical` ( Binary, nominal or ordinal )
+- `Quantitative` (Real numeric: Discrete or continuous)
+- `Categorical` (Binary, nominal or ordinal)
  
 ### Statistical Analysis
 - Investigating `trends`, `patterns`, and `relationships` using `quantitative` data.
 
 ### Descriptive Statistics
 
-- Reduce large array of numbers (rows) into a handful of figures (KPI's) tha describe it accurately.
+- Reduce a large array of numbers (rows) into a handful of figures (KPIs) that describe it accurately.
 - Understand what your sample data looks like, summarize the characteristics of a `variable`
 - `Frequency`: Count the observations of each value in a variable ( Histogram or Frequency Table )
 - `Relative Frequency`: Count of each value as a percentage of total.
@@ -59,21 +59,21 @@ Entire available data set | Subset or Representative of Population
 
 ### Variables
 
-- There are two main type of variables in a dataset.
+- There are two main types of variables in a dataset.
 - `Numerical`: Represents numbers that meant to be `aggregated`.
 - `Categorical`: Represents groups that can be used to `filter` numerical values.
 
 ### Inferential Statistics
 - **Understand** the Population from the `Sample`.
-- Test `Hypothesis` and **Draw Conclusion** about **Population Parameters** based on a `Sample` taken from Population. 
-- `Sample` is likely to be a **Good Representation** of `Population`.
-- `Sample` will never be a **Perfect Representation** of `Population` ( Sampling Error )
-- Way the Sample is taken Matters ( Unbiased Sampling )
-- Population Parameters ( Mean, Median, Standard Deviation, Difference between Means )
-- Simple Test ( Hypothesis, T test, Chi<sup>2</sup> test )
-- Regression Analysis ( Simple Linear, Multiple Linear and Logistic )
-- Correlation 
-- ANOVA ( One way and Two Way )
+- Test `Hypothesis` and **draw conclusion** about **population parameters** based on a `sample` taken from population. 
+- `Sample` is likely to be a **good representation** of `population`.
+- `Sample` will never be a **perfect representation** of `population` (Sampling error)
+- The way the sample is taken matters (Unbiased sampling/Imbalanced/Balanced)
+- Population Parameters (Mean, Median, Mode, Standard Deviation)
+- Simple Test (Hypothesis, T-test, Chi<sup>2</sup> test)
+- Regression Analysis (Simple Linear, Multiple Linear and Logistic)
+- Correlations and Multicollinearity. 
+- ANOVA (One way and Two Way)
 
 ![Inferential Statistics vs Descriptive Statistics](Image/InferentialvsDescriptive.jpg)
 
