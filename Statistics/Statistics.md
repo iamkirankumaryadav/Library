@@ -105,7 +105,7 @@ More sensitive to outliers | Less sensitive to outliers
 - Each **sample** can often produce a different `Confidence Interval`
 - Some `confidence intervals` include the true `population parameter**` (`Centre` and `Spread`) and others do not.
 
-### Confidence Level
+### Confidence Level (Percentage)
 - `Percentage` of all possible samples that can be expected to be present in the true population parameter, it the same method is repeated multiple times. 
 - `95%` **confidence level** implies that `95%` of the confidence intervals would include the true `population parameter`
 - Here population parameter means the mean, median, mode, range, variance, and standard deviation of the actual population.
