@@ -233,7 +233,7 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 - A `sample` is never a **perfect representation** of the `population`.
 - `Different` **samples** of `same` **population** will give **different** `mean` ( Sampling **Error** | **Variation** due to sampling )
 
-### Confidence Interval ( alpha )
+### Confidence Interval (alpha: upper bound and lower bound)
 - Express a `range` of values within which we are sure that **population parameters** lie ( `Prediction` will be true )
 - Population `parameters`: `mean`, `median`, **difference** between `means`, `range`, `variance` and `standard deviation`. 
 - `Mean` of population lies between this interval `range` ( **Confidence Interval** )
