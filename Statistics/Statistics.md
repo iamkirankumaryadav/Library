@@ -170,15 +170,15 @@ Describe the percentage `%` of data point value that falls `at` or `below` anoth
 
 `Percentage` and `Percentile` are **different**.
 
-### `Correlation`
+### **Correlation (Direction & Strength)**
 
-- Shows the extent to which two variables are related to each other.
-- Measures the `direction` ( Positive or Negative ) and `strength` ( `-1` to `1` ) of **relationship** between two **quantitative** variables.
+- Shows the extent (strength) to which two variables are related to each other.
+- Measures the `direction` (Positive/Negative) and `strength` (`-1` to `1`)
 - One variable can `predict` the other variable.
 - Correlation Coefficient: `-1` ( Perfect `Negative` Correlation )
 - Correlation Coefficient: `1` ( Perfect `Positive` Correlation )
 
-Correlation Coefficient `R` | Strength of `Correlation`
+**Correlation Coefficient** `r` | **Strength of Correlation**
 :--- | :---
 0.0  | No Correlation
 0.1 - 0.3 | Little Correlation
