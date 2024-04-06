@@ -76,6 +76,17 @@ Squared deviation from mean | Square root of variance
 Squared units | Same units as the original data
 More sensitive to outliers | Less sensitive to outliers
 
+### Coefficient of variation
+
+- Measures `standard deviation` relative to the mean.
+- Used to compare the standard deviation of variables with significantly different means.
+
+![Sample vs Population](Image/Sample.jpg)
+
+### Z Score
+- `z = ((x - mean) / std)`
+- `x`: Data Points.
+
 ### Inferential Statistics
 
 -  Allows you to conclude a larger population from a smaller sample.
@@ -89,24 +100,13 @@ More sensitive to outliers | Less sensitive to outliers
 - Null Hypothesis (H₀): You assume there's no significant difference between your sample and the population.
 - Alternative Hypothesis (H₁): This is the actual guess about the population. There might be a difference!
 
-### Coefficient of variation
-
-- Measures `standard deviation` relative to the mean.
-- Used to compare the standard deviation of variables with significantly different means.
-
-![Sample vs Population](Image/Sample.jpg)
-
-### Z Score
-- `z = ((x - mean) / std)`
-- `x`: Data Points.
-
 ### Confidence
 - While `sampling`, different `samples` can be **randomly** selected from the same **population**.
 - Each **sample** can often produce a different `Confidence Interval`
-- Some `confidence intervals` include the true `population parameter**` ( `Centre` and `Spread` ) and others do not.
+- Some `confidence intervals` include the true `population parameter**` (`Centre` and `Spread`) and others do not.
 
 ### Confidence Level
-- `Percentage` of all possible samples that can be expected to be present in the true population parameter. 
+- `Percentage` of all possible samples that can be expected to be present in the true population parameter, it the same method is repeated multiple times. 
 - `95%` **confidence level** implies that `95%` of the confidence intervals would include the true `population parameter`
 - Here population parameter means the mean, median, mode, range, variance, and standard deviation of the actual population.
 
