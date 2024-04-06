@@ -107,11 +107,14 @@ More sensitive to outliers | Less sensitive to outliers
 
 ### Confidence Level (Percentage)
 - `Percentage` of all possible samples that can be expected to be present in the true population parameter, it the same method is repeated multiple times. 
-- `95%` **confidence level** implies that `95%` of the confidence intervals would include the true `population parameter`
+- `95%` **confidence level** implies that `95%` of times the confidence intervals would include the true `population parameter`
 - Here population parameter means the mean, median, mode, range, variance, and standard deviation of the actual population.
 
-### Confidence Intervals
-- A `range` of values we are sure that our population `values` will lie within that range.
+
+### Confidence Intervals (Range of upper bound and lower bound)
+- A `range` of values were we believe the true population `values` will lie within that range.
+- Population `parameters`: `mean`, `median`, **difference** between `means`, `range`, `variance` and `standard deviation`. 
+- If **prediction** falls within the `range` of **confidence interval** then it is `true` and represents the **population**.
 - If the `sample` doesn't fit a distribution, use the `central limit theorem` to make estimates about `population` parameters.
 
 ### The **Effect** of **Transforming** Data on **Spread** and **Centre**
@@ -232,15 +235,6 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 ### Sampling Fact 
 - A `sample` is never a **perfect representation** of the `population`.
 - `Different` **samples** of `same` **population** will give **different** `mean` ( Sampling **Error** | **Variation** due to sampling )
-
-### Confidence Interval (alpha: upper bound and lower bound)
-- Express a `range` of values within which we are sure that **population parameters** lie ( `Prediction` will be true )
-- Population `parameters`: `mean`, `median`, **difference** between `means`, `range`, `variance` and `standard deviation`. 
-- `Mean` of population lies between this interval `range` ( **Confidence Interval** )
-- `Base` **estimate** is the **sample** `mean` ( Variation and sample size affects the width of **confidence interval** )
-- If **prediction** falls within the `range` of **confidence interval** then it is `true` and represents the **population**.
-- The confidence interval is expressed as two numbers, an upper and a lower bound.
-- `Confidence Interval`: `95%`: You are **confident** that, if you repeated this sampling process many times, `95` out of `100` times the estimation will fall within the **confidence interval** range.
 
 ### **P-Value**
 
