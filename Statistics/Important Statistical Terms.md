@@ -53,19 +53,26 @@ Entire available data set | Subset, sample, or representative of the true popula
 - `Variance`: Squared deviations from mean. (Actual - Predicted)<sup>2</sup>
 
 ### **Skewness**
-- Skewness is a measures of how symmetrical the distribution of data points in a dataset or a samples.
+- Skewness is a measure of how symmetrical a distribution is, it specially means lack of symmetry.
+- It gives the direction (Right/Left) and magnitude (Positive/Negative + Mean/Median/Mode) of the lack of symmetry.
+- No skewness: Data points are normally distributed (Mean = Median = Mode)
+- Positive/Right skewness: Long/Extended tail on the right side (Mean > Median > Mode)
+- Negative/Left skewness: Long/Extended tail on the left side (Mode > Median > Mean)
+- Variance tells us about the amount of variability (Figure/Scale)
+- Skewness gives the direction of variability (Compares Mean, Median, and Mode)
+- Kurtosis measures the flatness of distribution.
 
-### Variables
+### **Variables**
 - There are two main types of variables in a dataset.
 - `Numerical`: Represents numbers that meant to be `aggregated`.
 - `Categorical`: Represents groups that can be used to `filter` numerical values.
 
-### Inferential Statistics
-- **Understand** the Population from the `Sample`.
-- Test `Hypothesis` and **draw conclusion** about **population parameters** based on a `sample` taken from population. 
-- `Sample` is likely to be a **good representation** of `population`.
-- `Sample` will never be a **perfect representation** of `population` (Sampling error)
-- The way the sample is taken matters (Unbiased sampling/Imbalanced/Balanced)
+### **Inferential Statistics**
+- **Understand the population from the sample**
+- Test hypothesis and **draw conclusion** about **population parameters** based on a `sample` taken from population. 
+- Sample is likely to be a **good representation** of population.
+- Sample will never be a **perfect representation** of population (Sampling error)
+- The way the sample is taken matters (Unbiased/Imbalanced/Balanced sampling)
 - Population Parameters (Mean, Median, Mode, Standard Deviation)
 - Simple Test (Hypothesis, T-test, Chi<sup>2</sup> test)
 - Regression Analysis (Simple Linear, Multiple Linear and Logistic)
@@ -85,11 +92,11 @@ Dataset is small | Dataset is large (True population is considered)
 ### Quantitative Data
 - Process of collecting and analyzing numerical data.
 - Find trends, patterns, relationships and correlations.
-- Dealing with measuring central tendency and measures of spread/dispersion. 
-- Analysis is done on the sample that generalizes results for the true population.
+- Dealing with measuring central tendency, measures of spread/dispersion, distribution and skewness of data. 
+- Analysis is done on the sample that generalizes/concludes results for the true population.
 
 ### Qualitative Data
-- Process of collecting and analyzing non-numerical** data.
+- Process of collecting and analyzing non-numerical data.
 - Text, Image, Video or Audio.
 - Gather insights by converting them in the form of **array**.
 
@@ -109,46 +116,46 @@ Numeric data that can be summarized (Central tendency and measures of spreads) |
 
 ![Level of Measurement](Image/Levels.png)
 
-<h3 name='hyp'> Hypothesis Test</h3> 
+<h3 name='hyp'>Hypothesis Test</h3> 
 
-- Leverage the `central limit theorem` to conclude what `population` looks like based on `sample`.
-- Test specific **prediction** or **claim**
+- Leverage the **central limit theorem** to conclude what population looks like based on sample.
+- Test specific **prediction** or **claim**.
 - An **assumption** | An **idea** that is proposed so that it can be **tested** to see if it might be **true**
 - We test the likelihood of statement being **true** in order to decide whether to **accept** or **not accept** the **NULL Hypothesis**
 
-NULL Hypothesis | Alternative Hypothesis 
+**NULL Hypothesis** | **Alternative Hypothesis** 
 :--- | :---
 H<sub>0</sub> | H<sub>a</sub>
-Statement about a **Population** Parameter | Statement directly **Contradicts** the NULL Hypothesis
+Statement about a **population** parameter | Statement directly **contradicts** the NULL hypothesis.
 H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>a</sub> : U < U<sub>0</sub> or H<sub>a</sub> : U > U<sub>0</sub>
 
 ![Hypothesis Test](Image/Hypothesis.png)
 
 ### Type I and Type II Error
 
-**Type I** Error : The **Null Hypothesis** is **True** but **Rejected**
+**Type I Error** : The **Null Hypothesis** is **true** but **rejected** (False Positive)
 
-**Type II** Error : The **Null Hypothesis** is **False** but **Fails** to **Reject**
+**Type II Error** : The **Null Hypothesis** is **false** but **fails** to **reject** (False Negative)
 
 ![Error Type](Image/ErrorType.jpg)
 
-### 1. P Values ( Significance Value )
+### 1. P Values (Significance Value)
 
-- **Probability** Value of **Achieving** a result. ( **H0** | Null Hypothesis to be **True** and **Accepted** )
-- More **Likely** Observation around Mean | Median | Mode
-- Determine **Strength** | **Significance** of Research Results in **Hypothesis Test**.
+- **Probability** value of **achieving** a result. (**H0** | Null Hypothesis to be **true** and **accepted**)
+- More likely observation around Mean | Median | Mode
+- Determine **strength** | **significance** of research results in **Hypothesis Test**.
 - if P value < alpha ( 0.05 | 5% ) we **remove** that feature. ( **Reject** Null Hypothesis )
 - if P value > alpha ( 0.05 | 5% ) we **keep** that feature. ( **Accept NULL Hypothesis** : **H0** )
 - **P Value** lies between `0` to `1`.
-- Two Tail Test, Left Tail Test and Right Tail Test.
+- Two tail test, left tail test and right tail test.
 - **Confidence Interval** : `95%` and **Significance Level** as : `5%`
 
 **Significance** Level ( **Alpha** )
-- At what point the **Null Hypothesis** is **Rejected**.
-- Significance Level is usually ( 5% or 1% )
+- At what point the **Null Hypothesis** is **rejected**.
+- Significance Level is usually (5% or 1%)
 - Alpha <= 1% | High Significance
 - Alpha <= 5% | Significant
-- Alpha > 5% | No Significant ( Accept Null Hypothesis )
+- Alpha > 5% | No Significant (Accept Null Hypothesis)
 
 ### 2. Z Test
 
