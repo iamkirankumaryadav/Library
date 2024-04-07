@@ -150,7 +150,7 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 - Two tail test, left tail test and right tail test.
 - **Confidence Interval** : `95%` and **Significance Level** as : `5%`
 
-**Significance** Level ( **Alpha** )
+**Significance** Level (**Alpha**/Percentage)
 - At what point the **Null Hypothesis** is **rejected**.
 - Significance Level is usually (5% or 1%)
 - Alpha <= 1% | High Significance
@@ -158,127 +158,119 @@ H<sub>0</sub> : U = U<sub>0</sub> | H<sub>a</sub> : U != U<sub>0</sub> or H<sub>
 - Alpha > 5% | No Significant (Accept Null Hypothesis)
 
 ### 2. Z Test
-
 - A **Hypothesis Test** with a **Normal Distribution** that uses a **Z Statistics**.
-- We use **Z Test** when we have **Large Sample Size** ( **Data Size** > 30 )
-- Used when Data Points are **Independent** and Data is **Normally** Distributed ( Data is Selected Randomly ).
+- We use **Z Test** when we have **large sample size** (**Data Size** > 30)
+- Used when data points are **independent** and data is **Normally** Distributed (Data is Selected Randomly) .
 
 ### 3. T Test
-
 - A **Hypothesis Test** with a **T Distribution** that uses a **T Statistics**.
-- We use **T Test** when we have **Small Sample Size** ( **Data Size** < 30 )
-- Data is **not** distributed Normally and Data is not selected **Randomly**.
-- **T Distribution** has **Small Peak** and **Fat Tails**.
-- Used to Compare the `Means` of Two Groups.
+- We use **T Test** when we have a very **small sample size** (**Data Size** < 30)
+- Data is **not** distributed Normally and data is not selected **Randomly**.
+- **T Distribution** has **small peak** and **fat tails**.
+- Used to compare the `Means` of two groups.
 
 ### Types of T Test 
-1. One Sample : Groups come from a Same Population ( Compare `Means` and `Standard Deviations` )
-2. Paired Sample : Group from Same Population ( Before and After Experiment )
-3. Two Sample : Groups come from Different Populations ( Two Different People from Two Different Cities )
+1. One Sample: Groups come from a same population (Compare `Means` and `Standard Deviations`)
+2. Paired Sample: Group from same population (Before and After Experiment)
+3. Two Sample: Groups come from different populations (Two different people from two different cities)
 
 ### 4. ANOVA Test
 
 - Analysis of `Variance`
-- Used to Test Categorical Variable ( Atleast 3 Different Categories )
-- Analyze the Difference between the **Means** of more than Two Groups
-- One Way ANOVA uses one **Independent Variable**
-- Two Way ANOVA uses two **Independent Variables**
+- Used to test categorical variable (Atleast 3 Different Categories)
+- Analyze the difference between the **Means** of more than two groups
+- One way ANOVA uses one **Independent Variable**
+- Two way ANOVA uses two **Independent Variables**
 
 ### Assumptions of ANNOVA Test
-- Observations are **Independent** and **Dependent Feature** follows **Normal** Distribution.
-- **Variation** for each Group in Category should be **Similar**.
+- Observations are **independent** and **dependent feature** follows **Normal** Distribution.
+- **Variation** for each group in category should be **similar**.
 
 ### 5. Assumptions of Linear Regression
 
-1. **Linearity** : The Relationship between **X** and **Mean** of **Y** is linear.
-2. **Homoscedasticity** : The **Variance** of the **Residual** is the same for any value of **X**.
-3. **Independence** : **Observations** are **Independent** of each other.
-4. **Normality** : For any value of **X**, **Y** is normally distributed.
+1. **Linearity**: The relationship between **X** and **mean** of **Y** is linear.
+2. **Homoscedasticity**: The variance of the **residual** is the same for any value of **X**.
+3. **Independence**: **Observations** are **independent** of each other.
+4. **Normality**: For any value of **X**, **Y** is normally distributed.
 
 ### 6. Logistic Regression 
 
-1. Model the **Probability** of a **Discrete** Number of outcomes.
-2. Predict whether a person is **Alive** or **Dead** based on their **age**.
-3. **Sigmoid** function is used to get **Probability**.
-4. **Probability** can be converted to a **Binary Output**, either **1** or **0**.
-5. **Gradient Descent** and **Maximum Liklihood** are used to Adjust **Weights**.
+1. Model the **probability** of a **discrete** number of outcomes.
+2. Predict whether a person is **alive** or **dead** based on their **age**.
+3. **Sigmoid** (H0) function is used to get **probability**.
+4. **Probability** can be converted to a **binary output** with the logit function, either **1** or **0**.
+5. **Gradient descent** and **maximum liklihood** are used to adjust **weights**.
 
 <h3 name='sample'> 6. Sampling</h3>
 
 1. Simple Random Sampling
 
-- Selecting **Random Data Values** from the Dataset.
-- Each Data Value has `Equal` Chance of being Selected.
-- e.g. Select any Random Data Point.
+- Selecting **random data values** from the dataset.
+- Each data value has `equal` chance of being selected.
+- e.g. Select any random data point.
 
 2. Systematic Sampling
 
-- **Take** One Data Value, **Skip** a predefined amount (n), **Take** next Data Value.
-- Choose a Data Point at **Regular Intervals**
+- **Take** one data value, **skip** a predefined amount (n), **take** next data value.
+- Choose a data point after **regular intervals**
 - e.g. Selecting every 10th Data Point from 100.
 
 3. Cluster Sampling
 
-- Divide **Population** into Clusters and Select One or more **Clusters** as Samples.
-- Used when the Data Set is **Very Large**.
+- Divide **population** into clusters and select pne or more **clusters** as samples.
+- Used when the data set is **very large**.
 
 4. Stratified Sampling
 
-- Divide **Population** into groups of Similar **Attributes** with Equal Proportion.
-- Take **Random Samples** from each groups.
+- Divide **population** into groups of similar **attributes** with equal proportion.
 - e.g. If Company has 400 Males and 300 Feamles, Choosing 40 Males and 30 Females. 
 
 ![Sampling](Image/Sampling.png)
 
 ### 7. Central Limit Theorem
 
-- The **Distribution** of Sample Mean approximates a **Normal Distribution**.
-- If we Plot frequencies on Graph it will create a **Bell Curve**, also known as a **Normal Distribution**.
-- We can improve the **Accuracy** of the **Mean** and **Reduce** the **Standard Devation** of Larger Samples of Data.
+- The **distribution** of sample mean approximates a **normal distribution**.
+- If we plot frequencies on graph it will create a **Bell Curve**, also known as a **Normal Distribution**.
+- We can improve the **accuracy** of the **Mean** and reduce the **Standard Devation** of larger samples of data.
 
 ### 8. Combinations and Permutations
 
-- Different ways to **Select Objects** from the **Datasets** to form **Subsets**.
-- Permutation consider **Order** of Subset.
-- Combinaton do not consider **Order** of Subset.
+- Different ways to **select objects** from the **datasets** to form **subsets**.
+- Permutation consider **order** of subset.
+- Combinaton do not consider **order** of subset.
 
 1. Permutation
-- A Permutation of n elements is an arrangement of those n elements in a **Definite Order**.
-- There are ( **n!** ) ways to **Arrange** elements in order.
+- A Permutation of n elements is an arrangement of those n elements in a **definite order**.
+- There are ( **n!** ) ways to **arrange** elements in order.
 - P<sub>n,r</sub> = n ! / ( n-r )!
 - Number of **r** taken from **n** different elements.
 
 2. Combination
-- The Number of ways to choose **r** out of **n** Objects where Order doesn't matters.
+- The number of ways to choose **r** out of **n** Objects where order doesn't matters.
 - C <sub>r</sub><sup>n</sup> = n ! / ( n-r ) ! * r !
 
 ### 9. Bayes Theorem
 
-- **Conditional** Probability Statement
+- **Conditional** probability statement
 - Probability of event **B** happening given that another event **A** has already happened.
 - P ( A | B ) = ( P ( B | A ) * P ( A ) ) / P( B )
 
 ### 10. Probability Distributions
 - If the sample data fits a probability distribution, use it as a model for the entire population.
 - **Probabilities** of different possible outcomes in an experiment.
-- **Frequency** of **Occurence**.
-- The **Likelihood** of an outcome.
-- **Y** denotes **Actual Outcome** of an event.
-- **y** denotes **One possible outcome**.
-- **Mean** and **Variance** are the important terms considered in **Distribution**.
-- Variance : How **spread out** the data is? | How **far away** the values are from the mean.
-- Population : All Data
-- Sample : Part of Data
+- **Frequency** of **occurence**, the **likelihood** of an outcome.
+- **Y** denotes **actual outcome** of an event, **y** denotes one possible outcome.
+- **Mean** and **variance** are the important terms considered in **distribution**.
 
 ### 11. Chi Squared Test
-- Measure **Goodness** of **Fit** : **Sample** Data matches a **Population**
-- A **Very Small** Chi Square Test Statistic means Observed Data **Fits** your expected Data **Extremely Well**.
-- A **Very Large** Chi Square Test Statistic means Data does not **Fits** Well.
-- A Test for **Independence** of two Categorical Variables and returns **Probability**.
-- Derive **Statistical Significance** of Relationship between the Variables.
-- Test whether the **Evidence** in the **Sample** is Strong enough to **Generalize** that relationship for a **Population**.
-- Difference between **Expected** and **Observed**
-- Probability = 0 indicates both Categorical Variable are **Dependent**.
-- Probability = 1 indicates both Categorical Variable are **Independent**.
+- **Measure goodness of fit:** Sample data matches with the true population.
+- A very small Chi Square Test Statistic means observed data fits your expected data extremely well.
+- A very large Chi Square Test Statistic means data does not fits well.
+- A test for independence of two categorical variables and returns probability.
+- Derive statistical significance of relationship between the variables.
+- Test whether the evidence in the sample is strong enough to generalize** that relationship for a true population.
+- Difference between expected and observed
+- Probability = 0 indicates both categorical variables are **dependent**.
+- Probability = 1 indicates both Categorical variables are **independent**.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
