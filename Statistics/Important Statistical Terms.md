@@ -24,13 +24,13 @@ Excel, JSON, XML, SQL | Image, Text, Video, Audio, PDF, Doc
 
 `Nominal` | `Ordinal`
 :--- | :---
-Cannot be arranged in order | Can be sorted, Arranged in order, Ranked 
+Cannot be arranged in order | Can be sorted, arranged in order, ranked 
 
 `Population` | `Sample`
 :--- | :---
-Entire available data set | Subset or representative of the true population
+Entire available data set | Subset, sample, or representative of the true population
 
-<h3 name='data'> Data Set </h3> 
+<h3 name='data'>Data Set</h3> 
 
 - A collection of the sample or the entire population.
 
@@ -42,7 +42,7 @@ Entire available data set | Subset or representative of the true population
 - Investigating trends, patterns, and relationships using quantitative data.
 
 ### Descriptive Statistics
-- Reduce a large array of numbers (rows) into a handful of figures (KPIs) that describe it accurately.
+- Summarize a large array of numbers (rows) into a handful of figures (KPIs) that describe it accurately.
 - Understand what your sample data looks like, summarize the characteristics of a `variable`
 - `Frequency`: Count the observations of each value in a variable ( Histogram or Frequency Table )
 - `Relative Frequency`: Count of each value as a percentage of total.
