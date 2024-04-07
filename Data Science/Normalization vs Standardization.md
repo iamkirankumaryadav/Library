@@ -15,23 +15,30 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
 ### Scaling 
 - Convert **numeric** feature values from their `natural` **range** into a `standard` or `normal` **range**.
 - A dataset with only one feature does not need scaling.
-- Scaling is beneficial only if the dataset consists of **multiple** features with different ranges.
+- Scaling is beneficial only for datasets with **multiple** features of different ranges.
 
-### Data Standardization ( Z Score Normalization )
-- Standardize features around the centre ( `Mean` ) 
+### Data Standardization (Z Score Normalization)
+- Standardize features around the centre **(Mean)** 
 - Equalize the range or data **variability**.
-- Important when we **compare** measurements that have different **units**.
+- Important when we compare features that have different **units**.
 
-Where to **Use**? | Where **not** to **Use** ?
+Where to **use**? | Where **not** to **use** ?
 :--- | :---
-Algorithms that rely on **gradient descent** ( **Regressions** ) | **Probability** based algorithms : **Naive Bayes**
-**Distance** based algorithms ( **KNN**, **K Mean** and **SVM** ) | **Tree** based algorithms : CART, Decision trees.  
-**Dimensionality reduction** transformers ( **PCA**, **LDA** and **t-SNE** ) | **Ensemble learning techniques** : Bagged and boosted trees
+Algorithms that rely on **gradient descent** (**Regressions**) | **Probability** based algorithms : **Naive Bayes**
+**Distance** based algorithms (**KNN**, **K Mean** and **SVM**) | **Tree** based algorithms : CART, Decision trees.  
+**Dimensionality reduction** transformers (**PCA**, **LDA** and **t-SNE**) | **Ensemble learning techniques** : Bagged and boosted trees
+
+Feature |	Euclidean Distance | Manhattan Distance
+:--- | :---
+Interpretation | Shortest straight line |	Total distance on a grid
+Formula |	√((x1 - x2)² + (y1 - y2)²) |	abs(x1 - x2) + abs(y1 - y2)
+Formula Description | The square root of the sum of squared differences between corresponding coordinates (x, y) of the two points | The sum of absolute differences between corresponding coordinates (x, y) of the two points
+Visualization | Straight line	|  Right-angle movements (Horizontal + Vertical)
 
 ### Benefits 
-1. Helps **gradient descent** to `converge` ( Achieve global minima ) more quickly.
-2. Helps the model to learn appropriate `weights` for each **feature**.
-3. The model pays more attention to features with a `high` **range** even if the feature is irrelevant.
+1. Helps **gradient descent** to converge (Achieve global minima) more quickly.
+2. Helps the model to learn appropriate weights for each **feature**.
+3. The model pays more attention to features with a high range even if the feature is irrelevant.
 4. A feature with a `low` **range** is ignored even if it is a better feature for model training.
 5. **Larger scale** features plays a **dominating role** in the model. 
 6. Reduces the **effect** of `outlier`
