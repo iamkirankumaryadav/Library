@@ -7,7 +7,7 @@
 
 Data Normalization | Data Standardization ( Z Score Normalization )
 :--- | :---
-`x` ( **Normal** ) =  x - **min** ( x ) / **max** ( x ) - **min** ( x ) | `z` = x - **mean** ( x ) / **std** ( x )
+**x(Normal) =  x - min(x) / max(x) - min(x)** | **z = x - mean(x) / std(x)**
 **Rescale** feature value between **range** `0` to `1` | Rescale features to have the **mean** = `0` and **standard deviation** = `1`
 sklearn.preprocessing.`MinMaxScaler()` | sklearn.preprocessing.`StandardScaler()`
 Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradient descent**, **distance** and **dimensions**
