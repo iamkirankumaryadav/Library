@@ -52,6 +52,9 @@ Entire available data set | Subset, sample, or representative of the true popula
 - `Standard Deviation`: The average amount of `variability` (Scatter plot)
 - `Variance`: Squared deviations from mean. (Actual - Predicted)<sup>2</sup>
 
+### **Skewness**
+- Skewness is a measures of how symmetrical the distribution of datapoints in a dataset or a sample.
+
 ### Variables
 - There are two main types of variables in a dataset.
 - `Numerical`: Represents numbers that meant to be `aggregated`.
