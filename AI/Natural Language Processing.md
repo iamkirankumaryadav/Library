@@ -185,6 +185,7 @@ As NLG technology continues to develop, we can expect to see even more innovativ
 
 - Corpus: A large collection of real-world text data showing how those words are used in sentences, paragraphs, and entire documents.
 - Corpora are essential for training NLP models, as they provide the models with the raw language data they need to learn from.
+- Corpus linguistics, collections of spoken and written texts are compiled and analyzed.
 - Corpora are used to train ML models for a variety of NLP tasks, such as sentiment analysis, machine translation, and part-of-speech tagging.
 
 It helps us to find:
@@ -194,25 +195,31 @@ It helps us to find:
 - Corpora can be specific (subject/domain oriented) or generic (common/public) depending on the research goal.
 
 Types of corpora:
-1. **Newsgroups corpora:** Collections of newsgroup posts, articles, poetry.
-2. **Web corpora:** Collections of text scraped from the web. 
-3. **Social media corpora:** Collections of text from social media platforms such as Instagram, Twitter and Facebook. 
-4. **Speech corpora:** Collections of spoken language data. 
+1. **Newsgroups corpora:** Collections of words from newsgroup posts, newspapers, novels, tweets, poetry, etc.
+2. **Web corpora:** Collections of text scraped from the web (Biggest corpus)
+3. **Social media corpora:** Collections of comments from social media platforms such as Instagram, Twitter and Facebook. 
+4. **Speech corpora:** Collections of written text, transcriptions of spoken languages, multilingual
 
 <h2 name="nltk"> NLTK ( Natural Language Toolkit ) </h2>
 
-- Open source `toolkit` or `library` created to make `NLP` process in `Python`
+- Open source toolkit or library created to make NLP process in Python.
 
-<h2 name="mine"> Text Mining | Text Analysis </h2>
+<h2 name="mine">Text Mining | Text Analysis</h2>
 
-- `Analyze` and `understand` text data.  
-- Derive **meaningful information** from natural language `text` and `speech`
+- Analyze and understand text data (Expression, context, action, grammar)  
+- Derive meaningful information from natural language text and speech.
+
+### Text mining process:
+1. Collecting text data
+2. Cleaning and preprocessing (Remove irrelevant, punctuation, formatting, and stop words)
+3. Analysis techniques
+4. Result Interpretation
 
 ### Types of text data 
-- Web, blogs, articles, feeds, comments, reviews, emails and notes.
+- Web, blogs, articles, feeds, comments, reviews, emails, and notes.
 - Social media: Messages, hashtags, references, comments, etc.
 - Operations: Logs and trails.
-- Emails ( Spam or Ham )
+- Emails: Formal, informal, business, casual, request, application (Spam or Ham)
 - Voice transcriptions and subtitles.
 
 ### Process :
@@ -226,20 +233,20 @@ Types of corpora:
 
 <h2 name="app"> Applications : NLP in real life </h2>
 
-1. Google Translate. ( Speech to text )
-2. Email `spam` filter ( Search for texts related to spam email )
-3. Google search and Gmail auto-complete ( Prediction of **next words** and **suggestions** ) 
+1. Google Translate. (Speech to text)
+2. Email `spam` filter (Search for texts related to spam email)
+3. Google search and Gmail auto-complete (Prediction of **next words** and **suggestions**) 
 4. Word processor | Grammer check | Autocorrect in Microsoft and Google productivity Apps.
 5. Grammerly | Grammer correction and spelling correction in Gmail and Outlook.
 6. IVR | Interactive voice response in call centres.
 7. Voice assistant: `Google Assistant`, `Apple Siri`, `Microsoft Cortana` and `Amazon Alexa`.
 8. Chatbots.
-9. Customer feedback sentiment analysis ( 😊🙂😔😡 )
-10. Document summarization: Read articles and newspapers ( Blind people )
+9. Customer feedback sentiment analysis (😊🙂😔😡)
+10. Document summarization: Read articles and newspapers (Blind people)
 11. Text classification.
-12. Part of speech `tagging` ( **Part of speech** of the corresponding word )
+12. Part of speech `tagging` (**Part of speech** of the corresponding word)
 
-<h2 name="pipe"> NLP Pipeline </h2>
+<h2 name="pipe">NLP Pipeline</h2>
 
 1. Read **raw** text.
 2. Remove `Punctuations`
@@ -249,22 +256,24 @@ Types of corpora:
 6. `Vectorize` data to prepare for model built (Convert text to `number`)
 7. **Feature Engineering** (**Creating** new feature or **transforming** existing features to get most out of data)
 
-<h2 name="token"> Tokenization </h2>
+<h2 name="token">Tokenization</h2>
 
-- The process of breaking down text into smaller units, such as words or sentences.
-- This is the first step in many NLP tasks, as it allows the model to process the text in a more manageable way.
+- The process of breaking down text into smaller units, such as words, punctuations, special characters, characters, etc.
+- This is the first step in many NLP tasks, as it allows the model to process the text in the most manageable way.
+- Computer works better with smaller chunks, easier to understand, identify important words.
 
 ```python
 Word = "Hi, my name is Kirankumar"
 ["Hi", ",", "my", "name", "is", "Kirankumar"]
 ```
 
-<h2 name="stem"> Stemming </h2>
+<h2 name="stem">Stemming</h2>
 
-- Reducing **derived** words to there `stem` | `root` | `base` form.
-- Remove `suffix` and `prefix` from the word.
-- The process of reducing a word to its base form. For example, the words "running," "runs," and "ran" would all be stemmed to "run."
+- Stemming is a process of reducing a word to its `stem` | `root` | `base` form.
+- Stemming removes common suffixes and prefixes from the word (ing, es, s, ed)
+- For example, the words "playing", "played", "plays", and "players" would all be stemmed down to "play"
 - Stemming can be helpful for tasks like information retrieval, as it allows the model to match words with different suffixes.
+- Reduces data size (saves storage space, improves processing speed)
 
 `Stemming` is applied on `tokens` 
 
@@ -272,26 +281,23 @@ Word = "Hi, my name is Kirankumar"
 stem(token) 
 ```
 
-### Why Stemming?
-- Reduce `corpus` of words and `correlate` words with `similar` meanings.
-
 ### Types of Stemmers
-1. **Porter** Stemmer ( **Oldest** with very **low accuracy** : fairly > `fairli` )
-2. **Snowball** Stemmer ( **Better** than **Porter** and **Lancaster** : fairly > `fair` )
-3. **Lancaster** Stemmer ( **Fastest** with **least accuracy** )
+1. **Porter** Stemmer (**Oldest** with very **low accuracy** : fairly > `fairli`)
+2. **Snowball** Stemmer (**Better** than **Porter** and **Lancaster** : fairly > `fair`)
+3. **Lancaster** Stemmer (**Fastest** with **least accuracy**)
 
-<h2 name="lemma"> Lemmatization </h2>
+<h2 name="lemma">Lemmatization</h2>
 
 - A more sophisticated form of stemming that takes into account the context of a word to determine its base form.
 - Grouping the **derived forms** of words so that they can be analyzed as a `single` base form.
-- Actually `transforms` words to the **actual root**. **Reduce** words to their `base` form.
-- Used in **search engines** to search by `keywords`. `Lemma` is an actual word ( Better > Good )
+- Actually `transforms` words to the **actual root**.
+- Used in **search engines** to search by `keywords`. `Lemma` is an actual word (Better > Good)
 
 ### WordNet Lemmatizer
 
-- **Database** for `English` ( Most popular **Lemmatizer** )
+- **Database** for `English` (Most popular **Lemmatizer**)
 - `Nouns`, `Verbs`, `Adjectives` and `Adverbs` are **grouped** into sets of **Cognitive Synonyms**.  
-- e.g. { 'consult', 'consultation', 'consulting', 'consultant' } - consult
+- e.g. {'consult', 'consultation', 'consulting', 'consultant'} - consult
 
 Stemming | Lemmatization
 :--- | :---
@@ -300,26 +306,35 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 
 ### Text Preprocessing
 
-- `Map` the words with any other case to the `lowercase`
+- Transforming raw text data into a format that computers can understand and analyze.
+- Cleaning and preparing the text: Removing irrelevant information, fixing errors, fixing spelling mistakes, converting to lowercase.
+- Breaking down the text: Tokenization 
+- Understand the meaning: Stemming, lemmatization, Part-of-Speech tagging
+- Extracting information: Sentiment analysis, information retrieval
 
 ### Noise Removal
 
-- Removing `special characters`, `digits` and pieces of text that can `interfere` with text analysis.
-- Remove `punctuation`, `special character`, `number`, `HTML` formatting, `source code`, `header`
+- Removing characters or pieces of text that can interfere with text analysis.
+- Remove punctuation, special characters, numbers, formatting, source code, header, etc.
 
-<h2 name="norm"> Text Normalization </h2>
+<h2 name="norm">Text Normalization</h2>
 
-- Transforming text into its `standard` form.
-- e.g. 'gooood' and 'gud' transformed into 'good'
-- Mapping of near **identical** words such as 'stopwords', 'stop-words' and 'stop words' to just 'stopwords'
+- Transforming text into its standard consistent format to make it easier for computers to understand.
+- e.g. 'gooood' and 'gud' transformed into 'good'.
+- Case conversion: Putting all in the same case (Either uppercase or lowercase) depending on the situation.
+- Punctuation Removal: Unnecessary punctuations are not relevant for analysis.
+- Abbreviations and Acronym Expansion: Clarifies the meaning of the text for computer processing (OMG, ASAP, OOO)
+- Spelling Correction: Fixing typos and grammatical errors to ensure consistency and error-free.
+- Stop Words Removal: Remove common words that don't carry any meaning on their own (a, an, the, is, of)
+- Mapping of near identical words such as 'stopwords', 'stop-words' and 'stop words' to just 'stopwords'
 - Important when **noisy**, **misspelled**, **slang** and **out of vocabulory** ( `OOV` ) words are used. 
 - **Out of vocabulory** ( `OOV` ) : **Social media** comments, **blog** comments and **text messages**.
 
-<h2 name="stop"> Stop Word </h2>
+<h2 name="stop">Stop Word</h2>
 
-- Common words that are filtered out before processing text.
-- Stop words are `filler` words like `a`, `an`, `in`, `on`, `and`, `the`, `or`, etc.
-- Stopwords are ignored and `removed`, so that we can `focus` on **important words** instead.
+- Common words that don't carry any meaning on their own are filtered out before processing text.
+- Stop words are filler words like `a`, `an`, `in`, `on`, `and`, `the`, `or`, etc.
+- Stopwords are ignored and removed so that we can focus on important words instead.
 - Search engines only search based on `keywords`
 - Search engines are programmed to `ignore` **stop words**.
 - These words don't provide much meaning on their own, so filtering them out can improve the efficiency of NLP tasks.
@@ -332,7 +347,7 @@ How to `remove` stopwords using NLTK
 Token for Token in the text if not in `Stopwords.words()` 
 ```
 
-<h2 name="pos"> POS : Parts-of-Speech Tagging</h2>
+<h2 name="pos">POS : Parts-of-Speech Tagging</h2>
 
 - The process of assigning a grammatical tag (such as noun, verb, adjective) to each word in a sentence.
 - POS tagging can be helpful for tasks like sentiment analysis and machine translation.
