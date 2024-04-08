@@ -183,13 +183,19 @@ As NLG technology continues to develop, we can expect to see even more innovativ
 
 <h2 name="corpus">Corpus</h2>
 
-- Corpus: A large collection of text data.
+- Corpus: A large collection of real-world text data showing how those words are used in sentences, paragraphs, and entire documents.
 - Corpora are essential for training NLP models, as they provide the models with the raw language data they need to learn from.
 - Corpora are used to train ML models for a variety of NLP tasks, such as sentiment analysis, machine translation, and part-of-speech tagging.
 
+It helps us to find:
+- How does the meaning of a word change depending on the context?
+- How has the way we use language changed over time?
+- How do different people (e.g., Doctors, Teenagers | Formal, Informal, Casual, Slang) use language differently?
+- Corpora can be specific (subject/domain oriented) or generic (common/public) depending on the research goal.
+
 Types of corpora:
-1. **Newsgroups corpora:** Collections of newsgroup posts.
-2. **Web corpora:** Collections of text from the web. 
+1. **Newsgroups corpora:** Collections of newsgroup posts, articles, poetry.
+2. **Web corpora:** Collections of text scraped from the web. 
 3. **Social media corpora:** Collections of text from social media platforms such as Instagram, Twitter and Facebook. 
 4. **Speech corpora:** Collections of spoken language data. 
 
@@ -229,7 +235,7 @@ Types of corpora:
 7. Voice assistant: `Google Assistant`, `Apple Siri`, `Microsoft Cortana` and `Amazon Alexa`.
 8. Chatbots.
 9. Customer feedback sentiment analysis ( 😊🙂😔😡 )
-10. Document summarization: Read articles and newspaper ( Blind people )
+10. Document summarization: Read articles and newspapers ( Blind people )
 11. Text classification.
 12. Part of speech `tagging` ( **Part of speech** of the corresponding word )
 
@@ -237,7 +243,7 @@ Types of corpora:
 
 1. Read **raw** text.
 2. Remove `Punctuations`
-3. Create `Tokens` (Create a list by splitting each and every `word`)
+3. Create `Tokens` (Create a list by splitting every `word`)
 4. Remove `Stopwords`
 5. Apply Stemming | Lemmatization (Reduce derived words to `stem` words)
 6. `Vectorize` data to prepare for model built (Convert text to `number`)
@@ -277,7 +283,7 @@ stem(token)
 <h2 name="lemma"> Lemmatization </h2>
 
 - A more sophisticated form of stemming that takes into account the context of a word to determine its base form.
-- Grouping together the **derived forms** of words so that they can be analyzed as a `single` base form.
+- Grouping the **derived forms** of words so that they can be analyzed as a `single` base form.
 - Actually `transforms` words to the **actual root**. **Reduce** words to their `base` form.
 - Used in **search engines** to search by `keywords`. `Lemma` is an actual word ( Better > Good )
 
@@ -314,7 +320,7 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 - Common words that are filtered out before processing text.
 - Stop words are `filler` words like `a`, `an`, `in`, `on`, `and`, `the`, `or`, etc.
 - Stopwords are ignored and `removed`, so that we can `focus` on **important words** instead.
-- Search engines only search on the basis of `keywords`
+- Search engines only search based on `keywords`
 - Search engines are programmed to `ignore` **stop words**.
 - These words don't provide much meaning on their own, so filtering them out can improve the efficiency of NLP tasks.
 
