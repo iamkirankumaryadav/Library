@@ -29,7 +29,7 @@ Algorithms that rely on **gradient descent** (**Regressions**) | **Probability**
 **Dimensionality reduction** transformers (**PCA**, **LDA** and **t-SNE**) | **Ensemble learning techniques** : Bagged and boosted trees
 
 Feature |	Euclidean Distance | Manhattan Distance
-:--- | :---
+:--- | :--- | :---
 Interpretation | Shortest straight line |	Total distance on a grid
 Formula |	√((x1 - x2)² + (y1 - y2)²) |	abs(x1 - x2) + abs(y1 - y2)
 Formula Description | The square root of the sum of squared differences between corresponding coordinates (x, y) of the two points | The sum of absolute differences between corresponding coordinates (x, y) of the two points
