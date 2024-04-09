@@ -379,8 +379,8 @@ Token for Token in the text if not in `Stopwords.words()`
 <h2 name="vector">Vectorization</h2>
 
 - **Converting** text to some special numeric code that an algorithm and ML model can understand and learn.
-- The numeric code is called a vector, a list of numbers that captures the important information from the text.
-- **Process** of `encoding` text as `integers` to create `feature matrix`
+- The numeric code is called a vector, a list of numbers that capture the important information from the text.
+- **Process** of encoding text as integers to create a feature matrix.
 
 <h2 name="tfidf">TF - IDF</h2>
 
