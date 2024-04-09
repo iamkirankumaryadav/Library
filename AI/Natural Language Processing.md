@@ -349,23 +349,37 @@ Token for Token in the text if not in `Stopwords.words()`
 
 <h2 name="pos">POS : Parts-of-Speech Tagging</h2>
 
-- The process of assigning a grammatical tag (such as noun, verb, adjective) to each word in a sentence.
+- The process of assigning/tagging a grammatical label (such as noun, verb, adjective) to each word in a sentence.
+- The computer understands the role of each word, similar to how humans learn about parts of speech.
 - POS tagging can be helpful for tasks like sentiment analysis and machine translation.
+
+**Sentence:** The quick brown fox jumps over the lazy dog.
+
+**POS Tags:**
+- The (determiner)
+- quick (adjective)
+- brown (adjective)
+- fox (noun)
+- jumps (verb)
+- over (preposition)
+- the (determiner)
+- lazy (adjective)
+- dog (noun)
 
 <h2 name="bag"> Bag of Words </h2>
 
 - A method for representing text documents as a collection of words.
-- Number of `occurrence` of words in a paragraph or sentence.
+- Creates a dictionary of unique words with numbers of occurrences of words in a paragraph or sentence.
 - e.g. well well well, said John. {'well':3, 'said':1, 'john':1}
 - Bag of words is represented in the form of **dictionary**. 
 - Expressed sentiments of words are defined by `polarity`
 - `Polarity`: Positive `+1`, Negative `-1` or Neutral `0`
-- In a BOW model, the order of the words is not taken into account, only the frequency of each word.
-- BOW models are a simple and effective way to represent text data, but they can lose some important information about the structure of the text.
+- In a BoW model, the order or grammar of the words is not taken into account, only the frequency of each word.
 
-<h2 name="vector"> Vectorization </h2>
+<h2 name="vector">Vectorization</h2>
 
-- **Converting** text to form `Numbers` that an **algorithm** and a **ML model** can `understand` and `learn`.
+- **Converting** text to some special numeric code that an algorithm and ML model can understand and learn.
+- The numeric code is called a vector, a list of numbers that captures the important information from the text.
 - **Process** of `encoding` text as `integers` to create `feature matrix`
 
 <h2 name="tfidf">TF - IDF</h2>
