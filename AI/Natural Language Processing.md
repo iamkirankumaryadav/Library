@@ -111,7 +111,7 @@
 * **Question Answering Systems:** NLU allows machines to comprehend complex questions and answer them accurately by finding relevant information from a vast knowledge base.
 * **Text Summarization:** NLU can be used to automatically generate summaries of lengthy pieces of text, helping people quickly grasp the key points.
 
-<h2 name="nlq"> Natural Language Query (NLQ) </h2>
+<h2 name="nlq">Natural Language Query (NLQ) </h2>
 
 - `NLQ` isn't as widely used as `NLP`, `NLU`, and `NLG`, but it's related.
 - `NLQ` refers to formulating a question or request in natural language.
@@ -386,49 +386,60 @@ Token for Token in the text if not in `Stopwords.words()`
 
 ![TFIDF](Image/TFIDF.png)
 
-- **Term Frequency** - **Inverse Document Frequency**.
-- `TF`: Number of `times` term `appears` in document / Number of `terms` in document.
-- `IDF`: `log(N/n)` 
-- `N`: Number of `documents`
-- `n`: Number of `documents` a `term` appeared in.
-- Shows how `important` a given `word` is to the `document`
-- The `IDF` value of a `rare` word is `high` and `low` for a `frequent` word.
-
-### Feature Vector
-- An `n-dimensional vector` of **numerical features** that represents some `object`.
+- **Term Frequency - Inverse Document Frequency**
+- TF-IDF is a statistical method used to determine the importance of a word in a document in a collection or corpus.
+- **TF:** This considers how often a word appears in a single document.
+- The more times a word shows up, the higher its TF score.
+- **IDF:** How often a word appears in the entire collection of documents.
+- If the word is common, it's not that special (low IDF)
+- But if it's rare, it becomes more important (high IDF)
 
 ### Different Types
-1. **Count** vectorization ( Create a **document term matrix**   that represents `count` of `occurrence` )
-2. **N Grams** ( Combination of `adjacent` words )
-3. **Term Frequency** - **Inverse Document Frequency** ( `TD - IDF` ) 
+1. Count vectorization (Create a document term matrix that represents the count of occurrence)
+2. **N Grams** (Combination of `adjacent` words)
+3. **Term Frequency - Inverse Document Frequency** (TD - IDF) 
 
-<h2 name="ngram"> N Grams </h2>
+<h2 name="ngram">N Grams</h2>
 
-- **Combinations** of `adjacent` words of length `N` in the text.
-- A sequence of n words. N-grams are commonly used in NLP tasks such as language modelling and machine translation.
-- Bigrams (2-grams) and trigrams (3-grams) are the most common types of n-grams used in NLP.
+- N-grams are sequences of N words that appear together in a text.
+- Instead of looking at individual words, you group them in chunks.
+- N refers to the number of words in each chunk.
+- It helps in predicting the next word (Helpful for tasks like auto-completion in search engines)
+- Understanding language patterns: We can learn common phrases.
+- Sentiment analysis: e.g. Trigram "feeling very happy": Positive sentiment
 
-### Bigrams
+### Unigram (N=1)
+- Single words
+- Example: "The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog".
 
-- Form **pair** of `adjacent` words from the sentence.
+### Bigram (N=2)
 
-### Trigrams
+- Sequences of two words
+- Example: "The quick", "quick brown", "brown fox", "fox jumps", "jumps over", "over the", "the lazy", "lazy dog".
 
-- Form set of **three** `adjacent` words.
+### Trigrams (N=3)
+
+- Sequences of three words
+- Example: "The quick brown", "quick brown fox", "brown fox jumps", "fox jumps over", "jumps over the", "over the lazy", "the lazy dog".
 
 `Google Search` **suggests** `bigrams`, and `trigrams` in their `keyword` **suggestions**.  
 
-<h2 name="ner"> Name Entity Recognition </h2>
+<h2 name="ner">Name Entity Recognition</h2>
 
-1. **Recognize** elements in the text by `category`  
-2. `Movie`, `Person`, `Location`, `Organization`, `Quantity Unit`, `Monetary Value` | `Financial` terms.
-3. Automatically identify the `entity` name in a text and classify it in **predefined categories**.
+1. Computers use NER to find, classify, and represent important names with specific categories in text data.
+2. Categories like People (Name of the individual), Organizations (Companies, WHO), Locations (Country, City), Dates, Times, and Money.
+3. Once identified, NER assigns a label (category) to each entity (word)
+4. This helps to extract important information automatically from large amount of text data. Saves time and effort.
+5. Helps organize and structure information, making it easier to analyze and understand.
+6. e.g. Narendra Modi (Person) visited Bangalore (Location) in March (Month) 2024 (Year).
 
 ![NER](Image/NER.png)
 
 ### Syntax | Syntactic Analysis
-- Syntactic structure of `sentence` or `strings`
-- Analyze string by `symbol`
+- The process of analyzing the grammatical structure of a sentence.
+- Breaks down the sentences into phrases and clauses.
+- Labels the parts (POS tagging) to each word.
+- Build structure by understanding the relationship between words and phrases.
 
 ### Sentiment Analysis
 - `Feeling`, `emotion`, `reaction`, `satisfaction` of the user, customer or consumer expressing their `feedback`
@@ -440,20 +451,16 @@ Token for Token in the text if not in `Stopwords.words()`
 
 <h2 name="cloud"> Word Cloud </h2>
 
-- A graphical display of words in a `corpus`.
-- The `size` of the word is based on the number of `occurrences`
-- **Visual** view of the most popular terms.
-
-### Corpus | Corpora
-- Large `collection` of documents ( Accurate grammar phrases ) 
-- `Knowledge base` that can be used to infer and validate language rules.
+- A graphical/visual way to see which words appear most often in a piece of text.
+- The size of the word reflects its frequency.
+- Analyze the text, identify the words, count the words, build the cloud
 
 ### Sparse Matrix
-- A `matrix` in which most entries are `0` helps in **efficient storage**.
+- A matrix in which most entries are `0` helps in **efficient storage**.
 - Stores only `location` of **non zero elements**.
 
 ### Chunking
-- `Grouping` individual pieces of information into big chunks.
+- Grouping individual pieces of information into big chunks.
 
 ### Transformation
 - **Power** Transformation ( `Square`, `Square Root` )
