@@ -470,7 +470,7 @@ Token for Token in the text if not in `Stopwords.words()`
 - These vectors capture the meaning and relationships between words, allowing computers to understand language.
 - Word2Vec learns how words are used together and captures these relationships in numerical vectors.
 
-![Word2Vec](Word2Vec.jpeg)
+![Word2Vec](Image/Word2Vec.jpeg)
 
 **How does Word2Vec work?**
 - A large corpus of text data is fed into the system.
@@ -492,7 +492,7 @@ Token for Token in the text if not in `Stopwords.words()`
 - Classifying email (We can pass the whole email instead of just keywords)
 - Doc2Vec bridges the gap between understanding individual words and grasping the meaning of entire documents.
 
-![Doc2Vec](Doc2Vec.jpeg)
+![Doc2Vec](Image/Doc2Vec.jpeg)
 
 <table align='center'>
   <tr>
