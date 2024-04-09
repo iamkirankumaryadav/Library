@@ -463,23 +463,51 @@ Token for Token in the text if not in `Stopwords.words()`
 - Grouping individual pieces of information into big chunks.
 
 ### Transformation
-- **Power** Transformation ( `Square`, `Square Root` )
-- Standardization or Normalization of Data. 
+- Standardization or Normalization of Data.
+
+### **Word2Vec** (Word Vectorization)
+- A technique in NLP used to represent words as numerical vectors.
+- These vectors capture the meaning and relationships between words, allowing computers to understand language.
+- Word2Vec learns how words are used together and captures these relationships in numerical vectors.
+
+![Word2Vec](Word2Vec.jpeg)
+
+**How does Word2Vec work?**
+- A large corpus of text data is fed into the system.
+- Word2Vec focuses on the context in which a word appears. It considers the words surrounding a particular word in a window.
+- Word2Vec creates a unique vector for each word.
+- This vector is like a code that represents the word's meaning and its connection to other words.
+- Words with similar meanings will have vectors that are closer together in the vector space.
+- The position of a word's vector reflects its meaning based on its surrounding words.
+
+### Doc2Vec (Document Vectorization)
+- A technique in NLP used to represent the entire document as a numerical vector, capturing the overall meaning and topic of the document.
+- Doc2Vec is an extension of Word2Vec. It treats the entire document as a unique entity.
+- It first captures and analyzes the words used in the document and considers their relationships.
+- Doc2Vec also takes into account a unique identifier for the document itself (Just to distinguish it from other documents)
+- Doc2Vec creates a single vector representation for the entire document.
+- This vector encodes the document's meaning based on the words it contains and its unique identity within the collection.
+- Documents with similar topics will have vectors closer together in the vector space.
+- Document clustering, finding similar articles and recommendation engines.
+- Classifying email (We can pass the whole email instead of just keywords)
+- Doc2Vec bridges the gap between understanding individual words and grasping the meaning of entire documents.
+
+![Doc2Vec](Doc2Vec.jpeg)
 
 <table align='center'>
   <tr>
     <th>
-      <h4>word2vec ( Word 2 Vector )</h4>      
+      <h4>word2vec (Word 2 Vector)</h4>      
     </th>
     <th>
-      <h4>doc2vec ( Document 2 Vector )</h4>
+      <h4>doc2vec (Document 2 Vector)</h4>
     </th>
   </tr> 
   <tr>
     <th colspan='2'>Accept large corpus of text as input</th>
   </tr>
   <tr>
-    <th colspan='2'>Vector: Numeric representation of word and document ( One Hot Vector )</th>
+    <th colspan='2'>Vector: Numeric representation of word and document (One Hot Vector)</th>
   </tr>
   <tr>
     <td>Returns a set of vectors for each <b>word</b></t>
@@ -496,14 +524,6 @@ Token for Token in the text if not in `Stopwords.words()`
     <th colspan='2'>Detect synonymous words or suggest next words for a partial sentence ( Autocomplete | Search bar suggestion )</th>
   </tr>
  </table>
-
-Word2Vec Matrix | TF-IDF Matrix
-:--- | :--- 
-Multi-dimensional vector | Sparse matrix
-Capture word's relationship with other words | Captures the importance of the word in a given document.
-Applied on each word individually | Applied to each training document.
-More memory intensive | Less memory intensive.
-Ideal for single-word problems | Ideal for problems with multiple words or document files.
 
 ### One Hot Vector
 
