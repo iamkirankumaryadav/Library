@@ -435,6 +435,28 @@ Token for Token in the text if not in `Stopwords.words()`
 
 ![NER](Image/NER.png)
 
+### **How to update NER?**
+
+1. **Incremental Training:**
+- Libraries like spaCy now allow to update the pre-trained model with custom own data.
+- We can add new entities or improve the model's recognition of existing ones, without retraining from scratch.
+
+2. **Retraining:**
+- We can retrain the entire model on a new dataset that includes your desired entities.
+- This takes more computation resources but offers a more comprehensive update.
+
+3. **Rule-Based Models:**
+- In rule-based NER, we can update the existing rules to recognize new entities.
+- This involves manually defining patterns and context clues for the new entities we want to identify.
+
+4. **Expand dictionaries:**
+- If our system relies on predefined dictionaries of entities, we can simply add new key-value pairs for the entities we want to recognize.
+
+**Additional things to consider:**
+- **Data Quality:** Ensure it's well annotated and reflects the entities you want the model to recognize.
+- **Evaluation:** Evaluate the model's performance on unseen data to check improved accuracy.
+
+**Incremental Training:**
 ### Syntax | Syntactic Analysis
 - The process of analyzing the grammatical structure of a sentence.
 - Breaks down the sentences into phrases and clauses.
