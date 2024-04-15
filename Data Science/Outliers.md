@@ -15,27 +15,27 @@
 
 ### Cause of Outliers 
 
-- Human Error ( Data Entry ) 
-- Measurement ( Instrumental ) 
-- Experimental ( Data Extraction ) 
-- Natural ( Special unique case )
+- Human Error (Data Entry) 
+- Measurement (Instrumental) 
+- Experimental (Data Extraction) 
+- Natural (Special unique case)
 
 ### `Detect` Outliers
 
 ### 1. `Visualization`
 
 - `Visualization` helps to visualize the `distribution` of data and helps to identify `outliers` in data.
-- `Boxplot`, `scatter` and `histogram` are better plots to identify `outlier` in the dataset.
+- `Boxplot`, `scatter` and `histogram` are better plotting to identify `outlier` in the dataset.
 
 <h3 name="zscore">2. Z Score or Extreme Value Analysis</h3>
 
 ![Standard Deviation](Image/Std.png)
 
 - How many `standard deviations` a data point is away from its **sample's mean**.
-- `z` = `(x - mean(x)) / std(x)` ( Z score normalization )
-- Data points after `3 standard deviations` ( `mean +- 3 * std` ) are considered as `outliers`
+- `z` = `(x - mean(x)) / std(x)` (Z score normalization)
+- Data points after `3 standard deviations` (`mean +- 3 * std`) are considered as `outliers`
 
-`Solution`: Apply transformation of data : [Scaling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) ( Bring scales at the same level )
+`Solution`: Apply transformation of data : [Scaling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) (Bring scales at the same level)
 
 <h3 name="dbscan">3. DBSCAN | Density-based spatial clustering of applications with noise</h3>
 
@@ -49,14 +49,14 @@
 Divide the Data into `4` Equal Quarters ( `Quartiles` ) 
 
 1. Minimum: **Lowest** data point value in a dataset.
-2. 1<sup>st</sup> **Quartile** ( **Q1** ) | 25<sup>th</sup> **Percentile**: `25%` of data values are smaller and 75% are larger.
-3. 2<sup>nd</sup> **Quartile** ( **Q2** ) | 50<sup>th</sup> **Percentile**: **Median** | `50%` of data values are smaller and 50% are larger the median.
-4. 3<sup>rd</sup> **Quartile** ( **Q3** ) | 75<sup>th</sup> **Percentile**: `75%` of data values are smaller and 25% are larger.
+2. 1<sup>st</sup> **Quartile** (**Q1**) | 25<sup>th</sup> **Percentile**: `25%` of data values are smaller and 75% are larger.
+3. 2<sup>nd</sup> **Quartile** (**Q2**) | 50<sup>th</sup> **Percentile**: **Median** | `50%` of data values are smaller and 50% are larger the median.
+4. 3<sup>rd</sup> **Quartile** (**Q3**) | 75<sup>th</sup> **Percentile**: `75%` of data values are smaller and 25% are larger.
 5. Maximum: **Highest** data point value in a dataset.
 
 `Five Number Summary` can be visually represented using **boxplot**.
 - Horizontal lines on both ends of boxplots are `whiskers`.
-- `Box` is called **Interquartile Range** ( `IQR` )
+- `Box` is called **Interquartile Range** (`IQR`)
 - `IQR` = `Q3` - `Q1`
 - Data value **<** `Q1` - `1.5` * `IQR`
 - Data value **>** `Q3` + `1.5` * `IQR`
@@ -69,14 +69,14 @@ Divide the Data into `4` Equal Quarters ( `Quartiles` )
     <th colspan="2">Machine Learning Algorithms</th>
   </tr>
   <tr>
-    <th>Sensitive to Outliers ( Distance-based )</th>
+    <th>Sensitive to Outliers (Distance-based)</th>
     <th>Not Sensitive to Outliers</th>
   </tr>
    <tr>
     <td>
       <ol type="1">
         <li>Linear Regression</li>
-        <li>K Nearest Neighbours ( KNN )</li>
+        <li>K Nearest Neighbours (KNN)</li>
         <li>K Means Clustering</li>
         <li>Support Vector Machine</li>
       </ol>
@@ -102,8 +102,8 @@ Divide the Data into `4` Equal Quarters ( `Quartiles` )
 
 1. Set up a `filter` and `trim` extremely low or extremely high data points in the dataset.
 2. Remove the `outlier` if it is very small, change the value of `outlier` or replace it with something meaningful.
-3. `Inter Quartile Range` ( `IQR` ) and Extreme value analysis ( `Z Score` )
-5. `Rescale` | `Standardize` | `Normalize` ( Bring to the same scale ) Prevents outliers from dominating.
+3. `Inter Quartile Range` (`IQR`) and Extreme value analysis (`Z Score`)
+5. `Rescale` | `Standardize` | `Normalize` (Bring to the same scale) Prevents outliers from dominating.
 6. Apply [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) ( `Bagging` and `Boosting` )
 
 
