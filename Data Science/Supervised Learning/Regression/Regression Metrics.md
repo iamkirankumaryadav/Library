@@ -159,7 +159,7 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 <h3 name='tpr'>4. Recall | True Positive Rate ( TPR ) | Sensitivity</h3>
 
 - Measures the `Correctly` identified `Positive` cases from all the `Actual` positive cases. 
-- Used when the **Cost** of False Negatives ( `FN` ) is **High**. ( e.g. Person is really prone to COVID 19 but the test result is negative it can be fatal. )
+- Used when the **Cost** of False Negatives ( `FN` ) is **High**. (e.g. Person is prone to COVID 19 but if the test result is negative it can be fatal.)
 - **True Positive Rate** : Proportion of **Positive Class** that is `Correctly` Predicted as **Positive**.
 - `FN`: The number of instances that were incorrectly classified as negative
 
