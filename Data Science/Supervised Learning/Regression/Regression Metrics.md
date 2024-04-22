@@ -75,7 +75,7 @@
 
 MAE | MSE | RMSE
 :--- | :--- | :---
-Absolute (Actual - Predicted) | Squared (Actual - Predicted) | Square Root (MSE
+Absolute (Actual - Predicted) | Squared (Actual - Predicted) | Square Root (MSE)
 Good for small errors | Magnify small errors | Shrinks down larger errors
 Units of predicted value remains same | Unit gets squared | Units remains same
 Less sensitive towards outliers | More sensitive towards outliers | Less sensitive towards outliers
