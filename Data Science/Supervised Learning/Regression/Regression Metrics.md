@@ -70,7 +70,7 @@
 - Square Root of MSE, RMSE is useful at the time of undesired large errors.
 - RMSE is a more intuitive measure of error than MSE.
 - It is measured in the same units as the predicted variable.
-- Combines the properties of MAE (same unit) and MSE (handles larger errors).
+- Combines the properties of MAE (same unit) and MSE (magnifies smaller errors).
 - A lower RMSE indicates that the model is making more accurate predictions.
 
 MAE | MSE | RMSE
