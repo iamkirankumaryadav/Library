@@ -48,7 +48,7 @@
 - Sum of absolute difference between actual and predicted values.
 - MAE is better for datasets with small errors but fails in case of larger errors.
 - MAE is less sensitive towards outliers.
-- A lower MAE indicates that the model is more accurate.
+- A lower MAE indicates that the model is making more accurate predictions.
 
 ![MAE Scikit Learn](Image/MAESK.png)
 
@@ -59,7 +59,7 @@
 - Sum of squared difference between actual and predicted values.
 - More sensitive towards outliers, hence affected by outliers.
 - MSE is not good for larger errors. It changes the units/scale of the predicted values.
-- A lower MSE indicates that the model is more accurate.
+- A lower MSE indicates that the model is making more accurate predictions.
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
@@ -69,8 +69,16 @@
 
 - Square Root of MSE, RMSE is useful at the time of undesired large errors.
 - RMSE is a more intuitive measure of error than MSE.
-- It is measured in the same units as the dependent / predicted variable.
+- It is measured in the same units as the predicted variable.
+- Combines the properties of MAE (same unit) and MSE (handles larger errors).
 - A lower RMSE indicates that the model is making more accurate predictions.
+
+MAE | MSE | RMSE
+:--- | :--- | :---
+Absolute (Actual - Predicted) | Squared (Actual - Predicted) | Square Root (MSE
+Good for small errors | Magnify small errors | Shrinks down larger errors
+Units of predicted value remains same | Unit gets squared | Units remains same
+Less sensitive towards outliers | More sensitive towards outliers | Less sensitive towards outliers
 
 <h3 name='r2'>4. Coefficient of Determination ( R<sup>2</sup> ) | Squared Correlation Coefficient</h3>
 
