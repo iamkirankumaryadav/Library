@@ -94,8 +94,8 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 - `Best fit line` predicts better than `base fit line` ( `Mean` )
 -  A higher R-squared indicates that the model is making more accurate predictions.
 - Measure of the proportion of variance in the dependent variable that is explained by the independent variable.
-- <p>R<sup>2</sup> = `0` indicates that the independent variable does not explain any of the variance in the dependent variable.</p>
-- <p>R<sup>2</sup> = `1` indicates that the independent variable perfectly explains the variance in the dependent variable.</p>
+- <p>R<sup>2</sup> = 0 indicates that the independent variable does not explain any of the variance in the dependent variable.</p>
+- <p>R<sup>2</sup> = 1 indicates that the independent variable perfectly explains the variance in the dependent variable.</p>
   
 ![R2 Score Scikit Learn](Image/R2Score.png)
 
