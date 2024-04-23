@@ -1,6 +1,6 @@
 # **Exploratory Data Analysis**
 
-`EDA` is a process of analyzing data sets to **summarize** their **characteristics**, using `statistics` and `data visualization` methods.
+`EDA` is a process of analyzing data sets to **summarize** their **characteristics**, using statistics and data visualization methods.
 
 1. **EDA** is the most essential step in a data science project and data analysis process.
 2. **Data scientists** spend almost 70% of their work doing EDA of their dataset.
@@ -11,7 +11,17 @@
 7. EDA helps to prepare the dataset for analysis, allows an ML model to predict, gives more accurate results, and helps to choose a better ML model.
 8. Allows you to get a better understanding of your data before you start building models or making predictions.
 9. The best approach will vary depending on the specific data set and the goals of your analysis.
-10. EDA is a powerful tool that can help you to better understand your data and make better decisions about how to use it. 
+10. EDA is a powerful tool that can help you to better understand your data and make better decisions about how to use it.
+
+### Steps:
+1. Loading Data
+2. Data Exploration
+3. Handling Missing Data
+4. Data Visualization
+5. Feature Engineering
+6. Outlier Detection
+7. Data Encoding
+8. Transformation / Rescaling / Standardization
 
 ### By exploring your data, you can identify the following:
 
