@@ -92,8 +92,8 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 - Ideal value for R<sup>2</sup> is between 70% to 90% (i.e. Model fits the data very well)
 - Help us to compare the created model with the baseline model ( Mean )
 - Best fit line predicts better than base fit line (Mean)
--  A higher R-squared indicates that the model is making more accurate predictions.
-- Measure of the proportion of variance in the dependent variable that is explained by the independent variable.
+- A higher R-squared indicates that the model is making more accurate predictions.
+- Indicates how much of the variance of the dependent variable can be explained by the independent variables.
 - <p>R<sup>2</sup> = 0 indicates that the independent variable does not explain any of the variance in the dependent variable.</p>
 - <p>R<sup>2</sup> = 1 indicates that the independent variable perfectly explains the variance in the dependent variable.</p>
   
