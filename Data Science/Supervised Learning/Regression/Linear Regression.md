@@ -142,10 +142,14 @@ Correlation Coeffieicient | Relationship
 1 | Perfect Positive Correlation ( Directly Proportional )
 -1 | Perfect Negative Correlaton ( Indirectly Proportional )
 
+- Compare the mean of two separate groups to observe the significance difference between them.
 - Measure of the `strength` and `direction` of the relationship between two variables.
-- **Null** Hypothesis `H0` : There is **no linear relationship**
-- **Alternate** Hypothesis `H1` : There is a **linear relationship**
-- `P value` is calculated ( if `P Value > 0.05` : Then `accept` Null Hypothesis else `reject` Null Hypothesis )
+- **Null** Hypothesis `H0` : There is no difference in the mean
+- **Alternate** Hypothesis `H1` : There is a difference in the mean
+- `P value` is calculated (if `P Value > 0.05` : Then `accept` Null Hypothesis else `reject` Null Hypothesis)
+- One sample t-test: This compares the mean of one group to a specific hypothesized value.
+- Two sample t-test: This compares the means of two independent groups.
+- Assumptions: The data is normally distributed and the variances of the two groups are similar.
 
 Significance Level | P value
 :--- | :---
