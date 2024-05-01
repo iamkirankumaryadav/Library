@@ -2,13 +2,13 @@
 
 # How to deal with missing data?
 
-There is no particular approach for dealing with `missing` data, and the appropriate technique may vary depending on the specific context or characteristics of your dataset and the desired outcome.
+There is no particular approach for dealing with `missing` data, and the appropriate technique may vary depending on your dataset's specific context or characteristics and the desired outcome.
 
-**Missing data** : `NULL` | `NAN` | `nan` | `NaN` ( Ignored while **arithmetic operations** )
+**Missing data** : `NULL` | `NAN` | `nan` | `NaN` (Ignored while **arithmetic operations**)
 
 `Row` | `Observation` | `Tuple` | `Sample` | `Record`
 
-`Column` | `Feature` ( Data Science ) | `Field` ( Excel ) | Attribute | Dimension
+`Column` | `Feature` ( Data Science ) | `Field` (Excel) | Attribute | Dimension
 
 ## Identify Missing Values:
 
@@ -70,10 +70,10 @@ df.dropna(axis=1)
 <h3 name="impute"> 2. fillna( ) : Fill Missing Values</h3>
 
 - Imputation involves estimating missing values with the help of other available `rows` or `columns`
-- `Impute` the `numerical` missing data with `mean` or `median` ( SimpleImputer: `strategy` = `'mean'` or `'median'` ) 
-- `Impute` the `categorical` missing data with `most frequent` ( SimpleImputer: `strategy` = `'most_frequent'` ) 
-- `SimpleImputer()` is used to `fill` the missing value ( **Univariate imputation** ) 
-- `fit()`: Learn the values ( `Mean`, `Median`, `Mode` ) to be imputed and `transform()`: `Fill` the missing values.
+- `Impute` the `numerical` missing data with `mean` or `median` (SimpleImputer: `strategy` = `'mean'` or `'median'`) 
+- `Impute` the `categorical` missing data with `most frequent` (SimpleImputer: `strategy` = `'most_frequent'`) 
+- `SimpleImputer()` is used to `fill` the missing value (Univariate imputation) 
+- `fit()`: Learn the values (`Mean`, `Median`, `Mode`) to be imputed and `transform()`: `Fill` the missing values.
 - `KNNImputer()` : **Fill** missing data with the help of **K Nearest Neighbours**.
 - `fit_transform()`: Learn and impute the values in place. Only apply on `train set`.
 - Never apply `fit_transform()` on `test set`, it causes **data leakage**.
@@ -91,11 +91,11 @@ df['Sales'].fillna(0)
 
 ### Disadvantage
 
-- Changes the `distribution` of the dataset ( `Mean`, `Median`, `Variance` and `Standard Deviation` )
+- Changes the `distribution` of the dataset (`Mean`, `Median`, `Variance` and `Standard Deviation`)
 - Brings new `outliers`.
 - Changes the `correlation` among features.
 
-<h3 name="assign"> 3. Assign a Unique Category ( Categorical Data ) | Flag ( Numeric Value )</h3>
+<h3 name="assign"> 3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h3>
 
 - Assign a **unique** category for data with **missing values** or assign with `"Missing"` flag.
 - **Flag** the **numeric** missing data with `-1` or `0` 
@@ -103,10 +103,10 @@ df['Sales'].fillna(0)
 
 <h3 name="predict"> 4. Predict Missing Value</h3>
 
-- `Fill` missing data with the help of other **features** by **predicting** ( **Multivariate** imputation ) 
-- Use the non missing data ( rows ) as **train** set and missing data ( rows ) as **test** set.
+- `Fill` missing data with the help of other **features** by **predicting** (**Multivariate** imputation) 
+- Use the non missing data (rows) as **train** set and missing data (rows) as **test** set.
 - `Continuous` and `categorical` data can be used for `prediction` and `classification`.
-- `Interpolation`: `Predict` missing data with the range of `date` and `time` ( Time series `forecasting` ) 
+- `Interpolation`: `Predict` missing data with the range of `date` and `time` (Time series `forecasting`) 
 
 ```python
 from sklearn.linear_model import LinearRegression
@@ -140,11 +140,11 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 <h3 name="algo"> 5. Use algorithms that work fine with missing values</h3>
 
-- `KNN: K Nearest Neighbour` fills the missing value by taking the majority of the `K nearest` values.
+- `KNN: K Nearest Neighbour` fills the missing value by taking most of the `K nearest` values.
 - `Random forest`: Weak learners are `trained` by `non-missing` data and `missing` values can be used for `testing`
 
 ### `Domain Knowledge` 
 - It will help us to understand the reason behind the missing data.
-- Understanding the cause can help us to decide on how to handle the missing data.
+- Understanding the cause can help us decide how to handle the missing data.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
