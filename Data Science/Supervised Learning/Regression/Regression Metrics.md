@@ -84,16 +84,19 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 
 ![R2](Image/R2.png)
 
+- Decides the goodness of fit of a regression model.
 - Helps to understand how well the model fits the data or how well the model makes predictions on new observations.
-- Measure how close each data point fits the regression line or how well the **regression line** predicts **actual values**.
+- Measure how close each data point fits the regression line or how well the regression line predicts actual values.
 - Explains the variance of the data captured by the model (0.7 to 0.9 is a good value for R2)
 - If R<sup>2</sup> is 0.8 or 80% (Regression line explains 80% of the variance in data)
 - Low R<sup>2</sup> causes underfitting and high R<sup>2</sup> results into overfitting.
 - Ideal value for R<sup>2</sup> is between 70% to 90% (i.e. Model fits the data very well)
-- Help us to compare the created model with the baseline model ( Mean )
+- Help us to compare the created model with the baseline model (Mean)
 - Best fit line predicts better than base fit line (Mean)
+- The value of R2 always increases as new features are added to the model, without detecting the significance of the newly added feature.
 - A higher R-squared indicates that the model is making more accurate predictions.
 - Indicates how much of the variance of the dependent variable can be explained by the independent variables.
+- It measures the variability in the dependent variable (Y) that is being explained by the independent variables (x)
 - <p>R<sup>2</sup> = 0 indicates that the independent variable does not explain any of the variance in the dependent variable.</p>
 - <p>R<sup>2</sup> = 1 indicates that the independent variable perfectly explains the variance in the dependent variable.</p>
   
