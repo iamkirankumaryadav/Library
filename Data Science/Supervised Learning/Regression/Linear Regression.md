@@ -6,7 +6,7 @@
 
 ### `Regression`
 
-- Estimating the relationships between `independent variables` and `dependent variable` to make predictions.
+- Estimating the relationships between `independent variables` and `dependent variables` to make predictions.
 
 #### Important Terms:
 - `Independent Variable` | `Features Matrix`
@@ -17,8 +17,8 @@
 ### `Linear Regression`
 
 - `Predict` a `continuous numeric` dependent variable based on one or more independent variables.
-- The `best fit line` which gives `least` number of `errors`
-- `Residual` | `Error` : Difference between `actual` and `predicted` value for given `data points`
+- The `best-fit line` which gives the `least` number of `errors`
+- `Residual` | `Error`: Difference between `actual` and `predicted` value for given `data points`
 - Learning a linear regression model means estimating the values of the `coefficients` ( i.e. `Slope` and `Intercept` )
 - Sensitive to `overfitting` and `outliers`
 - But can be prevented using [dimensionality reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md), [regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md), [standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) and [cross validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
@@ -42,8 +42,8 @@
 ![Negative Slope](Image/Negative.png)
 
 ### `c` | `Intercept` | `Bias` | `Constant` 
-- The point where regression line `intersects` the `Y` axis. 
-- Value of `Y` when value of `X` and value of `coefficients` = `0`
+- The point where the regression line `intersects` the `Y` axis. 
+- Value of `Y` when the value of `X` and value of `coefficients` = `0`
 
 ### [Residuals](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md) | `Error` | `e` | `Noise` | `Actual - Prediction`
 
@@ -57,7 +57,7 @@
 - More than one **independent features** and only One **dependent variable** ( **Continuous Numeric** )
 - Consider **features** that have **good correlation** with **dependent variable**.
 - Checking **multicollinearity** is important.
-- `Multicollinearity` : One `independent` feature can completely describe the other `independent` feature.
+- `Multicollinearity`: One `independent` feature can completely describe the other `independent` feature.
 
 # Preparing Data for Linear Regression
 
@@ -129,24 +129,24 @@ Amount of R | **Strength** of **Correlation**
 - We should consider removing the independent variable to reduce the VIF.
 - VIF does not tell us which independent variable should be removed.
 - VIF can be higher due to more number of independent features in the model.
-- VIF can be higher if independent variables have high scale values or variables are measures at different scales.
+- VIF can be higher if independent variables have high scale values or variables are measured at different scales.
 
 <p><code>VIF = 1 / 1 - R<sup>2</sup></code></p>
 
 
-### `T Test` : Correlation Coefficient for `Significance`
+### `T-Test`: Correlation Coefficient for `Significance`
 
-Correlation Coeffieicient | Relationship
+Correlation Coefficient | Relationship
 :--- | :---
 0 | No Correlation between two variables
 1 | Perfect Positive Correlation ( Directly Proportional )
--1 | Perfect Negative Correlaton ( Indirectly Proportional )
+-1 | Perfect Negative Correlation ( Indirectly Proportional )
 
 - Compare the mean of two separate groups to observe the significance difference between them.
 - Measure of the `strength` and `direction` of the relationship between two variables.
-- **Null** Hypothesis `H0` : There is no difference in the mean
-- **Alternate** Hypothesis `H1` : There is a difference in the mean
-- `P value` is calculated (if `P Value > 0.05` : Then `accept` Null Hypothesis else `reject` Null Hypothesis)
+- **Null** Hypothesis `H0`: There is no difference in the mean
+- **Alternate** Hypothesis `H1`: There is a difference in the mean
+- `P value` is calculated (if `P-Value > 0.05`: Then `accept` Null Hypothesis else `reject` Null Hypothesis)
 - One sample t-test: This compares the mean of one group to a specific hypothesized value.
 - Two sample t-test: This compares the means of two independent groups.
 - Assumptions: The data is normally distributed and the variances of the two groups are similar.
@@ -169,7 +169,7 @@ Significance Level | P value
 
 ### `Causality`
 - Relationship between **cause** and its **effect**.
-- One variable **affects** other variable ( Temperature affect icecream sale | Sale of icecream is more in summer )
+- One variable **affects** another variable ( Temperature affects ice cream sale | Sale of ice cream is more in summer )
 
 ### `Remove Collinearity`
 - If Independent features are **highly** correlated, Linear regression will **overfit** your data.
@@ -190,14 +190,14 @@ Significance Level | P value
 
 ![Difference](Image/Difference.png)
 
-- `Positive` Residual : Actual value is `above` the regression line.
-- `Negative` Residual : Actual value is `below` the regression line.
+- `Positive` Residual: The actual value is `above` the regression line.
+- `Negative` Residual: The actual value is `below` the regression line.
 
 ![Positive Negative](Image/PN.png)
 
-### Extraploation
+### Extrapolation
 
-- Making `predictions` outside `range` of data.
+- Making `predictions` outside the `range` of data.
 
 ![Extrapolation](Image/Extrapolation.png)
 
