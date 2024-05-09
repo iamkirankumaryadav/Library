@@ -55,15 +55,15 @@ Advantages:
 4. Data Compression: Compress data without losing much information.
 
 ### Linear Discriminant Analysis `LDA`: Supervised | Categorical
-- Separate `classes` or `labels`, works better with a large data set, especially `categorical` data.
+- Separate classes or labels, works better with a large data set, especially categorical data.
  
 ### Auto Encoder | Unsupervised | `ANN`
-- Learn and discover the `structure` of the dataset, ignoring noise in data. 
+- Learn and discover the structure of the dataset, ignoring noise in data. 
 
 ### Applications of Auto Encoders include:
 
-1. Anomaly detection ( Unusual or unexpected behaviour )
-2. Removing noise from data ( Images, audio and video )
-3. Image inpainting | Conservation | Restoration ( `Reconstructing` missing part of an image )
+1. Anomaly detection (Unusual or unexpected behaviour)
+2. Removing noise from data (Images, audio and video)
+3. Image inpainting | Conservation | Restoration (Reconstructing missing part of an image)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
