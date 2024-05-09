@@ -25,21 +25,24 @@
 
 ### **Feature Extraction**
 - Creates a new dataset with only relevant features that capture most of the information and insights.
-- Feature extraction helps identify and extract the most relevant features that contribute to the
+- Feature extraction helps identify and extract the most relevant features that significantly improve the accuracy and efficiency of ML Models.
+- Models with fewer features require less training data and computational resources.
+- Feature extraction is a powerful tool that prepares data for machine learning by extracting the most relevant and informative features.
+- It simplifies data processing, improves model performance, and helps models focus on the underlying patterns that matter most.
 
-### Variance `Thresholds`
-- Variance represents how `spread out` the data points are for each other in the dataset.
-- `Variance` is dependent on `scale`, always `normalize` or `standardize` your features first.
+### **Variance Thresholds**
+- Variance represents how spread out the data points are for each other in the dataset.
+- Variance is dependent on scale, always normalize or standardize your features first.
 - Remove features whose values don't change much from observation to observation. 
 - e.g. If a health dataset contains 96% observations for 35-year-old men, then age and gender features can be eliminated.
 
-### Correlation `Threshold`
-- Remove highly correlated features ( Multicollinearity ), and remove `redundant` information.
+### **Correlation Threshold**
+- Remove highly correlated features (Multicollinearity), and remove redundant information.
 
 ### Dimensionality reduction advantage
-- Reduce `dimensions` ( # features ), explain `variance` and minimize `correlation` ( redundancy )
+- Reducing dimensions (# features), explaining variance in and minimising correlation (redundancy)
 
-### Principle Component Analysis `PCA`: Unsupervised | Numerical
+### **Principle Component Analysis (PCA): Unsupervised | Numerical**
 - The goal of `PCA` is to reduce the dimensionality of the data while preserving as much of the information as possible.
 - `Transforms` large data sets into small ones without `loss` of any information in the dataset.
 - `PCA` creates a new set of uncorrelated variables that retain most of the information in the original data.
