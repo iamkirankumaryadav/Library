@@ -2,24 +2,36 @@
 
 # `Dimensionality Reduction`
 
-- Dimensionality reduction is reducing the number of features in a dataset while preserving as much information as possible.
+- A technique used to simplify complex datasets by reducing the number of features (variables) while preserving much information.
+- Datasets with many features (variables) can be complicated to analyze, visualize, and process. Not all features are equally important.
+- Transforming the data into a lower-dimensional space while retaining as much of the original information as possible.
 - Helps in improving the accuracy of models, simplifying data visualization, and making data easier to interpret.
-- The number of **features** ( `columns` ) should be low compared to the number of **observations** ( `rows` ) in the dataset. 
-- Certain algorithms struggle to **train** effective models ( Especially algorithms that consist of `distance` calculations )
-- Algorithms that consist of distance calculations: `Regressions`, `KNN`, `K Mean` and `SVM`
+- The number of features (variables) should be low compared to the number of observations (rows) in the dataset.
+- Algorithms that consist of distance calculations: Regressions, KNN, K Mean, and SVM.  
+- Dimensionality reduction helps identify and focus on the features that capture the most significant information.
 
-### Feature `Selection`
-- `Select` only features that make an impact on the target variable, `filter` irrelevant or redundant features from your dataset.
-- `Feature Selection` keeps a subset of the `original` features. 
+### **Benefits:**
+- **Simplified Analysis:** Analyzing data with fewer features is easier and faster.
+- **Improved Visualization:** Lower-dimensional data can be visualized more effectively using techniques like scatter plots.
+- **Enhanced Machine Learning:** Reduced dimensionality can lead to better performance in machine learning tasks.
 
-### Feature `Extraction`
-- Creates a new dataset with only `relevant` features that capture most of the **information** and **insights**. 
+### **Feature Selection**
+- Select the most relevant features from the data for building a better model.
+- Irrelevant or redundant features can confuse machine learning models, leading to poor accuracy.
+- By using a smaller set of relevant features, you can train models faster and potentially reduce computational costs.
+- With fewer features, it becomes easier to understand which features are most influential in the model's predictions.
+- Features are selected by calculating the correlation (regression) of each feature with the target variable or information gain (classification)
+- Feature Selection keeps a subset of the original features. 
+
+### **Feature Extraction**
+- Creates a new dataset with only relevant features that capture most of the information and insights.
+- Feature extraction helps identify and extract the most relevant features that contribute to the
 
 ### Variance `Thresholds`
-- Variance represents how `spread out` the data points are with respect to each other in the dataset.
+- Variance represents how `spread out` the data points are for each other in the dataset.
 - `Variance` is dependent on `scale`, always `normalize` or `standardize` your features first.
 - Remove features whose values don't change much from observation to observation. 
-- e.g. If a health dataset contains 96% observations for `35 years` men, then age and gender features can be eliminated.
+- e.g. If a health dataset contains 96% observations for 35-year-old men, then age and gender features can be eliminated.
 
 ### Correlation `Threshold`
 - Remove highly correlated features ( Multicollinearity ), and remove `redundant` information.
