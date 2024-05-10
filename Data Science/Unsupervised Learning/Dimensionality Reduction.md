@@ -4,10 +4,12 @@
 
 - A technique used to simplify complex datasets by reducing the number of features (variables) while preserving much information.
 - Datasets with many features (variables) can be complicated to analyze, visualize, and process. Not all features are equally important.
+- Irrelevant or redundant features can confuse ML models, leading to poor accuracy and undesirable errors.
 - Transforming the data into a lower-dimensional space while retaining as much of the original information as possible.
+- By using a smaller set of relevant features, you can train models faster and potentially reduce computational costs.
 - Helps in improving the accuracy of models, simplifying data visualization, and making data easier to interpret.
 - The number of features (variables) should be low compared to the number of observations (rows) in the dataset.
-- Algorithms that consist of distance calculations: Regressions, KNN, K Mean, and SVM.  
+- Dimensionality reduction is more helpful for the algorithms that consist of distance calculations: Regressions, KNN, K Mean, and SVM.  
 - Dimensionality reduction helps identify and focus on the features that capture the most significant information.
 
 ### **Benefits:**
@@ -15,47 +17,41 @@
 - **Improved Visualization:** Lower-dimensional data can be visualized more effectively using techniques like scatter plots.
 - **Enhanced Machine Learning:** Reduced dimensionality can lead to better performance in machine learning tasks.
 
+Feature Selection | Feature Extraction
+:--- | :---
+Selecting a subset of the existing features in your data | Creating entirely new features from existing ones
+Keeping the original dataset, but selecting the subset of important features | Transforming the original dataset and creating something entirely new.
+Selects the most relevant features that best represent the data | Transforms the raw data into a new set of features that are more suitable for ML algorithms.
+Improves model performance by eliminating irrelevant or redundant features | Simplifies data processing by creating more meaningful features
+Reduces training time by using a smaller set of features | Improves model performance by capturing underlying patterns
+
 ### **Feature Selection**
-- Select the most relevant features from the data for building a better model.
-- Irrelevant or redundant features can confuse machine learning models, leading to poor accuracy.
-- By using a smaller set of relevant features, you can train models faster and potentially reduce computational costs.
-- With fewer features, it becomes easier to understand which features are most influential in the model's predictions.
+- Feature selection selects the most relevant features from the data and creates a new subset of data for building a better model with better accuracy.
 - Features are selected by calculating the correlation (regression) of each feature with the target variable or information gain (classification)
-- Feature Selection keeps a subset of the original features. 
 
 ### **Feature Extraction**
-- Creates a new dataset with only relevant features that capture most of the information and insights.
-- Feature extraction helps identify and extract the most relevant features that significantly improve the accuracy and efficiency of ML Models.
-- Models with fewer features require less training data and computational resources.
-- Feature extraction is a powerful tool that prepares data for machine learning by extracting the most relevant and informative features.
-- It simplifies data processing, improves model performance, and helps models focus on the underlying patterns that matter most.
-
-### **Variance Thresholds**
-- Variance represents how spread out the data points are for each other in the dataset.
-- Variance is dependent on scale, always normalize or standardize your features first.
-- Remove features whose values don't change much from observation to observation. 
-- e.g. If a health dataset contains 96% observations for 35-year-old men, then age and gender features can be eliminated.
-
-### **Correlation Threshold**
-- Remove highly correlated features (Multicollinearity), and remove redundant information.
-
-### Dimensionality reduction advantage
-- Reducing dimensions (# features), explaining variance in and minimising correlation (redundancy)
+- Feature extraction identifies the most relevant features and transforms the original dataset into a new dataset. 
+- Models with only the relevant features (variables) require less training data, training time, and computational resources.
 
 ### **Principle Component Analysis (PCA): Unsupervised | Numerical**
-- The goal of `PCA` is to reduce the dimensionality of the data while preserving as much of the information as possible.
-- `Transforms` large data sets into small ones without `loss` of any information in the dataset.
-- `PCA` creates a new set of uncorrelated variables that retain most of the information in the original data.
-- Reduce the number of data, especially `numerical` data.
+- A dataset with many dimensions (features) can be complicated for analysis and visualization. PCA reduces the complexity.
+- It compresses/transforms the data into a new set of features, called Principle Components (PCs) that capture the most information from the original features.
+- The goal of PCA is to reduce the dimensionality of the data while preserving as much of the information as possible.
+- The first principle component (PC1) represents the greatest variance.
+- The second principle component (PC2) represents the remaining significant variance perpendicular to PC1.
+- Subsequent principle components (PCs) continue explaining the remaining variance (But with decreasing importance)
+- By focusing on a smaller set of PCs, PCA simplifies the exploratory data analysis (EDA), data preparation and data visualization.
+- Many ML algorithms struggle with high-dimensional data. PCA can reduce the dimensions and potentially improve the model performance.
 
 Advantages:
 1. Data Visualization: Reduce the dimensions of data to make it easier to visualize.
 2. Feature Extraction: Extract the most important features from the dataset.
-3. Noise Reduction: Reduce noise in the data.
-4. Data Compression: Compress data without losing much information.
+3. Data Compression: Compress data without losing much information.
 
-### Linear Discriminant Analysis `LDA`: Supervised | Categorical
-- Separate classes or labels, works better with a large data set, especially categorical data.
+### **Linear Discriminant Analysis (LDA): Supervised | Classification**
+- LDA's primary objective is to identify the best way to separate the existing categories in the data.
+- LDA finds the best linear separation between categories in your data.
+- LDA can reduce the number of features needed for classification.
  
 ### Auto Encoder | Unsupervised | `ANN`
 - Learn and discover the structure of the dataset, ignoring noise in data. 
