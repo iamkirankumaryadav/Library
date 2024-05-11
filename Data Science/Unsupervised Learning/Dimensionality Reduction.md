@@ -6,8 +6,6 @@
 - Datasets with many features (variables) can be complicated to analyze, visualize, and process. Not all features are equally important.
 - Irrelevant or redundant features can confuse ML models, leading to poor accuracy and undesirable errors.
 - Transforming the data into a lower-dimensional space while retaining as much of the original information as possible.
-- By using a smaller set of relevant features, you can train models faster and potentially reduce computational costs.
-- Helps in improving the accuracy of models, simplifying data visualization, and making data easier to interpret.
 - The number of features (variables) should be low compared to the number of observations (rows) in the dataset.
 - Dimensionality reduction is more helpful for the algorithms that consist of distance calculations: Regressions, KNN, K Mean, and SVM.  
 - Dimensionality reduction helps identify and focus on the features that capture the most significant information.
@@ -15,7 +13,7 @@
 ### **Benefits:**
 - **Simplified Analysis:** Analyzing data with fewer features is easier and faster.
 - **Improved Visualization:** Lower-dimensional data can be visualized more effectively using techniques like scatter plots.
-- **Enhanced Machine Learning:** Reduced dimensionality can lead to better performance in machine learning tasks.
+- **Enhanced Machine Learning:** Reduced dimensionality can lead to reduced computational cost, faster model training and better model performance.
 
 Feature Selection | Feature Extraction
 :--- | :---
