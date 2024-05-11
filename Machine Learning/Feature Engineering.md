@@ -2,11 +2,25 @@
 
 # Feature Engineering
  
- Transforming raw data into `features` that can be effectively utilized by machine learning algorithms.
+ FE is the art of transforming raw data into features that are most important for ML models.
 
- It plays an important role in improving ML models `performance` and `interpretability`.
+### **Data Wrangling:**
+- **Selection:** Choosing the most important features from your dataset. Irrelevant features can confuse the ML models.
+- **Cleaning:** Data often contains inconsistencies/errors. FE involves cleaning the data to ensure its accuracy.
 
-### Importance of `feature engineering`
+### **Feature Creation:**
+- ML models will not accept the data in raw format (It should be numerical)
+- FE involved creating new features from the existing ones.
+- **Combination:** Combining existing features to create one new feature.
+- **Derivation:** Deriving new features from calculations on existing ones.
+- **Binning:** Grouping continuous features into categories (bins) can be useful. e.g. Income can be binned into low, medium, and high categories.
+
+### **Feature Transformation:**
+- Transforming existing features can improve their usability from ML models.
+- **Scaling:** Features with different scales can affect/dominate the model learning. Scaling ensures all features are in a similar range.
+- **Encoding:** Categorical features need to be converted into numerical values that the model can understand. (OHE and label encoding)
+
+### **Feature Engineering Importance:**
 
 1. Improve model performance:
 - Helps in selecting and transforming relevant features from the raw data.
