@@ -13,7 +13,7 @@
 ### **Benefits:**
 - **Simplified Analysis:** Analyzing data with fewer features is easier and faster.
 - **Improved Visualization:** Lower-dimensional data can be visualized more effectively using techniques like scatter plots.
-- **Enhanced Machine Learning:** Reduced dimensionality can lead to reduced computational cost, faster model training and better model performance.
+- **Enhanced Machine Learning:** Reduced computational cost, faster model training and better accuracy + model performance.
 
 Feature Selection | Feature Extraction
 :--- | :---
