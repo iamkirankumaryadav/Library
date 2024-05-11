@@ -10,11 +10,11 @@
 - **Dimensions:** Reduce dimensions to simplify the data, it helps in proper understanding and visualization of the data.
 
 ### **Feature Creation:**
-- FE involves creating new features from the existing ones which can contribute for better learning.
+- FE involves creating new features from the existing ones which can contribute to better learning.
 - Well-engineered features can significantly improve the accuracy and efficiency of ML models.
 - **Combination:** Combining existing features to create one new feature.
 - **Derivation:** Deriving new features from calculations on existing ones.
-- **Binning:** Grouping continuous features into categories (bins) can be useful. e.g. Income can be binned into low, medium, and high categories.
+- **Binning:** Grouping continuous features into categories (bins) e.g. Income can be binned into low, medium, and high categories.
 
 ### **Feature Transformation:**
 - Transforming existing features can improve their usability from ML models.
