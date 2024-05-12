@@ -1,36 +1,29 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# `Linear Regression` 📈
+# **Linear Regression** 📈
 
 <h3><a href='#simple'>Simple Linear</a> | <a href='#multiple'>Multiple Linear</a> | <a href='#ass'>Assumptions</a></h3>
 
-### `Regression`
+### **Regression**
+- Estimating the relationships between independent and dependent variables to make predictions.
 
-- Estimating the relationships between `independent variables` and `dependent variables` to make predictions.
+#### **Important Terms:**
+- Independent Variable | Features Matrix (An array of numbers, one or more rows, one or more columns)
+- Dependent Variable | Target Vector (A list of numbers, can be in a single row or column)
 
-#### Important Terms:
-- `Independent Variable` | `Features Matrix`
-- `Dependent Variable` | `Target Vector`
-- A `vector` is a list of numbers (can be in a row or column)
-- A `matrix` is an array of numbers (one or more rows, one or more columns).
-
-### `Linear Regression`
-
-- `Predict` a `continuous numeric` dependent variable based on one or more independent variables.
-- The `best-fit line` which gives the `least` number of `errors`
-- `Residual` | `Error`: Difference between `actual` and `predicted` value for given `data points`
-- Learning a linear regression model means estimating the values of the `coefficients` ( i.e. `Slope` and `Intercept` )
-- Sensitive to `overfitting` and `outliers`
+### **Linear Regression:**
+- Predict a continuous numeric dependent variable based on one or more independent variables.
+- The best-fit line which gives the least number of errors.
+- Residual | Error: Difference between actual and predicted value for given data points.
+- Learning a linear regression model means estimating the values of the coefficients (Slope and Intercept)
+- Sensitive to overfitting and outliers.
 - But can be prevented using [dimensionality reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md), [regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md), [standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) and [cross validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
-
 ![Regression Line](Image/RegressionLine.png)
-
-- `Predict` the value of a `target vector` based on the value of `feature matrix`
-- The parameters `m` and `c` are **learnt** by the **algorithm** based on the **data point** pairs of ( x, y )
+- Predict the value of a target vector based on the value of the feature matrix.
+- The parameters **m** and **c** are **learnt** by the **algorithm** based on the **data point** pairs of (x, y)
 - There are few **statistical** <a href="#ass">assumptions</a> as well for **linear regression**. 
 - Also there are ways to **evaluate** how **good** our **model** learnt from the **data**, using [metrics](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md)
-
-`y` = `m` * `x` + `c` ( m and c are also called as `coefficients` )
+- **y = m * x + c** (m and c are also called as coefficients)
 
 ![Equation Line](Image/EquationLine.png)
 
