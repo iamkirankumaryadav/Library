@@ -2,18 +2,17 @@
 
 # How to deal with missing data?
 
-There is no particular approach for dealing with `missing` data, and the appropriate technique may vary depending on your dataset's specific context or characteristics and the desired outcome.
+- There is no particular approach for dealing with missing data.
+- The appropriate technique may vary depending on your dataset's specific context or characteristics and the desired outcome.
 
-**Missing data** : `NULL` | `NAN` | `nan` | `NaN` (Ignored while **arithmetic operations**)
+**Missing data** : NULL | NAN | nan | NaN (Ignored while **arithmetic operations**)
 
-`Row` | `Observation` | `Tuple` | `Sample` | `Record`
+Row | Observation | Tuple | Sample | Record
 
-`Column` | `Feature` ( Data Science ) | `Field` (Excel) | Attribute | Dimension
+Column | Feature (Data Science) | Field (Excel) | Attribute | Dimension
 
-## Identify Missing Values:
-
-Check for `None` or `NaN` values
-
+### **How to identify missing values?**
+Check for None or NaN values:
 ```python
 # Check for None:
 missing_values = [x is None for x in data]
@@ -34,18 +33,18 @@ import numpy as np
 missing_values = np.isnan(array)
 ```
 
-## Handle Missing Values:
+### **How to handle missing values?**
 
-<h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
+<h5><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h5>
 
-<h3 name="del"> 1. dropna( ) : Drop Missing Values</h3>
+<h5 name="del">1. dropna( ) : Drop Missing Values</h5>
 
-- If the missing data is negligible and doesn't affect the overall analysis, drop the corresponding `rows` or `columns`
-- `Drop` **rows** if **missing values** < `5%` | `axis = 0` 
-- `Drop` **columns** if **missing values** > `70%` | `axis = 1`
-- Deleting irrelevant `rows` or `columns` helps to get a **robust model**.
-- But it's **better** to keep data rather than `dropping`, removing data may lead to `loss` of information.
-- If one value in observation is `missing` other values may be **important**.
+- If the missing data is negligible and doesn't affect the overall analysis, drop the corresponding rows or columns.
+- Drop rows if missing values** < 5% i.e. (axis = 0)
+- Drop columns if **missing values > 70% i.e. (axis = 1)
+- Deleting irrelevant rows or columns helps to get a robust model.
+- But it's better to keep data rather than dropping, removing data may lead to loss of information.
+- If one value in observation is missing other values may be important.
 
 ```python
 # DataFrame.dropna()
@@ -67,16 +66,16 @@ df.dropna(axis=0, how='all')
 df.dropna(axis=1)
 ```
 
-<h3 name="impute"> 2. fillna( ) : Fill Missing Values</h3>
+<h5 name="impute"> 2. fillna( ) : Fill Missing Values</h5>
 
-- Imputation involves estimating missing values with the help of other available `rows` or `columns`
-- `Impute` the `numerical` missing data with `mean` or `median` (SimpleImputer: `strategy` = `'mean'` or `'median'`) 
-- `Impute` the `categorical` missing data with `most frequent` (SimpleImputer: `strategy` = `'most_frequent'`) 
-- `SimpleImputer()` is used to `fill` the missing value (Univariate imputation) 
-- `fit()`: Learn the values (`Mean`, `Median`, `Mode`) to be imputed and `transform()`: `Fill` the missing values.
-- `KNNImputer()` : **Fill** missing data with the help of **K Nearest Neighbours**.
-- `fit_transform()`: Learn and impute the values in place. Only apply on `train set`.
-- Never apply `fit_transform()` on `test set`, it causes **data leakage**.
+- Imputation involves estimating missing values with the help of other available rows or columns.
+- Impute the numerical missing data with the sample mean or median (SimpleImputer: strategy = 'mean' or 'median') 
+- Impute the categorical missing data with the sample most frequent value (SimpleImputer: strategy = 'most_frequent') 
+- SimpleImputer() is used to fill in the missing value (Univariate imputation) 
+- **fit():** Learn the values (Mean, Median, Mode) to be imputed and **transform():** Fill in the missing values.
+- **KNNImputer():** Fill missing data with the help of **K Nearest Neighbours**.
+- **fit_transform():** Learn and impute the values in place. Only apply on the train set.
+- Never apply fit_transform() on the test set, it causes data leakage.
 
 ```python
 # DataFrame.fillna()
@@ -87,26 +86,24 @@ df['Sales'].fillna(0)
 ```
 
 ### Data Leakage 
-- Accidentally sharing data from the `train` set to the `test` set.
+- Accidentally sharing data from the train set to the test set.
 
 ### Disadvantage
+- Changes the distribution of the dataset, which will change the mean, median, variance and standard deviation of the sample.
+- Bring new outliers in the dataset.
+- Changes the correlation among features and the impact of independent variables on the target variable.
 
-- Changes the `distribution` of the dataset (`Mean`, `Median`, `Variance` and `Standard Deviation`)
-- Brings new `outliers`.
-- Changes the `correlation` among features.
+<h5 name="assign"> 3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h5>
 
-<h3 name="assign"> 3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h3>
+- Assign a **unique** category for data with **missing values** or assign with "Missing" flag.
+- **Flag** the **numeric** missing data with -1 or 0.
+- Create a difference between missing data and remaining non-missing data.
 
-- Assign a **unique** category for data with **missing values** or assign with `"Missing"` flag.
-- **Flag** the **numeric** missing data with `-1` or `0` 
-- Create a `difference` between missing data and remaining non-missing data.
+<h5 name="predict"> 4. Predict Missing Value</h5>
 
-<h3 name="predict"> 4. Predict Missing Value</h3>
-
-- `Fill` missing data with the help of other **features** by **predicting** (**Multivariate** imputation) 
+- Fill missing data with the help of other **features** by **predicting** (**Multivariate** imputation) 
 - Use the non missing data (rows) as **train** set and missing data (rows) as **test** set.
-- `Continuous` and `categorical` data can be used for `prediction` and `classification`.
-- `Interpolation`: `Predict` missing data with the range of `date` and `time` (Time series `forecasting`) 
+- Interpolation: Predict missing data with the range of date and time (Time series forecasting) 
 
 ```python
 from sklearn.linear_model import LinearRegression
@@ -138,12 +135,12 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 ```
 
-<h3 name="algo"> 5. Use algorithms that work fine with missing values</h3>
+<h5 name="algo"> 5. Use algorithms that work fine with missing values</h5>
 
-- `KNN: K Nearest Neighbour` fills the missing value by taking most of the `K nearest` values.
-- `Random forest`: Weak learners are `trained` by `non-missing` data and `missing` values can be used for `testing`
+- **KNN:** KNN fills the missing value by taking most of the K nearest values.
+- **Random forest:** Weak learners are trained by non-missing data and missing values can be used for testing.
 
-### `Domain Knowledge` 
+### **Domain Knowledge**
 - It will help us to understand the reason behind the missing data.
 - Understanding the cause can help us decide how to handle the missing data.
 
