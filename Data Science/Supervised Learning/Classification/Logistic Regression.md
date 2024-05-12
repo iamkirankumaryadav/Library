@@ -1,36 +1,32 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# Logistic Regression
+# **Logistic Regression**
+- Model used for classification tasks like classifying flower species or image classification.
+- Transforms output using Sigmoid | Logit function to return a probability distribution value (Mapped to 2 discrete classes)
+- Especially binary classification, it predicts the probability distribution of class which lies within the range 0 and 1.
+- Probability of occurrence of the target label is predicted based on threshold (0.5) 
+- Logistic regression is affected by the scale, so always standardize the features before applying logistic regression. 
 
-- `Model` used for `classification` tasks like classifying flower species or image classification.
-- Transforms output using `Sigmoid` function to return a `probability distribution` value ( Mapped to 2 `discrete` classes )
-- Especially `binary` classification, it predicts the `probability distribution` of class which lies within the range `0` and `1`.
-- `Probability` of `occurrence` of the `target label` is predicted on the basis of `threshold` ( `0.5` ) 
-- Explain the relationship between one dependent `binary` variable and one or more `nominal` or `ordinal` independent variables.
-- Logistic regression is affected by the scale, so always `standardize` the features before applying logistic regression. 
+### **Logistic Function  | Sigmoid Function (S-Shaped Curve)**
+- Accepts any real value and maps it into a value between 0 and 1.
+- The probability prediction is transformed to binary | dichotomous (0 and 1)
+- **Threshold:** 0.5 (Probability < 0.5 is considered as 0 else 1)
 
-### Logistic Function  | `Sigmoid` Function ( S-Shaped Curve )
-- Accepts any `real` value and maps it into a value between `0` and `1`
-- The probability prediction is transformed to `binary` | dichotomous ( `0` and `1` )
-- `Threshold`: 0.5 ( `Probability` < `0.5` is considered as `0` else `1` )
-
-### When to use Logistic Regression?
-- When the `target` variable has `binary` class labels, it performs well with a small number of observations.
-- Data with very low `outliers` or `missing` data points in the data set.
-- Logistic regression is good for `fast training` ( It is not the best performing model )
-- No `tuning` is usually required.
+### **When to use Logistic Regression?**
+- When the target variable has binary class labels, it performs well with a small number of observations.
+- Data with very low outliers or missing data points in the data set. No tuning is usually required.
 
 ### Remove Correlated Independent Feature
-- The model can `overfit` if you have multiple highly correlated independent features.
-- Calculate the `pairwise correlations` between all independent features and remove highly correlated independent features.
+- The model can overfit if you have multiple highly correlated independent features.
+- Calculate the pairwise correlations between all independent features and remove highly correlated independent features.
 
 ### Example
-- `Linear regression` helps us to `predict` the student's test score on a scale of 0 - 100 | `Continuous`
-- `Logistic regression` helps us to `classify` whether the student has passed or failed | `Discrete`
+- Linear regression helps us to predict the student's test score on a scale of 0 - 100 | Continuous
+- Logistic regression helps us to classify whether the student has passed (PASS) or failed (FAIL) | Discrete
 
-### `Types` of Logistic Regression
-- `Binary` ( Pass(1) | Fail(0 )  
-- `Multiclass` ( Cats | Dogs | Sheep )
+### **Types of Logistic Regression**
+- Binary (Pass(1) | Fail(0)  
+- Multiclass (Cats | Dogs | Sheep)
 
 ```python
 # Binary Classification
@@ -78,21 +74,17 @@ cm = metrics.confusion(y_test, model.predict(X_test))
 
 ```
 
-### How to handle `Multiclass` classification problems.
+### **How to handle Multiclass classification problems?**
+- Split the task into multiple binary classification datasets.
+- Fit the binary classification model on each set. Set parameter **multi_class='ovr'**
+- The model that predicts the highest class probability is the predicted class.
 
-- `Split` the task into multiple binary classification datasets.
-- `Fit` the binary classification model on each set.
-- Set parameter `multi_class='ovr'`
-- The model that predicts the `highest class probability` is the predicted class.
-
-### `OvR` One vs rest | `OvA` One vs all
-
-Extends `binary` class classification to `multiclass` classification.
-
-- digit `0` vs. digit `1`, `2` and `3`
-- digit `1` vs. digit `0`, `2` and `3`
-- digit `2` vs. digit `0`, `1` and `3`
-- digit `3` vs. digit `0`, `1` and `2`
+### OvR (One vs Rest) | OvA (One vs All)
+Extends binary class classification to multiclass classification.
+- digit 0 vs. digit 1, 2 and 3
+- digit 1 vs. digit 0, 2 and 3
+- digit 2 vs. digit 0, 1 and 3
+- digit 3 vs. digit 0, 1 and 2
 
 [Implementation](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/05.Logistic%20Regression%20for%20Multiclass%20Classification.ipynb)
 
