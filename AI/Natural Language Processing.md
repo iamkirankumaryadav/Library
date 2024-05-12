@@ -80,11 +80,11 @@
 
 <h2 name="nlu"> Natural Language Understanding (NLU) </h2>
 
-- `NLU` focuses on getting computers to actually understand the meaning behind human language.
+- `NLU` focuses on getting computers to understand the meaning behind human language.
 - It goes beyond just the literal words and considers factors like grammar, context, and sentiment.
 - NLU is crucial for tasks like question-answering systems or chatbots that need to grasp the intent behind a user's query.
-* **Goal:** Enable machines to understand the meaning and intent behind human language, similar to how humans comprehend each other.
-* **Challenges:** Human language is full of complexities, ambiguity, sarcasm, slang, and cultural references, that make it difficult for computers to grasp the true meaning.
+- **Goal:** Enable machines to understand the meaning and intent behind human language, similar to how humans comprehend each other.
+- **Challenges:** Human language is full of complexities, ambiguity, sarcasm, slang, and cultural references, that make it difficult for computers to grasp the true meaning.
 
 **How Does NLU Work?**
 
