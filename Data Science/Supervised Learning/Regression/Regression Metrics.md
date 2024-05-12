@@ -84,7 +84,7 @@ Good for small errors | Magnify small errors | Shrinks down larger errors
 Units of predicted value remain same | Unit gets squared | Units remain same
 Less sensitive towards outliers | More sensitive towards outliers | Less sensitive towards outliers
 
-<h3 name='r2'>4. Coefficient of Determination ( R<sup>2</sup> ) | Squared Correlation Coefficient</h3>
+<h3 name='r2'>4. Coefficient of Determination (R<sup>2</sup>) | Squared Correlation Coefficient</h3>
 
 ![R2](Image/R2.png)
 
@@ -125,8 +125,8 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 
 - Predict the class | label of a data point based on one or more independent features.
 - Depending on the number of classes | labels that the target variable includes, it can be a Binary or Multiclass classification.
-- The data set should contain a well-balanced class distribution. ( e.g. Total Students = 100 : 50 Boys + 50 Girls )
-- **Good Classifier** : `1 or 100%` | **Bad Classifier** < `0.5 or 50%`
+- The data set should contain a well-balanced class distribution. (e.g. Total Students = 100 : 50 Boys + 50 Girls)
+- **Good Classifier:** 1 or 100% | **Bad Classifier** < 0.5 or 50%
 
 <h3 name='cm'>1. Confusion Matrix</h3>
 
@@ -149,26 +149,26 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 - Number of correct predictions to the total predictions.
 - Accuracy score is good if the dataset contains a balanced class distribution.
-- Used when all the classes ( `TP`, `TN`, `FP` and `FN` ) are equally important.
-- Accuracy: (TP + TN) / TP + TN + FP + FN
+- Used when all the classes (TP, TN, FP and FN) are equally important.
+- **Accuracy: (TP + TN) / TP + TN + FP + FN**
 
 ![Accuracy](Image/Accuracy.png)
 
 <h3 name='pre'>3. Precision</h3>
 
 - Measures the correctly identified positive cases from all the predicted positive cases.
-- Used when the cost of False Positive (`FP`) is **high**. (e.g. There is a virus but still, antivirus is predicting that the system is safe it's costly)
-- `TP`: The number of instances that were correctly classified as positive.
-- `FP`: The number of instances that were incorrectly classified as positive.
+- Used when the cost of False Positive (FP) is **high**. (e.g. There is a virus but still, antivirus is predicting that the system is safe it's costly)
+- **TP:** The number of instances that were correctly classified as positive.
+- **FP:** The number of instances that were incorrectly classified as positive.
 
 ![Precision](Image/Precision.png)
 
 <h3 name='tpr'>4. Recall | True Positive Rate (TPR) | Sensitivity</h3>
 
 - Measures the correctly identified positive cases from all the actual positive cases. 
-- Used when the cost of False Negatives (`FN`) is **high**. (e.g. Person is prone to COVID 19 but if the test result is negative it can be fatal.)
-- **True Positive Rate** : Proportion of **positive class** that is correctly predicted as **positive**.
-- `FN`: The number of instances that were incorrectly classified as negative
+- Used when the cost of False Negatives (FN) is **high**. (e.g. Person is prone to COVID 19 but if the test result is negative it can be fatal.)
+- **True Positive Rate:** Proportion of **positive class** that is correctly predicted as **positive**.
+- **FN:** The number of instances that were incorrectly classified as negative
 
 ![Recall](Image/Recall.png)
 
@@ -181,24 +181,23 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='f1'>6. F1 Score | F Measure</h3>
 
-- Weighted Average (Harmonic Mean) of precision and recall.
+- Weighted average (Harmonic Mean) of precision and recall.
 - The F1 Score keeps a balance between recall and precision for the classifier model.
-- Useful for imbalanced datasets (Uneven class distribution) and it also considers `FP` and `FN`.
-- **Better measure** for the **incorrectly classified cases** than the **accuracy metric**.
-- **Accuracy** is used when `TP` and `TN` are more **important**.
-- **F1 Score** is used when `FN` and `FP` are more **crucial**.
+- Useful for imbalanced datasets (Uneven class distribution) and it also considers FP and FN.
+- Better measure for the incorrectly classified cases than the accuracy metric.
+- **Accuracy** is used when TP and TN are more important.
+- **F1 Score** is used when FN and FP are more crucial.
 - **F1-score** is a better metric to evaluate in **real life application**.
-- Best value for **F1 Score** is `1` | Worst value for **F1 Score** is `0`.
-- **Precision**, **Recall** and **F1 Score** are better metrics` for imbalanced dataset.
+- Best value for **F1 Score** is 1 | Worst value for **F1 Score** is 0.
+- **Precision**, **Recall** and **F1 Score** are better metrics for imbalanced dataset.
 
 ![F1](Image/F1.png)
 
 <h3 name='roc'>7. ROC | Receiver Operating Characteristic Curve</h3>
 
-- Helps to understand the characteristics of curves by plotting,
-- `TPR` (True Positive Rate) on `Y-Axis` and `FPR` (False Positive Rate) on `X-Axis` at different classification thresholds.
-- The `ROC` curve helps to select the optimal threshold for a classifier.
-- If `threshold` is closer to `1.0` or `100%`: **Classifications** gets more `accurate`
+- Explains the characteristics of curves by plotting, TPR on the Y-axis and FPR on the X-axis at different classification thresholds.
+- The ROC curve helps to select the optimal threshold for a classifier.
+- If the threshold is closer to 1.0 or 100%: **Classifications** get more accurate
 
 ![ROC](Image/ROC.svg)
 
@@ -208,10 +207,10 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 Score | Classifier
 --- | ---
-AUC = 1.0 | `Perfect` Classifier  
-AUC > 0.75 | `Good` Classifier 
-AUC > 0.5 | `Bad` Classifier 
-AUC < 0.5 | `Worst` Classifier
+AUC = 1.0 | Perfect Classifier  
+AUC > 0.75 | Good Classifier 
+AUC > 0.5 | Bad Classifier 
+AUC < 0.5 | Worst Classifier
 
 ![AUC](Image/AUC.png)
 
