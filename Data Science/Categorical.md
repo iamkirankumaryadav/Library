@@ -46,7 +46,7 @@ Qualification
 2
 
 ### **Dummy Encoding | OHE - One Hot Encoding (Better for Nominal)**
-- Transform **non numerical labels** to `binary` **numerical labels** (1 and 0) 
+- Transform **non numerical labels** to binary **numerical labels** (1 and 0) 
 - Convert a **categorical** input variable into **numeric** variable.
 
 ### **Nominal: ordered = False**
