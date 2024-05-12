@@ -24,7 +24,7 @@ Improves model performance by eliminating irrelevant or redundant features | Sim
 Reduces training time by using a smaller set of features | Improves model performance by capturing underlying patterns
 
 ### **Feature Selection**
-- Feature selection selects the most relevant features from the data and creates a new subset of data for building a better model with better accuracy.
+- Feature selection selects the most relevant features and creates a new subset of data for building a better model with better accuracy.
 - Features are selected by calculating the correlation (regression) of each feature with the target variable or information gain (classification)
 
 ### **Feature Extraction**
