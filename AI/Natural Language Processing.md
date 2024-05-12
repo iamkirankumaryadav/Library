@@ -43,9 +43,9 @@
 
 <h2 name="nlp"> Natural Language Processing (NLP) </h2>
 
-- A field of `AI` that deals with the interaction between computers and human language.
-- Ability of computer to `read`, `understand`, `learn`, `analyze`, `translate`, `generate` and `communicate` using **human language**.
-- Interaction between `computers` and `humans` using the natural language.
+- A field of AI that deals with the interaction between computers and human language.
+- Ability of computer to read, understand, learn, analyze, translate, generate and communicate using **human language**.
+- Interaction between computers and humans using the natural language.
 - **Natural Language Understanding (NLU)** and **Natural Language Generation (NLG)** are both subfields of **NLP**
 - **Core Idea:**  Equipping computers with the ability to understand, interpret, and manipulate human language.
 - NLP holds the potential to revolutionize the way we interact with machines and unlock a new era of human-computer collaboration.  
@@ -53,7 +53,7 @@
 **Why is NLP Important?**
 
 * **Human-like Interaction:** NLP allows users to interact with computers more naturally and intuitively, using everyday language instead of complex codes.
-* **Unlocks Information:** NLP helps computers process and make sense of the massive amount of textual data available in the world, opening doors to new discoveries and insights. 
+* **Unlocks Information:** NLP helps computers process and make sense of the massive amount of textual data available in the world, opening doors to discoveries and insights. 
 * **Automates Tasks:** NLP can automate many tasks that previously required human intervention, such as document classification,  sentiment analysis, and  machine translation.
 
 **What Does NLP Do?**
@@ -260,7 +260,7 @@ Types of corpora:
 
 - The process of breaking down text into smaller units, such as words, punctuations, special characters, characters, etc.
 - This is the first step in many NLP tasks, as it allows the model to process the text in the most manageable way.
-- Computer works better with smaller chunks, easier to understand, identify important words.
+- The computer works better with smaller chunks, is easier to understand, and identifies important words.
 
 ```python
 Word = "Hi, my name is Kirankumar"
