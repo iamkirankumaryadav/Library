@@ -14,7 +14,7 @@
 
 ### **How to detect outliers?**
 
-<h5><b>1. **Visualization</b></h5>
+<h5><b>1. Visualization</b></h5>
 - Visualization helps to understand the distribution of data and helps to identify outliers in data.
 - Boxplot, scatter plot and histogram are better plotting to identify outliers in the dataset.
 
