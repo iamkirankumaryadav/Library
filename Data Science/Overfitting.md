@@ -44,8 +44,7 @@
 - Remove **multicollinear** data ( e.g DOB and age can express each other so we can remove one of them )
 
 ### 5. [Ensembling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) 
-- **Combine** multiple `weak` predicting models into a single strong accurate predicting model.
-- Train multiple **weak** learners to make them a single **strong** accurate predicting model.
+- Train and combine multiple `weak` predicting models into a single strong accurate predicting model.
 - **Bagging** trains multiple `individual` weak learners ( Decision tree ) in **parallel**.
 - **Boosting** trains multiple `weak` learners in **sequence** ( Improving in each step by learning from the mistakes of previous models ) 
 
