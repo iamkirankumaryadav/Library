@@ -14,12 +14,12 @@
 
 ### **How to detect outliers?**
 
-<h5><b>1. Visualization</b></h5>
+<h4><b>1. Visualization</b></h4>
 
 - Visualization helps to understand the distribution of data and helps to identify outliers in data.
 - Boxplot, scatter plot and histogram are better plotting to identify outliers in the dataset.
 
-<h5 name="zscore">2. Z Score or Extreme Value Analysis</h5>
+<h4 name="zscore">2. Z Score or Extreme Value Analysis</h4>
 
 ![Standard Deviation](Image/Std.png)
 
@@ -29,14 +29,14 @@
 
 **Solution:** Apply transformation of data : [Scaling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) (Bring scales at the same level)
 
-<h5 name="dbscan">3. DBSCAN | Density-based spatial clustering of applications with noise</h5>
+<h4 name="dbscan">3. DBSCAN | Density-based spatial clustering of applications with noise</h4>
 
 - Clustering methods help us to visualize the distribution of data and outliers.
 - Relationships between **features** can be represented via clustering.
 - It focus on finding **neighbors** by **density**.
 - Outlier lies in no cluster region, it is separate from every other data point cluster region.
 
-<h5 name="summary">4. Five Number Summary</h5>
+<h4 name="summary">4. Five Number Summary</h4>
 
 Divide the Data into 4 Equal Quarters **(Quartiles)** 
 1. Minimum: **Lowest** data point value in a dataset.
@@ -53,7 +53,7 @@ Five Number Summary can be visually represented using **boxplot**.
 - Data value **>** Q3 + 1.5 * IQR
 - Outlier is represented by a dot o in **boxplot**  
 
-<h5 name="algo">5. Algorithms</h5>
+<h4 name="algo">5. Algorithms</h4>
 
 <table>
   <tr>
