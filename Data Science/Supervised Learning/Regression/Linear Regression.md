@@ -18,7 +18,9 @@
 - Learning a linear regression model means estimating the values of the coefficients (Slope and Intercept)
 - Sensitive to overfitting and outliers.
 - But can be prevented using [dimensionality reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md), [regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md), [standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) and [cross validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
+
 ![Regression Line](Image/RegressionLine.png)
+
 - Predict the value of a target vector based on the value of the feature matrix.
 - The parameters **m** and **c** are **learnt** by the **algorithm** based on the **data point** pairs of (x, y)
 - There are few **statistical** <a href="#ass">assumptions</a> as well for **linear regression**. 
