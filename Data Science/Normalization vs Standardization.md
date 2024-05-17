@@ -2,64 +2,45 @@
 
 # Transformation | Normalization | Standardization | Rescaling
 
-- **Data set** contains **features** with different range or scale of values. 
-- We `normalize` or `standardize` data to bring down to the same `range` or `scale`
-- Should be used when the applied model uses distance calculations.
+- Dataset contains features with different range or scale of values. 
+- We normalize or standardize data to bring down to the same range or scale.
+- Should be used when the applied model uses distance calculations (Linear Regression, KNN, K Mean, SVM)
 - Decision Trees and Ensemble Learnings do not require data normalization.
 
 Data Normalization | Data Standardization ( Z Score Normalization )
 :--- | :---
 **x(Normal) =  x - min(x) / max(x) - min(x)** | **z = x - mean(x) / std(x)**
-**Rescale** feature value between **range** `0` to `1` | Rescale features to have the **mean** = `0` and **standard deviation** = `1`
-sklearn.preprocessing.`MinMaxScaler()` | sklearn.preprocessing.`StandardScaler()`
-Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradient descent**, **distance** and **dimensions**
+**Rescale** feature value between **range** 0 and 1 | Rescale features to have the **mean** = 0 and **standard deviation** = 1
+**sklearn.preprocessing.MinMaxScaler()** | **sklearn.preprocessing.StandardScaler()**
+Use for **neural networks** (ANN, CNN, RNN) | Algorithms that rely on **gradient descent**, **distance** and **dimensions**
 
-### Scaling 
-- Convert **numeric** feature values from their `natural` **range** into a `standard` or `normal` **range**.
+### **Scaling:**
+- Convert numeric feature values from their natural range into a standard or normal range.
 - A dataset with only one feature does not need scaling.
-- Scaling is beneficial only for datasets with **multiple** features of different ranges.
+- Scaling is beneficial only for datasets with multiple features of different ranges.
 
 ### **Simple Feature Scaling:**
 - **x(new) = x / max(x)**
 <p>
 <table>
-  <tr><th colspan=2>Before Normalization</th></tr>
-  <tr><td>Age</td><td>Salary</td></tr>
-  <tr><td>20</td><td>45000</td></tr>
-  <tr><td>30</td><td>250000</td></tr>
-  <tr><td>40</td><td>150000</td></tr>
-  <tr><td>50</td><td>500000</td></tr>
+  <tr><th colspan=2>Before Normalization</th><th colspan=2>After Normalization</th></tr>
+  <tr><td>Age</td><td>Salary</td><td>Age</td><td>Salary</td></tr>
+  <tr><td>20</td><td>45000</td><td>0.4</td><td>0.09</td></tr>
+  <tr><td>30</td><td>250000</td><td>0.6</td><td>0.5</td></tr>
+  <tr><td>40</td><td>150000</td><td>0.8</td><td>0.3</td></tr>
+  <tr><td>50</td><td>500000</td><td>1</td><td>1</td></tr>
 </table>
-
-<table>
-  <tr><th colspan=2>After Normalization</th></tr>
-  <tr><td>Age</td><td>Salary</td></tr>
-  <tr><td>0.4</td><td>0.09</td></tr>
-  <tr><td>0.6</td><td>0.5</td></tr>
-  <tr><td>0.8</td><td>0.3</td></tr>
-  <tr><td>1</td><td>1</td></tr>
-</table>
-</p>
 
 ### **Min-Max Scaling**
 - **x(new) = x - min(x) / max(x) - min(x)**
 
 <table>
-  <tr><th colspan=2>Before Normalization</th></tr>
-  <tr><td>Age</td><td>Salary</td></tr>
-  <tr><td>20</td><td>45000</td></tr>
-  <tr><td>30</td><td>250000</td></tr>
-  <tr><td>40</td><td>150000</td></tr>
-  <tr><td>50</td><td>500000</td></tr>
-</table>
-
-<table>
-  <tr><th colspan=2>After Normalization</th></tr>
-  <tr><td>Age</td><td>Salary</td></tr>
-  <tr><td>0</td><td>0</td></tr>
-  <tr><td>0.33</td><td>0.45</td></tr>
-  <tr><td>0.66</td><td>0.23</td></tr>
-  <tr><td>1</td><td>1</td></tr>
+  <tr><th colspan=2>Before Normalization</th><th colspan=2>After Normalization</th></tr>
+  <tr><td>Age</td><td>Salary</td><td>Age</td><td>Salary</td></tr>
+  <tr><td>20</td><td>45000</td><td>0</td><td>0</td></tr>
+  <tr><td>30</td><td>250000</td><td>0.33</td><td>0.45</td></tr>
+  <tr><td>40</td><td>150000</td><td>0.66</td><td>0.23</td></tr>
+  <tr><td>50</td><td>500000</td><td>1</td><td>1</td></tr>
 </table>
 
 ```python
