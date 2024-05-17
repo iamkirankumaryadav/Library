@@ -40,6 +40,7 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
   <tr><td>1</td><td>1</td></tr>
 </table>
 </p>
+
 ### **Min-Max Scaling**
 - **X(new) = X - X(min) / X(max) - X(min)**
 
