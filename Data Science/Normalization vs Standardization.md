@@ -4,6 +4,8 @@
 
 - **Data set** contains **features** with different range or scale of values. 
 - We `normalize` or `standardize` data to bring down to the same `range` or `scale`
+- Should be used when the applied model uses distance calculations.
+- Decision Trees and Ensemble Learnings do not require data normalization.
 
 Data Normalization | Data Standardization ( Z Score Normalization )
 :--- | :---
@@ -17,10 +19,88 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
 - A dataset with only one feature does not need scaling.
 - Scaling is beneficial only for datasets with **multiple** features of different ranges.
 
+### **Simple Feature Scaling:**
+- **X(new) = X / X(max)**
+
+<table>
+  <tr><th colspan=2>Before Normalization</th></tr>
+  <tr><td>Age</td><td>Salary</td></tr>
+  <tr><td>20</td><td>45000</td></tr>
+  <tr><td>30</td><td>250000</td></tr>
+  <tr><td>40</td><td>150000</td></tr>
+  <tr><td>50</td><td>500000</td></tr>
+</table>
+
+<table>
+  <tr><th colspan=2>After Normalization</th></tr>
+  <tr><td>Age</td><td>Salary</td></tr>
+  <tr><td>0.4</td><td>0.09</td></tr>
+  <tr><td>0.6</td><td>0.5</td></tr>
+  <tr><td>0.8</td><td>0.3</td></tr>
+  <tr><td>1</td><td>1</td></tr>
+</table>
+
+### **Min-Max Scaling**
+- **X(new) = X - X(min) / X(max) - X(min)**
+
+<table>
+  <tr><th colspan=2>Before Normalization</th></tr>
+  <tr><td>Age</td><td>Salary</td></tr>
+  <tr><td>20</td><td>45000</td></tr>
+  <tr><td>30</td><td>250000</td></tr>
+  <tr><td>40</td><td>150000</td></tr>
+  <tr><td>50</td><td>500000</td></tr>
+</table>
+
+<table>
+  <tr><th colspan=2>After Normalization</th></tr>
+  <tr><td>Age</td><td>Salary</td></tr>
+  <tr><td>0</td><td>0</td></tr>
+  <tr><td>0.33</td><td>0.45</td></tr>
+  <tr><td>0.66</td><td>0.23</td></tr>
+  <tr><td>1</td><td>1</td></tr>
+</table>
+
+```python
+from sklearn.preprocessing import MinMaxScaler
+
+scaler = MinMaxScaler()
+
+wine[wine.columns] = scaler.fit_transform(wine[wine.columns])
+```
+
 ### Data Standardization (Z Score Normalization)
-- Standardize features around the centre **(Mean)** 
+- **X(new) = X - X(mean) / X(std)**
+- # of standard deviations a given data point is away from the mean. 
+- Standardize features around the centre **(Mean)** Ranges from -3 to +3.
 - Equalize the range or data **variability**.
 - Important when we compare features that have different **units**.
+
+<table>
+  <tr><th colspan=2>Before Normalization</th></tr>
+  <tr><td>Age</td><td>Salary</td></tr>
+  <tr><td>20</td><td>45000</td></tr>
+  <tr><td>30</td><td>250000</td></tr>
+  <tr><td>40</td><td>150000</td></tr>
+  <tr><td>50</td><td>500000</td></tr>
+</table>
+
+<table>
+  <tr><th colspan=2>After Normalization</th></tr>
+  <tr><td>Age</td><td>Salary</td></tr>
+  <tr><td>-1.34</td><td>-1.13</td></tr>
+  <tr><td>-0.44</td><td>0.08</td></tr>
+  <tr><td>0.44</td><td>-0.51</td></tr>
+  <tr><td>1.34</td><td>1.56</td></tr>
+</table>
+
+```python
+from sklearn.preprocessing import StandardScaler
+
+scaler = StandardScaler()
+
+wine[wine.columns] = scaler.fit_transform(wine[wine.columns])
+```
 
 Where to **use**? | Where **not** to **use** ?
 :--- | :---
@@ -33,7 +113,7 @@ Feature |	Euclidean Distance | Manhattan Distance
 Interpretation | Shortest straight line |	Total distance on a grid
 Formula |	√((x1 - x2)² + (y1 - y2)²) |	abs(x1 - x2) + abs(y1 - y2)
 Formula Description | The square root of the sum of squared differences between corresponding coordinates (x, y) of the two points | The sum of absolute differences between corresponding coordinates (x, y) of the two points
-Visualization | Straight line	|  Right-angle movements (Horizontal + Vertical)
+Visualization | Straight line	| Right-angle movements (Horizontal + Vertical)
 
 ### Benefits 
 1. Helps **gradient descent** to converge (Achieve global minima) more quickly.
@@ -50,7 +130,7 @@ Visualization | Straight line	|  Right-angle movements (Horizontal + Vertical)
 - Apply the same **transformation** on the `train` set and `test` set ( Keep consistency )
 - No need to scale **dependent variable** | `Target vector` 
 - `fit()` : Learn **parameters** and **scales** of data which will be needed to **transform** the data | Apply only on `train` set.
-- `transform()`: **Transforms** data on the basis of what it **learns** from `fit()` | Apply on `train` and `test` set.
+- `transform()`: **Transforms** data based on what it **learns** from `fit()` | Apply on `train` and `test` set.
 - `fit_transform()` : First learn ( **Fit** ) and then apply in place ( **Transform** ) | Apply only on `train` set.
 - Prevents **data leakage** : **Sharing information** of **train set** with **test set**.
 
