@@ -78,7 +78,7 @@ wine[wine.columns] = scaler.fit_transform(wine[wine.columns])
 Where to **use**? | Where **not** to **use** ?
 :--- | :---
 Gradient descent based algorithms: Regressions | Probability based algorithms: Naive Bayes
-Distance based algorithms: KNN, K Mean and SVM) | Tree** based algorithms: CART, Decision trees.  
+Distance based algorithms: KNN, K Mean and SVM) | Tree based algorithms: CART, Decision trees.  
 Dimensionality reduction transformers: PCA, LDA and t-SNE | Ensemble learning techniques: Bagged and Boosted trees
 
 Feature |	Euclidean Distance | Manhattan Distance
