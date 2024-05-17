@@ -21,6 +21,14 @@ model = LogisticRegression(multi_class='ovr')
 - Substitute bins by **mean** (e.g. Age bins by mean of age group) Better if class labels are fewer.
 - e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Bachelor )
 
+```python
+from sklearn.preprocessing import LabelEncoder
+
+le = LabelEncoder()
+
+phone['column'] = le.fit_transform(phone['column'])
+```
+
 ### **Ordinal: ordered = True**
 Qualification
 :---
@@ -46,8 +54,18 @@ Qualification
 2
 
 ### **Dummy Encoding | OHE - One Hot Encoding (Better for Nominal)**
-- Transform **non numerical labels** to binary **numerical labels** (1 and 0) 
-- Convert a **categorical** input variable into **numeric** variable.
+- OHE creates a binary variable (0 & 1) for each unique categorical value.
+
+```python
+from sklearn.preprocessing import OneHotEncoder
+
+ohe = OneHotEncoder()
+
+phone_ohe = phone_ohe.fit_transform(phone['column'].values.reshape(-1,1)).toarray()
+
+phone_df_ohe = pd.DataFrame(phone_ohe, columns = ['Phone_'+str(int(i)) for i in range(phone_ohe.shape[1])])
+phone = pd.concat([phone, phone_df_ohe], axis=1)
+```
 
 ### **Nominal: ordered = False**
 ```python
