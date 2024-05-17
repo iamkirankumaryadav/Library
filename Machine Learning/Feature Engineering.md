@@ -41,7 +41,7 @@ pd.pivot(index='company', columns='date', values='high')
 pd.melt(df, id_vars='company', value_vars='dept', var_name='What?', value_name='Which?')
 ```
 
-3. **stack()**: Multi Index Columns | Wide to long | Moves innermost column level to innermost row level.
+3. **stack()**: Multi Index Columns | Wide to long | Moves innermost column level to innermost row level
 
 ```python
 df.stack(level=0)
@@ -53,7 +53,7 @@ df.stack(level=0)
 df.unstack()
 ```
 
-5. **pivot_table()**: Reshaping with Aggregation | Only numeric values |
+5. **pivot_table()**: Reshaping with Aggregation | Only numeric values
 
 ```python
 # Single Index Row:
