@@ -1,15 +1,11 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# How to deal with missing data?
-
+# **How to deal with missing data?**
 - There is no particular approach for dealing with missing data.
 - The appropriate technique may vary depending on your dataset's specific context or characteristics and the desired outcome.
-
-**Missing data** : NULL | NAN | nan | NaN (Ignored while **arithmetic operations**)
-
-Row | Observation | Tuple | Sample | Record
-
-Column | Feature (Data Science) | Field (Excel) | Attribute | Dimension
+- **Missing data:** NULL | NAN | nan | NaN (Ignored while arithmetic operations)
+- Row | Observation | Tuple | Sample | Record
+- Column | Feature (Data Science) | Field (Excel) | Attribute | Dimension
 
 ### **How to identify missing values?**
 Check for None or NaN values:
@@ -37,7 +33,7 @@ missing_values = np.isnan(array)
 
 <h5><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h5>
 
-<h5 name="del">1. dropna( ) : Drop Missing Values</h5>
+<h5 name="del">1. dropna(): Drop Missing Values</h5>
 
 - If the missing data is negligible and doesn't affect the overall analysis, drop the corresponding rows or columns.
 - Drop rows if missing values** < 5% i.e. (axis = 0)
@@ -66,7 +62,7 @@ df.dropna(axis=0, how='all')
 df.dropna(axis=1)
 ```
 
-<h5 name="impute"> 2. fillna( ) : Fill Missing Values</h5>
+<h5 name="impute"> 2. fillna(): Fill Missing Values</h5>
 
 - Imputation involves estimating missing values with the help of other available rows or columns.
 - Impute the numerical missing data with the sample mean or median (SimpleImputer: strategy = 'mean' or 'median') 
