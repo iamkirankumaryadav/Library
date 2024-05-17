@@ -21,7 +21,7 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
 
 ### **Simple Feature Scaling:**
 - **X(new) = X / X(max)**
-
+<p>
 <table>
   <tr><th colspan=2>Before Normalization</th></tr>
   <tr><td>Age</td><td>Salary</td></tr>
@@ -39,7 +39,7 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
   <tr><td>0.8</td><td>0.3</td></tr>
   <tr><td>1</td><td>1</td></tr>
 </table>
-
+</p>
 ### **Min-Max Scaling**
 - **X(new) = X - X(min) / X(max) - X(min)**
 
