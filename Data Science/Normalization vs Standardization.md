@@ -2,22 +2,20 @@
 
 # Transformation | Normalization | Standardization | Rescaling
 
-- Dataset contains features with different range or scale of values. 
-- We normalize or standardize data to bring down to the same range or scale.
-- Should be used when the applied model uses distance calculations (Linear Regression, KNN, K Mean, SVM)
+- Dataset contains independent features with different ranges/scales of values. 
+- We normalize/standardize data to bring it down to the same range/scale.
+- Important for the models that depend on distance calculations like Linear Regression, KNN, K Mean, and SVM.
 - Decision Trees and Ensemble Learnings do not require data normalization.
 
 Data Normalization | Data Standardization ( Z Score Normalization )
 :--- | :---
-**x(Normal) =  x - min(x) / max(x) - min(x)** | **z = x - mean(x) / std(x)**
-**Rescale** feature value between **range** 0 and 1 | Rescale features to have the **mean** = 0 and **standard deviation** = 1
+**x(normal) =  x - min(x) / max(x) - min(x)** | **z = x - mean(x) / std(x)**
+Rescale feature value between the range 0 and 1 | Rescale features to have the **mean = 0** and **standard deviation = 1**
 **sklearn.preprocessing.MinMaxScaler()** | **sklearn.preprocessing.StandardScaler()**
-Use for **neural networks** (ANN, CNN, RNN) | Algorithms that rely on **gradient descent**, **distance** and **dimensions**
 
 ### **Scaling:**
-- Convert numeric feature values from their natural range into a standard or normal range.
-- A dataset with only one feature does not need scaling.
-- Scaling is beneficial only for datasets with multiple features of different ranges.
+- Convert numeric feature values from their natural range into a standard range.
+- A dataset with only one feature doesn't need scaling, it's beneficial only with multiple features of different ranges.
 
 ### **Simple Feature Scaling:**
 - **x(new) = x / max(x)**
@@ -31,7 +29,7 @@ Use for **neural networks** (ANN, CNN, RNN) | Algorithms that rely on **gradient
   <tr><td>50</td><td>500000</td><td>1</td><td>1</td></tr>
 </table>
 
-### **Min-Max Scaling**
+### **Min-Max Scaling:**
 - **x(new) = x - min(x) / max(x) - min(x)**
 
 <table>
@@ -51,12 +49,12 @@ scaler = MinMaxScaler()
 wine[wine.columns] = scaler.fit_transform(wine[wine.columns])
 ```
 
-### Data Standardization (Z Score Normalization) | Standard Score
-- **z = X - mean / std** (z: specific data point)
+### Data Standardization (Z-Score Normalization) | Standard Score
+- **z = x - mean / std** (z: specific data point)
 - How many standard deviations a specific data point is away from the mean of a dataset?
 - How far a particular value is away from the average value.
-- Z score of 0 means that the data point is exactly at the mean.
-- Standardize features around the centre **(Mean)** Ranges from +3 (Above the mean) to -3 (Below the mean).
+- A Z-score of 0 means that the data point is exactly at the mean.
+- Standardize features around the centre (Mean). Ranges from +3 (Above the mean) to -3 (Below the mean).
 
 <table>
   <tr><th colspan=2>Before Normalization</th><th colspan=2>After Normalization</th></tr>
@@ -77,8 +75,8 @@ wine[wine.columns] = scaler.fit_transform(wine[wine.columns])
 
 Where to **use**? | Where **not** to **use** ?
 :--- | :---
-Gradient descent based algorithms: Regressions | Probability based algorithms: Naive Bayes
-Distance based algorithms: KNN, K Mean and SVM) | Tree based algorithms: CART, Decision trees.  
+Gradient Descent based algorithms: Regressions | Probability-based algorithms: Naive Bayes
+Distance-based algorithms: KNN, K Mean, and SVM | Tree-based algorithms: CART, and Decision Trees.  
 Dimensionality reduction transformers: PCA, LDA and t-SNE | Ensemble learning techniques: Bagged and Boosted trees
 
 Feature |	Euclidean Distance | Manhattan Distance
@@ -93,16 +91,16 @@ Visualization | Straight line	| Right-angle movements (Horizontal + Vertical)
 2. Helps the model to learn appropriate weights for each independent feature.
 3. The model pays more attention to features with a high range even if the feature is irrelevant.
 4. A feature with a low **range** is ignored even if it is a better feature for model training.
-5. Large scale features plays a dominating role in the model.  
+5. Large-scale features play a dominating role in the model. Scaling discourages domination.
 6. Reduces the effect of outliers. Improves the model's accuracy and performance.
 
 ### **Transformation:**
 - Split the data set into a train set and a test set.
-- Apply the same transformation on the train set and the test set (Keep consistency)
-- No need to scale dependent variable | Target vector
-- **fit():** Learn parameters and scales of data which will be needed to transform the data | Apply only on train set.
-- **transform():** Transforms data based on what it learns from **fit()** | Apply on train and test set.
-- **fit_transform():** First learn (**Fit**) and then apply in place (**Transform**) | Apply only on train set.
+- Apply the same transformation on the train set and the test set (Consistency)
+- No need to scale dependent variable | target vector.
+- **fit():** Learn parameters and scales of data which will be needed to transform the data | Apply only on a train set.
+- **transform():** Transforms data based on what it learns from **fit()** | Apply on the train and test set.
+- **fit_transform():** First learn and then apply in place | Apply only on the train set.
 - Prevents **data leakage**: **Sharing information** of **train set** with **test set**.
 
 ```python
@@ -117,9 +115,9 @@ X_train = scaler.transform(X_train)
 X_test = scaler.transform(X_test)
 ```
 
-### How to Prevent Data Leakage 
-- Never apply **fit_transform()** on test set.
+### **How to Prevent Data Leakage?**
+- Never apply **fit_transform()** on the test set.
 - Remove duplicate data using **drop_duplicates()**.
-- Time series data: The train set should contain the past data and the test set should contain the new data, sort by date.
+- **Time series data:** The train set should contain the past data and the test set should contain the new data, sorted by date.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
