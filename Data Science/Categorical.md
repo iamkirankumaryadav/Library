@@ -17,9 +17,26 @@ model = LogisticRegression(multi_class='ovr')
 ```
 - Combine sparse categories (Category labels with very less observations)
 
+## **Data Encoding**
+
 ### **Label Encoding (Better for Ordinal)**
+- Encodes the labels value between 0 and (n-1).
 - Substitute bins by **mean** (e.g. Age bins by mean of age group) Better if class labels are fewer.
 - e.g. Designation feature may contain labels where rank matters ( PHD > Masters > Bachelor )
+
+**Before Encoding**
+Color | Sales
+:--- | :---
+Green | 50
+Blue | 60
+Red | 70
+
+**After Encoding**
+Color | Sales
+:--- | :---
+0 | 50
+1 | 60
+2 | 70
 
 ```python
 from sklearn.preprocessing import LabelEncoder
