@@ -70,12 +70,12 @@ scaler = MinMaxScaler()
 wine[wine.columns] = scaler.fit_transform(wine[wine.columns])
 ```
 
-### Data Standardization (Z Score Normalization)
-- **X(new) = X - X(mean) / X(std)**
-- # of standard deviations a given data point is away from the mean. 
-- Standardize features around the centre **(Mean)** Ranges from -3 to +3.
-- Equalize the range or data **variability**.
-- Important when we compare features that have different **units**.
+### Data Standardization (Z Score Normalization) | Standard Score
+- **z = X - mean / std** (z: specific data point)
+- How many standard deviations a specific data point is away from the mean of a dataset?
+- How far a particular value is away from the average value.
+- Z score of 0 means that the data point is exactly at the mean.
+- Standardize features around the centre **(Mean)** Ranges from +3 (Above the mean) to -3 (Below the mean).
 
 <table>
   <tr><th colspan=2>Before Normalization</th></tr>
