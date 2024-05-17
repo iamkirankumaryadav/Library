@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# Transformation | Normalization | Standardization | Rescaling
+# Normalization | Standardization | Rescaling
 
 - Dataset contains independent features with different ranges/scales of values. 
 - We normalize/standardize data to bring it down to the same range/scale.
