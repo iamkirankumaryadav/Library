@@ -27,3 +27,44 @@
 - FE can help you understand which features are most important for your model's predictions.
 
 FE is an iterative process that requires careful consideration of the data, the ML algorithm, and the specific application. 
+
+### **Data Reshaping**
+1. **pivot()**: Single Index | Long to Wide
+
+```python
+pd.pivot(index='company', columns='date', values='high')
+```
+
+2. **melt**: Single Index | Wide to Long
+
+```python
+pd.melt(df, id_vars='company', value_vars='dept', var_name='What?', value_name='Which?')
+```
+
+3. **stack()**: Multi Index Columns | Wide to long | Moves innermost column level to innermost row level.
+
+```python
+df.stack(level=0)
+```   
+
+4. **unstack()**: Multi Index Rows | Long to Wide | Moves innermost row level to innermost column level
+
+```python
+df.unstack()
+```
+
+5. **pivot_table()**: Reshaping with Aggregation | Only numeric values |
+
+```python
+# Single Index Row:
+pd.pivot_table(df, index='column')
+
+# Multi Index Rows:
+pd.pivot_table(df, index=['column1', 'column2'])
+
+# Aggregate Function:
+pd.pivot_table(df, index='column', aggfunc=np.sum, values='column')
+
+# Aggregate Functions:
+pd.pivot_table(df, index='column', aggfunc=[np.sum, np.mean])
+```
