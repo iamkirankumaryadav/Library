@@ -20,7 +20,7 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
 - Scaling is beneficial only for datasets with **multiple** features of different ranges.
 
 ### **Simple Feature Scaling:**
-- **X(new) = X / X(max)**
+- **x(new) = x / max(x)**
 <p>
 <table>
   <tr><th colspan=2>Before Normalization</th></tr>
@@ -42,7 +42,7 @@ Use for **neural networks** ( ANN, CNN, RNN ) | Algorithms that rely on **gradie
 </p>
 
 ### **Min-Max Scaling**
-- **X(new) = X - X(min) / X(max) - X(min)**
+- **x(new) = x - min(x) / max(x) - min(x)**
 
 <table>
   <tr><th colspan=2>Before Normalization</th></tr>
