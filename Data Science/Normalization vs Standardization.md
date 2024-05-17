@@ -59,21 +59,12 @@ wine[wine.columns] = scaler.fit_transform(wine[wine.columns])
 - Standardize features around the centre **(Mean)** Ranges from +3 (Above the mean) to -3 (Below the mean).
 
 <table>
-  <tr><th colspan=2>Before Normalization</th></tr>
-  <tr><td>Age</td><td>Salary</td></tr>
-  <tr><td>20</td><td>45000</td></tr>
-  <tr><td>30</td><td>250000</td></tr>
-  <tr><td>40</td><td>150000</td></tr>
-  <tr><td>50</td><td>500000</td></tr>
-</table>
-
-<table>
-  <tr><th colspan=2>After Normalization</th></tr>
-  <tr><td>Age</td><td>Salary</td></tr>
-  <tr><td>-1.34</td><td>-1.13</td></tr>
-  <tr><td>-0.44</td><td>0.08</td></tr>
-  <tr><td>0.44</td><td>-0.51</td></tr>
-  <tr><td>1.34</td><td>1.56</td></tr>
+  <tr><th colspan=2>Before Normalization</th><th colspan=2>After Normalization</th></tr>
+  <tr><td>Age</td><td>Salary</td><td>Age</td><td>Salary</td></tr>
+  <tr><td>20</td><td>45000</td><td>-1.34</td><td>-1.13</td></tr>
+  <tr><td>30</td><td>250000</td><td>-0.44</td><td>0.08</td></tr>
+  <tr><td>40</td><td>150000</td><td>0.44</td><td>-0.51</td></tr>
+  <tr><td>50</td><td>500000</td><td>1.34</td><td>1.56</td></tr>
 </table>
 
 ```python
@@ -86,9 +77,9 @@ wine[wine.columns] = scaler.fit_transform(wine[wine.columns])
 
 Where to **use**? | Where **not** to **use** ?
 :--- | :---
-Algorithms that rely on **gradient descent** (**Regressions**) | **Probability** based algorithms : **Naive Bayes**
-**Distance** based algorithms (**KNN**, **K Mean** and **SVM**) | **Tree** based algorithms : CART, Decision trees.  
-**Dimensionality reduction** transformers (**PCA**, **LDA** and **t-SNE**) | **Ensemble learning techniques** : Bagged and boosted trees
+Gradient descent based algorithms: Regressions | Probability based algorithms: Naive Bayes
+Distance based algorithms: KNN, K Mean and SVM) | Tree** based algorithms: CART, Decision trees.  
+Dimensionality reduction transformers: PCA, LDA and t-SNE | Ensemble learning techniques: Bagged and Boosted trees
 
 Feature |	Euclidean Distance | Manhattan Distance
 :--- | :--- | :---
@@ -98,23 +89,21 @@ Formula Description | The square root of the sum of squared differences between 
 Visualization | Straight line	| Right-angle movements (Horizontal + Vertical)
 
 ### Benefits 
-1. Helps **gradient descent** to converge (Achieve global minima) more quickly.
-2. Helps the model to learn appropriate weights for each **feature**.
+1. Helps the gradient descent to converge (Achieve global minima) more quickly.
+2. Helps the model to learn appropriate weights for each independent feature.
 3. The model pays more attention to features with a high range even if the feature is irrelevant.
-4. A feature with a `low` **range** is ignored even if it is a better feature for model training.
-5. **Larger scale** features plays a **dominating role** in the model. 
-6. Reduces the **effect** of `outlier`
-7. Improves the model's `accuracy` and `performance`.
+4. A feature with a low **range** is ignored even if it is a better feature for model training.
+5. Large scale features plays a dominating role in the model.  
+6. Reduces the effect of outliers. Improves the model's accuracy and performance.
 
-### Transformation
-
-- **Split** the data set into a `train` set and a `test` set.
-- Apply the same **transformation** on the `train` set and `test` set ( Keep consistency )
-- No need to scale **dependent variable** | `Target vector` 
-- `fit()` : Learn **parameters** and **scales** of data which will be needed to **transform** the data | Apply only on `train` set.
-- `transform()`: **Transforms** data based on what it **learns** from `fit()` | Apply on `train` and `test` set.
-- `fit_transform()` : First learn ( **Fit** ) and then apply in place ( **Transform** ) | Apply only on `train` set.
-- Prevents **data leakage** : **Sharing information** of **train set** with **test set**.
+### **Transformation:**
+- Split the data set into a train set and a test set.
+- Apply the same transformation on the train set and the test set (Keep consistency)
+- No need to scale dependent variable | Target vector
+- **fit():** Learn parameters and scales of data which will be needed to transform the data | Apply only on train set.
+- **transform():** Transforms data based on what it learns from **fit()** | Apply on train and test set.
+- **fit_transform():** First learn (**Fit**) and then apply in place (**Transform**) | Apply only on train set.
+- Prevents **data leakage**: **Sharing information** of **train set** with **test set**.
 
 ```python
 # Create instance:
@@ -129,8 +118,8 @@ X_test = scaler.transform(X_test)
 ```
 
 ### How to Prevent Data Leakage 
-- Never apply `fit_transform()` on test set.
-- Remove `duplicate` data ( `drop_duplicates()` )
-- Time series data: The train set should contain past data and the test set should contain new data based on date, `Sort` by date.
+- Never apply **fit_transform()** on test set.
+- Remove duplicate data using **drop_duplicates()**.
+- Time series data: The train set should contain the past data and the test set should contain the new data, sort by date.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
