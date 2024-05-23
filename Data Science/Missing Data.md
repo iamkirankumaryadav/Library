@@ -1,6 +1,7 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
 # **How to deal with missing data?**
+
 - There is no particular approach for dealing with missing data.
 - The appropriate technique may vary depending on your dataset, specific context and the desired outcome.
 - **Missing data:** NULL | NAN | nan | NaN (Ignored while arithmetic operations)
