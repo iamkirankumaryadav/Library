@@ -2,7 +2,7 @@
 
 # **How to deal with missing data?**
 - There is no particular approach for dealing with missing data.
-- The appropriate technique may vary depending on your dataset's specific context or characteristics and the desired outcome.
+- The appropriate technique may vary depending on your dataset, specific context and the desired outcome.
 - **Missing data:** NULL | NAN | nan | NaN (Ignored while arithmetic operations)
 - Row | Observation | Tuple | Sample | Record
 - Column | Feature (Data Science) | Field (Excel) | Attribute | Dimension
