@@ -36,8 +36,8 @@ missing_values = np.isnan(array)
 <h5 name="del">1. dropna(): Drop Missing Values</h5>
 
 - If the missing data is negligible and doesn't affect the overall analysis, drop the corresponding rows or columns.
-- Drop rows if missing values** < 5% i.e. (axis = 0)
-- Drop columns if **missing values > 70% i.e. (axis = 1)
+- Drop rows if missing values < 5% i.e. (axis = 0)
+- Drop columns if missing values > 70% i.e. (axis = 1)
 - Deleting irrelevant rows or columns helps to get a robust model.
 - But it's better to keep data rather than dropping, removing data may lead to loss of information.
 - If one value in observation is missing other values may be important.
