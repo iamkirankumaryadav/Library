@@ -10,7 +10,7 @@
 - Positive Skew / Right Skew (Mean is on the right side | Mode < Median < Mean)
 - Negative Skew / Left Skew (Mean is on the left side | Mode > Median > Mean) 
 - Outliers have a significant impact on the performance and lead to inaccurate predictions of new unseen data.
-- **Distant metric:** Algorithms that use the **Euclidean distance metric** are more sensitive to outliers as compared to the **Manhatten distance metric**.
+- **Distant metric:** Algorithms that use the **Euclidean distance metric** are more sensitive to outliers.
 
 ### **How to detect outliers?**
 
