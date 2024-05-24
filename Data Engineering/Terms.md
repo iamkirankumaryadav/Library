@@ -297,3 +297,50 @@ There are various data models used for different purposes:
 * **Efficient Data Management:** Provides a structured approach to data storage and retrieval.
 * **Simplified Data Analysis:** Enables easier querying and analysis of the data.
 * **Enhanced Communication:** Provides a common language for discussing data across teams.
+
+### **HDFS (Hadoop Distributed File System)**
+- A storage system designed specifically for handling large datasets often referred to as **big data**.
+- HDFS distributes data across a cluster of computers, rather than storing it on a single machine.
+- HDFS stores and processes massive amounts of data in a way that's efficient and cost-effective.
+- Data is split into blocks and stored across various **DataNodes**.
+- The **NameNode** keeps track of the location of these blocks and manages file system operations like opening, closing, and renaming files.
+- HDFS is a core component of the Apache Hadoop framework, which provides tools and frameworks for processing large datasets.
+
+**Key features of HDFS:**
+1. **Scalability:**
+- HDFS can easily grow by adding more nodes to the cluster.
+
+2. **Fault Tolerance:**
+- Data is replicated across multiple nodes in the cluster.
+- So, if one node fails, the data is still available from the other node.
+
+3. **Commodity Hardware:**
+- HDFS is designed to run on inexpensive, readily available hardware, making it cost-effective for storing large datasets.
+
+4. **Streaming Access:**
+- HDFS is optimized for reading large data files sequentially.
+- Making it suitable for big data analytics applications that process large datasets.
+
+### **Hive**
+- Hive is a data warehouse software built on top of **Apache Hadoop**.
+- It essentially allows you to analyze large datasets stored in HDFS using a SQL-like interface.
+- It uses a language called **HiveQL (Hive Query Language)**, which resembles SQL.
+- Hive can handle massive datasets stored across large Hadoop clusters.
+- Hive allows you to structure your data in a schema like a traditional data warehouse, making it easier to analyze and understand.
+- **Hive** translates HiveQL queries into **MapReduce**.
+- Hive can process large datasets quickly by leveraging the distributed processing power of Hadoop.
+- Hive offers ACID transactions, ensuring data consistency during read/write operations.
+- ACID: Atomicity, Consistency, Isolation, and Durability.
+- Hive allows in creation of user-defined functions (UDF) to extend its capabilities for specific data processing needs.
+
+### **MapReduce**
+- MapReduce is designed for efficiently processing large datasets in a parallel and distributed fashion.
+- Large datasets are split into smaller, manageable chunks.
+- These chunks are processed simultaneously on multiple computers in a cluster, significantly speeding up the process.
+- Each data chunk is processed by a "map" function.
+- This function filters, transforms, or sorts the data as needed.
+- The output of the map phase is typically a list of key-value pairs.
+- The key-value pairs from all the map tasks are shuffled and grouped based on the key.
+- A "reduce" function is then applied to each group of key-value pairs to summarize or aggregate the data.
+- The final output of the reduce phase is the desired result.
+- Hadoop takes care of managing failures and rerunning tasks on different nodes if a node fails during processing.
