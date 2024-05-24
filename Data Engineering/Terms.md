@@ -344,3 +344,43 @@ There are various data models used for different purposes:
 - A "reduce" function is then applied to each group of key-value pairs to summarize or aggregate the data.
 - The final output of the reduce phase is the desired result.
 - Hadoop takes care of managing failures and rerunning tasks on different nodes if a node fails during processing.
+
+### **ETL (Extract, Transform, Load) **
+- A fundamental process used in data warehousing and data analytics.
+- It essentially deals with preparing data from various sources for analysis. 
+
+1. **Extract:** 
+- Data is retrieved from various sources.
+- These sources can be relational databases, flat files, log files, web applications, social media feeds, and more.
+- The specific method of extraction depends on the source system and data format.
+
+2. **Transform:** 
+- The extracted data is rarely in the perfect shape for analysis.
+- It might be incomplete, inconsistent, or incompatible with the target system.
+- During transformation, the data is cleaned, standardized, formatted, and aggregated to meet the specific needs of the analysis.
+  * **Cleaning:** Removing duplicates, correcting errors, and handling missing values.
+  * **Standardization:** Ensuring consistent data formats (e.g., date format, units) across all sources.
+  * **Deriving new data:**  Creating new fields or attributes based on existing data through calculations or logic.
+  * **Aggregation:** Summarizing data by grouping it according to specific criteria (e.g., summing sales by product category).
+
+3. **Load:** 
+- The transformed data is loaded into the target system, which is often a data warehouse or data lake.
+- The target system is designed to store and manage data for analysis and reporting purposes.
+- ETL processes typically run on a scheduled basis to ensure the data in the target system is always up-to-date.
+
+### **Additional points to consider about ETL fundamentals:**
+
+1. **Data Integration:** 
+- ETL is a core aspect of data integration, which involves combining data from multiple sources into a unified format for analysis.
+
+2. **ETL Tools:**  
+- There are various ETL tools available that automate the ETL process, making it easier to manage and orchestrate data pipelines.
+
+3. **Data Quality:**  
+- ETL plays a crucial role in ensuring data quality in the target system.
+- By cleaning and transforming the data, ETL helps to improve the accuracy, consistency, and completeness of the data used for analysis.
+
+4. **Alternative Approaches:** 
+- While ETL is a traditional approach, there's also ELT (Extract, Load, Transform)
+- Where transformation happens after the data is loaded into the target system.
+- It requires the target system to have the processing power to handle the transformations.
