@@ -1,4 +1,7 @@
 ### **Data Pipeline**
+- A pipeline in which raw data is ingested from various data sources, transformed and then ported to a data store.
+- Data repositories such as a data lake or data warehouse, for analysis.
+- Before data flows into a data repository, it usually undergoes some data processing.
 - Takes raw data from source (Data lake, data warehouse, database, table, cloud, on-premises, logs, excel)
 - Processing: Cleaning and transformation (Remove duplicates, handle missing data, handle outliers, encode, normalize)
 - Delivers it to the final destination (Data lake, data warehouse, cloud, database, table)
@@ -11,7 +14,7 @@
 - **Scalability:** Handle large and growing volumes of data.
 
 ### **Data Lake**
-- A central repository that holds vast amount of raw data in its original format, from structured to unstructured data.
+- A central repository that holds a vast amount of raw data in its original format, from structured to unstructured data.
 
 **Types of data stored in data lake**
 - **Structured data:** Traditional databases, spreadsheets.
@@ -64,7 +67,7 @@
 - The data mart focuses on a specific department or function.
 - Data marts are often derived from a larger data warehouse.
 - They extract and transform relevant data from the warehouse to meet the specific needs of a particular department or business unit.
-- e.g., sales, marketing, finance).
+- e.g., sales, marketing, finance, HR, learning, payroll, product, consultant, etc.
 - They only store data relevant to the department, making them faster and easier to manage.
 - The data is pre-processed and structured for the specific needs of the department's analysis and reporting.
 
@@ -85,22 +88,22 @@ Choosing between ETL and ELT depends on several factors:
 - What data types will be stored (text, numbers, dates, etc.)
 - Relationships between different data points (like how a book title relates to its author)
 
-### Database  
-- The collection of data organized according to one or more schemata.
-- Just like a library can have different sections (fiction, non-fiction), a database can have multiple schemata for different types of data.
+### **Database**  
+- The collection of data organized according to one or more schema.
+- Just like a library can have different sections (fiction, non-fiction), a database can have multiple schemas for different types of data.
 
-### Table  
-- Within a schema, data is stored in tables.  Think of a table like a bookshelf in the library.
+### **Table**  
+- Within a schema, data is stored in tables. Think of a table like a bookshelf in the library.
 - It holds information following a specific format defined by the schema.
 - A table has rows and columns:
 - Rows: These represent individual entries or records in your data. 
 - Columns: These represent the different names, attributes or characteristics of each record.
 
-Batch processing and stream processing are two fundamental approaches for handling data. They differ in how they deal with the flow and processing of information. Here's a breakdown:
+**Batch processing** and **stream processing** are two fundamental approaches for handling data. They differ in how they deal with the flow and processing of information. Here's a breakdown:
 
 ### **Batch Processing:**
 
-* **Data in Chunks:**  Batch processing works with data in predefined sets or batches.
+* **Data in Chunks:** Batch processing works with data in predefined sets or batches.
 * Data is collected over some time and then processed all at once.
 
 **Examples:**  
@@ -135,8 +138,8 @@ Batch processing and stream processing are two fundamental approaches for handli
 
 **Cons:**
 * Complexity: Designing and implementing stream processing systems can be more complex than batch processing.
-* Error handling: Requires robust mechanisms to handle errors or inconsistencies in the data stream in the real-time.
-* Resource requirements:  This may require more ongoing computational resources compared to batch processing large datasets at intervals.
+* Error handling: Requires robust mechanisms to handle errors or inconsistencies in the data stream in real time.
+* Resource requirements: This may require more ongoing computational resources compared to batch processing large datasets at intervals.
 
 The best approach depends on your specific needs:
 
@@ -257,7 +260,7 @@ Poor data quality can lead to several issues:
 * **Data cleaning processes:** Regularly clean data to address errors, inconsistencies, and missing values.
 * **Data governance practices:** Establish clear guidelines and procedures for data collection, storage, and usage.
 
-## Data Modeling 
+## **Data Modeling** 
 
 - The process of creating a blueprint for how your data will be structured and organized.
 - It's like designing a map of a city, where each element represents a piece of information and its relationships with others.
@@ -299,7 +302,7 @@ There are various data models used for different purposes:
 * **Enhanced Communication:** Provides a common language for discussing data across teams.
 
 ### **HDFS (Hadoop Distributed File System)**
-- A storage system designed specifically for handling large datasets often referred to as **big data**.
+- A storage system designed specifically for handling **big data**.
 - HDFS distributes data across a cluster of computers, rather than storing it on a single machine.
 - HDFS stores and processes massive amounts of data in a way that's efficient and cost-effective.
 - Data is split into blocks and stored across various **DataNodes**.
