@@ -17,7 +17,7 @@
 <h4><b>1. Visualization</b></h4>
 
 - Visualization helps to understand the distribution of data and helps to identify outliers in data.
-- Boxplot, scatter plot and histogram are better plotting to identify outliers in the dataset.
+- Boxplot, scatter plot and histogram help us to identify outliers in the dataset.
 
 <h4 name="zscore">2. Z Score or Extreme Value Analysis</h4>
 
