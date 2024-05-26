@@ -56,9 +56,9 @@ Here are some examples of hyperparameters:
 - Learning rate: This controls how quickly the model updates its parameters.
 - Batch size: This determines how much data is used to update the model's parameters at each step.
 - Regularization: L1 or L2
-- # epochs: This is the number of times the model sees the entire training data set.
-- # layers: This is the number of layers in a neural network.
-- # nodes: This is the number of nodes/neurons in each layer of a neural network.
+- #epochs: This is the number of times the model sees the entire training data set.
+- #layers: This is the number of layers in a neural network.
+- #nodes: This is the number of nodes/neurons in each layer of a neural network.
 - Activation Function?
 
 ### **Hyperparameter Optimization**
