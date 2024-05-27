@@ -102,7 +102,7 @@ More sensitive to outliers | Less sensitive to outliers
 
 ### Confidence
 - While sampling, different samples can be **randomly** selected from the same **population**.
-- Each sample can often produce a different confidence interval' 
+- Each sample can often produce a different confidence interval.
 - Some confidence intervals may include the true population parameters.
 
 ### Confidence Level (Percentage)
