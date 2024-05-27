@@ -86,7 +86,7 @@ More sensitive to outliers | Less sensitive to outliers
 ![Sample vs Population](Image/Sample.jpg)
 
 ### Z Score
-- `z = ((x - mean) / std)`
+- `z = (x - mean(x)) / std(x)`
 - `x`: Data Points.
 
 ### Inferential Statistics
