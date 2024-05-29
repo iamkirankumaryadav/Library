@@ -452,166 +452,150 @@ Algorithm Steps:
   </tr>
   <tr>
     <td>Better algorithms: K Means, Hierarchical, PCA</td>
-    <td>Better algorithms : Apriori</td>
+    <td>Better algorithms: Apriori</td>
   </tr>
 </table>
-
-- Find `patterns` and `relationships` between **feature matrix**.
-- Extract important features and explore the dataset in detail.
-- Unsupervised algorithms don't make **predictions** from the data.
  
  <h1 name='cluster' align=center>Clustering</h1>
 
-- Find some underlying `pattern` and `structure` in data.
-- Groups the data points into `segments` or `clusters` based on **similarity**.
-- Customer Segmentation | Fraud Detection | Document Classification
+- Find relationships and patterns between independent features.
+- Extract important features and explore the dataset in detail.
+- Groups the data points into segments or clusters based on similarity.
+- Unsupervised algorithms don't make predictions from the data.
 
-### Clustering Techniques
+### **Clustering Techniques**
 
-<h3 name='kmean'>1. K Mean Clustering</h3>
+<h3 name='kmean'><strong>1. K Mean Clustering</strong></h3>
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/10.K%20Mean%20Clustering.ipynb)
 
 - Groups similar data points together based on their features into a specified number of clusters.
 - Data points with similar characteristics are grouped in one cluster.
-- `Mean` in `K-Mean` refers to the averaging of data (Finding the `centroid`)
-- Initially `K` random data points are selected as a `centroid` (centre of cluster) for each cluster.
-- Each data point nearest to its corresponding `centroid` belongs/assigned to that cluster.
-- Again the `centroid` is recalculated for the newly formed cluster, and the data points are updated based on the new `centroid`
+- Mean in K-Mean refers to the averaging of data (Finding the centroid)
+- K random data points are initially selected as a centroid (centre of cluster) for each cluster.
+- Each data point nearest to its corresponding centroid belongs/assigned to that cluster.
+- The centroid is recalculated for the newly formed clusters, and the data points are updated based on the new centroid.
 - This is an iterative process, we stop when there is no further classification.
-- Different starting points (Random centroid selected) create different clusters. 
-- `Elbow Method`: The sum of squared distance gets smaller as the number of clusters increases.  
-- The `Elbow` method helps to find the `optimal` number of clusters.
+- Different starting points (centroid) create different clusters. 
 
-Steps of K Mean Clustering:
-1. Choose the number of clusters (K): This depends on the nature of the data and the desired granularity of the clusters.
-2. Initialize the centroids: Randomly select K data points as the initial centroids.
-3. Assign data points to the nearest clusters: Forming K clusters.
-4. Recalculate centroids: Calculate the new centroid for each cluster  (mean of the data points of the cluster)
-5. Repeat 3 and 4 until we cannot find any new centroid after recalculation.
-
-Advantages:
-1. Simple to understand and can be applied over large data sets.
-2. Versatile unsupervised ML algorithm that can be used for data exploration and clustering.
+### **Elbow Method**
+- The sum of the squared distance between the data point and centroid gets smaller as the number of clusters increases.
+- The **Elbow Method** helps to find the optimal number of clusters.
 
 **Usage:**
-1. **Market Segmentation:** Grouping customers based on purchasing behavior, age, income, etc.
+1. **Market Segmentation:** Grouping customers based on purchasing behaviour, age, income, etc.
 2. **Document Classification:** Grouping documents by topics or contents.
 3. **Image Compression:** Reducing the number of colours in an image.
 4. **Spatial Data Analysis:** Identifying areas of similar land use in an urban setting.
 5. **Anomaly Detection:** Detecting unusual patterns or outliers in datasets.
 
-<h3 name='hc'>2. Hierarchical Clustering</h3>
+<h3 name='hc'><strong>2. Hierarchical Clustering</strong></h3>
 
-- Groups data points into a `hierarchy` of clusters.
-- No need to specify the number of clusters `K` in advance.
+- Groups data points into a hierarchy of clusters.
+- No need to specify the number of clusters K in advance.
 - A dendrogram can be used to visualize and determine the number of clusters in the data.
 
-A. Agglomerative
-- Bottom-Up Approach
-- `AGNES`: **Ag**glomerative **Nes**ting
+**A. Agglomerative (Bottom-Up Approach)**
+- **AGNES:** Agglomerative Nesting
 - Starts with treating each data point as a single cluster and then merges the closest data points.
 - After each iteration, similar and closest clusters are merged, until there is only one cluster left.
 
-B. Divisive
-- Top Down Approach
-- **DIANA** ( **Di**vise **Ana**lysis )
-- Starts with all the data points in a single cluster and recursively splits the clusters until each cluster contains a single data point.
-- After each iteration, it splits the large clusters into two smaller clusters, until each cluster contains only one data point.
+**B. Divisive (Top-Down Approach)**
+- **DIANA:** Divise Analysis
+- Starts with considering all the data points in a single cluster
+- Iteratively/Recursively splits the clusters until each cluster contains a single data point.
 
 ### How do we Calculate the similarity between the clusters?
-- `MIN`: Distance between the closest data points of two clusters.
-- `MAX`: Distance between the farthest data points of two clusters.
-- `AVG`: Average distance between each data point of two clusters.
-- `Centroids`: Distance between the centroid of two clusters.
+- **MIN:** Distance between the closest data points of two clusters.
+- **MAX:** Distance between the farthest data points of two clusters.
+- **AVG:** Average distance between each data point of two clusters.
+- **Centroids:** Distance between the centroid of two clusters.
  
-<h3 name="dbscan"> 3. Density Based Clustering</h3>
+<h3 name="dbscan"><strong>3. Density Based Clustering</strong></h3>
 
-- `DBSCAN`: Density-based spatial clustering of applications with noise (outliers).
+- **DBSCAN:** Density-based spatial clustering of applications with noise (outliers).
 - Group similar data points together based on density (data points that are closely packed together).
-- High Density Region: Points are `close` to each other | High neighbours within the radius.
+- **High-Density Region:** Data points are close to each other | High neighbours within the radius.
 - Unlike other clustering algorithms, DBSCAN does not require a predefined number of clusters.
-- Data points in `low density` regions are `outliers`.
-- Visualization can explain the clustering methods in a better way i.e. scatter plot. 
+- Data points in low-density regions are outliers.
+- Visualization (Scatter Plot) can explain the clustering method in a better way.
 - DBSCAN can effectively identify clusters of arbitrary shapes and sizes.
 
 DBSCAN defines 3 types of data points based on their density and proximity.
-1. Core points: Data points that are very close to each other.
-2. Border points: Data points that are neighbours but not too close to each other.
-3. Noise points: Data points that are very far away from the rest of the data points (Outliers)
+1. **Core points:** Data points that are very close to each other.
+2. **Border points:** Data points that are neighbours but not too close to each other.
+3. **Noise points:** Data points that are very far away from the rest of the data points (Outliers)
 
-### B. Dimensionality Reduction
+### **B. Dimensionality Reduction**
 
-- A technique used to reduce the number of `features` or `variables` in a dataset while retaining the most important information.
+- A technique used to reduce the number of features/variables in a dataset while retaining the most important information.
 - Simplifying the complexity of the dataset by reducing the number of dimensions (variables) without losing information.
-- The aim is to find the **important features | variables** that the model can use for better prediction.
+- The aim is to find the **important features/variables** that the model can use for better prediction.
 - Reducing **irrelevant features** that have no relation with the target feature.
-- Some features bring `Multicollinearity`
-- **Feature Elimination** | **Feature Selection** or **Feature Extraction**
-- Save storage and time by improving the performance of the model.
-- Due to less number of features it can be visualized in `2D` and `3D`.
+- Reduces **multicollinearity**, and saves storage and time by improving the performance of the model.
 - Project data into lower dimensions while preserving as much useful variability (19/20) as possible.
-- e.g. If we observe a `Scatter Plot` in multi-dimension it will be complicated for understanding. 
+- e.g. If we observe a Scatter Plot in multi-dimension it will be complicated for understanding. 
 - Consider only 1D then it is just a line and a few points in which some are close to the line and some are a bit far away from the line.
 - Combine features or remove features to reduce dimensions.
 - Dimensionality Reduction helps to prevent the models from overfitting (Due to too many features)
-- It helps to visualize high-dimensional data in 2 or 3 dimensions.
 - Simplifies the model, improves accuracy, fast training, easy visualization, and helps to identify patterns easily.
 - Scale and normalize data before applying dimensionality reduction techniques.
 - Use visualizations to assess how well the reduced dimensions represent the data.
 
-### Techniques of Dimensionality Reduction
+### **Techniques of Dimensionality Reduction**
 
-<h3 name='pca'>PCA ( Principal Component Analysis ) ( Unsupervised )</h3> 
+<h3 name='pca'>PCA (Principal Component Analysis) (Unsupervised )</h3> 
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/11.PCA.ipynb)
 
 - Transforms a dataset into a new set of variables without losing information called principal components.
 - PCA aims to capture the most important patterns or relationships in the data while reducing its dimensionality.
-- Reduce the **dimensions** of large dataset.
-- Small data sets are **easy** to **explore** and **visualize**.
-- **Analyzing** and **training** is also much **easier** and **faster**.
+- Small data sets are easy to explore, visualize, analyze and train faster.
 - The first principal component is the linear combination that explains the largest amount of variation in the data.
 - Subsequent principal components explain decreasing amounts of variation.
 - Most of the information within the initial variables is **compressed** into **first components**.  
-- PCA tries to put **maximum possible information** in **first component**. 
+- PCA tries to put **maximum possible information** in the first component. 
 - And then the remaining information in the corresponding **components**.
-- `PCA` is affected by scale, so scaling of features before applying `PCA` is important.
+- PCA is affected by scale, so scaling of features before applying PCA is important.
 - Reconstruct the original data from the reduced dimensional representation by using a subset of the principal components.
 - This reconstruction is an approximation of the original data but captures the essential characteristics.
 
-<h3 name='lda'>LDA ( Linear Discriminant Analysis ) ( Supervised )</h3>
+<h3 name='lda'><strong>LDA (Linear Discriminant Analysis) (Supervised)</strong></h3>
 
 - Classify data sets into different categories or classes.
 - Maximizes the separation between two or more classes of data.
-- LDA creates a new axis ( Maximize the distance between **means** of two classes and minimize variation within each class )
+- LDA creates a new axis (Maximize the distance between **means** of two classes and minimize variation within each class)
 
 <h3 name='tsne'>t-SNE ( t Distributed Stochastic Neighbor Embedding )</h3>
 
 - Non-linear dimension reduction (Spiral, Mixed) 
-- Data that is complicated to understand ( Multi-Dimensional Data )
+- Data that is complicated to understand (Multi-Dimensional Data)
 - A tool to visualize and explore high-dimension data.
 - Identity clusters based on the similarity of data points.
 - Maps **multi dimensional data** to a **lower dimensional space**.
 - Reduces dimensions while keeping similar instances closer and dissimilar instances apart.
 
-### Anomaly Detection :
-- Discover unusual data points in the data set.
-- Used to find fraudulent transactions and identify an `outlier` caused by human error during data entry.
+### **Anomaly Detection:**
+- Discover unusual data points, and abnormal patterns in the data set.
+- Used to find fraudulent transactions and identify an outlier caused by human error during data entry.
 - Reduces complexity of data and helps to understand data more clearly and better way.
 
-### Association Mining :
+### **Association Mining:**
 - Set of items that frequently occur together in a data set.
 - Basket Analysis: Items bought together | Goods purchased at the same time help to develop marketing strategies.
 
-### Feature Selection
+### **Feature Selection**
 - Select important features | Helps to improve accuracy | Not every feature adds value to solve the problem.
 - Understanding each feature before using it for creating an ML model.
-- Correlation between `features` and `target` helps to select better features.
-- `Ensemble learning techniques` have a parameter of `feature_importance` which helps us to find important features.
+- Correlation between features and target helps to select better features.
+- Ensemble learning techniques have a parameter of **feature_importance** which helps us to find important features.
 
-### Standardization 
-- Standardize the `range` of the continuous variables so that each one of them contributes equally to the analysis.
+### **Standardization**
+- Standardize the range of the continuous variables so that each one of them contributes equally to the analysis.
+
+### **Apriori**
+- A widely used algorithm in **data mining**, specifically for **association rule learning**.
+- It helps identify relationships between items that frequently appear together in transactions.
 
 ![Machine Learning Map](Image/MLMap.jpg)
 
