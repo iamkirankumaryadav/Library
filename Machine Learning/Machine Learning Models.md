@@ -253,8 +253,8 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 - Attribute with `High Information Gain` or `Low Entropy` or `Low Gini Index` is selected as `best attribute` to split.
 - The path from the root to a leaf node represents a set of rules that will be used to classify new instances.
 - Used especially for `binary` Classification and `multiclass` Classification and even used for `Regression`
-- Models, when the `target` variable has a `categorical` set of values, a `classification` tree is used.
-- Models, when the `target` variable has a `continuous` value, a `regression` tree is used.
+- When the `target` variable has a `categorical` set of values, a `classification` tree is used.
+- When the `target` variable has a `continuous` value, a `regression` tree is used.
 - `CART` : **C**lassification **A**nd **R**egression **T**ree.
 - Decision Tree is prone to `overfitting`, resulting in poor performance on the test data.
 - Pruning: When we remove unnecessary sub-nodes of a decision node.
