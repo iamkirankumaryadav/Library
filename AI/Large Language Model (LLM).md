@@ -49,4 +49,23 @@ A type of AI program that excels at understanding and generating human language.
 - A specific type of neural network architecture particularly well-suited for generative tasks, especially involving text.
 - It excels at capturing long-range dependencies within data, allowing for more nuanced and coherent outputs.
 
+### Retrieval Augmented Generation (RAG) 
+- A technique for improving the accuracy and reliability of LLMs by incorporating information from external sources.
+- Imagine a large language model as a doctor. They're good at specific body parts and understanding the anatomy of the body.
+- But for specific situations, they might need to consult legal precedents and case studies.
+- RAG is like giving the doctor a research assistant who can quickly find relevant legal documents.
+
+1. **Retrieval:** 
+- The LLM first analyzes the prompt or question.
+- Then, it generates a search query to find related information from an external knowledge base, like Wikipedia or a company's BRD.
+
+2. **Augmentation:** 
+- The retrieved information is then fed back to the LLM along with the original prompt.
+- This additional context helps the model generate a more informed and accurate response.
+
+### **Benefits of RAG:**
+1. **Factual accuracy:** RAG ensures the LLM's responses are grounded in facts and reduces the risk of making false claims.
+2. **Up-to-date information:** RAG allows the LLM to access the latest information from the updated knowledge base.
+3. **Transparency:** RAG can sometimes show the sources used to generate the response, allowing users to verify the LLM response.
+
 e.g. Chat GPT (Human quality text generation) | DALL-E (Creating surreal and realistic images)
