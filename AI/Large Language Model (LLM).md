@@ -49,7 +49,27 @@ A type of AI program that excels at understanding and generating human language.
 - A specific type of neural network architecture particularly well-suited for generative tasks, especially involving text.
 - It excels at capturing long-range dependencies within data, allowing for more nuanced and coherent outputs.
 
-### Retrieval Augmented Generation (RAG) 
+### **Large Language Model (LLM)** 
+- Artificial Intelligence (AI) program that's particularly good at understanding and generating human language. 
+
+1. **Training:** 
+- LLMs are built on deep learning models, which are complex algorithms inspired by the human brain.
+- These models are trained on massive datasets of text and code, which can include books, articles, and code repositories.
+
+2. **Understanding Language:** 
+- Through this training, LLMs learn to recognize patterns in language.
+- They can identify relationships between words, understand grammar and syntax, and even grasp the context of a conversation. 
+
+3. **Generating Text:** 
+- Based on this understanding, LLMs can generate their text.
+- This can take many forms, from writing different kinds of creative content to translating and answering questions.
+
+### **Reality**
+- While LLMs can be very good at mimicking human language, they don't understand the meaning behind the words they use.
+- As more data becomes available and new training techniques are developed, LLMs are constantly improving their abilities.
+- Despite their advancements, LLMs can still make mistakes, like generating text that is factually incorrect or biased. 
+
+### **Retrieval Augmented Generation (RAG)** 
 - A technique for improving the accuracy and reliability of LLMs by incorporating information from external sources.
 - Imagine a large language model as a doctor. They're good at specific body parts and understanding the anatomy of the body.
 - But for specific situations, they might need to consult legal precedents and case studies.
