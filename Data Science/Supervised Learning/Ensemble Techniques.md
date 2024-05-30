@@ -2,18 +2,15 @@
 
 # Ensemble Techniques | Method
 
-Combines multiple `weak` or `base` learners to create one very `accurate` predicting algorithm or model to decrease `bias` and `variance`
-
-### Why `Ensemble`?
+### **Why Ensemble?**
 
 - Ensemble learning combines multiple models to create a more accurate and robust model.
-- The individual models in an ensemble are called `base` or `weak` learners.
+- The individual models in an ensemble are called base/weak learners.
 - The base learners can be decision trees, support vector machines, or neural networks.
-- Ensemble learning can be used to improve the performance of machine learning models.
-- It helps to reduce `variance`, `bias`, `underfitting` and `overfitting`.
-- Ensemble learning can also be used to improve the `accuracy` of models that are trained on small datasets.
+- It helps to reduce variance, bias, underfitting and overfitting.
+- Ensemble learning can also be used to improve the accuracy of models that are trained on small datasets.
  
-`Bagging` ( Bootstrap Aggregation ) | `Boosting`
+Bagging (Bootstrap Aggregation) | Boosting
 :--- | :---
 `Parallel` | `Series` ( Iterative ) 
 Decrease `variance` ( Solve `overfitting` ) | Decrease `bias` ( Improve **training** )
