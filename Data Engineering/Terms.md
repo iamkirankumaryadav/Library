@@ -1,5 +1,5 @@
 ### **Data Pipeline**
-- A pipeline in which raw data is ingested from various data sources, transformed and then ported to a data store.
+- A pipeline in which raw data is ingested from various sources, transformed and then ported to a data store.
 - Data repositories such as a data lake or data warehouse, for analysis.
 - Before data flows into a data repository, it usually undergoes some data processing.
 - Takes raw data from source (Data lake, data warehouse, database, table, cloud, on-premises, logs, excel)
@@ -14,7 +14,7 @@
 - **Scalability:** Handle large and growing volumes of data.
 
 ### **Data Lake**
-- A central repository that holds a vast amount of raw data in its original format, from structured to unstructured data.
+- A central repository that holds vast raw data in its original format, from structured to unstructured data.
 
 **Types of data stored in data lake**
 - **Structured data:** Traditional databases, spreadsheets.
@@ -24,7 +24,7 @@
 **Why use data lake?**
 - **Flexibility:** Data lakes store everything
 - **Scalability:** Handle massive amount of data, ideal for big data applications.
-- **Cost-effective:** Storing raw data is cheaper as compared to storing processed data.
+- **Cost-effective:** Storing raw data is cheaper than storing processed data.
 - **Unleashing potentials:** A goldmine for data scientists and analysts (Explore trends, identify patterns, develop new insights)
 
 **Use cases:**
@@ -149,14 +149,14 @@ The best approach depends on your specific needs:
 Some systems even combine both approaches, using batch processing for historical data and stream processing for real-time updates.
 
 ### **Data orchestration** 
-- The process of automating the flow of data between different systems and tools throughout its lifecycle.
-- Imagine you're conducting an orchestra, where each musician (data source) plays a part, and the conductor (orchestrator) ensures they all play in harmony to create a beautiful piece (valuable insights). Here's a breakdown of data orchestration and its role:
+- Data orchestration is the automated process of managing how data flows throughout an organization. 
+- Imagine it as a conductor for your data pipelines, ensuring everything runs smoothly and efficiently.
 
 **The Roles of Data Orchestration:**
 
-* **Data Integration:** It brings data from various sources like databases, applications, cloud storage, and even social media feeds into a centralized location. 
+* **Data Integration:** It brings the scattered data from various sources like databases, applications, cloud storage, and even social media feeds into a centralized location. 
 * **Data Transformation:** Orchestration can automate tasks like cleaning the data, converting formats, and deriving new features to prepare it for analysis. 
-* **Workflow Management:** It defines the sequence of steps data needs to go through, ensuring everything happens in the right order and at the scheduled time. 
+* **Workflow Management:** It defines the sequence of steps the data pipeline needs to go through, ensuring everything happens in the right order and at the scheduled time. 
 * **Dependency Management:** Orchestration tracks dependencies between different data processing tasks. For instance, some tasks might need the output from others before they can begin.
 * **Error Handling and Monitoring:** The orchestration system can handle errors that might occur during data processing, retry failed tasks, and notify data engineers about any issues.
 
