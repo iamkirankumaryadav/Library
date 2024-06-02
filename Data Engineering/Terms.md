@@ -213,7 +213,8 @@ Imagine an e-commerce company tracking customer purchase data. Here's how data l
 **Data lineage tools** can automate the process of tracking data flow and transformations within data pipelines. 
 This becomes especially important for complex pipelines involving multiple data sources and processing steps.
 
-## Data Quality 
+###  Data Quality 
+
 - The overall fitness of your data for its intended purpose.
 - Imagine you're a chef preparing a meal. You wouldn't use spoiled ingredients or imprecise measurements to create a delicious dish.
 - Similarly, good quality data is essential for making informed decisions and getting accurate results from your analyses.
