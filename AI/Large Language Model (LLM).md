@@ -50,7 +50,8 @@ A type of AI program that excels at understanding and generating human language.
 - It excels at capturing long-range dependencies within data, allowing for more nuanced and coherent outputs.
 
 ### **Large Language Model (LLM)** 
-- Artificial Intelligence (AI) program that's particularly good at understanding and generating human language. 
+
+**Artificial Intelligence (AI)** program that's particularly good at understanding and generating human language. 
 
 1. **Training:** 
 - LLMs are built on deep learning models, which are complex algorithms inspired by the human brain.
