@@ -60,8 +60,8 @@
 - Summarized: Daily, weekly, monthly, quarterly, and yearly.
 - Categorized: Category, sub-category, etc.
 - Demography: Region, country, state, territory, district, city, and zip code.
-- Access: Business analysts, data scientists, data analysts, and stakeholders to easily answer questions (querying, analysis, and reporting)
-- Time-variant: Historical data over time, allowing to capture of trends, patterns, and seasonality.
+- Access: Business analysts, data scientists, data analysts, and stakeholders can easily answer questions (querying, analysis, and reporting)
+- Time-variant: Historical data over time, allowing to capture trends, patterns, and seasonality.
 
 ### **Data Mart**
 - The data mart focuses on a specific department or function.
@@ -69,7 +69,7 @@
 - They extract and transform relevant data from the warehouse to meet the specific needs of a particular department or business unit.
 - e.g., sales, marketing, finance, HR, learning, payroll, product, consultant, etc.
 - They only store data relevant to the department, making them faster and easier to manage.
-- The data is pre-processed and structured for the specific needs of the department's analysis and reporting.
+- The data is pre-processed and structured for the department's analysis and reporting needs.
 
 ### ETL (Extract-Transform-Load)
 - **Extract:** Data is extracted from various sources like databases, applications, and flat files.
@@ -354,7 +354,7 @@ There are various data models used for different purposes:
 - The final output of the reduce phase is the desired result.
 - Hadoop takes care of managing failures and rerunning tasks on different nodes if a node fails during processing.
 
-### **ETL (Extract, Transform, Load) **
+### **ETL (Extract, Transform, Load)**
 - A fundamental process used in data warehousing and data analytics.
 - It essentially deals with preparing data from various sources for analysis. 
 
