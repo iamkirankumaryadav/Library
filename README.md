@@ -1,4 +1,4 @@
-<h3 align="center"> 📚📝 My Knowledge Library 💼📦 </h3>
+<h3 align="center"> 📚📝 Knowledge Library 💼📦 </h3>
 
 <p align="center"> 
   <strong> Data Science </strong> | 
