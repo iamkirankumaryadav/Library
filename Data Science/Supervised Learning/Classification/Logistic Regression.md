@@ -5,7 +5,7 @@
 - Transforms output using Sigmoid | Logit function to return a probability distribution value (Mapped to 2 discrete classes)
 - Especially binary classification, it predicts the probability distribution of class which lies within the range 0 and 1.
 - Probability of occurrence of the target label is predicted based on threshold (0.5) 
-- Logistic regression is affected by the scale, so always standardize the features before applying logistic regression. 
+- The scale affects Logistic regression, so always standardize the features before applying logistic regression. 
 
 ### **Logistic Function  | Sigmoid Function (S-Shaped Curve)**
 - Accepts any real value and maps it into a value between 0 and 1.
@@ -15,6 +15,14 @@
 ### **When to use Logistic Regression?**
 - When the target variable has binary class labels, it performs well with a small number of observations.
 - Data with very low outliers or missing data points in the data set. No tuning is usually required.
+
+### How to find the relationship between the independent variable and target labels?
+- Unlike regression, we can't use correlation to access the relationship.
+- Data Visualization: Bar Charts, Histogram.
+- Statistical Test: Chi-Square Test (Significant association between independent variable and target labels)
+- Information Gain (High), Gini Index (Low) and Entropy (Low) in Decision Trees and Random Forests.
+- L1 Regularization: Shrinks the coefficient of less important features towards zero.
+- Features with large coefficients are considered more important.
 
 ### Remove Correlated Independent Feature
 - The model can overfit if you have multiple highly correlated independent features.
