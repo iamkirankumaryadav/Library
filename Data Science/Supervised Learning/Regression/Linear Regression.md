@@ -36,6 +36,28 @@
 
 ![Negative Slope](Image/Negative.png)
 
+### How do we check the relationships between independent and dependent variables?
+
+**1. Scatter Plots:**  
+- Plot the independent variable on the x-axis and the dependent variable on the y-axis.
+- The pattern of the data points can reveal the direction and strength of the relationship.
+- A positive slope suggests a positive relationship (as x increases, y increases)
+- A negative slope suggests a negative relationship (as x increases, y decreases)
+- A random scatter suggests no linear relationship.
+
+**2. Correlation Coefficient:** 
+- The strength and direction of the linear relationship between two variables.
+- It ranges from -1 (perfect negative correlation) to +1 (perfect positive correlation), with 0 indicating no linear correlation.
+
+3. **Regression Analysis:**
+- The core technique for examining relationships in regression.
+- By fitting a model to your data, you can estimate the effect of changes in the independent variable(s) on the dependent variable.
+- The model's coefficients (how much the dependent variable changes on the unit change of an independent variable)
+
+**4. Residual Analysis:** 
+- The difference between observed and predicted values of the dependent variable can reveal potential issues with the model.
+- Randomly scattered residuals suggest a good fit, while patterns in the residuals indicate potential problems like non-linearity or outliers.
+
 ### **c | Intercept | Bias | Constant**
 - The point where the regression line intersects the Y-axis. 
 - Value of Y when the value of X and value of coefficients = 0.
