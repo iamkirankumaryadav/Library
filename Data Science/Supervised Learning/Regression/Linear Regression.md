@@ -58,6 +58,10 @@
 - The difference between observed and predicted values of the dependent variable can reveal potential issues with the model.
 - Randomly scattered residuals suggest a good fit, while patterns in the residuals indicate potential problems like non-linearity or outliers.
 
+**5. R_squared | Adjusted R_Squared:**
+- Training the model with different feature subsets and evaluating their performance on a validation set.
+- The subset with the best performance is chosen.
+
 ### **c | Intercept | Bias | Constant**
 - The point where the regression line intersects the Y-axis. 
 - Value of Y when the value of X and value of coefficients = 0.
