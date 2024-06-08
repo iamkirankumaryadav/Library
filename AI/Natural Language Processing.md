@@ -35,28 +35,41 @@
   </tr>
 </table>
 
-<h2 name="nlp"> Natural Language Processing (NLP) </h2>
+## **Natural Language Processing (NLP)**
 
 - A field of AI that deals with the interaction between computers and human language.
 - Ability of computer to read, understand, learn, analyze, translate, generate and communicate using **human language**.
-- Interaction between computers and humans using the natural language.
 - **Natural Language Understanding (NLU)** and **Natural Language Generation (NLG)** are both subfields of **NLP**
-- **Core Idea:**  Equipping computers with the ability to understand, interpret, and manipulate human language.
+- The core idea is to equip computers with the ability to understand, interpret, and manipulate human language.
 - NLP can revolutionise how we interact with machines and unlock a new era of human-computer collaboration.  
 
 **Why is NLP Important?**
 
-* **Human-like Interaction:** NLP allows users to interact with computers more naturally and intuitively, using everyday language instead of complex codes.
-* **Unlocks Information:** NLP helps computers process and make sense of massive textual data available worldwide, opening doors to discoveries and insights. 
-* **Automates Tasks:** NLP can automate many tasks that previously required human intervention, such as document classification,  sentiment analysis, and  machine translation.
+1. **Human-like Interaction:** 
+- NLP allows users to interact with computers more naturally and intuitively, using everyday language instead of complex codes.
+
+2. **Unlocks Information:** 
+- NLP helps computers process and make sense of massive textual data available worldwide, opening doors to discoveries and insights. 
+
+3. **Automates Tasks:** 
+- NLP can automate many tasks that previously required human interventions.
 
 **What Does NLP Do?**
 
-* **Understanding Text:** Analyzing the meaning and intent behind written words, considering factors like grammar, context, and sentiment.
-* **Generating Text:** Creating human-readable text formats like news articles, chatbot responses, or even creative content using Natural Language Generation (NLG).
-* **Machine Translation:** Converting text from one language to another while preserving the original meaning.
-* **Speech Recognition:** Converting spoken language into text, enabling voice-activated applications.
-* **Text Summarization:** Extracting the key points from a lengthy piece of text and condensing it into a shorter, more manageable format.
+1. **Understanding Text:** 
+- Analyzing the meaning and intent behind written words, considering factors like grammar, context, and sentiment.
+
+2. **Generating Text:** 
+- Creating human-readable text formats like news articles, chatbot responses, or even creative content using NLG.
+
+3. **Machine Translation:** 
+- Converting text from one language to another while preserving the original meaning.
+
+4. **Speech Recognition:** 
+- Converting spoken language into text, enabling voice-activated applications.
+
+5. **Text Summarization:** 
+- Extracting the key points from a lengthy piece of text and condensing it into a shorter, more manageable format.
 
 **How Does NLP Work?**
 
@@ -72,30 +85,34 @@
 * **Machine Translation:** Breaking down language barriers by enabling seamless communication across cultures. 
 * **Customer Service Chatbots:** Providing 24/7 customer support through chatbots that can answer questions and resolve issues.
 
-<h2 name="corpus">Corpus</h2>
+<h3 name="corpus">Corpus</h3>
 
-- Corpus: A large collection of real-world text data showing how those words are used in sentences, paragraphs, and entire documents.
-- Corpora are essential for training NLP models, as they provide the models with the raw language data they need to learn from.
+- A large collection of real-world text data used to train and test NLP models.
+- Corpora shows how those words are used in sentences, paragraphs, and entire documents.
 - Corpus linguistics, collections of spoken and written texts are compiled and analyzed.
-- Corpora are used to train ML models for a variety of NLP tasks, such as sentiment analysis, machine translation, and part-of-speech tagging.
 
-It helps us to find:
+**It helps us to find:**
 - How does the meaning of a word change depending on the context?
-- How has the way we use language changed over time?
 - How do different people (e.g., Doctors, Teenagers | Formal, Informal, Casual, Slang) use language differently?
 - Corpora can be specific (subject/domain oriented) or generic (common/public) depending on the research goal.
 
-Types of corpora:
+**Types of corpora:**
 1. **Newsgroups corpora:** Collections of words from newsgroup posts, newspapers, novels, tweets, poetry, etc.
 2. **Web corpora:** Collections of text scraped from the web (Biggest corpus)
 3. **Social media corpora:** Collections of comments from social media platforms such as Instagram, Twitter and Facebook. 
 4. **Speech corpora:** Collections of written text, transcriptions of spoken languages, multilingual
 
-<h2 name="nltk"> NLTK ( Natural Language Toolkit ) </h2>
+<h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
 
-- Open source toolkit or library created to make NLP process in Python.
-
-<h2 name="mine">Text Mining | Text Analysis</h2>
+- Open source toolkit or library created for Python to make NLP processes/tasks.
+- NLTK provides a comprehensive set of tools for various NLP tasks.
+- **Tokenization:** Breaking down text into smaller units like words and sentences.
+- **POS Tagging:** Assigning grammatical labels (Noun, Verb, Adjective) to each word.
+- **Stemming and Lemmatization:** Reducing words to their base form.
+- **Named Entity Relationship (NER):** Identifying and classifying named entities like people, organizations, and locations.
+- **Text Classification:** Categorizing text data based on its context.
+ 
+<h3 name="mine">Text Mining | Text Analysis</h3>
 
 - Analyze and understand text data (Expression, context, action, grammar)  
 - Derive meaningful information from natural language text and speech.
@@ -122,7 +139,7 @@ Types of corpora:
 5. Convert processed text to audio.
 6. Machine reply to human.
 
-<h2 name="app"> Applications : NLP in real life </h2>
+<h3 name="app"> Applications : NLP in real life </h3>
 
 1. Google Translate. (Speech to text)
 2. Email `spam` filter (Search for texts related to spam email)
@@ -137,7 +154,7 @@ Types of corpora:
 11. Text classification.
 12. Part of speech `tagging` (**Part of speech** of the corresponding word)
 
-<h2 name="pipe">NLP Pipeline</h2>
+<h3 name="pipe">NLP Pipeline</h3>
 
 1. Read **raw** text.
 2. Remove `Punctuations`
@@ -147,7 +164,7 @@ Types of corpora:
 6. `Vectorize` data to prepare for model built (Convert text to `number`)
 7. **Feature Engineering** (**Creating** new feature or **transforming** existing features to get most out of data)
 
-<h2 name="token">Tokenization</h2>
+<h3 name="token">Tokenization</h3>
 
 - The process of breaking down text into smaller units, such as words, punctuations, special characters, characters, etc.
 - This is the first step in many NLP tasks, as it allows the model to process the text in the most manageable way.
@@ -158,7 +175,7 @@ Word = "Hi, my name is Kirankumar"
 ["Hi", ",", "my", "name", "is", "Kirankumar"]
 ```
 
-<h2 name="stem">Stemming</h2>
+<h3 name="stem">Stemming</h3>
 
 - Stemming is a process of reducing a word to its `stem` | `root` | `base` form.
 - Stemming removes common suffixes and prefixes from the word (ing, es, s, ed)
@@ -177,7 +194,7 @@ stem(token)
 2. **Snowball** Stemmer (**Better** than **Porter** and **Lancaster** : fairly > `fair`)
 3. **Lancaster** Stemmer (**Fastest** with **least accuracy**)
 
-<h2 name="lemma">Lemmatization</h2>
+<h3 name="lemma">Lemmatization</h3>
 
 - A more sophisticated form of stemming that takes into account the context of a word to determine its base form.
 - Grouping the **derived forms** of words so that they can be analyzed as a `single` base form.
@@ -208,7 +225,7 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 - Removing characters or pieces of text that can interfere with text analysis.
 - Remove punctuation, special characters, numbers, formatting, source code, header, etc.
 
-<h2 name="norm">Text Normalization</h2>
+<h3 name="norm">Text Normalization</h3>
 
 - Transforming text into its standard consistent format to make it easier for computers to understand.
 - e.g. 'gooood' and 'gud' transformed into 'good'.
@@ -221,7 +238,7 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 - Important when **noisy**, **misspelled**, **slang** and **out of vocabulory** ( `OOV` ) words are used. 
 - **Out of vocabulory** ( `OOV` ) : **Social media** comments, **blog** comments and **text messages**.
 
-<h2 name="stop">Stop Word</h2>
+<h3 name="stop">Stop Word</h3>
 
 - Common words that don't carry any meaning on their own are filtered out before processing text.
 - Stop words are filler words like `a`, `an`, `in`, `on`, `and`, `the`, `or`, etc.
@@ -238,7 +255,7 @@ How to `remove` stopwords using NLTK
 Token for Token in the text if not in `Stopwords.words()` 
 ```
 
-<h2 name="pos">POS : Parts-of-Speech Tagging</h2>
+<h3 name="pos">POS : Parts-of-Speech Tagging</h3>
 
 - The process of assigning/tagging a grammatical label (such as noun, verb, adjective) to each word in a sentence.
 - The computer understands the role of each word, similar to how humans learn about parts of speech.
@@ -257,7 +274,7 @@ Token for Token in the text if not in `Stopwords.words()`
 - lazy (adjective)
 - dog (noun)
 
-<h2 name="bag"> Bag of Words </h2>
+<h3 name="bag"> Bag of Words </h3>
 
 - A method for representing text documents as a collection of words.
 - Creates a dictionary of unique words with numbers of occurrences of words in a paragraph or sentence.
@@ -267,13 +284,13 @@ Token for Token in the text if not in `Stopwords.words()`
 - `Polarity`: Positive `+1`, Negative `-1` or Neutral `0`
 - In a BoW model, the order or grammar of the words is not taken into account, only the frequency of each word.
 
-<h2 name="vector">Vectorization</h2>
+<h3 name="vector">Vectorization</h3>
 
 - **Converting** text to some special numeric code that an algorithm and ML model can understand and learn.
 - The numeric code is called a vector, a list of numbers that capture the important information from the text.
 - **Process** of encoding text as integers to create a feature matrix.
 
-<h2 name="tfidf">TF - IDF</h2>
+<h3 name="tfidf">TF - IDF</h3>
 
 ![TFIDF](Image/TFIDF.png)
 
@@ -290,7 +307,7 @@ Token for Token in the text if not in `Stopwords.words()`
 2. **N Grams** (Combination of `adjacent` words)
 3. **Term Frequency - Inverse Document Frequency** (TD - IDF) 
 
-<h2 name="ngram">N Grams</h2>
+<h3 name="ngram">N Grams</h3>
 
 - N-grams are sequences of N words that appear together in a text.
 - Instead of looking at individual words, you group them in chunks.
@@ -315,7 +332,7 @@ Token for Token in the text if not in `Stopwords.words()`
 
 `Google Search` **suggests** `bigrams`, and `trigrams` in their `keyword` **suggestions**.  
 
-<h2 name="ner">Name Entity Recognition</h2>
+<h3 name="ner">Name Entity Recognition</h3>
 
 1. Computers use NER to find, classify, and represent important names with specific categories in text data.
 2. Categories like People (Name of the individual), Organizations (Companies, WHO), Locations (Country, City), Dates, Times, and Money.
@@ -362,7 +379,7 @@ Token for Token in the text if not in `Stopwords.words()`
 - **Extracting** `title`, `text` and `media` from a `book`, `article` or simply `HTML tags` from `web page`
 - e.g. `Google Search`
 
-<h2 name="cloud"> Word Cloud </h2>
+<h3 name="cloud"> Word Cloud </h3>
 
 - A graphical/visual way to see which words appear most often in a piece of text.
 - The size of the word reflects its frequency.
