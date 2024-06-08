@@ -48,12 +48,12 @@
 - Interaction between computers and humans using the natural language.
 - **Natural Language Understanding (NLU)** and **Natural Language Generation (NLG)** are both subfields of **NLP**
 - **Core Idea:**  Equipping computers with the ability to understand, interpret, and manipulate human language.
-- NLP holds the potential to revolutionize the way we interact with machines and unlock a new era of human-computer collaboration.  
+- NLP can revolutionise how we interact with machines and unlock a new era of human-computer collaboration.  
 
 **Why is NLP Important?**
 
 * **Human-like Interaction:** NLP allows users to interact with computers more naturally and intuitively, using everyday language instead of complex codes.
-* **Unlocks Information:** NLP helps computers process and make sense of the massive amount of textual data available in the world, opening doors to discoveries and insights. 
+* **Unlocks Information:** NLP helps computers process and make sense of massive textual data available worldwide, opening doors to discoveries and insights. 
 * **Automates Tasks:** NLP can automate many tasks that previously required human intervention, such as document classification,  sentiment analysis, and  machine translation.
 
 **What Does NLP Do?**
@@ -77,109 +77,6 @@
 * **Social Media Analysis:** Extracting insights from social media conversations to understand public opinion and trends.
 * **Machine Translation:** Breaking down language barriers by enabling seamless communication across cultures. 
 * **Customer Service Chatbots:** Providing 24/7 customer support through chatbots that can answer questions and resolve issues.
-
-<h2 name="nlu"> Natural Language Understanding (NLU) </h2>
-
-- `NLU` focuses on getting computers to understand the meaning behind human language.
-- It goes beyond just the literal words and considers factors like grammar, context, and sentiment.
-- NLU is crucial for tasks like question-answering systems or chatbots that need to grasp the intent behind a user's query.
-- **Goal:** Enable machines to understand the meaning and intent behind human language, similar to how humans comprehend each other.
-- **Challenges:** Human language is full of complexities, ambiguity, sarcasm, slang, and cultural references, that make it difficult for computers to grasp the true meaning.
-
-**How Does NLU Work?**
-
-1. **Parsing:**
-- Breaking down sentences into their grammatical components like phrases and clauses.
-- This helps understand the relationships between words.
-
-2. **Semantic Analysis:**
-- Unveiling the meaning of words and phrases. This goes beyond just the dictionary definition and considers context. 
-
-3. **Discourse Analysis:**
-- Understanding how sentences flow together and relate to each other within a conversation or text.
-- This helps grasp the overall theme and intent.
-
-5. **Machine Learning:**
-- NLU systems are often powered by machine learning models trained on vast amounts of text data.
-- These models learn to identify patterns and relationships within language, allowing them to make better sense of new inputs.
-
-**Applications of NLU**
-
-* **Chatbots and Virtual Assistants:** NLU empowers chatbots and virtual assistants to understand user queries and requests more accurately, enabling them to provide helpful and informative responses.
-* **Machine Translation:** NLU is essential for accurate machine translation, as it allows the system to understand the nuances of the source language and translate it naturally into the target language.
-* **Sentiment Analysis:** NLU is used to analyze the sentiment or emotion behind the text, which is valuable for tasks like gauging customer satisfaction or understanding public opinion on social media.
-* **Question Answering Systems:** NLU allows machines to comprehend complex questions and answer them accurately by finding relevant information from a vast knowledge base.
-* **Text Summarization:** NLU can be used to automatically generate summaries of lengthy pieces of text, helping people quickly grasp the key points.
-
-<h2 name="nlq">Natural Language Query (NLQ) </h2>
-
-- `NLQ` isn't as widely used as `NLP`, `NLU`, and `NLG`, but it's related.
-- `NLQ` refers to formulating a question or request in natural language.
-- For instance, instead of using a specific search bar format, you might ask a search engine a question in plain English like "What is the capital of France?".
-- NLQ highlights the goal – of allowing users to interact with computers using natural human language.
-* **Focus:** Expressing questions or requests in a way that is natural and intuitive for humans.
-* **Examples:** Instead of writing a complex SQL query to filter a database, you could ask an NLQ system a question like "What are the top-selling products this month?".
-* Similarly, instead of using specific search operators on a search engine, you could ask "What is the capital of France?"
-
-### **Benefits of NLQ:**
-
-* **Accessibility:** NLQ makes information systems more accessible to a wider range of users, even those without any formal training in query languages.
-* **Ease of Use:** NLQ allows users to interact with systems in a way that is more natural and intuitive, reducing the need to learn complex syntax.
-* **Efficiency:** For simple queries, NLQ can sometimes be faster and more efficient than using traditional query languages.
-
-**Challenges of NLQ:**
-
-* **Ambiguity:** Natural language can be ambiguous, and NLQ systems can sometimes misinterpret the user's intent.
-* **Complexity:** For complex queries, NLQ systems may not be able to fully capture all of the nuances of the user's needs.
-* **Limited Capabilities:** NLQ systems are still under development, and their capabilities may be limited compared to traditional query languages.
-
-**Where is NLQ Used?**
-
-* **Search Engines:** Many search engines now allow users to submit queries in natural language.
-* **Business Intelligence Tools:**  NLQ is being integrated into business intelligence tools like Power BI, Google Sheets (Duet AI) and Microsoft Excel (Copilot) to allow users to ask questions about their data using natural language.
-* **Virtual Assistants:** Virtual assistants like Siri and Alexa rely on NLQ to understand user requests.
-* **Customer Service Chatbots:** Chatbots can use NLQ to answer customer questions and resolve issues.
-
-<h2 name="nlg"> Natural Language Generation (NLG) </h2>
-
-- NLG flips the script/query and focuses on machines generating human-like text.
-- NLG takes data and translates it into natural language that a human can understand.
-- Examples include machine translation tools or chatbots that can provide summaries of factual topics.
-
-**How Does NLG Work?**
-
-1. **Data Preparation:**
-- The first step involves getting the data in a format that the NLG system can understand.
-- This might involve cleaning the data, organizing it, and potentially converting it into a structured format.
-
-2. **Template Selection:**
-- NLG systems often rely on pre-defined templates that act as a blueprint for generating text.
-- These templates include placeholders for specific information that gets filled in later.
-
-3. **Content Generation:**
-- Once the template is chosen, the NLG system uses its knowledge and understanding of language to fill in the placeholders with relevant information and ensure grammatical correctness and coherence.
-
-4. **Review and Refinement:**
-- The generated text might undergo review and refinement to ensure it sounds natural and matches the desired style or tone.
-
-**Applications of NLG**
-
-1. **Customer Service:**
-- NLG can be used to generate automated responses to frequently asked questions or create personalized reports for customers.
-
-2. **Finance:**
-- NLG can be used to create financial reports, summaries of investment performance, or even generate automated news articles about financial markets.
-
-3. **Marketing:**
-- NLG can be used to personalize marketing content or generate targeted product descriptions.
-
-4. **Media and News:**
-- NLG can be used to automate sports reports, weather forecasts, or even create summaries of news articles.
-
-5. **Healthcare:**
-- NLG can be used to generate patient reports, summarize medical findings, or create personalized treatment plans.
-
-As NLG technology continues to develop, we can expect to see even more innovative applications emerge in the future.
 
 <h2 name="corpus">Corpus</h2>
 
