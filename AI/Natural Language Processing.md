@@ -4,40 +4,34 @@
 
 <table align="center">
   <tr>
-    <td>1. <a href="#nlp">NLP</a> </td>
-    <td>2. <a href="#nlu">NLU</a></td>
-    <td>3. <a href="#nlq">NLQ</a></td>
-    <td>4. <a href="#nlg">NLG</a></td>
+    <td><a href="#nltk">NLTK</a> </td>
+    <td><a href="#stem">Stemming</a></td>
+    <td><a href="#bag">Bag of Words</a></td>
+    <td><a href="#ner">Name Entity Recognition</a></td>
   </tr>
   <tr>
-    <td>5. <a href="#nltk">NLTK</a> </td>
-    <td>6. <a href="#stem">Stemming</a></td>
-    <td>7. <a href="#bag">Bag of Words</a></td>
-    <td>8. <a href="#ner">Name Entity Recognition</a></td>
+    <td><a href="#mine">Text Analysis | Text Mining</a> </td>
+    <td><a href="#lemma">Lemmatization</a></td>
+    <td><a href="#vector">Vectorization</a></td>
+    <td><a href="#cloud">Word Cloud</a></td>
   </tr>
   <tr>
-    <td>9. <a href="#mine">Text Analysis | Text Mining</a> </td>
-    <td>10. <a href="#lemma">Lemmatization</a></td>
-    <td>11. <a href="#vector">Vectorization</a></td>
-    <td>12. <a href="#cloud">Word Cloud</a></td>
+    <td><a href="#app">Real World Application</a> </td>
+    <td><a href="#norm">Text Normalization</a></td>
+    <td><a href="#tfidf">TF-IDF</a></td>
+    <td><a href="#word2vec"> Word2vec </a></td>
   </tr>
   <tr>
-    <td>13. <a href="#app">Real World Application</a> </td>
-    <td>14. <a href="#norm">Text Normalization</a></td>
-    <td>15. <a href="#tfidf">TF-IDF</a></td>
-    <td>16. <a href="#word2vec"> Word2vec </a></td>
+    <td><a href="#pipe">NLP Pipeline</a> </td>
+    <td><a href="#stop">Stop Word</a></td>
+    <td><a href="#ngram">N Grams</a></td>
+    <td><a href="#doc2vec"> Doc2vec </a></td>
   </tr>
   <tr>
-    <td>17. <a href="#pipe">NLP Pipeline</a> </td>
-    <td>18. <a href="#stop">Stop Word</a></td>
-    <td>19. <a href="#ngram">N Grams</a></td>
-    <td>20. <a href="#doc2vec"> Doc2vec </a></td>
-  </tr>
-  <tr>
-    <td>21. <a href="#token">Tokenization</a> </td>
-    <td>22. <a href="#pos">Part of Speech</a></td>
-    <td>23. <a href="#vector">Vectorization</a></td>
-    <td>24. <a href="#corpus">Corpus</a></td>
+    <td><a href="#token">Tokenization</a> </td>
+    <td><a href="#pos">Part of Speech</a></td>
+    <td><a href="#vector">Vectorization</a></td>
+    <td><a href="#corpus">Corpus</a></td>
   </tr>
 </table>
 
