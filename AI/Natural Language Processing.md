@@ -166,8 +166,8 @@
 
 <h3 name="token">Tokenization</h3>
 
-- The process of breaking down text into smaller units, such as words, punctuations, special characters, characters, etc.
-- This is the first step in many NLP tasks, as it allows the model to process the text in the most manageable way.
+- The process of breaking down text into smaller units for analysis.
+- Sokitting sentences into words, punctuations, characters, or even sequences of characters.
 - The computer works better with smaller chunks, is easier to understand, and identifies important words.
 
 ```python
@@ -177,42 +177,41 @@ Word = "Hi, my name is Kirankumar"
 
 <h3 name="stem">Stemming</h3>
 
-- Stemming is a process of reducing a word to its `stem` | `root` | `base` form.
+- Stemming is a process of reducing a word to its stem/root/base form.
 - Stemming removes common suffixes and prefixes from the word (ing, es, s, ed)
 - For example, the words "playing", "played", "plays", and "players" would all be stemmed down to "play"
 - Stemming can be helpful for tasks like information retrieval, as it allows the model to match words with different suffixes.
 - Reduces data size (saves storage space, improves processing speed)
 
-`Stemming` is applied on `tokens` 
+**Stemming is applied on tokens**
 
 ```python
 stem(token) 
 ```
 
 ### Types of Stemmers
-1. **Porter** Stemmer (**Oldest** with very **low accuracy** : fairly > `fairli`)
-2. **Snowball** Stemmer (**Better** than **Porter** and **Lancaster** : fairly > `fair`)
-3. **Lancaster** Stemmer (**Fastest** with **least accuracy**)
+1. **Porter Stemmer**: Oldest with very low accuracy: fairly > fairli)
+2. **Snowball Stemmer**: Better than Porter and Lancaster: fairly > fair
+3. **Lancaster Stemmer**: Fastest with least accuracy
 
 <h3 name="lemma">Lemmatization</h3>
 
-- A more sophisticated form of stemming that takes into account the context of a word to determine its base form.
-- Grouping the **derived forms** of words so that they can be analyzed as a `single` base form.
-- Actually `transforms` words to the **actual root**.
-- Used in **search engines** to search by `keywords`. `Lemma` is an actual word (Better > Good)
+- A more sophisticated form of stemming that considers a word's context to determine its dictionary form.
+- Transform words to the actual dictionary form. More accurate than stemming but might require a larger dictionary.
+- Used in **search engines** to search by keywords. Lemma is an actual word (Better > Good)
 
 ### WordNet Lemmatizer
 
-- **Database** for `English` (Most popular **Lemmatizer**)
-- `Nouns`, `Verbs`, `Adjectives` and `Adverbs` are **grouped** into sets of **Cognitive Synonyms**.  
+- Database for English (Most popular **Lemmatizer**)
+- Nouns, Verbs, Adjectives and Adverbs are grouped into cognitive synonym sets.  
 - e.g. {'consult', 'consultation', 'consulting', 'consultant'} - consult
 
 Stemming | Lemmatization
 :--- | :---
 **Speed** | **Accuracy**
-Simply `strips` end of the word to `stem` | **Converts** the word to its **meaningful** `base` form.
+Simply strip the end of the word to stem | **Converts** the word to its **meaningful** `base` form.
 
-### Text Preprocessing
+### **Text Preprocessing:**
 
 - Transforming raw text data into a format that computers can understand and analyze.
 - Cleaning and preparing the text: Removing irrelevant information, fixing errors, fixing spelling mistakes, converting to lowercase.
@@ -220,7 +219,7 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 - Understand the meaning: Stemming, lemmatization, Part-of-Speech tagging
 - Extracting information: Sentiment analysis, information retrieval
 
-### Noise Removal
+### **Noise Removal:**
 
 - Removing characters or pieces of text that can interfere with text analysis.
 - Remove punctuation, special characters, numbers, formatting, source code, header, etc.
@@ -235,29 +234,28 @@ Simply `strips` end of the word to `stem` | **Converts** the word to its **meani
 - Spelling Correction: Fixing typos and grammatical errors to ensure consistency and error-free.
 - Stop Words Removal: Remove common words that don't carry any meaning on their own (a, an, the, is, of)
 - Mapping of near identical words such as 'stopwords', 'stop-words' and 'stop words' to just 'stopwords'
-- Important when **noisy**, **misspelled**, **slang** and **out of vocabulory** ( `OOV` ) words are used. 
-- **Out of vocabulory** ( `OOV` ) : **Social media** comments, **blog** comments and **text messages**.
+- Important when **noisy**, **misspelled**, **slang** and **out of vocabulory** (OOV) words are used. 
+- **Out of vocabulory (OOV)** : **Social media** comments, **blog** comments and **text messages**.
 
 <h3 name="stop">Stop Word</h3>
 
-- Common words that don't carry any meaning on their own are filtered out before processing text.
-- Stop words are filler words like `a`, `an`, `in`, `on`, `and`, `the`, `or`, etc.
+- Common words with little meaning on their own are filtered out before processing text.
+- Stop words are filler words like a, an, in, on, and, the, or, etc.
 - Stopwords are ignored and removed so that we can focus on important words instead.
-- Search engines only search based on `keywords`
-- Search engines are programmed to `ignore` **stop words**.
+- Search engines only search based on keywords, they are programmed to ignore stop words.
 - These words don't provide much meaning on their own, so filtering them out can improve the efficiency of NLP tasks.
 
-How to `remove` stopwords using NLTK
+**How to remove stopwords using NLTK?**
 
-1. `Tokenize` and compare with the list of predefined `stopwords` and `drop` those words. 
+1. Tokenize and compare with the list of predefined stopwords and drop those words. 
 
 ```python
 Token for Token in the text if not in `Stopwords.words()` 
 ```
 
-<h3 name="pos">POS : Parts-of-Speech Tagging</h3>
+<h3 name="pos">Parts-of-Speech (POS) Tagging</h3>
 
-- The process of assigning/tagging a grammatical label (such as noun, verb, adjective) to each word in a sentence.
+- The process of assigning/tagging a part of speech label (such as noun, verb, adjective) to each word in a sentence.
 - The computer understands the role of each word, similar to how humans learn about parts of speech.
 - POS tagging can be helpful for tasks like sentiment analysis and machine translation.
 
@@ -274,38 +272,38 @@ Token for Token in the text if not in `Stopwords.words()`
 - lazy (adjective)
 - dog (noun)
 
-<h3 name="bag"> Bag of Words </h3>
+<h3 name="vector">Vectorization</h3>
+
+- Converting textual data to numerical vectors (list of numbers) that an algorithm and ML model can understand and process.
+- It's like translating human language into a format that ML algorithms can use.
+
+**Common vectorization techniques:**
+1. Bag-of-Words (BoW): Represents documents based on word frequency (How many times the word appears in the document)
+2. Term Frequency-Inverse Document Frequency (TF-IDF)
+3. Word Embeddings: Words with similar meanings are positioned closer together in the space, capturing relationships and context.
+
+<h3 name="bag">Bag of Words (BoW)</h3>
 
 - A method for representing text documents as a collection of words.
 - Creates a dictionary of unique words with numbers of occurrences of words in a paragraph or sentence.
 - e.g. well well well, said John. {'well':3, 'said':1, 'john':1}
-- Bag of words is represented in the form of **dictionary**. 
-- Expressed sentiments of words are defined by `polarity`
-- `Polarity`: Positive `+1`, Negative `-1` or Neutral `0`
-- In a BoW model, the order or grammar of the words is not taken into account, only the frequency of each word.
-
-<h3 name="vector">Vectorization</h3>
-
-- **Converting** text to some special numeric code that an algorithm and ML model can understand and learn.
-- The numeric code is called a vector, a list of numbers that capture the important information from the text.
-- **Process** of encoding text as integers to create a feature matrix.
+- Expressed sentiments of words are defined by polarity. Polarity: Positive (+1), Negative (-1) or Neutral (0)
+- In a BoW model, the order of the words is not taken into account, only the frequency of each word.
 
 <h3 name="tfidf">TF - IDF</h3>
 
 ![TFIDF](Image/TFIDF.png)
 
 - **Term Frequency - Inverse Document Frequency**
-- TF-IDF is a statistical method used to determine the importance of a word in a document in a collection or corpus.
-- **TF:** This considers how often a word appears in a single document.
-- The more times a word shows up, the higher its TF score.
+- TF-IDF helps to determine the importance of a word (term) in a document (collection or corpus)
+- **TF:** How often a word appears in a single document. The more times a word shows up, the higher its TF score.
 - **IDF:** How often a word appears in the entire collection of documents.
-- If the word is common, it's not that special (low IDF)
-- But if it's rare, it becomes more important (high IDF)
+- Common words that appear frequently have low IDF and rare words that are specific have high IDF.
+- Common words (the, a, is) might not be that important so TF-IDF reduces the weight of these words.
+- Higher weights are assigned to the important words.   
 
-### Different Types
-1. Count vectorization (Create a document term matrix that represents the count of occurrence)
-2. **N Grams** (Combination of `adjacent` words)
-3. **Term Frequency - Inverse Document Frequency** (TD - IDF) 
+### **Word2Vec**
+- 
 
 <h3 name="ngram">N Grams</h3>
 
