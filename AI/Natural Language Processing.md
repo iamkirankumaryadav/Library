@@ -272,15 +272,23 @@ Token for Token in the text if not in `Stopwords.words()`
 - lazy (adjective)
 - dog (noun)
 
+### **Word Embedding**
+- Allows the computer to understand the meaning and relationships between words.
+- Represents words as vectors in a high-dimensional space.
+- Position in the vector space encodes semantic relationships.
+- Words with similar meanings are positioned closer together in space.
+
 <h3 name="vector">Vectorization</h3>
 
 - Converting textual data to numerical vectors (list of numbers) that an algorithm and ML model can understand and process.
 - It's like translating human language into a format that ML algorithms can use.
 
 **Common vectorization techniques:**
-1. Bag-of-Words (BoW): Represents documents based on word frequency (How many times the word appears in the document)
-2. Term Frequency-Inverse Document Frequency (TF-IDF)
-3. Word Embeddings: Words with similar meanings are positioned closer together in the space, capturing relationships and context.
+1. **Bag-of-Words (BoW):** Represents documents based on word frequency (How many times the word appears in the document)
+2. **Term Frequency-Inverse Document Frequency (TF-IDF)**
+3. **Word Embeddings:** Words with similar meanings are positioned closer together in the space, capturing relationships and context.
+4. **Word2Vec:** Predicting Context.
+5. **GloVe:** Analyzing Co-occurrence Probabilities.
 
 <h3 name="bag">Bag of Words (BoW)</h3>
 
@@ -303,40 +311,49 @@ Token for Token in the text if not in `Stopwords.words()`
 - Higher weights are assigned to the important words.   
 
 ### **Word2Vec**
-- 
+- Captures the semantic relationships between words by representing them as vectors in high-dimensional space.
+- Words with similar meanings are positioned together in the vector space.
+- Words that appear in similar contexts likely have similar meanings.
+- The model analyzes the co-occurrence of words within a specific window size.
+- Continuous Bag of Words: The model predicts the current word based on surrounding words within a specific window.
+- CBoW tries to predict the missing word based on the context provided by the surrounding words.
+- Word2Vec goes beyond word frequency and captures the meaning and context behind words.
+- Skip Gram: It takes a single word and tries to predict the surrounding words with a specific context window.
+
+### **GloVe (Global Vectors for Word Representation)**
+- GloVe analyzes the ratios of co-occurrence probabilities between words. e.g. Ice co-occurs with solid.
+- GloVe starts by creating a co-occurrence matrix, it shows how frequently each word appears alongside other words.
+- Breakdowns the matrix into smaller components that capture the semantic relationships between words.
+- Each word is assigned a unique vector in the high dimensional space.
+- Words with similar co-occurrence patterns will have vectors positioned closer together in this space.
+- GloVe incorporates valuable statistical information about word usage. It can handle words with multiple meanings (polysemy)
 
 <h3 name="ngram">N Grams</h3>
 
 - N-grams are sequences of N words that appear together in a text.
-- Instead of looking at individual words, you group them in chunks.
-- N refers to the number of words in each chunk.
+- Instead of looking at individual words, you group them in chunks. N refers to the number of words in each chunk.
 - It helps in predicting the next word (Helpful for tasks like auto-completion in search engines)
 - Understanding language patterns: We can learn common phrases.
 - Sentiment analysis: e.g. Trigram "feeling very happy": Positive sentiment
 
-### Unigram (N=1)
-- Single words
-- Example: "The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog".
+### 1. **Unigram (N=1) | Single Word**
+- Example: "The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"
 
-### Bigram (N=2)
+### 2. **Bigram (N=2) | Sequences of two words**
+- Example: "The quick", "quick brown", "brown fox", "fox jumps", "jumps over", "over the", "the lazy", "lazy dog"
 
-- Sequences of two words
-- Example: "The quick", "quick brown", "brown fox", "fox jumps", "jumps over", "over the", "the lazy", "lazy dog".
-
-### Trigrams (N=3)
-
-- Sequences of three words
+### 3.**Trigrams (N=3) | Sequences of three words**
 - Example: "The quick brown", "quick brown fox", "brown fox jumps", "fox jumps over", "jumps over the", "over the lazy", "the lazy dog".
 
-`Google Search` **suggests** `bigrams`, and `trigrams` in their `keyword` **suggestions**.  
+Google Search suggests bigrams and trigrams in their keyword suggestions.  
 
 <h3 name="ner">Name Entity Recognition</h3>
 
-1. Computers use NER to find, classify, and represent important names with specific categories in text data.
+1. NER deals with identifying and classifying named entities (words) in text and assigning labels (categories).
 2. Categories like People (Name of the individual), Organizations (Companies, WHO), Locations (Country, City), Dates, Times, and Money.
-3. Once identified, NER assigns a label (category) to each entity (word)
-4. This helps to extract important information automatically from large amount of text data. Saves time and effort.
-5. Helps organize and structure information, making it easier to analyze and understand.
+3. This helps to extract important information automatically from large amount of text data. Saves time and effort.
+4. Helps organize and structure information, making it easier to analyze and understand.
+5. NER extracts information from the text data, it helps to understand relationships and context.
 6. e.g. Narendra Modi (Person) visited Bangalore (Location) in March (Month) 2024 (Year).
 
 ![NER](Image/NER.png)
@@ -370,22 +387,22 @@ Token for Token in the text if not in `Stopwords.words()`
 - Build structure by understanding the relationship between words and phrases.
 
 ### Sentiment Analysis
-- `Feeling`, `emotion`, `reaction`, `satisfaction` of the user, customer or consumer expressing their `feedback`
+- Feeling, emotion, reaction, and satisfaction of the user, customer or consumer expressing their feedback.
+- Determine the emotional tone of a piece of text by applying Lexicon (Large dictionary of words with sentiment scores)
+- It analyzes text data to classify the sentiment expressed as positive, negative, or neutral.
 
 ### Information Retrieval
-- Process of `accessing` and `retrieval` of appropriate information  from text.
-- **Extracting** `title`, `text` and `media` from a `book`, `article` or simply `HTML tags` from `web page`
-- e.g. `Google Search`
+- Process of accessing and retrieval of appropriate information  from text.
+- **Extracting** title, text and media from a book, article or simply HTML tags from a web page.
 
-<h3 name="cloud"> Word Cloud </h3>
+<h3 name="cloud">Word Cloud</h3>
 
 - A graphical/visual way to see which words appear most often in a piece of text.
-- The size of the word reflects its frequency.
-- Analyze the text, identify the words, count the words, build the cloud
+- The size of the word reflects its frequency. Analyze the text, identify the words, count the words, and build the cloud.
 
 ### Sparse Matrix
-- A matrix in which most entries are `0` helps in **efficient storage**.
-- Stores only `location` of **non zero elements**.
+- A matrix in which most entries are 0 helps in **efficient storage**.
+- Stores only location of **non zero elements**.
 
 ### Chunking
 - Grouping individual pieces of information into big chunks.
