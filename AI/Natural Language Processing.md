@@ -474,9 +474,6 @@ Google Search suggests bigrams and trigrams in their keyword suggestions.
 
 ![One Hot Vector](Image/OHV.png)
 
-### BERT 
-- Google's pre trained **bidirectional encoder representation for transformers** used for **transfer learning**.
-
 [Text Classification](https://towardsdatascience.com/text-classification-with-nlp-tf-idf-vs-word2vec-vs-bert-41ff868d1794)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
