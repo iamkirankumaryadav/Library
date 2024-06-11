@@ -161,7 +161,7 @@
 3. Create `Tokens` (Create a list by splitting every `word`)
 4. Remove `Stopwords`
 5. Apply Stemming | Lemmatization (Reduce derived words to `stem` words)
-6. `Vectorize` data to prepare for model built (Convert text to `number`)
+6. `Vectorize` data to prepare for a model built (Convert text to `number`)
 7. **Feature Engineering** (**Creating** new feature or **transforming** existing features to get most out of data)
 
 <h3 name="token">Tokenization</h3>
@@ -177,7 +177,7 @@ Word = "Hi, my name is Kirankumar"
 
 <h3 name="stem">Stemming</h3>
 
-- Stemming is a process of reducing a word to its stem/root/base form.
+- Stemming reduces a word to its stem/root/base form.
 - Stemming removes common suffixes and prefixes from the word (ing, es, s, ed)
 - For example, the words "playing", "played", "plays", and "players" would all be stemmed down to "play"
 - Stemming can be helpful for tasks like information retrieval, as it allows the model to match words with different suffixes.
@@ -197,7 +197,7 @@ stem(token)
 <h3 name="lemma">Lemmatization</h3>
 
 - A more sophisticated form of stemming that considers a word's context to determine its dictionary form.
-- Transform words to the actual dictionary form. More accurate than stemming but might require a larger dictionary.
+- Transform words to the actual dictionary form. It's more accurate than stemming but might require a larger dictionary.
 - Used in **search engines** to search by keywords. Lemma is an actual word (Better > Good)
 
 ### WordNet Lemmatizer
@@ -292,11 +292,10 @@ Token for Token in the text if not in `Stopwords.words()`
 
 <h3 name="bag">Bag of Words (BoW)</h3>
 
-- A method for representing text documents as a collection of words.
 - Creates a dictionary of unique words with numbers of occurrences of words in a paragraph or sentence.
 - e.g. well well well, said John. {'well':3, 'said':1, 'john':1}
 - Expressed sentiments of words are defined by polarity. Polarity: Positive (+1), Negative (-1) or Neutral (0)
-- In a BoW model, the order of the words is not taken into account, only the frequency of each word.
+- BoW ignores word order and the relationship between words, only the frequency of each word matters.
 
 <h3 name="tfidf">TF - IDF</h3>
 
@@ -308,7 +307,9 @@ Token for Token in the text if not in `Stopwords.words()`
 - **IDF:** How often a word appears in the entire collection of documents.
 - Common words that appear frequently have low IDF and rare words that are specific have high IDF.
 - Common words (the, a, is) might not be that important so TF-IDF reduces the weight of these words.
-- Higher weights are assigned to the important words.   
+- Higher weights are assigned to the important words.
+
+![Word2Vec](Image/Word2Vec.jpeg)
 
 ### **Word2Vec**
 - Captures the semantic relationships between words by representing them as vectors in high-dimensional space.
@@ -327,6 +328,47 @@ Token for Token in the text if not in `Stopwords.words()`
 - Each word is assigned a unique vector in the high dimensional space.
 - Words with similar co-occurrence patterns will have vectors positioned closer together in this space.
 - GloVe incorporates valuable statistical information about word usage. It can handle words with multiple meanings (polysemy)
+
+![Doc2Vec](Image/Doc2Vec.jpeg)
+
+### **Doc2Vec: Document Vectorization**
+- Represents the entire document as numerical vectors. Predicts the document vector based on the words within it.
+- Allows machines to process and analyze documents based on content, rather than just keywords.
+- Doc2Vec addresses the word order and relationships by creating a vector representation for the entire document.
+- During training, the model considers the words within a document and their co-occurrence patterns to learn vector representation.
+- Documents with similar meanings will have vectors closer together in high-dimensional space.
+- Doc2Vec embeddings can be used for document classification, clustering, information retrieval, and recommendation systems.
+
+<table align='center'>
+  <tr>
+    <th>
+      <h4>word2vec (Word 2 Vector)</h4>      
+    </th>
+    <th>
+      <h4>doc2vec (Document 2 Vector)</h4>
+    </th>
+  </tr> 
+  <tr>
+    <th colspan='2'>Accept large corpus of text as input</th>
+  </tr>
+  <tr>
+    <th colspan='2'>Vector: Numeric representation of word and document (One Hot Vector)</th>
+  </tr>
+  <tr>
+    <td>Returns a set of vectors for each <b>word</b></t>
+    <td>Returns a set of vectors for entire <b>sentence</b></t>
+  </tr>
+  <tr>
+    <td>Vectors are converted to <b>Array</b></t>
+    <td>Vectors are converted to <b>List</b></t>
+  </tr>
+  <tr>
+    <th colspan='2'>Use the neural network to learn word association from a large corpus of text</th>
+  </tr>
+  <tr>
+    <th colspan='2'>Detect synonymous words or suggest next words for a partial sentence ( Autocomplete | Search bar suggestion )</th>
+  </tr>
+ </table>
 
 <h3 name="ngram">N Grams</h3>
 
@@ -409,66 +451,6 @@ Google Search suggests bigrams and trigrams in their keyword suggestions.
 
 ### Transformation
 - Standardization or Normalization of Data.
-
-### **Word2Vec** (Word Vectorization)
-- A technique in NLP used to represent words as numerical vectors.
-- These vectors capture the meaning and relationships between words, allowing computers to understand language.
-- Word2Vec learns how words are used together and captures these relationships in numerical vectors.
-
-![Word2Vec](Image/Word2Vec.jpeg)
-
-**How does Word2Vec work?**
-- A large corpus of text data is fed into the system.
-- Word2Vec focuses on the context in which a word appears. It considers the words surrounding a particular word in a window.
-- Word2Vec creates a unique vector for each word.
-- This vector is like a code that represents the word's meaning and its connection to other words.
-- Words with similar meanings will have vectors that are closer together in the vector space.
-- The position of a word's vector reflects its meaning based on its surrounding words.
-
-### Doc2Vec (Document Vectorization)
-- A technique in NLP used to represent the entire document as a numerical vector, capturing the overall meaning and topic of the document.
-- Doc2Vec is an extension of Word2Vec. It treats the entire document as a unique entity.
-- It first captures and analyzes the words used in the document and considers their relationships.
-- Doc2Vec also takes into account a unique identifier for the document itself (Just to distinguish it from other documents)
-- Doc2Vec creates a single vector representation for the entire document.
-- This vector encodes the document's meaning based on the words it contains and its unique identity within the collection.
-- Documents with similar topics will have vectors closer together in the vector space.
-- Document clustering, finding similar articles and recommendation engines.
-- Classifying email (We can pass the whole email instead of just keywords)
-- Doc2Vec bridges the gap between understanding individual words and grasping the meaning of entire documents.
-
-![Doc2Vec](Image/Doc2Vec.jpeg)
-
-<table align='center'>
-  <tr>
-    <th>
-      <h4>word2vec (Word 2 Vector)</h4>      
-    </th>
-    <th>
-      <h4>doc2vec (Document 2 Vector)</h4>
-    </th>
-  </tr> 
-  <tr>
-    <th colspan='2'>Accept large corpus of text as input</th>
-  </tr>
-  <tr>
-    <th colspan='2'>Vector: Numeric representation of word and document (One Hot Vector)</th>
-  </tr>
-  <tr>
-    <td>Returns a set of vectors for each <b>word</b></t>
-    <td>Returns a set of vectors for entire <b>sentence</b></t>
-  </tr>
-  <tr>
-    <td>Vectors are converted to <b>Array</b></t>
-    <td>Vectors are converted to <b>List</b></t>
-  </tr>
-  <tr>
-    <th colspan='2'>Use the neural network to learn word association from a large corpus of text</th>
-  </tr>
-  <tr>
-    <th colspan='2'>Detect synonymous words or suggest next words for a partial sentence ( Autocomplete | Search bar suggestion )</th>
-  </tr>
- </table>
 
 ### One Hot Vector
 
