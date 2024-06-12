@@ -60,7 +60,7 @@
 - Analyzing the meaning and intent behind written words, considering factors like grammar, context, and sentiment.
 
 2. **Generating Text:** 
-- Creating human-readable text formats like news articles, chatbot responses, or even creative content using NLG.
+- Creating human-readable text formats like QA, codes, emails, news articles, chatbot responses, or even creative content using NLG.
 
 3. **Machine Translation:** 
 - Converting text from one language to another while preserving the original meaning.
