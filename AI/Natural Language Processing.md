@@ -22,13 +22,12 @@
     <td><a href="#word2vec"> Word2vec </a></td>
   </tr>
   <tr>
-    <td><a href="#pipe">NLP Pipeline</a> </td>
+    <td><a href="#token">Tokenization</a> </td>
     <td><a href="#stop">Stop Word</a></td>
     <td><a href="#ngram">N Grams</a></td>
     <td><a href="#doc2vec"> Doc2vec </a></td>
   </tr>
   <tr>
-    <td><a href="#token">Tokenization</a> </td>
     <td><a href="#pos">Part of Speech</a></td>
     <td><a href="#vector">Vectorization</a></td>
     <td><a href="#corpus">Corpus</a></td>
@@ -153,16 +152,6 @@
 10. Document summarization: Read articles and newspapers (Blind people)
 11. Text classification.
 12. Part of speech `tagging` (**Part of speech** of the corresponding word)
-
-<h3 name="pipe">NLP Pipeline</h3>
-
-1. Read **raw** text.
-2. Remove `Punctuations`
-3. Create `Tokens` (Create a list by splitting every `word`)
-4. Remove `Stopwords`
-5. Apply Stemming | Lemmatization (Reduce derived words to `stem` words)
-6. `Vectorize` data to prepare for a model built (Convert text to `number`)
-7. **Feature Engineering** (**Creating** new feature or **transforming** existing features to get most out of data)
 
 <h3 name="token">Tokenization</h3>
 
