@@ -156,7 +156,7 @@
 <h3 name="token">Tokenization</h3>
 
 - The process of breaking down text into smaller units for analysis.
-- Sokitting sentences into words, punctuations, characters, or even sequences of characters.
+- Splitting sentences into words, punctuations, characters, or even sequences of characters.
 - The computer works better with smaller chunks, is easier to understand, and identifies important words.
 
 ```python
