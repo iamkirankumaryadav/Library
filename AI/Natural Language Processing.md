@@ -303,6 +303,7 @@ Token for Token in the text if not in Stopwords.words()
 ### **Word2Vec**
 - Captures the semantic relationships between words by representing them as vectors in high-dimensional space.
 - Words with similar meanings are positioned together in the vector space.
+- e.g. The names of the cities, Mumbai, Kolkata, Delhi, Bengaluru, they will be positioned together in the vector space
 - Words that appear in similar contexts likely have similar meanings.
 - The model analyzes the co-occurrence of words within a specific window size.
 - Continuous Bag of Words: The model predicts the current word based on surrounding words within a specific window.
