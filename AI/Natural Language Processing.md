@@ -141,17 +141,17 @@
 <h3 name="app"> Applications : NLP in real life </h3>
 
 1. Google Translate. (Speech to text)
-2. Email `spam` filter (Search for texts related to spam email)
+2. Email spam filter (Search for texts related to spam email)
 3. Google search and Gmail auto-complete (Prediction of **next words** and **suggestions**) 
 4. Word processor | Grammer check | Autocorrect in Microsoft and Google productivity Apps.
 5. Grammerly | Grammer correction and spelling correction in Gmail and Outlook.
 6. IVR | Interactive voice response in call centres.
-7. Voice assistant: `Google Assistant`, `Apple Siri`, `Microsoft Cortana` and `Amazon Alexa`.
+7. Voice assistant: Google Assistant, Apple Siri, Microsoft Cortana and Amazon Alexa.
 8. Chatbots.
 9. Customer feedback sentiment analysis (😊🙂😔😡)
 10. Document summarization: Read articles and newspapers (Blind people)
 11. Text classification.
-12. Part of speech `tagging` (**Part of speech** of the corresponding word)
+12. Part of speech tagging (**Part of speech** of the corresponding word)
 
 <h3 name="token">Tokenization</h3>
 
@@ -198,7 +198,7 @@ stem(token)
 Stemming | Lemmatization
 :--- | :---
 **Speed** | **Accuracy**
-Simply strip the end of the word to stem | **Converts** the word to its **meaningful** `base` form.
+Simply strip the end of the word to stem | **Converts** the word to its **meaningful** base form.
 
 ### **Text Preprocessing:**
 
@@ -239,7 +239,7 @@ Simply strip the end of the word to stem | **Converts** the word to its **meanin
 1. Tokenize and compare with the list of predefined stopwords and drop those words. 
 
 ```python
-Token for Token in the text if not in `Stopwords.words()` 
+Token for Token in the text if not in Stopwords.words() 
 ```
 
 <h3 name="pos">Parts-of-Speech (POS) Tagging</h3>
