@@ -3,10 +3,10 @@
 # **How to deal with missing data?**
 
 - There is no particular approach for dealing with missing data.
-- The appropriate technique may vary depending on your dataset, specific context and the desired outcome.
+- The appropriate approach depends on your dataset (missing quantity), data type and the analysis goal.
 - **Missing data:** NULL | NAN | nan | NaN (Ignored while arithmetic operations)
-- Row | Observation | Tuple | Sample | Record
-- Column | Feature (Data Science) | Field (Excel) | Attribute | Dimension
+- Row | Observation | Tuple | Sample | Record            
+- Column | Feature (Data Science) | Field (Excel) | Attribute | Dimension 
 
 ### **How to identify missing values?**
 Check for None or NaN values:
@@ -37,8 +37,7 @@ missing_values = np.isnan(array)
 <h5 name="del">1. dropna(): Drop Missing Values</h5>
 
 - If the missing data is negligible and doesn't affect the overall analysis, drop the corresponding rows or columns.
-- Drop rows if missing values < 5% i.e. (axis = 0)
-- Drop columns if missing values > 70% i.e. (axis = 1)
+- Drop rows if missing values < 5% i.e. (axis = 0) | Drop columns if missing values > 70% i.e. (axis = 1)
 - Deleting irrelevant rows or columns helps to get a robust model.
 - But it's better to keep data rather than dropping, removing data may lead to loss of information.
 - If one value in observation is missing other values may be important.
@@ -63,7 +62,7 @@ df.dropna(axis=0, how='all')
 df.dropna(axis=1)
 ```
 
-<h5 name="impute"> 2. fillna(): Fill Missing Values</h5>
+<h5 name="impute">2. fillna(): Fill Missing Values</h5>
 
 - Imputation involves estimating missing values with the help of other available rows or columns.
 - Impute the numerical missing data with the sample mean or median (SimpleImputer: strategy = 'mean' or 'median') 
@@ -90,13 +89,13 @@ df['Sales'].fillna(0)
 - Bring new outliers in the dataset.
 - Changes the correlation among features and the impact of independent variables on the target variable.
 
-<h5 name="assign"> 3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h5>
+<h5 name="assign">3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h5>
 
 - Assign a **unique** category for data with **missing values** or assign with "Missing" flag.
 - **Flag** the **numeric** missing data with -1 or 0.
 - Create a difference between missing data and remaining non-missing data.
 
-<h5 name="predict"> 4. Predict Missing Value</h5>
+<h5 name="predict">4. Predict Missing Value</h5>
 
 - Fill missing data with the help of other **features** by **predicting** (**Multivariate** imputation) 
 - Use the non missing data (rows) as **train** set and missing data (rows) as **test** set.
@@ -134,11 +133,13 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 <h5 name="algo"> 5. Use algorithms that work fine with missing values</h5>
 
-- **KNN:** KNN fills the missing value by taking most of the K nearest values.
+- **KNN:** KNN fills the missing value by taking most of the K nearest values (Focus on nearest neighbours)
 - **Random forest:** Weak learners are trained by non-missing data and missing values can be used for testing.
+- **SVM:** SVM focuses on the support vectors nearest the hyperplane.
+- Experiment with different algorithms and compare their performance on specific datasets.
 
 ### **Domain Knowledge**
 - It will help us to understand the reason behind the missing data.
-- Understanding the cause can help us decide how to handle the missing data.
+- Understanding the cause can help us decide how to handle the missing data much better.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
