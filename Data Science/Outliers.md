@@ -6,11 +6,12 @@
 
 ### **What are outliers?**
 - Outliers are data points that differ significantly from other observations (data points) in the dataset.
-- Outlier affects the distribution of data by introducing skewness in the data and also affects the correlation among features.
-- Positive Skew / Right Skew (Mean is on the right side | Mode < Median < Mean)
-- Negative Skew / Left Skew (Mean is on the left side | Mode > Median > Mean) 
-- Outliers have a significant impact on the performance and lead to inaccurate predictions of new unseen data.
-- **Distant metric:** Algorithms that use the **Euclidean distance metric** are more sensitive to outliers.
+- Outliers affect the distribution of data by introducing skewness in the data and also affects the correlation among features.
+- Outliers affect the overall central tendency and measure of dispersion/deviation.
+- **Positive Skew/Right Skew:** Mean is on the right side | Mean > Median > Mode
+- **Negative Skew/Left Skew:** Mean is on the left side | Mode > Median > Mean
+- Outliers create a significant impact on the performance and lead to inaccurate predictions of new unseen data.
+- Algorithms that use the **Euclidean distance metric** (distance-based calculations) are more sensitive to outliers.
 
 ### **How to detect outliers?**
 
@@ -45,10 +46,10 @@ Divide the Data into 4 Equal Quarters **(Quartiles)**
 4. 3<sup>rd</sup> **Quartile** (**Q3**) | 75<sup>th</sup> **Percentile**: 75% of data values are smaller and 25% are larger.
 5. Maximum: **Highest** data point value in a dataset.
 
-Five Number Summary can be visually represented using **boxplot**.
+**Five Number Summary** can be visually represented using **boxplot**.
 - Horizontal lines on both ends of boxplots are whiskers.
 - Box is called **Interquartile Range** (IQR)
-- IQR = Q3 - Q1
+- IQR = Q3 - Q1 (Interquartile Range can define thresholds for outliers based on deviation from median)
 - Data value **<** Q1 - 1.5 * IQR
 - Data value **>** Q3 + 1.5 * IQR
 - Outlier is represented by a dot o in **boxplot**  
@@ -89,10 +90,12 @@ Five Number Summary can be visually represented using **boxplot**.
 3. **SVM:** Outliers can move the hyperplanes to less optimal positions, reducing classification accuracy.
 
 ### **How to handle outliers?**
-1. Set up a filter and trim extremely low and high data points in the dataset.
-2. Remove the outlier if it is very small, change the value of the outlier or replace it with something meaningful.
-3. Inter Quartile Range (IQR) and Extreme value analysis (Z Score)
-5. Rescale | Standardize | Normalize (Bring to the same scale) prevents outliers from dominating.
-6. Apply [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) ( `Bagging` and `Boosting` )
+
+1. Remove the outliers if they are truly errors or irrelevant to your analysis.
+2. Cap outliers by setting up a filter | Trim extremely low (min) and high (max) to bound the outliers.
+3. Impute/Replace the outlier value with something meaningful (mean, median, most_frequent)
+4. Rescale | Standardize | Normalize (Bring to the same scale) prevents outliers from dominating.
+5. Use Mean Absolute Error (MAE) and Mean Absolute Deviation (MAD) less sensitive to outliers.
+6. Apply algorithms that work perfectly or are less sensitive towards outliers i.e. [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) ( `Bagging` and `Boosting` )
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
