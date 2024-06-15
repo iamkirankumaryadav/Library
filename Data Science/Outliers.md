@@ -6,7 +6,7 @@
 
 ### **What are outliers?**
 - Outliers are data points that differ significantly from other observations (data points) in the dataset.
-- Outliers affect the distribution of data by introducing skewness in the data and also affects the correlation among features.
+- Outliers affect the distribution of data by introducing skewness in the data and also affect the correlation among features.
 - Outliers affect the overall central tendency and measure of dispersion/deviation.
 - **Positive Skew/Right Skew:** Mean is on the right side | Mean > Median > Mode
 - **Negative Skew/Left Skew:** Mean is on the left side | Mode > Median > Mean
@@ -96,6 +96,6 @@ Divide the Data into 4 Equal Quarters **(Quartiles)**
 3. Impute/Replace the outlier value with something meaningful (mean, median, most_frequent)
 4. Rescale | Standardize | Normalize (Bring to the same scale) prevents outliers from dominating.
 5. Use Mean Absolute Error (MAE) and Mean Absolute Deviation (MAD) less sensitive to outliers.
-6. Apply algorithms that work perfectly or are less sensitive towards outliers i.e. [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) ( `Bagging` and `Boosting` )
+6. Apply algorithms that work perfectly or are less sensitive towards outliers i.e. [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) (Bagging and Boosting)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
