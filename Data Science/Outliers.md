@@ -5,7 +5,7 @@
 <h3><a href="#zscore">Z Score</a> ( Extreme Value Analysis ) | <a href="#dbscan">DBSCAN</a> | <a href="#summary">5 Number Summary</a> | <a href="#algo">Algorithm</a></h3>
 
 ### **What are outliers?**
-- Data points that differ significantly from other observations (data points) in the dataset are outliers.
+- Outliers are data points that differ significantly from other observations (data points) in the dataset.
 - Outlier affects the distribution of data by introducing skewness in the data and also affects the correlation among features.
 - Positive Skew / Right Skew (Mean is on the right side | Mode < Median < Mean)
 - Negative Skew / Left Skew (Mean is on the left side | Mode > Median > Mean) 
@@ -14,12 +14,12 @@
 
 ### **How to detect outliers?**
 
-<h4><b>1. Visualization</b></h4>
+<h3><b>1. Visualization</b></h3>
 
 - Visualization helps to understand the distribution of data and helps to identify outliers in data.
 - Boxplot, scatter plot and histogram help us to identify outliers in the dataset.
 
-<h4 name="zscore">2. Z Score or Extreme Value Analysis</h4>
+<h3 name="zscore">2. Z Score or Extreme Value Analysis</h3>
 
 ![Standard Deviation](Image/Std.png)
 
@@ -29,14 +29,14 @@
 
 **Solution:** Apply transformation of data : [Scaling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) (Bring scales at the same level)
 
-<h4 name="dbscan">3. DBSCAN | Density-based spatial clustering of applications with noise</h4>
+<h3 name="dbscan">3. DBSCAN | Density-based spatial clustering of applications with noise</h3>
 
 - Clustering methods help us to visualize the distribution of data and outliers.
 - Relationships between **features** can be represented via clustering.
 - It focus on finding **neighbors** by **density**.
 - Outlier lies in no cluster region, it is separate from every other data point cluster region.
 
-<h4 name="summary">4. Five Number Summary</h4>
+<h3 name="summary">4. Five Number Summary</h3>
 
 Divide the Data into 4 Equal Quarters **(Quartiles)** 
 1. Minimum: **Lowest** data point value in a dataset.
@@ -53,7 +53,7 @@ Five Number Summary can be visually represented using **boxplot**.
 - Data value **>** Q3 + 1.5 * IQR
 - Outlier is represented by a dot o in **boxplot**  
 
-<h4 name="algo">5. Algorithms</h4>
+<h3 name="algo">5. Algorithms</h3>
 
 <table>
   <tr>
