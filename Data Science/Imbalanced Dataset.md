@@ -16,19 +16,22 @@
 - Combine the upsampled minority samples with the original majority samples (data frame)
 
 ### **2. Down | Under sampling majority class**
-- Randomly drop the majority class samples (Resampling **without** replacement)
+- Randomly remove/drop the majority class samples (Resampling **without** replacement)
 - Resample the majority class by setting the number of samples to match with minority class.
 - Combine the downsampled majority samples with the original minority samples (data frame)
 
-### **3. Evaluation Metric: F1 Score**
-- F1 Score: Falls between 0 and 1 (Harmonic mean of recall and precision)
-- F1 Score keeps the balance between recall and precision.
+### **3. Evaluation Metric**
+- Precision, Recall | True Positive Rate (TPR), and F1 Score (F Measure)
+- **F1 Score:** Harmonic mean of recall and precision (keeps the balance between recall and precision)
 
-### **4. Stratified K Fold Cross Validation**
-- Samples containing an equal proportion of each class label to train the model.  
+### **4. Cross Validation**
+- **Stratified K Fold Cross Validation:** Samples with an equal proportion of each class label to train the model.  
 
-### **5. Random Forest handles imbalanced dataset**
+### **5. Algorithms less sensitive to class imbalance:**
+- Random Forest and KNN can perform well with imbalanced data.
+- RF combines predictions from multiple models trained on different resampled versions of data.
 - Parameter **class_weights** (We can specify a higher weight for the minority class)
+- Force the model to pay more attention to learning from the minority class samples.
 
 ### **6. Collect more data for Minority Class**
 
