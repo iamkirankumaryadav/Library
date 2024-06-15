@@ -32,9 +32,9 @@ missing_values = np.isnan(array)
 
 ### **How to handle missing values?**
 
-<h5><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h5>
+<h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
-<h5 name="del">1. dropna(): Drop Missing Values</h5>
+<h3 name="del">1. dropna(): Drop Missing Values</h3>
 
 - If the missing data is negligible and doesn't affect the overall analysis, drop the corresponding rows or columns.
 - Drop rows if missing values < 5% i.e. (axis = 0) | Drop columns if missing values > 70% i.e. (axis = 1)
@@ -62,7 +62,7 @@ df.dropna(axis=0, how='all')
 df.dropna(axis=1)
 ```
 
-<h5 name="impute">2. fillna(): Fill Missing Values</h5>
+<h3 name="impute">2. fillna(): Fill Missing Values</h3>
 
 - Imputation involves estimating missing values with the help of other available rows or columns.
 - Impute the numerical missing data with the sample mean or median (SimpleImputer: strategy = 'mean' or 'median') 
@@ -89,13 +89,13 @@ df['Sales'].fillna(0)
 - Bring new outliers in the dataset.
 - Changes the correlation among features and the impact of independent variables on the target variable.
 
-<h5 name="assign">3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h5>
+<h3 name="assign">3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h3>
 
 - Assign a **unique** category for data with **missing values** or assign with "Missing" flag.
 - **Flag** the **numeric** missing data with -1 or 0.
 - Create a difference between missing data and remaining non-missing data.
 
-<h5 name="predict">4. Predict Missing Value</h5>
+<h3 name="predict">4. Predict Missing Value</h3>
 
 - Fill missing data with the help of other **features** by **predicting** (**Multivariate** imputation) 
 - Use the non missing data (rows) as **train** set and missing data (rows) as **test** set.
@@ -131,7 +131,7 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 ```
 
-<h5 name="algo"> 5. Use algorithms that work fine with missing values</h5>
+<h3 name="algo"> 5. Use algorithms that work fine with missing values</h3>
 
 - **KNN:** KNN fills the missing value by taking most of the K nearest values (Focus on nearest neighbours)
 - **Random forest:** Weak learners are trained by non-missing data and missing values can be used for testing.
