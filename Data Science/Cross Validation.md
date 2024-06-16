@@ -3,12 +3,14 @@
 # Cross-Validation
 
 - Cross-validation is a resampling technique used to evaluate the trained model performance on a limited dataset.
+- Cross-validation evaluates how well the model will perform on new unseen data.
 - Once the model is trained, we just can't assume that it is going to perform well on the **new unseen data**.
 - We can't be sure that the model will give the desired **accuracy** and **variance**.
 - We need some kind of assurance for the accuracy of the predictions that our model will give. 
 - **Validation:** Assurance that your model is trained well (**Low Bias** and **Low Variance**) 
 - To evaluate the performance of any model, we need to test it on some new unseen data.
 - So based on the performance we can say whether there is underfitting or overfitting.
+- Cross-validation gives a more realistic and stable idea of how well the model will perform on new data.
 
 <h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
 
@@ -21,7 +23,7 @@
 
 <h3 name='kfold'>2. K Fold Cross Validation</h3>
 
-- Data is divided into **K** subsets, 1 of **K** subset is used as **validation set**.
+- Data is divided into **K** subsets (equal sized subsets), 1 of **K** subset is used as **validation set**.
 - **K - 1** subsets are used as training sets. **Mean** error of **K** trials is calculated.
 - Reduces **bias** and **variance** (Generally generates low bias model) Best approach if we have limited input data.
 - A very high value of K will lead to overfitting and a very low value of K will work similarly to the train test split.
