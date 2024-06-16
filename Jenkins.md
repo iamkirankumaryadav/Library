@@ -1,7 +1,7 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # **Jenkins**  
-- An open-source automation server specifically designed for tasks related to software development.
+An open-source automation server specifically designed for tasks related to software development.
 
 ### **1. Automates Builds, Tests, and Deployments:**  
 - Imagine a repetitive process like compiling code, running tests, and deploying the software to a server.
