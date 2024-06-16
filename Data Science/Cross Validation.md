@@ -34,8 +34,7 @@
 - Data is divided into K subsets, each subset has **equal proportion** samples of each **target class labels**.
 - Models get **equally** distributed target class labels for **training**.
 - One of **K** subset is used as **validation set**, **K - 1** subsets are used as **training set**.
-- **Mean** error of **K** trials is calculated.
-- Reduce **bias** and **variance** (Try to create a better model with the best accuracy)
+- **Mean** error of **K** trials is calculated. Reduce **bias** and **variance**.
 - Accurate way to evaluate the performance of a model on imbalanced data sets.
 
 <h3 name='loocv'>4. Leave One Out Cross Validation | LOOCV</h3>
@@ -81,6 +80,6 @@ Here are some examples of hyperparameters:
 ### **Random Grid Search:**
 
 - Random Grid Search cross-validation randomly chooses the combination of hyperparameter values instead of evaluating all possible combinations.
-- It is good if the data set is very large, it's less time-consuming utilizes fewer resources, less likely to overfit the training data.
+- It is good if the data set is very large, it's less time-consuming utilizes fewer resources, and is less likely to overfit the training data.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
