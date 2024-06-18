@@ -2,7 +2,8 @@
 
 # Feature Engineering
  
- FE is all about transforming raw data into features (variables) that are most important for the ML models.
+- FE is all about preparing data for ML models.
+- Transforming raw data into features (variables) that are most important for the ML models.
 
 ### **Data Wrangling:**
 - **Selection:** Choosing the most important features from your dataset. Irrelevant features can confuse the ML models.
