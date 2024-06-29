@@ -54,9 +54,7 @@ Loss Function | Cost Function (Quantifies error between predicted values and exp
 - A function that measures the difference between the predicted output of a model and the actual output.
 - The loss function is used to guide the learning process of the model.
 - The goal of the model is to minimize the loss function, the model tries to make its predictions closer to the actual output.
-- Regression: Mean Squared Error Loss Function.
-- Classification: Cross Entropy Loss Function.
+- Regression: Mean Squared Error Loss Function | Classification: Cross Entropy Loss Function
 - The loss function helps us to understand the model's predictions and improve the model's accuracy.
-- We can use regularization to prevent the model from overfitting the training data by minimizing the loss function.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
