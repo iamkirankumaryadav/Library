@@ -1,13 +1,13 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# Normalization | Standardization | Rescaling
+# **Normalization | Standardization | Rescaling**
 
 - Dataset contains independent features with different ranges/scales of values. 
 - We normalize/standardize data to bring it down to the same range/scale.
 - Important for the models that depend on distance calculations like Linear Regression, KNN, K Mean, and SVM.
 - Decision Trees and Ensemble Learnings do not require data normalization.
 
-Data Normalization | Data Standardization ( Z Score Normalization )
+Data Normalization | Data Standardization (Z Score Normalization)
 :--- | :---
 **x(normal) =  x - min(x) / max(x) - min(x)** | **z = x - mean(x) / std(x)**
 Rescale feature value between the range 0 and 1 | Rescale features to have the **mean = 0** and **standard deviation = 1**
@@ -86,10 +86,10 @@ Formula |	√((x1 - x2)² + (y1 - y2)²) |	abs(x1 - x2) + abs(y1 - y2)
 Formula Description | The square root of the sum of squared differences between corresponding coordinates (x, y) of the two points | The sum of absolute differences between corresponding coordinates (x, y) of the two points
 Visualization | Straight line	| Right-angle movements (Horizontal + Vertical)
 
-### Benefits 
-1. Helps the gradient descent to converge (Achieve global minima) more quickly.
+### **Benefits** 
+1. Helps the gradient descent to converge (reach global minimum) more quickly.
 2. Helps the model to learn appropriate weights for each independent feature.
-3. The model pays more attention to features with a high range even if the feature is irrelevant.
+3. The model prioritize the features with a high range even if the feature is irrelevant.
 4. A feature with a low **range** is ignored even if it is a better feature for model training.
 5. Large-scale features play a dominating role in the model. Scaling discourages domination.
 6. Reduces the effect of outliers. Improves the model's accuracy and performance.
