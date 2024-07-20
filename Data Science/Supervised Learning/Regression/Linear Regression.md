@@ -13,7 +13,7 @@
 
 ### **Linear Regression:**
 - Predict a continuous numeric dependent variable based on one or more independent variables.
-- The best-fit line which gives the least number of errors.
+- The best-fit line (regression line) which gives the least number of errors.
 - Residual | Error: Difference between actual and predicted value for given data points.
 - Learning a linear regression model means estimating the values of the coefficients (Slope and Intercept)
 - Sensitive to overfitting and outliers.
