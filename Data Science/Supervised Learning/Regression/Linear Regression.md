@@ -83,11 +83,12 @@
 
 <h3 name='ass'>Assumptions</h3>
   
-- **Linearity:** The relationship between the independent variable (x) and the dependent variable (y) must be linear.
-- **Independence:** The residuals | errors must be independent.
-- **Normality:** The residuals of the data must be normally distributed (P value > 0.05)
-- **Multicollinearity:** The independent variables must not be highly correlated.
-- **Homoscedasticity:** Variance of residuals must be constant for all the data points near the regression line.
+- **Linearity:** The relationship between the independent variable (x) and the dependent variable (y) is linear.
+- **Independence:** The data points should be independent.
+- **Normality:** The errors/residuals of the data point should be normally distributed.
+- **No Multicollinearity:** The independent variables should not be highly correlated.
+- **No Autocorrelation:** The error shouldn't be autocorrelated. The error should be independent.
+- **Homoscedasticity:** The variance of the errors is constant for all the data points near the regression line.
 - **Quantile Quantile Point:** Data points should be close to the regression line.
 
 ![Error Normal Distribution](Image/ErrorDistribution.png)
