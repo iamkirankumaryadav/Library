@@ -23,6 +23,8 @@ The coefficients/weights mean the slope and intercept of the linear regression e
 - Ridge reduces **coefficients** towards 0 (Not exactly zero | Does not eliminate entirely)
 - Regularization is a good option that involves training models on a limited amount of data.
 
+`Regularization and Cross Validation is a good option if we have a limited amount of data`
+
 LASSO | Ridge | Elastic
 :--- | :--- | :---
 Least absolute shrinkage selection operator (L1) | Mountain Ridges (L2) | Between (L1) and (L2) 
