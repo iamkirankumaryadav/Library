@@ -25,12 +25,12 @@ The coefficients/weights mean the slope and intercept of the linear regression e
 
 `Regularization and Cross-Validation is a good option if we have a limited amount of data`
 
-LASSO | Ridge | Elastic
-:--- | :--- | :---
-Least absolute shrinkage selection operator (L1) | Mountain Ridges (L2) | Between (L1) and (L2) 
-Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> | Loss + lambda1 * \| slope \| + lambda2 * slope<sup>2</sup>
-**Mean absolute deviation** \| x - mean \| / N | **Std deviation** (x - mean) <sup>2</sup> / n |
-The sum of the absolute value of slope | Sum of squared value of slope | Mix of absolute and squared value of the slope
+LASSO | Ridge 
+:--- | :--- 
+Least absolute shrinkage selection operator (L1) | Mountain Ridges (L2) 
+Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> 
+**Mean absolute deviation** \| x - mean \| / N | **Std deviation** (x - mean) <sup>2</sup> / n 
+The sum of the absolute value of slope | Sum of squared value of slope 
 Can lead coefficient to **exactly** 0 | **Minimize** coefficient towards 0 without elimination
 Feature **selection** and feature **elimination** | Feature **shrinkage**
 **Manhattan** distance (Sum of all path) | **Euclidean** distance (Shortest path)
