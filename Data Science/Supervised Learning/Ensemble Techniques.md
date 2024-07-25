@@ -33,6 +33,11 @@ Random Forest | AdaBoost (**Ada**ptive **Boost**ing), Gradient Boosting and XGBo
 - **Low entropy:** Better (Simple | No Confusion | Easy to conclude data)
 - **High entropy:** Hard to conclude (Creates confusion)
 
+### **Gini Index** (Check for impurity in the dataset)
+- A low Gini index is better.
+- **Pure:** All data belongs to the same class in a subset (Gini Index : 0)
+- **Impure:** Data is a mixture of different classes in a subset.
+
 Random Forest helps identify important features by analyzing how each feature contributes to splitting the data during the decision-making process of its constituent trees. Here's a breakdown:
 
 1. **Decision Tree Building Blocks:** Random Forest is an ensemble method that combines multiple decision trees. Each tree makes predictions by splitting the data based on features (attributes) that best differentiate between the target classes (outcomes).
@@ -46,12 +51,6 @@ Random Forest helps identify important features by analyzing how each feature co
 5. **Feature Importance Scores:** After building the forest, Random Forest provides a feature importance score for each feature (**feature_importance_**). This score reflects how much a particular feature has been used for splitting across all the trees in the forest. Higher scores indicate greater importance in predicting the target variable.
 
 **Random Forest acts like a team of analysts, each analyzing the data from a slightly different perspective. By combining their insights (feature importance scores), you gain a more comprehensive understanding of which features are most critical for making accurate predictions.**
-
-### `Gini Index` (Check for impurity in the dataset)
-
-- A low Gini index is better.
-- **Pure:** All data belongs to the same class in a subset (Gini Index : 0)
-- **Impure:** Data is a mixture of different classes in a subset.
 
 ![Ensembles](Image/Ensembles.png)
 
