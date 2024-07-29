@@ -1,18 +1,19 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # **Hyperparameter**
-- Hyperparameters are configuration variables that control the learning process of an ML model.
-- They are set before the model is trained, influencing the model's ability to learn from data and make predictions.
-- The values of hyperparameters can play a big impact on the performance of the ML model.
-- Grid search tries different values of each hyperparameter and evaluates the model's performance on a validation set.
+- Hyperparameters are configuration variables that control and determine the learning process of an ML model.
+- Unlike model parameters, which are learned from the data during training, hyperparameters are set before training begins.
+- The values of hyperparameters can play a big impact on the behaviour and performance of the ML model.
+- The right hyperparameters can significantly improve a model's accuracy, speed, and generalization.
 
 **Examples of hyperparameters**
-- **Learning rate:** This controls how quickly the model updates its parameters.
-- **Batch size:** This determines how much data is used to update the model's parameters at each step.
-- **Regularization:** Lasso (L1) or Ridge (L2)
-- **#epochs:** This is the number of times the model sees the entire training data set.
-- **#layers:** This is the number of layers in a neural network.
-- **#nodes:** This is the number of nodes/neurons in each layer of a neural network.
+- **Learning rate:** Determines how quickly the model updates its parameters during the training.
+- **Batch size:** Determines the number of data points used in each iteration of training.
+- **Regularization Strength:** Lasso (L1) or Ridge (L2) to prevent overfitting.
+- **#epochs:** Determines the number of times the model sees the entire training data set.
+- **#layers:** Determines the number of layers in a neural network.
+- **#nodes:** Determines the number of nodes/neurons in each layer of a neural network.
+- **#trees:** In random forest, this determines the number of decision trees.
 
 **Model** | **Hyperparameter**
 :--- | :---
@@ -21,5 +22,7 @@
 **Decision Tree** | Max_depth, min_samples_split, min_samples_leaf, criterion
 **K Nearest Neighbors** | n_neighbors, weights, metric
 
-### **Hyperparameter Optimization**
-- Find the best set of hyperparameters for the ML model.
+### **Hyperparameter Tuning/Optimization**
+- Finding the optimal hyperparameter values is crucial for achieving the best possible performance from an ML model.
+- It involves experimenting with different combinations of hyperparameters and evaluating the model's performance on a validation set.
+- An iterative process that can be time-consuming, but it's essential for building high-performing models.
