@@ -6,6 +6,11 @@
 - The values of hyperparameters can play a big impact on the behaviour and performance of the ML model.
 - The right hyperparameters can significantly improve a model's accuracy, speed, and generalization.
 
+### **Hyperparameter Tuning/Optimization**
+- Finding the optimal hyperparameter values is crucial for achieving the best possible performance from an ML model.
+- It involves experimenting with different combinations of hyperparameters and evaluating the model's performance on a validation set.
+- An iterative process that can be time-consuming, but it's essential for building high-performing models.
+
 **Hyperparameters:**
 - **Learning rate:** Determines how quickly the model updates its parameters during the training.
 - **Batch size:** Determines the number of data points used in each iteration of training.
@@ -21,8 +26,3 @@
 **Logistic Regression** | C (Inverse of regularization strength), penalty (L1, L2)
 **Decision Tree** | Max_depth, min_samples_split, min_samples_leaf, criterion
 **K Nearest Neighbors** | n_neighbors, weights, metric
-
-### **Hyperparameter Tuning/Optimization**
-- Finding the optimal hyperparameter values is crucial for achieving the best possible performance from an ML model.
-- It involves experimenting with different combinations of hyperparameters and evaluating the model's performance on a validation set.
-- An iterative process that can be time-consuming, but it's essential for building high-performing models.
