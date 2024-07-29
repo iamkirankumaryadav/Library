@@ -14,7 +14,7 @@
 
 ---
 
-### [Linear Regression](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Linear%20Regression.md) | [Logistic Regression](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md)  | [Metrics](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md) | [Regularization](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Regularization.md) | [Ensemble Techniques](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md)
+### [Linear Regression](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Linear%20Regression.md) | [Logistic Regression](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Supervised%20Learning/Classification/Logistic%20Regression.md)  | [Metrics](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md) | [Regularization](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Regularization.md) | [Ensemble Techniques](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) | [Hyperparameter](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Hyperparameter.md)
  
 ---
 
