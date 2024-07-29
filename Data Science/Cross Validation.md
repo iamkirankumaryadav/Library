@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# Cross-Validation
+# **Cross-Validation**
 
 - Cross-validation is a resampling technique to evaluate the trained model performance on a limited dataset.
 - Cross-validation evaluates how well the model will perform on new unseen data.
@@ -35,7 +35,7 @@
 - Models get **equally** distributed target class labels for **training**.
 - One of **K** fold is used as **testing set**, and **K - 1** folds are used as **training set**.
 - **Mean** error of **K** trials is calculated. Reduce **bias** and **variance**.
-- Accurate way to evaluate the performance of a model on imbalanced data sets.
+- An accurate way to evaluate the performance of a model on imbalanced data sets is needed.
 
 <h3 name='loocv'>4. Leave One Out Cross Validation | LOOCV</h3>
 
@@ -45,32 +45,12 @@
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
 
-### **Hyperparameter:**
-
-- Hyperparameters are configuration variables that control the learning process of an ML model.
-- They are set before the model is trained, they influence the model's ability to learn from data and make predictions.
-- The values of hyperparameters can play a big impact on the performance of the ML model.
-- Grid search tries different values of each hyperparameter and evaluates the model's performance on a validation set.
-
-Here are some examples of hyperparameters:
-
-- Learning rate: This controls how quickly the model updates its parameters.
-- Batch size: This determines how much data is used to update the model's parameters at each step.
-- Regularization: Lasso (L1) or Ridge (L2)
-- #epochs: This is the number of times the model sees the entire training data set.
-- #layers: This is the number of layers in a neural network.
-- #nodes: This is the number of nodes/neurons in each layer of a neural network.
-- Activation Function?
-
-### **Hyperparameter Optimization**
-
-- Find the best set of hyperparameters for the ML model.
 
 ### **Grid Search:**
 
 - Technique used to evaluate the model with every possible combination of hyperparameters within a predefined grid.
 - Creates a grid of hyperparameter values and trains the models with each combination.
-- The process of choosing the optimal set of parameters is known as **hyperparameter tuning**.
+- Choosing the optimal set of parameters is known as **hyperparameter tuning**.
 - Different combinations of hyperparameters are used to improve the **performance metric**
 - **Grid Search cross-validation** tries all combinations of parameter grid values for training a model. 
 - Returns with the best set of parameters having the best performance score on the test set.
