@@ -6,7 +6,7 @@
 - The values of hyperparameters can play a big impact on the behaviour and performance of the ML model.
 - The right hyperparameters can significantly improve a model's accuracy, speed, and generalization.
 
-### **Examples of hyperparameters**
+**Hyperparameters:**
 - **Learning rate:** Determines how quickly the model updates its parameters during the training.
 - **Batch size:** Determines the number of data points used in each iteration of training.
 - **Regularization Strength:** Lasso (L1) or Ridge (L2) to prevent overfitting.
