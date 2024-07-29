@@ -1,12 +1,12 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# **Hyperparameter**
+### **Hyperparameter**
 - Hyperparameters are configuration variables that control and determine the learning process of an ML model.
 - Unlike model parameters, which are learned from the data during training, hyperparameters are set before training begins.
 - The values of hyperparameters can play a big impact on the behaviour and performance of the ML model.
 - The right hyperparameters can significantly improve a model's accuracy, speed, and generalization.
 
-**Examples of hyperparameters**
+### **Examples of hyperparameters**
 - **Learning rate:** Determines how quickly the model updates its parameters during the training.
 - **Batch size:** Determines the number of data points used in each iteration of training.
 - **Regularization Strength:** Lasso (L1) or Ridge (L2) to prevent overfitting.
