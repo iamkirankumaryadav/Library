@@ -44,17 +44,66 @@
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
 
-
 ### **Grid Search:**
-
-- Technique used to evaluate the model with every possible combination of hyperparameters within a predefined grid.
+- A technique used in ML to find the optimal combination of hyperparameters for a given model trained on the limited dataset.
+- Grid Search CV evaluates the model with every possible combination of hyperparameters within a predefined grid.
 - Creates a grid of hyperparameter values and trains the models with each combination.
 - Choosing the optimal set of parameters is known as **hyperparameter tuning**.
-- Different combinations of hyperparameters are used to improve the **performance metric**
+- Different combinations of hyperparameters are used to improve the **performance metric**.
 - **Grid Search cross-validation** tries all combinations of parameter grid values for training a model. 
 - Returns with the best set of parameters having the best performance score on the test set.
 - It is good if the data set is small, it's more time-consuming and requires more resources to run.
 - Prone to overfitting, Not suitable for large and complex data.
+
+```python
+from sklearn.model_selection import GridSearchCV, train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import load_digits
+from sklearn.metrics import accuracy_score
+
+# Load the Digits dataset
+digits = load_digits()
+X, y = digits.data, digits.target
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Define/Instantiate the Random Forest model
+rf_model = RandomForestClassifier()
+
+# Define the hyperparameter grid
+param_grid = {
+    'n_estimators': [50, 100, 150],
+    'max_depth': [None, 10, 20],
+    'min_samples_split': [2, 5, 10]
+}
+
+# Create GridSearchCV object
+grid_search = GridSearchCV(estimator=rf_model, param_grid=param_grid, scoring='accuracy', cv=5)
+
+# Fit the grid search to the data
+grid_search.fit(X_train, y_train)
+
+# Get the best hyperparameters
+best_params = grid_search.best_params_
+
+# Get the best model
+best_model = grid_search.best_estimator_
+
+# Evaluate the best model on the test set
+y_pred = best_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+
+print(f"Best Hyperparameters: {best_params}")
+print(f"Test Set Accuracy: {accuracy}")
+```              
+
+**How to create the Grid?**
+1. **Define the Hyperparameter Grid:** Create a dictionary where keys are hyperparameter names and values are lists of potential values.
+2. **Create a cross-validation object:** Specify the cross-validation strategy (Holdout, K Fold, Stratified K Fold, or LOOCV)
+3. **Instantiate the Model:** Create an instance of the machine learning model.
+4. **Create the Grid Search Object:** Combine the model, hyperparameter grid, and cross-validation strategy into a GridSearchCV object.
+5. **Fit the Grid Search Object:** Train the model on the entire dataset using the specified hyperparameter combinations and cross-validation strategy.
 
 ### **Random Grid Search:**
 
