@@ -56,46 +56,27 @@
 - Prone to overfitting, Not suitable for large and complex data.
 
 ```python
-from sklearn.model_selection import GridSearchCV, train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.datasets import load_digits
-from sklearn.metrics import accuracy_score
+from sklearn.model_selection import GridSearchCV
+from sklearn.svm import SVC
 
-# Load the Digits dataset
-digits = load_digits()
-X, y = digits.data, digits.target
-
-# Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# Define/Instantiate the Random Forest model
-rf_model = RandomForestClassifier()
-
-# Define the hyperparameter grid
+# Define the parameter grid
 param_grid = {
-    'n_estimators': [50, 100, 150],
-    'max_depth': [None, 10, 20],
-    'min_samples_split': [2, 5, 10]
+    'C': [0.1, 1, 10],
+    'kernel': ['linear', 'rbf']
 }
 
-# Create GridSearchCV object
-grid_search = GridSearchCV(estimator=rf_model, param_grid=param_grid, scoring='accuracy', cv=5)
+# Create a Support Vector Classifier model
+svc = SVC()
 
-# Fit the grid search to the data
+# Create the Grid Search object
+grid_search = GridSearchCV(estimator=svc, param_grid=param_grid, cv=5)
+
+# Fit the model
 grid_search.fit(X_train, y_train)
 
-# Get the best hyperparameters
-best_params = grid_search.best_params_
-
-# Get the best model
-best_model = grid_search.best_estimator_
-
-# Evaluate the best model on the test set
-y_pred = best_model.predict(X_test)
-accuracy = accuracy_score(y_test, y_pred)
-
-print(f"Best Hyperparameters: {best_params}")
-print(f"Test Set Accuracy: {accuracy}")
+# Print the best parameters and score
+print(grid_search.best_params_)
+print(grid_search.best_score_)
 ```              
 
 **How to create the Grid?**
