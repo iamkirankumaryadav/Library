@@ -91,4 +91,26 @@ print(grid_search.best_score_)
 - Random Grid Search CV randomly chooses the combination of hyperparameter values instead of evaluating all possible combinations.
 - It is good if the data set is very large, it's less time-consuming utilizes fewer resources, and is less likely to overfit the training data.
 
+```python
+from sklearn.model_selection import RandomizedSearchCV
+from sklearn.svm import SVC
+from scipy.stats import uniform
+
+# Define the parameter distributions
+param_dist = {'C': uniform(loc=0, scale=10), 'kernel': ['linear', 'rbf']}
+
+# Create a Support Vector Classifier model
+svc = SVC()
+
+# Create the Randomized Search object
+random_search = RandomizedSearchCV(estimator=svc, param_distributions=param_dist, n_iter=10, cv=5)
+
+# Fit the model
+random_search.fit(X_train, y_train)
+
+# Print the best parameters and score
+print(random_search.best_params_)
+print(random_search.best_score_)
+```
+
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
