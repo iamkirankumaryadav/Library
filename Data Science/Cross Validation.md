@@ -1,9 +1,8 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # **Cross-Validation**
-
 - Cross-validation is a resampling technique to evaluate the trained model performance on a limited dataset.
-- Cross-validation evaluates how well the model will perform on new unseen data.
+- Cross-validation evaluates how well the model will perform on new unseen fresh data.
 - Once the model is trained, we can't assume that it is going to perform well on the **new unseen data**.
 - We can't be sure that the model will give the desired **accuracy** and **variance**.
 - We need some kind of assurance for the accuracy of the predictions that our model will give. 
