@@ -88,7 +88,7 @@ print(grid_search.best_score_)
 
 ### **Random Grid Search:**
 
-- Random Grid Search cross-validation randomly chooses the combination of hyperparameter values instead of evaluating all possible combinations.
+- Random Grid Search CV randomly chooses the combination of hyperparameter values instead of evaluating all possible combinations.
 - It is good if the data set is very large, it's less time-consuming utilizes fewer resources, and is less likely to overfit the training data.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
