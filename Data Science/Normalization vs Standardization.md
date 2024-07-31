@@ -51,7 +51,7 @@ wine[wine.columns] = scaler.fit_transform(wine[wine.columns])
 
 ### Data Standardization (Z-Score Normalization) | Standard Score
 - **z = x - mean / std** (z: specific data point)
-- How many standard deviations a specific data point is away from the mean of a dataset?
+- How many standard deviations is a specific data point away from the mean of a dataset?
 - How far a particular value is away from the average value.
 - A Z-score of 0 means that the data point is exactly at the mean.
 - Standardize features around the centre (Mean). Ranges from +3 (Above the mean) to -3 (Below the mean).
@@ -87,9 +87,9 @@ Formula Description | The square root of the sum of squared differences between 
 Visualization | Straight line	| Right-angle movements (Horizontal + Vertical)
 
 ### **Benefits** 
-1. Helps the gradient descent to converge (reach global minimum) more quickly.
+1. Helps the gradient descent to converge (reach the local minimum point) more quickly.
 2. Helps the model to learn appropriate weights for each independent feature.
-3. The model prioritize the features with a high range even if the feature is irrelevant.
+3. The model prioritizes the features with a high range even if the feature is irrelevant.
 4. A feature with a low **range** is ignored even if it is a better feature for model training.
 5. Large-scale features play a dominating role in the model. Scaling discourages domination.
 6. Reduces the effect of outliers. Improves the model's accuracy and performance.
@@ -98,7 +98,7 @@ Visualization | Straight line	| Right-angle movements (Horizontal + Vertical)
 - Split the data set into a train set and a test set.
 - Apply the same transformation on the train set and the test set (Consistency)
 - No need to scale dependent variable | target vector.
-- **fit():** Learn parameters and scales of data which will be needed to transform the data | Apply only on a train set.
+- **fit():** Learn parameters and scales of data that will be needed to transform the data. | Apply only on a train set.
 - **transform():** Transforms data based on what it learns from **fit()** | Apply on the train and test set.
 - **fit_transform():** First learn and then apply in place | Apply only on the train set.
 - Prevents **data leakage**: **Sharing information** of **train set** with **test set**.
