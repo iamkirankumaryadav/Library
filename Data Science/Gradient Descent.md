@@ -1,10 +1,10 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # **Gradient Descent**
-- **Gradient Descent** is an optimization algorithm used while training a model, starting from defining some initial parameter values. 
-- Iteratively it adjusts the values of the parameters to minimize the given **cost function**.
+- An optimization algorithm is used while training a model, starting with defining some initial parameter values. 
+- Iteratively it adjusts the values of the parameters to minimize the given **cost function** (Actual - Predicted)
 - **Gradient (m)** measures how much the output of a function changes after a unit change in input.
-- **Gradient (m)** tells us in which direction to move to minimize the cost function quickly.
+- **Gradient (m)** tells us in which direction to move to minimize the cost function (reach the local minimum point) quickly.
 - The higher the gradient, the steeper the slope and the faster a model can learn, once the slope is 0, the model stops learning. 
 
 ### **Learning Rate**
