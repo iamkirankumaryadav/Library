@@ -102,6 +102,7 @@ Visualization | Straight line	| Right-angle movements (Horizontal + Vertical)
 - **transform():** Transforms data based on what it learns from **fit()** | Apply on the train and test set.
 - **fit_transform():** First learn and then apply in place | Apply only on the train set.
 - Prevents **data leakage**: **Sharing information** of **train set** with **test set**.
+- Data Leakage happens when the scaling parameters calculated from the entire dataset are applied to the training and test sets. 
 
 ```python
 # Create instance:
@@ -116,8 +117,29 @@ X_test = scaler.transform(X_test)
 ```
 
 ### **How to Prevent Data Leakage?**
-- Never apply **fit_transform()** on the test set.
-- Remove duplicate data using **drop_duplicates()**.
+- Split the dataset properly into training, validation and test sets (No overlapping or replacement)
+- Calculate the scaling parameters (mean, median, standard deviation, min, max, etc) exclusively on the training set.
+- Use the scaling parameters obtained from the training set to transform both the training set and test sets.
+- Never apply **fit_transform()** directly on the test set. Also, remove duplicate data using **drop_duplicates()**.
 - **Time series data:** The train set should contain the past data and the test set should contain the new data, sorted by date.
+
+```python
+# Import the libraries:
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+# Split the data:
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create a scaler:
+scaler = StandardScaler()
+
+# Fit the scaler on the training data:
+scaler.fit(X_train)
+
+# Transform both training and test data:
+X_train_scaled = scaler.transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+```
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
