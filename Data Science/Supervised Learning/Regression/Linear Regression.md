@@ -88,13 +88,10 @@
 - **Normality:** The errors/residuals of the data point should be normally distributed.
 - **No Multicollinearity:** The independent variables should not be highly correlated.
 - **No Autocorrelation:** The error shouldn't be autocorrelated. The error should be independent.
-- **Homoscedasticity:** The variance of the errors is constant for all the data points near the regression line.
+- **Homoscedasticity:** The variance along the line of **best fit** should remain **constant** as we move along the line.
 - **Quantile Quantile Point:** Data points should be close to the regression line.
 
 ![Error Normal Distribution](Image/ErrorDistribution.png)
-
-- **Homoscedasticity:** Variance along the line of **best fit** should remain **constant** as we move along the line.
-- **Variance** is same for all **data points**.
 
 ![Homoscedasticity](Image/Homo.png)
 
