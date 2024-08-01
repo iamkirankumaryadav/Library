@@ -120,8 +120,6 @@ Amount of R | **Strength** of **Correlation**
 
 ![Perfect Linear Correlation](Image/Perfect.png)
 
-![Direction of Slope](Image/Direction.png)
-
 ![Strength of Slope](Image/Strength.png)
 
 ### **Difference between Covariance and Correlation**
