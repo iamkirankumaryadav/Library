@@ -177,7 +177,7 @@ Significance Level | P-value
 - One variable **affects** another variable ( Temperature affects ice cream sale | Sale of ice cream is more in summer )
 
 ### **Rescale Independent Features**
-- Rescale Independent Features for more reliable predictions use Standardization or Normalization.
+- Rescale-independent features for more reliable predictions use standardization or normalization.
 
 ### **Residual | Error**
 
