@@ -1,9 +1,9 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
 # **Logistic Regression**
-- Model used for classification tasks like classifying flower species or image classification.
-- Transforms output using Sigmoid | Logit function to return a probability distribution value (Mapped to 2 discrete classes)
-- Especially binary classification, it predicts the probability distribution of class which lies within the range 0 and 1.
+- A model used for classification tasks like classifying flower species or image classification.
+- The logistic regression predicts the probability distribution of a binary outcome.
+- Transforms output using the Sigmoid/Logit function to map any real number to a value between 0 (low) and 1 (high)   
 - Probability of occurrence of the target label is predicted based on threshold (0.5) 
 - The scale affects Logistic regression, so always standardize the features before applying logistic regression. 
 
