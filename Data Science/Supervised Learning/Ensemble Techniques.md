@@ -6,7 +6,7 @@
 - Ensemble learning combines multiple weak learning models to create a more accurate strong predicting robust model.
 - The individual models in an ensemble are called base/weak learners.
 - The base learners can be decision trees, support vector machines, or neural networks.
-- It helps to reduce variance, bias, underfitting and overfitting.
+- It helps us to reduce the variance, bias, underfitting and overfitting.
 - Ensemble learning can also improve the accuracy of models trained on small datasets.
  
 **Bagging (Bootstrap Aggregation)** | **Boosting**
@@ -22,19 +22,17 @@ Least chance of overfitting | Easy to overfit (Memorize the data + noise)
 Samples are drawn randomly with replacement | Samples + Observations that previous models misclassify
 Random Forest | AdaBoost (**Ada**ptive **Boost**ing), Gradient Boosting and XGBoost
 
-### **Information Gain** (Which feature can explain the split better ?)
-
+### **Information Gain** (Which feature can explain the split better?)
 - Measures the quality of the split, **High IG** is better (Explains the further split in a better way)
-- Information Gain decides which feature will become the next node and will split the data in a better way.
+- **Information Gain** decides which feature will become the next node and will split the data in a better way.
 
 ### **Entrophy** (Randomness | Uncertainty)
-
 - **Low entropy:** Better (Simple | No Confusion | Easy to conclude data)
 - **High entropy:** Hard to conclude (Creates confusion)
 
 ### **Gini Index** (Check for impurity in the dataset)
 - A low Gini index is better.
-- **Pure:** All data belongs to the same class in a subset (Gini Index : 0)
+- **Pure:** All data belongs to the same class in a subset (Gini Index: 0)
 - **Impure:** Data is a mixture of different classes in a subset.
 
 **Random Forest** helps identify important features by analyzing how each feature contributes to splitting the data during the training process of its constituent trees. Here's a breakdown:
@@ -53,15 +51,14 @@ Random Forest | AdaBoost (**Ada**ptive **Boost**ing), Gradient Boosting and XGBo
 
 ![Ensembles](Image/Ensembles.png)
 
-### Benefits of Ensemble Methods
-
+### **Benefits of Ensemble Methods**
 1. Used for classification and regression
 2. Easily handles outliers and missing values.
 3. Accepts various types of inputs (**continuous**, **discrete** and **ordinal**)
 4. Less likely to overfit and easy to **tune**.
 5. Output **feature importance** (Important features for **prediction**)
 
-### A. Bagging (Bootstrap Aggregation)
+### **A. Bagging (Bootstrap Aggregation)**
 
 ![Ensemble Bagging](Image/EnsembleBagging.svg)
 
@@ -72,32 +69,49 @@ Random Forest | AdaBoost (**Ada**ptive **Boost**ing), Gradient Boosting and XGBo
 - **Test sample** is passed to each **model** for the **output**, **Final prediction** is based on **voting**.
 - **Voting classifier** is used to find the final result (This process is called as aggregation)
 - Combine **weak base learners** into **strong learners**.
-- **Regression:** Mean is calculated.
-- **Classification:** Majority voted class label.
-- Using many trees protects individual decision trees from overfitting
+- **Regression:** Mean is calculated | **Classification:** Majority voted class label.
+- Using many trees protects individual decision trees from overfitting.
 
-### 1. Random Forest 
-
+### **Random Forest** 
 - **Ensemble** learning method constructs a **collection** of decision trees in parallel 
-- `Aggregate` the `predictions` of each tree to **determine** the `final prediction`
-- Dataset is divided as **subsets** | **samples** and passed to multiple `base` learners ( `Decision Tree` )
+- Aggregate the predictions of each tree to **determine** the final prediction.
+- Dataset is divided as **subsets** | **samples** and passed to multiple base learners (Decision Tree)
 - Training sample consist of **row sampling** with **replacement**.
-- Creating a `decision tree` to its complete `Depth` may cause `overfitting`
-- But when we combine **multiple** `decision trees`, **High variance** gets converted to **low variance**, i.e. Reduces `overfitting`
+- Creating a decision tree to its complete depth may cause an overfitting.
+- But when we combine **multiple** decision trees, **high variance** gets converted to **low variance**, i.e. Reduces overfitting.
 - Can be used for **classification** and **regression**.
-- Regressor : **Mean** or **Median** of all the decision trees.
-- Classifier : **Majority vote** from all **decision trees**.
+- **Regressor:** **Mean** or **median** of all the decision trees.
+- **Classifier:** **Majority vote** from all **decision trees**.
 - Easily handles **outliers**, **missing data** and **skewness**.
 - Accept **continuous** as well as **categorical** inputs.
-- Help to understand **important features**. (Parameter: `feature_importance`)
+- Help to understand **important features**. (Parameter: feature_importance)
 
-### B. Boosting
+### **Out of Bag (OOB) Error**
+- A method to estimate the prediction error of models that use bootstrapping, like Random Forests.
+- It's a way to validate the model without explicitly splitting the data into training and testing sets.
+
+**How Does It Work?**
+**Bootstrapping:** 
+- In Random Forests, each tree is built on a random subset of the data, drawn with replacement.
+- This means some data points appear multiple times in a tree's training set, while others might not appear at all.
+
+**Out-of-Bag Samples:** 
+- The data points that are not included in a tree's training set are called out-of-bag samples.
+
+**Prediction and Error:** 
+- For each data point, we can use the trees that didn't contain it to make a prediction.
+- This prediction is then compared to the actual value, and the error is calculated.
+
+**Average Error:** 
+- By averaging the errors for all data points across all trees, we get an estimate of the model's performance on unseen data.
+
+### **B. Boosting**
 
 ![Ensemble Boosting](Image/EnsembleBoosting.svg)
 
 - An ensemble method that **aggregates** a number of **weak learners** in **sequence** to create one **strong model**.
 - **Boosting** effectively learns from its previous mistakes with each iteration.
-- `Decision trees` are created with only **one depth** or only **one split** (**Stumps**)
+- Decision trees are created with only **one depth** or only **one split** (**Stumps**)
 - Base learners | Weak learners are created **sequentially** and the **samples** are passed for training.
 - **Samples** are created using **row sampling** and **column sampling**.
 - **Boosting** combines **weak learners sequentially** by correcting **previous errors** (Forcing them to improve)
@@ -106,35 +120,27 @@ Random Forest | AdaBoost (**Ada**ptive **Boost**ing), Gradient Boosting and XGBo
 - **Weights** are **adjusted** before each **training** intervals. 
 - **Miss classified instances** are focused with **high weights** and **high priority**.
 
-### 1. ADABOOST
-
-- In `ADABOOST` **weights** are only assigned with **incorrect values** in samples.
+### **1. ADABOOST**
+- In ADABOOST **weights** are only assigned with **incorrect values** in samples.
 - **Sequential tree** growing  with **weighted samples**.
 - **Base learners** are **decision trees**.
-- `Decision trees` are created with only **one depth** or only **one split** (**Stumps**)
-- The `stump` with **low entrophy** or **high information gain** is selected first.
-- `ADABOOST` allows us to capture the **non-linear relationships**.
+- Decision trees are created with only **one depth** or only **one split** (**Stumps**)
+- The stump with **low entrophy** or **high information gain** is selected first.
+- ADABOOST allows us to capture the **non-linear relationships**.
 
-### 2. Gradient Boosting
-
+### **2. Gradient Boosting**
 - Uses **gradient descent approach**, Minimize a **loss** function (Overall prediction error)
 - Uses the **loss function** of base model (**Decision Tree**) for minimizing the overall **error** of Model.
 - An **iterative** approach, **Combine** weak learners to create a **strong** learner by focusing on mistakes of **prior iterations**.
 
 ![Gradient Boosting](Image/GB.png)
 
-### 3. XGBoost | Extreme Gradient Boosting
+### **3. XGBoost | Extreme Gradient Boosting**
+- **Regularized** form of **gradient boosting**, uses advanced **regularization** (L1 and L2)
+- Uses **2**<sup>nd</sup> order **partial derivative** for approximation.
+- **High performance**, faster than **gradient boosting**.
+- Choose a better **learning rate** that suits our model.
+- Even works better for **unstructured data**.
 
-- **Regularized** form of **gradient boosting**, Uses Advanced **Regularization** (`L1` and `L2`)
-- Uses **2**<sup>nd</sup> Order **Partial Derivative** for Approximation.
-- **High Performance**, Faster than Gradient Boosting.
-- Choose a Better **Learning Rate** that suits our Model.
-- Even Works Better for **Unstructured Data**.
-
-### Hard Voting vs Soft Voting
-
-- Hard Voting : **Majority voting** is more important.
-- Soft Voting : **Predictive probability** of class is important, **Mean** of `probability` is calculated for each class.
-
-### Activation Function
-- A function that takes in the **weighted sum** of all the inputs from **previous layer** (+ Adds **bias**) and generates output for **next layer**.
+### **Activation Function**
+- A function that takes in the **weighted sum** of all the inputs from **previous layer** adds **bias** and generates output for the **next layer**.
