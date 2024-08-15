@@ -2,8 +2,7 @@
 
 # Feature Engineering
  
-- FE is all about preparing data for ML models.
-- Transforming raw data into features (variables) that are most important for the ML models.
+- FE is about preparing and transforming raw data into features (variables) most important for the ML models.
 
 ### **Data Wrangling:**
 - **Selection:** Choosing the most important features from your dataset. Irrelevant features can confuse the ML models.
@@ -14,7 +13,7 @@
 - FE involves creating new features from the existing ones which can contribute to better learning.
 - Well-engineered features can significantly improve the accuracy and efficiency of ML models.
 - **Combination:** Combining existing features to create one new feature.
-- **Derivation:** Deriving new features from calculations on existing ones.
+- **Derivation:** Deriving new features from calculations or transformations on existing ones.
 - **Binning:** Grouping continuous features into categories (bins) e.g. Income can be binned into low, medium, and high categories.
 
 ### **Feature Transformation:**
@@ -42,13 +41,13 @@ pd.pivot(index='company', columns='date', values='high')
 pd.melt(df, id_vars='company', value_vars='dept', var_name='What?', value_name='Which?')
 ```
 
-3. **stack()**: Multi Index Columns | Wide to long | Moves innermost column level to innermost row level
+3. **stack()**: Multi-Index Columns | Wide to long | Moves innermost column level to innermost row level
 
 ```python
 df.stack(level=0)
 ```   
 
-4. **unstack()**: Multi Index Rows | Long to Wide | Moves innermost row level to innermost column level
+4. **unstack()**: Multi-Index Rows | Long to Wide | Moves innermost row level to innermost column level
 
 ```python
 df.unstack()
