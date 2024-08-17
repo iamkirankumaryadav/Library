@@ -1,21 +1,21 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# `Dimensionality Reduction`
+# **Dimensionality Reduction**
 
-- A technique used to simplify complex datasets by reducing the number of features (variables) while preserving much information.
-- Datasets with many features (variables) can be complicated to analyze, visualize, and process. Not all features are equally important.
+- A technique to simplify complex datasets by reducing the number of features (variables) while preserving much information.
+- Datasets with many features can be complicated to analyze, visualize, and process. Not all features are equally important.
 - Irrelevant or redundant features can confuse ML models, leading to poor accuracy and undesirable errors.
-- Transforming the data into a lower-dimensional space while retaining as much of the original information as possible.
-- The number of features (variables) should be low compared to the number of observations (rows) in the dataset.
+- Transforming the data into a lower-dimensional space while retaining as much original information as possible.
+- The number of features (variables) should be low compared to the dataset's observations (rows).
 - Dimensionality reduction is more helpful for the algorithms that consist of distance calculations: Regressions, KNN, K Mean, and SVM.  
 - Dimensionality reduction helps identify and focus on the features that capture the most significant information.
 
 ### **Benefits:**
-- **Simplified Analysis:** Analyzing data with fewer features is easier and faster.
-- **Improved Visualization:** Lower-dimensional data can be visualized more effectively using techniques like scatter plots.
-- **Enhanced Machine Learning:** Reduced computational cost, faster model training and better accuracy + model performance.
+- **Simplified Analysis:** Analyzing data with fewer, relevant, features is easier and faster.
+- **Improved Visualization:** Lower-dimensional data can be visualized more effectively using charts and plots.
+- **Enhanced ML:** Reduced computational cost, faster model training and better accuracy + model performance.
 
-Feature Selection | Feature Extraction
+**Feature Selection** | **Feature Extraction**
 :--- | :---
 Selecting a subset of the existing features in your data | Creating entirely new features from existing ones
 Keeping the original dataset, but selecting the subset of important features | Transforming the original dataset and creating something entirely new.
