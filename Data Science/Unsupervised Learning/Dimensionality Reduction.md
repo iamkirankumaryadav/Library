@@ -33,8 +33,8 @@ Reduces training time by using a smaller set of features | Improves model perfor
 
 ### **Principle Component Analysis (PCA): Unsupervised | Numerical**
 - A dataset with many dimensions (features) can be complicated for analysis and visualization. PCA reduces the complexity.
-- It compresses/transforms the data into a new set of features, called Principle Components (PCs) that capture the most information from the original features.
-- The goal of PCA is to reduce the dimensionality of the data while preserving as much of the information as possible.
+- It transforms the data into a new set of features, called Principle Components that capture the most information from the original features.
+- The goal of PCA is to reduce the dimension of the data while preserving as much of the information as possible.
 - The first principle component (PC1) represents the greatest variance.
 - The second principle component (PC2) represents the remaining significant variance perpendicular to PC1.
 - Subsequent principle components (PCs) continue explaining the remaining variance (But with decreasing importance)
@@ -50,14 +50,5 @@ Advantages:
 - LDA's primary objective is to identify the best way to separate the existing categories in the data.
 - LDA finds the best linear separation between categories in your data.
 - LDA can reduce the number of features needed for classification.
- 
-### Auto Encoder | Unsupervised | `ANN`
-- Learn and discover the structure of the dataset, ignoring noise in data. 
-
-### Applications of Auto Encoders include:
-
-1. Anomaly detection (Unusual or unexpected behaviour)
-2. Removing noise from data (Images, audio and video)
-3. Image inpainting | Conservation | Restoration (Reconstructing missing part of an image)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
