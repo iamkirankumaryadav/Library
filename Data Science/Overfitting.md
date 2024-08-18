@@ -11,19 +11,18 @@
 ## **How to identify overfitting?** 
 
 ### Train Test Split | Observe Accuracy (Score)
-- Split the dataset into train sets and test sets (80/20 to 70/30 train test split)
+- Split the dataset into train and test sets (80/20 to 70/30 train test split)
 - Check whether the trained model generalizes well on the new unseen test dataset. 
 - Calculate the accuracy score of the train set: **model.score(X_train, y_train)** and test set: **model.score(X_test, y_test)**
-- If the accuracy of the train set is better and the accuracy of the test set is worse then it is an overfitting scenario.
+- If the accuracy of the train set is better and the accuracy of the test set is worse then it's an overfitting scenario.
 
 ## **How to prevent from overfitting?**
 
 ### 1. Collect more relevant data for training.
-- With more relevant data, the model can learn the underlying patterns and relationships in a better way.
+- With more relevant data (observations), the model can learn the underlying patterns and relationships in a better way.
 - **Data Augmentation:** Artificially expand your dataset. creating new data points by applying transformations.
 
 ### 2. Apply [Regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) 
-
 - Slope | Coefficient | Weight | Gradient (All are same)
 - Regularization discourages the model from overfitting and encourages one to learn more generalized patterns.
 - **Lasso (L1)** adds a penalty equal to the sum of the absolute value of slope (Force coefficients to exactly 0)
