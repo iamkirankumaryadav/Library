@@ -2,9 +2,9 @@
 
 # **Regularization**
 
-The coefficients/weights mean the slope and intercept of the linear regression equation.
+The **coefficients/weights** mean the **slope** and **intercept** of the **linear regression** equation.
 
-- A technique used to prevent a model from overfitting the training data and improve the accuracy of a model.
+- A technique to prevent a model from overfitting the training data and improve the accuracy of a model.
 - Overfitting occurs when a model learns the training data too well and cannot generalize the new unseen data.
 - Regularization adds a penalty to the loss function (Actual - Prediction) that simplifies the model.
 - It encourages the model to have smaller coefficients and will prevent overfitting the training data.
@@ -13,7 +13,7 @@ The coefficients/weights mean the slope and intercept of the linear regression e
 - Simplify complicated models (Simple models avoid overfitting but may lead to underfitting, so some tradeoff is important)
 - Reducing the **steepness** of the slope | Shrink or encourage the slope towards 0.
 - Add **penalty** to the **loss term** | Sum (Actual - Prediction) <sup>2</sup> | **Sum of Squared Residuals**.
-- Penalize weights that are too large ( Learning Rate | Lambda)
+- Penalize weights that are too large (Learning Rate | Lambda)
 - Improves generalization (Performance on new unseen data)
 - High lambda | High bias | Underfitting | Simple Model | More error in train set.
 - Low Lambda | High variance | Overfitting | Complicated Model | Not generalize well for **new unseen data**.
@@ -23,22 +23,21 @@ The coefficients/weights mean the slope and intercept of the linear regression e
 - Ridge reduces **coefficients** towards 0 (Not exactly zero | Does not eliminate entirely)
 - Regularization is a good option that involves training models on a limited amount of data.
 
-`Regularization and Cross-Validation is a good option if we have a limited amount of data`
+**Regularization and Cross-Validation is a good option if we have a limited amount of data**
 
-LASSO | Ridge 
+**LASSO** | **Ridge** 
 :--- | :--- 
 Least absolute shrinkage selection operator (L1) | Mountain Ridges (L2) 
 Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> 
 **Mean absolute deviation** \| x - mean \| / N | **Std deviation** (x - mean) <sup>2</sup> / n 
-The sum of the absolute value of slope | Sum of squared value of slope 
+The sum of the absolute value of the slope | Sum of the squared value of the slope 
 Can lead coefficient to **exactly** 0 | **Minimize** coefficient towards 0 without elimination
 Feature **selection** and feature **elimination** | Feature **shrinkage**
 **Manhattan** distance (Sum of all path) | **Euclidean** distance (Shortest path)
 
-Loss Function | Cost Function (Quantifies error between predicted values and expected values)
-
-- The bias increases with an increase in lambda value
-- The variance increases with a decrease in the lambda value
+**Loss Function | Cost Function** (Quantifies error between predicted values and expected values)
+- The **bias** increases with an increase in **lambda** value
+- The **variance** increases with a decrease in the **lambda** value
 - The ideal value of lambda to produce a model that **generalizes** the new unseen data well: Low bias and low variance
 
 ### **Regularization Improves Regression**
