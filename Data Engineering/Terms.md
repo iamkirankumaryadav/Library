@@ -46,7 +46,6 @@
 - **Data governance:** Implement access controls and security measures to ensure data quality and compliance.
 
 **Benefits of Data Lakehouse:**
-
 - **Flexibility and Scalability:** Like a data lake, it can handle massive amounts of diverse data.
 - **Faster Time to Insights:** The structured layer allows for quicker access and analysis of specific datasets compared to a raw data lake.
 - **Improved Data Quality:** Data governance ensures data accuracy and consistency throughout the lakehouse.
@@ -61,7 +60,7 @@
 - Categorized: Category, sub-category, etc.
 - Demography: Region, country, state, territory, district, city, and zip code.
 - Access: Business analysts, data scientists, data analysts, and stakeholders can easily answer questions (querying, analysis, and reporting)
-- Time-variant: Historical data over time, allowing to capture trends, patterns, and seasonality.
+- Time-variant: Historical data over time, allowing to capture of trends, patterns, and seasonality.
 
 ### **Data Mart**
 - The data mart focuses on a specific department or function.
@@ -121,8 +120,7 @@ Choosing between ETL and ELT depends on several factors:
 * Resource intensive: Processing large batches can require significant computing power at specific times.
 
 ### **Stream Processing:**
-
-* **Imagine a Conveyor Belt:** Picture a factory assembly line where products continuously move on a conveyor belt, and workers perform actions on them as they pass. 
+* **Conveyor Belt:** Picture a factory assembly line where products continuously move on a conveyor belt, and workers perform actions on them as they pass. 
 * **Real-time Processing:** Data is processed continuously as it arrives, with minimal delay.
 * This is ideal for situations where real-time insights are crucial.
 
