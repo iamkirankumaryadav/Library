@@ -6,22 +6,22 @@
 
 - e.g. Flower Species 150 : 50 Setosa, 50 Verginica and 50 Versicolor
 
-### Here, Observations, Samples, and Rows represent the same thing.
+**Here, observations, samples, and rows represent the same thing.**
 
 ### **1. Up | Oversampling minority class** 
 
 ### **(SMOTE: Synthetic minority oversampling technique)**
 - Randomly duplicate the minority class samples to **reinforce** the learning of data.
 - Resample minority class by setting the number of samples to match with the majority class.
-- Combine the upsampled minority samples with the original majority samples (data frame)
+- Combine the upsampled minority samples with the original majority samples.
 
 ### **2. Down | Under sampling majority class**
-- Randomly remove/drop the majority class samples (Resampling **without** replacement)
+- Randomly remove/drop the majority class samples to make the class distribution balanced.
 - Resample the majority class by setting the number of samples to match with minority class.
-- Combine the downsampled majority samples with the original minority samples (data frame)
+- Combine the downsampled majority samples with the original minority samples.
 
 ### **3. Evaluation Metric**
-- Precision, Recall | True Positive Rate (TPR), and F1 Score (F Measure)
+- Precision, Recall | True Positive Rate (TPR), and F1 Score are better metrics for imbalanced dataset.
 - **F1 Score:** Harmonic mean of recall and precision (keeps the balance between recall and precision)
 
 ### **4. Cross Validation**
@@ -31,7 +31,7 @@
 - Random Forest and KNN can perform well with imbalanced data.
 - RF combines predictions from multiple models trained on different resampled versions of data.
 - Parameter **class_weights** (We can specify a higher weight for the minority class)
-- Force the model to pay more attention to learning from the minority class samples.
+- Force the model to pay more attention while learning from the minority class samples.
 
 ### **6. Collect more data for Minority Class**
 
