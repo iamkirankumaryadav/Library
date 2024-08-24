@@ -2,6 +2,7 @@
 
 # **Dimensionality Reduction**
 
+- A fundamental technique in the field of Data Science and ML that refers to reducing the # input variables in a dataset.
 - A technique to simplify complex datasets by reducing the number of features (variables) while preserving much information.
 - Datasets with many features can be complicated to analyze, visualize, and process. Not all features are equally important.
 - Irrelevant or redundant features can confuse ML models, leading to poor accuracy and undesirable errors.
@@ -10,8 +11,15 @@
 - Dimensionality reduction is more helpful for the algorithms that consist of distance calculations: Regressions, KNN, K Mean, and SVM.  
 - Dimensionality reduction helps identify and focus on the features that capture the most significant information.
 
+**When to use Dimensionality Reduction?**
+- When facing high computational costs due to a large number of features.
+- When a model suffers from overfitting due to many features.
+- When you need to visualize high-dimensional data in 2D or 3D.
+
 ### **Benefits:**
 - **Simplified Analysis:** Analyzing data with fewer, relevant, features is easier and faster.
+- **Improved Accuracy:**  Simplifies the model, which improves accuracy.
+- **Faster Training:** Less data means faster computation.
 - **Improved Visualization:** Lower-dimensional data can be visualized more effectively using charts and plots.
 - **Enhanced ML:** Reduced computational cost, faster model training and better accuracy + model performance.
 
@@ -26,6 +34,9 @@ Reduces training time by using a smaller set of features | Improves model perfor
 ### **Feature Selection**
 - Feature selection selects the most relevant features and creates a new subset of data for building a better model with better accuracy.
 - Features are selected by calculating the correlation (regression) of each feature with the target variable or information gain (classification)
+- Wrapper methods use algorithms to search for the most predictive subset of features (Random Forest)
+- Embedded methods perform feature selection as a part of the model training process.
+- Regularization also helps in finding the relevant features for the model training.
 
 ### **Feature Extraction**
 - Feature extraction identifies the most relevant features and transforms the original dataset into a new dataset. 
@@ -37,7 +48,7 @@ Reduces training time by using a smaller set of features | Improves model perfor
 - The goal of PCA is to reduce the dimension of the data while preserving as much of the information as possible.
 - The first principle component (PC1) represents the greatest variance.
 - The second principle component (PC2) represents the remaining significant variance perpendicular to PC1.
-- Subsequent principle components (PCs) continue explaining the remaining variance (But with decreasing importance)
+- Subsequent principal components (PCs) continue explaining the remaining variance (But with decreasing importance)
 - By focusing on a smaller set of PCs, PCA simplifies the exploratory data analysis (EDA), data preparation and data visualization.
 - Many ML algorithms struggle with high-dimensional data. PCA can reduce the dimensions and potentially improve the model performance.
 
