@@ -17,9 +17,9 @@
 - When you need to visualize high-dimensional data in 2D or 3D.
 
 ### **Benefits:**
-- **Simplified Analysis:** Analyzing data with fewer, relevant, features is easier and faster.
-- **Improved Accuracy:**  Simplifies the model, which improves accuracy.
-- **Faster Training:** Less data means faster computation.
+- **Simplified Analysis:** Analyzing data with fewer, relevant features is easier and faster.
+- **Improved Accuracy:** Simplifies the model, which improves accuracy, consistency and efficiency.
+- **Faster Training:** Less data means faster computation, faster training, and faster prediction/classification.
 - **Improved Visualization:** Lower-dimensional data can be visualized more effectively using charts and plots.
 - **Enhanced ML:** Reduced computational cost, faster model training and better accuracy + model performance.
 
@@ -36,7 +36,7 @@ Reduces training time by using a smaller set of features | Improves model perfor
 - Features are selected by calculating the correlation (regression) of each feature with the target variable or information gain (classification)
 - Wrapper methods use algorithms to search for the most predictive subset of features (Random Forest)
 - Embedded methods perform feature selection as a part of the model training process.
-- Regularization also helps in finding the relevant features for the model training.
+- Regularization (LASSO and Ridge) also helps in finding the relevant features for the model training.
 
 ### **Feature Extraction**
 - Feature extraction identifies the most relevant features and transforms the original dataset into a new dataset. 
