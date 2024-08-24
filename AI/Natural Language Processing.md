@@ -155,7 +155,7 @@
 
 <h3 name="token">Tokenization</h3>
 
-- The process of breaking down text into smaller units for analysis.
+- The process of breaking down or converting text into smaller units called tokens for analysis.
 - Splitting sentences into words, punctuations, characters, or even sequences of characters.
 - The computer works better with smaller chunks, is easier to understand, and identifies important words.
 
@@ -166,11 +166,12 @@ Word = "Hi, my name is Kirankumar"
 
 <h3 name="stem">Stemming</h3>
 
-- Stemming reduces a word to its stem/root/base form.
+- Stemming reduces a word to its stem/root/base forms. Stemming is a rule-based approach.
 - Stemming removes common suffixes and prefixes from the word (ing, es, s, ed)
 - For example, the words "playing", "played", "plays", and "players" would all be stemmed down to "play"
 - Stemming can be helpful for tasks like information retrieval, as it allows the model to match words with different suffixes.
 - Reduces data size (saves storage space, improves processing speed)
+- Sometimes stemming results in non-standard words like 'comput' from 'computing' or 'computer'. 
 
 **Stemming is applied on tokens**
 
@@ -179,21 +180,22 @@ stem(token)
 ```
 
 ### Types of Stemmers
-1. **Porter Stemmer**: Oldest with very low accuracy: fairly > fairli)
-2. **Snowball Stemmer**: Better than Porter and Lancaster: fairly > fair
+1. **Porter Stemmer**: Oldest with very low accuracy: 'fairly' as 'fairli'
+2. **Snowball Stemmer**: Better than Porter and Lancaster: 'fairly' as 'fair'
 3. **Lancaster Stemmer**: Fastest with least accuracy
 
 <h3 name="lemma">Lemmatization</h3>
 
-- A more sophisticated form of stemming that considers a word's context to determine its dictionary form.
+- Lemmatization uses vocabulary and morphological analysis to return the base or dictionary form of a word.
+- **Morphological Analysis:** A method for understanding complex problems by breaking them down into their basic elements. 
 - Transform words to the actual dictionary form. It's more accurate than stemming but might require a larger dictionary.
-- Used in **search engines** to search by keywords. Lemma is an actual word (Better > Good)
+- Lemmatization returns standard and accurate words like 'run' for 'running' and 'better' from 'best'.
 
 ### WordNet Lemmatizer
 
 - Database for English (Most popular **Lemmatizer**)
 - Nouns, Verbs, Adjectives and Adverbs are grouped into cognitive synonym sets.  
-- e.g. {'consult', 'consultation', 'consulting', 'consultant'} - consult
+- e.g. {'consulted', 'consultation', 'consulting', 'consultant'} as 'consult'
 
 Stemming | Lemmatization
 :--- | :---
@@ -216,7 +218,7 @@ Simply strip the end of the word to stem | **Converts** the word to its **meanin
 <h3 name="norm">Text Normalization</h3>
 
 - Transforming text into its standard consistent format to make it easier for computers to understand.
-- e.g. 'gooood' and 'gud' transformed into 'good'.
+- e.g. 'gooood' and 'gud' as 'good'.
 - Case conversion: Putting all in the same case (Either uppercase or lowercase) depending on the situation.
 - Punctuation Removal: Unnecessary punctuations are not relevant for analysis.
 - Abbreviations and Acronym Expansion: Clarifies the meaning of the text for computer processing (OMG, ASAP, OOO)
@@ -382,11 +384,12 @@ Google Search suggests bigrams and trigrams in their keyword suggestions.
 <h3 name="ner">Name Entity Recognition</h3>
 
 1. NER deals with identifying and classifying named entities (words) in text and assigning labels (categories).
-2. Categories like People (Name of the individual), Organizations (Companies, WHO), Locations (Country, City), Dates, Times, and Money.
+2. Categories like Person (Name of the individual), Organizations (Companies, WHO), Locations (Country, City), Dates, Times, and Money.
 3. This helps to extract important information automatically from large amount of text data. Saves time and effort.
-4. Helps organize and structure information, making it easier to analyze and understand.
+4. Helps organize the unstructured data into structured information, making it easier to analyze and understand.
 5. NER extracts information from the text data, it helps to understand relationships and context.
-6. e.g. Narendra Modi (Person) visited Bangalore (Location) in March (Month) 2024 (Year).
+6. e.g. `Narendra Modi (Person)` visited `Bangalore (Location)` in `March (Month)` `2024 (Year)`
+7. Applications: Content categorization, question answering, improving search engine accuracy, and understanding queries.
 
 ![NER](Image/NER.png)
 
