@@ -521,7 +521,6 @@ $1B MONEY
 - **Data Quality:** Ensure it's well annotated and reflects the entities you want the model to recognize.
 - **Evaluation:** Evaluate the model's performance on unseen data to check improved accuracy.
 
-**Incremental Training:**
 ### Syntax | Syntactic Analysis
 - The process of analyzing the grammatical structure of a sentence.
 - Breaks down the sentences into phrases and clauses.
