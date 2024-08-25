@@ -183,7 +183,15 @@ print(vocab)
 - The computer works better with smaller chunks, is easier to understand, and identifies important words.
 
 ```python
-Word = "Hi, my name is Kirankumar"
+import nltk
+
+word = "Hi, my name is Kirankumar"
+tokens = nltk.word_tokenize(word)
+print(tokens)
+```
+
+```output
+# Output:
 ["Hi", ",", "my", "name", "is", "Kirankumar"]
 ```
 
@@ -206,6 +214,22 @@ stem(token)
 1. **Porter Stemmer**: Oldest with very low accuracy: 'fairly' as 'fairli'
 2. **Snowball Stemmer**: Better than Porter and Lancaster: 'fairly' as 'fair'
 3. **Lancaster Stemmer**: Fastest with least accuracy
+
+```python
+import nltk
+from nltk.stem import PorterStemmer
+
+# Create stemmer object:
+stemmer = PorterStemmer()
+
+words = ['run', 'runner', 'ran', 'runs', 'easily', 'fairly']
+stemmed_words = [stemmer.stem(words) for word in words]
+print(stemmed_words)
+```
+```
+# Output:
+['run', 'runner', 'ran', 'run', 'easili', 'fairli']
+```
 
 <h3 name="lemma">Lemmatization</h3>
 
@@ -253,7 +277,7 @@ Simply strip the end of the word to stem | **Converts** the word to its **meanin
 
 <h3 name="stop">Stop Word</h3>
 
-- Common words with little meaning on their own are filtered out before processing text.
+- Common words with little meaning are filtered out before processing text.
 - Stop words are filler words like a, an, in, on, and, the, or, etc.
 - Stopwords are ignored and removed so that we can focus on important words instead.
 - Search engines only search based on keywords, they are programmed to ignore stop words.
@@ -294,8 +318,31 @@ Token for Token in the text if not in Stopwords.words()
 
 <h3 name="vector">Vectorization</h3>
 
-- Converting textual data to numerical vectors (list of numbers) that an algorithm and ML model can understand and process.
-- It's like translating human language into a format that ML algorithms can use.
+- Converting textual data or tokens to numerical vectors that an algorithm and ML model can understand and process.
+- Convert tokens to a vector space representation to perform various tasks such as classification, summarization, etc.
+
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+
+# Define text data:
+text_data = ['This is a positive sentence', 'This is a negative sentence']
+
+# Create an instance of the CountVectorizer:
+vectorizer = CountVectorizer()
+
+# Fit the vectorizer on the text data:
+vectorizer.fit(text_data)
+
+# Transform the text data into numerical vectors:
+vectors = vectorizer.transform(text_data)
+
+print(vectors.toarray())
+```
+```
+# Output:
+[[0 1 0 1 1 1]
+ [0 1 1 0 1 1]]
+```
 
 **Common vectorization techniques:**
 1. **Bag-of-Words (BoW):** Represents documents based on word frequency (How many times the word appears in the document)
@@ -402,19 +449,68 @@ Token for Token in the text if not in Stopwords.words()
 ### 3.**Trigrams (N=3) | Sequences of three words**
 - Example: "The quick brown", "quick brown fox", "brown fox jumps", "fox jumps over", "jumps over the", "over the lazy", "the lazy dog".
 
+```python
+import nltk
+from nltk.util import ngrams
+
+# Tokenize the text:
+text = 'My name is Kirankumar.'
+words  = nltk.word_tokenize(text)
+
+# Create bigrams:
+bigrams = ngrams(words, 2)
+print('Bigrams:')
+print(list(bigrams))
+
+# Create trigrams:
+trigrams = ngrams(words, 3)
+print('Trigrams:')
+print(list(trigrams))
+```
+```output
+Bigrams:
+[('My', 'name'), ('name', 'is'), ('is', 'Kirankumar'), ('Kirankumar', '.')]
+
+Trigrams:
+[('My', 'name', 'is'), ('name', 'is', 'Kirankumar'), ('is', 'Kirankumar', '.')]
+```
+
 Google Search suggests bigrams and trigrams in their keyword suggestions.  
 
-<h3 name="ner">Name Entity Recognition</h3>
+<h3 name="ner">Name Entity Recognition (NER)</h3>
 
 1. NER deals with identifying and classifying named entities (words) in text and assigning labels (categories).
 2. Categories like Person (Name of the individual), Organizations (Companies, WHO), Locations (Country, City), Dates, Times, and Money.
 3. This helps to extract important information automatically from large amount of text data. Saves time and effort.
 4. Helps organize the unstructured data into structured information, making it easier to analyze and understand.
 5. NER extracts information from the text data, it helps to understand relationships and context.
-6. e.g. `Narendra Modi (Person)` visited `Bangalore (Location)` in `March (Month)` `2024 (Year)`
+6. e.g. `Narendra Modi (Person)` visited `Bangalore (Geopolitical Entity)` in `March (Month)` `2024 (Year)`
 7. Applications: Content categorization, question answering, improving search engine accuracy, and understanding queries.
 
 ![NER](Image/NER.png)
+
+```python
+import spacy
+
+# Load the spacy model for NER:
+nlp = spacy.load('en_core_web_sm')
+
+# Define a sample text:
+text = "Apple is planning to open an outlet in Mumbai for $1B"
+
+# Process the text with spaCy:
+doc = nlp(text)
+
+# Iterate over the entities in the text and print:
+for ent in doc.ents:
+  print(ent.text, ent.label_)
+```
+```
+# Output:
+Apple ORG (Orgaization)
+Mumbai GPE (Geographic Location | Geopolitical Entity)
+$1B MONEY
+```
 
 ### **How to update NER?**
 
