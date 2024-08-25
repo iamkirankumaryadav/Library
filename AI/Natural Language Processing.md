@@ -416,6 +416,7 @@ print(vectors.toarray())
 - It helps in predicting the next word (Helpful for tasks like auto-completion in search engines)
 - Understanding language patterns: We can learn common phrases.
 - Sentiment analysis: e.g. Trigram "feeling very happy": Positive sentiment
+- Google Search Engine uses bigram and trigram in their keyword suggestions.  
 
 ### 1. **Unigram (N=1) | Single Word**
 ```
@@ -463,8 +464,6 @@ Bigrams:
 Trigrams:
 [('My', 'name', 'is'), ('name', 'is', 'Kirankumar'), ('is', 'Kirankumar', '.')]
 ```
-
-Google Search suggests bigrams and trigrams in their keyword suggestions.  
 
 <h3 name="ner">Name Entity Recognition (NER)</h3>
 
