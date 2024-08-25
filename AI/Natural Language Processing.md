@@ -87,8 +87,9 @@
 <h3 name="corpus">Corpus</h3>
 
 - A large collection of real-world text data used to train and test NLP models.
-- Corpora shows how those words are used in sentences, paragraphs, and entire documents.
+- Corpora shows how those words are used in sentences, paragraphs, and documents.
 - Corpus linguistics, collections of spoken and written texts are compiled and analyzed.
+- Think of a book with 100 pages, each page is a document and the whole book us a corpus.
 
 **It helps us to find:**
 - How does the meaning of a word change depending on the context?
@@ -101,6 +102,27 @@
 3. **Social media corpora:** Collections of comments from social media platforms such as Instagram, Twitter and Facebook. 
 4. **Speech corpora:** Collections of written text, transcriptions of spoken languages, multilingual
 
+### **Vocabulary/Bag of words**
+- Number of unique words in a text corpus. Like the dictionary of words in your training dataset.
+- As humans, we understand words that are part of our vocabulary.
+- NLP models will only know words that fall within the bag of words or vocabulary.
+
+```python
+import nltk
+from nltk.tokenize import word_tokenize
+
+# Tokenize the text
+text = "This is an example of building a vocabulary for NLP tasks"
+words = word_tokenize(text)
+
+# Create a vocabulary
+vocab = set(words)
+print(vocab)
+``` 
+
+```output
+{'tasks', 'of', 'a', 'example', 'for'. '.', 'building', 'NLP', 'vocabulary', 'This', 'an', 'is'}
+```
 <h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
 
 - Open source toolkit or library created for Python to make NLP processes/tasks.
