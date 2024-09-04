@@ -2,20 +2,19 @@
 
 # **Normalization | Standardization | Rescaling**
 
-- Dataset contains independent features with different ranges/scales of values. 
-- We normalize/standardize data to bring it down to the same range/scale.
+- A technique used in ML to rescale numerical features from their natural range to a standard range, typically between 0 to 1 or -1 to 1.
+- Dataset contains independent features with different ranges/scales of values. Depending on their units of measurement.
+- Data is normalized/standardized/rescaled to bring it down to a standard/normal range.
+- This process is essential for ensuring that the features are trained equally and contribute equally to the model's predictions.
+- It also prevents the model from being biased towards features with a larger magnitude/scale/range.
 - Important for the models that depend on distance calculations like Linear Regression, KNN, K Mean, and SVM.
 - Decision Trees and Ensemble Learnings do not require data normalization.
 
-Data Normalization | Data Standardization (Z Score Normalization)
+**Data Normalization** | **Data Standardization (Z Score Normalization)**
 :--- | :---
 **x(normal) =  x - min(x) / max(x) - min(x)** | **z = x - mean(x) / std(x)**
-Rescale feature value between the range 0 and 1 | Rescale features to have the **mean = 0** and **standard deviation = 1**
+Rescale feature value between the range 0 and 1 | Standardize features to have a **mean of 0** and a **standard deviation of 1**
 **sklearn.preprocessing.MinMaxScaler()** | **sklearn.preprocessing.StandardScaler()**
-
-### **Scaling:**
-- Convert numeric feature values from their natural range into a standard range.
-- A dataset with only one feature doesn't need scaling, it's beneficial only with multiple features of different ranges.
 
 ### **Simple Feature Scaling:**
 - **x(new) = x / max(x)**
@@ -30,7 +29,7 @@ Rescale feature value between the range 0 and 1 | Rescale features to have the *
 </table>
 
 ### **Min-Max Scaling:**
-- **x(new) = x - min(x) / max(x) - min(x)**
+- **x(normal) = x - min(x) / max(x) - min(x)**
 
 <table>
   <tr><th colspan=2>Before Normalization</th><th colspan=2>After Normalization</th></tr>
@@ -60,11 +59,11 @@ X_train_scaled = scaler.transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 ```
 
-### Data Standardization (Z-Score Normalization) | Standard Score
+### **Data Standardization (Z-Score Normalization) | Standard Score**
 - **z = x - mean / std** (z: specific data point)
 - How many standard deviations is a specific data point away from the mean of a dataset?
-- How far a particular value is away from the average value.
-- A Z-score of 0 means that the data point is exactly at the mean.
+- How far a particular value is away from the average value of a dataset.
+- A **Z-score** of 0 means the data point is exactly at the mean.
 - Standardize features around the centre (Mean). Ranges from +3 (Above the mean) to -3 (Below the mean).
 
 <table>
@@ -109,25 +108,25 @@ Formula Description | The square root of the sum of squared differences between 
 Visualization | Straight line	| Right-angle movements (Horizontal + Vertical)
 
 ### **Benefits** 
-1. Helps the gradient descent to converge (reach the local minimum point) more quickly.
-2. Helps the model to learn appropriate weights for each independent feature.
+1. Helps the **gradient descent** to converge (reach the local minimum point) more quickly when features are normalized.
+2. Helps the model to learn appropriate weights for each independent feature during training.
 3. The model prioritizes the features with a high range even if the feature is irrelevant.
 4. A feature with a low **range** is ignored even if it is a better feature for model training.
 5. Large-scale features play a dominating role in the model. Scaling discourages domination.
-6. Reduces the effect of outliers. Improves the model's accuracy and performance.
+6. Help the model generalize better on unseen data by reducing the impact of outliers, improving the model's accuracy and performance.
 
 ### **Transformation:**
-- Split the data set into a train set and a test set.
-- Apply the same transformation on the train set and the test set (Consistency)
-- No need to scale dependent variable | target vector.
+- Split the data set into a **train set** and a **test set**.
+- Apply the same transformation on the **train set** and the **test set** (Consistency)
+- No need to scale the dependent variable | target vector and categorical features (But needs encoding)
 - **fit():** Learn parameters and scales of data that will be needed to transform the data. | Apply only on a train set.
-- **transform():** Transforms data based on what it learns from **fit()** | Apply on the train and test set.
+- **transform():** Transforms data based on what it learns during **fit()** | Apply on the train and test set.
 - **fit_transform():** First learn and then apply in place | Apply only on the train set.
 - Prevents **data leakage**: **Sharing information** of **train set** with **test set**.
 - Data Leakage happens when the scaling parameters calculated from the entire dataset are applied to the training and test sets. 
 
 ### **How to Prevent Data Leakage?**
-- Split the dataset properly into training, validation and test sets (No overlapping or replacement)
+- Split the dataset properly into training, validation and testing sets (No overlapping or replacement)
 - Calculate the scaling parameters (mean, median, standard deviation, min, max, etc) exclusively on the training set.
 - Use the scaling parameters obtained from the training set to transform both the training set and test sets.
 - Never apply **fit_transform()** directly on the test set. Also, remove duplicate data using **drop_duplicates()**.
