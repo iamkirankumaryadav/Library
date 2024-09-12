@@ -19,16 +19,16 @@
 ### How to find the relationship between the independent variable and target labels?
 - Unlike regression, we can't use correlation to access the relationship.
 - Data Visualization: Bar Charts, Histogram.
-- Statistical Test: Chi-Square Test (Significant association between independent variable and target labels)
+- **Statistical Test:** Chi-Square Test (Significant association between independent variable and dependent variables)
 - Information Gain (High), Gini Index (Low) and Entropy (Low) in Decision Trees and Random Forests.
-- L1 Regularization: Shrinks the coefficient of less important features towards zero.
+- **L1 Regularization:** Shrinks the coefficient of less important features towards zero.
 - Features with large coefficients are considered more important.
 
-### Remove Correlated Independent Feature
+### **Remove Correlated Independent Feature**
 - The model can overfit if you have multiple highly correlated independent features.
 - Calculate the pairwise correlations between all independent features and remove highly correlated independent features.
 
-### Example
+### **Example**
 - Linear regression helps us to predict the student's test score on a scale of 0 - 100 | Continuous
 - Logistic regression helps us to classify whether the student has passed (PASS) or failed (FAIL) | Discrete
 
@@ -84,15 +84,48 @@ cm = metrics.confusion(y_test, model.predict(X_test))
 
 ### **How to handle Multiclass classification problems?**
 - Split the task into multiple binary classification datasets.
-- Fit the binary classification model on each set. Set parameter **multi_class='ovr'**
+- Fit the binary classification model on each dataset. Set parameter **multi_class='ovr'**
 - The model that predicts the highest class probability is the predicted class.
+
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report
+
+# Load the Iris dataset:
+df = pd.read_csv("iris.csv")
+
+# Split data into features (X) and target variable (y):
+X = df.drop("species", axis=1)
+y = df["species"]
+
+# Split data into training and testing sets:
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create a logistic regression model:
+model = LogisticRegression(multi_class='ovr')  # One-vs-rest
+
+# Train the model:
+model.fit(X_train, y_train)
+
+# Make predictions on the testing set:
+y_pred = model.predict(X_test)
+
+# Evaluate the model:
+accuracy = accuracy_score(y_test, y_pred)
+report = classification_report(y_test, y_pred)
+
+print("Accuracy:", accuracy)
+print("Classification Report:\n", report)
+```
 
 ### OvR (One vs Rest) | OvA (One vs All)
 Extends binary class classification to multiclass classification.
-- digit 0 vs. digit 1, 2 and 3
-- digit 1 vs. digit 0, 2 and 3
-- digit 2 vs. digit 0, 1 and 3
-- digit 3 vs. digit 0, 1 and 2
+- digit 0 vs. digits 1, 2 and 3
+- digit 1 vs. digits 0, 2 and 3
+- digit 2 vs. digits 0, 1 and 3
+- digit 3 vs. digits 0, 1 and 2
 
 [Implementation](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/05.Logistic%20Regression%20for%20Multiclass%20Classification.ipynb)
 
