@@ -3,7 +3,7 @@
 # **Logistic Regression**
 - A model used for classification tasks like classifying flower species or image classification.
 - The logistic regression predicts the probability distribution of a binary outcome.
-- Transforms output using the Sigmoid/Logit function to map any real number to a value between 0 (low) and 1 (high)   
+- Transforms any real number to a value between 0 (low) and 1 (high) using the Sigmoid/Logit function.  
 - Probability of occurrence of the target label is predicted based on threshold (0.5) 
 - The scale affects Logistic regression, so always standardize the features before applying logistic regression. 
 
