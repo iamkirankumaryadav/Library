@@ -5,18 +5,18 @@
 <h3><a href='#simple'>Simple Linear</a> | <a href='#multiple'>Multiple Linear</a> | <a href='#ass'>Assumptions</a></h3>
 
 ### **Regression**
-- Estimating the relationships between independent and dependent variables to make predictions.
+- Estimating the relationships between the dependent and one or more independent variables to make predictions.
 
 #### **Important Terms:**
-- Independent Variable | Features Matrix (An array of numbers, one or more rows, one or more columns)
+- Independent Variables | Features Matrix (An array of numbers, one or more rows, one or more columns)
 - Dependent Variable | Target Vector (A list of numbers, can be in a single row or column)
 
 ### **Linear Regression:**
 - Predict a continuous numeric dependent variable based on one or more independent variables.
-- The best-fit line (regression line) which gives the least number of errors.
-- Residual | Error: Difference between actual and predicted value for given data points.
+- Predict a best-fit line (regression line) with the least errors or residuals.
+- Residual | Error: Difference between the actual and the predicted value for a given data point.
 - Learning a linear regression model means estimating the values of the coefficients (Slope and Intercept)
-- Sensitive to overfitting and outliers.
+- Linear regression is sensitive to over fittings and outliers.
 - But can be prevented using [dimensionality reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md), [regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md), [standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) and [cross validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 
 ![Regression Line](Image/RegressionLine.png)
