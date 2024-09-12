@@ -45,7 +45,7 @@
 
 ![MAE](Image/MAE.png)
 
-- Sum of absolute difference between actual and predicted values.
+- The average absolute difference between actual and predicted values.
 - MAE is better for datasets with small errors but fails in case of larger errors.
 - MAE is expressed in the same units as the dependent variable.
 - MAE is less sensitive towards outliers.
@@ -57,7 +57,7 @@
 
 ![MSE](Image/MSE.jpg)
 
-- Sum of the squared difference between actual and predicted values.
+- The average squared difference between actual and predicted values.
 - More sensitive towards outliers, hence affected/impacted by outliers.
 - MSE is not good for larger errors. It changes the units/scale of the predicted values.
 - MSE is expressed as squared units instead of natural data units.
@@ -71,7 +71,7 @@
 ![RMSE](Image/RMSE.png)
 
 - Square Root of MSE, RMSE is useful at the time of undesired large errors.
-- RMSE is a more intuitive measure of error than MSE.
+- RMSE is a more intuitive measure of error than MSE. Provides a more interpretable measure.
 - It is measured in the same units as the predicted variable.
 - It gives high weight to large errors. RMSE is useful when large errors are undesirable.
 - Combines the properties of MAE (same unit) and MSE (magnifies smaller errors).
@@ -88,8 +88,7 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 
 ![R2](Image/R2.png)
 
-- Decides the goodness of fit of a regression model.
-- Helps to understand how well the model fits the data or how well the model makes predictions on new observations.
+- A measure of how well the model fits the data or how well the model makes predictions on new observations.
 - Measure how close each data point fits the regression line or how well the regression line predicts actual values.
 - Explains the variance of the data captured by the model (0.7 to 0.9 is a good value for R2)
 - If R<sup>2</sup> is 0.8 or 80% (Regression line explains 80% of the variance in data)
