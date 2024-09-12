@@ -7,7 +7,7 @@
 - Probability of occurrence of the target label is predicted based on threshold (0.5) 
 - The scale affects Logistic regression, so always standardize the features before applying logistic regression. 
 
-### **Logistic Function  | Sigmoid Function (S-Shaped Curve)**
+### **Logistic | Logit | Sigmoid Function (S-Shaped Curve)**
 - Accepts any real value and maps it into a value between 0 and 1.
 - The probability prediction is transformed to binary | dichotomous (0 and 1)
 - **Threshold:** 0.5 (Probability < 0.5 is considered as 0 else 1)
