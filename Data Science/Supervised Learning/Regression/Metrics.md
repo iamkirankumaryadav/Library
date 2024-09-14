@@ -161,7 +161,7 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 - The ratio of true positive predictions (TPs) to the total number of positive predictions.
 - Measures the correctly identified positive cases (TPs) from all the predicted positive cases.
-- The cost of a False Positive (FP) is **high**. (e.g. There is a virus but, the antivirus is predicting that the system is safe it's costly)
+- Precision is useful when the cost of a False Positive (FP) is **high**. (e.g. Antivirus, Spam Filtering)
 - **TP:** The number of instances that were correctly classified as positive.
 - **FP:** The number of instances that were incorrectly classified as positive.
 
@@ -171,7 +171,7 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 - The ratio of true positive predictions (TPs) to the total number of actual positive cases
 - Measures the correctly identified positive cases (TPs) from all the actual positive cases. 
-- The cost of a False Negative (FN) is **high**. (e.g. Person is prone to COVID 19 but if the test result is negative it can be fatal.)
+- Recall is useful when the cost of a False Negative (FN) is high/risky. (e.g. Medical Diagnosis, Covid Test)
 - **FN:** The number of instances that were incorrectly classified as negative
 
 ![Recall](Image/Recall.png)
@@ -185,11 +185,12 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='f1'>6. F1 Score | F Measure</h3>
 
-- The weighted average (Harmonic Mean) of precision and recall.
+- F1 Score is a **harmonic mean** of **precision** and **recall**.
 - The F1 Score keeps a balance between recall and precision for the classifier model.
 - Useful for imbalanced datasets (Uneven class distribution) and it also considers FP and FN.
-- Better measure for the incorrectly classified cases than the accuracy metric.
 - **Accuracy** is used when TP and TN are more important.
+- **Precision** is used when FP is crucial (Antivirus is showing that the system is safe, even if it's affected by a virus)
+- **Recall** is used when FN is risky (Medical diagnosis, Covid test is showing negative, even if the patient is affected)
 - **F1 Score** is used when FN and FP are more crucial.
 - **F1-score** is a better metric to evaluate in **real life application**.
 - Best value for **F1 Score** is 1 | Worst value for **F1 Score** is 0.
@@ -197,19 +198,19 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 ![F1](Image/F1.png)
 
-<h3 name='roc'>7. ROC | Receiver Operating Characteristic Curve</h3>
+<h3 name='roc'>7. ROC | Receiver Operating Characteristic</h3>
 
 - Explains the characteristics of curves by plotting, TPR on the Y-axis and FPR on the X-axis at different classification thresholds.
 - The ROC curve helps to select the optimal threshold for a classifier.
-- If the threshold is closer to 1.0 or 100%: **Classifications** get more accurate
+- If the threshold is closer to 1.0 or 100%: **Classifications** get more accurate.
 
 ![ROC](Image/ROC.svg)
 
 <h3 name='auc'>8. AUC | Area Under ROC Curve</h3> 
 
-- Helps to understand the performance of a classification model across all classification thresholds.
+- Helps to understand the performance of a classification model across all the classification thresholds.
 
-Score | Classifier
+**Score** | **Classifier**
 --- | ---
 AUC = 1.0 | Perfect Classifier  
 AUC > 0.75 | Good Classifier 
@@ -217,7 +218,5 @@ AUC > 0.5 | Bad Classifier
 AUC < 0.5 | Worst Classifier
 
 ![AUC](Image/AUC.png)
-
-ROC and AUC measures the ability to distinguish between positive and negative classes.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
