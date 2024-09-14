@@ -159,9 +159,9 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='pre'>3. Precision</h3>
 
-- The ratio of true positive predictions to the total number of positive predictions.
-- Measures the correctly identified positive cases from all the predicted positive cases.
-- Used when the cost of False Positive (FP) is **high**. (e.g. There is a virus but still, antivirus is predicting that the system is safe it's costly)
+- The ratio of true positive predictions (TPs) to the total number of positive predictions.
+- Measures the correctly identified positive cases (TPs) from all the predicted positive cases.
+- The cost of a False Positive (FP) is **high**. (e.g. There is a virus but, the antivirus is predicting that the system is safe it's costly)
 - **TP:** The number of instances that were correctly classified as positive.
 - **FP:** The number of instances that were incorrectly classified as positive.
 
@@ -169,10 +169,9 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='tpr'>4. Recall | True Positive Rate (TPR) | Sensitivity</h3>
 
-- The ratio of true positive predictions to the total number of actual positive cases
-- Measures the correctly identified positive cases from all the actual positive cases. 
-- Used when the cost of False Negatives (FN) is **high**. (e.g. Person is prone to COVID 19 but if the test result is negative it can be fatal.)
-- **True Positive Rate:** Proportion of **positive class** that is correctly predicted as **positive**.
+- The ratio of true positive predictions (TPs) to the total number of actual positive cases
+- Measures the correctly identified positive cases (TPs) from all the actual positive cases. 
+- The cost of a False Negative (FN) is **high**. (e.g. Person is prone to COVID 19 but if the test result is negative it can be fatal.)
 - **FN:** The number of instances that were incorrectly classified as negative
 
 ![Recall](Image/Recall.png)
