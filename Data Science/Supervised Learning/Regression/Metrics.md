@@ -29,13 +29,14 @@
   </tr>
 </table>
 
-### How to evaluate the performance of a machine learning model?
+### How do you evaluate the performance of an ML model?
 1. We start with some initial configuration of the model and predict the output based on some input.
-2. Then we compare the predicted value with the target (actual value) and measure the performance of our model.
+2. Then we compare the predicted value with the target (actual value) and measure the performance.
 3. Parameters of the model are adjusted iteratively to reach the optimal value of the performance metric.
-4. Performance metric is a measurable value that is used to evaluate the performance of the model.
-5. Performance metrics can be used to track progress towards accuracy, identify areas for improvement, and make informed decisions.
+4. Performance metric is a measurable value used to evaluate the model's performance.
+5. Performance metrics can be used to track progress towards accuracy and identify areas for improvement.
 6. The model that generalizes best to the new unseen data is finally selected.
+7. The model allows us to compare different models and choose the best one for a specific task.
 
 <h3 name="linear">Linear Regression</h3>
 
@@ -71,7 +72,7 @@
 ![RMSE](Image/RMSE.png)
 
 - Square Root of MSE, RMSE is useful at the time of undesired large errors.
-- RMSE is a more intuitive measure of error than MSE. Provides a more interpretable measure.
+- RMSE is a more intuitive measure of error than MSE. Provides an interpretable measure.
 - It is measured in the same units as the predicted variable.
 - It gives high weight to large errors. RMSE is useful when large errors are undesirable.
 - Combines the properties of MAE (same unit) and MSE (magnifies smaller errors).
@@ -114,7 +115,7 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 - Compare models with different numbers of independent features.
 - Adjusted R<sup>2</sup> increases only if the new independent feature improves the model more than expected.
 - Provides more accurate correlation between independent features.
-- It is a more accurate measure of the model's fit if there are a large number of independent variables.
+- It is a more accurate measure of the model's fit if there are many independent variables.
 
 | MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
 | :--- | :--- | :---
@@ -122,14 +123,15 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 
 <h3 name="logistic">Logistic Regression | Classification</h3>
 
-- Predict the class | label of a data point based on one or more independent features.
-- Depending on the number of classes | labels that the target variable includes, it can be a Binary or Multiclass classification.
+- Predict the class label of a data point based on one or more independent features.
+- Depending on the number of class labels that the target variable includes, it can be a Binary or Multiclass classification.
 - The data set should contain a well-balanced class distribution. (e.g. Total Students = 100 : 50 Boys + 50 Girls)
 - **Good Classifier:** 1 or 100% | **Bad Classifier** < 0.5 or 50%
 
 <h3 name='cm'>1. Confusion Matrix</h3>
 
-- Help us to evaluate correct and incorrect classifications on each class | label
+- A table that summarizes the performance of a classification model.
+- Evaluate correct and incorrect classifications on each class label.
 
 ![Classification](Image/Classification.png)
 
@@ -146,7 +148,7 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='acc'>2. Accuracy</h3>
 
-- Number of correct predictions to the total predictions.
+- The ratio of correct predictions to the total number of predictions.
 - Accuracy score is good if the dataset contains a balanced class distribution.
 - Used when all the classes (TP, TN, FP and FN) are equally important.
 - **Accuracy: (TP + TN) / TP + TN + FP + FN**
@@ -155,6 +157,7 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='pre'>3. Precision</h3>
 
+- The ratio of true positive predictions to the total number of positive predictions.
 - Measures the correctly identified positive cases from all the predicted positive cases.
 - Used when the cost of False Positive (FP) is **high**. (e.g. There is a virus but still, antivirus is predicting that the system is safe it's costly)
 - **TP:** The number of instances that were correctly classified as positive.
@@ -164,6 +167,7 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='tpr'>4. Recall | True Positive Rate (TPR) | Sensitivity</h3>
 
+- The ratio of true positive predictions to the total number of actual positive cases
 - Measures the correctly identified positive cases from all the actual positive cases. 
 - Used when the cost of False Negatives (FN) is **high**. (e.g. Person is prone to COVID 19 but if the test result is negative it can be fatal.)
 - **True Positive Rate:** Proportion of **positive class** that is correctly predicted as **positive**.
@@ -180,7 +184,7 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='f1'>6. F1 Score | F Measure</h3>
 
-- Weighted average (Harmonic Mean) of precision and recall.
+- The weighted average (Harmonic Mean) of precision and recall.
 - The F1 Score keeps a balance between recall and precision for the classifier model.
 - Useful for imbalanced datasets (Uneven class distribution) and it also considers FP and FN.
 - Better measure for the incorrectly classified cases than the accuracy metric.
@@ -212,5 +216,7 @@ AUC > 0.5 | Bad Classifier
 AUC < 0.5 | Worst Classifier
 
 ![AUC](Image/AUC.png)
+
+ROC and AUC measures the ability to distinguish between positive and negative classes.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
