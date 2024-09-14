@@ -124,7 +124,7 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 <h2 name="logistic">Logistic Regression | Classification</h2>
 
 - Predict the class label of a data point based on one or more independent features.
-- Depending on the number of class labels that the target variable includes, it can be a Binary or Multiclass classification.
+- Depending on the number of class labels in the target variable, it can be a **Binary** or **Multiclass** classification.
 - The data set should contain a well-balanced class distribution. (e.g. Total Students = 100 : 50 Boys + 50 Girls)
 - **Good Classifier:** 1 or 100% | **Bad Classifier** < 0.5 or 50%
 
@@ -142,7 +142,9 @@ False Positive (FP): Predicts 1 when Actual is 0 | Type I Error  | Incorrect Tru
 False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect False Prediction 
 ```
 
-**FP** is acceptable but **FN** is dangerous | Fatal for problems related to **medical field**.
+- The metric depends on the specific problem and the relative importance of different types of errors.
+- For medical diagnosis, we might prioritize recall to avoid false negatives (FN)
+- For the spam filtering problem, we might prioritize precision to avoid false positives (FP)
 
 ![Confusion Matrix](Image/ConfusionMatrix.png)
 
