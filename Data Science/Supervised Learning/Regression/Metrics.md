@@ -38,7 +38,7 @@
 6. The model that generalizes best to the new unseen data is finally selected.
 7. The model allows us to compare different models and choose the best one for a specific task.
 
-<h3 name="linear">Linear Regression</h3>
+<h2 name="linear">Linear Regression</h2>
 
 - **Predict continuous numeric dependent variables based on one or more independent variables**
 
@@ -121,7 +121,7 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 | :--- | :--- | :---
 | Good Model: Value closer to `0` | Good Model: Value closer to `1` | Increases only if new term improves model
 
-<h3 name="logistic">Logistic Regression | Classification</h3>
+<h2 name="logistic">Logistic Regression | Classification</h2>
 
 - Predict the class label of a data point based on one or more independent features.
 - Depending on the number of class labels that the target variable includes, it can be a Binary or Multiclass classification.
