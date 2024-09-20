@@ -408,7 +408,7 @@ Algorithm Steps:
 - Initialize `K` ( `# nearest neighbours` ) 
 - Calculate the distance between new data points and the `K nearest neighbours` of training data points.
 - e.g. if K = 5, it will calculate the distance from the 5 nearest data points.
-- Sort the calculated distance in `ascending` order and get `the shortest distance or `most frequent` classes in neighbour.
+- Sort the calculated distance in `ascending` order and get `the shortest distance` or `most frequent` classes in neighbour.
 - `Regression`: `Mean` of K nearest distances are considered.
 - `Classification`: `Mode` of K nearest distances are considered.
 
