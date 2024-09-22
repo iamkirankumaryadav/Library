@@ -2,7 +2,7 @@
 
 # How to deal with outliers?
 
-<h3><a href="#zscore">Z Score</a> ( Extreme Value Analysis ) | <a href="#dbscan">DBSCAN</a> | <a href="#summary">5 Number Summary</a> | <a href="#algo">Algorithm</a></h3>
+<h3><a href="#zscore">Z Score</a> (Extreme Value Analysis) | <a href="#dbscan">DBSCAN</a> | <a href="#summary">5 Number Summary</a> | <a href="#algo">Algorithm</a></h3>
 
 ### What are outliers?
 - Outliers are data points that differ significantly from other data points in the dataset.
