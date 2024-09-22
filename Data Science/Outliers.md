@@ -1,19 +1,19 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# **How to deal with outliers?**
+# How to deal with outliers?
 
 <h3><a href="#zscore">Z Score</a> ( Extreme Value Analysis ) | <a href="#dbscan">DBSCAN</a> | <a href="#summary">5 Number Summary</a> | <a href="#algo">Algorithm</a></h3>
 
-### **What are outliers?**
-- Outliers are data points that differ significantly from other observations (data points) in the dataset.
+### What are outliers?
+- Outliers are data points that differ significantly from other data points in the dataset.
 - Outliers affect the distribution of data by introducing skewness in the data and also affect the correlation among features.
 - Outliers affect the overall central tendency and measure of dispersion/deviation.
 - **Positive Skew/Right Skew:** Mean is on the right side | Mean > Median > Mode
 - **Negative Skew/Left Skew:** Mean is on the left side | Mode > Median > Mean
 - Outliers create a significant impact on the performance and lead to inaccurate predictions of new unseen data.
-- Algorithms that use the **Euclidean distance metric** (distance-based calculations) are more sensitive to outliers.
+- Algorithms that are based on distance calculations are more sensitive to outliers.
 
-### **How to detect outliers?**
+### How to detect outliers?
 
 <h3><b>1. Visualization</b></h3>
 
