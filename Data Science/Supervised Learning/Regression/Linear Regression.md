@@ -24,7 +24,7 @@
 - Linear regression predicts a target vector's value based on the feature matrix's value.
 - The parameters **m** and **c** are **learnt** by the **algorithm** based on the **data point** pairs of (x, y)
 - There are few **statistical** <a href="#ass">assumptions</a> as well for **linear regression**. 
-- Also there are ways to **evaluate** how **good** our **model** learnt from the **data**, using [metrics](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md)
+- Also there are few [metrics](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md) to **evaluate** how **good** our **model** learnt from the **data**.
 - **y = m * x + c** (m and c are also called as coefficients)
 
 ![Equation Line](Image/EquationLine.png)
