@@ -106,10 +106,9 @@ print(vocab)
 {'tasks', 'of', 'a', 'example', 'for', '.', 'building', 'NLP', 'vocabulary', 'This', 'an', 'is'}
 ```
 
-<h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
+<h3 name="nltk">NLTK (Natural Language Toolkit)</h3>
 
-- An open-source toolkit or library for Python to make NLP processes/tasks.
-- NLTK provides a comprehensive set of tools for various NLP tasks.
+- An open-source toolkit or Python library, provides a comprehensive set of tools for various NLP tasks.
 - **Tokenization:** Breaking down text into fundamental units like words and characters.
 - **POS Tagging:** Assigning grammatical parts of speech labels (Noun, Verb, Adjective) to each word.
 - **Stemming and Lemmatization:** Reducing words to their base, root, or stem form.
