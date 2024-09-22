@@ -1,7 +1,7 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # Statistics: The Science of Data
-- Statistics is the science of collecting, organizing, analyzing, interpreting, and presenting data.
+The science of collecting, organizing, analyzing, interpreting, and presenting data.
 
 ### Key concepts of statistics:
 1. **Data:** Information gathered from observations, research, experiments, or surveys.
@@ -17,11 +17,10 @@
 - Descriptive statistics are used to **summarize/describe** a dataset using the measures (mean, median, mode, standard deviation). 
 - It provides us with techniques to understand the features and characteristics of the data (Quick snapshot)
 - Provides a quick overview of data, and measures central tendency, variability, and distribution of the data.
-- You can get a quick idea of what your data is like without getting down into every single data point.
 
 <h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a>&nbsp;|&nbsp;<a href='#distribute'>Measure of Distribution</a></h3>
 
-- Sample is **representative** of population
+- Sample is a **representative** of the population
 - Larger Sample = Greater Accuracy = More Confidence
 
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
@@ -43,25 +42,23 @@
 
 <h3 name='spread'>Measures of Spread | Variability</h3>
   
-- Relationship of individual data points with their mean
+- Measures the relationship of individual data points with their mean.
+- How the data points are spread or scattered on each side of the centre (Mean | Median | Mode)
 
-How the `observations` are `spread` or `scattered` on each side of the `centre` ( Mean | Median | Mode )
+### 1. Range
 
-### 1. **Range**
+- **Range:** Max - Min, the difference between the highest and the lowest data point values in the dataset.
+- Very high data point values can mislead the range (e.g. {8, 11, 5, 9, 7, 6, 3616) Outlier.
+- Here the lowest data point value is 5 and the highest data point value is 3616.
 
-- `Range`: `Max` - `Min`, the difference between the lowest and highest data point values in the dataset.
-- Very high data point values can mislead the range (e.g. {8, 11, 5, 9, 7, 6, 3616) Outlier
-- Here the lowest data point value is `5` and the highest data point value is `3616`
-
-### 2. Variance (s <sup>2</sup>)
-- An average of the squared distances from the **mean**.
-- Variability of the data point values from its mean.
+### 2. Variance (s<sup>2</sup>)
+- An average of the squared distances from the mean. Variability of the data point values from its mean.
 
 ### 3. Standard Deviation (s: Square Root of Variance)
 - Distance of the **data points** from its **mean** in the **data set**. The square root of the **variance**.
-- `Small` std means `low` **variability** | Most of the **data points** are `close` to **mean** | `Narrow` distribution
-- `Large` std means `high` **variability** | Most of the **data points** are `far` from the **mean** | `Wider` distribution
-- Standard deviation calculates `mean`, so it is affected by an `outlier`
+- Small std means low **variability** | Most of the **data points** are close to the **mean** | Narrow distribution.
+- Large std means high **variability** | Most of the **data points** are far from the **mean** | Wider distribution.
+- Standard deviation calculates the mean, so it is affected by an outlier.
 
 **Variance** | **Standard Deviation**
 :--- | :---
@@ -69,8 +66,8 @@ Squared deviation from mean | Square root of variance
 Squared units | Same units as the original data
 More sensitive to outliers | Less sensitive to outliers
 
-### **Coefficient of variation (%)** 
-- Measures standard deviation relative to the mean.
+### Coefficient of variation (%)
+- Measures standard deviation as a percentage of the mean.
 - **Coefficient of Variation (%) = (Standard Deviation / Mean) * 100**
 - Measures the dispersion of data points around the mean.
 - Used to compare the standard deviation of variables with significantly different means.
@@ -78,17 +75,15 @@ More sensitive to outliers | Less sensitive to outliers
 ![Sample vs Population](Image/Sample.jpg)
 
 ### Z Score
-- `z = (x - mean(x)) / std(x)`
-- `x`: Data Points.
+- z = (x - mean(x)) / std(x)
+- x: Data Points.
 
 ### Inferential Statistics
-
-- Allows you to conclude on a population by analyzing the sample.
-- Making inferences from the samples and concluding a population.
+- Making inferences from the samples and concluding about a population.
 - Examples: Marketing campaigns, clinical drug trials, opinion polls, etc.
 
 ### Hypothesis Testing:
-- This is like guessing the population based on your sample.
+- This is like guessing about the population based on your sample information.
 - Null Hypothesis (H₀): You assume there's no significant difference between your sample and the population.
 - Alternative Hypothesis (H₁): This is the actual guess about the population. There might be a difference!
 
@@ -99,19 +94,17 @@ More sensitive to outliers | Less sensitive to outliers
 
 ### Confidence Level (Percentage)
 - Measure the possibility that all samples will represent the true population if the same method is repeated multiple times. 
-- `95%` **confidence level** implies that `95%` of times the sample will represent the true `population parameters`
+- A 95% **confidence level** implies that 95% of the time the sample will represent the true population parameters.
 - Population parameters: Mean, median, mode, range, variance, and standard deviation of the actual population.
 
 ### Confidence Intervals (Range of upper bound and lower bound)
-- A `range` of values where we believe the true population `values` will lie within that range.
-- Population `parameters`: `mean`, `median`, `range`, `variance` and `standard deviation`. 
-- If **prediction** falls within the interval range then it is `true` and represents the **population**.
-- If the `sample` doesn't fit a distribution, use the `central limit theorem` to make estimates about `population` parameters.
+- A range of values where we believe the true population values will lie within that range.
+- If **prediction** falls within the interval range then the hypothesis is true and represents the **population**.
 
 ### The **Effect** of **Transforming** Data on **Spread** and **Centre**
 
-- Measures of `centre` are affected by every **mathematical operations** ( `+` `-` `*` `/` )
-- Measures of `spread` are affected only by **multiplication & divison** ( `*` and `/` )
+- Measures of centre are affected by every **mathematical operations** ('+', '-', '*', and '/')
+- Measures of spread are affected only by **multiplication & divison** ('*' and '/')
 
 <h3 name='distribute'>Measures of Distribution</h3>
 
@@ -119,34 +112,30 @@ More sensitive to outliers | Less sensitive to outliers
 - Histograms help us to visualize the frequency distribution of data.
 - Scatter plots help us to visualize the distribution of data.
 
-### `Empirical Rule`
-- `68 %` of the data points in a given **normally distributed data set** fall within `1` **standard deviations**.
-- `95 %` of the data points in a given **normally distributed data set** fall within `2` **standard deviations**.
-- `99.7 %` of the data points in a given **normally distributed data set** fall within `3` **standard deviations**.
+### Empirical Rule
+- 68 % of the data points in a given **normally distributed data set** fall within 1 **standard deviations**.
+- 95 % of the data points in a given **normally distributed data set** fall within 2 **standard deviations**.
+- 99.7 % of the data points in a given **normally distributed data set** fall within 3 **standard deviations**.
 
 ### Five Number Summary
-
-> Divide the Data into 4 Equal `Quarters`
-
-1. `Minimum`: Smallest data point value in a dataset.
-2. 1<sup>st</sup> **Quartile** ( `Q1` ) | 25<sup>th</sup> **Percentile**: 25% of data point values are smaller and 75% are larger.
-3. 2<sup>nd</sup> **Quartile** ( `Q2` ) | 50<sup>th</sup> **Percentile**: **Median** | 50% of data point values are smaller and 50% are larger.
-4. 3<sup>rd</sup> **Quartile** ( `Q3` ) | 75<sup>th</sup> **Percentile**: 75% of data point values are smaller and 25% are larger.
-5. `Maximum`: Largest data point value in a dataset.
-
-> **Five Number Summary** can be visually represented using `Boxplot`
-- Horizontal lines on both the ends of boxplot are `Whiskers`
-- Box is called `Interquartile Range` ( `IQR` )
-- `IQR` = `Q3` - `Q1`
-
-> Data point value is considered as `Outlier` if : 
-- Data point value **<** `Q1` - `1.5` * `IQR`
-- Data point value **>** `Q3` + `1.5` * `IQR`
-- `Outlier` is represented by a dot ( `.` ) in `Boxplot`
+- Divide the dataset into 4 equal quarters.
+- **Minimum:** Smallest data point value in a dataset.
+- 1<sup>st</sup> **Quartile** (Q1) | 25<sup>th</sup> **Percentile**: 25% of data point values are smaller and 75% are larger.
+- 2<sup>nd</sup> **Quartile** (Q2) | 50<sup>th</sup> **Percentile**: **Median** | 50% of data point values are smaller and 50% are larger.
+- 3<sup>rd</sup> **Quartile** (Q3) | 75<sup>th</sup> **Percentile**: 75% of data point values are smaller and 25% are larger.
+- **Maximum:** Largest data point value in a dataset.
+- **Five Number Summary** can be visually represented using Boxplot.
+- Horizontal lines on both the ends of boxplot are Whiskers.
+- Box is called Interquartile Range (IQR)
+- IQR = Q3 - Q1
+- Data point value is considered as an outlier if: 
+- Data point value **<** Q1 - 1.5 * IQR
+- Data point value **>** Q3 + 1.5 * IQR
+- Outlier is represented by a dot (.) in a Boxplot.
 
 ### Percentile 
 
-Describe the percentage `%` of data point value that falls `at` or `below` another data point value. 
+Describe the percentage % of data point value that falls at or below another data point value. 
 
 1. 25<sup>th</sup> **Percentile** | 1<sup>st</sup> **Quartile** 
 - 25% of data point values are **as small** or smaller.
@@ -160,19 +149,18 @@ Describe the percentage `%` of data point value that falls `at` or `below` anoth
 - 75% of data point values are **as small** or smaller.
 - 25% of data point values are **as large** or larger.
 
-`Percentage` and `Percentile` are **different**.
+Percentage and Percentile are **different**.
 
 ### **Correlation (Direction & Strength)**
-
 - Shows the extent (strength) to which two variables are related to each other.
 - Measures the **direction** and **strength** of relationship between the features/variable.
 - **Direction:** Positive (+1) or Negative (-1)
 - **Strength:** No, Little, Medium, High, Very High.
-- One variable can `predict` the other variable.
-- Correlation Coefficient: `-1` ( Perfect `Negative` Correlation )
-- Correlation Coefficient: `1` ( Perfect `Positive` Correlation )
+- One variable can predict the other variable.
+- Correlation Coefficient: -1 (Perfect Negative Correlation)
+- Correlation Coefficient: 1 (Perfect Positive Correlation)
 
-**Correlation Coefficient** `r` | **Strength of Correlation**
+**Correlation Coefficient** (r) | **Strength of Correlation**
 :--- | :---
 0.0  | No Correlation
 0.1 - 0.3 | Little Correlation
@@ -180,7 +168,7 @@ Describe the percentage `%` of data point value that falls `at` or `below` anoth
 0.5 - 0.7 | High Correlation
 0.7 - 1.0 | Very High Correlation
 
-`Correlation` is not equal to `causation`
+Correlation is not equal to causation
 
 ![Perfect Linear Correlation](Image/Perfect.png)
 
@@ -188,10 +176,10 @@ Describe the percentage `%` of data point value that falls `at` or `below` anoth
 
 ![Strength of Slope](Image/Strength.png)
 
-### Test Correlation Coefficient for Significance ( T-Test ) 
-- **Null** Hypothesis ( `H0` ) : There is **No Linear Relationship**
-- **Alternate** Hypothesis ( `H1` ) : There is a **Linear Relationship**
-- P-Value is Calculated ( if P Value > `0.05`: Then Accept Null Hypothesis else Reject Null Hypothesis )
+### Correlation Coefficient for Significance (T-Test) 
+- **Null** Hypothesis (H0): There is **No Linear Relationship**
+- **Alternate** Hypothesis (H1): There is a **Linear Relationship**
+- P-Value is Calculated ( if P Value > 0.05: Then Accept Null Hypothesis else Reject Null Hypothesis )
 
 ### **Multicollinearity**
 - Two or more independent features **correlate** strongly with each other.
@@ -232,14 +220,13 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 - Sometimes it can be due to the sampling error, we will get variations due to the error.
 
 ### **P-Value**
-
 - Imagine you have a coin (Head/Tails)
 - The normal scenario: If you flip the coin, fairly it will end up in random heads or tails, 5 Heads and 5 Tails or any combination.
 - But it ends up in 10 Heads, now you suspect it might be biased towards Heads.
 
-Here's how `p-value` can help you test that suspicion:
+Here's how p-value can help you test that suspicion:
 1. **Null Hypothesis (H0):** The coin is fair (One side is the head and another side is the tail)
-2. **Alternate Hypothesis (Ha):** The coin is biased (It will fall on either head
+2. **Alternate Hypothesis (Ha):** The coin is biased (It will fall on either head)
 3. **Observed Data:** You flip the coin, say, 10 times. Surprisingly, you get Heads every single time!
 4. **Test Statistic:** This would be the number of heads observed, which in this case is 10 out of 10 flips.
 - P-value is the probability of getting a result as extreme as 10 heads in 10 flips, assuming the coin is fair (H0).
