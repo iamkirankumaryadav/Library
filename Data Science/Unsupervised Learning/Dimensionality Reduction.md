@@ -50,7 +50,7 @@ Reduces training time by using a smaller set of features | Improves model perfor
 - The second principle component (PC2) represents the remaining significant variance perpendicular to PC1.
 - Subsequent principal components (PCs) continue explaining the remaining variance (But with decreasing importance)
 - By focusing on a smaller set of PCs, PCA simplifies the exploratory data analysis (EDA), data preparation and data visualization.
-- Many ML algorithms struggle with high-dimensional data. PCA can reduce the dimensions and potentially improve the model performance.
+- Many ML algorithms struggle with high-dimensional data. PCA reduce the dimensions and improve the model performance.
 
 Advantages:
 1. Data Visualization: Reduce the dimensions of data to make it easier to visualize.
