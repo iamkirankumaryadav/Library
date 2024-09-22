@@ -29,7 +29,7 @@ Rescale feature value between the range 0 and 1 | Standardize features to have a
 </table>
 
 ### **Min-Max Scaling:**
-- **x(normal) = x - min(x) / max(x) - min(x)**
+**x(normal) = x - min(x) / max(x) - min(x)**
 
 <table>
   <tr><th colspan=2>Before Normalization</th><th colspan=2>After Normalization</th></tr>
