@@ -17,7 +17,7 @@ Rescale feature value between the range 0 and 1 | Standardize features to have a
 **sklearn.preprocessing.MinMaxScaler()** | **sklearn.preprocessing.StandardScaler()**
 
 ### **Simple Feature Scaling:**
-- **x(new) = x / max(x)**
+**x(new) = x / max(x)**
 <p>
 <table>
   <tr><th colspan=2>Before Normalization</th><th colspan=2>After Normalization</th></tr>
