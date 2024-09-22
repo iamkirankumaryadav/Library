@@ -93,7 +93,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 
 # Tokenize the text
-text = "This is an example of building a vocabulary for NLP tasks"
+text = "This is an example of building a vocabulary for NLP tasks."
 words = word_tokenize(text)
 
 # Create a vocabulary
@@ -103,7 +103,7 @@ print(vocab)
 
 ```output
 # Output:
-{'tasks', 'of', 'a', 'example', 'for'. '.', 'building', 'NLP', 'vocabulary', 'This', 'an', 'is'}
+{'tasks', 'of', 'a', 'example', 'for', '.', 'building', 'NLP', 'vocabulary', 'This', 'an', 'is'}
 ```
 
 <h3 name="nltk"> NLTK ( Natural Language Toolkit ) </h3>
