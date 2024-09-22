@@ -1,57 +1,49 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# Statistics
+# Statistics: The Science of Data
+- Statistics is the science of collecting, organizing, analyzing, interpreting, and presenting data.
 
-- Statistics is all about making sense of data.
-- Statistics is the study of how to collect, organize, analyze, and interpret data/information.
-- It can be used to make informed decisions about a wide range of topics.
+### Key concepts of statistics:
+1. **Data:** Information gathered from observations, research, experiments, or surveys.
+2. **Population:** The entire group of individuals or objects that we're interested in studying.
+3. **Sample:** A subset of the population used to represent the entire group.
+4. **Descriptive statistics:** Summarizing and describing data using the measures.
+5. **Inferential statistics:** Make inferences about the population based on the information from a sample.
+6. **Inference:** A conclusion reached based on evidence and reasoning.
 
-### Some basic concepts of statistics:
-1. `Population`: The entire group of people or things that you are interested in studying.
-2. `Sample`: A subset of the population that you can use to conclude.
-3. `Variable`: A characteristic of the population that you are interested in measuring.
-4. `Data`: The information that you collect about the variables of the population.
-5. `Descriptive statistics`: Summarize the data and describe the population.
-6. `Inferential statistics`: Make inferences about the population from the sample.
-7. `Inference`: A conclusion reached based on evidence and reasoning.
-
-**Descriptive statistics give you a summary of your data, and Inferential statistics gives final conclusion for your data**
+**Descriptive Statistics gives you a summary of your data and Inferential Statistics gives a conclusion for your data**
 
 ### Descriptive Statistics:
-
-- Descriptive statistics are used to **summarize/describe** a dataset in a way that makes it easy to understand. 
+- Descriptive statistics are used to **summarize/describe** a dataset using the measures (mean, median, mode, standard deviation). 
 - It provides us with techniques to understand the features and characteristics of the data (Quick snapshot)
-- Provides a quick overview of data, measures `central tendency`, `variability`, and `distribution` of the data.
+- Provides a quick overview of data, and measures central tendency, variability, and distribution of the data.
 - You can get a quick idea of what your data is like without getting down into every single data point.
 
 <h3><a href='#center'>Measure of Center</a>&nbsp;|&nbsp;<a href='#spread'>Measure of Spread</a>&nbsp;|&nbsp;<a href='#distribute'>Measure of Distribution</a></h3>
 
-When we start anything we start from the beginning but with a dataset we start from the `centre`
-
-`Sample` is **representative** of `Population`
-
-Larger Sample = Greater Accuracy = More Confidence
+- Sample is **representative** of population
+- Larger Sample = Greater Accuracy = More Confidence
 
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
-1. `Mean`: `Average` of data points 
-2. `Median`: `Middle` data point value of an ordered dataset | Large data set: `Median` position: `( n + 1 ) / 2`
-3. `Mode`: Most frequent | Most common | Most occurring data point value.
+1. **Mean:** Average of the data points 
+2. **Median:** Middle data point value of an ordered dataset | Large data set: Median position: `( n + 1 ) / 2`
+3. **Mode:** Most frequent | Most common | Most occurring data point value.
 
-`Outlier`:  The data point values that are different or far away from all the other data point values.
+### Outlier: 
+- The data point that is different or far away from all the other data points in a sample or population.
+- Mean: Calculates the average, therefore it is affected by an outlier.
+- Median: Concentrates only on middle values, therefore there is a very low to no effect by an outlier.
+- Mode: Concentrates only on the most frequent values, there is no effect by an outlier.
 
-- `Mean` calculates `average`, therefore it is affected by an `outlier`
-- `Median` concentrates only on `middle` value, therefore there is a very `low` to `no` effect by an `outlier`
-- `Mode` concentrates only on the `most frequent` values, there is `no` effect by an `outlier`
-
-### **Central Limit Theorem**
+### Central Limit Theorem
 - As the sample size increases, the distribution approaches towards normal distribution.
 - The larger the sample size, the better the approximation to a normal distribution.
 - CLT allows us to use information from samples to make references about populations.
 
 <h3 name='spread'>Measures of Spread | Variability</h3>
   
-- Relationship of individual data points with their `mean`
+- Relationship of individual data points with their mean
 
 How the `observations` are `spread` or `scattered` on each side of the `centre` ( Mean | Median | Mode )
 
