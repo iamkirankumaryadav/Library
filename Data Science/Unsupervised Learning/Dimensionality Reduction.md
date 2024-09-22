@@ -3,7 +3,7 @@
 # **Dimensionality Reduction**
 
 - A fundamental technique in the field of Data Science and ML that refers to reducing the # input variables in a dataset.
-- A technique to simplify complex datasets by reducing the number of features (variables) while preserving much information.
+- A technique to simplify complex datasets by reducing the # features (variables) while preserving the significant information.
 - Datasets with many features can be complicated to analyze, visualize, and process. Not all features are equally important.
 - Irrelevant or redundant features can confuse ML models, leading to poor accuracy and undesirable errors.
 - Transforming the data into a lower-dimensional space while retaining as much original information as possible.
@@ -16,7 +16,7 @@
 - When a model suffers from overfitting due to many features.
 - When you need to visualize high-dimensional data in 2D or 3D.
 
-### **Benefits:**
+### Benefits:
 - **Simplified Analysis:** Analyzing data with fewer, relevant features is easier and faster.
 - **Improved Accuracy:** Simplifies the model, which improves accuracy, consistency and efficiency.
 - **Faster Training:** Less data means faster computation, faster training, and faster prediction/classification.
@@ -33,7 +33,7 @@ Reduces training time by using a smaller set of features | Improves model perfor
 
 ### **Feature Selection**
 - Feature selection selects the most relevant features and creates a new subset of data for building a better model with better accuracy.
-- Features are selected by calculating the correlation (regression) of each feature with the target variable or information gain (classification)
+- Features are selected by calculating the correlation (regression) or information gain (classification)
 - Wrapper methods use algorithms to search for the most predictive subset of features (Random Forest)
 - Embedded methods perform feature selection as a part of the model training process.
 - Regularization (LASSO and Ridge) also helps in finding the relevant features for the model training.
