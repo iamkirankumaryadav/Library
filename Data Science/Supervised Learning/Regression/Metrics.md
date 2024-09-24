@@ -62,7 +62,7 @@
 - More sensitive towards outliers, hence affected/impacted by outliers.
 - MSE is not good for larger errors. It changes the units/scale of the predicted values.
 - MSE is expressed as squared units instead of natural data units.
-- Squaring the difference removes negative MSE, the value is usually always positive.
+- Squaring the difference removes negative MSE, which is usually always positive.
 - A lower MSE indicates that the model is making more accurate predictions.
 
 ![MSE Scikit Learn](Image/MSESK.png)
@@ -115,11 +115,12 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 - Compare models with different numbers of independent features.
 - Adjusted R<sup>2</sup> increases only if the new independent feature improves the model more than expected.
 - Provides more accurate correlation between independent features.
-- It is a more accurate measure of the model's fit if there are many independent variables.
+- It is a more accurate measure of the model's fit if many independent variables exist.
 
-| MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
-| :--- | :--- | :---
-| Good Model: Value closer to `0` | Good Model: Value closer to `1` | Increases only if new term improves model
+MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
+:--- | :--- | :---
+Good Model: Value closer to 0 | Good Model: Value closer to 1 | Increases only if new term improves model
+MAE (Small errors), RMSE (Large errors) | Measures variability | Good if the dataset has many independent variables
 
 <h2 name="logistic">Logistic Regression | Classification</h2>
 
