@@ -1,15 +1,12 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# **How to deal with missing data?**
-
-- There is no particular approach for dealing with missing data.
+# How to deal with missing data?
+- There is no particular approach for dealing with missing data (NULL, NAN, NaN, None) 
 - The appropriate approach depends on your dataset (missing quantity), data type and the analysis goal.
-- **Missing data:** NULL | NAN | nan | NaN (Ignored while arithmetic operations)
 - Row | Observation | Tuple | Sample | Record            
-- Column | Feature (Data Science) | Field (Excel) | Attribute | Dimension 
+- Column | Feature | Field | Attribute | Dimension 
 
-### **How to identify missing values?**
-Check for None or NaN values:
+### How to identify missing values?
 ```python
 # Check for None:
 missing_values = [x is None for x in data]
@@ -30,7 +27,7 @@ import numpy as np
 missing_values = np.isnan(array)
 ```
 
-### **How to handle missing values?**
+### How to handle missing values?
 
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
@@ -40,7 +37,6 @@ missing_values = np.isnan(array)
 - Drop rows if missing values < 5% i.e. (axis = 0) | Drop columns if missing values > 70% i.e. (axis = 1)
 - Deleting irrelevant rows or columns helps to get a robust model.
 - But it's better to keep data rather than dropping, removing data may lead to loss of information.
-- If one value in observation is missing other values may be important.
 
 ```python
 # DataFrame.dropna()
@@ -66,12 +62,12 @@ df.dropna(axis=1)
 
 - Imputation involves estimating missing values with the help of other available rows or columns.
 - Impute the numerical missing data with the sample mean or median (SimpleImputer: strategy = 'mean' or 'median') 
-- Impute the categorical missing data with the sample most frequent value (SimpleImputer: strategy = 'most_frequent') 
-- SimpleImputer() is used to fill in the missing value (Univariate imputation) 
+- Impute the categorical missing data with the sample most frequent values (SimpleImputer: strategy = 'most_frequent') 
+- SimpleImputer() is used to fill in the missing values (Univariate imputation) 
 - **fit():** Learn the values (Mean, Median, Mode) to be imputed and **transform():** Fill in the missing values.
-- **KNNImputer():** Fill missing data with the help of **K Nearest Neighbours**.
+- **KNNImputer():** Fill missing data with the help of the **K Nearest Neighbours**.
 - **fit_transform():** Learn and impute the values in place. Only apply on the train set.
-- Never apply fit_transform() on the test set, it causes data leakage.
+- Never apply **fit_transform()** on the test set, it will cause data leakage.
 
 ```python
 # DataFrame.fillna()
@@ -82,16 +78,16 @@ df['Sales'].fillna(0)
 ```
 
 ### Data Leakage 
-- Accidentally sharing data from the train set to the test set.
+- Accidentally sharing the data from the train set to the test set.
 
 ### Disadvantage
 - Changes the distribution of the dataset, which will change the mean, median, variance and standard deviation of the sample.
-- Bring new outliers in the dataset.
+- Bring skewness and new outliers in the dataset.
 - Changes the correlation among features and the impact of independent variables on the target variable.
 
 <h3 name="assign">3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h3>
 
-- Assign a **unique** category for data with **missing values** or assign with "Missing" flag.
+- Assign a **unique** category for data with **missing values** or assign with a "Missing" flag or some binary flag.
 - **Flag** the **numeric** missing data with -1 or 0.
 - Create a difference between missing data and remaining non-missing data.
 
