@@ -60,7 +60,7 @@ X_test_scaled = scaler.transform(X_test)
 ### **Data Standardization (Z-Score Normalization) | Standard Score**
 - **z = x - mean / std** (z: specific data point)
 - How many standard deviations is a specific data point away from the mean of a dataset?
-- How far a particular value is away from the average value of a dataset.
+- How far is a particular value away from the average value of a dataset?
 - A **Z-score** of 0 means the data point is exactly at the mean.
 - Standardize features around the centre (Mean). Ranges from +3 (Above the mean) to -3 (Below the mean).
 
@@ -106,7 +106,7 @@ Formula Description | The square root of the sum of squared differences between 
 Visualization | Straight line	| Right-angle movements (Horizontal + Vertical)
 
 ### **Benefits** 
-1. Helps the **gradient descent** to converge (reach the local minimum point) more quickly when features are normalized.
+1. Normalized features help the **gradient descent** to converge (reach the local minimum point) more quickly.
 2. Helps the model to learn appropriate weights for each independent feature during training.
 3. The model prioritizes the features with a high range even if the feature is irrelevant.
 4. A feature with a low **range** is ignored even if it is a better feature for model training.
