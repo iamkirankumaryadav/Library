@@ -55,7 +55,7 @@ PHD | 2
 
 ### Dummy Encoding | OHE - One Hot Encoding (Better for Nominal)
 
-**OHE** converts each categorical label into binary vectors (0 & 1), and each category becomes a separate feature.
+**OHE** converts each unique categorical label into binary vectors (0 & 1), and each category becomes a separate feature.
 
 ```python
 from sklearn.preprocessing import OneHotEncoder
