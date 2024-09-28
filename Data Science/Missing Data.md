@@ -81,9 +81,10 @@ df['Sales'].fillna(0)
 - Accidentally sharing the data from the train set to the test set.
 
 ### Disadvantage
-- Changes the distribution of the dataset, which will change the mean, median, variance and standard deviation of the sample.
-- Bring skewness and new outliers in the dataset.
-- Changes the correlation among features and the impact of independent variables on the target variable.
+- Imputation changes the distribution and the statistical properties of the dataset.
+- Statistical Properties: Mean, median, mode, variance, standard deviation of the sample.
+- Imputation might bring skewness and new outliers in the dataset.
+- Imputation changes the correlation among features and the impact of independent variables on the target variable.
 
 <h3 name="assign">3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h3>
 
@@ -93,8 +94,8 @@ df['Sales'].fillna(0)
 
 <h3 name="predict">4. Predict Missing Value</h3>
 
-- Fill missing data with the help of other **features** by **predicting** (**Multivariate** imputation) 
-- Use the non missing data (rows) as **train** set and missing data (rows) as **test** set.
+- Fill missing data with the help of other **features** by **predicting** them (**Multivariate** imputation) 
+- Use the non-missing data (rows) as the **train** set and missing data (rows) as the **test** set.
 - Interpolation: Predict missing data with the range of date and time (Time series forecasting) 
 
 ```python
@@ -129,13 +130,13 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 <h3 name="algo"> 5. Use algorithms that work fine with missing values</h3>
 
-- **KNN:** KNN fills the missing value by taking most of the K nearest values (Focus on nearest neighbours)
+- **KNN:** KNN fills the missing values by taking most of the K nearest values (Focus on nearest neighbours)
 - **Random forest:** Weak learners are trained by non-missing data and missing values can be used for testing.
-- **SVM:** SVM focuses on the support vectors nearest the hyperplane.
+- **SVM:** SVM focuses on the support vectors (data points) nearest to the hyperplane.
 - Experiment with different algorithms and compare their performance on specific datasets.
 
-### **Domain Knowledge**
-- It will help us to understand the reason behind the missing data.
-- Understanding the cause can help us decide how to handle the missing data much better.
+### Domain Knowledge
+- It'll help us to understand the reason behind the missing data. Whether the data is missing at random or due to some error.
+- Understanding the cause can help us to decide on how to handle the missing data in much better.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
