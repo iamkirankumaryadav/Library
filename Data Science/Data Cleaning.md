@@ -1,9 +1,9 @@
 # Data Cleaning
 
-1. Handling missing values
-2. Outlier detection and treatment
-3. Encoding categorical variable
-4. Feature scaling
+1. [Handling missing values](https://github.com/iamkirankumaryadav/Library/blob/d023ba0dac66a55007b1c518e1fc1039b4a4e9c1/Data%20Science/Missing%20Data.md)
+2. [Outlier detection and treatment](https://github.com/iamkirankumaryadav/Library/blob/d023ba0dac66a55007b1c518e1fc1039b4a4e9c1/Data%20Science/Outliers.md)
+3. [Encoding categorical variable](https://github.com/iamkirankumaryadav/Library/blob/d023ba0dac66a55007b1c518e1fc1039b4a4e9c1/Data%20Science/Categorical.md)
+4. [Feature scaling](https://github.com/iamkirankumaryadav/Library/blob/d023ba0dac66a55007b1c518e1fc1039b4a4e9c1/Data%20Science/Normalization%20vs%20Standardization.md)
 
 ### Types of Errors
 
