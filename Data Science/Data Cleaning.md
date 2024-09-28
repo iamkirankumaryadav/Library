@@ -45,8 +45,8 @@ df.duplicated(['column1', 'column3'])
 3. **Design Error:** System and UI for collecting data (Input forms, payment forms without proper input and data validations)
 
 ### Detecting Errors
-1. **Schema and Validation:** Data types and relationships of data, format, constraints (Whether NULL is allowed in the column or not)  
-2. **Missing:** Filling missing values or dropping rows with missing values (NULL, NaN, Empty)
+1. **Schema and Validation:** Data type, relationship, format, constraint, accuracy, consistency, etc.
+2. **Missing:** Filling missing values or dropping rows/columns with missing values (NULL, NaN, Empty)
 3. **Domain Knowledge:** Help to understand the valid value and range of the data (-90 <= Latitude <=90 and -180 <= Longitude <= 180)
 4. **Visualization:** Histograms, boxplots and bar charts help visualise data distribution, frequency, and outliers.
 
