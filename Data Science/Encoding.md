@@ -101,8 +101,13 @@ df['Gender'].cat.codes
 
 ### **Nominal: get_dummies()**
 ```python
+import pandas as pd
+
+data = {'color': ['red', 'green', 'blue', 'red']}
+df = pd.DataFrame(data)
+
 # Splits the column containing nominal categorical values into individual columns:
-pd.get_dummies(df)
+df_encoded = pd.get_dummies(df)
 ```
 
 Gender | Gender_Male | Gender_Female
