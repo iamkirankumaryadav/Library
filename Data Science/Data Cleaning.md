@@ -1,10 +1,14 @@
-# **Data Cleaning**
+# Data Cleaning
 
-Data Cleaning is very important to prevent from encountering errors.
+1. Handling missing values
+2. Outlier detection and treatment
+3. Encoding categorical variable
+4. Feature scaling
 
-### **Types of Errors**
+### Types of Errors
 
 1. **Missing Values**: NaT, NaN, NA, None (Data type of NaN is float)
+
 2. **Bad Values**: Outlier, value generated due to error, spelling mistakes, case mistakes (cpu and CPU)
 ```python
 # How to find bad data: Look after distribution and outliers
@@ -25,7 +29,7 @@ zscore = x - mean() / std()
 # Data / Values / Points outside 3 std is considered as outliers.
 ```
 
-3. **Duplicates:** Same data 
+3. Duplicates: Same data 
 
 ```python
 # How to look for duplicates :
@@ -35,17 +39,15 @@ df.duplicated()
 df.duplicated(['column1', 'column3']) 
 ```
 
-### **Causes of Errors**
-
-1. **Human Error:** Entering wrong data (Uppercase/Lowercase, No proper validation, **'O'** instead of **0**, Typo, Spelling, Copy/Paste)
+### Causes of Errors
+1. **Human Error:** Entering wrong data (Uppercase/Lowercase, No proper validation, 'O' instead of **0**, Typo, Spelling, Copy/Paste)
 2. **Machine Error:** Faulty sensor, measuring devices, dirt on camera, time inaccuracy, network error. 
 3. **Design Error:** System and UI for collecting data (Input forms, payment forms without proper input and data validations)
 
-### **Detecting Errors**
-
+### Detecting Errors
 1. Schema and Validation: Data types and relationships of data, format, constraints (Whether NULL is allowed in the column or not)  
 2. Missing: Filling missing values or dropping rows with missing values (NULL, NaN, Empty)
 3. Domain Knowledge: Help to understand the valid value and range of the data (-90 <= Latitude <=90 and -180 <= Longitude <= 180)
-4. Visualization: Histogram, Boxplot and Bar Charts help to visualize the distribution or frequency of data and outliers.
+4. Visualization: Histograms, Boxplot and Bar Charts help visualise data distribution, frequency, and outliers.
 
 <p align='right'><a align="right" href="https://github.com/iamkirankumaryadav/Library/blob/main/Interview.md">Back to Questions</a></p>
