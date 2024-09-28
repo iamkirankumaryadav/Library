@@ -18,7 +18,7 @@
  
 ---
 
-### [Statistics](https://github.com/iamkirankumaryadav/Library/blob/main/Statistics/Statistics.md) | [Terms](https://github.com/iamkirankumaryadav/Library/blob/main/Statistics/Important%20Statistical%20Terms.md) | [Distribution](https://github.com/iamkirankumaryadav/Library/blob/main/Statistics/Distribution.md) | [Standardization](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) | [Error](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Error.md) | [Bias and Variance](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Bias%20and%20Variance.md) | [Gradient Descent](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Gradient%20Descent.md)
+### [Statistics](https://github.com/iamkirankumaryadav/Library/blob/main/Statistics/Statistics.md) | [Terms](https://github.com/iamkirankumaryadav/Library/blob/main/Statistics/Important%20Statistical%20Terms.md) | [Distribution](https://github.com/iamkirankumaryadav/Library/blob/main/Statistics/Distribution.md) | [Rescaling](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) | [Error](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Error.md) | [Bias and Variance](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Bias%20and%20Variance.md) | [Gradient Descent](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Gradient%20Descent.md)
 
 --- 
 
@@ -26,7 +26,7 @@
 
 ---
 
-### [Missing Data](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Outliers.md) | [Categorical Feature](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Encoding.md) | [Imbalanced Data](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md) | [Overfitting](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Overfitting.md) | [Data Cleaning](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Data%20Cleaning.md) | [Data Engineering](https://github.com/iamkirankumaryadav/Library/edit/main/Data%20Engineering/Terms.md)
+### [Missing Data](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Missing%20Data.md) | [Outliers](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Outliers.md) | [Encoding](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Encoding.md) | [Imbalanced Data](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Imbalanced%20Dataset.md) | [Overfitting](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Overfitting.md) | [Data Cleaning](https://github.com/iamkirankumaryadav/Library/blob/main/Data%20Science/Data%20Cleaning.md) | [Data Engineering](https://github.com/iamkirankumaryadav/Library/edit/main/Data%20Engineering/Terms.md)
 
 ### [**MLE vs MLOps**](https://www.fosfor.com/blog/the-ml-engineer-vs-the-mlops-persona/)
 
