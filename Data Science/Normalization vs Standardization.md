@@ -1,11 +1,9 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# **Normalization | Standardization | Rescaling**
-
+# Normalization | Standardization | Rescaling | Feature Scaling
 - A technique used in ML to rescale numerical features from their natural range to a standard range, typically between 0 to 1 or -1 to 1.
-- Dataset contains independent features with different ranges/scales of values. Depending on their units of measurement.
-- Data is normalized/standardized/rescaled to bring it down from their natural range/scale to a standard/normal range.
-- This process is essential for ensuring that the features are trained equally and contribute equally to the model's predictions.
+- Dataset contains independent features with different ranges/scales of values, depending on their units of measurement.
+- Rescaling is essential for ensuring that the features are trained equally and contribute equally to the model's predictions.
 - It also prevents the model from being biased towards features with a larger magnitude/scale/range.
 - Important for the models that depend on distance calculations like Linear Regression, KNN, K Mean, and SVM.
 - Decision Trees and Ensemble Learnings do not require data normalization.
