@@ -2,29 +2,20 @@
 
 # Encoding Categoricals
 
-### How to deal with categorical data?
+### Types of categorical data
+1. **Nominal:** No ordering or ranking among the values e.g. Genre of music, movie or videos.
+2. **Ordinal:** Ordering or ranking among the values. e.g. Dress size, Grades, Designation, etc.
+3. **Binary:** Dichotomous values e.g. Male or Female, Yes or No, True or False, 1 or 0, etc.
 
-- **Nominal:** No ordering | No ranking among the values e.g. **Genre** of music, movie and videos.
-- **Ordinal:** Ordering | Ranking among the values. e.g. Size of t-shirts (XS, S, M, L, XL, or XXL)
-- **Binary:** Male or Female | Yes or No | True or False | 1 or 0 (Dichotomous Value)
+### How to deal with categorical data?
 - We can't train the ML model directly with categorical labels, they need to be encoded into numeric values.
 - **Encoding:** Transforming categorical labels into numerical values that can be consumed by the ML model.
 - Encoding assigns numerical values to characters to store and process text. Reduces the size by removing redundancy. 
 
-### Logistic Regression
-- Classifies the target variables into 2 discrete classes (Binary Classification)
-- If the target variable has more than 2 classes then use multiclass classification.
-```python
-# ovr: one vs rest | ova: one vs all
-model = LogisticRegression(multi_class='ovr')
-```
-- Combine sparse categories (Category labels with very less observations)
-
 ## Data Encoding
 
 ### Label Encoding (Better for Ordinal)
-
-Assign a unique integer to each category label. Encodes the label value between 0 and (n-1).
+Assign a unique integer for each category label. Encodes the label value between 0 and (n-1).
 
 <table>
   <tr><th colspan=2><b>Before Encoding</b></th><th colspan=2><b>After Encoding</b></th></tr>
@@ -52,10 +43,8 @@ Example: The designation feature may contain labels where rank matters (PHD > Ma
 # Order represents as: [Bachelor < Master < PHD]
 df['Qualification'] = pd.Categorical(df['Qualification'], ['Bachelor', 'Master', 'PHD'], ordered=True)
 
-# Replacing categories with numeric orders.
+# Replacing categories with numeric orders:
 df['Qualification'].cat.codes
-
-print(df['Qualification'])
 ```
 
 **Qualifications** | **Encoded Values**
