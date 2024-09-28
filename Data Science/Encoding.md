@@ -26,19 +26,13 @@ model = LogisticRegression(multi_class='ovr')
 
 Assign a unique integer to each category label. Encodes the label value between 0 and (n-1).
 
-**Before Encoding**
-Color | Sales
-:--- | :---
-Green | 50
-Blue | 60
-Red | 70
-
-**After Encoding**
-Color | Sales
-:--- | :---
-0 | 50
-1 | 60
-2 | 70
+<table>
+  <tr><th colspan=2><b>Before Encoding</b></th><th colspan=2><b>After Encoding</b></th></tr>
+  <tr><td>Color</td><td>Sales</td><td>Color</td><td>Sales</td></tr>
+  <tr><td>Green</td><td>50</td><td>0</td><td>50</td></tr>
+  <tr><td>Blue</td><td>60</td><td>1</td><td>60</td></tr>
+  <tr><td>Red</td><td>70</td><td>2</td><td>70</td></tr>
+</table>
 
 ```python
 # Import LabelEncoder:
@@ -72,11 +66,11 @@ df['Qualification'].cat.codes
 print(df['Qualification'])
 ```
 
-Qualification
-:---
-0
-1
-2
+Qualifications | Encoded Values
+:--- | :---
+Bachelor | 0
+Master | 1
+PHD | 2
 
 ### Dummy Encoding | OHE - One Hot Encoding (Better for Nominal)
 - One Hot Encoding converts each categorical label into binary vectors (0 & 1).
