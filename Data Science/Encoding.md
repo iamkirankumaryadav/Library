@@ -103,11 +103,8 @@ df['Gender'].cat.codes
 ```python
 import pandas as pd
 
-data = {'color': ['red', 'green', 'blue', 'red']}
-df = pd.DataFrame(data)
-
 # Splits the column containing nominal categorical values into individual columns:
-df_encoded = pd.get_dummies(df)
+pd.get_dummies(df)
 ```
 
 Gender | Gender_Male | Gender_Female
