@@ -5,10 +5,10 @@
 ### How to deal with categorical data?
 
 - **Nominal:** No ordering | No ranking among the values e.g. **Genre** of music, movie and videos.
-- **Ordinal:** Order | Rank among the values. e.g. Size of t-shirts ( XS - S - M - L - XL - XXL ) education level, grades. 
-- **Binary:** Male or Female | Yes or No | True or False | 1 or 0 ( Dichotomous )
-- We can't train the model directly with categorical labels they need to be encoded into numeric values.
-- **Encoding:** Transforming categorical labels into numeric values that can be consumed by the model.
+- **Ordinal:** Ordering | Ranking among the values. e.g. Size of t-shirts (XS, S, M, L, XL, or XXL)
+- **Binary:** Male or Female | Yes or No | True or False | 1 or 0 (Dichotomous Value)
+- We can't train the ML model directly with categorical labels, they need to be encoded into numeric values.
+- **Encoding:** Transforming categorical labels into numerical values that can be consumed by the ML model.
 - Encoding assigns numerical values to characters to store and process text. Reduces the size by removing redundancy. 
 
 ### Logistic Regression
