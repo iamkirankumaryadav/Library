@@ -46,19 +46,11 @@ phone['column'] = le.fit_transform(phone['column'])
 ```
 
 ### Ordinal Encoding: ordered = True
-
 Example: The designation feature may contain labels where rank matters (PHD > Masters > Bachelor)
 
-Qualification
-:---
-Bachelor
-Master
-PHD
-
 ```python
-df['Qualification'] = pd.Categorical(df['Qualification'], ['Bachelor', 'Master', 'PHD'], ordered=True)
-
 # Order represents as: [Bachelor < Master < PHD]
+df['Qualification'] = pd.Categorical(df['Qualification'], ['Bachelor', 'Master', 'PHD'], ordered=True)
 
 # Replacing categories with numeric orders.
 df['Qualification'].cat.codes
@@ -66,14 +58,14 @@ df['Qualification'].cat.codes
 print(df['Qualification'])
 ```
 
-Qualifications | Encoded Values
+**Qualifications** | **Encoded Values**
 :--- | :---
 Bachelor | 0
 Master | 1
 PHD | 2
 
 ### Dummy Encoding | OHE - One Hot Encoding (Better for Nominal)
-- One Hot Encoding converts each categorical label into binary vectors (0 & 1).
+- **One Hot Encoding** converts each categorical label into binary vectors (0 & 1).
 - Each category becomes a separate feature. Suitable for features with a small number of categories.
 
 ```python
