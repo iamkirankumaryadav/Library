@@ -1,12 +1,13 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# **Hyperparameter**
+# Hyperparameter
 - Hyperparameters are configuration variables that control and determine the learning process of an ML model.
+- Hyperparameters are adjustable parameters that must be tuned to obtain a model with optimal performance.
 - Unlike model parameters, which are learned from the data during training, hyperparameters are set before training begins.
 - The values of hyperparameters can play a big impact on the behaviour and performance of the ML model.
 - The right hyperparameters can significantly improve a model's accuracy, speed, and generalization.
 
-### **Hyperparameter Tuning/Optimization**
+### Hyperparameter Tuning/Optimization
 - Finding the optimal hyperparameter values is crucial for achieving the best possible performance from an ML model.
 - It involves experimenting with different combinations of hyperparameters and evaluating the model's performance on a validation set.
 - An iterative process that can be time-consuming, but it's essential for building high-performing models.
@@ -19,6 +20,7 @@
 - **#layers:** Determines the number of layers in a neural network.
 - **#nodes:** Determines the number of nodes/neurons in each layer of a neural network.
 - **#trees:** In random forest, this determines the number of decision trees.
+- **#clusters:** Determines the # clusters in a clustering algorithm.
 
 **Model** | **Hyperparameter**
 :--- | :---
