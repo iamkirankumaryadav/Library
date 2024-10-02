@@ -58,7 +58,7 @@ df.dropna(axis=0, how='all')
 df.dropna(axis=1)
 ```
 
-<h3 name="impute">2. fillna(): Fill Missing Values</h3>
+<h3 name="impute">2. fillna(): Fill/Impute Missing Values</h3>
 
 - Imputation involves estimating missing values with the help of other available rows or columns.
 - Impute the numerical missing data with the sample mean or median (SimpleImputer: strategy = 'mean' or 'median') 
