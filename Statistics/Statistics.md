@@ -25,6 +25,12 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 - Descriptive Analytics: Scatter plots, line graphs, bar plots, histograms, qqplots, smooth densities, boxplots, pair plots, heat maps, etc.
 - Data visualization is also used in ML for data preprocessing and analysis, feature selection, model building, testing, and evaluation.
 
+### Data Partitioning
+- In ML, the dataset is often partitioned into training and testing sets.
+- The model is trained on the training dataset and then tested on the testing dataset.
+- The testing dataset thus acts as the unseen dataset, which can be used to estimate generalization error.
+- **Generalization Error:** The error expected when the model is applied to a real-world dataset after the model has been deployed.
+
 **Descriptive Statistics gives you a summary of your data and Inferential Statistics provides a conclusion for your data**
 
 ### Descriptive Statistics:
