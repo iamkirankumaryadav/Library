@@ -11,7 +11,21 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 5. **Inferential statistics:** Make inferences about the population based on the information from a sample.
 6. **Inference:** A conclusion reached based on evidence and reasoning.
 
-**Descriptive Statistics gives you a summary of your data and Inferential Statistics gives a conclusion for your data**
+### Dataset
+- A dataset is a particular instance/sample of data that is used for analysis or model building at any given time.
+- A dataset can be of different data types such as numerical, categorical, text, image, voice, and video data.
+
+### Data Wrangling
+- The process of converting data from its raw form to a tidy form ready for analysis.
+- An important step in data preprocessing and includes several processes:
+- Data importing, cleaning, structuring, parsing, encoding, rescaling, handling dates and times, missing values, and outliers.
+
+### Data Visualization
+- One of the main tools used to analyze and study relationships between different variables.
+- Descriptive Analytics: Scatter plots, line graphs, bar plots, histograms, qqplots, smooth densities, boxplots, pair plots, heat maps, etc.
+- Data visualization is also used in ML for data preprocessing and analysis, feature selection, model building, testing, and evaluation.
+
+**Descriptive Statistics gives you a summary of your data and Inferential Statistics provides a conclusion for your data**
 
 ### Descriptive Statistics:
 - Descriptive statistics are used to **summarize/describe** a dataset using the measures (mean, median, mode, standard deviation). 
@@ -30,7 +44,7 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 3. **Mode:** Most frequent | Most common | Most occurring data point value.
 
 ### Outlier: 
-- The data point that is different or far away from all the other data points in a sample or population.
+- The data point that differs or is far away from all the other data points in a sample or population.
 - Mean: Calculates the average, therefore it is affected by an outlier.
 - Median: Concentrates only on middle values, therefore there is a very low to no effect by an outlier.
 - Mode: Concentrates only on the most frequent values, there is no effect by an outlier.
@@ -38,7 +52,7 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 ### Central Limit Theorem
 - As the sample size increases, the distribution approaches towards normal distribution.
 - The larger the sample size, the better the approximation to a normal distribution.
-- CLT allows us to use information from samples to make references about populations.
+- CLT allows us to use information from samples to reference populations.
 
 <h3 name='spread'>Measures of Spread | Variability</h3>
   
