@@ -118,10 +118,10 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 
 <h1 name='sup' align=center>Supervised Learning ( Labeled Data )</h1>
 
-- `Machine Learning` that involves training a model using `labelled` data.
-- The algorithm learns to recognize `patterns` in the input data and map them to the correct output based on the labelled data.
+- ML algorithms that perform learning by studying the relationship between the feature variables and the known target variable.
+- The algorithm learns to recognize patterns in the input data and map them to the correct output based on the labelled data.
 - The goal of supervised learning is to create a model that can accurately predict the output for new, unseen input data.
-- Supervised learning is useful for `classification` and `regression` problems.
+- Supervised learning is useful for regression (continuous target variables) and classification (discrete target variables).
 
 <table align=center>
   <tr>
@@ -212,11 +212,11 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/04.Logistic%20Regression.ipynb)
 
-- Model used for `classification` tasks like classifying flower species and image recognition.
-- One or more independent features are used to **classify** `categorical` target labels.
-- The outcome is measured with a `dichotomous` variable (Only two possible outcomes)
-- It predicts the probability of occurrence of an event by fitting data to a `logit` function.
-- Dependent ( Output ) should be `categorical` (0 or 1, Yes or No, True or False)
+- Model used for classification tasks like classifying flower species and image recognition.
+- One or more independent features are used to **classify** categorical target labels/variables.
+- The outcome is measured with a dichotomous variable (Only two possible outcomes)
+- It predicts the probability of occurrence of an event by fitting data to a logit function.
+- Dependent (Output) should be categorical (0 or 1, Yes or No, True or False)
 - Widely used for binary classification, simple and requires less training, rescaling provides better accuracy.
 
 ### Advantages of Logistic Regression
@@ -274,17 +274,17 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 from sklearn.tree import DecisionTreeClassifier
 ```
 
-### `Information Gain` (Which Feature will be selected as Root Node?)
+### Information Gain (Which Feature will be selected as Root Node?)
 
 - `High Information Gain` is better (Explains the split very well)
 - `Information Gain` decides which feature will become `Node` and will `split` the data further for building the **tree**.
 - Split with the `High Information Gain` will be considered as the first split and the process will continue until **IG** becomes 0.
 
-### `Gini Index` (Checks for `impurity` in the dataset)
+### Gini Index (Checks for impurity in the dataset)
 
-- `Low Gini Index` is better.
-- `Pure`: All data belongs to the `same` class in a subset (Gini Index = 0)
-- `Impure`: Data is a mixture of `different` classes in a subset.
+- Low Gini Index is better.
+- Pure: All data belongs to the same class in a subset (Gini Index = 0)
+- Impure: Data is a mixture of different classes in a subset.
 
 ### `Entrophy` (Measure Disorder | Randomness | Uncertainity in Data)
 
@@ -598,5 +598,10 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 - It helps identify relationships between items that frequently appear together in transactions.
 
 ![Machine Learning Map](Image/MLMap.jpg)
+
+### Reinforcement Learning
+- ML technique that enables an agent to learn in an interactive environment,
+- By trial and error using feedback from its actions and experiences.
+- RL uses rewards and punishments as signals for positive and negative behaviour.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
