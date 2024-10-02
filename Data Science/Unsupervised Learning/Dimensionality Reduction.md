@@ -43,8 +43,8 @@ Reduces training time by using a smaller set of features | Improves model perfor
 - Models with only the relevant features (variables) require less training data, training time, and computational resources.
 
 ### **Principle Component Analysis (PCA): Unsupervised | Numerical**
-- A dataset with many dimensions (features) can be complicated for analysis and visualization. PCA reduces the complexity.
-- It transforms the data into a new set of features, called Principle Components that capture the most information from the original features.
+- A dataset with high dimensions and correlated features can be complicated for analysis and visualization. 
+- It transforms the data into a new set of features, called a PC that captures the most information from the original features.
 - The goal of PCA is to reduce the dimension of the data while preserving as much of the information as possible.
 - The first principle component (PC1) represents the greatest variance.
 - The second principle component (PC2) represents the remaining significant variance perpendicular to PC1.
@@ -60,6 +60,7 @@ Advantages:
 ### **Linear Discriminant Analysis (LDA): Supervised | Classification**
 - LDA's primary objective is to identify the best way to separate the existing categories in the data.
 - LDA finds the best linear separation between categories in your data.
-- LDA can reduce the number of features needed for classification.
+- LDA can reduce the number of features needed for classification tasks.
+- LDA projects the features in a higher dimension space into a lower dimension space.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
