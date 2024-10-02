@@ -5,11 +5,12 @@
 <h3><a href="#zscore">Z Score</a> (Extreme Value Analysis) | <a href="#dbscan">DBSCAN</a> | <a href="#summary">5 Number Summary</a> | <a href="#algo">Algorithm</a></h3>
 
 ### What are outliers?
-- Outliers are the data points that differ significantly from other data points in the dataset.
+- An outlier is a data point that is very different from the rest of the dataset.
 - Outliers affect the distribution of the dataset by introducing skewness and also affect the correlation among features.
 - Outliers affect the overall central tendency (mean, median, mode) and measure of dispersion/deviation (variance, std)
 - **Positive Skew/Right Skew:** Mean is on the right side | Mean > Median > Mode
 - **Negative Skew/Left Skew:** Mean is on the left side | Mode > Median > Mean
+- Outliers can significantly degrade the predictive power of an ML model.
 - Outliers create a significant impact on the performance and lead to inaccurate predictions of new unseen data.
 - Algorithms that are based on distance calculations are more sensitive towards the outliers.
 
