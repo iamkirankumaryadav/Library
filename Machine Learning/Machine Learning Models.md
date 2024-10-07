@@ -566,13 +566,12 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 - Maximizes the separation between two or more classes of data.
 - LDA creates a new axis (Maximize the distance between **means** of two classes and minimize variation within each class)
 
-<h3 name='tsne'>t-SNE ( t Distributed Stochastic Neighbor Embedding )</h3>
-
-- Non-linear dimension reduction (Spiral, Mixed) 
-- Data that is complicated to understand (Multi-Dimensional Data)
-- A tool to visualize and explore high-dimension data.
+<h3 name='tsne'>t-SNE (t Distributed Stochastic Neighbor Embedding)</h3>
+- Used to visualize high dimensional data in a low dimensional space.
+- Non-linear dimensionality reduction technique (spiral, mixed) 
+- t-SNE calculates the probability that a data point is a neighbour of another data point in the higher dimensional space.
+- t-SNE then constructs a similar joint probability distribution in the lower dimensional space.
 - Identity clusters based on the similarity of data points.
-- Maps **multi dimensional data** to a **lower dimensional space**.
 - Reduces dimensions while keeping similar instances closer and dissimilar instances apart.
 
 ### **Anomaly Detection:**
