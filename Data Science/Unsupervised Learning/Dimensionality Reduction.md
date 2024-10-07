@@ -41,26 +41,6 @@ Reduces training time by using a smaller set of features | Improves model perfor
 ### **Feature Extraction**
 - Feature extraction identifies the most relevant features and transforms the original dataset into a new dataset. 
 - Models with only the relevant features (variables) require less training data, training time, and computational resources.
-
-### **Principle Component Analysis (PCA): Unsupervised | Numerical**
-- A dataset with high dimensions and correlated features can be complicated for analysis and visualization. 
-- It transforms the data into a new set of features, called a PC that captures the most information from the original features.
-- The goal of PCA is to reduce the dimension of the data while preserving as much of the information as possible.
-- The first principle component (PC1) represents the greatest variance.
-- The second principle component (PC2) represents the remaining significant variance perpendicular to PC1.
-- Subsequent principal components (PCs) continue explaining the remaining variance (But with decreasing importance)
-- By focusing on a smaller set of PCs, PCA simplifies the exploratory data analysis (EDA), data preparation and data visualization.
-- Many ML algorithms struggle with high-dimensional data. PCA reduce the dimensions and improve the model performance.
-
-Advantages:
-1. Data Visualization: Reduce the dimensions of data to make it easier to visualize.
-2. Feature Extraction: Extract the most important features from the dataset.
-3. Data Compression: Compress data without losing much information.
-
-### **Linear Discriminant Analysis (LDA): Supervised | Classification**
-- LDA's primary objective is to identify the best way to separate the existing categories in the data.
-- LDA finds the best linear separation between categories in your data.
-- LDA can reduce the number of features needed for classification tasks.
-- LDA projects the features in a higher dimension space into a lower dimension space.
+- Examples: PCA (Unsupervised Numerical), LDA (Supervised Categorical Classification), and t-SNE (Non-linear)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
