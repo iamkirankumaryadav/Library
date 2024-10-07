@@ -544,29 +544,29 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 
 ### **Techniques of Dimensionality Reduction**
 
-<h3 name='pca'>PCA (Principal Component Analysis) (Unsupervised )</h3> 
+<h3 name='pca'>Principal Component Analysis (PCA | Unsupervised | Numerical)</h3> 
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/11.PCA.ipynb)
 
-- Transforms a dataset into a new set of variables without losing information called principal components.
-- PCA aims to capture the most important patterns or relationships in the data while reducing its dimensionality.
-- Small data sets are easy to explore, visualize, analyze and train faster.
-- The first principal component is the linear combination that explains the largest amount of variation in the data.
-- Subsequent principal components explain decreasing amounts of variation.
-- Most of the information within the initial variables is **compressed** into **first components**.  
-- PCA tries to put **maximum possible information** in the first component. 
-- And then the remaining information in the corresponding **components**.
-- PCA is affected by scale, so scaling of features before applying PCA is important.
-- Reconstruct the original data from the reduced dimensional representation by using a subset of the principal components.
-- This reconstruction is an approximation of the original data but captures the essential characteristics.
+- Transforms a dataset into a new set of features without losing information called principal components.
+- A dataset with high dimensions and high correlation can be complicated for analysis and visualization.
+- PCA aims to capture the most important features in the dataset while reducing its dimensionality.
+- Datasets with few features are easy to explore, visualize, analyze and train (simplifies the EDA).
+- The first principal component (PC1) explains the largest amount of variation in the dataset.
+- Subsequent principal components (PCs) explain the decreasing amount of variations in the dataset.
+- Most of the information within the initial variables is compressed into first components.
+- PCA tries to put the maximum possible information in the first principle component. 
+- And then tries to put the remaining information in the corresponding principle components.
+- PCA is affected by the scale, so rescaling features before applying PCA is important.
 
-<h3 name='lda'><strong>LDA (Linear Discriminant Analysis) (Supervised)</strong></h3>
+<h3 name='lda'><strong>Linear Discriminant Analysis (LDA | Supervised | Categorical | Classification)</strong></h3>
 
-- Classify data sets into different categories or classes.
-- Maximizes the separation between two or more classes of data.
-- LDA creates a new axis (Maximize the distance between **means** of two classes and minimize variation within each class)
+- LDA identifies the best way to separate the existing categories/classes in the dataset.  
+- Finds the best linear separation to classify datasets into different categories/classes.
+- Reduce the number of features and maximize the separation between two or more categories/classes.
+- LDA creates a new axis (Maximize the distance between means of two classes and minimize variation within each class)
 
-<h3 name='tsne'>t-SNE (t Distributed Stochastic Neighbor Embedding)</h3>
+<h3 name='tsne'>t-SNE (t Distributed Stochastic Neighbor Embedding | Non-linear)</h3>
 
 - Used to visualize high dimensional data in a low dimensional space.
 - Non-linear dimensionality reduction technique (spiral, mixed) 
