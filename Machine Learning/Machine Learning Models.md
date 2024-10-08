@@ -575,33 +575,31 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 - Identity clusters based on the similarity of data points.
 - Reduces dimensions while keeping similar instances closer and dissimilar instances apart.
 
-### **Anomaly Detection:**
-- Discover unusual data points, and abnormal patterns in the data set.
+### Anomaly Detection
+- Discover unusual data points and abnormal relationships and patterns in the dataset.
 - Used to find fraudulent transactions and identify an outlier caused by human error during data entry.
-- Reduces complexity of data and helps to understand data more clearly and better way.
+- Reduces complexity of data and helps to understand data in a better way.
 
-### **Association Mining:**
-- Set of items that frequently occur together in a data set.
-- Basket Analysis: Items bought together | Goods purchased at the same time help to develop marketing strategies.
+### Association Mining
+- Set of items that frequently occur together in a dataset.
+- **Basket Analysis:** Items bought together | Goods purchased simultaneously help develop marketing strategies.
 
-### **Feature Selection**
-- Select important features | Helps to improve accuracy | Not every feature adds value to solve the problem.
-- Understanding each feature before using it for creating an ML model.
-- Correlation between features and target helps to select better features.
-- Ensemble learning techniques have a parameter of **feature_importance** which helps us to find important features.
-
-### **Standardization**
-- Standardize the range of the continuous variables so that each one of them contributes equally to the analysis.
-
-### **Apriori**
+### Apriori
 - A widely used algorithm in **data mining**, specifically for **association rule learning**.
 - It helps identify relationships between items that frequently appear together in transactions.
 
 ![Machine Learning Map](Image/MLMap.jpg)
 
 ### Reinforcement Learning
-- ML technique that enables an agent to learn in an interactive environment,
-- By trial and error using feedback from its actions and experiences.
+- ML technique that enables an agent to learn and interact with an environment by trial and error.
 - RL uses rewards and punishments as signals for positive and negative behaviour.
+- RL agents learn from the consequences of their actions.
+
+**Key Components of RL**
+1. **Agent:** The entity that learns and interacts with the environment.
+2. **Environment:** The surrounding world that the agent interacts with.
+3. **State:** The current situation of the agent within the environment.
+4. **Action:** The choices the agent can make.
+5. **Reward:** A signal indicating how well the agent performed in a given state.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
