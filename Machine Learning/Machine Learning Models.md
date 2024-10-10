@@ -184,9 +184,9 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 
 - Linear Regression finds the relationship between the dependent variable and one or more independent variables.
 - Linear Regression finds the best fit straight line that accurately predicts the output values within a range.
-- The straight line is called the `regression line`
-- Formula: `y = mX + c`, here `y` is the dependent variable and `X` is the independent variable.
-- `m` is the **slope** and `c` is the **y-intercept**, both are the **regression coefficients**.
+- The straight line is called the regression line.
+- Formula: y = mX + c, where y is the dependent variable and X is the independent variable.
+- **m** is the **slope** and **c** is the **y-intercept**, both are the **regression coefficients**.
 - Linear Regression is simple to understand and interpret, with fast training and prediction.
 - Linear Regression assumes a linear relationship between variables, sensitive to outliers.
 - Can suffer from multicollinearity if the dataset has highly correlated variables.
@@ -194,16 +194,16 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 **Hyperparameters:**
 
 1. **Alpha:**
-- Used in Lasso `L1` and Ridge `L2` regression, determines the strength of the regularization.
-- A higher value of `alpha` means more regularization and simpler linear models.
-- For `αlpha = 0`, Ridge regression is just linear regression.
-- The best value for `alpha` is found by cross-validation (Grid Search CV or Random Search CV)
+- Used in Lasso (L1) and Ridge (L2) regression, determines the strength of the regularization.
+- A higher value of alpha means more regularization and simpler linear models.
+- For αlpha = 0, Ridge regression is just linear regression.
+- The best value for alpha is found by cross-validation (Grid Search CV or Random Search CV)
 
 2. **Normalization:**
-- If `True`, the independent variable `X` will be normalized before regression by subtracting the `mean`
+- If True, the independent variable X will be normalized before regression by subtracting the **mean**.
 
 3. **Fit Intercept:**
-- Whether to calculate the intercept `c` for this model.
+- Whether to calculate the intercept **c** for this model.
 - If set to False, no intercept will be used in calculations.
  
 <h1 name='class' align=center>Classification</h1>
@@ -213,10 +213,11 @@ The algorithm tries to find `relationships` and `mappings` | Algorithm tries to 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/04.Logistic%20Regression.ipynb)
 
 - Model used for classification tasks like classifying flower species and image recognition.
+- A statistical model used to predict the probability of a binary outcome (T/F, Y/N, 1/0, etc.)
+- Logistic Regression starts with a linear equation, and the result is passed through a sigmoid function.
+- The sigmoid/logistic function maps the linear combination to a probability between 0 and 1.
+- If the predicted probability is greater than a threshold (0.5), the model predicts the outcome as 1.
 - One or more independent features are used to **classify** categorical target labels/variables.
-- The outcome is measured with a dichotomous variable (Only two possible outcomes)
-- It predicts the probability of occurrence of an event by fitting data to a logit function.
-- Dependent (Output) should be categorical (0 or 1, Yes or No, True or False)
 - Widely used for binary classification, simple and requires less training, rescaling provides better accuracy.
 
 ### Advantages of Logistic Regression
@@ -340,7 +341,7 @@ Handle **non linear data** |
 from sklearn.ensemble import RandomForestClassifier
 ```
 
-<h3 name='adaboost'>ADABOOST( Adaptive Boosting)</h3>
+<h3 name='adaboost'>ADABOOST (Adaptive Boosting)</h3>
 
 - AdaBoost iteratively trains a sequence of weak decision trees.
 - Gives more `weight` to the data points that are misclassified in each iteration.
@@ -380,19 +381,19 @@ Algorithm Steps:
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
-- Aims to find an optimal `hyperplane` that classifies the distinct classes with `maximum margin` in `N-dimensional space`
-- `Hyperplanes` are decision boundaries that help to `classify` the data points. Data points are called `Support Vectors`
-- `SVM` can be used for `linear` and `non-linear` regression and classification.
-- `SVM` can manage high dimensional data and nonlinear relationships between the data points.
-- `SVM` uses `kernel trick` for `non-linear` data which creates a `hyperplane` in `N-dimensional space` for linear separation.
-- Works better even if the data set has a lot of `outliers` (Because SVM focus only on `support vectors` closest to the hyperplane)
-- Take a long time to `train` and `predict` if the number of `observations` is very large.
-- Kernel functions : Linear | Radial basis function ( RBF ) | Polynomial | Exponential.
+- Aims to find an optimal hyperplane that classifies the distinct classes with maximum margin in N-dimensional space.
+- Hyperplanes are decision boundaries that help to classify the data points. Data points are called Support Vectors.
+- SVM can be used for linear and non-linear regression and classification.
+- SVM can manage high dimensional data and nonlinear relationships between the data points.
+- SVM uses kernel trick for non-linear data which creates a kernel matrix in N-dimensional space for linear separation.
+- Works better even if the data set has a lot of outliers (Because SVM focus only on support vectors closest to the hyperplane)
+- Take a long time to train and predict if the number of observations is very large.
+- Kernel functions: Linear | Radial basis function ( RBF ) | Polynomial | Exponential.
 
 ### Benefits 
 
-- SVM works well with `unstructured` and `semi-structured` data (text, image, face, anomaly detections, etc.)
-- `Generalize` well on the new unseen data and the risk of `overfitting` is also less.
+- SVM works well with unstructured and semi-structured data (text, image, face, anomaly detections, etc.)
+- Generalize well on the new unseen data and the risk of overfitting is also less.
 
 ### Disadvantage
 
@@ -403,14 +404,13 @@ Algorithm Steps:
 
 <h3 name='knn'>6. K Nearest Neighbours</h3>
 
-- `KNN` is used for both `regression` and `classification`
-- `KNN` measures the `geometrical distance` ( euclidean distance ) between the data points. 
-- Initialize `K` ( `# nearest neighbours` ) 
-- Calculate the distance between new data points and the `K nearest neighbours` of training data points.
+- KNN is used for both regression and classification. Measures the Euclidean distance between the data points. 
+- Initialize K (# nearest neighbours) 
+- Calculate the distance between new data points and the K nearest neighbours of training data points.
 - e.g. if K = 5, it will calculate the distance from the 5 nearest data points.
-- Sort the calculated distance in `ascending` order and get `the shortest distance` or `most frequent` classes in neighbour.
-- `Regression`: `Mean` of K nearest distances are considered.
-- `Classification`: `Mode` of K nearest distances are considered.
+- Sort the calculated distance in ascending order and get the shortest distance or most frequent classes in neighbour.
+- Regression: Mean of K nearest distances are considered.
+- Classification: Mode of K nearest distances are considered.
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
