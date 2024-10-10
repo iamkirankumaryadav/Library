@@ -551,7 +551,7 @@ DBSCAN defines 3 types of data points based on their density and proximity.
 - Transforms a dataset into a new set of features without losing information called principal components.
 - A dataset with high dimensions and high correlation can be complicated for analysis and visualization.
 - PCA aims to capture the most important features in the dataset while reducing its dimensionality.
-- Datasets with few features are easy to explore, visualize, analyze and train (simplifies the EDA).
+- Datasets with essential features are easy to explore, visualize, analyze and train (simplifies the EDA).
 - The first principal component (PC1) explains the largest amount of variation in the dataset.
 - Subsequent principal components (PCs) explain the decreasing amount of variations in the dataset.
 - Most of the information within the initial variables is compressed into first components.
