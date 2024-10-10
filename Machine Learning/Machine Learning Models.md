@@ -469,9 +469,10 @@ Algorithm Steps:
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/10.K%20Mean%20Clustering.ipynb)
 
-- Groups similar data points together based on their features into a specified number of clusters.
+- An unsupervised ML algorithm to group similar data points into K distinct clusters.
 - Data points with similar characteristics are grouped in one cluster.
 - Mean in K-Mean refers to the averaging of data (Finding the centroid)
+- Decide how many clusters you want to form in your data. 
 - K random data points are initially selected as a centroid (centre of cluster) for each cluster.
 - Each data point nearest to its corresponding centroid belongs/assigned to that cluster.
 - The centroid is recalculated for the newly formed clusters, and the data points are updated based on the new centroid.
@@ -503,7 +504,7 @@ Algorithm Steps:
 **B. Divisive (Top-Down Approach)**
 - **DIANA:** Divise Analysis
 - Starts with considering all the data points in a single cluster
-- Iteratively/Recursively splits the clusters until each cluster contains a single data point.
+- Iteratively/Recursively splits the clusters based on dissimilarity until each cluster contains a single data point.
 
 ### How do we Calculate the similarity between the clusters?
 - **MIN:** Distance between the closest data points of two clusters.
