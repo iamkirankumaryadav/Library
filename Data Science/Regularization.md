@@ -6,10 +6,9 @@ The regression **coefficients** means the **slope** and **intercept** of the **l
 
 - A technique used to prevent the model from **overfitting** and improve the accuracy and generalization.
 - Overfitting occurs when a model learns the training data too well and cannot generalize the new unseen data.
-- Regularization adds a penalty to the loss function (Actual - Prediction) that simplifies the model.
+- Regularization adds a penalty to the loss function SUM(Actual - Prediction)<sup>2</sup> that simplifies the model.
 - It encourages the model to have smaller coefficients and prevents overfitting the training data.
 - Reduces the **steepness** of the slope | Shrink or discourage the slope towards 0.
-- Add **penalty** to the **loss function** | Sum (Actual - Prediction) <sup>2</sup> | **Sum of Squared Residuals**.
 - High lambda | High bias | Underfitting | Simple Model | More error in train set.
 - Low Lambda | High variance | Overfitting | Complicated Model | Not generalize well for **new unseen data**.
 - LASSO (L1) regularization adds a penalty equal to the sum of the absolute value of the slope.
