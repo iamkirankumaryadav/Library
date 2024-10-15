@@ -32,17 +32,25 @@
 
 ### Key Feature Importance Methods
 
-1. Single-Variable Prediction
+1. **Single Variable Prediction**
 - Univariate feature selection, is a method where you create a simple model for each feature, using that feature alone to make predictions.
-- The performance of these models gives an indication of the importance of each feature.
+- The performance of these models indicates the importance of each feature.
 - The advantage of this method is its simplicity and ease of interpretation.
 - However, it fails to capture interactions between features and can be biased if the number of features is large compared to the number of observations.
 
-2. Linear Regression
+2. **Linear Regression**
 - A statistical method that uses a linear function to describe the relationship between your target variable and one or more predictor variables.
 - In the context of feature importance, coefficients derived from the linear regression model can be used to rank the features.
 - Larger absolute values of these coefficients indicate more importance.
 - However, it’s important to be careful when interpreting these coefficients, especially with multi-collinearity.
 
-3. Logistic Regression
-Logistic regression, similar to linear regression, is a predictive analysis technique. It is used when the dependent variable is categorical. For instance, predicting whether an email is spam or not. In logistic regression, the coefficients can also be used to infer feature importance. A feature is considered important if its coefficient in the logistic regression model is larger (in absolute value) and is statistically significant.
+3. **Logistic Regression**
+- A predictive analysis technique. It is used when the dependent variable is categorical.
+- In logistic regression, the coefficients can also infer the importance of features.
+- A feature is considered important if its coefficient is larger (in absolute value) and is statistically significant.
+
+4. **Decision Trees**
+- Splits the dataset into subsets based on different conditions, and these decisions help in predicting the target variable.
+- The importance of a feature can be determined by the number of times a feature is used to split the data.
+- The greater the number of times a feature is used for splitting, the higher its importance.
+- However, these methods can be prone to overfitting if not implemented correctly.
