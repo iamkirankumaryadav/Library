@@ -7,9 +7,10 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 1. **Data:** Information gathered from observations, research, experiments, or surveys.
 2. **Population:** The entire group of individuals or objects that we're interested in studying.
 3. **Sample:** A subset of the population used to represent the entire group.
-4. **Descriptive statistics:** Summarizing and describing data using the measures.
-5. **Inferential statistics:** Make inferences about the population based on the information from a sample.
-6. **Inference:** A conclusion reached based on evidence and reasoning.
+4. **Descriptive Statistics:** Summarizing and describing data using the measures.
+5. **Measures:** Mean, median, mode, range, variance, and standard deviation.
+6. **Inferential Statistics:** Make inferences about the population based on the information from a sample.
+7. **Inference:** A conclusion reached based on evidence and reasoning.
 
 ### Dataset
 - A dataset is a particular instance/sample of data that is used for analysis or model building at any given time.
@@ -21,20 +22,22 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 - Data importing, cleaning, structuring, parsing, encoding, rescaling, handling dates and times, missing values, and outliers.
 
 ### Data Visualization
-- One of the main tools used to analyze and study relationships between different variables.
+- One of the main tools used to analyze and study relationships between different variables, also helps to identify outliers.
 - Descriptive Analytics: Scatter plots, line graphs, bar plots, histograms, qqplots, smooth densities, boxplots, pair plots, heat maps, etc.
 - Data visualization is also used in ML for data preprocessing and analysis, feature selection, model building, testing, and evaluation.
 
 ### Data Partitioning
-- In ML, the dataset is often partitioned into training and testing sets.
+- In ML, the dataset is often partitioned/split into training, validation, and testing sets.
 - The model is trained on the training dataset and then tested on the testing dataset.
+- The model is evaluated on the validation dataset which helps to increase the accuracy.
 - The testing dataset thus acts as the unseen dataset, which can be used to estimate generalization error.
-- **Generalization Error:** The error expected when the model is applied to a real-world dataset after the model has been deployed.
+- **Generalization Error:** The expected error when the model is applied to a real-world dataset post deployment.
 
 **Descriptive Statistics gives you a summary of your data and Inferential Statistics provides a conclusion for your data**
 
 ### Descriptive Statistics:
-- Descriptive statistics are used to **summarize/describe** a dataset using the measures (mean, median, mode, standard deviation). 
+- Descriptive statistics are used to **summarize/describe** a dataset using the measures and aggregations.
+- Measures: Mean, median, mode, range, variance, and standard deviation. 
 - It provides us with techniques to understand the features and characteristics of the data (Quick snapshot)
 - Provides a quick overview of data, and measures central tendency, variability, and distribution of the data.
 
@@ -46,18 +49,18 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 <h3 name='center'>Measures of Centre | Central Tendency</h3>
 
 1. **Mean:** Average of the data points 
-2. **Median:** Middle data point value of an ordered dataset | Large data set: Median position: `( n + 1 ) / 2`
+2. **Median:** Middle data point value of an ordered dataset | Large data set: Median position: `(n + 1) / 2`
 3. **Mode:** Most frequent | Most common | Most occurring data point value.
 
-### Outlier: 
+### Outlier and its effect: 
 - The data point that differs or is far away from all the other data points in a sample or population.
 - Mean: Calculates the average, therefore it is affected by an outlier.
 - Median: Concentrates only on middle values, therefore there is a very low to no effect by an outlier.
 - Mode: Concentrates only on the most frequent values, there is no effect by an outlier.
 
 ### Central Limit Theorem
-- As the sample size increases, the distribution approaches towards normal distribution.
-- The larger the sample size, the better the approximation to a normal distribution.
+- As the sample size increases, the distribution approaches towards the normal distribution.
+- The larger the sample size, better the approximation to a normal distribution.
 - CLT allows us to use information from samples to reference populations.
 
 <h3 name='spread'>Measures of Spread | Variability</h3>
