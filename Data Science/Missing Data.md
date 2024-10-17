@@ -121,8 +121,7 @@ y_pred = model.predict(X_test)
 # Create Test Set = 20% of Dataset.
 from sklearn.model_selection import train_test_split
 
-# X: Independent Variables 
-# y: Dependent Variable
+# X: Independent Variables, y: Dependent Variable
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 ```
 
