@@ -11,8 +11,6 @@
 # Check for None:
 missing_values = [x is None for x in data]
 
-# Check for NaN:
-
 # Using math library: 
 import math 
 missing_values = [math.isnan(x) for x in data]
@@ -39,22 +37,22 @@ missing_values = np.isnan(array)
 - But it's better to keep data rather than dropping, removing data may lead to loss of information.
 
 ```python
-# DataFrame.dropna()
+# DataFrame.dropna():
 df.dropna()
 
-# DataFrame.Series.dropna()
+# DataFrame.Series.dropna():
 df['Sales'].dropna()
 
-# Drop rows
+# Drop rows:
 df.dropna(axis=0)
 
-# Drop if any attribute value is NaN
+# Drop the row if, any attribute value is NaN:
 df.dropna(axis=0, how='any')
 
-# Drop if all the attribute values are NaN
+# Drop the row if, all the attribute values are NaN:
 df.dropna(axis=0, how='all')
 
-# Drop columns
+# Drop columns:
 df.dropna(axis=1)
 ```
 
@@ -78,7 +76,7 @@ df['Sales'].fillna(0)
 ```
 
 ### Data Leakage 
-- Accidentally sharing the data from the train set to the test set.
+- Data was accidentally shared from the train set to the test set.
 
 ### Disadvantage
 - Imputation changes the distribution and the statistical properties of the dataset.
@@ -136,7 +134,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 - Experiment with different algorithms and compare their performance on specific datasets.
 
 ### Domain Knowledge
-- It'll help us to understand the reason behind the missing data. Whether the data is missing at random or due to some error.
+- It'll help us understand the reason for the missing data. Whether the data is missing at random or due to some error.
 - Understanding the cause can help us to decide on how to handle the missing data in much better.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
