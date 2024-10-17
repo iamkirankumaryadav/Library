@@ -8,7 +8,7 @@
 - An outlier is a data point that is very different from the rest of the dataset.
 - Outliers affect the **distribution** of the dataset by introducing **skewness** and also affect the correlation among features.
 - Outliers affect the overall **central tendency (mean, median, mode)** and measure of **dispersion/deviation (variance, std)**.
-- Outliers can affect the **correlation coefficient** (pulls the regression line towards themselves).
+- Outliers affect the **correlation coefficient** (pulls the regression line towards themselves).
 - **Positive Skew/Right Skew:** Mean is on the right side | Mean > Median > Mode
 - **Negative Skew/Left Skew:** Mean is on the left side | Mode > Median > Mean
 - Outliers can significantly degrade the predictive power of an ML model.
@@ -17,7 +17,7 @@
 
 ### How to detect outliers?
 
-<h3><b>1. Visualization</b></h3>
+<h3><b>1. Data Visualization</b></h3>
 
 - Visualization helps us to understand the distribution of data and to identify the outliers in data.
 - **Boxplot**, **scatter plot** and **histogram** help us to identify outliers in the dataset.
@@ -30,14 +30,14 @@
 - **z = (x - mean(x)) / std(x) (Z score normalization)**
 - Data points after **3 standard deviations** (mean +/- 3 * std) are considered as outliers.
 
-**Solution:** Apply transformation of data : [Scaling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) (Bring scales at the same level)
+**Solution:** Apply transformation of data: [Scaling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) (Bring scales at the same level)
 
 <h3 name="dbscan">3. DBSCAN | Density-based spatial clustering of applications with noise</h3>
 
 - Clustering methods help us to visualize the distribution of data and outliers.
 - Relationships between **features** can be represented via clustering.
 - It focus on finding the **neighbors** of the data points by **density**.
-- Outlier lies in no cluster region, it's separate from every other data points in the cluster region.
+- Outlier lies in no cluster region, separate from every other data point in the cluster region.
 
 <h3 name="summary">4. Five Number Summary</h3>
 
@@ -51,7 +51,7 @@ Divide the data into 4 equal quarters **(Quartiles)**
 **Five Number Summary** can be visually represented using **boxplot**.
 - Horizontal lines on both ends of boxplots are **whiskers**.
 - Box is called **Interquartile Range (IQR)**
-- **IQR = Q3 - Q1** (Interquartile range can define thresholds for outliers based on deviation from median)
+- **IQR = Q3 - Q1** (Interquartile range defines a threshold for outliers based on deviation from the median)
 - Data value **<** Q1 - 1.5 * IQR
 - Data value **>** Q3 + 1.5 * IQR
 - Outlier is represented by a dot o in **boxplot**  
@@ -96,6 +96,6 @@ Divide the data into 4 equal quarters **(Quartiles)**
 2. Cap outliers by setting up a filter | Trim extremely low (min) and high (max) values to bound the outliers.
 3. Impute/Replace the outlier value with something meaningful **(strategy: mean, median, most_frequent)**
 4. Rescale | Standardize | Normalize (Bring down to the same scale) prevents outliers from dominating.
-5. Apply algorithms that work perfectly or less sensitive towards outliers i.e. [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) (Bagging and Boosting)
+5. Apply algorithms that work perfectly or are less sensitive towards outliers i.e. [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) (Bagging and Boosting)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
