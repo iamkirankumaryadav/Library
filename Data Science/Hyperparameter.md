@@ -3,7 +3,7 @@
 # Hyperparameter
 - Hyperparameters are configuration variables that control and determine the learning process of an ML model.
 - Hyperparameters are adjustable parameters that must be tuned to obtain a model with optimal performance.
-- Unlike model parameters, which are learned from the data and adjusted during the training, hyperparameters are set before training begins.
+- Model parameters learn from the data and adjust during the training, hyperparameters are set before training begins.
 - The values of hyperparameters can play a big impact on the behaviour and performance of the ML model.
 - The right hyperparameters can significantly improve a model's accuracy, speed, and generalization.
 
