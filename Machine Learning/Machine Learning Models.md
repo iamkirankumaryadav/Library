@@ -245,7 +245,7 @@ The algorithm tries to find relationships | Algorithm tries to find patterns | A
 - Edges | Branches | Splits | Decisions | Conditions | Outcomes | Sub Tree
 - Leaf Node | Terminal | Label | Class: Nodes that do not split further.
 - The **Decision Tree** recursively splits the data into smaller subsets based on the values (Continuous or Discrete) of input variables.
-- At each split, the algorithm chooses the best feature to split the data into two subsets based on the values of that feature.
+- At each node, the algorithm chooses the best feature to split the data into two subsets based on the values of that feature.
 - The process continues until the data is split into a pure subset (A subset that can't be split further)
 - Once the data is split into a pure subset, the decision tree can be used to make predictions for new data points.
 - Decision Trees are used to make predictions on new data by traversing the tree, the terminal node represents the predicted outcome.
