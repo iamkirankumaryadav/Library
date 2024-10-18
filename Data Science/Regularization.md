@@ -1,9 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
 # Regularization
-
-The regression **coefficients** means the **slope** and **intercept** of the **linear regression** equation.
-
 - A technique used to prevent the model from **overfitting** and improve the accuracy and generalization.
 - Overfitting occurs when a model learns the training data too well and cannot generalize the new unseen data.
 - Regularization adds a penalty to the loss function SUM(Actual - Prediction)<sup>2</sup> that simplifies the model.
@@ -39,11 +36,11 @@ Can lead coefficient to **exactly** 0 | **Minimize** coefficient towards 0 witho
 - It can **remove** features completely (Setting coefficients to 0 | LASSO) and reduce the complexity.
 - In ridge first the independent variables are **standardized** then **ridge regression** is performed.
 
-> Loss = Sum of square **residual** (actual - prediction) <sup>2</sup>
+> Loss = Sum of squared **residuals** (actual - prediction) <sup>2</sup>
 
 ### Loss function
 - A function that measures the difference between the predicted output of a model and the actual output.
-- The loss function is used to guide the learning process of the model.
+- The loss function is used to guide the learning process of the model during training and testing.
 - The goal of the model is to minimize the loss function, the model tries to make its predictions closer to the actual output.
 - Regression: Mean Squared Error Loss Function | Classification: Cross Entropy Loss Function
 - The loss function helps us to understand the model's predictions and improve the model's accuracy.
