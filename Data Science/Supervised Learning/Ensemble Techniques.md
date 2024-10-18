@@ -122,34 +122,30 @@ Random Forest | AdaBoost, Gradient Boosting, and XGBoost
 - **Boosting** effectively learns from its previous mistakes with each iteration.
 - Decision trees are created with only **one depth** or only **one split** (**Stumps**)
 - Base learners | Weak learners are created **sequentially** and the **samples** are passed for training.
-- **Samples** are created using **row sampling** and **column sampling**.
 - **Boosting** combines **weak learners sequentially** by correcting **previous errors** (Forcing them to improve)
 - **Weight** is attached with each and every **instance** | **row** | **record**.
 - If the **sample** of dataset is **missclassified** then that **sample** is transfered to next **base learner** for **retraining**.
 - **Weights** are **adjusted** before each **training** intervals. 
 - **Miss classified instances** are focused with **high weights** and **high priority**.
 
-### **1. ADABOOST**
-- In ADABOOST **weights** are only assigned with **incorrect values** in samples.
+### 1. AdaBoost (Adaptive Boosting)
+- **Weights** are assigned only with the **incorrect** classification/predictions in samples.
 - **Sequential tree** growing  with **weighted samples**.
-- **Base learners** are **decision trees**.
 - Decision trees are created with only **one depth** or only **one split** (**Stumps**)
 - The stump with **low entrophy** or **high information gain** is selected first.
 - ADABOOST allows us to capture the **non-linear relationships**.
 
-### **2. Gradient Boosting**
-- Uses **gradient descent approach**, Minimize a **loss** function (Overall prediction error)
-- Uses the **loss function** of base model (**Decision Tree**) for minimizing the overall **error** of Model.
+### 2. Gradient Boosting
+- Uses **gradient descent approach** to minimize a **loss** function (Overall prediction error)
 - An **iterative** approach, **Combine** weak learners to create a **strong** learner by focusing on mistakes of **prior iterations**.
 
 ![Gradient Boosting](Image/GB.png)
 
-### **3. XGBoost | Extreme Gradient Boosting**
+### 3. XGBoost (Extreme Gradient Boosting)
 - **Regularized** form of **gradient boosting**, uses advanced **regularization** (L1 and L2)
 - Uses **2**<sup>nd</sup> order **partial derivative** for approximation.
-- **High performance**, faster than **gradient boosting**.
-- Choose a better **learning rate** that suits our model.
+- **High performance**, faster than **gradient boosting**. Choose a better **learning rate**.
 - Even works better for **unstructured data**.
 
 ### **Activation Function**
-- A function that takes in the **weighted sum** of all the inputs from **previous layer** adds **bias** and generates output for the **next layer**.
+- A function takes the **weighted sum** of all the inputs from **previous layer** adds **bias** and pass to the **next layer**.
