@@ -4,7 +4,7 @@
 - An optimization algorithm is used while training a model, starting with defining some initial parameter values. 
 - Iteratively it adjusts the values of the parameters to minimize the given **cost function** (Actual - Predicted)
 - **Gradient (m)** measures how much the output of a function changes after a unit change in input.
-- **Gradient (m)** tells us in which direction to move to minimize the cost function (reach the local minimum point) quickly.
+- **Gradient (m)** guides with the direction to move to minimize the cost function (reach the local minimum point) quickly.
 - The higher the gradient, the steeper the slope and the faster a model can learn, once the slope is 0, the model stops learning. 
 
 ### Learning Rate
