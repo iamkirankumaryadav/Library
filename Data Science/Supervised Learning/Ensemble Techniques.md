@@ -1,51 +1,60 @@
 <p align='right'><a href='https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md'>Back to ML Models</a></p>
 
-# **Ensemble Techniques | Method**
-
-### **Why Ensemble?**
-- Ensemble learning combines multiple weak learning models to create a more accurate strong predicting robust model.
-- The individual models in an ensemble are called base/weak learners.
+# Ensemble Learning Techniques
+- Ensemble learning combines multiple weak learning models to create a more accurate robust predicting model.
+- The individual models in an ensemble learning technique are called as base/weak learners.
 - The base learners can be decision trees, support vector machines, or neural networks.
 - It helps us to reduce the variance, bias, underfitting and overfitting.
-- Ensemble learning can also improve the accuracy of models trained on small datasets.
+- Ensemble learning techniques can also improve the accuracy of models trained on small datasets.
  
 **Bagging (Bootstrap Aggregation)** | **Boosting**
 :--- | :---
 Weak learners are trained in parallel | Weak learners are trained in series
 Decrease variance (Solve overfitting) | Decrease bias (Improve training)
 Each model receives equal weight | Weights are assigned based on their performance
-Samples randomly (Sample with replacement) | Samples by increasing weight for wrong predictions
+Sample rows randomly (Sample with replacement) | Samples by increasing weight for wrong predictions
 Models are built independently | Models are improved versions of previously built models
-Less time to train | More time to train
-Easy to tune | Hard to tune
+Less time to train the models | More time to train the models
+Easy to tune and optimize | Hard to tune and optimize
 Least chance of overfitting | Easy to overfit (Memorize the data + noise)
 Samples are drawn randomly with replacement | Samples + Observations that previous models misclassify
-Random Forest | AdaBoost (**Ada**ptive **Boost**ing), Gradient Boosting and XGBoost
+Random Forest | AdaBoost, Gradient Boosting, and XGBoost
 
-### **Information Gain** (Which feature can explain the split better?)
+### Information Gain (Which feature can explain the split better?)
 - Measures the quality of the split, **High IG** is better (Explains the further split in a better way)
-- **Information Gain** decides which feature will become the next node and will split the data in a better way.
+- **Information Gain** decides which feature will become the next node and will split the data further.
 
-### **Entrophy** (Randomness | Uncertainty)
-- **Low entropy:** Better (Simple | No Confusion | Easy to conclude data)
-- **High entropy:** Hard to conclude (Creates confusion)
+### Entrophy (Randomness | Uncertainty | Unpredictable)
+- **Low Entropy:** Better (Simple | No Confusion | Easy to conclude)
+- **High Entropy:** Hard to conclude (Creates confusion)
 
-### **Gini Index** (Check for impurity in the dataset)
+### Gini Index (Check for impurity in the dataset)
 - A low Gini index is better.
 - **Pure:** All data belongs to the same class in a subset (Gini Index: 0)
 - **Impure:** Data is a mixture of different classes in a subset.
 
-**Random Forest** helps identify important features by analyzing how each feature contributes to splitting the data during the training process of its constituent trees. Here's a breakdown:
+**Random Forest** helps identify important features by analyzing how each feature contributes to splitting the data during the training process of its trees. Here's a breakdown:
 
-1. **Decision Tree Building Blocks:** Random Forest is an ensemble method that combines multiple decision trees. Each tree makes predictions by splitting the data based on features (attributes) that best differentiate between the target classes (outcomes).
+1. **Decision Tree Building Blocks:** 
+- Random Forest is an ensemble method that combines multiple decision trees (Weak learning models).
+- Each tree makes predictions by splitting the data based on features that best differentiate between the target classes (outcomes).
 
-2. **Feature Importance:** At each split in a decision tree, the algorithm considers how well a particular feature separates the data into distinct groups regarding the target variable. This is measured using metrics like Gini impurity, Information Gain, Entropy (classification) or variance reduction (regression).
+2. **Feature Importance:** 
+- At each split in a decision tree, the algorithm considers how well a particular feature splits the data in a better way.
+- This is measured using metrics like Gini impurity, Information Gain, Entropy (classification) or variance reduction (regression).
 
-3. **Random Forest's Advantage:** Random Forest builds many trees, and each tree randomly selects a subset of features at each split point. This randomness helps prevent overfitting and ensures a wider range of features are considered across all trees.
+3. **Random Forest's Advantage:** 
+- Random Forest builds many trees, and each tree randomly selects a subset of features at each split point.
+- This randomness helps prevent overfitting and ensures a wider range of features are considered across all trees.
 
-4. **Tracking Feature Importance:** Throughout the forest creation process, Random Forest keeps track of how often each feature is chosen for splitting and how well it separates the data. Features that consistently contribute to good splits are considered more important.
+4. **Tracking Feature Importance:** 
+- Throughout the forest creation process, Random Forest keeps track of how often each feature is chosen for splitting and how well it separates the data.
+- Features that consistently contribute to good splits are considered more important.
 
-5. **Feature Importance Scores:** After building the forest, Random Forest provides a feature importance score for each feature (**feature_importance_**). This score reflects how much a particular feature has been used for splitting across all the trees in the forest. Higher scores indicate greater importance in predicting the target variable.
+5. **Feature Importance Scores:** 
+- After building the forest, Random Forest provides a feature importance score for each feature (**feature_importance_**).
+- This score reflects how much a particular feature has been used for splitting across all the trees in the forest.
+- Higher scores indicate greater importance in predicting the target variable.
 
 **Random Forest acts like a team of analysts, each analyzing the data from a slightly different perspective. By combining their insights (feature importance scores), you gain a more comprehensive understanding of which features are most critical for making accurate predictions.**
 
@@ -56,37 +65,37 @@ Random Forest | AdaBoost (**Ada**ptive **Boost**ing), Gradient Boosting and XGBo
 2. Easily handles outliers and missing values.
 3. Accepts various types of inputs (**continuous**, **discrete** and **ordinal**)
 4. Less likely to overfit and easy to **tune**.
-5. Output **feature importance** (Important features for **prediction**)
+5. Output **feature importance score (feature_importance_)**
 
-### **A. Bagging (Bootstrap Aggregation)**
+### A. Bagging (Bootstrap Aggregation)
 
 ![Ensemble Bagging](Image/EnsembleBagging.svg)
 
 - Multiple **decision trees** come together to make a combined prediction.
 - Dataset is divided into **subsets** | **samples** and passed to multiple **base** learners in parallel.
-- Sample is passed as row sampling with replacement (This process is called as bootstrap)
+- Sample is passed as row sampling with replacement (This process is called as bootstrapping)
 - Each **learning model** is trained **independently** on its particular **sample** of data.
 - **Test sample** is passed to each **model** for the **output**, **Final prediction** is based on **voting**.
 - **Voting classifier** is used to find the final result (This process is called as aggregation)
 - Combine **weak base learners** into **strong learners**.
 - **Regression:** Mean is calculated | **Classification:** Majority voted class label.
-- Using many trees protects individual decision trees from overfitting.
+- Using multiple trees protects individual decision trees from overfitting.
 
-### **Random Forest** 
-- **Ensemble** learning method constructs a **collection** of decision trees in parallel 
+### Random Forest
+- **Ensemble** learning method constructs a **collection** of decision trees in parallel. 
 - Aggregate the predictions of each tree to **determine** the final prediction.
 - Dataset is divided as **subsets** | **samples** and passed to multiple base learners (Decision Tree)
-- Training sample consist of **row sampling** with **replacement**.
+- Training sample consist of **row sampling** with **replacement** (Bootstrapping).
 - Creating a decision tree to its complete depth may cause an overfitting.
 - But when we combine **multiple** decision trees, **high variance** gets converted to **low variance**, i.e. Reduces overfitting.
 - Can be used for **classification** and **regression**.
 - **Regressor:** **Mean** or **median** of all the decision trees.
 - **Classifier:** **Majority vote** from all **decision trees**.
-- Easily handles **outliers**, **missing data** and **skewness**.
+- Easily handles **outliers**, **missing data**, and **skewness**.
 - Accept **continuous** as well as **categorical** inputs.
 - Help to understand **important features**. (Parameter: feature_importance)
 
-### **Out of Bag (OOB) Error**
+### Out of Bag (OOB) Error
 - A method to estimate the prediction error of models that use bootstrapping, like Random Forests.
 - It's a way to validate the model without explicitly splitting the data into training and testing sets.
 
