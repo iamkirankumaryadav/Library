@@ -4,17 +4,18 @@
 - Hyperparameters are configuration variables that control and determine the learning process of an ML model.
 - Hyperparameters are adjustable parameters that must be tuned to obtain a model with optimal performance.
 - Model parameters learn from the data and adjust during the training, hyperparameters are set before training begins.
-- The values of hyperparameters can play a big impact on the behaviour and performance of the ML model.
+- Parameters are values in a model that are updated during the training of the model.
+- The values of hyperparameters can greatly impact the ML model's behaviour and performance.
 - The right hyperparameters can significantly improve a model's accuracy, speed, and generalization.
 
 ### Hyperparameter Tuning/Optimization
 - Finding the optimal hyperparameter values is crucial for achieving the best possible performance from an ML model.
 - It involves experimenting with different combinations of hyperparameters and evaluating the model's performance on a validation set.
-- An iterative process that can be time-consuming, but it's essential for building high-performing models.
+- An iterative process that can be time-consuming but essential for building high-performing models.
 
 ### Hyperparameters:
 - **Learning rate:** Determines how quickly the model updates its parameters during the training.
-- **Batch size:** Determines the number of data points used in each iteration of training.
+- **Batch size:** Determines the number of data points used in each training iteration.
 - **Regularization Strength:** Lasso (L1) or Ridge (L2) to prevent overfitting.
 - **#epochs:** Determines the number of times the model sees the entire training dataset.
 - **#layers:** Determines the number of layers in a neural network.
