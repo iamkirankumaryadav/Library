@@ -240,21 +240,27 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 ### Sampling Facts: 
 - **A sample is never a perfect representation of the population.**
 - **Different samples of the same population will give different mean.**
-- Sometimes it can be due to the sampling error, we will get variations due to the error.
+- Sometimes it can be due to the sampling error, we wifll get variations due to the error.
 
-### **P-Value**
-- Imagine you have a coin (Head/Tails)
-- The normal scenario: If you flip the coin, fairly it will end up in random heads or tails, 5 Heads and 5 Tails or any combination.
-- But it ends up in 10 Heads, now you suspect it might be biased towards Heads.
+### **P-value**
+- **P-value** measures the **probability** of obtaining test results as extreme as the actual results.
+- Assuming the **NULL hypothesis** is true. It determines the significance (importance) of the results.
+- **Low (p-value <=0.05):** Strong evidence against the NULL hypothesis, so you **reject** the NULL hypothesis.
+- **High (p-value >=0.05):** Weak evidence against the NULL hypothesis, so you **accept** the NULL hypothesis.
+- **Very Low (p-value <=0.01):** Very strong evidence against the NULL hypothesis.
 
-Here's how p-value can help you test that suspicion:
-1. **Null Hypothesis (H0):** The coin is fair (One side is the head and another side is the tail)
-2. **Alternate Hypothesis (Ha):** The coin is biased (It will fall on either head)
-3. **Observed Data:** You flip the coin, say, 10 times. Surprisingly, you get Heads every single time!
-4. **Test Statistic:** This would be the number of heads observed, which in this case is 10 out of 10 flips.
-- P-value is the probability of getting a result as extreme as 10 heads in 10 flips, assuming the coin is fair (H0).
+### Example 
+- Imagine you have a fair coin (Head/Tails)
+- **Normal scenario:** If you flip a fair coin, it will end up in any random combinations of heads or tails.
+- **Exceptional case:** But it ends up in 10 Heads, now you suspect it might be biased towards Heads.
+
+Here's how p-value can help you test the suspicion:
+- **Null Hypothesis (H0):** The coin is fair (One side is the head and another side is the tail)
+- **Alternate Hypothesis (Ha):** The coin is biased (It will fall on either head)
+- **Observed Data:** You flip the coin, say, 10 times. Surprisingly, you get Heads every single time!
+- **Test Statistic:** This would be the number of heads observed, which in this case is 10 out of 10 flips.
 - In a fair case, it'll not be always possible to get 10 Heads every time.
 - The p-value tells you how often you'd expect to see 10 heads in a row! in those hypothetical repetitions.
 - We can say that there is only less than 5% or 1% chance it may happen.
-- If p-value > 0.05 i.e. Here it's a normal scenario (Fair coin, NULL Hypothesis Accepted)
-- If p-value < 0.05 i.e Very rare scenario of getting H only (The coin is biased)
+- If **p-value >= 0.05** i.e. Here it's a normal scenario (Fair coin, NULL hypothesis accepted)
+- If **p-value <= 0.05** i.e Very rare scenario of getting H only (The coin is biased)
