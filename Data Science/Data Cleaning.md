@@ -50,4 +50,27 @@ df.duplicated(['column1', 'column3'])
 3. **Domain Knowledge:** Help to understand the valid value and range of the data (-90 <= Latitude <=90 and -180 <= Longitude <= 180)
 4. **Visualization:** Histograms, boxplots and bar charts help visualise data distribution, frequency, and outliers.
 
+### Cleaning Empty Cells
+- Fixing bad data (Empty cells, data in wrong format, wrong data, and duplicates)
+```python
+# Remove rows that contain empty cells/ NULL values:
+import pandas as pd
+df = pd.read_csv('data.csv')
+df.dropna(inplace=True)
+
+# Replace/Fill empty cells with a new values:
+df.fillna(999)
+
+# Replace/Fill only for specified Columns:
+df['MRP'].fillna(450.50)
+
+# Replace/Fill using mean, median, or mode:
+df['MRP'].fillna(df['MRP'].mean(), inplace=True)
+```
+
+### Cleaning data of wrong format
+```python
+df['Sale_Date'] = pd.to_datetime(df['Sale_Date'])
+```
+
 <p align='right'><a align="right" href="https://github.com/iamkirankumaryadav/Library/blob/main/Interview.md">Back to Questions</a></p>
