@@ -65,7 +65,13 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 
 ### Z Test
 - Determine whether the mean of a sample is significantly different from a known population mean.
-- It assumes that the data is normally distributed, 
+- The z-test assumes the data is normally distributed, and used only when the sample size is > 30.
+
+**Feature** | **Z-Test** | **T-Test**
+:--- | :--- | :---
+**Population Standard Deviation** | Known | Unknown
+**Sample Size** | Large (n >= 30) | Small (n <= 30)
+**Distribution** | Standard Normal Distribution | T-distribution
 
 <h3 name='spread'>Measures of Spread | Variability</h3>
   
@@ -111,8 +117,9 @@ More sensitive to outliers | Less sensitive to outliers
 
 ### Hypothesis Testing:
 - This is like guessing about the population based on your sample information.
-- Null Hypothesis (H₀): You assume there's no significant difference between your sample and the population.
-- Alternative Hypothesis (H₁): This is the actual guess about the population. There might be a difference!
+- **Null Hypothesis (H₀):** You assume there's no significant difference between your sample and the population.
+- **Alternative Hypothesis (H₁):** This is the actual guess about the population. There might be a difference!
+- **Z Score:** How many standard deviations the sample mean is away from the population mean?
 
 ### Confidence
 - While sampling, different samples can be **randomly** selected from the same **population**.
@@ -244,7 +251,7 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 ### Sampling Facts: 
 - **A sample is never a perfect representation of the population.**
 - **Different samples of the same population will give different mean.**
-- Sometimes it can be due to the sampling error, we wifll get variations due to the error.
+- Sometimes it can be due to the sampling error, we will get variations due to the error.
 
 ### **P-value**
 - **P-value** measures the **probability** of obtaining test results as extreme as the actual results.
