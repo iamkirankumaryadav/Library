@@ -65,7 +65,7 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 
 ### Z Test
 - Determine whether the mean of a sample is significantly different from a known population mean.
-- It assumes that the data i
+- It assumes that the data is normally distributed, 
 
 <h3 name='spread'>Measures of Spread | Variability</h3>
   
