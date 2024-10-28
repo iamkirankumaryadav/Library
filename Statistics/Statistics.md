@@ -59,8 +59,8 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 - Mode: Concentrates only on the most frequent values, there is no effect by an outlier.
 
 ### Central Limit Theorem
-- As the sample size increases, the distribution approaches towards the normal distribution.
-- The larger the sample size, better the approximation to a normal distribution.
+- As the sample size increases, the distribution approaches the normal distribution.
+- The larger the sample size, the better the normal distribution approximation.
 - CLT allows us to use information from samples to reference populations.
 
 <h3 name='spread'>Measures of Spread | Variability</h3>
@@ -70,12 +70,12 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 
 ### 1. Range
 
-- **Range:** Max - Min, the difference between the highest and the lowest data point values in the dataset.
+- **Range:** Max - Min, the difference between the dataset's highest and lowest data point values.
 - Very high data point values can mislead the range (e.g. {8, 11, 5, 9, 7, 6, 3616) Outlier.
 - Here the lowest data point value is 5 and the highest data point value is 3616.
 
 ### 2. Variance (s<sup>2</sup>)
-- An average of the squared distances from the mean. Variability of the data point values from its mean.
+- The squared distances from the mean. Variability of the data point values from its mean.
 
 ### 3. Standard Deviation (s: Square Root of Variance)
 - Distance of the **data points** from its **mean** in the **data set**. The square root of the **variance**.
