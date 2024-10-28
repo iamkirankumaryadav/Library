@@ -63,6 +63,10 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 - The larger the sample size, the better the normal distribution approximation.
 - CLT allows us to use information from samples to reference populations.
 
+### Z Test
+- Determine whether the mean of a sample is significantly different from a known population mean.
+- It assumes that the data i
+
 <h3 name='spread'>Measures of Spread | Variability</h3>
   
 - Measures the relationship of individual data points with their mean.
