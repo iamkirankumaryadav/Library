@@ -59,13 +59,15 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 - Mode: Concentrates only on the most frequent values, there is no effect by an outlier.
 
 ### Central Limit Theorem
-- As the sample size increases, the distribution approaches the normal distribution.
-- The larger the sample size, the better the normal distribution approximation.
-- CLT allows us to use information from samples to reference populations.
+- As the **sample size (n)** increases, the distribution of the sample mean will approximate a **normal distribution**.
+- The **sample size (n)** should be large enough **(n > 30)** for the Central Limit Theorem to hold true or apply.
+- CLT allows to use the information from **sample statistics** and make statistical inferences about **population parameters**.
 
 ### Z Test
-- Determine whether the mean of a sample is significantly different from a known population mean.
-- The z-test assumes the data is normally distributed, and used only when the sample size is > 30.
+- Determine whether the mean of a **sample** is significantly different from a known **population mean**.
+- The **z-test** assumes the data is normally distributed, and used only when the sample size **n > 30**.
+- **One sample z-test:** Compares the **sample mean** to a known **population mean**.
+- **Two sample z-test:** Compares the mean of two independent samples.
 
 **Feature** | **Z-Test** | **T-Test**
 :--- | :--- | :---
