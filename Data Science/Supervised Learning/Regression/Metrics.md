@@ -160,9 +160,9 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='pre'>3. Precision</h3>
 
-- The ratio of true positive predictions (TPs) to the total number of positive predictions.
-- Measures the correctly identified positive cases (TPs) from all the predicted positive cases.
-- Precision is useful when the cost of a False Positive (FP) is **high**. (e.g. Antivirus, Spam Filtering)
+- The ratio of **true positive predictions** (TPs) to the **total predicted positives**.
+- Measures the **correctly identified positive cases** (TPs) from all the **predicted positive cases**.
+- Precision is useful when the cost of a **False Positive (FP)** is **high**. (e.g. Antivirus, Spam Filtering)
 - **TP:** The number of instances that were correctly classified as positive.
 - **FP:** The number of instances that were incorrectly classified as positive.
 
@@ -170,16 +170,16 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='tpr'>4. Recall | True Positive Rate (TPR) | Sensitivity</h3>
 
-- The ratio of true positive predictions (TPs) to the total number of actual positive cases
-- Measures the correctly identified positive cases (TPs) from all the actual positive cases. 
-- Recall is useful when the cost of a False Negative (FN) is high/risky. (e.g. Medical Diagnosis, Covid Test)
+- The ratio of **true positive predictions** (TPs) to the **total actual positives**.
+- Measures the **correctly identified positive cases** (TPs) from all the **actual positive cases**. 
+- Recall is useful when the cost of a **False Negative (FN)** is high/risky. (e.g. Medical Diagnosis, Fraud Detection)
 - **FN:** The number of instances that were incorrectly classified as negative
 
 ![Recall](Image/Recall.png)
 
 <h3 name='fpr'>5. False Positive Rate (FPR) | Specificity</h3>
 
-- Measures the incorrectly identified positive cases from all the actual negative cases. 
+- Measures the **incorrectly identified positive** cases from all the **actual negative cases**. 
 - **False Positive Rate**: Proportion of negative class that is incorrectly predicted as **positive**.
 
 ![FPR](Image/FPR.png)
@@ -198,6 +198,10 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 - **Precision**, **Recall** and **F1 Score** are better metrics for imbalanced dataset.
 
 ![F1](Image/F1.png)
+
+### Support
+- Support refers to the number of actual occurences of each class in the dataset.
+- It essentially counts how many times each class appears in the true labels of the data.
 
 <h3 name='roc'>7. ROC | Receiver Operating Characteristic</h3>
 
