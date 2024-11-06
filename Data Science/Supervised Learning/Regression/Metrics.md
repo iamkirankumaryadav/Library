@@ -172,14 +172,14 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 - The ratio of **true positive predictions** (TPs) to the **total actual positives**.
 - Measures the **correctly identified positive cases** (TPs) from all the **actual positive cases**. 
 - Recall is a crucial metric when minimizing **False Negatives (FN)** is a priority. (e.g. Medical Diagnosis, Corona, Fraud Detection)
-- **FN:** The number of instances that were incorrectly classified as negative
+- **FN:** The number of instances that were incorrectly classified as negative.
 
 Example: Medical Diagnosis
 1. Precision: A FP (Incorrectly diagnosing a healthy person can lead to unnecessary treatment)
-2. Recall: A FN (Incorrectly diagnosing a sick person as healthy can lead to delayed treatment0)
+2. Recall: A FN (Incorrectly diagnosing a sick person as healthy can lead to delayed treatment)
 
 Example: Fraud Detection
-1. Precision: A FP (Flagging a legitimate transaction as fraudelent can inconvenience customers and damage repoutation)
+1. Precision: A FP (Flagging a legitimate transaction as fraudelent can damage customer relationships)
 2. Recall: A FN (Failing to detect fraudelent claims can result in significant financial losses)
 
 ![Recall](Image/Recall.png)
@@ -193,13 +193,12 @@ Example: Fraud Detection
 
 <h3 name='f1'>6. F1 Score | F Measure</h3>
 
-- F1 Score is a **harmonic mean** of **precision** and **recall**.
-- The F1 Score keeps a balance between recall and precision for the classifier model.
+- F1 Score is a **harmonic mean** of **precision** and **recall** (Balancing precision and recall).
 - Useful for imbalanced datasets (Uneven class distribution) and it also considers FP and FN.
 - **Accuracy** is used when TP and TN are more important.
 - **Precision** is used when FP is crucial (Antivirus is showing that the system is safe, even if it's affected by a virus)
 - **Recall** is used when FN is risky (Medical diagnosis, Covid test is showing negative, even if the patient is affected)
-- **F1 Score** is used when FN and FP are more crucial.
+- **F1 Score** is used when minimizing FN and FP are more crucial.
 - **F1-score** is a better metric to evaluate in **real life application**.
 - Best value for **F1 Score** is 1 | Worst value for **F1 Score** is 0.
 - **Precision**, **Recall** and **F1 Score** are better metrics for imbalanced dataset.
