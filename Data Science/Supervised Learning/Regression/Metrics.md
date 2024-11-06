@@ -144,8 +144,8 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 ```
 
 - The metric depends on the specific problem and the relative importance of different types of errors.
-- For medical diagnosis, we might prioritize recall to avoid false negatives (FN)
-- For the spam filtering problem, we might prioritize precision to avoid false positives (FP)
+- For medical diagnosis, we might prioritize recall to minimize false negatives (FN)
+- For the spam filtering problem, we might prioritize precision to minimize false positives (FP)
 
 ![Confusion Matrix](Image/ConfusionMatrix.png)
 
