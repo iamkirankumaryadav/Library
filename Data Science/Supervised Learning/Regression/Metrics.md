@@ -161,7 +161,7 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 <h3 name='pre'>3. Precision</h3>
 
 - Measures the **correctly identified positive cases** (TPs) from all the **predicted positive cases**.
-- Precision is useful when the cost of a **False Positive (FP)** is **high**. (e.g. Antivirus, Spam Filtering)
+- Precision is a crucial metric when minimizing **False Positives (FP)** is a priority. (e.g. Antivirus, Spam Filtering)
 - **TP:** The number of instances that were correctly classified as positive.
 - **FP:** The number of instances that were incorrectly classified as positive.
 
@@ -171,8 +171,16 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 - The ratio of **true positive predictions** (TPs) to the **total actual positives**.
 - Measures the **correctly identified positive cases** (TPs) from all the **actual positive cases**. 
-- Recall is useful when the cost of a **False Negative (FN)** is high/risky. (e.g. Medical Diagnosis, Fraud Detection)
+- Recall is a crucial metric when minimizing **False Negatives (FN)** is a priority. (e.g. Medical Diagnosis, Corona, Fraud Detection)
 - **FN:** The number of instances that were incorrectly classified as negative
+
+Example: Medical Diagnosis
+1. Precision: A FP (Incorrectly diagnosing a healthy person can lead to unnecessary treatment)
+2. Recall: A FN (Incorrectly diagnosing a sick person as healthy can lead to delayed treatment0)
+
+Example: Fraud Detection
+1. Precision: A FP (Flagging a legitimate transaction as fraudelent can inconvenience customers and damage repoutation)
+2. Recall: A FN (Failing to detect fraudelent claims can result in significant financial losses)
 
 ![Recall](Image/Recall.png)
 
