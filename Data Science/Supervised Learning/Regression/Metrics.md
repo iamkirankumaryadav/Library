@@ -152,7 +152,7 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 <h3 name='acc'>2. Accuracy</h3>
 
 - The ratio of correct predictions to the total number of predictions.
-- Accuracy score is good if the dataset contains a balanced class distribution.
+- Accuracy score is good if the dataset is balanced. It can be misleading in imbalanced datasets.
 - Used when all the classes (TP, TN, FP and FN) are equally important.
 - **Accuracy: (TP + TN) / TP + TN + FP + FN**
 
@@ -160,7 +160,6 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='pre'>3. Precision</h3>
 
-- The ratio of **true positive predictions** (TPs) to the **total predicted positives**.
 - Measures the **correctly identified positive cases** (TPs) from all the **predicted positive cases**.
 - Precision is useful when the cost of a **False Positive (FP)** is **high**. (e.g. Antivirus, Spam Filtering)
 - **TP:** The number of instances that were correctly classified as positive.
