@@ -1,20 +1,20 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# **Bias | Variance | Underfitting | Overfitting**
+# Bias | Variance | Underfitting | Overfitting
 
-Bias | Variance
+**Bias** | **Variance**
 :--- | :---
-Bias: Error on train set | Variance: Error on test set
+**Bias:** Error on train set | **Variance:** Error on test set
 High Bias (Model is not trained well) | High Variance (Prediction is not good for new unseen data)
 High Bias (Creates simple model) | High Variance (Creates complicated model)
-Simple models make simplified assumptions while learning | Complicated models learn data with noise
+Simple models make simplified incorrect assumptions while learning | Complicated models learn data with noise
 Simple models do not capture **hidden** patterns and relations properly | Model **memorize** patterns and relations + noise + error
 Low Bias algorithms (Decision Tree, KNN, SVM) | Low Variance algorithms (Regression, LDA)
 High Bias algorithm (Regression) | High Variance algorithms (Decision Tree, KNN, SVM) 
 
 - Error/Residual = Predicted - Actual (Difference between the expected/predicted value and actual value)
-- Linear algorithms **learn fast** which often leads to high bias
-- Simple the algorithm, the more bias it will introduce (Underfitting)
+- Linear models make incorrect assumptions about the data and **learn fast** which often leads to high bias.
+- Simple the model, the more bias it will introduce (Underfitting)
 
 ### **How to reduce Bias?**
 - Cross-validation, resampling and ensemble techniques can prevent Bias as well as Variance.
@@ -45,9 +45,9 @@ High Bias algorithm (Regression) | High Variance algorithms (Decision Tree, KNN,
 
 Bias and Variance help us improve the data fitting and training process resulting in more **accurate models**.
 
-### **Total Error = Bias + Variance + Irreducible Error (Noise)**
+### Total Error = Bias + Variance + Irreducible Error (Noise)
 
-### **Good Fit Model (Low Bias + Low Variance)**
+### Good Fit Model (Low Bias + Low Variance)
 - Prediction is **close** to the actual
 - **Captures** Less noise and error at the time of **training** (Low Bias)
 - Generalized enough to work with any **new unseen data** (Low Variance) 
@@ -58,14 +58,13 @@ Bias and Variance help us improve the data fitting and training process resultin
 - Choosing the right set of optimal hyperparameters for training the model.
 
 2. **Regularization**
-- L1 and L2 techniques are used to reduce overfitting by discouraging complex models.
-- Adding constraints to the model training to prevent the model from overfitting the training data. 
+- **L1** and **L2** techniques are used to reduce overfitting by discouraging the complex models.
 
 3. **Resampling and Cross-Validation**
 - K fold (Balanced dataset) and Stratified K fold (Unbalanced dataset) Cross Validation.
 
 4. **Ensemble Techniques:**
-- Combining multiple weak models into a single model.
+- Combining multiple weak models into a single accurate predicting model.
 - Reduces both bias and variance by averaging out the predictions of the individual models.
 
 5. **Data Augmentation:**
@@ -77,56 +76,56 @@ Bias and Variance help us improve the data fitting and training process resultin
 
 7. **Feature Engineering:**
 - Selecting and transforming the features used to train the model. 
-- Help reduce bias and variance by providing the model with more relevant information.
+- Help reduce bias and variance by providing the model with more relevant features.
 
-# **Bias**
+# Bias
 
 ### Different types of bias in ML models.
 
-Bias can lead to the model making biased predictions.
+Bias can lead the model to make biased predictions.
 
-### **1. Data Bias:** 
-- Occurs when the data that is used to train the model is not representative of the real world.
+### 1. Data Bias:
+- Occurs when the data that is used to train the model is not representative of the population.
 
-### **2. Sampling Bias:**
+### 2. Sampling Bias:
 - Occurs when the data that is used to train the model is not randomly sampled from the population.
 
-### **3. Label Bias:**
+### 3. Label Bias:
 - Occurs when the labels on the data are not accurate.
 
-### **4. Algorithmic Bias:**
-- Occurs when the algorithm that is used to train the model is biased.
+### 4. Algorithmic Bias:
+- Occurs when the algorithm that is used to train the model is not suitable for the scenario and behaves biased.
 - The algorithm is designed to favour a particular group of people or if the algorithm is not properly trained.
 
-### **5. Interpretation Bias:**
+### 5. Interpretation Bias:
 - Occurs when the results of the model are interpreted in a biased way.
 - This can happen if the people interpreting the results are not aware of the biases in the model.
 
-### **6. Design Bias:**
+### 6. Design Bias:
 - Occurs when the algorithm is designed to favour a particular group of people.
 
-### **7. Training Bias:**
+### 7. Training Bias:
 - Occurs when the algorithm is trained on data that is biased.
 - This can happen if the data is collected from a specific group of people or if the data is not properly cleaned.
 
-### **8. Evaluation Bias:**
+### 8. Evaluation Bias:
 - Occurs when the algorithm is evaluated on data that is biased.
 
-## **How to prevent from Bias?**
+## How to prevent from Bias?
 
-### **1. Use diverse dataset:**
+### 1. Use diverse dataset:
 - The dataset should represent all of the different groups of people that the model will be used to predict.
 
-### **2. Randomly sample the data:**
+### 2. Randomly sample the data:
 - Selecting a random sample of data helps to reduce the impact of any bias that is present in the data.
 
-### **3. Clean the data:**
+### 3. Clean the data:
 - Before you train the model, you should clean the data. This means removing any outliers or errors from the data.
 
-### **4. Use the correct algorithm:**
+### 4. Use the correct algorithm:
 - Fair algorithms should be used to train the model. A correct model will reduce the impact of bias in the model.
 
-### **5. Interpret the results carefully:**
+### 5. Interpret the results carefully:
 - Don't make biased assumptions. Always be aware of the limitations of the respective model.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
