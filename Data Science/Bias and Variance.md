@@ -16,12 +16,12 @@ High Bias algorithm (Regression) | High Variance algorithms (Decision Tree, KNN,
 - Linear models make incorrect assumptions about the data and **learn fast** which often leads to high bias.
 - Simple the model, the more bias it will introduce (Underfitting)
 
-### **How to reduce Bias?**
+### How to reduce Bias?
 - Cross-validation, resampling and ensemble techniques can prevent Bias as well as Variance.
-- `K Fold Cross Validations` and `Resampling` | Split the dataset into `K` samples and each set is used as a testing set.
-- `Bootstrapping` and `Boosting` | Iteratively `Resampling` a dataset with `replacement`
+- K Fold Cross Validations | Split the dataset into K samples and each set is used as a testing set.
+- Bagging and Boosting | Iteratively resampling a dataset with replacement.
 
-### **Bias Variance Trade-Off**
+### Bias Variance Trade-Off
 
 - Bias and Variance are inversely proportional to each other.
 - A model with low bias will tend to have high variance
@@ -29,12 +29,12 @@ High Bias algorithm (Regression) | High Variance algorithms (Decision Tree, KNN,
 - Increasing bias decreases variance and increasing variance decreases bias
 - ML aims to find the correct balance i.e. low bias and low variance
 
-### **Underfitting: High Bias + Low Variance (Simple Model)**
-- High Bias: High error on train dataset (Model is not trained properly)
-- Low Variance: Low error on test dataset (Generalized: model can predict a little close to the actual value)
+### Underfitting: High Bias + Low Variance (Simple Model)
+- **High Bias:** High error on train dataset (Model is not trained properly)
+- **Low Variance:** Low error on test dataset (Generalized: model can predict a little close to the actual value)
 - The model fits the data enough but also captures noise and error at the time of training (Low accuracy)
 
-### **Overfitting: Low Bias + High Variance (Complex Model)**
+### Overfitting: Low Bias + High Variance (Complex Model)
 - **Low Bias:** Low error on train data (Model is **trained** very well including noise)
 - **High Variance:** High error on test data (Performs badly on the new unseen data)
 - When a massive amount of data trains a model, it tends to learn from noise and inaccurate data.
