@@ -7,8 +7,8 @@
 **Bias:** Error on train set | **Variance:** Error on test set
 High Bias (Model is not trained well) | High Variance (Prediction is not good for new unseen data)
 High Bias (Creates simple model) | High Variance (Creates complicated model)
-Simple models make simplified incorrect assumptions while learning | Complicated models learn data with noise
-Simple models do not capture **hidden** patterns and relations properly | Model **memorize** patterns and relations + noise + error
+Models make simplified incorrect assumptions while learning | Model learns complicated data including noise and error.
+Simple models do not capture **hidden** patterns and relations properly | Complicated models **memorize** patterns and relations + noise + error
 Low Bias algorithms (Decision Tree, KNN, SVM) | Low Variance algorithms (Regression, LDA)
 High Bias algorithm (Regression) | High Variance algorithms (Decision Tree, KNN, SVM) 
 
