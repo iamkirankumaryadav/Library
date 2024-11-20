@@ -92,8 +92,8 @@
 
 Supervised | Unsupervised | Reinforcement
 :--- | :--- | :---
-Algorithm learns from labelled data | Algorithm learns from unlabelled data | Agents take actions in an environment
-The algorithm tries to find relationships | Algorithm tries to find patterns | Agent learns from rewards and penalty
+Model learns from labelled data | Model learns from unlabelled data | Agents take actions in an environment
+Model tries to find relationships | Model tries to find patterns | Agent learns from rewards and penalty
 
 - Columns: Feature Matrix (Variables) and Target Vector (Labels)
 - Features: Independent Variable | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
