@@ -58,7 +58,7 @@ df.dropna(axis=1)
 
 <h3 name="impute">2. fillna(): Fill/Impute Missing Values</h3>
 
-- Imputation involves estimating missing values with the help of other available rows or columns.
+- Imputation involves estimating missing values with the help of other available (non missing) rows or columns.
 - Impute the numerical missing data with the sample mean or median (SimpleImputer: strategy = 'mean' or 'median') 
 - Impute the categorical missing data with the sample most frequent values (SimpleImputer: strategy = 'most_frequent') 
 - SimpleImputer() is used to fill in the missing values (Univariate imputation) 
