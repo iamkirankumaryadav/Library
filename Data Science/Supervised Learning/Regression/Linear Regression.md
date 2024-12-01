@@ -15,7 +15,7 @@
 - Predict a continuous numeric dependent variable based on one or more independent variables.
 - Predict a best-fit line (finding a regression line that best fits the data) with the least errors or residuals.
 - Residual | Error: Difference between the actual and predicted values for a given data point.
-- Learning a linear regression model means estimating the values of the coefficients (Slope and Intercept)
+- Learning a linear regression model means estimating the values of the coefficients (Weight, slope and intercept)
 - Linear regression is sensitive to over fittings and outliers.
 - But can be prevented using [dimensionality reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md), [regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md), [standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) and [cross validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 
