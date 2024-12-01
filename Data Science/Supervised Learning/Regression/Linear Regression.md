@@ -15,7 +15,7 @@
 - Predict a continuous numeric dependent variable based on one or more independent variables.
 - Predict a best-fit line (finding a regression line that best fits the data) with the least errors or residuals.
 - Residual | Error: Difference between the actual and predicted values for a given data point.
-- Learning a linear regression model means estimating the values of the coefficients (Weight, slope and intercept)
+- Learning a linear regression model means estimating the values of the regression coefficients (slope and intercept)
 - Linear regression is sensitive to over fittings and outliers.
 - But can be prevented using [dimensionality reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md), [regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md), [standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) and [cross validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 
@@ -38,7 +38,7 @@
 
 ### **How do we check the relationships between independent and dependent variables?**
 
-Data visualization is one of the best ways to check the relationship, distribution and variance in the dataset.
+Data visualization is one of the best ways to check the dataset's relationship, distribution and variance.
 
 1. **Scatter Plots:**  
 - Plot the independent variable(s) on the x-axis and the dependent variable on the y-axis.
