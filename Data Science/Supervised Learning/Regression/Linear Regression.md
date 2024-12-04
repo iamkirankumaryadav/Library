@@ -196,8 +196,7 @@ Significance Level | P-value
 ![Positive Negative](Image/PN.png)
 
 ### Extrapolation
-
-- Making predictions outside the range of data due to the presence of outliers.
+Making predictions outside the range of data due to the presence of **outliers**.
 
 ![Extrapolation](Image/Extrapolation.png)
 
