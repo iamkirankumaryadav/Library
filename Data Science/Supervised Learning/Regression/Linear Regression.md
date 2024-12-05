@@ -5,18 +5,20 @@
 <h3><a href='#simple'>Simple Linear</a> | <a href='#multiple'>Multiple Linear</a> | <a href='#ass'>Assumptions</a></h3>
 
 ### **Regression**
-- Estimating the relationships between the dependent variable and one or more independent variables to make predictions.
+- A statistical method used to estimate the relationship between a dependent variable and one or more independent variables.
 
 #### **Important Terms:**
-- Independent Variables | Features Matrix (An array of numbers, one or more rows, one or more columns)
-- Dependent Variable | Target Vector (A list of numbers, can be in a single row or column)
+- Independent Variables (x) | Features Matrix (An array of numbers, one or more rows, one or more columns)
+- Dependent Variable (Y) | Target Vector (A list of numbers, can be in a single row or column)
+- **m** (Slope: The rate of change of Y concerning x) and **C** (Intercept: The value of Y when x is 0)
+- **Residual | Error:** The difference between actual and predicted values.
 
 ### **Linear Regression:**
+- A straight line can represent the linear relationship between two variables.
 - Predict a continuous numeric dependent variable based on one or more independent variables.
 - Predict a best-fit line (finding a regression line that best fits the data) with the least errors or residuals.
-- Residual | Error: Difference between the actual and predicted values for a given data point.
 - Learning a linear regression model means estimating the values of the regression coefficients (slope and intercept)
-- Linear regression is sensitive to over fittings and outliers.
+- Linear regression is sensitive to overfittings and outliers.
 - But can be prevented using [dimensionality reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md), [regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md), [standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) and [cross validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 
 ![Regression Line](Image/RegressionLine.png)
