@@ -31,7 +31,7 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 - The model is trained on the training dataset and then tested on the testing dataset.
 - The model is evaluated on the validation dataset which helps to increase the accuracy.
 - The testing dataset thus acts as the unseen dataset, which can be used to estimate generalization error.
-- **Generalization Error:** The expected error when the model is applied to a real-world dataset post deployment.
+- **Generalization Error:** The expected error when the model is applied to a real-world dataset post-deployment.
 
 **Descriptive Statistics gives you a summary of your data and Inferential Statistics provides a conclusion for your data**
 
@@ -60,8 +60,8 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 
 ### Central Limit Theorem
 - As the **sample size (n)** increases, the distribution of the sample mean will approximate a **normal distribution**.
-- The **sample size (n)** should be large enough **(n > 30)** for the Central Limit Theorem to hold true or apply.
-- CLT allows to use the information from **sample statistics** and make statistical inferences about **population parameters**.
+- The **sample size (n)** should be large enough **(n > 30)** for the Central Limit Theorem to hold or apply.
+- CLT allows to use of the information from **sample statistics** and makes statistical inferences about **population parameters**.
 
 ### Z Test
 - Determine whether the mean of a **sample** is significantly different from a known **population mean**.
@@ -187,7 +187,7 @@ Describe the percentage % of data point value that falls at or below another dat
 
 Percentage and Percentile are **different**.
 
-### **Correlation (Direction & Strength)**
+### Correlation (Direction & Strength)
 - Shows the extent (strength) to which two variables are related to each other.
 - Measures the **direction** and **strength** of relationship between the features/variable.
 - **Direction:** Positive (+1) or Negative (-1)
@@ -217,7 +217,7 @@ Correlation is not equal to causation
 - **Alternate** Hypothesis (H1): There is a **Linear Relationship**
 - P-Value is Calculated ( if P Value > 0.05: Then Accept Null Hypothesis else Reject Null Hypothesis )
 
-### **Multicollinearity**
+### Multicollinearity
 - Two or more independent features **correlate** strongly with each other.
 - It create a **confusing effect**, regression equation becomes **unstable** and results **unreliable estimates**.
 - Choose an independent variable (Drop one feature) or combine variables (Create a new feature)
@@ -240,11 +240,11 @@ Correlation is not equal to causation
 
 ![R is Low](Image/R1.png)
 
-Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different`.
+Correlation **R** and Coefficient of Determination **R** <sup>2</sup> are different.
 
 ![Difference](Image/RRS.png)
 
-### **Covariance (Direction)**
+### Covariance (Direction)
 - Covariance is a measure of how two variables change together.
 - Helps us understand the relationship between two sets of data points.
 - `Positive Covariance`: Two variables tend to move in the `same` direction. 
@@ -255,7 +255,7 @@ Correlation `R` and Coefficient of Determination `R` <sup>2</sup> are `Different
 - **Different samples of the same population will give different mean.**
 - Sometimes it can be due to the sampling error, we will get variations due to the error.
 
-### **P-value**
+### P-value
 - **P-value** measures the **probability** of obtaining test results as extreme as the actual results.
 - Assuming the **NULL hypothesis** is true. It determines the significance (importance) of the results.
 - **Low (p-value <=0.05):** Strong evidence against the NULL hypothesis, so you **reject** the NULL hypothesis.
@@ -277,3 +277,33 @@ Here's how p-value can help you test the suspicion:
 - We can say that there is only less than 5% or 1% chance it may happen.
 - If **p-value >= 0.05** i.e. Here it's a normal scenario (Fair coin, NULL hypothesis accepted)
 - If **p-value <= 0.05** i.e Very rare scenario of getting H only (The coin is biased)
+
+## Types of Statistical Tests
+- Statistical tests are used to make inferences about a population based on a sample of data. 
+
+### Parametric Tests
+- Parametric tests assume that the data is normally distributed and that the population parameters are known or can be estimated.
+
+**1. T-test:**
+- T-test compares the means of two groups.
+- **One-sample t-test:** Compares the mean of a single sample to a known population mean.
+- **Independent samples t-test:** Compares the means of two independent groups.
+- **Paired samples t-test:** Compares the means of two related groups (e.g., before-after measurements).   
+
+**2. ANOVA (Analysis of Variance):**
+- Used to compare means of more than two groups.
+- **One-way ANOVA:** Compares the means of multiple groups on a single independent variable.
+- **Two-way ANOVA:** Compares the means of multiple groups on two independent variables.
+
+**Z-test:**
+- Used to compare population means when the population standard deviation is known.
+- Often used in hypothesis testing and confidence interval estimation.
+
+### Non-parametric Tests
+- Non-parametric tests do not assume that the data is normally distributed.
+- They are often used when the sample size is small or the data is not normally distributed.
+
+**1. Chi-Square Test:**
+- Used to analyze categorical data.
+- **Chi-square goodness-of-fit test:** Compares observed frequencies to expected frequencies.
+- **Chi-square test of independence:** Tests the association between two categorical variables.
