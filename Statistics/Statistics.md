@@ -1,19 +1,21 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # Statistics: The Science of Data
-The science of collecting, organizing, analyzing, interpreting, and presenting data.
+- Statistics is a powerful tool for understanding, describing, and interpreting data.
+- The science of collecting, organizing, analyzing, interpreting, and presenting data.
 
 ### Key concepts of statistics:
 1. **Data:** Information gathered from observations, research, experiments, or surveys.
 2. **Population:** The entire group of individuals or objects that we're interested in studying.
 3. **Sample:** A subset of the population used to represent the entire group.
 4. **Descriptive Statistics:** Summarizing and describing data using the measures.
-5. **Measures:** Mean, median, mode, range, variance, and standard deviation.
-6. **Inferential Statistics:** Make inferences about the population based on the information from a sample.
-7. **Inference:** A conclusion reached based on evidence and reasoning.
+5. **Measures of Central Tendency:** Mean, Median, and Mode.
+6. **Measures of Dispersion:** Range, Variance, and Standard Deviation.
+7. **Inferential Statistics:** Drawing conclusions about the population based on the information from samples.
+8. **Inference:** A conclusion reached based on evidence and reasoning.
 
 ### Dataset
-- A dataset is a particular instance/sample of data that is used for analysis or model building at any given time.
+- A dataset is a particular sample used for analysis or model building at any given time.
 - A dataset can be of different data types such as numerical, categorical, text, image, voice, and video data.
 
 ### Data Wrangling
@@ -22,7 +24,7 @@ The science of collecting, organizing, analyzing, interpreting, and presenting d
 - Data importing, cleaning, structuring, parsing, encoding, rescaling, handling dates and times, missing values, and outliers.
 
 ### Data Visualization
-- One of the main tools used to analyze and study relationships between different variables, also helps to identify outliers.
+- Visualize, analyze and study relationships between different variables, and distributions, also helps to identify outliers.
 - Descriptive Analytics: Scatter plots, line graphs, bar plots, histograms, qqplots, smooth densities, boxplots, pair plots, heat maps, etc.
 - Data visualization is also used in ML for data preprocessing and analysis, feature selection, model building, testing, and evaluation.
 
