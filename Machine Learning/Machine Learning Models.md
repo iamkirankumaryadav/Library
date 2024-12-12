@@ -95,15 +95,17 @@ Supervised | Unsupervised | Reinforcement
 Model learns from labelled data | Model learns from unlabelled data | Agents take actions in an environment
 Model tries to find relationships | Model tries to find patterns | Agent learns from rewards and penalty
 
-- Columns: Feature Matrix (Variables) and Target Vector (Labels)
-- Features: Independent Variable | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
-- Target: Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
+- Feature Matrix (Independent Variables) and Target Vector (Dependent Variables | Labels)
+- **Features:** Independent Variable | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
+- **Target:** Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
 - Rows | Observations | Records | Samples | Instance.
 - Feature: A measurable property, that can be categorical (discrete) or numerical (real or int number)
 - Target: What we want to make **prediction** for.
 - Model learns a relationship between a feature matrix and a target vector.
+- The model adjusts its internal parameters (weights and biases) to minimize the residuals in the data.
+- **Loss Function:** The difference between the model predicted and actual values.
 - Model is the system that makes **predictions** or **classification** on new unseen data.
-- The goal of ML is to build a model that performs well on new data.
+- ML aims to build a model that performs well on new data.
 - **Parameters** are factors which are considered by the model to make **predictions** or **classifications**.
 - **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
 
