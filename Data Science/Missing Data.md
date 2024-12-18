@@ -1,7 +1,10 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
 # How to deal with missing data?
-- There is no particular approach for dealing with missing data (NULL, NAN, NaN, None) 
+- There is no particular approach for dealing with missing data (NULL, NaN, None)
+- **NULL:** Represents a missing or undefined value in a database. NULL is a marker to denote missing data.
+- **NaN:** Represents a value that is not a valid number. Typically a floating-point value.
+- **None:** Represents the absence of a value or a null value. It is an object of its own data type (NoneType)
 - The appropriate approach depends on your dataset (missing quantity), data type and the analysis goal.
 - Row | Observation | Tuple | Sample | Record            
 - Column | Feature | Field | Attribute | Dimension 
