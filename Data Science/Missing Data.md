@@ -44,13 +44,13 @@ missing_values = np.isnan(array)
 df.dropna()
 
 # DataFrame.Series.dropna():
-df['Sales'].dropna()
+df["Sales"].dropna()
 
 # Drop rows:
 df.dropna(axis=0)
 
 # Drop the row if, any attribute value is NaN:
-df.dropna(axis=0, how='any')
+df.dropna(axis=0, how="any")
 
 # Drop the row if, all the attribute values are NaN:
 df.dropna(axis=0, how='all')
