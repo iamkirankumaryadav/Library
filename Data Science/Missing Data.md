@@ -6,8 +6,8 @@
 - **NaN:** Represents a value that is not a valid number. Typically a floating-point value.
 - **None:** Represents the absence of a value or a null value. It is an object of its own data type (NoneType)
 - The appropriate approach depends on your dataset (missing quantity), data type and the analysis goal.
-- Row | Observation | Tuple | Sample | Record            
-- Column | Feature | Field | Attribute | Dimension 
+- Row | Observation | Tuple | Sample | Record (All are same)           
+- Column | Feature | Field | Attribute | Dimension (All are same)
 
 ### How to identify missing values?
 ```python
