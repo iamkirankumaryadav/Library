@@ -136,6 +136,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 - Experiment with different algorithms and compare their performance on specific datasets.
 
 ### Domain Knowledge
-- It will help us understand why the data is missing—whether the absence is random or due to an error.
+- It will help us understand why the data is missing, whether the absence is random or due to an error.
 - Understanding the cause can help us decide how to handle the missing data better.
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
