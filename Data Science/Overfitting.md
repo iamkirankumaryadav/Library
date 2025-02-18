@@ -3,18 +3,17 @@
 # **Overfitting: Low Bias + High Variance**
 
 ### **Low Bias (Low error on train set) + High Variance (High error on the test set)**
-
-- The model memorizes the data too well with certain assumptions including noise/error with very good accuracy on the training set.
-- But the model loses the ability to learn the hidden patterns and relationships.
-- The model performs better on the training dataset, but it does not generalize well on the new unseen test set.
+- The model overfits the data, memorizing noise and errors, achieving high training accuracy.
+- However, this prevents the model from learning underlying patterns and relationships.
+- Consequently, the model performs well on the training data but poorly on unseen test data.
 
 ## **How to identify overfitting?** 
 
 ### Train Test Split | Observe Accuracy (Score)
-- Split the dataset into train and test sets (80/20 to 70/30 train test split)
-- Check whether the trained model generalizes well on the new unseen test dataset. 
-- Calculate the accuracy score of the train set: **model.score(X_train, y_train)** and test set: **model.score(X_test, y_test)**
-- If the accuracy of the train set is better and the accuracy of the test set is worse then it's an overfitting scenario.
+- Split the dataset into train and test sets (80/20 or 70/30 train-test split).
+- Check whether the trained model generalizes well to the new, unseen test dataset.
+- Calculate the accuracy score of the training set: `model.score(X_train, y_train)` and test set: `model.score(X_test, y_test)`.
+- If the training set accuracy is much higher than the test set accuracy, it indicates overfitting.
 
 ## **How to prevent from overfitting?**
 
