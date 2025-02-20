@@ -1,21 +1,21 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# Encoding Categoricals
+# Encoding Categoricals |  Qualitative Data
 
 ### Types of categorical data
-1. **Nominal:** No ordering or ranking among the values e.g. Genre of music, movie or videos.
-2. **Ordinal:** Ordering or ranking among the values. e.g. Dress size, Grades, Designation, etc.
+1. **Nominal:** No ordering or ranking among the values e.g. Genre (music, movie or videos), color (red, green, or blue), etc.
+2. **Ordinal:** Ordering or ranking among the values. e.g. Dress size (XS, X, M, L, or ML), grades (A, B, C, D), designation (Manager, Senior, Junior), ratings (low, medium, or high), etc.
 3. **Binary:** Dichotomous values e.g. Male or Female, Yes or No, True or False, 1 or 0, etc.
 
 ### How to deal with categorical data?
-- We can't train the ML model directly with categorical labels, they need to be encoded into numeric values.
-- **Encoding:** Transforming categorical labels into numerical values that can be consumed by the ML model.
-- Encoding assigns numerical values to characters to store and process text. Reduces the size by removing redundancy. 
+- We cannot train the ML model directly with categorical labels; they need to be encoded into numeric values.
+- Encoding: Transforming categorical labels into numerical values usable by the ML model.
+- Encoding assigns numerical values to characters to store and process text, reducing size by removing redundancy.
 
 ## Data Encoding
 
 ### Label Encoding (Better for Ordinal)
-Assign a unique integer for each category label. Encodes the label value between 0 and (n-1).
+Assign a unique integer to each category label, encoding the label values between **0** and **n-1**.
 
 <table>
   <tr><th colspan=2><b>Before Encoding</b></th><th colspan=2><b>After Encoding</b></th></tr>
