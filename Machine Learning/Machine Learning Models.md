@@ -94,6 +94,7 @@ Supervised | Unsupervised | Reinforcement
 :--- | :--- | :---
 Model learns from labelled data | Model learns from unlabelled data | Agents take actions in an environment
 Model tries to find relationships | Model tries to find patterns | Agent learns from rewards and penalty
+Classification | Clustering | 
 
 - Feature Matrix (Independent Variables) and Target Vector (Dependent Variables | Labels)
 - **Features:** Independent Variable | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
@@ -117,7 +118,7 @@ Model tries to find relationships | Model tries to find patterns | Agent learns 
 5. Feature matrix is a 2D grid of data where rows represents samples and columns represent features.
 6. The target vector is usually a 1D vector column.
 
-<h1 name='sup' align=center>Supervised Learning ( Labeled Data )</h1>
+<h1 name='sup' align=center>Supervised Learning (Labeled Data)</h1>
 
 - ML algorithms that perform learning by studying the relationship between the feature variables and the known target variable.
 - The algorithm learns to recognize patterns in the input data and map them to the correct output based on the labelled data.
