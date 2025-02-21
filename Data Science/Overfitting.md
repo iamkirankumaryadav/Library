@@ -36,10 +36,9 @@
 - Stop training when the validation set performance starts to decline. This prevents the model from memorizing the noise in the training data.
 
 ### 4. Feature Selection
-- More observations (rows) are good for model training, but more features (columns) confuse the model.
-- Select only important features (A large number of features can confuse the model).
+- More observations (rows) are good for model training, but more features (columns) can confuse the model. Select only important features .
 - Each feature and observation should be independent of each other. Remove irrelevant and redundant features.
-- Remove multicollinear data (e.g., DOB and age can express each other, so we can remove one of them).
+- Remove multicollinear data (e.g., Date of birth and age are redundant, so we can remove one of them).
 
 ### 5. [Ensembling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) 
 - Train and combine multiple weak learners into a single, strong, accurate predictive model.
