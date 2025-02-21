@@ -92,7 +92,7 @@
 
 Supervised | Unsupervised | Reinforcement
 :--- | :--- | :---
-Model learns from labelled data | Model learns from unlabelled data | Agents take actions in an environment
+Model learns from labeled data | Model learns from unlabeled data | Agents take actions in an environment
 Model tries to find relationships | Model tries to find patterns | Agent learns from rewards and penalty
 Classification | Clustering | 
 
