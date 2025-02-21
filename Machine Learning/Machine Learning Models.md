@@ -17,7 +17,7 @@
   </tr>
   <tr>   
     <th>
-      <a href='#reg'>Regression</a>
+      <a href='#reg'>Regression & Classification</a>
     </th>    
     <th>
       <a href='#cluster'>Clustering</a>
