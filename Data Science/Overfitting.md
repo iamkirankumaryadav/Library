@@ -30,19 +30,19 @@
 - Ridge learns complex data patterns and decreases model complexity.
   
 ### 3. Apply [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
-- Until a certain iteration, new iterations will improve the model's accuracy.
-- After some point, the model's ability to generalize to unseen data weakens, and the model starts overfitting.
+- Until a certain iteration, newer iterations improve the model's accuracy.
+- After a certain point, the model's ability to generalize to unseen data weakens, and it begins overfitting.
 - During training, monitor the model's performance on a validation set.
-- Stop training when the validation set performance starts to decline. This prevents the model from memorizing the noise in the training data.
+- Stop training when validation set performance begins to decline.  This prevents the model from memorizing the training data's noise.
 
 ### 4. Feature Selection
-- More observations (rows) are good for model training, but more features (columns) can confuse the model. Select only important features .
+- More observations are good for model training, but more features can confuse the model. Select only important features .
 - Each feature and observation should be independent of each other. Remove irrelevant and redundant features.
 - Remove multicollinear data (e.g., Date of birth and age are redundant, so we can remove one of them).
 
 ### 5. [Ensembling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) 
-- Train and combine multiple weak learners into a single, strong, accurate predictive model.
+- Trains and combines multiple weak learning models into a single, strong, accurate predictive model.
 - Bagging trains multiple individual weak learners (decision trees) in parallel.
-- Boosting trains multiple weak learners sequentially, improving in each step by learning from the mistakes of previous models. 
+- Boosting trains multiple weak learners sequentially, improving at each step by learning from the mistakes of previous models. 
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
