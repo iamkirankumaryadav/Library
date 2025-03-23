@@ -4,7 +4,7 @@
 
 Term | Definition
 :--- | :---
-**Data** | **Collection** of Facts (Numbers, pictures, videos, words, measurements, observations, and more.)
+**Data** | **Collection** of Facts (Numbers, pictures, videos, words, measurements, observations, and more)
 **Data Design** | How you **organize** informations and data.
 **Data Strategy** | Management of `People`, `Prices` and `Tools` used in **Data Analysis**.
 **Data Ingestion** | Unstructured data extracted from multiple sources and prepared for **Analytics**, **Insights** or **Model building**.
