@@ -10,7 +10,7 @@
 - **Dimensions:** Reduce dimensions to simplify the data, it helps in proper understanding and visualization of the data.
 
 ### **Feature Creation:**
-- FE involves creating new features from the existing ones which can contribute to better learning.
+- FE helps ML models learn better by creating new and more useful features from raw data.
 - Well-engineered features can significantly improve the accuracy and efficiency of ML models.
 - **Combination:** Combining existing features to create one new feature.
 - **Derivation:** Deriving new features from calculations or transformations on existing ones.
@@ -24,7 +24,7 @@
 ### **Importance:**
 - By providing more informative features, models can learn faster and require less training data.
 - Make it easier to understand how the features are influencing the model's predictions.
-- FE can help you understand which features are most important for your model's predictions.
+- FE can help you understand which features are most important for the model's predictions.
 
 FE is an iterative process that requires careful consideration of the data, the ML algorithm, and the specific application. 
 
