@@ -2,7 +2,7 @@
 
 # **Imbalanced dataset**
 
-### **Class labels of the target variable should be balanced otherwise it predicts a biased output.**
+### Class labels of the target variable should be balanced otherwise, the model may produce biased predictions.
 
 - e.g. Flower Species 150 : 50 Setosa, 50 Verginica and 50 Versicolor
 
@@ -11,27 +11,27 @@
 ### **1. Up | Oversampling minority class** 
 
 ### **(SMOTE: Synthetic minority oversampling technique)**
-- Randomly duplicate the minority class samples to **reinforce** the learning of data.
-- Resample minority class by setting the number of samples to match with the majority class.
-- Combine the upsampled minority samples with the original majority samples.
+- Duplicate minority class samples randomly to reinforce learning.
+- Resample the minority class to match the number of samples in the majority class.
+- Combine the upsampled minority class with the original majority class.
 
 ### **2. Down | Under sampling majority class**
-- Randomly remove/drop the majority class samples to make the class distribution balanced.
-- Resample the majority class by setting the number of samples to match with minority class.
-- Combine the downsampled majority samples with the original minority samples.
+- Remove/drop some majority class samples to balance the distribution.
+- Resample the majority class to match the number of minority class samples.
+- Combine the downsampled majority class with the original minority class.
 
 ### **3. Evaluation Metric**
-- Precision, Recall | True Positive Rate (TPR), and F1 Score are better metrics for imbalanced dataset.
-- **F1 Score:** Harmonic mean of recall and precision (keeps the balance between recall and precision)
+- Precision, Recall, True Positive Rate (TPR), and F1 Score are better metrics for imbalanced datasets.
+- F1 Score: The harmonic mean of recall and precision, balancing both metrics.
 
 ### **4. Cross Validation**
-- **Stratified K Fold Cross Validation:** Samples with an equal proportion of each class label to train the model.  
+- Stratified K-Fold Cross Validation: Ensures each fold has the same proportion of class labels for training.
 
 ### **5. Algorithms less sensitive to class imbalance:**
 - Random Forest and KNN can perform well with imbalanced data.
-- RF combines predictions from multiple models trained on different resampled versions of data.
-- Parameter **class_weights** (We can specify a higher weight for the minority class)
-- Force the model to pay more attention while learning from the minority class samples.
+- Random Forest combines predictions from multiple models trained on different resampled datasets.
+- Use the class_weights parameter to assign higher weight to the minority class.
+- This forces the model to pay more attention to learning from minority class samples.
 
 ### **6. Collect more data for Minority Class**
 
