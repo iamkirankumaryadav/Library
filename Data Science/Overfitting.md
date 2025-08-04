@@ -3,9 +3,9 @@
 # **Overfitting: Low Bias + High Variance**
 
 ### **Low Bias (Low error on train set) + High Variance (High error on the test set)**
-- The model overfits the data, memorizing noise and errors, achieving high training accuracy.
-- However, this prevents the model from learning underlying patterns and relationships.
-- Consequently, the model performs well on the training data but poorly on unseen test data.
+- The model overfits by memorizing noise and errors, leading to high training accuracy.
+- This prevents the model from learning the true patterns and relationships in the data.
+- As a result, it performs well on training data but poorly on new, unseen test data.
 
 ## **How to identify overfitting?** 
 
