@@ -15,45 +15,43 @@
 
 <h3 name='hold'>1. Holdout Method | Train Test Split</h3>
 
-- Split the entire dataset into (70% - 30%) or (80% - 20%) for the training set and testing set.
-- The ML model is trained using only the training set. Learns to identify patterns and relationships within the data.
-- Once trained, the model's performance is evaluated on the testing set. The model makes predictions on the testing set.
-- There is a possibility of **high bias** if we have limited data, it will not train the model properly.
+- Split the dataset into 70% - 30% or 80% - 20% for training and testing.
+- The model is trained on the training set to learn patterns and relationships.
+- After training, the model’s performance is evaluated on the testing set by making predictions.
+- With limited data, there’s a risk of high bias, meaning the model may not train well.
 
 <h3 name='kfold'>2. K Fold Cross Validation</h3>
 
-- The dataset is divided into **K** equal sized subsets called folds, 1 of **K** subset is used as **testing set**.
-- The process is iterated K times, and **K - 1** subsets are used as training sets. **Mean** error of **K** trials is calculated.
-- Reduces **bias** and **variance** (Generally generates low bias model) It's best approach if we have limited input data.
-- A very high value of K will lead to overfitting and a very low value of K will work similarly to the train test split.
+- The dataset is divided into **K** equal sized subsets called folds, 1 fold is used as the testing set.
+- The process is repeated K times, using K - 1 folds for training each time. The mean error from all trials is calculated.
+- This reduces bias and variance, creating a model with low bias, which is ideal for limited data.
+- A very high K can cause overfitting, while a very low K is similar to a simple train-test split.
 
 <h3 name='skfold'>3. Stratified K Fold Cross Validation</h3>
 
-- A variation of K fold cross-validation that ensures each fold has an equal proportion for each class label.
-- Data is divided into K equal-sized folds, and each subset has an equal proportion for each class label.
-- Models get equally distributed target class labels for training.
-- One of **K** fold is used as **testing set**, and **K - 1** folds are used as **training set**.
-- **Mean** error of **K** trials is calculated. Reduce **bias** and **variance**.
-- An accurate way to evaluate the performance of a model on imbalanced data sets.
+- Stratified K-Fold Cross Validation ensures each fold has an equal proportion of class labels.
+- The data is divided into K equal-sized folds, with each fold containing a balanced distribution of class labels.
+- This helps models train on equally distributed class labels.
+- One fold is used as the testing set, and K - 1 folds are used for training.
+- The mean error from K trials is calculated, reducing bias and variance.
+- It’s an accurate method for evaluating models on imbalanced datasets.
 
 <h3 name='loocv'>4. Leave One Out Cross Validation | LOOCV</h3>
 
-- K = N (N: Number of data points in the data set) Iterate through each data point in the dataset.
-- Leave **one data point** from the dataset for **testing** and use the remaining samples for **training**.
-- Approach is **exhaustive**, need to **train** and **validate** the model for all **possible data points**.
+- K = N (where N is the total number of data points), meaning each data point gets used for testing once.
+- Leave one data point out for testing and use the rest for training.
+- This approach is exhaustive, as you train and validate the model on all possible data points.
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
 
 ### **Grid Search:**
-- A technique used in ML to find the optimal combination of hyperparameters for a given model trained on the limited dataset.
-- Grid Search CV evaluates the model with every possible combination of hyperparameters within a predefined grid.
-- Creates a grid of hyperparameter values and trains the models with each combination.
-- Choosing the optimal set of parameters is known as **hyperparameter tuning**.
-- Different combinations of hyperparameters are used to improve the **performance metric**.
-- **Grid Search cross-validation** tries all combinations of parameter grid values for training a model. 
-- Returns with the best set of parameters having the best performance score on the test set.
-- It is good if the data set is small, it's more time-consuming and requires more resources to run.
-- Prone to overfitting, Not suitable for large and complex data.
+- Grid Search CV is used to find the best combination of hyperparameters for a model, especially on small datasets.
+- It evaluates the model with every possible combination of hyperparameters within a predefined grid.
+- This process is called hyperparameter tuning, finding the optimal set of parameters.
+- Different hyperparameter combinations are tested to improve the performance metric.
+- Grid Search CV tries all possible combinations and returns the best set of parameters based on the test set performance.
+- It’s great for small datasets but is time-consuming and resource-heavy.
+- Grid Search can lead to overfitting and isn’t ideal for large or complex datasets.
 
 ```python
 from sklearn.model_selection import GridSearchCV
@@ -80,16 +78,16 @@ print(grid_search.best_score_)
 ```              
 
 **How to create the Grid?**
-1. **Define the Hyperparameter Grid:** Create a dictionary where keys are hyperparameter names and values are lists of potential values.
-2. **Create a cross-validation object:** Specify the cross-validation strategy (Holdout, K Fold, Stratified K Fold, or LOOCV)
-3. **Instantiate the Model:** Create an instance of the machine learning model.
-4. **Create the Grid Search Object:** Combine the model, hyperparameter grid, and cross-validation strategy into a GridSearchCV object.
-5. **Fit the Grid Search Object:** Train the model on the entire dataset using the specified hyperparameter combinations and cross-validation strategy.
+1. Define the Hyperparameter Grid: Create a dictionary with hyperparameter names as keys and potential values as lists.
+2. Create a Cross-Validation Object: Choose a cross-validation strategy (Holdout, K-Fold, Stratified K-Fold, or LOOCV).
+3. Instantiate the Model: Create an instance of your machine learning model.
+4. Create the Grid Search Object: Combine the model, hyperparameter grid, and cross-validation strategy into a GridSearchCV object.
+5. Fit the Grid Search Object: Train the model on the full dataset using the chosen hyperparameters and cross-validation strategy.
 
 ### **Random Grid Search:**
 
-- Random Grid Search CV randomly chooses the combination of hyperparameter values instead of evaluating all possible combinations.
-- It is good if the data set is very large, it's less time-consuming utilizes fewer resources, and is less likely to overfit the training data.
+- Random Grid Search CV randomly selects hyperparameter combinations, instead of testing all possible ones.
+- It’s more efficient for large datasets, as it’s faster, uses fewer resources, and is less likely to overfit.
 
 ```python
 from sklearn.model_selection import RandomizedSearchCV
