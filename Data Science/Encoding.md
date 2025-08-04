@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# Encoding Categoricals |  Qualitative Data
+# Encoding Categorical |  Qualitative Data
 
 ### Types of categorical data
 1. Nominal: No specific order, just categories (e.g., Genre: music, movies, Colors: red, blue)
