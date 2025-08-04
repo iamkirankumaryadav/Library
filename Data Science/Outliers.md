@@ -5,56 +5,54 @@
 <h3><a href="#zscore">Z Score</a> (Extreme Value Analysis) | <a href="#dbscan">DBSCAN</a> | <a href="#summary">5 Number Summary</a> | <a href="#algo">Algorithm</a></h3>
 
 ### What are outliers?
-- An outlier is a data point that is very different from the rest of the dataset.
-- Outliers affect the **distribution** of the dataset by introducing **skewness** and also affect the correlation among features.
-- Outliers affect the overall **central tendency (mean, median, mode)** and measure of **dispersion/deviation (variance, std)**.
-- Outliers affect the **correlation coefficient** (pulls the regression line towards themselves).
-- **Positive Skew/Right Skew:** Mean is on the right side | Mean > Median > Mode
-- **Negative Skew/Left Skew:** Mean is on the left side | Mode > Median > Mean
-- Outliers can significantly degrade the predictive power of an ML model.
-- Outliers create a significant impact on the performance and lead to inaccurate predictions of new unseen data.
-- Algorithms that are based on **distance calculations** are more sensitive towards the outliers.
+- Outliers are data points that are far from the rest of the dataset.
+- They can skew the distribution, affecting the overall data correlations.
+- Outliers impact central tendency (mean, median, mode) and dispersion (variance, standard deviation).
+- They can pull the regression line and affect the correlation coefficient.
+- **Positive/Right Skew:** Mean > Median > Mode (Mean on the right side)
+- **Negative/Left Skew:** Mode > Median > Mean (Mean on the left side)
+- Outliers can reduce the predictive power of ML models and lead to inaccurate predictions.
+- Models using distance-based algorithms are especially sensitive to outliers.
 
 ### How to detect outliers?
 
 <h3><b>1. Data Visualization</b></h3>
 
-- Visualization helps us to understand the distribution of data and to identify the outliers in data.
-- **Boxplot**, **scatter plot** and **histogram** help us to identify outliers in the dataset.
+- Visualization helps us understand data distribution and spot outliers.
+- Boxplots, scatter plots, and histograms are useful for identifying outliers in the data.
 
 <h3 name="zscore">2. Z Score or Extreme Value Analysis</h3>
 
 ![Standard Deviation](Image/Std.png)
 
-- How many **standard deviations** a data point is away from its **sample's mean**.
-- **z = (x - mean(x)) / std(x) (Z score normalization)**
-- Data points after **3 standard deviations** (mean +/- 3 * std) are considered as outliers.
+- The Z-score measures how far a data point is from the mean in terms of standard deviations.
+- Formula: z = (x - mean) / std (Z-score normalization).
+- Data points more than 3 standard deviations away from the mean (mean ± 3 * std) are considered outliers.
 
 **Solution:** Apply transformation of data: [Scaling](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Normalization%20vs%20Standardization.md) (Bring scales at the same level)
 
 <h3 name="dbscan">3. DBSCAN | Density-based spatial clustering of applications with noise</h3>
 
-- Clustering methods help us to visualize the distribution of data and outliers.
-- Relationships between **features** can be represented via clustering.
-- It focus on finding the **neighbors** of the data points by **density**.
-- Outlier lies in no cluster region, separate from every other data point in the cluster region.
+- Clustering helps visualize data distribution and spot outliers.
+- It shows relationships between features by grouping similar data points.
+- Clustering focuses on finding neighbors based on density.
+- Outliers are not part of any cluster, they lie outside the cluster of data points.
 
 <h3 name="summary">4. Five Number Summary</h3>
 
 Divide the data into 4 equal quarters **(Quartiles)** 
-1. Minimum: **Lowest** data point value in a dataset.
-2. 1<sup>st</sup> **Quartile** (**Q1**) | 25<sup>th</sup> **Percentile**: 25% of data values are smaller and 75% are larger.
-3. 2<sup>nd</sup> **Quartile** (**Q2**) | 50<sup>th</sup> **Percentile**: Median | 50% of data values are smaller and 50% are larger than the median.
-4. 3<sup>rd</sup> **Quartile** (**Q3**) | 75<sup>th</sup> **Percentile**: 75% of data values are smaller and 25% are larger.
-5. Maximum: **Highest** data point value in a dataset.
+1. Minimum: The lowest value in the dataset.
+2. 1<sup>st</sup> **Quartile** (**Q1**) | 25<sup>th</sup> **Percentile**: 25% of values are smaller, 75% are larger.
+3. 2<sup>nd</sup> **Quartile** (**Q2**) | 50<sup>th</sup> **Percentile**: Median | 50% are smaller, 50% are larger.
+4. 3<sup>rd</sup> **Quartile** (**Q3**) | 75<sup>th</sup> **Percentile**: 75% of smaller, 25% are larger.
+5. Maximum: The highest value in the dataset.
 
 **Five Number Summary** can be visually represented using **boxplot**.
-- Horizontal lines on both ends of boxplots are **whiskers**.
-- Box is called **Interquartile Range (IQR)**
-- **IQR = Q3 - Q1** (Interquartile range defines a threshold for outliers based on deviation from the median)
-- Data value **<** Q1 - 1.5 * IQR
-- Data value **>** Q3 + 1.5 * IQR
-- Outlier is represented by a dot o in **boxplot**  
+- The whiskers are the horizontal lines at both ends of a boxplot.
+- The box represents the Interquartile Range (IQR).
+- **IQR = Q3 - Q1** (It defines a range for outliers based on how far values are from the median.)
+- Data points **<** Q1 - 1.5 * IQR or **>** Q3 + 1.5 * IQR are considered outliers.
+- Outliers are shown as dots (o) on the boxplot.
 
 <h3 name="algo">5. Algorithms</h3>
 
@@ -87,15 +85,15 @@ Divide the data into 4 equal quarters **(Quartiles)**
 </table>
 
 ### **How the models are affected by outliers?**
-1. **Linear Regression:** Outliers can affect the relationship, and correlation, leading to inaccurate predictions.
-2. **K Mean Clustering:** Outliers can pull the centroid towards them, leading to misclassification and distorted clusters.
+1. **Linear Regression:** Outliers can affect the relationship, and correlation, causing inaccurate predictions.
+2. **K Mean Clustering:** Outliers can pull/shift the centroid, leading to misclassification and inaccurate clusters.
 3. **SVM:** Outliers can move the hyperplanes to less optimal positions, reducing classification accuracy.
 
 ### **How to handle outliers?**
-1. Remove the outliers if they are truly errors, irrelevant or affecting the overall analysis.
-2. Cap outliers by setting up a filter | Trim extremely low (min) and high (max) values to bound the outliers.
-3. Impute/Replace the outlier value with something meaningful **(strategy: mean, median, most_frequent)**
-4. Rescale | Standardize | Normalize (Bring down to the same scale) prevents outliers from dominating.
-5. Apply algorithms that work perfectly or are less sensitive towards outliers i.e. [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) (Bagging and Boosting)
+1. Remove outliers if they are errors, irrelevant, or affecting analysis.
+2. Cap outliers by setting filters to limit extremely low (min) and high (max) values.
+3. Impute/Replace outliers with meaningful values (mean, median, or most frequent).
+4. Rescale/Standardize/Normalize the data to prevent outliers from dominating.
+5. Apply algorithms that are less sensitive to outliers, like [ensemble learning techniques](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Ensemble%20Techniques.md) (Bagging and Boosting)
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
