@@ -120,10 +120,24 @@ Classification | Clustering |
 
 <h1 name='sup' align=center>Supervised Learning (Labeled Data)</h1>
 
-- ML algorithms that perform learning by studying the relationship between the feature variables and the known target variable.
+- ML algorithms that perform learning by studying the relationship between the feature variables (matrix) and the known target variable (vector / label).
 - The algorithm learns to recognize patterns in the input data and map them to the correct output based on the labelled data.
 - The goal of supervised learning is to create a model that can accurately predict the output for new, unseen input data.
 - Supervised learning is useful for regression (continuous target variables) and classification (discrete target variables).
+
+### Key Components
+- **Training Data:** Consists of input-output pairs (e.g., features and labels).
+- **Model:** A mathematical function that maps inputs to outputs.
+- **Loss Function:** Measures how far off the model's predictions are from the actual labels.
+- **Optimization Algorithm:** Adjusts the model to minimize the loss (e.g., gradient descent).
+
+### Common Algorithms
+- **Linear Regression:** Predicts continuous values.
+- **Logistic Regression:** Used for binary classification.
+- **Decision Trees:** Splits data based on feature values.
+- **Support Vector Machines (SVM):** Finds the optimal boundary between classes.
+- **k-Nearest Neighbors (k-NN):** Classifies based on closest training examples.
+- **Neural Networks:** Powerful models for complex tasks like image and speech recognition.
 
 <table align=center>
   <tr>
@@ -441,6 +455,29 @@ Algorithm Steps:
 - Anomaly detection: Detecting fraudulent transactions, Network intrusion, and Outlier detection.
 
 <h1 name='unsup' align=center>Unsupervised Learning (Unlabeled Data)</h1>
+
+- Unsupervised learning involves training a model on data without labeled outputs.
+- The goal is to uncover hidden patterns, structures, or relationships in the data without any prior knowledge of what the results should be.
+
+### Key Concepts
+- **No Labels:** The data used has no predefined categories or outcomes.
+- **Pattern Discovery:** The model tries to find structure in the data, such as grouping or associations.
+- **Dimensionality Reduction:** Simplifying data while preserving its essential structure.
+
+### Algorithms
+
+1. Clustering
+  - **K-Means:** Groups data into k clusters based on similarity.
+  - **Hierarchical Clustering:** Builds a tree of clusters.
+  - **DBSCAN:** Detects clusters based on density.
+
+2. Dimensionality Reduction
+  - **PCA (Principal Component Analysis):** Reduces the number of features while retaining variance.
+  - **t-SNE:** Visualizes high-dimensional data in 2D or 3D.
+
+3. Association Rules
+  - **Apriori Algorithm:** Finds frequent itemsets in transactional data.
+  - **Eclat Algorithm:** Another method for mining frequent patterns.
 
 <table align=center>
   <tr>
