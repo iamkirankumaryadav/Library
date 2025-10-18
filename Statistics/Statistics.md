@@ -1,39 +1,66 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # Statistics: The Science of Data
-- Statistics is a powerful tool for understanding, describing, and interpreting data.
-- The science of collecting, organizing, analyzing, interpreting, and presenting data.
+- **Definition:** Statistics is the science of collecting, organizing, analyzing, explaining, and presenting data.
+- **Purpose:** Helps understand, describe, and draw meaningful insights from data.
 
-### Key concepts of statistics:
-1. **Data:** Information gathered from observations, research, experiments, or surveys.
+## Key concepts of statistics:
+1. **Data:** Information collected from observations, research, experiments, or surveys.
 2. **Population:** The entire group of individuals or objects that we're interested in studying.
-3. **Sample:** A subset of the population used to represent the entire group.
+3. **Sample:** A subset of the population used to represent the whole group.
 4. **Descriptive Statistics:** Summarizing and describing data using the measures.
 5. **Measures of Central Tendency:** Mean, Median, and Mode.
 6. **Measures of Dispersion:** Range, Variance, and Standard Deviation.
 7. **Inferential Statistics:** Drawing conclusions about the population based on the information from samples.
-8. **Inference:** A conclusion reached based on evidence and reasoning.
+8. **Inference:** A conclusion based on evidence and reasoning.
 
-### Dataset
+## Dataset:
 - A dataset is a particular sample used for analysis or model building at any given time.
 - A dataset can be of different data types such as numerical, categorical, text, image, voice, and video data.
 
-### Data Wrangling
-- The process of converting data from its raw form to a tidy form ready for analysis.
-- An important step in data preprocessing and includes several processes:
-- Data importing, cleaning, structuring, parsing, encoding, rescaling, handling dates and times, missing values, and outliers.
+## Data Wrangling:
+- **Definition:** Converting raw data into a clean, structured format ready for analysis.
+- **Role:** A key step in data preprocessing.
 
-### Data Visualization
-- Visualize, analyze and study relationships between different variables, and distributions, also helps to identify outliers.
-- Descriptive Analytics: Scatter plots, line graphs, bar plots, histograms, qqplots, smooth densities, boxplots, pair plots, heat maps, etc.
-- Data visualization is also used in ML for data preprocessing and analysis, feature selection, model building, testing, and evaluation.
+### Data Wrangling Processes:
+- **Data Importing:** Bringing data from external sources into your working environment.
+- **Data Cleaning:** Removing errors, duplicates, and inconsistencies from data.
+- **Data Structuring:** Organizing data into a standardized, usable format.
+- **Data Parsing:** Breaking down complex data into simpler, explainable components.
+- **Data Encoding:** Converting categorical or text data into numeric form for analysis.
+- **Data Rescaling:** Adjusting data values range to a common scale (e.g., normalization).
+- **Handling Dates and Times:** Formatting and standardizing date/time fields for consistency.
+- **Managing Missing Values:** Filling, removing, or imputing missing data points.
+- **Handling Outliers:** Detecting and treating extreme values that can skew analysis.
 
-### Data Partitioning
-- In ML, the dataset is often partitioned/split into training, validation, and testing sets.
-- The model is trained on the training dataset and then tested on the testing dataset.
-- The model is evaluated on the validation dataset which helps to increase the accuracy.
-- The testing dataset thus acts as the unseen dataset, which can be used to estimate generalization error.
-- **Generalization Error:** The expected error when the model is applied to a real-world dataset post-deployment.
+## Data Visualization
+- **Definition:** The process of visually representing data to analyze relationships, distributions, and detect outliers.
+
+### Purpose:
+- Understand patterns and trends
+- Identify correlations and anomalies
+- Aid in decision-making and storytelling
+- **Role in ML:** Used for preprocessing, feature selection, model building, testing, and evaluation.
+
+### Common Techniques (Descriptive Analytics):
+- **Scatter Plot:** Shows relationships between two variables
+- **Line Graph:** Displays trends over time
+- **Bar Plot:** Compares categorical data
+- **Histogram:** Shows data distribution
+- **QQ Plot:** Compares data distribution to a theoretical distribution
+- **Density Plot:** Smooth representation of data distribution
+- **Box Plot:** Highlights spread and outliers
+- **Pair Plot:** Visualizes relationships among multiple variables
+- **Heat Map:** Represents data intensity using color  
+
+## Data Partitioning
+- **Definition:** Splitting a dataset into subsets for training, validation, and testing in ML.
+
+### Purpose:
+- **Training Set:** Used to train the model.
+- **Validation Set:** Used to tune hyperparameters and improve accuracy.
+- **Testing Set:** Acts as unseen data to estimate generalization error.
+- **Generalization Error:** The expected error when the model is applied to real-world data after deployment.
 
 **Descriptive Statistics gives you a summary of your data and Inferential Statistics provides a conclusion for your data**
 
