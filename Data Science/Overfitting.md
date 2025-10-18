@@ -3,7 +3,7 @@
 # **Overfitting: Low Bias + High Variance**
 
 ### **Low Bias (Low error on train set) + High Variance (High error on the test set)**
-- The model overfits by memorizing noise and errors, leading to high training accuracy.
+- The complex model overfits by memorizing noise and errors, leading to high training accuracy.
 - This prevents the model from learning the true patterns and relationships in the data.
 - As a result, it performs well on training data but poorly on new, unseen test data.
 
@@ -23,17 +23,18 @@
 
 ### 2. Apply [Regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) 
 - Slope | Coefficient | Weight | Gradient (All are the same)
+- A technique to prevent overfitting in ML models.
 - Regularization discourages the model from overfitting and encourages it to learn more generalized patterns.
-- **Lasso (L1)** adds a penalty equal to the sum of the absolute values of the slopes (forces coefficients to exactly 0).
+- **Lasso (L1)** adds a penalty equal to the sum of the absolute values of the slopes (Shrink few coefficients to 0).
 - Lasso simplifies the model by eliminating features that do not impact the target.
-- **Ridge (L2)** adds a penalty equal to the sum of the squared values of the slopes (encourages small coefficients).
-- Ridge learns complex data patterns and decreases model complexity.
+- **Ridge (L2)** adds a penalty equal to the sum of the squared values of the slopes (Encourages small coefficients).
+- Ridge simplifies the model by reducing model complexity. Shrinks coefficients but keep all features.
+- Regularization is like a speed limit, without it model drives fast (overfits), with it, the model stay safe and balanced.
   
 ### 3. Apply [Cross Validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md)
 - Until a certain iteration, newer iterations improve the model's accuracy.
 - After a certain point, the model's ability to generalize to unseen data weakens, and it begins overfitting.
-- During training, monitor the model's performance on a validation set.
-- Stop training when validation set performance begins to decline.  This prevents the model from memorizing the training data's noise.
+- Monitor the model's performance on a validation set. Stop training when validation error increases (Early Stopping).
 
 ### 4. Feature Selection
 - More observations are good for model training, but more features can confuse the model. Select only important features .
