@@ -28,8 +28,6 @@ import numpy as np
 missing_values = np.isnan(array)
 ```
 
-### How to handle missing values?
-
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
 <h2 name="del">1. dropna(): Drop Missing Values</h2>
