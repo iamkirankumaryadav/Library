@@ -2,8 +2,8 @@
 
 # How to deal with missing data?
 - There is no particular approach for dealing with missing data (NULL, NaN, None) 
-- **NULL:** Represents a missing or undefined value/data in a database.
-- **NaN:** Represents an invalid number. Typically a floating-point value.
+- **NULL:** Represents a missing or undefined value/data.
+- **NaN:** Represents an invalid or undefined value/data.
 - **None:** Represents absence of a value. It is an object of its own data type (NoneType)
 - The appropriate approach depends on your dataset (missing quantity), data type and the analysis goal.
 
