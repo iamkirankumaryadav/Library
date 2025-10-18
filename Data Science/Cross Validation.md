@@ -1,15 +1,25 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # **Cross-Validation**
-- Cross-validation is a resampling technique to evaluate the trained model performance on a limited dataset.
+- A resampling technique to evaluate the trained model performance on a limited dataset.
 - A method of evaluating the ML model's performance across random samples (new unseen data) of the datasets.
+- Prevent overfitting and ensure the model generalizes well to unseen data.
 - After training, we can't assume the model will perform well on new data.
 - We can't be sure of the model’s accuracy or variance without testing it.
 - We need validation to ensure the model has low bias and low variance.
 - **Validation:** Assurance that your model is trained well (**Low Bias** and **Low Variance**) 
-- To evaluate performance, test the model on new unseen data.
+- To evaluate performance, test the model on new unseen data. Monitor performance across iterations.
 - Based on the results, we can identify underfitting or overfitting.
 - Cross-validation gives a more realistic idea of how the model will perform on new unseen data.
+
+### Key Idea:
+- Initially, more iterations improve accuracy. After a point, validation performance declines, model starts overfitting.
+
+### Action:
+Stop training when validation error increases (Early Stopping).
+
+### Benefit:
+- Reduces risk of memorizing noise in training data.
 
 <h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
 
@@ -46,9 +56,11 @@
 
 ### **Grid Search:**
 - Grid Search CV is used to find the best combination of hyperparameters for a model, especially on small datasets.
-- It evaluates the model with every possible combination of hyperparameters within a predefined grid.
+- Defines a grid of possible hyperparameter values.
+- Evaluates the model with every possible combination of hyperparameters within a predefined grid.
 - This process is called hyperparameter tuning, finding the optimal set of parameters.
-- Different hyperparameter combinations are tested to improve the performance metric.
+- Select the combination that gives the best performance metric.
+- Different hyperparameter combinations are tested to get the best performance metric.
 - Grid Search CV tries all possible combinations and returns the best set of parameters based on the test set performance.
 - It’s great for small datasets but is time-consuming and resource-heavy.
 - Grid Search can lead to overfitting and isn’t ideal for large or complex datasets.
