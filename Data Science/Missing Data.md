@@ -34,7 +34,7 @@ missing_values = np.isnan(array)
 
 - If the missing data is negligible and won't impact analysis, drop the corresponding rows or columns.
 - Drop rows if missing values < 5% i.e. (axis = 0) | Drop columns if missing values > 70% i.e. (axis = 1)
-- Deleting irrelevant rows or columns can improve model performance by reducing noise.
+- Deleting irrelevant rows or columns can improve model performance.
 - Generally it's better to keep data, deleting data can lead to loss of valuable information.
   
 ```python
