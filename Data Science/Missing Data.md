@@ -1,9 +1,9 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# How to deal with missing data?
+## How to deal with missing data?
 - Missing data can appears as NULL, NaN (Undefined / Invalid), or None
 - There is no universal approach for dealing with missing data.
-- The appropriate approach depends on the dataset (amount of missing data), data type and the objective of analysis.
+- The appropriate approach depends on the amount of missing data, missing pattern, data type, and the objective of analysis.
 
 ### Terminology
 - Row = Observation = Sample = Record 
