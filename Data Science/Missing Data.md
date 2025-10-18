@@ -78,11 +78,11 @@ Estimating and filling missing values using other available data (non-missing ro
 
 Feature | SimpleImputer | KNNImputer
 :--- | :--- | :---
-Speed | Fast | Slow, depends on k
-Dataset Size | Works well for small datasets | Better for large complex datasets
-Feature Relationships | Ignores | Preserves
-Variance and Correlation | Can distort | Handles correlated features
-Scailing | Not required | Required
+**Speed** | Fast | Slow, depends on k
+**Dataset Size** | Works well for small datasets | Better for large complex datasets
+**Feature Relationships** | Ignores | Preserves
+**Variance and Correlation** | Can distort | Handles correlated features
+**Scailing** | Not required | Required
 
 ### Important things to consider:
 - **fit():** Learns the imputation values (Mean, Median, Mode)
