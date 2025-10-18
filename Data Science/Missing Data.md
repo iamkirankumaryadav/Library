@@ -8,7 +8,7 @@
 - The appropriate approach depends on your dataset (missing quantity), data type and the analysis goal.
 
 ### Terminology
-- Row = Observation = Tuple = Sample = Record 
+- Row = Observation = Sample = Record 
 - Column = Feature = Field = Attribute = Dimension 
 
 ### How to identify missing values?
@@ -64,13 +64,22 @@ df.dropna(axis=1)
 <h3 name="impute">2. fillna(): Fill/Impute Missing Values</h3>
 
 - Imputation is estimating and filling missing values using other available data (non-missing rows or columns)
+- **SimpleImputer()** is used for basic imputation using simple strategy (mean, median, most_frequent)
 - **Numerical Data:** Fill missing values with the sample mean or median (SimpleImputer: strategy = 'mean' or 'median') 
-- **Categorical Data:** Fill missing values with the most frequent value (SimpleImputer: strategy = 'most_frequent') 
-- **SimpleImputer()** is used for basic imputation (Univariate imputation) 
+- **Categorical Data:** Fill missing values with the most frequent value (SimpleImputer: strategy = 'most_frequent')
+- **Forward / Backward Fill:** Use previous or next value (Useful in the case of time series scenario) 
+- **KNNImputer():** Fills missing data using **K Nearest Neighbours** similarity. More accurate
 - **fit():** Learns the values (Mean, Median, Mode) to be imputed and **transform():** Fills the missing values.
-- **KNNImputer():** Fills missing data using **K Nearest Neighbours**.
 - **fit_transform():** Learn and impute the values in one step (Apply only on the training set)
 - Never apply **fit_transform()** on the test set to avoid data leakage.
+
+SimpleImputer | KNNImputer
+:--- | :---
+Verfy fast and easy (mean, median, mode) to implement | Speed depends on "k" and computationally expensive for large dataset
+Work well with small datasets | More accurate for complex datasets
+Ignores relationship between features | Preserve relationshio between features
+Can distort variance and correlation | Can handle correlated features
+No scailing required | Scailing required
 
 ```python
 # DataFrame.fillna()
