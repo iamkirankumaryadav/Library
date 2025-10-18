@@ -73,7 +73,8 @@ Estimating and filling missing values using other available data (non-missing ro
   
 ### KNNImputer: 
 - Fills missing data using **K Nearest Neighbours** similarity.
-- Never apply **fit_transform()** on the test set to avoid data leakage.
+- Pros: Preserve feature relationships, handles correlated features.
+- Cons: Computationally expensive, requires scailing.
 
 Feature | SimpleImputer | KNNImputer
 :--- | :--- | :---
@@ -87,7 +88,7 @@ Scailing | Not required | Required
 - **fit():** Learns the imputation values (Mean, Median, Mode)
 - **transform():** Applies learned values to fill missing data.
 - **fit_transform():** Learn and apply the values in one step (Apply only on the training set)
-- Never apply **fit_transform()** on test set (Avoid data leakage)
+- Never apply **fit_transform()** on test set to avoid data leakage.
 
 ```python
 # DataFrame.fillna()
