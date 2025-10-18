@@ -4,7 +4,7 @@
 - **Definition:** Statistics is the science of collecting, organizing, analyzing, explaining, and presenting data.
 - **Purpose:** Helps understand, describe, and draw meaningful insights from data.
 
-## Key concepts of statistics:
+## Fundamentals of Statistics:
 1. **Data:** Information collected from observations, research, experiments, or surveys.
 2. **Population:** The entire group of individuals or objects that we're interested in studying.
 3. **Sample:** A subset of the population used to represent the whole group.
