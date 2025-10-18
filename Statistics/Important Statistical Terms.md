@@ -1,58 +1,70 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# **Statistical concepts you should know for Data Science**
+# Fundamentals for Data Science
 
 <h3> <a href='#data'>Data </a> | <a href='#hyp'>Hypothesis </a> | <a href='#sample'>Sampling </a> </h3>
 
-### Independent | Feature | Regressor | Explanatory | Input | Predictor
+### Independent | Feature | Matrix |  Regressor | Explanatory | Input | Predictor
 
-### Dependent | Labels | Regressand | Response | Output
+### Dependent | Labels | Vector | Regressand | Response | Output
 
-### Vocabulary of Data:
+## Vocabulary of Data:
 
-`Continuous` | `Discrete`
+### Quantitative Data
+- **Definition:** Data that can be measured and expressed numerically. Quantitative = “How much?” (numbers)
+- **Nature:** Objective, structured, statistical.
+- Examples: Age, height, weight, test scores, income, temperature.
+- Used For: Statistical Analysis, Hypothesis Testing, and Predictive Modeling.
+
+### Qualitative Data
+- **Definition:** Data that describes qualities or characteristics; non-numeric. Qualitative = “What kind?” (descriptions)
+- **Nature:** Subjective, descriptive, exploratory.
+- Examples: Opinions, feelings, experiences, colors, textures, interview responses.
+- Used For: Understanding Patterns, Exploring Reasons and Motivations, and Thematic Analysis.
+
+Continuous | Discrete
 :--- | :---
 Any value | Specific value
 Complicated measurement | Easily counted
 Height 5'11'', 179.5 cm, Weight 75.5 kg |  # of kids in classroom, # of votes in election
 
-`Structured` | `Unstructured`
+Structured | Unstructured
 :--- | :---
 Predefined structure (Rows and Columns / Key and Value) | No predefined structure
 Quantitative | Qualitative
 Excel, JSON, XML, SQL | Image, Text, Video, Audio, PDF, Doc
 
-`Nominal` | `Ordinal`
+Nominal | Ordinal
 :--- | :---
 Cannot be arranged in order | Can be sorted, arranged in order, ranked 
 
-`Population` | `Sample`
+Population | Sample
 :--- | :---
 Entire available data set | Subset, sample, or representative of the true population
 
-<h3 name='data'>Data Set</h3> 
+<h3 name='data'>Dataset</h3> 
 
 - A collection of the sample or the entire population.
 
 ### Type of Data 
-- `Quantitative` (Real numeric: discrete or continuous)
-- `Categorical` (Binary, nominal, or ordinal)
+- **Quantitative:** Real numeric: discrete or continuous.
+- **Categorical:** Binary, nominal, or ordinal.
  
 ### Statistical Analysis
 - Investigating trends, patterns, and relationships using quantitative data.
 
 ### Descriptive Statistics
 - Summarize a large array of numbers (rows) into a handful of figures (KPIs) that describe it accurately.
-- Understand what your sample data looks like, summarize the characteristics of a `variable`
-- `Frequency`: Count the observations of each value in a variable ( Histogram or Frequency Table )
-- `Relative Frequency`: Count of each value as a percentage of total.
-- `Cumulative Relative Frequency`: Running total of the relative frequencies.
-- `Central tendency`: Represent middle of the values (Mean, Median, and Mode) (Skewness)
-- `Variability`: Dispersion of values (Min, Max, Range, IQR, Standard Deviation, and Variance) (Box & Whisker Plot)
-- `Standard Deviation`: The average amount of `variability` (Scatter plot)
-- `Variance`: Squared deviations from mean. (Actual - Predicted)<sup>2</sup>
+- Understand what your sample data looks like, summarize the characteristics of a variable.
+- **Frequency:** Count the observations of each value in a variable (Histogram or Frequency Table)
+- **Relative Frequency:** Count of each value as a percentage of total.
+- **Cumulative Relative Frequency:** Running total of the relative frequencies.
+- **Central tendency:** Represent middle of the values (Mean, Median, and Mode) (Skewness)
+- **Variability:** Dispersion of values (Min, Max, Range, IQR, Standard Deviation, and Variance) (Box & Whisker Plot)
+- **Standard Deviation:** The average amount of variability (Scatter plot)
+- **Variance:** Squared deviations from mean. (Actual - Predicted)<sup>2</sup>
 
-### **Skewness**
+### Skewness
 - Skewness is a measure of how symmetrical a distribution is, it specially means lack of symmetry.
 - It gives the direction (Right/Left) and magnitude (Positive/Negative + Mean/Median/Mode) of the lack of symmetry.
 - No skewness: Data points are normally distributed (Mean = Median = Mode)
@@ -62,14 +74,14 @@ Entire available data set | Subset, sample, or representative of the true popula
 - Skewness gives the direction of variability (Compares Mean, Median, and Mode)
 - Kurtosis measures the flatness of distribution.
 
-### **Variables**
+### Variables
 - There are two main types of variables in a dataset.
-- `Numerical`: Represents numbers that meant to be `aggregated`.
-- `Categorical`: Represents groups that can be used to `filter` numerical values.
+- **Numerical:** Represents numbers that meant to be aggregated.
+- **Categorical:** Represents groups that can be used to filter numerical values.
 
-### **Inferential Statistics**
-- **Understand the population from the sample**
-- Test hypothesis and **draw conclusion** about **population parameters** based on a `sample` taken from population. 
+### Inferential Statistics
+- Understand the population from the sample.
+- Test hypothesis and **draw conclusion** about **population parameters** based on a sample taken from population. 
 - Sample is likely to be a **good representation** of population.
 - Sample will never be a **perfect representation** of population (Sampling error)
 - The way the sample is taken matters (Unbiased/Imbalanced/Balanced sampling)
