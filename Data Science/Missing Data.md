@@ -1,11 +1,9 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
 # How to deal with missing data?
-- There is no particular approach for dealing with missing data (NULL, NaN, None) 
-- **NULL:** Represents a missing or undefined value/data.
-- **NaN:** Represents an invalid or undefined value/data.
-- **None:** Represents absence of a value. It is an object of its own data type (NoneType)
-- The appropriate approach depends on your dataset (missing quantity), data type and the analysis goal.
+- Missing data can appears as NULL, NaN (Undefined / Invalid), or None
+- There is no universal approach for dealing with missing data.
+- The appropriate approach depends on the dataset (amount of missing data), data type and the objective of analysis.
 
 ### Terminology
 - Row = Observation = Sample = Record 
@@ -34,12 +32,12 @@ missing_values = np.isnan(array)
 
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
-<h3 name="del">1. dropna(): Drop Missing Values</h3>
+<h2 name="del">1. dropna(): Drop Missing Values</h2>
 
 - If the missing data is negligible and won't impact analysis, drop the corresponding rows or columns.
 - Drop rows if missing values < 5% i.e. (axis = 0) | Drop columns if missing values > 70% i.e. (axis = 1)
-- Deleting irrelevant rows or columns improves model performance.
-- It's better to keep data, deleting data could resuly in valuable information loss.
+- Deleting irrelevant rows or columns can improve model performance by reducing noise.
+- Generally it's better to keep data, deleting data can lead to loss of valuable information.
   
 ```python
 # DataFrame.dropna():
@@ -61,25 +59,37 @@ df.dropna(axis=0, how='all')
 df.dropna(axis=1)
 ```
 
-<h3 name="impute">2. fillna(): Fill/Impute Missing Values</h3>
+<h2 name="impute">2. fillna(): Fill/Impute Missing Values</h2>
 
-- Imputation is estimating and filling missing values using other available data (non-missing rows or columns)
-- **SimpleImputer()** is used for basic imputation using simple strategy (mean, median, most_frequent)
+Estimating and filling missing values using other available data (non-missing rows or columns)
+
+### SimpleImputer():
+- Used for basic imputation strategy (mean, median, most_frequent)
 - **Numerical Data:** Fill missing values with the sample mean or median (SimpleImputer: strategy = 'mean' or 'median') 
 - **Categorical Data:** Fill missing values with the most frequent value (SimpleImputer: strategy = 'most_frequent')
-- **Forward / Backward Fill:** Use previous or next value (Useful in the case of time series scenario) 
-- **KNNImputer():** Fills missing data using **K Nearest Neighbours** similarity. More accurate
-- **fit():** Learns the values (Mean, Median, Mode) to be imputed and **transform():** Fills the missing values.
-- **fit_transform():** Learn and impute the values in one step (Apply only on the training set)
+- Pros: Fast, easy, works well with small dataset
+- Cons: Ignores feature relationships, can distort variance and correlation.
+
+### Forward Fill / Backward Fill:
+- Use previous or next value (Best for time series)
+  
+### KNNImputer: 
+- Fills missing data using **K Nearest Neighbours** similarity.
 - Never apply **fit_transform()** on the test set to avoid data leakage.
 
-SimpleImputer | KNNImputer
-:--- | :---
-Verfy fast and easy (mean, median, mode) to implement | Speed depends on "k" and computationally expensive for large dataset
-Work well with small datasets | More accurate for complex datasets
-Ignores relationship between features | Preserve relationshio between features
-Can distort variance and correlation | Can handle correlated features
-No scailing required | Scailing required
+Feature | SimpleImputer | KNNImputer
+:--- | :--- | :---
+Speed | Fast | Slow, depends on k
+Dataset Size | Works well for small datasets | Better for large complex datasets
+Feature Relationships | Ignores | Preserves
+Variance and Correlation | Can distort | Handles correlated features
+Scailing | Not required | Required
+
+### Important things to consider:
+- **fit():** Learns the imputation values (Mean, Median, Mode)
+- **transform():** Applies learned values to fill missing data.
+- **fit_transform():** Learn and apply the values in one step (Apply only on the training set)
+- Never apply **fit_transform()** on test set (Avoid data leakage)
 
 ```python
 # DataFrame.fillna()
@@ -89,23 +99,36 @@ df.fillna('🌞')
 df['Sales'].fillna(0)
 ```
 
-### Data Leakage 
-- Data was accidentally shared from the train set to the test set.
+## Data Leakage 
+- Data accidentally used from outside the training dataset (future data) to build the model.
+- The model learns pattern it shouldn't have access during prediction.
+- Leads to overfitting and inflated accuracy on training / validation datasets.
 
-### Disadvantage
-- Imputation can alter the distribution and statistics of the dataset.
+### Common Causes
+- Imputation on testing set using fit_transform(): Learns (mean, median, mode) from test dataset instead of predicting.
+- Feature Engineering using target variable: Creating a feature that uses the target data.
+- Future Data: Using future data in time series forecasting.
+- Cross Validation mistakes: Preprocssing applied before splitting into train / test split.
+
+### Preventive Measures
+- Always fit preprocessing steps (Imputation, Scailing, and Encoding) only on training dataset, then transform test dataset.
+- Avoid using target reference into feature creation.
+- For time series ensure training dataset is ordered according to timestamp chronology.
+
+### Imputation Disadvantage
+- Alters the distribution and statistical properties of the dataset.
 - **Statistical Properties:** Mean, median, mode, variance, and standard deviation of the sample.
 - Imputation might introduce skewness or new outliers in the dataset.
-- Imputation changes the correlation between features and the impact of independent variables on the target variable.
+- Imputation changes the correlation between the independent variables and target variable. Impacting model accuracy.
 
-<h3 name="assign">3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h3>
+<h2 name="assign">3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h2>
 
 - Assign a unique category for missing data or use a "Missing" flag (binary flag)
 - Flag the numeric missing data with -1 or 0 to creates a clear distinction between missing and non-missing data.
 
-<h3 name="predict">4. Predict Missing Value</h3>
+<h2 name="predict">4. Predict Missing Value</h2>
 
-- Multivariate imputation: Fill missing data by predicting from other features.
+- Fill the missing data by predicting from other features.
 - Use non-missing rows as the train set and missing rows as the test set.
 - Interpolation: Predict missing values based on time or date ranges (used in time series).
 
@@ -138,7 +161,7 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 ```
 
-<h3 name="algo"> 5. Use algorithms that work fine with missing values</h3>
+<h2 name="algo"> 5. Use algorithms that work fine with missing values</h2>
 
 - **KNN:** Fills missing values by looking at the K nearest values (Focus on nearby data points)
 - **Random Forest:** Trains weak models using non-missing data and uses missing values for testing.
@@ -146,7 +169,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 - Experiment with different algorithms and compare their performance on specific datasets.
 
 ### Domain Knowledge
-- It helps us understand why data is missing, whether it’s random or due to an error.
+- It helps us understand the missing patterns, whether it’s random or due to an error.
 - Knowing the cause can guide us in deciding the best way to handle the missing data.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
