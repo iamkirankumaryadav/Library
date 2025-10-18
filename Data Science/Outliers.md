@@ -7,10 +7,10 @@
 ### What are outliers?
 - Outliers are data points that are far from the rest of the dataset.
 - They skew distribution, affecting overall correlations and summary statistics:
-- Central tendency (mean, median, and mode) and Dispersion (variance and standard deviation).
+- Central tendency (mean, median, and mode) and Dispersion (range, variance and standard deviation).
 - They can pull the regression line and distort the correlation coefficients.
 - Outliers can reduce the predictive power of ML models and lead to inaccurate predictions.
-- Distance-based models (Regression, KNN, K Mean) are highly sensitive to outliers.
+- Distance-based models (Regression, KNN, K Mean, SVM, etc.) are highly sensitive to outliers.
 
 ### Skewness and Outliers:
 - **Positive/Right Skew:** Mean > Median > Mode (Mean on the right side)
