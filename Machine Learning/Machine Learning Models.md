@@ -101,13 +101,16 @@ Classification | Clustering |
 - **Target:** Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
 - Rows | Observations | Records | Samples | Instance.
 - Feature: A measurable property, that can be categorical (discrete) or numerical (real or int number)
-- Target: What we want to make **prediction** for.
+- **Feature Matrix:** A table where each row is a sample and each column is a feature.
+- **Target Vector:** A list of values we want to predict, one for each sample.
 - Model learns a relationship between a feature matrix and a target vector.
-- The model adjusts its internal parameters (weights and biases) to minimize the residuals in the data.
-- **Loss Function:** The difference between the model predicted and actual values.
+- Model learns patterns from the feature matrix to predict the target.
+- The model adjusts its internal parameters/settings (weights and biases) to minimize error and improve accuracy.
+- **Loss Function:** The difference between the model predicted and actual values. The model tries to minimize it.
 - Model is the system that makes **predictions** or **classification** on new unseen data.
-- ML aims to build a model that performs well on new data.
+- ML aims to build a model that performs/generalize well on new unseen data.
 - **Parameters** are factors which are considered by the model to make **predictions** or **classifications**.
+- **Parameters** are the internal values the model uses to make predictions, and they get updated during training.
 - **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
 
 ### Scikit Learn
