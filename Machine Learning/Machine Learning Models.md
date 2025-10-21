@@ -125,7 +125,7 @@ Classification | Clustering |
 
 - Supervised ML learn by analyzing the relationship between input features (matrix) and known output labels (vector).
 - The algorithms identify patterns within the input data and use labeled examples to map inputs to their corresponding outputs.
-- The primary objective of supervised learning is to develop a predictive model capable of accurately determining the output for new, unseen data.
+- The aim of supervised learning is to develop a predictive model capable of accurately determining the output for new, unseen data.
 - Supervised learning is useful for regression (continuous target variables) and classification (discrete target variables).
 
 ### Key Components
