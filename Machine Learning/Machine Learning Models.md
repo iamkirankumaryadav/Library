@@ -591,61 +591,61 @@ DBSCAN defines 3 types of data points based on their density.
 
 ### **Techniques of Dimensionality Reduction**
 
-<h3 name='pca'>Principal Component Analysis (PCA | Unsupervised | Numerical)</h3> 
+<h2 name='pca'>Principal Component Analysis (PCA | Unsupervised | Numerical)</h2> 
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/11.PCA.ipynb)
 
-- Transforms a dataset into a new set of features without losing information called principal components.
+- Transforms original features into a new uncorrelated features (principal components) retaining essential information.
 - A dataset with high dimensions and high correlation can be complicated for analysis and visualization.
 - PCA aims to capture the most important features in the dataset while reducing its dimensionality.
 - Datasets with essential features are easy to explore, visualize, analyze and train (simplifies the EDA).
-- The first principal component (PC1) explains the largest amount of variation in the dataset.
-- Subsequent principal components (PCs) explain the decreasing amount of variations in the dataset.
+- The first principal component (PC1) explains the maximum variance in the dataset.
+- Subsequent principal components (PCs) explain the decreasing amount of variance in the dataset.
 - PCA tries to put the maximum possible information in the first principle component. 
 - And then tries to put the remaining information in the corresponding principle components.
 - PCA is affected by the scale, so rescaling features before applying PCA is important.
 
 <h3 name='lda'><strong>Linear Discriminant Analysis (LDA | Supervised | Categorical | Classification)</strong></h3>
 
-- LDA identifies the best way to separate the existing categories/classes in the dataset.  
-- Finds the best linear separation to classify datasets into different categories/classes.
-- Reduce the number of features and maximize the separation between two or more categories/classes.
-- LDA creates a new axis (Maximize the distance between means of two classes and minimize variation within each class)
+- A dimensionality reduction technique focused on **maximizing class separability**.
+- LDA reduces the number of features, finds the best linear boundaries to seperate and classify categories/classes.  
+- LDA creates a new axis, maximize the distance between means of two classes and minimize variation within each class.
 
 <h3 name='tsne'>t-SNE (t Distributed Stochastic Neighbor Embedding | Non-linear)</h3>
 
-- Used to visualize high dimensional data in a low dimensional space.
-- Non-linear dimensionality reduction technique (spiral, mixed) 
-- t-SNE calculates the probability that a data point is a neighbour of another data point in the higher dimensional space.
-- t-SNE then constructs a similar joint probability distribution in the lower dimensional space.
+- t-SNE is used to visualize high dimensional data in a low dimensional (2D or 3D) space.
+- Non-linear dimensionality reduction technique (spiral, mixed) which helps in finding patterns in complex datasets.
+- Calculates the probability that a data point is a neighbour of another data point in the higher dimensional space.
+- Then reconstructs a similar joint probability distribution in the lower dimensional space.
 - Identity clusters based on the similarity of data points.
 - Reduces dimensions while keeping similar instances closer and dissimilar instances apart.
 
 ### Anomaly Detection
-- Discover unusual data points and abnormal relationships and patterns in the dataset.
+- Discover unusual data points, abnormal relationships and patterns in the dataset.
 - Used to find fraudulent transactions and identify an outlier caused by human error during data entry.
 - Reduces complexity of data and helps to understand data in a better way.
 
-### Association Mining
+### Association Rule Learning
 - Set of items that frequently occur together in a dataset.
 - **Basket Analysis:** Items bought together | Goods purchased simultaneously help develop marketing strategies.
 
 ### Apriori
 - A widely used algorithm in **data mining**, specifically for **association rule learning**.
-- It helps identify relationships between items that frequently appear together in transactions.
+- If an itemset is frequent, all its subsets must also be frequent.
+- Example: If a customer buys item A, they are likely to buy item B.
+- It generated association rules to identify patterns between items that frequently appear together.
 
 ![Machine Learning Map](Image/MLMap.jpg)
 
 ### Reinforcement Learning
-- ML technique that enables an agent to learn and interact with an environment by trial and error.
-- RL uses rewards and punishments to address and signals for positive and negative behaviour.
-- RL agents learn from the consequences of their actions.
+- A ML technique where an agent learns by interacting with an environment through trial and error.
+- Learning is guided by rewards (positive feedback) and punishments (negative feedback).
 
 **Key Components of RL**
-1. **Agent:** The entity that learns and interacts with the environment.
-2. **Environment:** The surrounding world that the agent interacts with.
-3. **State:** The current situation of the agent within the environment.
-4. **Action:** The choices the agent can make.
-5. **Reward:** A signal indicating how well the agent performed in a given state.
+1. **Agent:** The entity that learns, interacts with the environment, and make decisions.
+2. **Environment:** The external system the agent interacts with.
+3. **State:** The current situation or context of the agent.
+4. **Action:** The choices available to the agent.
+5. **Reward:** Feedback signal indicating the success of an action.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
