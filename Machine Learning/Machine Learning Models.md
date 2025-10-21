@@ -97,20 +97,20 @@ Model tries to find relationships | Model tries to find patterns | Agent learns 
 Classification | Clustering | 
 
 - Feature Matrix (Independent Variables) and Target Vector (Dependent Variables | Labels)
-- **Features:** Independent Variable | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
+- **Features:** Independent Variables | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
 - **Target:** Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
-- Rows | Observations | Records | Samples | Instance.
-- Feature: A measurable property, that can be categorical (discrete) or numerical (real or int number)
+- **Rows:** Observations | Records | Samples | Instances.
+- **Feature:** A measurable property, that can be numerical (real or int number) or categorical (discrete).
 - **Feature Matrix:** A table where each row is a sample and each column is a feature.
 - **Target Vector:** A list of values we want to predict, one for each sample.
 - Model learns a relationship between a feature matrix and a target vector.
-- Model learns patterns from the feature matrix to predict the target.
+- Model learns patterns from the feature matrix to predict the target vector. 
 - The model adjusts its internal parameters/settings (weights and biases) to minimize error and improve accuracy.
-- **Loss Function:** The difference between the model predicted and actual values. The model tries to minimize it.
+- **Loss Function:** The difference between the model predictions and actual values. The model tries to minimize it.
 - Model is the system that makes **predictions** or **classification** on new unseen data.
-- ML aims to build a model that performs/generalize well on new unseen data.
+- Machine Learning (ML) aims to build a model that performs/generalize well on new unseen data.
 - **Parameters** are factors which are considered by the model to make **predictions** or **classifications**.
-- **Parameters** are the internal values the model uses to make predictions, and they get updated during training.
+- **Parameters** are the internal values the model uses to make predictions, and they are tuned during training.
 - **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
 
 ### Scikit Learn
@@ -123,9 +123,9 @@ Classification | Clustering |
 
 <h1 name='sup' align=center>Supervised Learning (Labeled Data)</h1>
 
-- ML algorithms that perform learning by studying the relationship between the feature variables (matrix) and the known target variable (vector / label).
-- The algorithm learns to recognize patterns in the input data and map them to the correct output based on the labelled data.
-- The goal of supervised learning is to create a model that can accurately predict the output for new, unseen input data.
+- Supervised ML learn by analyzing the relationship between input features (matrix) and known output labels (vector).
+- The algorithms identify patterns within the input data and use labeled examples to map inputs to their corresponding outputs.
+- The primary objective of supervised learning is to develop a predictive model capable of accurately determining the output for new, unseen data.
 - Supervised learning is useful for regression (continuous target variables) and classification (discrete target variables).
 
 ### Key Components
