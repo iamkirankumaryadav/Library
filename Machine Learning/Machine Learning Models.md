@@ -260,10 +260,10 @@ Classification | Clustering |
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/06.Decision%20Tree.ipynb)
 
-- Root Node: Represents the full dataset, gets splits into two or more homogeneous subsets.
-- Branches | Edges: Represents decisions or conditions leading to splits.
+- **Root Node:** Represents the full dataset, further splits into two or more homogeneous subsets.
+- **Branches / Edges:** Represents decisions or conditions leading to splits.
 - Edges | Branches | Splits | Decisions | Conditions | Outcomes | Sub Tree
-- Leaf Node | Terminal | Label | Class: Node with final class/label that do not split further.
+- Leaf Node | Terminal | Label | Class: Node with final class/label that can't be split further.
 - The **Decision Tree** recursively splits the data into smaller subsets based on the feature values (Continuous or Discrete).
 - At each node, the algorithm chooses the best feature to split the data into two subsets based on the values of that feature.
 - The process continues until the data is split into a pure subset (A subset that can't be split further)
@@ -274,7 +274,7 @@ Classification | Clustering |
 - The path from the root to a leaf node represents a set of rules that will be used to predict or classify new instances.
 - Used especially for binary classification and multiclass classification.
 - **Classification Tree:** When the target variable has a categorical set of values.
-- **Regression Tree:** When the target variable has a continuous value.
+- **Regression Tree:** When the target variable has a continuous numeric value.
 - **CART:** Classification And Regression Tree.
 - Decision Tree is prone to overfitting, resulting into a poor performance on the test data.
 - **Pruning:** Removes unnecessary branches to reduce complexity and improve generalization.
@@ -292,22 +292,22 @@ Classification | Clustering |
 from sklearn.tree import DecisionTreeClassifier
 ```
 
-### Information Gain (Which feature is to be selected as a root node?)
-- **IG** decides which feature will become a **node** and will split the data further for building the **tree**.
-- Feature with the **High IG** will be considered and the process will continue until **IG** becomes 0.
+### Information Gain (Determines the best feature to be selected as a root node)
+- **IG** determines the best feature to split the data at each node. Feature with highest IG is chosen as the node.
+- The splitting process continues until **IG = 0**, helps building an efficient and informative decision tree.
 
-### Gini Index (Checks for impurity in the dataset)
-- A low **Gini Index** is better.
-- Pure: All data belongs to the same class in a subset (Gini Index = 0)
-- Impure: Data is a mixture of different classes in a subset.
+### Gini Index (Meausures the impurity in a dataset)
+- A low **Gini Index** is better, indicates a pure subset (Ideal for splitting)
+- **Pure Subset:** All data points belongs to the same class in a subset (Gini Index = 0)
+- **Impure Subset:** Subset contains a mixture of different classes. Higher Gini Index.
 
-### Entrophy (Measure Disorder | Randomness | Uncertainty in Data | Unpredictability)
-- **Low Entropy** is better. (Easy to conclude from the data)
+### Entrophy (Measures the disorder, randomness, or uncertainty in data | Unpredictable)
+- **Low Entropy** indicates more pure and predictable data. (Easy to conclude and make clear decision)
 
 ### Cross Entropy (Classification loss function)
-- The difference between the predicted probability distribution and the true probability distribution.
-- **Low cross entropy:** A close match between the predicted and actual probability distribution.
-- **High cross entropy:** A huge difference between the predicted and actual probability distribution.
+- The difference between the predicted probability distribution and the actual true probability distribution.
+- **Low Cross Entropy:** Indicates predictions are close to actual values, better model performance.
+- **High Cross Entropy:** Indicates a huge difference between the predicted and actual value, poor prediction.
 
 ```
 H(p, q) = - Σ p(x) * log(q(x))
@@ -335,8 +335,9 @@ Handle **non linear data** |
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/09.Random%20Forest.ipynb)
 
-- Random sampling (Bootstrap aggregation with replacement)
-- An ensemble learning method that uses multiple decision trees for both regression and classification.
+- **Ensemble Method:** Combines multiple decision trees to improve accuracy.
+- **Bootstrap Aggregation (Bagging):** Uses random sampling with replacement to create training subsets.
+- **Parallel Training:** Trees (weak learners) are trained independently on different data subsets.
 - Ensemble learning algorithms combine the predictions of multiple decision trees to produce a more accurate prediction.
 - Once the decision trees (weak learners) are trained, they are used to predict new data points.
 - Each decision tree is built using a random subset of the training data (feature matrix)
