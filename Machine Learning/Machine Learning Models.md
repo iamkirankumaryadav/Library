@@ -129,17 +129,17 @@ Classification | Clustering |
 - Supervised learning is useful for regression (continuous target variables) and classification (discrete target variables).
 
 ### Key Components
-- **Training Data:** Consists of input-output pairs (e.g., features and labels).
-- **Model:** A mathematical function that maps inputs to outputs.
-- **Loss Function:** Measures how far off the model's predictions are from the actual labels.
-- **Optimization Algorithm:** Adjusts the model to minimize the loss (e.g., gradient descent).
+- **Training Data:** Input-output pairs (features and labels) used to teach the model.
+- **Model:** Function that maps inputs to predicted outputs.
+- **Loss Function:** Measures the difference between the model's predictions and the actual labels.
+- **Optimization Algorithm:** Updates/agjusts model parameters to minimize loss (e.g., gradient descent).
 
 ### Common Algorithms
-- **Linear Regression:** Predicts continuous values.
-- **Logistic Regression:** Used for binary classification.
-- **Decision Trees:** Splits data based on feature values.
-- **Support Vector Machines (SVM):** Finds the optimal boundary between classes.
-- **k-Nearest Neighbors (k-NN):** Classifies based on closest training examples.
+- **Linear Regression:** Predicts continuous numeric values.
+- **Logistic Regression:** Handles binary classification.
+- **Decision Trees:** Splits data based on feature thresholds.
+- **Support Vector Machines (SVM):** Identifies the optimal boundary between classes.
+- **k-Nearest Neighbors (k-NN):** Classifies using nearest data points.
 - **Neural Networks:** Powerful models for complex tasks like image and speech recognition.
 
 <table align=center>
@@ -201,29 +201,29 @@ Classification | Clustering |
 
 ![Equation of Line](Image/EquationLine.png)
 
-- Linear Regression finds the relationship between the dependent variable and one or more independent variables.
+- Linear Regression models the relationship between the dependent variable and one or more independent variables.
 - Linear Regression finds the best fit straight line that accurately predicts the output values within a range.
 - The straight line is called the regression line.
 - Formula: y = mX + c, where y is the dependent variable and X is the independent variable.
 - **m** is the **slope** and **c** is the **y-intercept**, both are the **regression coefficients**.
-- Linear Regression is simple to understand and interpret, with fast training and prediction.
-- Linear Regression assumes a linear relationship between variables, sensitive to outliers.
-- Can suffer from multicollinearity if the dataset has highly correlated variables.
+- **Advantages:** Simple to understand, fast training and prediction.
+- **Assumption:** Linear relationship between variables.
+- **Limitations:** Sensitive to outliers, affected by multicollinearity if the dataset has highly correlated variables.
 
 **Hyperparameters:**
 
-1. **Alpha:**
-- Used in Lasso (L1) and Ridge (L2) regression, determines the strength of the regularization.
-- A higher value of alpha means more regularization and simpler linear models.
-- For αlpha = 0, Ridge regression is just linear regression.
-- The best value for alpha is found by cross-validation (Grid Search CV or Random Search CV)
+1. **Alpha (Regularization Strength):**
+- Controls regularization in Lasso (L1) and Ridge (L2) regression, determines the strength of the regularization.
+- A higher value of alpha means stronger regularization and simpler linear models.
+- For αlpha = 0, Ridge regression becomes standard linear regression.
+- The optimal alpha is typically found via cross-validation (e.g., Grid Search CV or Random Search CV)
 
 2. **Normalization:**
 - If True, the independent variable X will be normalized before regression by subtracting the **mean**.
 
 3. **Fit Intercept:**
-- Whether to calculate the intercept **c** for this model.
-- If set to False, no intercept will be used in calculations.
+- Determines whether to compute the intercept term **c**.
+- If False, the model assumes no intercept.
  
 <h1 name='class' align=center>Classification</h1>
 
@@ -233,38 +233,38 @@ Classification | Clustering |
 
 - Model used for classification tasks like classifying flower species and image recognition.
 - A statistical model used to predict the probability of a binary outcome (T/F, Y/N, 1/0, etc.)
-- Logistic Regression starts with a linear equation, and the result is passed through a sigmoid function.
-- The sigmoid/logistic function maps the linear combination to a probability between 0 and 1.
+- Logistic Regression starts with a linear equation, and followed by a sigmoid function to map outputs between 0 and 1.
 - If the predicted probability is greater than a threshold (0.5), the model predicts the outcome as 1.
 - One or more independent features are used to **classify** categorical target labels/variables.
-- Widely used for binary classification, simple and requires less training, rescaling provides better accuracy.
 
 ### Advantages of Logistic Regression
 
-- Model training and predictions are relatively fast, no tuning is usually required.
+- Model training and predictions are relatively simple and fast, no tuning is usually required.
 - Performs well with a small number of observations or samples.
+- Widey used for binary classification, rescailing provides improved accuracy.
 
 ### Logistic Regression for Multiclass Classification
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/05.Logistic%20Regression%20for%20Multiclass%20Classification.ipynb)
 
-- Split the task into multiple binary classification datasets.
+- Splits the dataset multi-class into multiple binary classification datasets.
 - **Fit** a binary classification (Logistic Regression) model on each label.
-- One vs Rest (OvR) or One vs All (OvA) is a technique that extends binary classification to **multiclass** classification.
-- Digit 0 vs Digit 1, 2 and 3
-- Digit 1 vs Digit 0, 2 and 3
-- Digit 2 vs Digit 0, 1 and 3
-- Digit 3 vs Digit 0, 1 and 2
-- The model that predicts the **highest** class probability is the predicted class.
+- One vs Rest (OvR) or One vs All (OvA) is a technique that extends binary classification to **multi-class** classification.
+- Classify Digit 0 vs Digit 1, 2 and 3
+- Classify Digit 1 vs Digit 0, 2 and 3
+- Classify Digit 2 vs Digit 0, 1 and 3
+- Classify Digit 3 vs Digit 0, 1 and 2
+- The class with the **highest** probability from all binary models is the predicted class.
   
 <h3 name='tree'>3. Decision Tree</h3>
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/06.Decision%20Tree.ipynb)
 
-- Root Node: Represents the entire sample and this further gets divided into two or more homogeneous sets.
+- Root Node: Represents the full dataset, gets splits into two or more homogeneous subsets.
+- Branches | Edges: Represents decisions or conditions leading to splits.
 - Edges | Branches | Splits | Decisions | Conditions | Outcomes | Sub Tree
-- Leaf Node | Terminal | Label | Class: Nodes that do not split further.
-- The **Decision Tree** recursively splits the data into smaller subsets based on the values (Continuous or Discrete) of input variables.
+- Leaf Node | Terminal | Label | Class: Node with final class/label that do not split further.
+- The **Decision Tree** recursively splits the data into smaller subsets based on the feature values (Continuous or Discrete).
 - At each node, the algorithm chooses the best feature to split the data into two subsets based on the values of that feature.
 - The process continues until the data is split into a pure subset (A subset that can't be split further)
 - Once the data is split into a pure subset, the decision tree can be used to make predictions for new data points.
@@ -273,15 +273,14 @@ Classification | Clustering |
 - Feature with **High Information Gain** or **Low Entropy** or **Low Gini Index** is selected as the best feature.
 - The path from the root to a leaf node represents a set of rules that will be used to predict or classify new instances.
 - Used especially for binary classification and multiclass classification.
-- When the target variable has a categorical set of values, a classification tree is used.
-- When the target variable has a continuous value, a regression tree is used.
+- **Classification Tree:** When the target variable has a categorical set of values.
+- **Regression Tree:** When the target variable has a continuous value.
 - **CART:** Classification And Regression Tree.
 - Decision Tree is prone to overfitting, resulting into a poor performance on the test data.
-- Pruning: When we remove unnecessary sub-nodes (features) of a decision node.
-- Pruning reduces the complexity, overfitting, and improves its generalization performance.
+- **Pruning:** Removes unnecessary branches to reduce complexity and improve generalization.
 - Growing a tree means deciding which feature to choose and what condition to apply for splitting.
 - Continuous can be converted into a binary or boolean by setting the threshold value.
-- We should also know when to stop | terminate (**Max Depth**) to prevent the model from overfitting.
+- **Max Depth:** We should also know when to stop | terminate to prevent the model from overfitting.
 - Decision trees can be pruned if necessary to avoid overfitting.
 
 **Advantages:**
