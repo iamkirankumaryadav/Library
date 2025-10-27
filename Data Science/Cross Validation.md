@@ -1,6 +1,6 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
-# **Cross-Validation**
+# Cross-Validation
 - A resampling technique to evaluate the trained model performance on a limited dataset.
 - A method of evaluating the ML model's performance across random samples (new unseen data) of the datasets.
 - Prevent overfitting and ensure the model generalizes well to unseen data.
