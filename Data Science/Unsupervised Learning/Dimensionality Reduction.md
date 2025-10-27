@@ -42,7 +42,6 @@ Reduces training time by using a smaller set of features | Improves model perfor
 ## Feature Selection
 - Feature selection selects the most relevant features and creates a new subset of data for building a better model with better accuracy.
 - Features are selected by calculating the correlation (regression) or information gain (classification)
-- Wrapper methods use algorithms to search for the most predictive subset of features (Random Forest)
 - Embedded methods perform feature selection as a part of the model training process (Decision Tree)
 - Regularization (LASSO and Ridge) also helps in finding relevant features and reducing irrelevant features.
 - Example: If you have a dataset with 30 features,
