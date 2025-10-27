@@ -23,27 +23,27 @@ Stop training when validation error starts increasing (Early Stopping).
 
 <h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
 
-<h3 name='hold'>1. Holdout Method | Train Test Split</h3>
+<h2 name='hold'>1. Holdout Method | Train Test Split</h2>
 
 - Split the dataset into 70% - 30% or 80% - 20% for training and testing.
 - The model is trained on the training set to learn patterns and understand the relationships.
 - After training, the model’s performance is evaluated on the testing set by making predictions.
 - With limited data, there’s a risk of high bias, meaning the model may not train well.
 
-<h3 name='kfold'>2. K Fold Cross Validation</h3>
+<h2 name='kfold'>2. K Fold Cross Validation</h2>
 
 - The dataset is divided into **K** equal sized subsets called folds, 1 fold is used as the testing set.
 - The process is repeated K times, using K - 1 folds for training. The mean error from all trials is calculated.
 - This reduces bias and variance, creating a model with low bias, which is ideal for limited data.
 - A very high K can cause overfitting, while a very low K is similar to a simple train-test split.
 
-<h3 name='skfold'>3. Stratified K Fold Cross Validation</h3>
+<h2 name='skfold'>3. Stratified K Fold Cross Validation</h2>
 
 - Stratified K-Fold Cross Validation ensures each fold has an equal proportion of class labels.
 - The data is divided into K equal-sized folds, with each fold containing a balanced distribution of class labels.
-- This helps models train on equally distributed class labels.
+- This helps the model to train on equally distributed class labels.
 - One fold is used as the testing set, and K - 1 folds are used for training.
-- The mean error from K trials is calculated, reducing bias and variance.
+- The mean error from all the trials is calculated, reducing bias and variance.
 - It’s an accurate method for evaluating models on imbalanced datasets.
 
 ```python
@@ -54,7 +54,7 @@ model = LogisticRegression(class_weight='balanced')
 train_test_split(X, y, test_size=0.2, stratify=y)
 ```
 
-<h3 name='loocv'>4. Leave One Out Cross Validation | LOOCV</h3>
+<h2 name='loocv'>4. Leave One Out Cross Validation | LOOCV</h2>
 
 - K = N (where N is the total number of data points), meaning each data point gets used for testing once.
 - Leave one data point out for testing and use the rest for training.
@@ -62,9 +62,9 @@ train_test_split(X, y, test_size=0.2, stratify=y)
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
 
-### **Grid Search:**
-- Grid Search CV is used to find the best combination of hyperparameters for a model, especially on small datasets.
-- Defines a grid of possible hyperparameter values.
+## Grid Search
+- Grid Search CV is used to find the best combination of **hyperparameters** for a model, especially on small datasets.
+- Grid Search CV defines a grid of possible hyperparameter values.
 - Evaluates the model with every possible combination of hyperparameters within a predefined grid.
 - This process is called hyperparameter tuning, finding the optimal set of parameters.
 - Select the combination that gives the best performance metric.
@@ -97,14 +97,14 @@ print(grid_search.best_params_)
 print(grid_search.best_score_)
 ```              
 
-**How to create the Grid?**
-1. Define the Hyperparameter Grid: Create a dictionary with hyperparameter names as keys and potential values as lists.
-2. Create a Cross-Validation Object: Choose a cross-validation strategy (Holdout, K-Fold, Stratified K-Fold, or LOOCV).
-3. Instantiate the Model: Create an instance of your machine learning model.
-4. Create the Grid Search Object: Combine the model, hyperparameter grid, and cross-validation strategy into a GridSearchCV object.
-5. Fit the Grid Search Object: Train the model on the full dataset using the chosen hyperparameters and cross-validation strategy.
+### **How to create the Grid?**
+1. **Define the Hyperparameter Grid:** Create a dictionary with hyperparameter names as keys and potential values as lists.
+2. **Create a Cross-Validation Object:** Choose a cross-validation strategy (Holdout, K-Fold, Stratified K-Fold, or LOOCV).
+3. **Instantiate the Model:** Create an instance of your ML model.
+4. **Create the Grid Search Object:** Combine the model, hyperparameter grid, and cross-validation strategy into a GridSearchCV object.
+5. **Fit the Grid Search Object:** Train the model on the full dataset using the chosen hyperparameters and cross-validation strategy.
 
-### **Random Grid Search:**
+## **Random Grid Search:**
 
 - Random Grid Search CV randomly selects hyperparameter combinations, instead of testing all possible ones.
 - It’s more efficient for large datasets, as it’s faster, uses fewer resources, and is less likely to overfit.
@@ -115,7 +115,10 @@ from sklearn.svm import SVC
 from scipy.stats import uniform
 
 # Define the parameter distributions
-param_dist = {'C': uniform(loc=0, scale=10), 'kernel': ['linear', 'rbf']}
+param_dist = {
+    'C': uniform(loc=0, scale=10),
+    'kernel': ['linear', 'rbf']
+}
 
 # Create a Support Vector Classifier model
 svc = SVC()
