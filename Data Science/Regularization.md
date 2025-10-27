@@ -1,16 +1,17 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
 # Regularization
-- A technique used to prevent the model from **overfitting** and improve the accuracy and generalization.
-- Overfitting occurs when a model learns the training data too well and cannot generalize the new unseen data.
-- Regularization adds a penalty to the loss function SUM(Actual - Prediction)<sup>2</sup> that simplifies the model.
+- Regularization is a technique used to prevent the ML model from **overfitting** and improve the generalization.
+- Overfitting occurs when a model learns the training data too well including its noise and outlier.
+- Regularization adds a penalty to the model for being too complex (e.g., having large weights or too many features).
+- Adding a penalty to the loss function which encourages the model to stay simple and generalize better.
 - It encourages the model to have smaller coefficients and prevents overfitting the training data.
 - Reduces the **steepness** of the slope | Shrink or discourage the slope towards 0.
 - High lambda | High bias | Underfitting | Simple Model | More error in train set.
 - Low Lambda | High variance | Overfitting | Complicated Model | Not generalize well for **new unseen data**.
-- LASSO (L1) regularization adds a penalty equal to the sum of the absolute value of the slope.
+- LASSO (L1) regularization adds a penalty equal to the sum of the absolute value of the slope (weight).
 - LASSO discourage **coefficients** exactly to 0 (Eliminate the irrelevant features from the model)
-- Ridge (L2) regularization adds a penalty equal to the sum of the squared value of the slope.
+- Ridge (L2) regularization adds a penalty equal to the sum of the squared value of the slope (weight).
 - Ridge discourage **coefficients** towards 0 (Not exactly zero | Does not eliminate entirely)
 
 **Regularization and Cross-Validation, a good options if we have a limited amount of data**
@@ -46,3 +47,4 @@ Can lead coefficient to **exactly** 0 | **Minimize** coefficient towards 0 witho
 - The loss function helps us to understand the model's predictions and improve the model's accuracy.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
