@@ -13,7 +13,7 @@
 - Cross-validation gives a more realistic idea of how the model will perform on new unseen data.
 
 ### Key Idea:
-- Initially, more iterations improve accuracy. After a point, validation performance declines, model starts overfitting.
+- Initially, more iterations improves accuracy. After a point, validation performance starts declining, model starts overfitting.
 
 ### Action:
 Stop training when validation error increases (Early Stopping).
