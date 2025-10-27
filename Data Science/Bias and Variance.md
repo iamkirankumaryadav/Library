@@ -13,8 +13,10 @@ Low Bias algorithms (Decision Tree, KNN, SVM) | Low Variance algorithms (Regress
 High Bias algorithm (Regression) | High Variance algorithms (Decision Tree, KNN, SVM) 
 
 - Error/Residual = Predicted - Actual (Difference between the expected/predicted value and actual value)
-- Linear models make incorrect assumptions about the data and **learn fast** which often leads to high bias.
-- Simple the model, the more bias it will introduce (Underfitting)
+- Linear models make simple incorrect assumptions about the data and **learn fast** which often leads to high bias.
+- Simple the model, the more bias it will introduce, the more likely it will underfit the data.
+- Underfitting happens when the model is too basic to capture the underlying trends and patterns.
+- Underfitting results in poor performance on both training and test data. 
 
 ### How to reduce Bias?
 - Cross-validation, resampling and ensemble techniques can prevent Bias as well as Variance.
