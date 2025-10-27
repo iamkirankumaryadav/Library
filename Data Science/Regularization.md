@@ -10,9 +10,9 @@
 - High lambda | High bias | Underfitting | Simple Model | More error in train set.
 - Low Lambda | High variance | Overfitting | Complicated Model | Not generalize well for **new unseen data**.
 - LASSO (L1) regularization adds a penalty equal to the sum of the absolute value of the slope (weight).
-- LASSO discourage **coefficients** exactly to 0 (Eliminate the irrelevant features from the model)
+- LASSO discourage **coefficients** exactly to 0 (Eliminate the irrelevant features from the model, helps with feature selection)
 - Ridge (L2) regularization adds a penalty equal to the sum of the squared value of the slope (weight).
-- Ridge discourage **coefficients** towards 0 (Not exactly zero | Does not eliminate entirely)
+- Ridge discourage **coefficients** towards 0 (Not exactly zero, does not eliminate features, helps with stability)
 
 **Regularization and Cross-Validation, a good options if we have a limited amount of data**
 
@@ -47,4 +47,5 @@ Can lead coefficient to **exactly** 0 | **Minimize** coefficient towards 0 witho
 - The loss function helps us to understand the model's predictions and improve the model's accuracy.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 
