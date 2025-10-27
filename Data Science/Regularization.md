@@ -18,7 +18,7 @@
 
 **LASSO** | **Ridge** 
 :--- | :--- 
-Least absolute shrinkage selection operator (L1) | Mountain Ridges (L2) 
+Least Absolute Shrinkage Selection Operator (L1) | Mountain Ridges (L2) 
 Loss + lambda * \| slope \| | Loss + lambda * slope <sup>2</sup> 
 **Mean absolute deviation** \| x - mean \| / N | **Std deviation** (x - mean) <sup>2</sup> / n 
 The sum of the absolute value of the slope | Sum of the squared value of the slope 
@@ -47,5 +47,6 @@ Can lead coefficient to **exactly** 0 | **Minimize** coefficient towards 0 witho
 - The loss function helps us to understand the model's predictions and improve the model's accuracy.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
+
 
 
