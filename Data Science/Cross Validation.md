@@ -16,24 +16,24 @@
 - Initially, more iterations improves accuracy. After a point, validation performance starts declining, model starts overfitting.
 
 ### Action:
-Stop training when validation error increases (Early Stopping).
+Stop training when validation error starts increasing (Early Stopping).
 
 ### Benefit:
-- Reduces risk of memorizing noise in training data.
+- Reduces the risk of memorizing noise in training data.
 
 <h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
 
 <h3 name='hold'>1. Holdout Method | Train Test Split</h3>
 
 - Split the dataset into 70% - 30% or 80% - 20% for training and testing.
-- The model is trained on the training set to learn patterns and relationships.
+- The model is trained on the training set to learn patterns and understand the relationships.
 - After training, the model’s performance is evaluated on the testing set by making predictions.
 - With limited data, there’s a risk of high bias, meaning the model may not train well.
 
 <h3 name='kfold'>2. K Fold Cross Validation</h3>
 
 - The dataset is divided into **K** equal sized subsets called folds, 1 fold is used as the testing set.
-- The process is repeated K times, using K - 1 folds for training each time. The mean error from all trials is calculated.
+- The process is repeated K times, using K - 1 folds for training. The mean error from all trials is calculated.
 - This reduces bias and variance, creating a model with low bias, which is ideal for limited data.
 - A very high K can cause overfitting, while a very low K is similar to a simple train-test split.
 
@@ -45,6 +45,14 @@ Stop training when validation error increases (Early Stopping).
 - One fold is used as the testing set, and K - 1 folds are used for training.
 - The mean error from K trials is calculated, reducing bias and variance.
 - It’s an accurate method for evaluating models on imbalanced datasets.
+
+```python
+# Automatically adjusts weights for each class to handle imbalance:
+model = LogisticRegression(class_weight='balanced')
+
+# Ensures that the train and test sets have the same class distribution:
+train_test_split(X, y, test_size=0.2, stratify=y)
+```
 
 <h3 name='loocv'>4. Leave One Out Cross Validation | LOOCV</h3>
 
