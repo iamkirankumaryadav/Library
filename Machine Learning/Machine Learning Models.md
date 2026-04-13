@@ -4,6 +4,10 @@
 
 <h4 align="center">ML is a subset of AI that creates an algorithm that can learn from data by itself without being explicitly programmed</h4>
 
+<h4 align="center">Algorithm: A step-by-step set of instructions to solve a problem or complete a task.</h4>
+
+<h4 align="center">Model: The result of learning from data.</h4>
+
 <h3 align="center">Machine Learning Map</align></h3>
   
 <table align="center">
