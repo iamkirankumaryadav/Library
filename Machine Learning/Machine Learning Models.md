@@ -6,7 +6,7 @@
 
 <h4 align="left">Algorithm: A step-by-step set of instructions to solve a problem or complete a task.</h4>
 
-<h4 align="left">Model: The result of learning from data.</h4>
+<h4 align="left">Model is the result of learning from data.</h4>
 
 <h3 align="center">Machine Learning Map</align></h3>
   
