@@ -4,9 +4,9 @@
 
 <h4 align="left">Machine Learning: A subset of AI that creates an algorithm that can learn from data by itself without being explicitly programmed.</h4>
 
-<h4 align="left">Algorithm: A set of steps or method used to learn from data. (How to learn?)</h4>
+<h4 align="left">Algorithm: A set of steps or method used to learn from data. (How the model learns?)</h4>
 
-<h4 align="left">Model: The result after learning from data. (What is learned?)</h4>
+<h4 align="left">Model: The result after learning from data. (What the model learned?)</h4>
 
 <h3 align="center">Machine Learning Map</align></h3>
   
@@ -116,9 +116,12 @@ Classification | Clustering |
 - Machine Learning (ML) aims to build a model that performs/generalize well on new unseen data.
 
 ### Parameter (Weights and Biases)
-- Parameters are internal configuration variables learned from data during training. And uses for making predictions 
-- Parameters are tuned during training to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
+- Parameters are the internal values learned by the model from data during training and used for making predictions.
+- Parameters are like settings or knobs that control how the model behaves.
+- Example: In linear regression, slope and intercept are parameters, model learns these values automaically from the data.
+- Parameters are tuned/adjusted during training to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
 - They are automatically estimated from the data, not configured by the user. **Hyperparameters** are set manually before training.
+- One line summary: Algorithm trains > Model learns > Parameters define behavior.
 
 ### Scikit Learn
 1. Scikit Learn is a great library for creating an ML model from data.
