@@ -100,7 +100,7 @@ Model learns from labeled data | Model learns from unlabeled data | Agents take 
 Model tries to find relationships | Model tries to find patterns | Agent learns from rewards and penalty
 Classification | Clustering | 
 
-- Feature Matrix (Independent Variables) and Target Vector (Dependent Variables | Labels)
+- Feature Matrix (Independent Variables) and Target Vector (Dependent Variables or Labels)
 - **Features:** Independent Variables | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
 - **Target:** Dependent Variable | Label | Class | Output | Predicted Value | Estimated Value | Response.
 - **Rows:** Observations | Records | Samples | Instances.
