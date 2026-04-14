@@ -114,10 +114,11 @@ Classification | Clustering |
 - **Loss Function:** The difference between the model predictions and actual values. The model tries to minimize it.
 - Model is the system that makes **predictions** or **classification** on new unseen data after learning from the seen data.
 - Machine Learning (ML) aims to build a model that performs/generalize well on new unseen data.
-- Parameters (Weights and Biases) are internal configuration variables learned from data during training. 
-- **Parameters** are the internal values a model learns from data and uses to make predictions, and they are tuned during training.
-- **Parameters** are tuned to improve **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
-- **Hyperparameters** are set manually before training. 
+
+### Parameter (Weights and Biases)
+- Parameters are internal configuration variables learned from data during training. And uses for making predictions 
+- Parameters are tuned during training to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
+- They are automatically estimated from the data, not configured by the user. **Hyperparameters** are set manually before training.
 
 ### Scikit Learn
 1. Scikit Learn is a great library for creating an ML model from data.
