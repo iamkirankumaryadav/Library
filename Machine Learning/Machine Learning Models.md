@@ -106,7 +106,7 @@ Classification | Clustering |
 - **Columns:** Features
 - **Rows:** Observations | Records | Samples | Instances
 - **Feature:** A measurable property, that can be numerical (real or int number) or categorical (discrete).
-- **Feature Matrix:** A table where each row is a sample and each column is a feature.
+- **Feature Matrix:** A 2D matrix where each row is a sample and each column is a feature.
 - **Target Vector:** A list of values we want to predict, one for each sample.
 - Model learns a relationship between a feature matrix and a target vector.
 - Model learns patterns from the feature matrix to predict the target vector. 
