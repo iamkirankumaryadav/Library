@@ -117,6 +117,7 @@ Classification | Clustering |
 - **Parameters** are factors which are considered by the model to make **predictions** or **classifications**.
 - **Parameters** are the internal values a model learns from data and uses to make predictions, and they are tuned during training.
 - **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
+- **Hyperparameters** are set manually before training. 
 
 ### Scikit Learn
 1. Scikit Learn is a great library for creating an ML model from data.
