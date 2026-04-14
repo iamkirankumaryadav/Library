@@ -101,9 +101,9 @@ Model tries to find relationships | Model tries to find patterns | Agent learns 
 Classification | Clustering | 
 
 - Feature Matrix (Independent Variables) and Target Vector (Dependent Variables or Labels)
-- **Features:** Independent Variables (X) | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics.
-- **Target:** Dependent Variable (y) | Label | Class | Output | Predicted Value | Estimated Value | Response.
-- **Rows:** Observations | Records | Samples | Instances.
+- **Features:** Independent Variables (X) | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics | 2D Matrix
+- **Target:** Dependent Variable (y) | Label | Class | Output | Predicted Value | Estimated Value | Response | 1D Array
+- **Rows:** Observations | Records | Samples | Instances
 - **Feature:** A measurable property, that can be numerical (real or int number) or categorical (discrete).
 - **Feature Matrix:** A table where each row is a sample and each column is a feature.
 - **Target Vector:** A list of values we want to predict, one for each sample.
