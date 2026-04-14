@@ -112,7 +112,7 @@ Classification | Clustering |
 - Model learns patterns from the feature matrix to predict the target vector. 
 - The model adjusts its internal parameters/settings (weights and biases) to minimize error and improve accuracy.
 - **Loss Function:** The difference between the model predictions and actual values. The model tries to minimize it.
-- Model is the system that makes **predictions** or **classification** on new unseen data.
+- Model is the system that makes **predictions** or **classification** on new unseen data after learning from the seen data.
 - Machine Learning (ML) aims to build a model that performs/generalize well on new unseen data.
 - **Parameters** are factors which are considered by the model to make **predictions** or **classifications**.
 - **Parameters** are the internal values the model uses to make predictions, and they are tuned during training.
