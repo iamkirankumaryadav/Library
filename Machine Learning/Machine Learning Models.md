@@ -4,9 +4,9 @@
 
 <h4 align="left">Machine Learning: A subset of AI that creates an algorithm that can learn from data by itself without being explicitly programmed.</h4>
 
-<h4 align="left">Algorithm: A step-by-step set of instructions to solve a problem or complete a task.</h4>
+<h4 align="left">Algorithm: A set of steps or method used to learn from data. (How to learn?)</h4>
 
-<h4 align="left">Model is the result of learning from data.</h4>
+<h4 align="left">Model: The result after learning from data. (What is learned?)</h4>
 
 <h3 align="center">Machine Learning Map</align></h3>
   
@@ -115,7 +115,7 @@ Classification | Clustering |
 - Model is the system that makes **predictions** or **classification** on new unseen data after learning from the seen data.
 - Machine Learning (ML) aims to build a model that performs/generalize well on new unseen data.
 - **Parameters** are factors which are considered by the model to make **predictions** or **classifications**.
-- **Parameters** are the internal values the model uses to make predictions, and they are tuned during training.
+- **Parameters** are the internal values a model learns from data and uses to make predictions, and they are tuned during training.
 - **Parameters** are tuned to gain **accuracy** with least [**error**](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Error.md).
 
 ### Scikit Learn
