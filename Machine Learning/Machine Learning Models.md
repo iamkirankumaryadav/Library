@@ -215,7 +215,7 @@ Classification | Clustering |
 - Linear Regression finds the best fit straight line that accurately predicts the output values within a range.
 - The straight line is called the regression line.
 - Formula: y = mX + c, where y is the dependent variable and X is the independent variable.
-- **m** is the **slope** and **c** is the **y-intercept**, both are the **regression coefficients**.
+- **m** is the **slope** and **c** is the **y-intercept**, both are the **regression coefficients** (parameters).
 - **Advantages:** Simple to understand, fast training and prediction.
 - **Assumption:** Linear relationship between variables.
 - **Limitations:** Sensitive to outliers, affected by multicollinearity if the dataset has highly correlated variables.
