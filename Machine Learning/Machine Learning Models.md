@@ -103,6 +103,7 @@ Classification | Clustering |
 - Feature Matrix (Independent Variables) and Target Vector (Dependent Variables or Labels)
 - **Features:** Independent Variables (X) | Dimensions | Attributes | Inputs | Predictors | Estimators | Characteristics | 2D Matrix
 - **Target:** Dependent Variable (y) | Label | Class | Output | Predicted Value | Estimated Value | Response | 1D Array
+- **Columns:** Features
 - **Rows:** Observations | Records | Samples | Instances
 - **Feature:** A measurable property, that can be numerical (real or int number) or categorical (discrete).
 - **Feature Matrix:** A table where each row is a sample and each column is a feature.
