@@ -526,7 +526,7 @@ Algorithm Steps:
 - Groups the data points into segments or clusters based on similarity.
 - Unsupervised algorithms don't make predictions from the data.
 
-### **Clustering Techniques**
+### Clustering Techniques
 
 <h3 name='kmean'><strong>1. K Mean Clustering</strong></h3>
 
@@ -655,14 +655,13 @@ DBSCAN defines 3 types of data points based on their density.
 
 <h3 name='lda'><strong>Linear Discriminant Analysis (LDA | Supervised | Categorical | Classification)</strong></h3>
 
-- LDA is a technique used to separate different classes (groups) as clearly as possible.
-- LDA focuses on **maximizing class separability**.
+- LDA is a technique used to separate different classes (groups) as clearly as possible, focuses on maximizing class separability.
 - LDA reduces the number of features, finds the best linear boundaries to seperate and classify categories/classes.  
 - LDA creates a new axis, maximize the distance between means of two classes and minimize variation within each class.
 
 <h3 name='tsne'>t-SNE (t Distributed Stochastic Neighbor Embedding | Non-linear)</h3>
 
-- t-SNE is used to visualize high dimensional data in a low dimensional (2D or 3D) space.
+- t-SNE is a technique used to visualize high dimensional data in 2D or 3D (lower dimensional).
 - Non-linear dimensionality reduction technique (spiral, mixed) which helps in finding patterns in complex datasets.
 - Calculates the probability that a data point is a neighbour of another data point in the higher dimensional space.
 - Then reconstructs a similar joint probability distribution in the lower dimensional space.
@@ -678,10 +677,12 @@ DBSCAN defines 3 types of data points based on their density.
 - Set of items that frequently occur together in a dataset.
 - **Basket Analysis:** Items bought together | Goods purchased simultaneously help develop marketing strategies.
 
-### Apriori
-- A widely used algorithm in **data mining**, specifically for **association rule learning**.
+### Apriori Algorithm
+- Association Rule Mining is a technique used to find relationships between items in data.
+- The algorithm is used to find frequent (things that often occur together) item combinations in data.
+- A widely used algorithm in data mining, specifically for association rule learning.
 - If an itemset is frequent, all its subsets must also be frequent.
-- Example: If a customer buys item A, they are likely to buy item B.
+- Example: If a customer buys item A (Bread), they are likely to buy item B (Butter).
 - It generated association rules to identify patterns between items that frequently appear together.
 
 ![Machine Learning Map](Image/MLMap.jpg)
