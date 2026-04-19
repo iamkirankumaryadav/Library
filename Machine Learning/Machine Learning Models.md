@@ -646,15 +646,17 @@ DBSCAN defines 3 types of data points based on their density.
 - A dataset with high dimensions and high correlation can be complicated for analysis and visualization.
 - PCA aims to capture the most important features in the dataset while reducing its dimensionality.
 - Datasets with essential features are easy to explore, visualize, analyze and train (simplifies the EDA).
-- The first principal component (PC1) explains the maximum variance in the dataset.
+- Principal Components (PCs): New Features
+- The first principal component (PC1) explains the maximum variance (most information) in the dataset.
 - Subsequent principal components (PCs) explain the decreasing amount of variance in the dataset.
 - PCA tries to put the maximum possible information in the first principle component. 
 - And then tries to put the remaining information in the corresponding principle components.
-- PCA is affected by the scale, so rescaling features before applying PCA is important.
+- PCA is affected by the scale, so rescaling features before applying PCA is very important.
 
 <h3 name='lda'><strong>Linear Discriminant Analysis (LDA | Supervised | Categorical | Classification)</strong></h3>
 
-- A dimensionality reduction technique focused on **maximizing class separability**.
+- LDA is a technique used to separate different classes (groups) as clearly as possible.
+- LDA focuses on **maximizing class separability**.
 - LDA reduces the number of features, finds the best linear boundaries to seperate and classify categories/classes.  
 - LDA creates a new axis, maximize the distance between means of two classes and minimize variation within each class.
 
