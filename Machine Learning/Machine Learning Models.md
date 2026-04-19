@@ -456,11 +456,13 @@ Algorithm Steps:
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
-- Naive Bayes is a probabilistic classifier, based on class prediction probability (Binary and Multiclass classification)
+- Naive Bayes is a method that uses probability to classify things. Predicts the most likely category based on given data.
+- A probabilistic classifier, based on class prediction probability (Binary and Multiclass classification)
 - Creates the conditional probability distribution for all the classes independently.
 - Naive: Assumes that all of the features are independent of each other (No correlation between any feature)
 - e.g Classification of dog breed (Naive Bayes tries to create a probability that each dog belongs to a separate class)
-- Weights can be added to improve accuracy.
+- Looks at past data (learn probabilities of features), apply bayes rule (calculate probability for each class), choose highest probability.
+- Combine prior knowledge + new evidence. It classifies things by choosing the most probable outcome.
 - Fast, highly scalable, requires less training, and can be used for real-time predictions.
 - Can handle missing data and is not sensitive to irrelevant features.
 - P(Class | Data) = (P(Data | Class) * P(Class)) / P(Data)
