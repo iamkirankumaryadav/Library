@@ -10,7 +10,7 @@
 **Bagging (Bootstrap Aggregation)** | **Boosting**
 :--- | :---
 Weak learners are trained in parallel | Weak learners are trained in series
-Decrease variance (Solve overfitting) | Decrease bias (Improve training)
+Reduce variance (Solve overfitting) | Reduce bias (Improve training)
 Each model receives equal weight | Weights are assigned based on their performance
 Sample rows randomly (Sample with replacement) | Samples by increasing weight for wrong predictions
 Models are built independently | Models are improved versions of previously built models
