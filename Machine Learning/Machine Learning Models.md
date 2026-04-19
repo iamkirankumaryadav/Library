@@ -76,7 +76,11 @@
         <li><a href="#dbscan">DBSCAN</a></li>      
       </ol>
     </td>
-    <td></td>
+    <td>
+      <ul>
+        <li>Apriori Algorithm</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <th>Dimension Reduction</th>    
