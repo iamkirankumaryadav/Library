@@ -485,8 +485,8 @@ Algorithm Steps:
 
 1. Clustering
   - **K-Means Clustering:** A method to group similar data points into k clusters.
-  - **Hierarchical Clustering:** Builds a tree of clusters.
-  - **DBSCAN:** Detects clusters based on density.
+  - **Hierarchical Clustering:** A method to group data points into clusters forming a tree-like structure.
+  - **DBSCAN:** A method to group data points based on density (how closely data points are packed together).
 
 2. Dimensionality Reduction
   - **PCA (Principal Component Analysis):** Reduces the number of features while retaining variance.
@@ -552,7 +552,7 @@ Algorithm Steps:
 - The sum of the squared distance between the data point and centroid gets smaller as the number of clusters increases.
 - The **Elbow Method** helps us to find the optimal number of clusters.
 
-### Real Life Analogy
+**Real Life Analogy:**
 Think of buying a storage box 📦
 - 1 Box: Messy Storage
 - 2 Box: Better Storage
@@ -574,16 +574,18 @@ Think of buying a storage box 📦
 
 <h3 name='hc'><strong>2. Hierarchical Clustering</strong></h3>
 
-- Groups data points into a hierarchy of clusters. We don't need to determine the number of clusters.
+- A method to group data points into clusters step-by-step, forming a tree-like structure.
+- Build clusters gradually, either by merging or splitting. Groups data points into a hierarchy of clusters.
+- We don't need to determine the number of clusters.
 - A dendrogram can visualize and determine the number of clusters in the data.
 
 ### Agglomerative Nesting (Bottom-Up Approach)
-- Treating each data point as a single cluster and then merging the closest data points.
+- Treating each data point as it own cluster and then merging the closest data points.
 - After each iteration, similar and closest clusters are merged, until there is only one cluster left.
 
 ### Divise Analysis (Top-Down Approach)
 - Starts with considering all the data points in a single cluster
-- Iteratively splits the clusters based on dissimilarity.
+- Iteratively splits into smaller clusters based on dissimilarity.
 
 ### How do we calculate the similarity between the clusters?
 - **MIN:** Distance between the closest data points of two clusters.
@@ -594,12 +596,24 @@ Think of buying a storage box 📦
 <h3 name="dbscan"><strong>3. Density Based Clustering</strong></h3>
 
 - **DBSCAN:** Density-based spatial clustering of applications with noise (outliers).
-- Group similar data points together based on density (data points that are closely packed together).
-- **High-Density Region:** Data points are close to each other | High neighbours within the radius.
+- A method to group similar data points based on density (data points that are closely packed together).
+- **High-Density Region:** Data points are close to each other | More neighbours within the radius.
 - Unlike other clustering algorithms, DBSCAN does not require a predefined number of clusters.
-- Data points in low-density regions are outliers.
+- Data points in low-density regions (sparse) are outliers.
 - Visualization (Scatter Plot or Density Plot) can explain the clustering method in a better way.
 - DBSCAN can effectively identify clusters of arbitrary shapes and sizes.
+
+**Type of Points:**
+- Core point: Point in a dense area
+- Border point: Point near a dense area
+- Noise Point: Outlier or Isolated
+
+**Real Life Analogy**
+Think of people in a park 🌳
+- Big crowd: One group
+- Another crowd: Second group
+- Someone standing: Outlier
+DBSCAN: Groups crowds, and ignore isolated people (outliers)
 
 DBSCAN defines 3 types of data points based on their density.
 1. **Core points:** Data points that are very close to each other.
@@ -608,19 +622,19 @@ DBSCAN defines 3 types of data points based on their density.
 
 ### **B. Dimensionality Reduction**
 
-- A technique used to reduce the number of features/variables in a dataset while retaining the most important information.
+- A technique used to reduce the number of features in a dataset while retaining the most important information.
 - Simplifying the complexity of the dataset by reducing the number of dimensions (variables) without losing information.
-- The aim is to find the **important features/variables** that the model can use for better prediction.
+- The aim is to find the **important features** that the model can use for better prediction.
 - Reducing **irrelevant features** that have no relation with the target feature.
 - Reduces **multicollinearity**, and saves storage and time by improving the performance of the model.
-- Project data into lower dimensions while preserving as much useful variability (19/20) as possible.
+- Projects data into lower dimensions while preserving as much useful variability (19/20) as possible.
 - e.g. If we observe a Scatter Plot in multi-dimension it will be complicated for understanding. 
 - Consider only 1D then it is just a line and a few points in which some are close to the line and some are a bit far away from the line.
 - Combine features or remove features to reduce dimensions.
 - Dimensionality Reduction helps to prevent the models from overfitting (Due to too many features)
 - Simplifies the model, improves accuracy, fast training, easy visualization, and helps to identify patterns easily.
-- Scale and normalize data before applying dimensionality reduction techniques.
-- Use visualizations to assess how well the reduced dimensions represent the data.
+- Always scale and normalize data before applying dimensionality reduction techniques.
+- Visualizations helps us to assess how well the reduced dimensions represent the data.
 
 ### **Techniques of Dimensionality Reduction**
 
