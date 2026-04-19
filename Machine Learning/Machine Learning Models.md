@@ -423,14 +423,26 @@ Algorithm Steps:
 
 <h3 name='svm'>5. Support Vector Machine | SVM</h3>
 
-- Aims to find an optimal hyperplane that classifies the distinct classes with maximum margin in N-dimensional space.
+- A method used to separate data into different classes using a boundary (line or hyperplane).
+- SVM finds an optimal hyperplane that classifies the distinct classes with maximum margin in N-dimensional space.
 - Hyperplanes are decision boundaries that help to classify the data points. Data points are called Support Vectors.
+- SVM finds the best boundary (hyperplane) that separates classes (maximizes distance from nearest points)
 - SVM can be used for linear and non-linear regression and classification.
 - SVM can manage high dimensional data and nonlinear relationships between the data points.
 - SVM uses kernel trick for non-linear data which creates a kernel matrix in N-dimensional space for linear separation.
 - Works better even if the data set has a lot of outliers (Because SVM focus only on support vectors closest to the hyperplane)
 - Take a long time to train and predict if the number of observations is very large.
 - Kernel functions: Linear | Radial basis function ( RBF ) | Polynomial | Exponential.
+- Key Terms: Hyperplane (Decision Boundary) | Margin (Distance from boundary) | Support Vectors (Closest points)
+
+**Kernel Trick**
+- A technique used in Support Vector Machine to handle data that cannot be separated with a straight line.
+- If data can’t be separated in current space, move it to a higher dimension where it becomes separable.
+
+**Real Life Analogy:**
+Think of dots arranged in a circle 🎯
+- In 2D, you cannot draw a straight line to separate them, but if you lift them into 3D, you can separate with a plane
+Same data, different perspective = problem solved.
 
 ### Benefits 
 
@@ -446,6 +458,7 @@ Algorithm Steps:
 
 <h3 name='knn'>6. K Nearest Neighbours</h3>
 
+- K Nearest Neighbors is a method that predicts based on nearby data points.
 - KNN is used for both regression and classification. Measures the Euclidean distance between the data points. 
 - Initialize K (# nearest neighbours) we need for comparison or calculation.
 - Calculate the distance between new data points and the K nearest neighbours of training data points.
@@ -453,6 +466,11 @@ Algorithm Steps:
 - Sort the calculated distance in ascending order and get the shortest distance or most frequent classes in neighbour.
 - Regression: Mean of K nearest distances are considered.
 - Classification: Mode of K nearest distances are considered.
+
+**Real Life Analogy**
+Think of choosing a restaurant 🍽️
+- Ask 5 nearby friends, if most say "good", you go.
+Your decision depends on neighbor's opinions.
 
 <h3 name='naive'>7. Naive Bayes</h3>
 
