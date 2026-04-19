@@ -484,7 +484,7 @@ Algorithm Steps:
 ### Algorithms
 
 1. Clustering
-  - **K-Means:** Groups data into k clusters based on similarity.
+  - **K-Means Clustering:** A method to group similar data points into k clusters.
   - **Hierarchical Clustering:** Builds a tree of clusters.
   - **DBSCAN:** Detects clusters based on density.
 
@@ -532,19 +532,34 @@ Algorithm Steps:
 
 [Algorithm](https://github.com/KIRANKUMAR7296/Algorithms/blob/main/Code/10.K%20Mean%20Clustering.ipynb)
 
-- An unsupervised ML algorithm to group similar data points into K distinct clusters.
+- A method to group similar data points into K distinct clusters.
 - Data points with similar characteristics are grouped in one cluster.
 - Mean in K-Mean refers to the averaging of data (Finding the centroid by calculating mean)
-- Decide how many clusters you want to form in your data. 
+- Decide how many clusters you have to form in your data. 
 - K random data points are initially selected as a centroid (centre of cluster) for each cluster.
 - Each data point nearest to its corresponding centroid belongs/assigned to that cluster.
 - The centroid is recalculated for the newly formed clusters, and the data points are updated based on the new centroid.
-- This is an iterative process, we stop when there is no further classification.
-- Different starting points (centroid) create different clusters. 
+- This is an iterative process that continues until no further classification is possible.
+- Different starting points (centroid) create different clusters.
 
-### **Elbow Method**
+**Key Terms:**
+- K: Number of clusters
+- Centroid: Center of a cluster
+- Cluster: Group of similar points
+
+### Elbow Method
+- The Elbow Method is used to find the best/optimal value (sweet spot) of **K**.
 - The sum of the squared distance between the data point and centroid gets smaller as the number of clusters increases.
 - The **Elbow Method** helps us to find the optimal number of clusters.
+
+### Real Life Analogy
+Think of buying a storage box 📦
+- 1 Box: Messy Storage
+- 2 Box: Better Storage
+- 3 Box: Much Better Storage
+- 4 Box: Slight Improvement
+- 5 Box: Almost no change, no more boxes are required,
+- The point where improvement slows = Best Choice.
 
 **Usage:**
 1. **Market Segmentation:** Grouping customers based on purchasing behaviour, age, income, etc.
@@ -552,6 +567,10 @@ Algorithm Steps:
 3. **Image Compression:** Reducing the number of colours in an image.
 4. **Spatial Data Analysis:** Identifying areas of similar land use in an urban setting.
 5. **Anomaly Detection:** Detecting unusual patterns or outliers in datasets.
+
+**Simple Example:**
+- Customer Segmentation Data: Age and Income
+- K Mean groups customers into: High Income, Medium Income, and Low Income.
 
 <h3 name='hc'><strong>2. Hierarchical Clustering</strong></h3>
 
