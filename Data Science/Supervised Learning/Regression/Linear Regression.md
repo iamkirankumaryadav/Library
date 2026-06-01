@@ -127,7 +127,7 @@ Data visualization is one of the best ways to check the dataset's relationship, 
 
 ### Difference between Covariance and Correlation
 - Covariance measures whether two variables move together (positive), move in opposite directions (negative), or have no consistent relationship (zero).
-- Correlation determines the strength and direction of a linear relationship between two variables.
+- Correlation measures the strength and direction of the relationship between two variables.
 - **Linear Relationship:** A relationship between variables where a change in one is associated with a proportional change in the other
 - Both covariance and correlation measure the relationship and the dependency between two variables.
 - Unlike Covariance, Correlation values are standardized.
