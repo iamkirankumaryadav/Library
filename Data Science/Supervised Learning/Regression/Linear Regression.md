@@ -10,7 +10,7 @@
 #### Important Terms:
 - Independent Variables (x) | Features Matrix (An array of numbers, one or more rows, one or more columns)
 - Dependent Variable (Y) | Target Vector (A list of numbers, can be in a single row or column)
-- **m** (Slope: (How much Y changes when x changes by a unit)
+- **m** (Slope: How much Y changes when x changes by a unit)
 - **C** (Intercept: The value of Y when x is 0)
 - **Residual | Error:** The difference between actual and predicted values.
 
