@@ -87,12 +87,11 @@ Data visualization is one of the best ways to check the dataset's relationship, 
 
 <h3 name='ass'>Assumptions</h3>
   
-- **Linearity:** The relationship between the independent variable (x) and the dependent variable (y) is linear.
-- **Independence:** The data points should be independent.
-- **Normality:** The errors/residuals of the data points should be normally distributed.
-- **No Multicollinearity:** The independent variables should not be highly correlated.
-- **Homoscedasticity:** The variance of the regression line should remain **constant** throughout.
-- **Quantile Quantile Point:** Data points should be close to the regression line.
+- **Linearity:** The relationship between the independent variable (x) and the dependent variable (y) should be linear.
+- **Independence:** Each data point should be independent of the others.
+- **No Multicollinearity:** The independent variables should not be highly correlated (Should not be extremely similar to each other)
+- **Homoscedasticity (Constant Variance):** The variance of the regression line should remain **constant** throughout.
+- **Normality:** The prediction errors/residuals should be roughly normally distributed. Data points should be close to the regression line.
 
 ![Error Normal Distribution](Image/ErrorDistribution.png)
 
