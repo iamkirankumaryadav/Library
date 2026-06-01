@@ -172,10 +172,11 @@ Significance Level | P-value
 - **Variance Inflation Factor** | VIF = 1 / (1 - R<sup>2</sup>) (VIF > 10 | There is **multicollinearity**)
 
 ### Causation
-- Correlation does not imply causation (relationship between **cause** and its **effect**)
+- Correlation ≠ Causation (Just because two things move together doesn't mean one causes the other.)
+- Causation: Relationship between **cause** and its **effect**
 - One variable **affects** another variable (Temperature affects ice cream sale | Sale of ice cream is more in summer)
+- Is summer: Ice cream and Sunglasses sales increases. Strong correlation may exist, but ice-cream does not cause sunglasses sales.
 - A strong correlation between two variables does not necessarily mean that one causes the other.
-- There may be other factors influencing the relationship.
 
 ### Rescale Independent Features
 - Rescale-independent features for more reliable predictions use standardization or normalization.
