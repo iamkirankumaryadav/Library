@@ -110,6 +110,9 @@ Data visualization is one of the best ways to check the dataset's relationship, 
 - Measure how closely two variables are related and one variable can predict the other variable.
 - Varies between -1 (Perfect Negative Correlation) to +1 (Perfect Positive Correlation)
 
+### Correlation Coefficient 
+- A number between -1 and +1 that measures the strength and direction of the relationship between two variables.
+
 **Amount of R** | **Strength of Correlation**
 :--- | :---
 0.0  | **No** Correlation
