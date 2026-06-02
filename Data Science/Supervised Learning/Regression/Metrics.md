@@ -31,7 +31,7 @@
 
 ### How do you evaluate the performance of an ML model?
 1. We start with some initial configuration of the model and predict the output based on some input.
-2. Then we compare the predicted value with the target (actual value) and measure the performance.
+2. Then we compare the predicted value with the actual value and measure the performance.
 3. Parameters of the model are adjusted iteratively to reach the optimal value of the performance metric.
 4. Performance metric is a measurable value used to evaluate the model's performance.
 5. Performance metrics can be used to track progress towards accuracy and identify areas for improvement.
@@ -40,7 +40,7 @@
 
 <h2 name="linear">Linear Regression</h2>
 
-- **Predict continuous numeric dependent variables based on one or more independent variables**
+- Predict continuous numeric dependent variables based on one or more independent variables.
 
 <h3 name='mae'>1. Mean Absolute Error ( MAE ) </h3>
 
