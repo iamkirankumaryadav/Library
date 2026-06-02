@@ -52,7 +52,7 @@ Data visualization is one of the best ways to check the dataset's relationship, 
 - It ranges from -1 (perfect negative correlation) to +1 (perfect positive correlation), with 0 indicating no linear correlation.
 
 ### 3. Regression Analysis:
-- By fitting a model to your data, you can estimate the effect of changes in the independent variable(s) on the dependent variable.
+- By fitting a model to the data, the effect of changes in the independent variable(s) on the dependent variable can be estimated.
 - The model's coefficients (how much the dependent variable changes on the unit change of an independent variable)
 
 ### 4. Residual Analysis:
