@@ -1,38 +1,38 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# **Logistic Regression**
+# Logistic Regression
 - A model used for classification tasks like classifying flower species or image classification.
-- The logistic regression predicts the probability distribution of a binary outcome.
-- Transforms any real number to a value between 0 (low) and 1 (high) using the Sigmoid/Logit function.  
+- The logistic regression predicts the probability of an outcome | probability distribution of a binary outcome.
+- Transforms any real number to a value between 0 (low) and 1 (high) using the Sigmoid/Logit Function.  
 - Probability of occurrence of the target label is predicted based on threshold (0.5) 
 - The scale affects Logistic regression, so always standardize the features before applying logistic regression. 
 
-### **Logistic | Logit | Sigmoid Function (S-Shaped Curve)**
+### Logistic | Logit | Sigmoid Function (S-Shaped Curve)
 - Accepts any real value and maps it into a value between 0 and 1.
 - The probability prediction is transformed to binary | dichotomous (0 and 1)
-- **Threshold:** 0.5 (Probability < 0.5 is considered as 0 else 1)
+- Threshold: 0.5 (Probability < 0.5 is considered as 0 else 1)
 
-### **When to use Logistic Regression?**
+### When to use Logistic Regression?
 - When the target variable has binary class labels, it performs well with a small number of observations.
 - Data with very low outliers or missing data points in the data set. No tuning is usually required.
 
 ### How to find the relationship between the independent variable and target labels?
 - Unlike regression, we can't use correlation to access the relationship.
 - Data Visualization: Bar Charts, Histogram.
-- **Statistical Test:** Chi-Square Test (Significant association between independent variable and dependent variables)
+- Statistical Test: Chi-Square Test (Significant association between independent variable and dependent variables)
 - Information Gain (High), Gini Index (Low) and Entropy (Low) in Decision Trees and Random Forests.
-- **L1 Regularization:** Shrinks the coefficient of less important features towards zero.
+- L1 Regularization: Shrinks the coefficient of less important features towards zero.
 - Features with large coefficients are considered more important.
 
-### **Remove Correlated Independent Feature**
-- The model can overfit if you have multiple highly correlated independent features.
+### Remove Correlated Independent Feature
+- The model can overfit if the data have highly correlated independent features.
 - Calculate the pairwise correlations between all independent features and remove highly correlated independent features.
 
-### **Example**
+### Example
 - Linear regression helps us to predict the student's test score on a scale of 0 - 100 | Continuous
 - Logistic regression helps us to classify whether the student has passed (PASS) or failed (FAIL) | Discrete
 
-### **Types of Logistic Regression**
+### Types of Logistic Regression
 - Binary (Pass(1) | Fail(0)  
 - Multiclass (Cats | Dogs | Sheep)
 
@@ -82,7 +82,7 @@ cm = metrics.confusion(y_test, model.predict(X_test))
 
 ```
 
-### **How to handle Multiclass classification problems?**
+### How to handle Multiclass classification problems?
 - Split the task into multiple binary classification datasets.
 - Fit the binary classification model on each dataset. Set parameter **multi_class='ovr'**
 - The model that predicts the highest class probability is the predicted class.
