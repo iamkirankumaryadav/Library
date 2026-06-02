@@ -40,26 +40,26 @@
 
 Data visualization is one of the best ways to check the dataset's relationship, distribution and variance.
 
-1. **Scatter Plots:**  
+### 1. Scatter Plots:
 - Plot the independent variable(s) on the x-axis and the dependent variable on the y-axis.
 - The pattern of the data points can reveal the direction and strength of the relationship.
 - A positive slope suggests a positive relationship (as x increases, y increases)
 - A negative slope suggests a negative relationship (as x increases, y decreases)
 - A random scatter plot suggests a non-linear relationship.
 
-2. **Correlation Coefficient (r):** 
+### 2. Correlation Coefficient (r):
 - The strength and direction of the linear relationship between independent and dependent variables.
 - It ranges from -1 (perfect negative correlation) to +1 (perfect positive correlation), with 0 indicating no linear correlation.
 
-3. **Regression Analysis:**
+### 3. Regression Analysis:
 - By fitting a model to your data, you can estimate the effect of changes in the independent variable(s) on the dependent variable.
 - The model's coefficients (how much the dependent variable changes on the unit change of an independent variable)
 
-4. **Residual Analysis:** 
+### 4. Residual Analysis:
 - The difference between the actual and predicted values of the dependent variable can reveal potential issues with the model.
 - Randomly scattered residuals suggest a good fit, while patterns in the residuals indicate potential problems like non-linearity or outliers.
 
-5. **R squared | Adjusted R Squared:**
+### 5. R squared | Adjusted R Squared:
 - Train the model with different feature subsets and evaluate their performance on a validation set.
 - The subset with the best performance is chosen.
 
