@@ -16,8 +16,9 @@
 
 ### Linear Regression:
 - A straight line can represent the linear relationship between two variables.
+- A straight line that passes through the data with the least prediction error.
 - Predict a continuous numeric dependent variable (Y) based on one or more independent variables (x)
-- Predict a best-fit straight line (finding a regression line that best fits the data) with the least residuals.
+- Predict a best-fit straight line (regression line that best fits the data) with the least residuals.
 - Learning a linear regression model means estimating the values of the regression coefficients (slope and intercept)
 - Linear regression is sensitive towards overfitting and outliers.
 - But can be prevented using [dimensionality reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md), [regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md), [standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) and [cross validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md) techniques.
