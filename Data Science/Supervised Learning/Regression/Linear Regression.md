@@ -5,7 +5,7 @@
 <h3><a href='#simple'>Simple Linear</a> | <a href='#multiple'>Multiple Linear</a> | <a href='#ass'>Assumptions</a></h3>
 
 ### Regression
-- A statistical method used to estimate the relationship between a dependent variable and one or more independent variables.
+- A statistical method used to estimate the relationship between a dependent variable (Y) and one or more independent variables (x).
 
 #### Important Terms:
 - Independent Variables (**x**) | Features Matrix (An array of numbers, one or more rows, one or more columns)
