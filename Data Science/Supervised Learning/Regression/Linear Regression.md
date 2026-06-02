@@ -23,10 +23,7 @@
 - But can be prevented using [dimensionality reduction](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Unsupervised%20Learning/Dimensionality%20Reduction.md), [regularization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md), [standardization](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Regularization.md) and [cross validation](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Cross%20Validation.md) techniques.
 
 ![Regression Line](Image/RegressionLine.png)
-
-- Linear regression predicts a target vector's value based on the feature matrix's value.
-- The parameters **m** and **c** are **learnt** by the **algorithm** based on the **data point** pairs of (x, y)
-- There are few **statistical** <a href="#ass">assumptions</a> as well for **linear regression**. 
+- Linear Regression gives reliable predictions if certain <a href="#ass">assumptions</a> are true. 
 - Also there are few [metrics](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md) to **evaluate** how **good** our **model** learnt from the **data**.
 - **y = m * x + c** (m and c are also called as regression coefficients)
 
