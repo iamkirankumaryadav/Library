@@ -41,28 +41,12 @@
 
 Data visualization is one of the best ways to check the dataset's relationship, distribution and variance.
 
-### 1. Scatter Plots:
+### Scatter Plot:
 - Plot the independent variable(s) on the x-axis and the dependent variable on the y-axis.
 - The pattern of the data points can reveal the direction and strength of the relationship.
 - A positive slope suggests a positive relationship (as x increases, y increases)
 - A negative slope suggests a negative relationship (as x increases, y decreases)
 - A random scatter plot suggests a non-linear relationship.
-
-### 2. Correlation Coefficient (r):
-- The strength and direction of the linear relationship between independent and dependent variables.
-- It ranges from -1 (perfect negative correlation) to +1 (perfect positive correlation), with 0 indicating no linear correlation.
-
-### 3. Regression Analysis:
-- By fitting a model to the data, the effect of changes in the independent variable(s) on the dependent variable can be estimated.
-- The model's coefficients (how much the dependent variable changes on the unit change of an independent variable)
-
-### 4. Residual Analysis:
-- The difference between the actual and predicted values of the dependent variable can reveal potential issues with the model.
-- Randomly scattered residuals suggest a good fit, while patterns in the residuals indicate potential problems like non-linearity or outliers.
-
-### 5. R squared | Adjusted R Squared:
-- Train the model with different feature subsets and evaluate their performance on a validation set.
-- The subset with the best performance is chosen.
 
 ### c | Intercept | Bias | Constant | Coefficient
 - The point where the regression line intersects the Y-axis. 
@@ -99,40 +83,18 @@ Data visualization is one of the best ways to check the dataset's relationship, 
 
 ![Covariance](Image/Covariance.png) 
 
-- Covariance measures how much two variables change together (Direction of the linear relationship)
-- **Positive Covariance:** Two variables move in the same direction.
-- **Negative Covariance:** Two variables move in opposite directions.
+- Covariance measures only direction between two variables.
+- Positive: Variables move in same direction.
+- Negative: Variables move in opposite directions.
 
 ### Correlation: Strength and Direction
-- Correlation is a standardized version of covariance, that measures the strength and direction of a linear relationship.
-- Measure how closely two variables are related and one variable can predict the other variable.
+- Correlation measures direction and strength of relationship between two variables.
+- Correlation is a standardized version of covariance.
+- Measures how closely two variables are related to each other | How approximately one variable can predict the other variable.
 - Varies between -1 (Perfect Negative Correlation) to +1 (Perfect Positive Correlation)
 
 ### Correlation Coefficient 
 - A number between -1 and +1 that measures the strength and direction of the relationship between two variables.
-
-![Perfect Linear Correlation](Image/Perfect.png)
-
-![Strength of Slope](Image/Strength.png)
-
-### Difference between Covariance (only direction) and Correlation (strength and direction)
-- Linear Relationship: A relationship between variables where a change in one is directly associated with other.
-- Both covariance and correlation measures the relationship and the dependency between two variables.
-- Unlike Covariance, Correlation values are standardized.
-
-### Variance Inflation Factor (VIF)
-- A metric used to detect Multicollinearity in Linear Regression.
-- VIF measures how much an independent variable is correlated with other independent variable in a regression model.
-- How much the variance of a regression coefficient is inflated because of collinearity between the independent variables?
-- **VIF = 1** indicates that there is no collinearity between the independent variables.
-- **VIF > 10** indicates that there is high collinearity between the independent variables.
-- VIF detect multicollinearity. Lower VIF is better, high VIF indicates duplicate or overlapping independent variable.
-- We should consider removing one of the independent variable to reduce the VIF.
-- VIF does not tell us exactly which independent variable should be removed.
-- VIF can be higher due to more independent features and features with high scales or different scales.
-<p><code>VIF = 1 / 1 - R<sup>2</sup></code></p>
-
-### T-Test: Correlation coefficient for significance
 
 Correlation Coefficient (r) | Relationship (Numerical measure of the strength of a linear relationship)
 :--- | :---
@@ -140,35 +102,34 @@ Correlation Coefficient (r) | Relationship (Numerical measure of the strength of
 1 | Perfect Positive Correlation (Directly proportional, as one variable increases, the other also increases)
 -1 | Perfect Negative Correlation (Indirectly proportional, as one variable increases, the other decreases)
 
-- Compare the mean of two separate groups to observe the significant difference between them.
-- Measure of the **strength** and **direction** of the relationship between two variables.
-- **Null Hypothesis (H0):** There is no difference in the mean.
-- **Alternate Hypothesis (H1):** There is a difference in the mean.
-- P value is calculated, if the **p-value > 0.05**, then the Null Hypothesis (H0) is accepted.
-- **One sample t-test:** This compares the mean of one group to a specific hypothesized value.
-- **Two sample t-test:** This compares the means of two independent groups.
-- Assumptions: The data is normally distributed and the variances of the two groups are similar.
+![Perfect Linear Correlation](Image/Perfect.png)
 
-Significance Level | P-value
-:--- | :---
-95% | 0.05
-99% | 0.01
-99.9% | 0.1
+![Strength of Slope](Image/Strength.png)
+
+### Variance Inflation Factor (VIF)
+- A metric used to detect Multicollinearity in Linear Regression.
+- VIF measures how much a variable is correlated with other variable in a regression model.
+- How much the variance of a regression coefficient is inflated because of collinearity between the variables?
+- **VIF = 1** indicates that there is no collinearity between the variables | Lower VIF is better.
+- **VIF > 10** indicates that there is high collinearity between the variables. Duplicate or overlapping variable.
+- One of the variable should be removed to reduce the VIF. VIF does not tell us exactly which feature should be removed.
+- VIF can be higher due to more features and features with high / different scales.
+<p><code>VIF = 1 / 1 - R<sup>2</sup></code></p>
 
 ### Multicollinearity
-- Generally occurs when there is a high correlation between two or more independent variables.
-- One independent variable can be used to predict the other. This creates redundant information.
-- Regression equation becomes **unstable** and create **confusion**.
-- Observations (rows) and features (columns) should be **independent**.
-- **Remove** one feature to prevent from **multicollinearity** and make regression **stable**.
-- e.g. Experience vs Salary, Height vs Weight, Age of Car vs Car Price.   
-- **Tolerance** | T = 1 - R<sup>2</sup> (T < 0.1 | There is **multicollinearity**) 
-- **Variance Inflation Factor** | VIF = 1 / (1 - R<sup>2</sup>) (VIF > 10 | There is **multicollinearity**)
+- Generally occurs when there is a high correlation between two or more variables.
+- One variable can be used to predict the other. This creates redundant information.
+- Regression equation becomes unstable and create confusion.
+- Observations (rows) and features (columns) should be independent.
+- Remove one feature to prevent from multicollinearity and make regression stable.
+- e.g. Experience vs Salary, Height vs Weight, Age of Car vs Car Price.
+- Tolerance | T = 1 - R<sup>2</sup> (T < 0.1 | There is multicollinearity) 
+- Variance Inflation Factor | VIF = 1 / (1 - R<sup>2</sup>) (VIF > 10 | There is multicollinearity)
 
 ### Causation
 - Correlation ≠ Causation (Just because two things move together doesn't mean one causes the other.)
-- Causation: Relationship between **cause** and its **effect**
-- One variable **affects** another variable (Temperature affects ice cream sale | Sale of ice cream is more in summer)
+- Causation: Relationship between cause and its effect.
+- One variable affects another variable (Temperature affects ice cream sale | Sale of ice cream is more in summer)
 - Is summer: Ice cream and Sunglasses sales increases. Strong correlation may exist, but ice-cream does not cause sunglasses sales.
 - A strong correlation between two variables does not necessarily mean that one causes the other.
 
@@ -187,13 +148,13 @@ Significance Level | P-value
 
 ![Difference](Image/Difference.png)
 
-- **Positive Residual:** The actual value is **above** the regression line.
-- **Negative Residual:** The actual value is **below** the regression line.
+- Positive Residual: The actual value is above the regression line.
+- Negative Residual: The actual value is below the regression line.
 
 ![Positive Negative](Image/PN.png)
 
 ### Extrapolation
-Making predictions outside the range of data due to the presence of **outliers**.
+Making predictions outside the range of data due to the presence of outliers.
 
 ![Extrapolation](Image/Extrapolation.png)
 
