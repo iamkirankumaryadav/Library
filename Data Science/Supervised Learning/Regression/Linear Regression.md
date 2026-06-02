@@ -153,8 +153,11 @@ Correlation Coefficient (r) | Relationship (Numerical measure of the strength of
 
 ![Positive Negative](Image/PN.png)
 
+### Interpolation
+Making predictions inside the range of observed data.
+
 ### Extrapolation
-Making predictions outside the range of data due to the presence of outliers.
+Making predictions beyond the range of observed data due to the presence of outliers.
 
 ![Extrapolation](Image/Extrapolation.png)
 
