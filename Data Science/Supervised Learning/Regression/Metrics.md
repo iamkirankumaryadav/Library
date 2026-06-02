@@ -31,8 +31,8 @@
 
 ### How do you evaluate the performance of an ML model?
 1. We start with some initial configuration of the model and predict the output based on some input.
-2. Then we compare the predicted value with the actual value and measure the performance.
-3. Parameters of the model are adjusted iteratively to reach the optimal value of the performance metric.
+2. Then we compare the predicted value with the actual value and measure the performance metrics.
+3. Parameters of the model are adjusted iteratively to reach the optimal value of the performance metrics.
 4. Performance metric is a measurable value used to evaluate the model's performance.
 5. Performance metrics can be used to track progress towards accuracy and identify areas for improvement.
 6. The model that generalizes best to the new unseen data is finally selected.
@@ -40,34 +40,34 @@
 
 <h2 name="linear">Linear Regression</h2>
 
-- Predict continuous numeric dependent variables based on one or more independent variables.
+- Predicts continuous numeric dependent variables based on one or more independent variables.
 
-<h3 name='mae'>1. Mean Absolute Error ( MAE ) </h3>
+<h3 name='mae'>1. Mean Absolute Error (MAE) </h3>
 
 ![MAE](Image/MAE.png)
 
-- The average absolute difference between actual and predicted values.
+- The average / mean absolute difference between actual values and predicted values.
 - MAE is better for datasets with small errors but fails in case of larger errors.
-- MAE is expressed in the same units as the dependent variable.
-- MAE is less sensitive towards outliers.
+- MAE is expressed in the same unit as the dependent variable (Y).
+- MAE takes absolute value (ignoring + and - signs), so it's less sensitive towards outliers.
 - A lower MAE indicates that the model is making more accurate predictions.
 
 ![MAE Scikit Learn](Image/MAESK.png)
 
-<h3 name='mse'>2. Mean Squared Error ( MSE ) | LOSS</h3>
+<h3 name='mse'>2. Mean Squared Error (MSE) | LOSS</h3>
 
 ![MSE](Image/MSE.jpg)
 
-- The average squared difference between actual and predicted values.
-- More sensitive towards outliers, hence affected/impacted by outliers.
-- MSE is not good for larger errors. It changes the units/scale of the predicted values.
+- The average / mean squared difference between actual values and predicted values.
+- More sensitive towards outliers, hence affected / impacted by outliers.
+- MSE is not good for larger errors. It changes the unit / scale of the predicted values.
 - MSE is expressed as squared units instead of natural data units.
 - Squaring the difference removes negative MSE, which is usually always positive.
 - A lower MSE indicates that the model is making more accurate predictions.
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
-<h3 name='rmse'>3. Root Mean Square Error ( RMSE )</h3>
+<h3 name='rmse'>3. Root Mean Square Error (RMSE)</h3>
 
 ![RMSE](Image/RMSE.png)
 
@@ -125,13 +125,13 @@ MAE (Small errors), RMSE (Large errors) | Measures variability | Good if the dat
 <h2 name="logistic">Logistic Regression | Classification</h2>
 
 - Predict the class label of a data point based on one or more independent features.
-- Depending on the number of class labels in the target variable, it can be a **Binary** or **Multiclass** classification.
-- The data set should contain a well-balanced class distribution. (e.g. Total Students = 100 : 50 Boys + 50 Girls)
-- **Good Classifier:** 1 or 100% | **Bad Classifier** < 0.5 or 50%
+- Depending on the number of class labels in the target variable, it can be a Binary or Multiclass classification.
+- The data set should contain a well-balanced class distribution. (e.g. Total Students = 100 | 50 Boys + 50 Girls)
+- Good Classifier: 1 or 100% | Bad Classifier: < 0.5 or 50%
 
 <h3 name='cm'>1. Confusion Matrix</h3>
-
-- A table that summarizes the performance of a classification model.
+- How well a classification model is making predictions?
+- A table that evaluates and summarizes the performance of a classification model.
 - Evaluate correct and incorrect classifications on each class label.
 
 ![Classification](Image/Classification.png)
@@ -152,14 +152,16 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 <h3 name='acc'>2. Accuracy</h3>
 
 - The ratio of correct predictions to the total number of predictions.
+- Out of all predictions, how many were correct? how often is model right?
 - Accuracy score is good if the dataset is balanced. It can be misleading in imbalanced datasets.
 - Used when all the classes (TP, TN, FP and FN) are equally important.
-- **Accuracy: (TP + TN) / TP + TN + FP + FN**
+- Accuracy: (TP + TN) / TP + TN + FP + FN
 
 ![Accuracy](Image/Accuracy.png)
 
 <h3 name='pre'>3. Precision</h3>
 
+- When the model says Yes/True/1, how often is it correct? Can I trust the positive predictions?
 - Measures the **correctly identified positive cases** (TPs) from all the **predicted positive cases**.
 - Precision is a crucial metric when minimizing **False Positives (FP)** is a priority. (e.g. Antivirus, Spam Filtering)
 - **TP:** The number of instances that were correctly classified as positive.
@@ -169,18 +171,19 @@ False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect Fal
 
 <h3 name='tpr'>4. Recall | True Positive Rate (TPR) | Sensitivity</h3>
 
+- Out of all actual positive cases, how many did the model find? Did the model miss any?
 - The ratio of **true positive predictions** (TPs) to the **total actual positives**.
 - Measures the **correctly identified positive cases** (TPs) from all the **actual positive cases**. 
 - Recall is a crucial metric when minimizing **False Negatives (FN)** is a priority. (e.g. Medical Diagnosis, Corona, Fraud Detection)
 - **FN:** The number of instances that were incorrectly classified as negative.
 
 Example: Medical Diagnosis
-1. Precision: A FP (Incorrectly diagnosing a healthy person can lead to unnecessary treatment)
-2. Recall: A FN (Incorrectly diagnosing a sick person as healthy can lead to delayed treatment)
+1. Precision: FP (Incorrectly diagnosing a healthy person can lead to unnecessary treatment)
+2. Recall: FN (Incorrectly diagnosing a sick person as healthy can lead to delayed treatment)
 
 Example: Fraud Detection
-1. Precision: A FP (Flagging a legitimate transaction as fraudelent can damage customer relationships)
-2. Recall: A FN (Failing to detect fraudelent claims can result in significant financial losses)
+1. Precision: FP (Flagging a genuine transaction as fraudelent can damage customer relationships)
+2. Recall: FN (Failing to detect fraudelent claims can result in significant financial losses)
 
 ![Recall](Image/Recall.png)
 
@@ -193,7 +196,7 @@ Example: Fraud Detection
 
 <h3 name='f1'>6. F1 Score | F Measure</h3>
 
-- F1 Score is a **harmonic mean** of **precision** and **recall** (Balancing precision and recall).
+- F1 Score is a harmonic mean of precision and recall (Balance between precision and recall).
 - Useful for imbalanced datasets (Uneven class distribution) and it also considers FP and FN.
 - **Accuracy** is used when TP and TN are more important.
 - **Precision** is used when FP is crucial (Antivirus is showing that the system is safe, even if it's affected by a virus)
