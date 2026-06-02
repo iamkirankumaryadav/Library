@@ -1,7 +1,8 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
 # Logistic Regression
-- A model used for classification tasks like classifying flower species or image classification.
+- A supervised machine learning algorithm used for classification tasks like classifying flower species or image classification.
+- It predicts the probability of an observation belonging to a class using the sigmoid function.
 - The logistic regression predicts the probability of an outcome | probability distribution of a binary outcome.
 - Transforms any real number to a value between 0 (low) and 1 (high) using the Sigmoid/Logit Function.  
 - Probability of occurrence of the target label is predicted based on threshold (0.5) 
