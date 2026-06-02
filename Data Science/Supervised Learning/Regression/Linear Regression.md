@@ -11,7 +11,7 @@
 - Y | Dependent Variable | Target Vector: A list of numbers, can be in a single row or column.
 - x | Independent Variables | Features Matrix: An array of numbers, one or more rows / columns
 - m | Slope: How much y changes when x changes?
-- C | Intercept: The baseline value of Y when x is 0.
+- c | Intercept: The baseline value of Y when x is 0.
 - Residual | Error: The difference between actual and predicted values.
 
 ### Linear Regression:
@@ -24,13 +24,13 @@
 
 ![Regression Line](Image/RegressionLine.png)
 - Linear Regression gives reliable predictions if certain <a href="#ass">assumptions</a> are true. 
-- Also there are few [metrics](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md) to **evaluate** how **good** our **model** learnt from the **data**.
-- **y = m * x + c** (m and c are also called as regression coefficients)
+- [Metrics](https://github.com/KIRANKUMAR7296/Library/blob/main/Data%20Science/Supervised%20Learning/Regression/Regression%20Metrics.md): Evaluate how good the model learnt from the data.
+- **Y = m * x + c** (m and c are also called as regression coefficients)
 
 ![Equation Line](Image/EquationLine.png)
 
 ### m | Slope | Gradient | Steepness | Direction | Weight | Coefficient (of a line)
-- Indicates how much the dependent variable will change if an independent variable changes by one unit.
+- Indicates how much the dependent variable (Y) will change if an independent variable (x) changes by one unit.
 
 ![Positive Slope](Image/Positive.png)
 
@@ -110,31 +110,24 @@ Data visualization is one of the best ways to check the dataset's relationship, 
 ### Correlation Coefficient 
 - A number between -1 and +1 that measures the strength and direction of the relationship between two variables.
 
-**Amount of R** | **Strength of Correlation**
-:--- | :---
-0.0  | **No** Correlation
-0.1 - 0.3 | **Little** Correlation
-0.3 - 0.5 | **Medium** Correlation
-0.5 - 0.7 | **High** Correlation
-0.7 - 1.0 | **Very High** Correlation
-
 ![Perfect Linear Correlation](Image/Perfect.png)
 
 ![Strength of Slope](Image/Strength.png)
 
-### Difference between Covariance and Correlation
-- Covariance measures whether two variables move together (positive), move in opposite directions (negative), or have no consistent relationship (zero).
-- Correlation measures the strength and direction of the relationship between two variables.
-- **Linear Relationship:** A relationship between variables where a change in one is associated with a proportional change in the other
-- Both covariance and correlation measure the relationship and the dependency between two variables.
+### Difference between Covariance (only direction) and Correlation (strength and direction)
+- Linear Relationship: A relationship between variables where a change in one is directly associated with other.
+- Both covariance and correlation measures the relationship and the dependency between two variables.
 - Unlike Covariance, Correlation values are standardized.
 
 ### Variance Inflation Factor (VIF)
-- A measure of how much the variance of the regression coefficient is inflated due to collinearity between the independent variables.
+- A metric used to detect Multicollinearity in Linear Regression.
+- VIF measures how much an independent variable is correlated with other independent variable in a regression model.
+- How much the variance of a regression coefficient is inflated because of collinearity between the independent variables?
 - **VIF = 1** indicates that there is no collinearity between the independent variables.
 - **VIF > 10** indicates that there is high collinearity between the independent variables.
-- We should consider removing the independent variable to reduce the VIF.
-- VIF does not tell us which independent variable should be removed.
+- VIF detect multicollinearity. Lower VIF is better, high VIF indicates duplicate or overlapping independent variable.
+- We should consider removing one of the independent variable to reduce the VIF.
+- VIF does not tell us exactly which independent variable should be removed.
 - VIF can be higher due to more independent features and features with high scales or different scales.
 <p><code>VIF = 1 / 1 - R<sup>2</sup></code></p>
 
