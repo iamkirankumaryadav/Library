@@ -1,8 +1,10 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 ### 📊 Statistics: The Science of Data
-- Definition: Statistics is the science of collecting, organizing, analyzing, interpreting, and presenting data.
-- Purpose: Helps us to turn raw data into useful information and draw meaningful insights from the data.
+```
+Definition: Statistics is the science of collecting, organizing, analyzing, interpreting, and presenting data.
+Purpose: Helps us to turn raw data into useful information and draw meaningful insights from the data.
+```
 
 ### 🎯 Why Do We Need Statistics?
 ```
