@@ -717,7 +717,7 @@ A factory claims: 💡 Average bulb life = 1000 hours
 You test whether the actual average differs from 1000 hours.
 ```
 
-2️⃣ Non-Parametric Tests 📉
+### 2️⃣ Non-Parametric Tests 📉
 ```
 ✅ Do NOT assume normal distribution
 ✅ Work well with skewed data
