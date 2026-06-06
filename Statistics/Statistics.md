@@ -212,8 +212,7 @@ Without data, models cannot learn anything.
 
 ### 📂 Types of Datasets
 ```
-1️⃣ Numerical Data 🔢
-Contains numbers.
+1️⃣ Numerical Data 🔢 Contains numbers.
 
 Example:
 Age	Salary
@@ -222,8 +221,7 @@ Age	Salary
 
 Used for: Regression, Statistical Analysis, etc.
 
-2️⃣ Categorical Data 🏷️
-Contains categories or labels.
+2️⃣ Categorical Data 🏷️ Contains categories or labels.
 
 Example:
 Gender	Department
@@ -232,8 +230,7 @@ Female	HR
 
 Used for: Classification, Segmentation, etc.
 
-3️⃣ Text Data 📝
-Contains words, sentences, or documents.
+3️⃣ Text Data 📝 Contains words, sentences, or documents.
 
 Examples:
 📧 Emails
@@ -244,8 +241,7 @@ Examples:
 
 Used for: NLP, Sentiment Analysis, Chatbots, etc.
 
-4️⃣ Image Data 🖼️
-Contains pictures.
+4️⃣ Image Data 🖼️ Contains pictures.
 
 Examples:
 Face Images
@@ -254,8 +250,7 @@ Product Photos
 
 Used for: Computer Vision, Object Detection, Face Recognition, etc.
 
-5️⃣ Audio/Voice Data 🎙️
-Contains sound recordings.
+5️⃣ Audio/Voice Data 🎙️ Contains sound recordings.
 
 Examples:
 Speech Recordings
@@ -264,8 +259,7 @@ Podcasts
 
 Used for: Speech Recognition, Voice Assistants, etc.
 
-6️⃣ Video Data 🎥
-Contains moving images.
+6️⃣ Video Data 🎥 Contains moving images.
 
 Examples:
 CCTV Footage
