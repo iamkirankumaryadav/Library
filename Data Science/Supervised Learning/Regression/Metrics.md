@@ -389,7 +389,7 @@ Class (Number of Emails)
 
 ```
 📊 AUC stands for Area Under the ROC Curve.
-📈 It measures the overall performance of a classification model across all possible classification thresholds.
+📈 It measures the overall performance of a classification model across all classification thresholds.
 🎯 AUC tells us how well the model can distinguish between positive and negative classes.
 🏆 A higher AUC indicates a better classifier.
 
