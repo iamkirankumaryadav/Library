@@ -2,7 +2,7 @@
 
 # Cross-Validation
 - A resampling technique to evaluate the trained model performance on a limited dataset.
-- A method of evaluating the ML model's performance across random samples (new unseen data) of the datasets.
+- A method of evaluating the model's performance across random samples (new unseen data) of the datasets.
 - Prevent overfitting and ensure the model generalizes well to unseen data.
 - After training, we can't assume the model will perform well on new data.
 - We can't be sure of the model’s accuracy or variance without testing it.
