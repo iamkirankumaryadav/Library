@@ -5,7 +5,7 @@
 ```
 ✅ The settings or controls you choose before training ML model.
 ✅ Configuration variables that control the learning process of an ML model.
-✅ Adjustable parameters that must be tuned to obtain a model with optimal performance.
+✅ Adjustable settings that must be tuned to obtain a model with optimal performance.
 ✅ Greatly impact the ML model's behaviour and performance.
 ✅ Significantly improve a model's accuracy, speed, and generalization.
 ```
