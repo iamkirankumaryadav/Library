@@ -642,12 +642,11 @@ If p > 0.05 ⭐ Normal scenario ✅ Fail to reject NULL Hypothesis (H₀) 🪙 C
 ```
 Statistical tests help us make decisions or draw conclusions about a population using a sample of data.
 👉🏻 In simple words:
-Statistical tests tell us whether the observed differences or relationships in data are real or happened by chance.
+Statistical tests tell us whether the observed differences or relationships in data are real or unusual.
 ```
 
-### 📂 Two Main Types of Statistical Tests
+### 1️⃣ Parametric Tests 📈
 ```
-1️⃣ Parametric Tests 📈
 Parametric tests assume:
 ✅ Data follows a Normal Distribution (Bell Curve)
 ✅ Population parameters can be estimated
@@ -723,8 +722,8 @@ A factory claims: 💡 Average bulb life = 1000 hours
 You test whether the actual average differs from 1000 hours.
 ```
 
-```
 2️⃣ Non-Parametric Tests 📉
+```
 ✅ Do NOT assume normal distribution
 ✅ Work well with skewed data
 ✅ Useful for small datasets
