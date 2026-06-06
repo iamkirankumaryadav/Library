@@ -196,8 +196,8 @@ Student ID |	Name |	Age |	Marks
 
 This table is a dataset.
 ```
-📋 Rows = Records/Observations
-📊 Columns = Features/Variables
+📋 Rows = Records / Observations / Samples
+📊 Columns = Features / Variables / Attributes
 ```
 
 ```
