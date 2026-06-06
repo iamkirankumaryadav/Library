@@ -29,24 +29,15 @@
   </tr>
 </table>
 
-### How do you evaluate the performance of an ML model?
-1. We start with some initial configuration of the model and predict the output based on some input.
-2. Then we compare the predicted value with the actual value and measure the performance metrics.
-3. Parameters of the model are adjusted iteratively to reach the optimal value of the performance metrics.
-4. Performance metric is a measurable value used to evaluate the model's performance.
-5. Performance metrics can be used to track progress towards accuracy and identify areas for improvement.
-6. The model that generalizes best to the new unseen data is finally selected.
-7. The model allows us to compare different models and choose the best one for a specific task.
-
-### 🎯 How do you evaluate the performance of an ML model? (Simple Version)
+### 🎯 How do you evaluate the performance of an ML model?
 ```
-📝 First, we give some input data to the model and let it make predictions.
+📝 First, we give some input data to the model with initial configuration and let it make predictions.
 🔍 We compare the model's predictions with the actual correct answers.
 📊 We calculate performance metrics (Accuracy, Precision, Recall) to see how well the model is performing.
 🔄 Based on these metrics, we adjust the model's parameters and train it again to improve its performance.
 📈 This process is repeated until the model reaches the best possible performance.
 🧪 We then test the model on new, unseen data to check how well it generalizes.
-🏆 Finally, we select the model that performs best on unseen data
+🏆 Finally, we select the model that performs best on unseen data.
 🚨 Compare it with other models to choose the most suitable one for the task.
 ```
 
