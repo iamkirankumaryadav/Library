@@ -61,16 +61,61 @@ train_test_split(X, y, test_size=0.2, stratify=y)
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
 
-## Grid Search
-- Grid Search CV is used to find the best combination of **hyperparameters** for a model, especially on small datasets.
-- Grid Search CV defines a grid of possible hyperparameter values.
-- Evaluates the model with every possible combination of hyperparameters within a predefined grid.
-- This process is called hyperparameter tuning, finding the optimal set of parameters.
-- Select the combination that gives the best performance metric.
-- Different hyperparameter combinations are tested to get the best performance metric.
-- Grid Search CV tries all possible combinations and returns the best set of parameters based on the test set performance.
-- It’s great for small datasets but is time-consuming and resource-heavy.
-- Grid Search can lead to overfitting and isn’t ideal for large or complex datasets.
+# Grid Search
+```
+✅ Technique to find the best combination of hyperparameter values, especially on small datasets.
+✅ Evaluates every possible combination of hyperparameter values within a predefined grid.
+✅ Selects the combination that gives the best performance metrics scores.
+✅ It’s great for small datasets but is time-consuming and resource-heavy.
+```
+
+### 🔄 How Grid Search CV Works
+```
+1️⃣ Define possible hyperparameter values.
+    Example:
+    Learning Rate = [0.01, 0.1, 1]
+    Max Depth = [3, 5, 7]
+
+2️⃣ Create all possible combinations.
+
+3️⃣ Train and validate the model for each combination using Cross-Validation (CV).
+
+4️⃣ Compare the performance scores.
+    Examples: Accuracy, Precision, Recall, F1 Score, RMSE, etc.
+
+5️⃣ Choose the combination with the best score.
+    ✅ Best Hyperparameters Found
+```
+
+### 🎯 Why Use Grid Search CV?
+```
+It helps:
+✅ Find the best hyperparameters
+✅ Improve model accuracy
+✅ Reduce manual trial and error
+✅ Automate hyperparameter tuning
+```
+
+### ⚠️ Drawbacks of Grid Search CV
+```
+⏳ Slow
+    Grid Search tests every combination.
+
+    If there are many hyperparameters, the number of combinations grows very quickly.
+    
+    Example: 5 values × 5 values × 5 values × 5 values = 625 combinations 😲
+
+💻 Computationally Expensive
+    Requires lots of training runs
+    Consumes more CPU/GPU resources
+    Takes significant time on large datasets
+
+📈 Risk of Overfitting
+    Repeated hyperparameters tuning on the same validation data, makes model too specialized to that data.
+
+🚫 Not Ideal for Large Datasets
+    For very large datasets or many hyperparameters, Grid Search becomes impractical.
+```
 
 ```python
 from sklearn.model_selection import GridSearchCV
@@ -96,17 +141,10 @@ print(grid_search.best_params_)
 print(grid_search.best_score_)
 ```              
 
-### **How to create the Grid?**
-1. **Define the Hyperparameter Grid:** Create a dictionary with hyperparameter names as keys and potential values as lists.
-2. **Create a Cross-Validation Object:** Choose a cross-validation strategy (Holdout, K-Fold, Stratified K-Fold, or LOOCV).
-3. **Instantiate the Model:** Create an instance of your ML model.
-4. **Create the Grid Search Object:** Combine the model, hyperparameter grid, and cross-validation strategy into a GridSearchCV object.
-5. **Fit the Grid Search Object:** Train the model on the full dataset using the chosen hyperparameters and cross-validation strategy.
+### Random Grid Search:
 
-## **Random Grid Search:**
-
-- Random Grid Search CV randomly selects hyperparameter combinations, instead of testing all possible ones.
-- It’s more efficient for large datasets, as it’s faster, uses fewer resources, and is less likely to overfit.
+✅ Randomly evaluates different hyperparameter combinations instead of trying every possible combination.
+✅ More efficient for large datasets, as it’s faster, uses fewer resources, and is less likely to overfit.
 
 ```python
 from sklearn.model_selection import RandomizedSearchCV
