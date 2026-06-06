@@ -1,13 +1,20 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 ### 🎛️ Hyperparameters
-- Hyperparameters: The settings or controls you choose before training ML model.
-- Hyperparameters are configuration variables that control the learning process of an ML model.
-- Hyperparameters are adjustable parameters that must be tuned to obtain a model with optimal performance.
-- Model parameters learn from the data and adjust during the training, hyperparameters are set before training begins.
-- Parameters are values in a model that are updated during the training of the model.
-- The values of hyperparameters can greatly impact the ML model's behaviour and performance.
-- The right hyperparameters can significantly improve a model's accuracy, speed, and generalization.
+
+```
+✅ The settings or controls you choose before training ML model.
+✅ Configuration variables that control the learning process of an ML model.
+✅ Adjustable parameters that must be tuned to obtain a model with optimal performance.
+✅ Greatly impact the ML model's behaviour and performance.
+✅ Significantly improve a model's accuracy, speed, and generalization.
+```
+
+### ⚙️ Parameters
+```
+✅ Values in a model that are updated during the training of the model.
+✅ Learn from the data and automatically adjust during the training.
+```
 
 ### 🤔 Hyperparameters vs Parameters
 Hyperparameters |	Parameters
@@ -24,10 +31,32 @@ The right hyperparameters can help a model:
 ✅ Avoid mistakes (overfitting/underfitting)
 ✅ Perform well on new data
 ```
-### Hyperparameter Tuning / Optimization
-- Finding the optimal hyperparameter values is crucial for achieving the best possible performance from an ML model.
-- It involves experimenting with different combinations of hyperparameters and evaluating the model's performance on a validation set.
-- An iterative process that can be time-consuming but essential for building high-performing models.
+### 🎯 Hyperparameter Tuning
+
+```
+✅ Process of finding the best hyperparameters for a ML model so that it performs as well as possible.
+✅ Experimenting with different combinations of hyperparameters and evaluating the model's performance on a validation set.
+✅ An iterative, time-consuming process that needs computing power, but essential for building high-performing models.
+```
+
+### 🔄 How It Works
+```
+1. Choose a set of hyperparameter values.
+2. Train the model.
+3. Test it on validation data.
+4. Measure its performance.
+5. Try another combination.
+6. Repeat until the best settings are found.
+```
+
+### 🚀 Why is it Important?
+```
+The right hyperparameters can help a model:
+✅ Achieve higher accuracy
+✅ Learn more efficiently
+✅ Make better predictions on new data
+✅ Avoid overfitting and underfitting
+```
 
 ### Hyperparameters:
 - **Learning Rate:** Determines how quickly the model updates its parameters during the training.
