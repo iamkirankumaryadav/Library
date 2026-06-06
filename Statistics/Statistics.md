@@ -210,6 +210,71 @@ A dataset is the foundation of:
 Without data, models cannot learn anything.
 ```
 
+### 📂 Types of Datasets
+```
+1️⃣ Numerical Data 🔢
+Contains numbers.
+
+Example:
+Age	Salary
+25	₹50,000
+30	₹70,000
+
+Used for: Regression, Statistical Analysis, etc.
+
+2️⃣ Categorical Data 🏷️
+Contains categories or labels.
+
+Example:
+Gender	Department
+Male	  IT
+Female	HR
+
+Used for: Classification, Segmentation, etc.
+
+3️⃣ Text Data 📝
+Contains words, sentences, or documents.
+
+Examples:
+📧 Emails
+💬 Reviews
+✅ Chat Messages
+📱 Social Media
+🖼️ Posts
+
+Used for: NLP, Sentiment Analysis, Chatbots, etc.
+
+4️⃣ Image Data 🖼️
+Contains pictures.
+
+Examples:
+Face Images
+Medical X-rays
+Product Photos
+
+Used for: Computer Vision, Object Detection, Face Recognition, etc.
+
+5️⃣ Audio/Voice Data 🎙️
+Contains sound recordings.
+
+Examples:
+Speech Recordings
+Voice Commands
+Podcasts
+
+Used for: Speech Recognition, Voice Assistants, etc.
+
+6️⃣ Video Data 🎥
+Contains moving images.
+
+Examples:
+CCTV Footage
+YouTube Videos
+Self-driving Car Videos
+
+Used for: Video Analytics, Activity Recognition, Surveillance Systems, etc.
+```
+
 ## Data Wrangling / Preprocessing:
 - **Definition:** Converting raw data into a clean, structured format ready for analysis.
 
