@@ -597,58 +597,159 @@ More sensitive to outliers | Less sensitive to outliers
 - Variations often occur due to sampling error.
 - Example: If you take two random samples of 100 people from a city, their average income may differ slightly because of sampling variability.
 
-## P-value
-- **Definition:** Probability of observing results as extreme as the actual data, assuming the null hypothesis is true.
-- **Purpose:** Determines statistical significance of results.
+### 📊 What is a P-Value?
+```
+The probability of observing results as extreme as the ones we obtained, assuming the Null Hypothesis (H₀) is true.
+👉🏻 In simple words:
+P-value tells us whether the observed result is likely due to chance or whether something unusual is happening.
+```
 
-### Interpretation:
-- **p ≤ 0.05:** Strong evidence against the null | Reject NULL Hypothesisi (H₀).
-- **p ≥ 0.05:** Weak evidence against the null | Fail to reject NULL Hypothesis (H₀).
-- **p ≤ 0.01:** Very strong evidence against the NULL Hypothesis (H₀).
-- Example:If p = 0.03, there’s a 3% chance results occurred under the NULLL Hypothesis → reject H₀.
+### 🎯 Why Do We Use P-Value?
+```
+The p-value helps us decide whether to ✅ Reject the Null Hypothesis (H₀) OR ✅ Fail to Reject the Null Hypothesis (H₀)
+In other words:
+👉🏻 Is the result statistically significant or just random luck?
+```
 
-### Scenario: Coin Flip 
-- Imagine you have a fair coin (Head/Tails)
-- **Normal scenario:** If you flip a fair coin, it will end up in any random combinations of heads or tails.
-- **Exceptional case:** But it ends up in 10 Heads, now you suspect it might be biased towards Heads.
+### 📊 Interpreting P-Value
+
+P-Value |	Interpretation | Decision
+:--- | :--- | :---
+p ≤ 0.05 |	Strong evidence against H₀ |	Reject H₀
+p ≤ 0.01 |	Very strong evidence against H₀ |	Reject H₀
+p > 0.05 |	Weak evidence against H₀ |	Fail to Reject H₀
+
+### 🪙 Coin Flip Scenario:
+```
+Imagine you have a coin 🪙
 
 Here's how p-value can help you test the suspicion:
-- **Null Hypothesis (H0):** The coin is fair (One side is the head and another side is the tail)
-- **Alternate Hypothesis (Ha):** The coin is biased (It will fall on either head)
-- **Observed Data:** You flip the coin, say, 10 times. Surprisingly, you get Heads every single time!
-- **Test Statistic:** This would be the number of heads observed, which in this case is 10 out of 10 flips.
-- In a fair case, it'll not be always possible to get 10 Heads every time.
-- The p-value tells you how often you'd expect to see 10 heads in a row! in those hypothetical repetitions.
-- We can say that there is only less than 5% or 1% chance it may happen.
-- If **p-value >= 0.05** i.e. Here it's a normal scenario (Fair coin, NULL hypothesis accepted)
-- If **p-value <= 0.05** i.e Very rare scenario of getting H only (The coin is biased)
+H₀ (Null Hypothesis): 🪙 The coin is fair (One side is the head and another side is the tail)
+Hₐ (Alternative Hypothesis): 🪙 The coin is biased. (It will fall on either head)
 
-## Types of Statistical Tests
-- Statistical tests are used to make inferences about a population based on a sample of data. 
+🔍 Observed Data: You flip the coin, say, 10 times. Surprisingly, you get Heads every single time!
+🧪 Test Statistic: 👉🏻 10 Heads out of 10 flips! This looks suspicious 🤔
 
-### Parametric Tests
-- Parametric tests assume that the data is normally distributed and that the population parameters are known or can be estimated.
+In a fair case, It is extremely unlikely to get 10 Heads in a row by chance.
+The p-value tells you how often you'd expect to see 10 heads in a row!
+We can say that there is only less than 5% or 1% chance it may happen.
 
-**1. T-test:**
-- T-test compares the means of groups.
-- **One-sample t-test:** Compares the mean of a single sample to a known population mean.
-- **Independent samples t-test:** Compares the means of two independent groups.
-- **Paired samples t-test:** Compares the means of two related groups (e.g., before-after measurements).   
+If p ≤ 0.05 🚨 Rare event ❌ Reject the Null Hypothesis (H₀) 🪙 Coin is biased.
+If p > 0.05 ⭐ Normal scenario ✅ Fail to reject NULL Hypothesis (H₀) 🪙 Coin is fair.
+```
 
-**2. ANOVA (Analysis of Variance):**
-- Used to compare means of more than two groups.
-- **One-way ANOVA:** Compares the means of multiple groups on a single independent variable.
-- **Two-way ANOVA:** Compares the means of multiple groups on two independent variables.
+### 📊 Types of Statistical Tests
+```
+Statistical tests help us make decisions or draw conclusions about a population using a sample of data.
+👉🏻 In simple words:
+Statistical tests tell us whether the observed differences or relationships in data are real or happened by chance.
+```
 
-**Z-test:**
-- Compares population means when the population standard deviation is known.
-- Often used in hypothesis testing and confidence interval estimation.
+### 📂 Two Main Types of Statistical Tests
+```
+1️⃣ Parametric Tests 📈
+Parametric tests assume:
+✅ Data follows a Normal Distribution (Bell Curve)
+✅ Population parameters can be estimated
+These tests are generally more powerful when assumptions are met.
+```
+```
+🎯 T-Test
+A T-Test compares the means (averages) of groups.
+👉🏻 Used when you want to know if two averages are significantly different.
 
-### Non-parametric Tests
-- Non-parametric tests do not assume that the data is normally distributed.
-- They are often used when the sample size is small or the data is skewed.
+A. One-Sample T-Test
+Compare a sample mean with a known population mean.
 
-**1. Chi-Square Test:**
-- Used to analyze categorical data.
-- **Chi-square goodness-of-fit test:** Compares observed frequencies to expected frequencies.
-- **Chi-square test of independence:** Tests the association between two categorical variables.
+Example:
+A company claims:
+💰 Average Salary = ₹50,000
+You collect a sample and test whether the actual average salary differs from ₹50,000.
+
+B. Independent Samples T-Test
+Compare the means of two independent groups.
+
+Example:
+Compare exam scores of:
+👦 Boys
+👧 Girls
+
+Question: 👉🏻 Do boys and girls have different average scores?
+
+C. Paired Samples T-Test
+Compare two related measurements.
+
+Example:
+Weight before and after a diet program.
+
+Person Before After 
+A      80 kg  75 kg
+
+Question: 👉🏻 Did the diet significantly reduce weight?
+```
+```
+🎯 ANOVA (Analysis of Variance)
+ANOVA compares the means of more than two groups.
+👉🏻 Think of it as an extension of the T-Test.
+
+A. One-Way ANOVA
+Compare multiple groups using one factor.
+
+Example:
+Compare average salaries of:
+- IT Department
+- HR Department
+- Finance Department
+
+Question: 👉🏻 Is there a significant difference between department salaries?
+
+B. Two-Way ANOVA
+Compare groups using two factors.
+
+Example:
+Compare salaries based on:
+- Department
+- Gender
+
+Question: 👉🏻 Does salary depend on department, gender, or both?
+```
+```
+🎯 Z-Test
+A Z-Test compares means when the population standard deviation is known.
+
+Example:
+A factory claims: 💡 Average bulb life = 1000 hours
+
+You test whether the actual average differs from 1000 hours.
+```
+
+```
+2️⃣ Non-Parametric Tests 📉
+✅ Do NOT assume normal distribution
+✅ Work well with skewed data
+✅ Useful for small datasets
+
+🎯 Chi-Square Test
+Chi-Square is used for categorical data.
+👉🏻` It checks whether observed results differ significantly from expected results.
+
+A. Chi-Square Goodness-of-Fit Test
+Compare observed frequencies with expected frequencies.
+
+Example:
+A dice should produce:
+🎲 Each number (1–6) equally often.
+
+Question: 👉🏻 Is the dice fair?
+
+B. Chi-Square Test of Independence
+Check whether two categorical variables are related.
+
+Example:
+Survey Data:
+Gender Likes Product
+Male   Yes 
+Female No
+
+Question: 👉🏻 Is product preference related to gender?
+```
