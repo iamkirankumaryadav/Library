@@ -142,10 +142,10 @@ print(grid_search.best_score_)
 ```              
 
 ### Random Grid Search:
-
+```
 ✅ Randomly evaluates different hyperparameter combinations instead of trying every possible combination.
 ✅ More efficient for large datasets, as it’s faster, uses fewer resources, and is less likely to overfit.
-
+```
 ```python
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.svm import SVC
