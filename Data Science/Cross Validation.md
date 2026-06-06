@@ -1,25 +1,24 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
 
 # Cross-Validation
-- A resampling technique to evaluate the trained model performance on a limited dataset.
-- A method of evaluating the model's performance across random samples (new unseen data) of the datasets.
+- A resampling technique to evaluate the trained model performance on a new, unseen data.
+- A method of evaluating the model's performance across random samples of new, unseen data.
 - Prevent overfitting and ensure the model generalizes well to unseen data.
 - After training, we can't assume the model will perform well on new data.
-- We can't be sure of the model’s accuracy or variance without testing it.
+- The model might underfit the data (High Bias) or Overfit the data (High Variance).
+- We can't be sure of the model’s accuracy or variance without evaluation.
 - We need validation to ensure the model has low bias and low variance.
-- **Validation:** Assurance that your model is trained well (**Low Bias** and **Low Variance**) 
-- To evaluate performance, test the model on new unseen data. Monitor performance across iterations.
-- Based on the results, we can identify underfitting or overfitting.
-- Cross-validation gives a more realistic idea of how the model will perform on new unseen data.
+- We need the assurance that the model is trained well (Low Bias and Low Variance) 
 
 ### Key Idea:
-- Initially, more iterations improves accuracy. After a point, validation performance starts declining, model starts overfitting.
+- Initially, more iterations improves accuracy.
+- After a point, performance starts declining, model starts overfitting.
 
 ### Action:
 Stop training when validation error starts increasing (Early Stopping).
 
 ### Benefit:
-- Reduces the risk of memorizing noise in training data.
+Reduces the risk of memorizing noise, outliers, random patterns in training data.
 
 <h3><a href='#hold'>Holdout</a> | <a href='#kfold'>K Fold</a> | <a href='#skfold'>Stratified K Fold</a> | <a href='#loocv'>Leave One Out</a> </h3>
 
