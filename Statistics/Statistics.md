@@ -271,22 +271,22 @@ Self-driving Car Videos
 Used for: Video Analytics, Activity Recognition, Surveillance Systems, etc.
 ```
 
-## Data Wrangling / Preprocessing:
-- **Definition:** Converting raw data into a clean, structured format ready for analysis.
+### Data Wrangling / Preprocessing:
+Definition: Converting raw data into a clean, structured format ready for analysis.
 
 ### Data Wrangling Processes:
-- **Data Importing:** Bringing data from external sources into your working environment.
-- **Data Cleaning:** Removing errors, duplicates, and inconsistencies from data.
-- **Data Structuring:** Organizing data into a standardized, usable format.
-- **Data Parsing:** Breaking down complex data into simpler, explainable components.
-- **Data Encoding:** Converting categorical or text data into numeric form for analysis.
-- **Data Rescaling:** Adjusting data values range to a common scale (e.g., normalization).
-- **Handling Dates and Times:** Formatting and standardizing date/time fields for consistency.
-- **Managing Missing Values:** Filling, removing, or imputing missing data points.
-- **Handling Outliers:** Detecting and treating extreme values that can skew analysis.
+- Data Importing: Bringing data from external sources into your working environment.
+- Data Cleaning: Removing errors, duplicates, and inconsistencies from data.
+- Data Structuring: Organizing data into a standardized, usable format.
+- Data Parsing: Breaking down complex data into simpler, explainable components.
+- Data Encoding: Converting categorical or text data into numeric form for analysis.
+- Data Rescaling: Adjusting data values range to a common scale (e.g., normalization).
+- Handling Dates and Times: Formatting and standardizing date/time fields for consistency.
+- Managing Missing Values: Filling, removing, or imputing missing data points.
+- Handling Outliers: Detecting and treating extreme values that can skew analysis.
 
-## Data Visualization
-- **Definition:** The process of visually representing data to analyze relationships, distributions, and detect outliers.
+### Data Visualization
+Definition: The process of visually representing data to analyze relationships, distributions, and detect outliers.
 
 ### Purpose:
 - Understand patterns and trends
@@ -295,14 +295,14 @@ Used for: Video Analytics, Activity Recognition, Surveillance Systems, etc.
 - **Role in ML:** Used for preprocessing, feature selection, model building, testing, and evaluation.
 
 ### Common Techniques (Descriptive Analytics):
-- **Scatter Plot:** Shows relationships between two variables
-- **Line Graph:** Displays trends over time
-- **Bar Plot:** Compares categorical data
-- **Histogram:** Shows data distribution
-- **Density Plot:** Smooth representation of data distribution
-- **Box Plot:** Highlights spread and outliers
-- **Pair Plot:** Visualizes relationships among multiple variables
-- **Heat Map:** Represents data intensity using color  
+- Scatter Plot: Shows relationships between two variables
+- Line Graph: Displays trends over time
+- Bar Plot: Compares categorical data
+- Histogram: Shows data distribution
+- Density Plot: Smooth representation of data distribution
+- Box Plot: Highlights spread and outliers
+- Pair Plot: Visualizes relationships among multiple variables
+- Heat Map: Represents data intensity using color  
 
 ## Data Partitioning
 - **Definition:** Splitting a dataset into subsets for training, validation, and testing in ML.
