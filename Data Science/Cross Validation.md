@@ -61,7 +61,7 @@ train_test_split(X, y, test_size=0.2, stratify=y)
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
 
-# Grid Search
+### Grid Search
 ```
 ✅ Technique to find the best combination of hyperparameter values, especially on small datasets.
 ✅ Evaluates every possible combination of hyperparameter values within a predefined grid.
@@ -141,7 +141,7 @@ print(grid_search.best_params_)
 print(grid_search.best_score_)
 ```              
 
-### Random Grid Search:
+### Random Grid Search
 ```
 ✅ Randomly evaluates different hyperparameter combinations instead of trying every possible combination.
 ✅ More efficient for large datasets, as it’s faster, uses fewer resources, and is less likely to overfit.
