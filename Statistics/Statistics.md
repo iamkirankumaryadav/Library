@@ -650,7 +650,6 @@ Statistical tests tell us whether the observed differences or relationships in d
 Parametric tests assume:
 ✅ Data follows a Normal Distribution (Bell Curve)
 ✅ Population parameters can be estimated
-These tests are generally more powerful when assumptions are met.
 ```
 ```
 🎯 T-Test
@@ -727,7 +726,8 @@ You test whether the actual average differs from 1000 hours.
 ✅ Do NOT assume normal distribution
 ✅ Work well with skewed data
 ✅ Useful for small datasets
-
+```
+```
 🎯 Chi-Square Test
 Chi-Square is used for categorical data.
 👉🏻` It checks whether observed results differ significantly from expected results.
