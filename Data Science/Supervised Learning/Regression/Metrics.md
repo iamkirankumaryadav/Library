@@ -146,7 +146,7 @@ MAE (Small errors), RMSE (Large errors) | Measures variability | Good if the dat
 <h2 name="logistic">Logistic Regression | Classification</h2>
 
 ```
-🏷️ Classification is a ML technique used to predict a category or class label based on one or more input features.
+🏷️ Classification is a ML technique used to predict a class label based on one or more input features.
 🔍 Instead of predicting a number (like Regression), Classification predicts a label such as:
   Spam / Not Spam 📧
   Fraud / Not Fraud 💳
