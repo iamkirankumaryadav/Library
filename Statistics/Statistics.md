@@ -660,18 +660,14 @@ A. One-Sample T-Test
 Compare a sample mean with a known population mean.
 
 Example:
-A company claims:
-💰 Average Salary = ₹50,000
+A company claims: 💰 Average Salary = ₹50,000
 You collect a sample and test whether the actual average salary differs from ₹50,000.
 
 B. Independent Samples T-Test
 Compare the means of two independent groups.
 
 Example:
-Compare exam scores of:
-👦 Boys
-👧 Girls
-
+Compare exam scores of 👦🏻 Boys and 👧🏻 Girls
 Question: 👉🏻 Do boys and girls have different average scores?
 
 C. Paired Samples T-Test
@@ -730,14 +726,13 @@ You test whether the actual average differs from 1000 hours.
 ```
 🎯 Chi-Square Test
 Chi-Square is used for categorical data.
-👉🏻` It checks whether observed results differ significantly from expected results.
+👉🏻 It checks whether observed results differ significantly from expected results.
 
 A. Chi-Square Goodness-of-Fit Test
 Compare observed frequencies with expected frequencies.
 
 Example:
-A dice should produce:
-🎲 Each number (1–6) equally often.
+A dice should produce: 🎲 Each number (1–6) equally often.
 
 Question: 👉🏻 Is the dice fair?
 
