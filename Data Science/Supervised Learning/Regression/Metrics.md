@@ -43,43 +43,48 @@
 
 <h2 name="linear">Linear Regression</h2>
 
-- Predicts continuous numeric dependent variables based on one or more independent variables.
+🔮 Predicts continuous numeric dependent variables based on one or more independent variables.
 
 <h3 name='mae'>1. Mean Absolute Error (MAE) </h3>
 
 ![MAE](Image/MAE.png)
-
-- The average / mean absolute difference between actual values and predicted values.
-- MAE is better for datasets with small errors but fails in case of larger errors.
-- MAE is expressed in the same unit as the dependent variable (Y).
-- MAE takes absolute value (ignoring + and - signs), so it's less sensitive towards outliers.
-- A lower MAE indicates that the model is making more accurate predictions.
+```
+📏 MAE measures the average difference between the actual values and the predicted values.
+➖ It calculates the absolute difference, ignores whether the error is positive (+) or negative (-).
+📐 The MAE value is expressed in the same unit as the target variable (Y), making it easy to understand.
+😊 Since it uses absolute values instead of squaring the errors, MAE is less sensitive to outliers.
+📉 A lower MAE means the model's predictions are closer to the actual values, indicating better performance.
+```
 
 ![MAE Scikit Learn](Image/MAESK.png)
 
 <h3 name='mse'>2. Mean Squared Error (MSE) | LOSS</h3>
 
 ![MSE](Image/MSE.jpg)
-
-- The average / mean squared difference between actual values and predicted values.
-- More sensitive towards outliers, hence affected / impacted by outliers.
-- MSE is not good for larger errors. It changes the unit / scale of the predicted values.
-- MSE is expressed as squared units instead of natural data units.
-- Squaring the difference removes negative MSE, which is usually always positive.
-- A lower MSE indicates that the model is making more accurate predictions.
+```
+📏 MSE measures the average of the squared differences between the actual values and the predicted values.
+🔢 Instead of taking the absolute value like MAE, MSE squares each error before averaging.
+⚠️ Because errors are squared, large errors get much bigger, making MSE highly sensitive to outliers.
+📐 The unit of MSE is squared units (e.g., ₹², m², kg²), which makes it less intuitive to interpret than MAE.
+➕➖ Squaring the errors removes negative signs, so MSE is always zero or positive.
+📉 A lower MSE means the model's predictions are closer to the actual values and the model is performing better.
+```
 
 ![MSE Scikit Learn](Image/MSESK.png)
 
 <h3 name='rmse'>3. Root Mean Square Error (RMSE)</h3>
 
 ![RMSE](Image/RMSE.png)
-
-- Square Root of MSE, RMSE is useful at the time of undesired large errors.
-- RMSE is a more intuitive measure of error than MSE. Provides an interpretable measure.
-- It is measured in the same units as the predicted variable.
-- It gives high weight to large errors. RMSE is useful when large errors are undesirable.
-- Combines the properties of MAE (same unit) and MSE (magnifies smaller errors).
-- A lower RMSE indicates that the model is making more accurate predictions.
+```
+📏 RMSE is the square root of MSE (Mean Squared Error).
+📐 Unlike MSE, RMSE is expressed in the same unit as the target variable, making it easier to understand.
+⚠️ Since RMSE is based on squared errors, large errors receive a higher penalty than small errors.
+🎯 RMSE is especially useful when large prediction errors are undesirable and need to be minimized.
+🤝 RMSE combines:
+  ✅ MAE's Advantage: Same unit as the target variable.
+  ✅ MSE's Advantage: Penalizes large errors more strongly.
+📉 A lower RMSE means the model's predictions are closer to the actual values and the model is performing better.
+```
 
 MAE | MSE | RMSE
 :--- | :--- | :---
@@ -91,21 +96,32 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 <h3 name='r2'>4. Coefficient of Determination (R<sup>2</sup>) | Squared Correlation Coefficient</h3>
 
 ![R2](Image/R2.png)
+```
+📊 R² measures how well the model explains the variation in the target variable (Y).
+📈 It tells us how closely the data points fit the regression line.
+🔍 In simple terms, R² shows how much of the changes in Y can be explained by the input variables (X).
+🎯 A higher R² value generally means the model fits the data better.
 
-- A measure of how well the model fits the data or how well the model makes predictions on new observations.
-- Measure how close each data point fits the regression line or how well the regression line predicts actual values.
-- Explains the variance of the data captured by the model (0.7 to 0.9 is a good value for R2)
-- If R<sup>2</sup> is 0.8 or 80% (Regression line explains 80% of the variance in data)
-- Low R<sup>2</sup> causes underfitting and high R<sup>2</sup> results into overfitting.
-- Ideal value for R<sup>2</sup> is between 70% to 90% (i.e. Model fits the data very well)
-- Help us to compare the created model with the baseline model (Mean)
-- Best fit line predicts better than base fit line (Mean)
-- The value of R2 always increases as new features are added to the model, without detecting the significance of the newly added feature.
-- A higher R-squared indicates that the model is making more accurate predictions.
-- Indicates how much of the variance of the dependent variable can be explained by the independent variables.
-- It measures the variability in the dependent variable (Y) that is being explained by the independent variables (x)
-- <p>R<sup>2</sup> = 0 indicates that the independent variable does not explain any of the variance in the dependent variable.</p>
-- <p>R<sup>2</sup> = 1 indicates that the independent variable perfectly explains the variance in the dependent variable.</p>
+🔴 R² = 0
+  The model explains none of the variation in the target variable.
+  It performs no better than simply predicting the average value.
+
+🟡 R² = 0.50
+  The model explains 50% of the variation in the target variable.
+
+🟢 R² = 1
+  The model explains 100% of the variation.
+  Predictions perfectly match the actual values.
+
+📏 Measures how well the model fits the data.
+📊 Helps compare the model against a simple baseline (predicting the mean).
+🔍 Shows how much variance in Y is explained by X.
+🏆 Helps compare multiple regression models.
+
+➕ Adding more features always increases R², even if the new features are not useful.
+🚨 Therefore, a higher R² does not always mean a better model.
+⚠️ A very high R² does not automatically mean overfitting, but it can be a warning sign.
+```
   
 ![R2 Score Scikit Learn](Image/R2Score.png)
 
@@ -113,12 +129,14 @@ Less sensitive towards outliers | More sensitive towards outliers | Less sensiti
 
 <h3 name='ar2'>5. Adjusted R<sup>2</sup></h3>
 
-- Improvement of R<sup>2</sup> ( Adjusted R<sup>2</sup> is always lower than R<sup>2</sup> )
-- Adjusted R-squared is a more reliable measure than R-squared.
-- Compare models with different numbers of independent features.
-- Adjusted R<sup>2</sup> increases only if the new independent feature improves the model more than expected.
-- Provides more accurate correlation between independent features.
-- It is a more accurate measure of the model's fit if many independent variables exist.
+```
+📈 Adjusted R² is an improved version of R².
+🔍 While R² always increases (or stays the same) when new features are added.
+⚡ Adjusted R² increases only if the new feature actually improves the model.
+📊 Therefore, Adjusted R² is a more reliable measure of model performance than R².
+📉 Adjusted R² is usually lower than or equal to R².
+🏆 It is especially useful when comparing models with different numbers of independent variables (features).
+```
 
 MAE or MSE or RMSE | R<sup>2</sup> | R<sup>2</sup> ( Adj )
 :--- | :--- | :---
@@ -127,15 +145,60 @@ MAE (Small errors), RMSE (Large errors) | Measures variability | Good if the dat
 
 <h2 name="logistic">Logistic Regression | Classification</h2>
 
-- Predict the class label of a data point based on one or more independent features.
+```
+🏷️ Classification is a ML technique used to predict a category or class label based on one or more input features.
+🔍 Instead of predicting a number (like Regression), Classification predicts a label such as:
+  Spam / Not Spam 📧
+  Fraud / Not Fraud 💳
+  Pass / Fail 🎓
+  Disease / No Disease 🏥
+
+1️⃣ Binary Classification: When there are only two possible classes.
+
+Examples:
+✅ Yes / ❌ No
+😊 Positive / 😞 Negative
+📧 Spam / Not Spam
+
+2️⃣ Multiclass Classification: When there are more than two classes.
+
+Examples:
+🐱 Cat | 🐶 Dog | 🐰 Rabbit
+🔴 Red | 🔵 Blue | 🟢 Green
+
+⚖️ Balanced Dataset:
+A good classification model works best when the dataset has a balanced distribution of classes.
+
+Example of Balanced Data: Total Students = 100
+👦 Boys = 50
+👧 Girls = 50
+This is balanced because both classes have similar numbers.
+
+Example of Imbalanced Data: Total Students = 100
+👦 Boys = 95
+👧 Girls = 5
+This is imbalanced and can lead to biased predictions.
+```
+- Predict the category or class label of a data point based on one or more independent features.
 - Depending on the number of class labels in the target variable, it can be a Binary or Multiclass classification.
 - The data set should contain a well-balanced class distribution. (e.g. Total Students = 100 | 50 Boys + 50 Girls)
 - Good Classifier: 1 or 100% | Bad Classifier: < 0.5 or 50%
 
 <h3 name='cm'>1. Confusion Matrix</h3>
-- How well a classification model is making predictions?
-- A table that evaluates and summarizes the performance of a classification model.
-- Evaluate correct and incorrect classifications on each class label.
+
+```
+📊 A Confusion Matrix is a table used to evaluate the performance of a classification model.
+🔍 It shows how many predictions were correct and how many were incorrect.
+🏷️ It helps us understand how well the model is classifying each class label.
+🎯 Instead of looking only at accuracy, a confusion matrix provides a detailed breakdown of predictions.
+
+It helps calculate important metrics:
+📊 Accuracy
+🎯 Precision
+🔍 Recall
+⚖️ F1 Score
+These metrics are all derived from: TP, TN, FP, and FN.
+```
 
 ![Classification](Image/Classification.png)
 
@@ -144,21 +207,35 @@ True Positive  (TP): Predicts 1 when Actual is 1
 True Negative  (TN): Predicts 0 when Actual is 0 
 False Positive (FP): Predicts 1 when Actual is 0 | Type I Error  | Incorrect True Prediction 
 False Negative (FN): Predicts 0 when Actual is 1 | Type II Error | Incorrect False Prediction 
-```
 
-- The metric depends on the specific problem and the relative importance of different types of errors.
-- For medical diagnosis, we might prioritize recall to minimize false negatives (FN)
-- For the spam filtering problem, we might prioritize precision to minimize false positives (FP)
+📊 There is no single best evaluation metric for every problem.
+🎯 The right metric depends on the business goal and the cost of different types of errors.
+⚠️ Sometimes a False Positive (FP) is more costly, while in other cases a False Negative (FN) is more dangerous.
+```
 
 ![Confusion Matrix](Image/ConfusionMatrix.png)
 
 <h3 name='acc'>2. Accuracy</h3>
 
-- The ratio of correct predictions to the total number of predictions.
-- Out of all predictions, how many were correct? how often is model right?
-- Accuracy score is good if the dataset is balanced. It can be misleading in imbalanced datasets.
-- Used when all the classes (TP, TN, FP and FN) are equally important.
-- Accuracy: (TP + TN) / TP + TN + FP + FN
+```
+📊 Accuracy measures the percentage of predictions that the model got correct.
+🤔 It answers the question: "Out of all predictions, how many were correct?"
+🎯 In simple words, Accuracy tells us how often the model is right.
+💡 The ratio of correct predictions to the total number of predictions.
+⚖️ Accuracy score is good for balanced datasets, but misleading for imbalanced datasets.
+
+📐 Formula: Accuracy =  TP+TN / TP+TN+FP+FN
+	​
+Where:
+  ✅ TP (True Positive) = Correct Positive Predictions
+  ✅ TN (True Negative) = Correct Negative Predictions
+  ❌ FP (False Positive) = Wrong Positive Predictions
+  ❌ FN (False Negative) = Wrong Negative Predictions
+
+Use Accuracy when:
+  ✅ Dataset is balanced
+  ✅ TP, TN, FP, and FN are equally important
+```
 
 ![Accuracy](Image/Accuracy.png)
 
