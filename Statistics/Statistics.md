@@ -178,11 +178,10 @@ Inferential Statistics uses sample data to draw conclusions about the entire pop
 | Focus | Existing data | Population estimation |
 | Question | "What happened?" | "What can we conclude?" |
 
-### 📊 Dataset:
-    
-A collection of data used for analysis, research, or building machine learning models.
-A structured collection of related data that we use to learn, analyze, and make predictions.
-A dataset can be of different data types such as numerical, categorical, text, image, voice, and video data.
+### 📊 Dataset:  
+- A collection of data used for analysis, research, or building machine learning models.
+- A structured collection of related data that we use to learn, analyze, and make predictions.
+- A dataset can be of different data types such as numerical, categorical, text, image, voice, and video data.
 
 🏠 Example
 Imagine a school maintains student records:
@@ -194,9 +193,10 @@ Student ID |	Name |	Age |	Marks
 3 |	Amit |	15 |	78
 
 This table is a dataset.
+```
 📋 Rows = Records/Observations
 📊 Columns = Features/Variables
-
+```
 ## Data Wrangling / Preprocessing:
 - **Definition:** Converting raw data into a clean, structured format ready for analysis.
 
