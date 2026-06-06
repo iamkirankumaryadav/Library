@@ -33,7 +33,7 @@
 ```
 📝 First, we give some input data to the model with initial configuration and let it make predictions.
 🔍 We compare the output predicted by the model with the actual correct output.
-📊 We calculate performance metrics (Accuracy, Precision, Recall) to see how well the model is performing.
+📊 We calculate the performance metrics to evaluate how well the model is performing.
 🔄 Based on these metrics, we adjust the model's parameters and train it again to improve its performance.
 📈 This process is repeated until the model reaches the best possible performance.
 🧪 We then test the model on new, unseen data to check how well it generalizes.
