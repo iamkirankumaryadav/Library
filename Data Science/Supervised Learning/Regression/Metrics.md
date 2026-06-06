@@ -38,7 +38,7 @@
 📈 This process is repeated until the model reaches the best possible performance.
 🧪 We then test the model on new, unseen data to check how well it generalizes.
 🚨 Compare it with other models to choose the most suitable one for the task.
-🏆 Finally, we select the model that performs best on unseen data.
+🏆 Finally, we select the model that performs best on new, unseen data.
 ```
 
 <h2 name="linear">Linear Regression</h2>
