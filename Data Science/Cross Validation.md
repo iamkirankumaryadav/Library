@@ -25,16 +25,19 @@ Reduces the risk of memorizing noise, outliers, random patterns in training data
 <h2 name='hold'>1. Holdout Method | Train Test Split</h2>
 
 - Split the dataset into 70% - 30% or 80% - 20% for training and testing.
-- The model is trained on the training set to learn patterns and understand the relationships.
+- The model is trained on the training set to learn patterns, relationships, and trends.
 - After training, the model’s performance is evaluated on the testing set by making predictions.
 - With limited data, there’s a risk of high bias, meaning the model may not train well.
+- Simple to understand, easy to implement, fast to train and evaluate, works well with large datasets.
+- Not good for small dataset, can lead to underfitting (high bias) or overfitting (high variance).
 
 <h2 name='kfold'>2. K Fold Cross Validation</h2>
 
-- The dataset is divided into **K** equal sized subsets called folds, 1 fold is used as the testing set.
-- The process is repeated K times, using K - 1 folds for training. The mean error from all trials is calculated.
+- The dataset is divided into K equal sized subsets called folds, 1 fold is used as the testing set.
+- The process is repeated K times, using K - 1 folds for training. Mean error from all trials are calculated.
 - This reduces bias and variance, creating a model with low bias, which is ideal for limited data.
 - A very high K can cause overfitting, while a very low K is similar to a simple train-test split.
+- Uses entire dataset efficiently, every data point is used for both training and testing, works well with small datasets.
 
 <h2 name='skfold'>3. Stratified K Fold Cross Validation</h2>
 
@@ -43,7 +46,7 @@ Reduces the risk of memorizing noise, outliers, random patterns in training data
 - This helps the model to train on equally distributed class labels.
 - One fold is used as the testing set, and K - 1 folds are used for training.
 - The mean error from all the trials is calculated, reducing bias and variance.
-- It’s an accurate method for evaluating models on imbalanced datasets.
+- Maintains balanced class distribution that works best for evaluating models on imbalanced datasets.
 
 ```python
 # Automatically adjusts weights for each class to handle imbalance:
@@ -55,9 +58,10 @@ train_test_split(X, y, test_size=0.2, stratify=y)
 
 <h2 name='loocv'>4. Leave One Out Cross Validation | LOOCV</h2>
 
-- K = N (where N is the total number of data points), meaning each data point gets used for testing once.
+- K = N (Total number of data points), each data point gets used for testing once.
 - Leave one data point out for testing and use the rest for training.
 - This approach is exhaustive, as you train and validate the model on all possible data points.
+- Useful for small datasets, very slow process, computationally expensive, can have high variance.
 
 [CV](https://amueller.github.io/ml-training-intro/slides/03-cross-validation-grid-search.html#21)
 
