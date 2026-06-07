@@ -98,7 +98,7 @@ df.dropna(axis=1)
 ```
 ✅ Estimating and filling missing values using the available data (non-missing rows or columns)
 ✅ SimpleImputer fills missing values using simple statistical measures (mean, median, most_frequent)
-🔢 Numerical Data: Fill missing values with the sample mean or median (strategy = 'mean' or 'median') 
+🔢 Numerical Data: Fill missing values with the mean or median (strategy = 'mean' or 'median') 
 📝 Categorical Data: Fill missing values with the most frequent value (strategy = 'most_frequent')
 ✅ Pros: Fast, easy to implement, works well on small dataset.
 ❌ Cons: Ignores relationships between features, can distort variance and correlation.
