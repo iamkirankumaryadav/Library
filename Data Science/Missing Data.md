@@ -401,7 +401,7 @@ A common workflow is:
 
 ### 🤯 Domain Knowledge
 ```
-Having an understanding of the business, industry, or problem area from which the data comes.
+Having an understanding of the business, industry, or problem area.
 
 It helps us understand:
   ✅ Why data is missing
