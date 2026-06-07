@@ -408,7 +408,7 @@ It helps us understand:
   ✅ Whether the missing values are meaningful
   ✅ The best way to handle those missing values
 
-🎯 How Domain Knowledge Helps
+🎯 How Domain Knowledge Helps?
 
 It helps us decide whether to:
   🗑️ Drop the data
