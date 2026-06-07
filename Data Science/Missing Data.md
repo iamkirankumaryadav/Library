@@ -6,7 +6,7 @@
   ⛔ NULL → No value present 
   ⛔ NaN → Undefined or invalid value
   ⛔ None → Missing value in Python
-✅ There is no universal approach that works for every dataset.
+✅ There is no universal approach that works exact same for every dataset.
 ✅ Machine learning models usually cannot work properly with missing values.
 ✅ Appropriate approach depends on the amount of missing data, pattern, data type, and objective of analysis.
 ```
