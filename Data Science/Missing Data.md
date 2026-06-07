@@ -1,9 +1,37 @@
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Machine%20Learning/Machine%20Learning%20Models.md">Back to ML</a></p>
 
-# How to deal with missing data?
-- Missing data can appears as NULL, NaN (Undefined / Invalid), or None.
-- There is no universal approach for dealing with missing data.
-- The appropriate approach depends on the amount of missing data, missing pattern, data type, and the objective of analysis.
+###  How to deal with missing data?
+```
+✅ Missing data refers to values that are not available in a dataset.
+⛔ NULL → No value present 
+⛔ NaN → Undefined or invalid value
+⛔ None → Missing value in Python
+✅ There is no universal approach that works for every dataset.
+✅ Machine learning models usually cannot work properly with missing values.
+✅ Appropriate approach depends on the amount of missing data, pattern, data type, and the objective of analysis.
+```
+
+### 🎯 What Determines the Best Approach?
+```
+1️⃣ Amount of Missing Data
+  Very few missing values: Simple fix
+  Many missing values: Advanced techniques
+
+2️⃣ Missing Data Pattern
+  Are missing random?
+  Are they concentrated in specific column?
+  Why data is missing?
+
+3️⃣ Data Type
+  Numerical Data: Age, Salary, Height (Mean, Median)
+  Categorical Data: Gender, City, Department (Mode, Most frequent)
+
+4️⃣ Analysis Objective
+  📊 Statistical Analysis
+  🤖 Machine Learning
+  📈 Business Reporting
+  Different objectives may require different handling strategies.
+```
 
 ### Terminology
 - Row = Observation = Sample = Record 
