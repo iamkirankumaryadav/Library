@@ -129,7 +129,7 @@ Variance & Correlation | Can distort | Better preserves
 Scaling Required |	❌ No |	✅ Yes
 
 ### ⚠️ Important things to consider:
-
+```
 1️⃣ fit() → Learns the values needed for imputation.
 
 Example:
@@ -147,6 +147,8 @@ Example:
 
 ✅ Learn
 ✅ Fill
+
+🚨 Never apply on test set to avoid data leakage.
 ```
 - **fit_transform():** Learn and apply the values in one step (Apply only on the training set)
 - Never apply **fit_transform()** on test set to avoid data leakage.
