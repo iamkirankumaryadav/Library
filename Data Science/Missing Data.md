@@ -3,9 +3,9 @@
 ###  How to deal with missing data?
 ```
 ✅ Missing data refers to values that are not available in a dataset.
-⛔ NULL → No value present 
-⛔ NaN → Undefined or invalid value
-⛔ None → Missing value in Python
+  ⛔ NULL → No value present 
+  ⛔ NaN → Undefined or invalid value
+  ⛔ None → Missing value in Python
 ✅ There is no universal approach that works for every dataset.
 ✅ Machine learning models usually cannot work properly with missing values.
 ✅ Appropriate approach depends on the amount of missing data, pattern, data type, and the objective of analysis.
