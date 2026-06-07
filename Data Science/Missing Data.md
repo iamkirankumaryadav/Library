@@ -351,24 +351,71 @@ It is commonly used in:
 
 ```
 1️⃣ KNN (K-Nearest Neighbors)
-KNN looks for the most similar data points (nearest neighbors) and uses them to estimate missing values or make predictions.
+  KNN looks for the most similar data points and estimate missing values or make predictions.
 
 ✅ Pros
   ✔️ Preserves relationships between features
   ✔️ Works well when similar records exist
 
 ❌ Cons
-❌ Slow on large datasets
-❌ Requires feature scaling
+  ❌ Slow on large datasets
+  ❌ Requires feature scaling
+
+2️⃣ Random Forest
+  Random Forest builds many decision trees 🌳 and combines their predictions.
+  Different trees learn from different subsets of data.
+  Trains weak models using non-missing data and uses missing values for testing.
+
+✅ Pros
+  ✔️ Handles complex data
+  ✔️ Captures feature interactions
+  ✔️ Generally robust
+
+❌ Cons
+  ❌ More computationally expensive
+  ❌ Less interpretable
+
+3️⃣ SVM (Support Vector Machine)
+  SVM focuses on finding the best boundary (hyperplane) that separates classes.
+  Support vectors, which are the data points closest to the decision boundary.
 ```
 
-- **KNN:** Fills missing values by looking at the K nearest values (Focus on nearby data points)
-- **Random Forest:** Trains weak models using non-missing data and uses missing values for testing.
-- **SVM:** Focuses on support vectors (data points close to the decision boundary/hyperplane)
-- Experiment with different algorithms and compare their performance on specific datasets.
+### 🧪 Always Compare Multiple Algorithms
+```
+There is no single best algorithm for every dataset.
 
-### Domain Knowledge
-- It helps us understand the missing patterns, whether it’s random or due to an error.
-- Knowing the cause can guide us in deciding the best way to handle the missing data.
+A common workflow is:
+1️⃣ Handle missing values appropriately
+
+2️⃣ Train multiple models
+  Random Forest
+  SVM
+  Logistic Regression
+  XGBoost
+  KNN
+
+3️⃣ Compare performance
+
+4️⃣ Select the best-performing model
+```
+
+### 🤯 Domain Knowledge
+```
+Having an understanding of the business, industry, or problem area from which the data comes.
+
+It helps us understand:
+  ✅ Why data is missing
+  ✅ Whether the missing values are meaningful
+  ✅ The best way to handle those missing values
+
+🎯 How Domain Knowledge Helps
+
+It helps us decide whether to:
+  🗑️ Drop the data
+  🔧 Impute the data
+  🏷️ Create a "Missing" category
+  🤖 Predict the missing values
+  📋 Leave the missing values as they are
+```
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
