@@ -34,8 +34,10 @@
 ```
 
 ### Terminology
-- Row = Observation = Sample = Record 
-- Column = Feature = Field = Attribute = Dimension 
+```
+Row → Observation | Sample | Record 
+Column → Feature | Field | Attribute | Dimension | Variable
+```
 
 ### How to identify missing values?
 ```python
@@ -58,12 +60,17 @@ missing_values = np.isnan(array)
 
 <h3><a href="#del">Drop</a> | <a href="#impute">Impute</a> | <a href="#assign">Assign</a> | <a href="#predict">Predict</a> | <a href="#algo">Algorithm</a></h3>
 
-<h2 name="del">1. dropna(): Drop Missing Values</h2>
+<h3 name="del">🗑️ 1. dropna(): Drop Missing Values</h3>
 
-- If the missing data is negligible and won't impact analysis, drop the corresponding rows or columns.
-- Drop rows if missing values < 5% i.e. (axis = 0) | Drop columns if missing values > 70% i.e. (axis = 1)
-- Deleting irrelevant rows or columns can improve model performance.
-- Generally it's better to keep data, deleting data can lead to loss of valuable information.
+```
+✅ Dropping missing values means removing rows or columns that contain missing data from the dataset.
+✅ If the missing values are negligible and won't impact analysis, drop the corresponding rows or columns.
+✅ If the percentage of missing values is very small, removing those rows usually won't affect the analysis much.
+✅ If a column contains too many missing values, it may not provide enough useful information.
+✅ Drop rows if missing values < 5% i.e. (axis = 0) | Drop columns if missing values > 70% i.e. (axis = 1)
+✅ Deleting irrelevant rows or columns can improve data quality and model performance.
+✅ Generally it's better to impute data, deleting data can lead to loss of valuable information.
+```
   
 ```python
 # DataFrame.dropna():
@@ -85,36 +92,62 @@ df.dropna(axis=0, how='all')
 df.dropna(axis=1)
 ```
 
-<h2 name="impute">2. fillna(): Fill/Impute Missing Values</h2>
+<h3 name="impute">➕ 2. fillna(): Fill / Impute Missing Values</h3>
 
-Estimating and filling missing values using other available data (non-missing rows or columns)
+Estimating and filling missing values using the available data (non-missing rows or columns)
 
-### SimpleImputer():
-- Used for basic imputation strategy (mean, median, most_frequent)
-- **Numerical Data:** Fill missing values with the sample mean or median (SimpleImputer: strategy = 'mean' or 'median') 
-- **Categorical Data:** Fill missing values with the most frequent value (SimpleImputer: strategy = 'most_frequent')
-- Pros: Fast, easy, works well with small dataset
-- Cons: Ignores feature relationships, can distort variance and correlation.
+### 1️⃣ SimpleImputer():
+```
+✅ SimpleImputer fills missing values using simple statistical measures (mean, median, most_frequent)
+🔢 Numerical Data: Fill missing values with the sample mean or median (strategy = 'mean' or 'median') 
+📝 Categorical Data: Fill missing values with the most frequent value (strategy = 'most_frequent')
+✅ Pros: Fast, easy to implement, works well on small dataset.
+❌ Cons: Ignores relationships between features, can distort variance and correlation.
+```
 
-### Forward Fill / Backward Fill:
-- Use previous or next value (Best for time series)
+### 2️⃣ Forward Fill / Backward Fill:
+```
+📌 Use the previous or next value to fill the missing value.
+🎯 Best use case: Time Series Data (Stock prices, Weather data, Sensor readings)
+```
   
-### KNNImputer: 
-- Fills missing data using **K Nearest Neighbours** similarity.
-- Pros: Preserve feature relationships, handles correlated features.
-- Cons: Computationally expensive, requires scailing.
+### 3️⃣ KNNImputer: 
+```
+📌 Fills missing values using K Nearest Neighbours (similarity).
+✅ Pros: Preserve feature relationships, handles correlated features.
+❌ Cons: Computationally expensive, slow on large datasets, requires feature scailing.
+```
 
-Feature | SimpleImputer | KNNImputer
+### 📊 SimpleImputer vs KNNImputer
+
+Feature |	SimpleImputer |	KNNImputer
 :--- | :--- | :---
-**Speed** | Fast | Slow, depends on k
-**Dataset Size** | Works well for small datasets | Better for large complex datasets
-**Feature Relationships** | Ignores | Preserves
-**Variance and Correlation** | Can distort | Handles correlated features
-**Scailing** | Not required | Required
+Speed | ⚡ Fast |	🐢 Slow
+Dataset Size | Small datasets | Large datasets
+Feature Relationships |	❌ Ignores |	✅ Preserves
+Variance & Correlation | Can distort | Better preserves
+Scaling Required |	❌ No |	✅ Yes
 
-### Important things to consider:
-- **fit():** Learns the imputation values (Mean, Median, Mode)
-- **transform():** Applies learned values to fill missing data.
+### ⚠️ Important things to consider:
+
+1️⃣ fit() → Learns the values needed for imputation.
+
+Example:
+  Mean = 30
+  Median = 28
+  Mode = Bengaluru
+
+👉🏻 Only learns, does not fill.
+
+2️⃣ transform() → Uses the learned values to fill missing data.
+
+👉🏻 Applies the imputation.
+
+3️⃣ fit_transform() → Performs both steps together in one operation.
+
+✅ Learn
+✅ Fill
+```
 - **fit_transform():** Learn and apply the values in one step (Apply only on the training set)
 - Never apply **fit_transform()** on test set to avoid data leakage.
 
@@ -126,27 +159,84 @@ df.fillna('🌞')
 df['Sales'].fillna(0)
 ```
 
-## Data Leakage 
-- Data accidentally used from outside the training dataset (future data) to build the model.
-- The model learns pattern it shouldn't have access during prediction.
-- Leads to overfitting and inflated accuracy on training / validation datasets.
+### 🚨 Data Leakage 
+```
+✅ Data Leakage happens when a model gets access to information it should not have during training.
+✅ Model make unrealistically good predictions, but it won't be available in the real world.
+```
 
-### Common Causes
-- Imputation on testing set using fit_transform(): Learns (mean, median, mode) from test dataset instead of predicting.
-- Feature Engineering using target variable: Creating a feature that uses the target data.
-- Future Data: Using future data in time series forecasting.
-- Cross Validation mistakes: Preprocssing applied before splitting into train / test split.
+🎓 Simple Example
+```
+Imagine a student taking an exam 📚.
 
-### Preventive Measures
-- Always fit preprocessing steps (Imputation, Scailing, and Encoding) only on training dataset, then transform test dataset.
-- Avoid using target reference into feature creation.
-- For time series ensure training dataset is ordered according to timestamp chronology.
+Normal Situation → Student studies before the exam. Takes the exam honestly.
 
-### Imputation Disadvantage
-- Alters the distribution and statistical properties of the dataset.
-- **Statistical Properties:** Mean, median, mode, variance, and standard deviation of the sample.
-- Imputation might introduce skewness or new outliers in the dataset.
-- Imputation changes the correlation between the independent variables and target variable. Impacting model accuracy.
+Data Leakage Situation → Student secretly sees the answer sheet before the exam.
+
+😄 Of course, the score will be very high! But that doesn't reflect the student's actual knowledge.
+```
+
+### 🚩 Common Causes of Data Leakage
+```
+1️⃣ Using Future Information → Using data that won't be available at prediction time.
+
+2️⃣ Fitting Preprocessing on the Entire Dataset
+
+Examples:
+  Scaling
+  Encoding
+  Imputation
+
+Before train-test split. Which is ❌ Wrong.
+
+3️⃣ Duplicate Records → The same records appear in both training and test sets.
+
+4️⃣ Target Leakage → Using a feature that directly reveals the target variable.
+
+Example: Predicting loan default while using a feature like: "Loan Default Status"
+
+😄 The answer is already present!
+```
+
+### ❌ Incorrect Approach
+```
+❌ Imputation on testing set using fit_transform(X_test): Learns (mean, median, mode) from test dataset instead of predicting.
+✅ Always apply only transform(X_test) on test dataset.
+❌ Feature Engineering using target variable: Creating a feature that uses the target data.
+✅ Always apply Feature Engineering on training dataset and preprocess after splitting data.
+```
+
+### 🛟 Preventive Measures
+```
+✅ Split data into train and test sets first
+✅ Fit preprocessing only on training data
+✅ Use proper cross-validation
+✅ Avoid any target reference into feature engineering or preprocessing
+✅ For time series data always order data according to timestamp chronology.
+```
+
+### ⚠️ Disadvantages of Imputation
+```
+Although imputation helps keep data, it is still an estimate, not the actual value.
+Because of this, imputation can change the original characteristics of the dataset.
+
+1️⃣ Changes Statistical Properties:
+  Mean
+  Median
+  Mode
+  Variance
+  Standard Deviation
+When we replace missing values with estimated values, these statistics can change.
+
+2️⃣ Can Distort the Data Distribution:
+  Imputation may make the data look different from reality.
+
+3️⃣ Can Introduce Skewness or Outliers:
+  Sometimes imputation creates unnatural patterns.
+
+4️⃣ Changes Feature Relationships:
+  Changes correlation betwwen the features, impacting model accuracy
+```
 
 <h2 name="assign">3. Assign a Unique Category (Categorical Data) | Flag (Numeric Value)</h2>
 
