@@ -8,7 +8,7 @@
   ⛔ None → Missing value in Python
 ✅ There is no universal approach that works for every dataset.
 ✅ Machine learning models usually cannot work properly with missing values.
-✅ Appropriate approach depends on the amount of missing data, pattern, data type, and the objective of analysis.
+✅ Appropriate approach depends on the amount of missing data, pattern, data type, and objective of analysis.
 ```
 
 ### 🎯 What Determines the Best Approach?
