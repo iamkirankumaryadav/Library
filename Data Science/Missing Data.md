@@ -94,10 +94,9 @@ df.dropna(axis=1)
 
 <h3 name="impute">➕ 2. fillna(): Fill / Impute Missing Values</h3>
 
-Estimating and filling missing values using the available data (non-missing rows or columns)
-
 ### 1️⃣ SimpleImputer():
 ```
+✅ Estimating and filling missing values using the available data (non-missing rows or columns)
 ✅ SimpleImputer fills missing values using simple statistical measures (mean, median, most_frequent)
 🔢 Numerical Data: Fill missing values with the sample mean or median (strategy = 'mean' or 'median') 
 📝 Categorical Data: Fill missing values with the most frequent value (strategy = 'most_frequent')
